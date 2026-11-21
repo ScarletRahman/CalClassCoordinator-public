@@ -1,0 +1,844 @@
+{
+ "id": "major-bioengineering-and-business-administration-bs",
+ "title": "Bioengineering and Business Administration BS",
+ "kind": "major",
+ "programType": "dual-degree",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/VzaVU2tVa3uyAmZWh9XJ",
+  "https://undergraduate.catalog.berkeley.edu/programs/VzaVU2tVa3uyAmZWh9XJ/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "*16A16U",
+ "notes": [
+  "M.E.T. General Guidelines\nGeneral Guidelines\n- A minimum of 38 upper division business units is required.\n- Students must complete the degree program in eight semesters, not including Summer Session.\n- Students must complete ALL of their business prerequisite courses (including R&C) by the spring semester of their sophomore (2nd) year. Required prerequisite courses are: UGBA 10X; ECON 1 or ECON 2; Math 51 & Math 52 , or Math 53 or Math 54; Reading & Composition Parts A & B; and, depending on their major track, students may choose one of the following statistics courses or combinations:\n- EECS 126\n- ENGIN 178 (recommended for ME)\n- INDENG 172 (required for IEOR)\n- STAT 20\n- STAT 21/STAT W21\n- STAT C131A\n- STAT 134 (recommended for BioE)\n- STAT/DATA C140\n- DATA C8, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT C88S\n- DATA C100, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT 88S\n- All Haas business courses must be taken for a letter grade, including core substitutions, with the exception of UGBA 194, UGBA 198 and UGBA 199 (only offered Pass/No Pass).\n- Students who receive a grade of D+ or lower in a core UGBA course must repeat the course until they achieve a grade of C- or better.\n- All technical courses that can be used to fulfill a requirement must be taken for a letter grade.\n- Two M.E.T. Special Topics courses are required. One during the first year, first semester and another during the third year, first semester. M.E.T. Special Topics courses will count as upper division business elective units. A passing grade of C- or better is required.\n- Students in this program must adhere to all policies and procedures of the College of Engineering and the Haas School of Business.\n- Students must complete the College Requirements and the Program Major Requirements."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics-economics-and-business-principles",
+   "title": "Mathematics, Economics, and Business Principles",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 54"
+         },
+         {
+          "type": "course",
+          "course": "MATH W54"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON 1"
+       },
+       {
+        "type": "course",
+        "course": "ECON 2"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "UGBA 10"
+       },
+       {
+        "type": "course",
+        "course": "UGBA 10X"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Lower Division",
+   "notes": "Complete COMPSCI/STAT C100 or COMPSCI/INFO/STAT/DATA C8 and either STAT 88, UGBA 88 or CIV ENG 93.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DATA C140"
+       },
+       {
+        "type": "course",
+        "course": "STAT C140"
+       },
+       {
+        "type": "course",
+        "course": "EECS 126"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 178"
+       },
+       {
+        "type": "course",
+        "course": "INDENG 172"
+       },
+       {
+        "type": "course",
+        "course": "STAT C131A"
+       },
+       {
+        "type": "course",
+        "course": "STAT 20"
+       },
+       {
+        "type": "course",
+        "course": "STAT W21"
+       },
+       {
+        "type": "course",
+        "course": "STAT 134"
+       }
+      ]
+     },
+     {
+      "type": "nOf",
+      "n": 2,
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C8"
+         },
+         {
+          "type": "course",
+          "course": "INFO C8"
+         },
+         {
+          "type": "course",
+          "course": "STAT C8"
+         },
+         {
+          "type": "course",
+          "course": "DATA C8"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C100"
+         },
+         {
+          "type": "course",
+          "course": "STAT C100"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "STAT 88"
+         },
+         {
+          "type": "course",
+          "course": "UGBA 88"
+         },
+         {
+          "type": "course",
+          "course": "CIVENG 93"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "organic-chemistry",
+   "title": "Organic Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 10"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 11"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 25"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 26"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-programming",
+   "title": "Computer Programming",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ugba-core",
+   "title": "UGBA Core",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 30,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107"
+     ]
+    }
+   }
+  },
+  {
+   "id": "m-e-t-special-topics",
+   "title": "M.E.T. Special Topics",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "manual",
+    "text": "Complete the following Special Topics courses:\n- UGBA 196 001, “Managing Technological Innovation”\n- UGBA 196 002, “Entrepreneurship and Strategic Growth”\n4 units total",
+    "mentionedCourses": [
+     "UGBA 196"
+    ]
+   }
+  },
+  {
+   "id": "ugba-elective",
+   "title": "UGBA Elective",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107",
+      "UGBA 173",
+      "UGBA 117",
+      "UGBA 118",
+      "UGBA 174",
+      "UGBA 120AA",
+      "UGBA 120AB",
+      "UGBA 120B",
+      "UGBA 121",
+      "UGBA 122",
+      "UGBA 126",
+      "UGBA 127",
+      "UGBA 128",
+      "UGBA 131",
+      "UGBA 132",
+      "UGBA 133",
+      "UGBA 136F",
+      "UGBA 137",
+      "UGBA 141",
+      "UGBA 143",
+      "UGBA 147",
+      "UGBA 151",
+      "UGBA 152",
+      "UGBA 154",
+      "UGBA 155",
+      "UGBA 157",
+      "UGBA 160",
+      "UGBA 161",
+      "UGBA 162",
+      "UGBA 165",
+      "UGBA 167",
+      "UGBA 169",
+      "UGBA 175",
+      "UGBA 177",
+      "UGBA 178",
+      "UGBA 179",
+      "UGBA 180",
+      "UGBA 183",
+      "UGBA 184",
+      "UGBA 187",
+      "UGBA 190S",
+      "UGBA 190T",
+      "UGBA 191C",
+      "UGBA 191I",
+      "UGBA 191P",
+      "UGBA 192A",
+      "UGBA 192L",
+      "UGBA 192N",
+      "UGBA 192P",
+      "UGBA 192T",
+      "UGBA 193C",
+      "UGBA 193I",
+      "UGBA 194",
+      "UGBA 195A",
+      "UGBA 195P",
+      "UGBA 195S",
+      "UGBA 195T",
+      "UGBA 196",
+      "UGBA 198",
+      "UGBA 199",
+      "UGBA 162A",
+      "UGBA 176",
+      "UGBA 123",
+      "UGBA 192B",
+      "UGBA 193B",
+      "UGBA 192AC",
+      "UGBA 191L",
+      "UGBA 134",
+      "UGBA 164",
+      "UGBA 131A",
+      "UGBA 190C",
+      "UGBA 192E",
+      "UGBA 192G",
+      "UGBA 125",
+      "UGBA 190D",
+      "UGBA 135",
+      "UGBA 146",
+      "UGBA 192S",
+      "UGBA 192H",
+      "UGBA 195B",
+      "UGBA 159",
+      "UGBA 171",
+      "UGBA 192MC",
+      "UGBA 151A",
+      "UGBA 192ID",
+      "UGBA 150",
+      "UGBA 196SA",
+      "UGBA 196SC",
+      "UGBA 196SB",
+      "UGBA 179G",
+      "UGBA 168B",
+      "UGBA 194S",
+      "UGBA 192F",
+      "UGBA 142",
+      "UGBA 156",
+      "UGBA 192PF",
+      "UGBA 195M",
+      "UGBA 155N",
+      "UGBA 171A",
+      "UGBA 170AC"
+     ]
+    }
+   }
+  },
+  {
+   "id": "bioengineering-lab",
+   "title": "Bioengineering Lab",
+   "section": "Upper Division Bioengineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 115"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 121L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 131"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C131"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C136L"
+     },
+     {
+      "type": "course",
+      "course": "ELENG C145O"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C135L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 163L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering-fundamentals",
+   "title": "Bioengineering Fundamentals",
+   "section": "Upper Division Bioengineering",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 102"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 103"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 104"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 105"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 110"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOENG C131"
+       },
+       {
+        "type": "course",
+        "course": "CMPBIO C131"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering-design-or-research",
+   "title": "Bioengineering Design or Research",
+   "section": "Upper Division Bioengineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 121L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 145"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 192"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG H194"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 196"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division Bioengineering",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Bioengineering Elective\nComplete at least 2 of:\n- Any BIOENG 100-196 course, excluding 100, 153, C153, 155, 190 series 191, H194, 195, 196\nTechnical Topics\nComplete 12 units from the following courses:\n- Any BIOENG course, excluding C141, C144, 153, C176, 191, 195, C208, C216, C218, C219, C244L, C250, C261, C265, C280, C281, C290C\n- CHEM 120A\n- CHEM 120B\n- CHEM 135\n- CHEM C130\n- CHEM C170L\n- CHEM C178\n- CHEM C191\n- CHMENG 140\n- CHMENG 141\n- CHMENG 150A\n- CHMENG 150B\n- CHMENG 170A\n- CHMENG 170B\n- CHMENG 171\n- CHMENG C170L\n- CHMENG C178\n- COMPSCI 160\n- COMPSCI 161\n- COMPSCI 169\n- COMPSCI 170 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "CHEM 120A",
+     "CHEM 120B",
+     "CHEM 135",
+     "CHEM C130",
+     "CHEM C170L",
+     "CHEM C178",
+     "CHEM C191",
+     "CHMENG 140",
+     "CHMENG 141",
+     "CHMENG 150A",
+     "CHMENG 150B",
+     "CHMENG 170A",
+     "CHMENG 170B",
+     "CHMENG 171",
+     "CHMENG C170L",
+     "CHMENG C178",
+     "COMPSCI 160",
+     "COMPSCI 161",
+     "COMPSCI 169",
+     "COMPSCI 170",
+     "COMPSCI 176",
+     "COMPSCI 185",
+     "COMPSCI 186",
+     "COMPSCI 188",
+     "COMPSCI 189",
+     "COMPSCI 70",
+     "COMPSCI C100",
+     "COMPSCI C191",
+     "DATA C100",
+     "EECS 126",
+     "EECS 127",
+     "EECS 149",
+     "ELENG 105",
+     "ELENG 117",
+     "ELENG 118",
+     "ELENG 120",
+     "ELENG 123",
+     "ELENG 126",
+     "ELENG 142",
+     "ELENG 143",
+     "ELENG 147",
+     "ELENG 192",
+     "ELENG C128",
+     "ENGIN 40",
+     "INDENG 160",
+     "INDENG 162",
+     "INDENG 172",
+     "INTEGBI 131",
+     "INTEGBI 132",
+     "INTEGBI 135",
+     "INTEGBI 148",
+     "INTEGBI 161",
+     "INTEGBI 164",
+     "MATH 110",
+     "MATH 118",
+     "MATH 127",
+     "MATH 128A",
+     "MATH 170",
+     "MATSCI 102",
+     "MATSCI 103",
+     "MATSCI 104",
+     "MATSCI 111",
+     "MATSCI 112",
+     "MATSCI 113",
+     "MATSCI 130",
+     "MATSCI 151",
+     "MBN C130",
+     "MCELLBI 100B",
+     "MCELLBI 102",
+     "MCELLBI 110",
+     "MCELLBI 132",
+     "MCELLBI 133L",
+     "MCELLBI 136",
+     "MCELLBI 140",
+     "MCELLBI 140L",
+     "MCELLBI 150",
+     "MCELLBI 153",
+     "MCELLBI C100A",
+     "MCELLBI C112",
+     "MCELLBI C130",
+     "MCELLBI C148",
+     "MECENG 100",
+     "MECENG 102B",
+     "MECENG 104",
+     "MECENG 106",
+     "MECENG C106A",
+     "MECENG 109",
+     "MECENG 118",
+     "MECENG 119",
+     "MECENG 120",
+     "MECENG 132",
+     "MECENG 133",
+     "MECENG 167",
+     "MECENG 179",
+     "MECENG 185",
+     "NEU 171L",
+     "NUCENG 101",
+     "NUCENG 107",
+     "NUCENG 162",
+     "PBHLTH 142",
+     "PHYSICS 110A",
+     "PHYSICS 112",
+     "PHYSICS 137A",
+     "PHYSICS 177",
+     "PHYSICS C191",
+     "PLANTBI 185",
+     "PLANTBI C112",
+     "PLANTBI C148",
+     "STAT 133",
+     "STAT 134",
+     "STAT 135",
+     "STAT 150",
+     "STAT C100"
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Upper Division Bioengineering",
+   "notes": "This requirement may be satisfied with a course taken for a Pass grade.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 107"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-unit-requirements",
+   "title": "Engineering Unit Requirements",
+   "section": "Upper Division Bioengineering",
+   "rule": {
+    "type": "manual",
+    "text": "48 Units of Engineering Courses\nThe 48 units of engineering courses cannot include:\n- Any course taken on a P/NP basis\n- Courses numbered 24, 39, 84\n- BIOENG 100\n- CHMENG 185\n- COMPSCI 70, C79\n- DATA C104\n- DESINV courses (except DESINV 15, 22, 23, 90E, 190E)\n- ENGIN 68, 125, 157AC, 170 series, 180, 183 series, 184, 185, 187, 195 series\n- INDENG 95, 172, 185, 186, 190 series, 191, 192, 195\n- MECENG 100, 102B, 104, 106, C106A, 108, 109, 118, 119, 120, 132, 133, 167, 179, 185\nThere is no limit to the number of letter-graded research units that can be applied to the 48 engineering units.",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "CHMENG 185",
+     "COMPSCI 70",
+     "DATA C104",
+     "ENGIN 68",
+     "ENGIN 125",
+     "ENGIN 157AC",
+     "INDENG 172",
+     "INDENG 185",
+     "INDENG 186",
+     "INDENG 190",
+     "MECENG 100",
+     "MECENG 102B",
+     "MECENG 104",
+     "MECENG 106",
+     "MECENG C106A",
+     "MECENG 108",
+     "MECENG 109",
+     "MECENG 118",
+     "MECENG 119",
+     "MECENG 120",
+     "MECENG 132",
+     "MECENG 133",
+     "MECENG 167",
+     "MECENG 179",
+     "MECENG 185"
+    ]
+   }
+  }
+ ]
+}

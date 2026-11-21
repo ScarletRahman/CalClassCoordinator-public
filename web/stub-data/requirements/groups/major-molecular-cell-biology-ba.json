@@ -1,0 +1,224 @@
+{
+  "id": "major-molecular-cell-biology-ba",
+  "title": "Molecular & Cell Biology BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/molecular-cell-biology/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "biology",
+      "title": "General biology",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOLOGY 1A"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1AL"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-chemistry",
+      "title": "General chemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "CHEM 1A"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 1AL"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic chemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "CHEM 3A"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 3AL"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 3B"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 3BL"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "CHEM 12A"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 12B"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10B"
+          },
+          {
+            "type": "course",
+            "course": "MATH 16B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PHYSICS 8A"
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 7A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biochem",
+      "title": "Biochemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MCELLBI 102"
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "MCELLBI C100A"
+              },
+              {
+                "type": "course",
+                "course": "MCELLBI 100B"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "genetics-cell",
+      "title": "Genetics, Genomics & Cell Biology",
+      "rule": {
+        "type": "course",
+        "course": "MCELLBI 104"
+      }
+    },
+    {
+      "id": "emphasis",
+      "title": "Emphasis courses",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "MCELLBI"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 3
+      },
+      "notes": "Choose an emphasis (Biochemistry, Genetics, Cell & Developmental, Immunology, Neurobiology) and complete its required upper-division courses and lab."
+    },
+    {
+      "id": "emphasis-declared",
+      "title": "Emphasis declared",
+      "rule": {
+        "type": "manual",
+        "text": "Declare an MCB emphasis with the MCB advising office"
+      }
+    }
+  ]
+}

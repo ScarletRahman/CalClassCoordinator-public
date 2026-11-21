@@ -1,0 +1,24 @@
+{
+ "why": "\"Students must complete three courses from three of the five following research areas (A - E).\" The five areas are listed as five required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I081U"
+ ],
+ "merge": [
+  {
+   "block": "Upper Division Requirements",
+   "title": "Research Areas",
+   "type": "nOf",
+   "n": 3,
+   "rules": [
+    "A. Earth System Science",
+    "B. Political Economies",
+    "C. Racial Geographies",
+    "D. Critical Environments",
+    "E. Geospatial Representation"
+   ],
+   "notesFrom": [
+    "Research Areas"
+   ]
+  }
+ ]
+}

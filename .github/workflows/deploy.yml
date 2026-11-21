@@ -1,0 +1,42 @@
+name: Deploy
+
+# Deploys main to Fly.io after CI passes. Does nothing until the FLY_API_TOKEN secret exists
+# (repo Settings > Secrets and variables > Actions). See docs/deploy.md.
+on:
+  workflow_run:
+    workflows: [CI]
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push') }}
+    runs-on: ubuntu-latest
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+    steps:
+      - name: Skip when hosting is not set up yet
+        id: gate
+        run: |
+          if [ -z "$FLY_API_TOKEN" ]; then
+            echo "FLY_API_TOKEN is not set; skipping deploy."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+        if: steps.gate.outputs.go == 'true'
+      - run: flyctl deploy --remote-only
+        if: steps.gate.outputs.go == 'true'

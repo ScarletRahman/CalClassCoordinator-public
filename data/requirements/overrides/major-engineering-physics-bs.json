@@ -1,0 +1,162 @@
+{
+ "why": "Three rows the catalog page gets wrong. Physics: both options resolve to PHYSICS 7A on the catalog page, but the program's text is the 7 series (7A, 7B, 7C) or the honors 5 series (5A, 5B+5BL, 5C+5CL). Chemistry: written only as prose, 'CHEM 1A and CHEM 1AL OR CHEM 4A'. Technical Electives: CHEM 3AL is listed twice and CHEM 3A not at all, while the row's own note says 'CHEM 3A & 3AL'.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16315U"
+ ],
+ "replace": {
+  "physics": {
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "label": "Option 1: Physics 7 series",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "label": "Option 2: Physics 5 series",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "chemistry": {
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   }
+  },
+  "technical-electives": {
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 7A"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 7B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 64"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 45"
+     }
+    ]
+   }
+  }
+ }
+}

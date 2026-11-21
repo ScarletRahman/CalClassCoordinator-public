@@ -1,0 +1,7475 @@
+{
+ "PHILOS 100": {
+  "course": "PHILOS 100",
+  "difficulty": 2.7,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.307
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 2.3,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students describe a demanding course with a short essay due every week, dense readings, and a large final paper. Several report it as a heavy time commitment and say lectures were hard to follow. Opinions on the instructor differ, and GSI help was said to come late.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 361,
+   "pctA": 60,
+   "pctBelowB": 7,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 90
+    },
+    {
+     "letter": "B+",
+     "count": 51
+    },
+    {
+     "letter": "B",
+     "count": 39
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.45,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.6,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Aglaia Von Gotz",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.3,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Daniel Warren",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.32,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20100"
+  ]
+ },
+ "PHILOS 104": {
+  "course": "PHILOS 104",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.296
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.35), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 272,
+   "pctA": 54,
+   "pctBelowB": 7,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 85
+    },
+    {
+     "letter": "B+",
+     "count": 48
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Kolodny",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.43,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "R. Jay Wallace",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20104"
+  ]
+ },
+ "PHILOS 106": {
+  "course": "PHILOS 106",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.226
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 76% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 91,
+   "pctA": 76,
+   "pctBelowB": 2,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Johann Frick",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.72,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20106"
+  ]
+ },
+ "PHILOS 107": {
+  "course": "PHILOS 107",
+  "difficulty": 3.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.267
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.076
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 5.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.32), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 160,
+   "pctA": 45,
+   "pctBelowB": 6,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 5,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Olivia Bailey",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20107"
+  ]
+ },
+ "PHILOS 108": {
+  "course": "PHILOS 108",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.216
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.22), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 81,
+   "pctA": 44,
+   "pctBelowB": 7,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.23,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20108"
+  ]
+ },
+ "PHILOS 109": {
+  "course": "PHILOS 109",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.22
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 49% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 85,
+   "pctA": 49,
+   "pctBelowB": 9,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "R. Jay Wallace",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20109"
+  ]
+ },
+ "PHILOS 11": {
+  "course": "PHILOS 11",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.224
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.27), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 89,
+   "pctA": 53,
+   "pctBelowB": 14,
+   "pctPassNoPass": 35,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 30
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2011"
+  ]
+ },
+ "PHILOS 110": {
+  "course": "PHILOS 110",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.249
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 124,
+   "pctA": 51,
+   "pctBelowB": 4,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alva Noe",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.34,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Pia Schneider",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.52,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20110"
+  ]
+ },
+ "PHILOS 114": {
+  "course": "PHILOS 114",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.17
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 47,
+   "pctA": 80,
+   "pctBelowB": 7,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hans Sluga",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20114"
+  ]
+ },
+ "PHILOS 115": {
+  "course": "PHILOS 115",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.294
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 263,
+   "pctA": 60,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 76
+    },
+    {
+     "letter": "A-",
+     "count": 66
+    },
+    {
+     "letter": "B+",
+     "count": 51
+    },
+    {
+     "letter": "B",
+     "count": 33
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Viehoff",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.38,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Veronique Munoz-Darde",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Florian Grosser",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.29,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20115"
+  ]
+ },
+ "PHILOS 116": {
+  "course": "PHILOS 116",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.26
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 145,
+   "pctA": 70,
+   "pctBelowB": 4,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Viehoff",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.21,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Veronique Munoz-Darde",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Hans Sluga",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20116"
+  ]
+ },
+ "PHILOS 117AC": {
+  "course": "PHILOS 117AC",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.285
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.23), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 221,
+   "pctA": 47,
+   "pctBelowB": 10,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 44
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 27
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 6,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20117AC"
+  ]
+ },
+ "PHILOS 119": {
+  "course": "PHILOS 119",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.252
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.072
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.28), with 50% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 128,
+   "pctA": 50,
+   "pctBelowB": 12,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 35
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Olivia Bailey",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.14,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20119"
+  ]
+ },
+ "PHILOS 121": {
+  "course": "PHILOS 121",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.232
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 98,
+   "pctA": 50,
+   "pctBelowB": 0,
+   "pctPassNoPass": 31,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 30
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Kolodny",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20121"
+  ]
+ },
+ "PHILOS 122": {
+  "course": "PHILOS 122",
+  "difficulty": 3.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.03)",
+     "value": 3.9,
+     "weight": 0.256
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.03), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.03,
+   "letter": "B",
+   "students": 136,
+   "pctA": 42,
+   "pctBelowB": 21,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Xueyin Zhang",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.42,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Seth Yalcin",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.12,
+    "difficulty": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20122"
+  ]
+ },
+ "PHILOS 125": {
+  "course": "PHILOS 125",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.269
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 165,
+   "pctA": 48,
+   "pctBelowB": 12,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 28
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ezra Rubenstein",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Veronica Gomez Sanchez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20125"
+  ]
+ },
+ "PHILOS 126": {
+  "course": "PHILOS 126",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.249
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.09), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 124,
+   "pctA": 44,
+   "pctBelowB": 18,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 24
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ezra Rubenstein",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.08,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20126"
+  ]
+ },
+ "PHILOS 128": {
+  "course": "PHILOS 128",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.284
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 217,
+   "pctA": 54,
+   "pctBelowB": 13,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 42
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 45
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ezra Rubenstein",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20128"
+  ]
+ },
+ "PHILOS 129": {
+  "course": "PHILOS 129",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.104
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.12), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 21,
+   "pctA": 44,
+   "pctBelowB": 25,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ezra Rubenstein",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Joshua Beattie",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20129"
+  ]
+ },
+ "PHILOS 12A": {
+  "course": "PHILOS 12A",
+  "difficulty": 3.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 3,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.275
+    },
+    {
+     "label": "Tone of written student reviews (29 on file)",
+     "value": 3.0,
+     "weight": 0.132
+    }
+   ]
+  },
+  "sentiment": "Students call this a difficult logic course driven by time-consuming weekly problem sets, with fair homework and midterm but a final many describe as much harder. Lectures are often dry or hard to follow, so sections, office hours, and study groups are strongly advised. Those with math strength fare better.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 920,
+   "pctA": 56,
+   "pctBelowB": 18,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 101
+    },
+    {
+     "letter": "A",
+     "count": 201
+    },
+    {
+     "letter": "A-",
+     "count": 88
+    },
+    {
+     "letter": "B+",
+     "count": 62
+    },
+    {
+     "letter": "B",
+     "count": 61
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 29
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 19
+    },
+    {
+     "letter": "D+",
+     "count": 10
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 37
+    },
+    {
+     "letter": "P",
+     "count": 185
+    },
+    {
+     "letter": "NP",
+     "count": 43
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 3.1,
+   "recordedPct": 9,
+   "attendanceRequiredPct": 46
+  },
+  "byProfessor": [
+   {
+    "professor": "Seth Yalcin",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Xueyin Zhang",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Russell McIntosh",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.52,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Paolo Mancosu",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.12,
+    "studentCount": 4,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 2.2,
+    "difficulty": 3.3,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Wesley Holliday",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.11,
+    "studentCount": 3,
+    "studentDifficulty": 4.7,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.56,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Daniel Gonzalez",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Adrian Ommundsen",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.76,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2012A"
+  ]
+ },
+ "PHILOS 132": {
+  "course": "PHILOS 132",
+  "difficulty": 3.2,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.302
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 3.0,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Reviews split sharply. Some say the explanations of hard concepts are excellent and engaging. Others say lectures are unprepared, rambling, and without slides or notes, leaving little learned. Several mention a heavy reading load of 100 or more pages a week.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 314,
+   "pctA": 53,
+   "pctBelowB": 8,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 71
+    },
+    {
+     "letter": "A-",
+     "count": 63
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 36
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.27,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "B Scot Rousse",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "John Campbell",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Caitlin Dolan",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.13,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Veronica Gomez Sanchez",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.24,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "James Blackmon",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.95,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20132"
+  ]
+ },
+ "PHILOS 133": {
+  "course": "PHILOS 133",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.285
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.24), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 218,
+   "pctA": 58,
+   "pctBelowB": 17,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 57
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 42
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Seth Yalcin",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20133"
+  ]
+ },
+ "PHILOS 134": {
+  "course": "PHILOS 134",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.30), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 37,
+   "pctA": 61,
+   "pctBelowB": 16,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Seth Yalcin",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20134"
+  ]
+ },
+ "PHILOS 135": {
+  "course": "PHILOS 135",
+  "difficulty": 3.0,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.289
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.083
+    },
+    {
+     "label": "Tone of written student reviews (15 on file)",
+     "value": 3.9,
+     "weight": 0.118
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are exceptionally clear and the content fascinating, but the readings are difficult and the course is dense and not for beginners. Section instructors tend to grade tough, and recording lectures is suggested. A few reviews are negative about grading.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 237,
+   "pctA": 50,
+   "pctBelowB": 12,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 45
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "John Campbell",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.41,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "John Macfarlane",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.86,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Arpy Khatchirian",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.04,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20135"
+  ]
+ },
+ "PHILOS 136": {
+  "course": "PHILOS 136",
+  "difficulty": 2.8,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.276
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.44), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 188,
+   "pctA": 59,
+   "pctBelowB": 8,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 67
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Alva Noe",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.99,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Tyler Haddow",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.42,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Michael Martin",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.33,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20136"
+  ]
+ },
+ "PHILOS 140A": {
+  "course": "PHILOS 140A",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.236
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.39), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 103,
+   "pctA": 64,
+   "pctBelowB": 11,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Wesley Holliday",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20140A"
+  ]
+ },
+ "PHILOS 140B": {
+  "course": "PHILOS 140B",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.212
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 77,
+   "pctA": 61,
+   "pctBelowB": 14,
+   "pctPassNoPass": 34,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Wesley Holliday",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Paolo Mancosu",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.31,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20140B"
+  ]
+ },
+ "PHILOS 142": {
+  "course": "PHILOS 142",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.192
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.23), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 61,
+   "pctA": 53,
+   "pctBelowB": 16,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Paolo Mancosu",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.0,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "John Macfarlane",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20142"
+  ]
+ },
+ "PHILOS 143": {
+  "course": "PHILOS 143",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.175
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 50,
+   "pctA": 67,
+   "pctBelowB": 10,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Wesley Holliday",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20143"
+  ]
+ },
+ "PHILOS 144": {
+  "course": "PHILOS 144",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.04)",
+     "value": 3.9,
+     "weight": 0.104
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.04), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.04,
+   "letter": "B",
+   "students": 21,
+   "pctA": 55,
+   "pctBelowB": 20,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Wesley Holliday",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.04,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20144"
+  ]
+ },
+ "PHILOS 146": {
+  "course": "PHILOS 146",
+  "difficulty": 3.2,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.243
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness. The average grade is B+ (3.36), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 114,
+   "pctA": 57,
+   "pctBelowB": 11,
+   "pctPassNoPass": 34,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 36
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Paolo Mancosu",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.43,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 2,
+    "difficulty": 3.2,
+    "shouldTake": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20146"
+  ]
+ },
+ "PHILOS 148": {
+  "course": "PHILOS 148",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.25
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 125,
+   "pctA": 77,
+   "pctBelowB": 6,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 40
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Xueyin Zhang",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20148"
+  ]
+ },
+ "PHILOS 149": {
+  "course": "PHILOS 149",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 34,
+   "pctA": 67,
+   "pctBelowB": 4,
+   "pctPassNoPass": 29,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Paolo Mancosu",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20149"
+  ]
+ },
+ "PHILOS 15": {
+  "course": "PHILOS 15",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Alva Noe",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2015"
+  ]
+ },
+ "PHILOS 153": {
+  "course": "PHILOS 153",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.216
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 56% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 81,
+   "pctA": 56,
+   "pctBelowB": 7,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kwong-loi Shun",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20153"
+  ]
+ },
+ "PHILOS 154": {
+  "course": "PHILOS 154",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.20)",
+     "value": 3.4,
+     "weight": 0.223
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.20), with 38% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.2,
+   "letter": "B+",
+   "students": 88,
+   "pctA": 38,
+   "pctBelowB": 9,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Clarke",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20154"
+  ]
+ },
+ "PHILOS 155": {
+  "course": "PHILOS 155",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20155"
+  ]
+ },
+ "PHILOS 156A": {
+  "course": "PHILOS 156A",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.02), with 28% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 46,
+   "pctA": 28,
+   "pctBelowB": 12,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hans Sluga",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.02,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20156A"
+  ]
+ },
+ "PHILOS 160": {
+  "course": "PHILOS 160",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.219
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.27), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 84,
+   "pctA": 46,
+   "pctBelowB": 10,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lea Schroeder",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Landon Hobbs",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Nicholas Gooding",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.46,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Vanessa de Harven",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.28,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20160"
+  ]
+ },
+ "PHILOS 161": {
+  "course": "PHILOS 161",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 185,
+   "pctA": 62,
+   "pctBelowB": 7,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Riesbeck",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Landon Hobbs",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.49,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Timothy Clarke",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20161"
+  ]
+ },
+ "PHILOS 163": {
+  "course": "PHILOS 163",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.02), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 17,
+   "pctA": 47,
+   "pctBelowB": 24,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Gooding",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.02,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20163"
+  ]
+ },
+ "PHILOS 170": {
+  "course": "PHILOS 170",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.268
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 164,
+   "pctA": 47,
+   "pctBelowB": 10,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.25,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "John Carriero",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.38,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jennifer Marsh",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.38,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20170"
+  ]
+ },
+ "PHILOS 171": {
+  "course": "PHILOS 171",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.222
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.47), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 87,
+   "pctA": 65,
+   "pctBelowB": 5,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristin Primus",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.5,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20171"
+  ]
+ },
+ "PHILOS 172": {
+  "course": "PHILOS 172",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.17)",
+     "value": 3.5,
+     "weight": 0.219
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.17), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.17,
+   "letter": "B+",
+   "students": 84,
+   "pctA": 55,
+   "pctBelowB": 12,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristin Primus",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.14,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20172"
+  ]
+ },
+ "PHILOS 173": {
+  "course": "PHILOS 173",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.243
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.26), with 49% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 114,
+   "pctA": 49,
+   "pctBelowB": 11,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.19,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20173"
+  ]
+ },
+ "PHILOS 176": {
+  "course": "PHILOS 176",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.28
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 201,
+   "pctA": 62,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 73
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 12
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Martin",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.22,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Olivia Bailey",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.99,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20176"
+  ]
+ },
+ "PHILOS 178": {
+  "course": "PHILOS 178",
+  "difficulty": 2.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.279
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.43), with 64% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 196,
+   "pctA": 64,
+   "pctBelowB": 9,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Warren",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.47,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20178"
+  ]
+ },
+ "PHILOS 18": {
+  "course": "PHILOS 18",
+  "difficulty": 3.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.248
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.29), with 49% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 121,
+   "pctA": 49,
+   "pctBelowB": 10,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Kwong-loi Shun",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.31,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.1,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2018"
+  ]
+ },
+ "PHILOS 181": {
+  "course": "PHILOS 181",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.231
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 97,
+   "pctA": 73,
+   "pctBelowB": 1,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andreja Novakovic",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.68,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20181"
+  ]
+ },
+ "PHILOS 184": {
+  "course": "PHILOS 184",
+  "difficulty": 2.9,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.256
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 5.0/5 for workload and 2.0/5 for usefulness. The average grade is B+ (3.47), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 137,
+   "pctA": 55,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 5,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Katharina Kaiser",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.53,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 2.8,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20184"
+  ]
+ },
+ "PHILOS 185": {
+  "course": "PHILOS 185",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.236
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 103,
+   "pctA": 72,
+   "pctBelowB": 9,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "B Scot Rousse",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.14,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Florian Grosser",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.6,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Katharina Kaiser",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.78,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20185"
+  ]
+ },
+ "PHILOS 186": {
+  "course": "PHILOS 186",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 45% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 22,
+   "pctA": 45,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20186"
+  ]
+ },
+ "PHILOS 186B": {
+  "course": "PHILOS 186B",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 38% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 37,
+   "pctA": 38,
+   "pctBelowB": 6,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah Ginsborg",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20186B"
+  ]
+ },
+ "PHILOS 187": {
+  "course": "PHILOS 187",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.51), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 53,
+   "pctA": 67,
+   "pctBelowB": 12,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andreja Novakovic",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Pia Schneider",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.53,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Seth Yalcin",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.53,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20187"
+  ]
+ },
+ "PHILOS 189": {
+  "course": "PHILOS 189",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.50), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 86,
+   "pctA": 58,
+   "pctBelowB": 1,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hans Sluga",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.31,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20189"
+  ]
+ },
+ "PHILOS 190": {
+  "course": "PHILOS 190",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.247
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.67), with 79% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 120,
+   "pctA": 79,
+   "pctBelowB": 3,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Hans Sluga",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Katharina Kaiser",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.86,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "David Riesbeck",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Veronica Gomez Sanchez",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Andreja Novakovic",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Timothy Crockett",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.37,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20190"
+  ]
+ },
+ "PHILOS 198": {
+  "course": "PHILOS 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Wesley Holliday",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "John Lee",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 5,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Timothy Clarke",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Timothy Crockett",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Johann Frick",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20198"
+  ]
+ },
+ "PHILOS 198BC": {
+  "course": "PHILOS 198BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Pia Schneider",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Caitlin Dolan",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Elek Lane",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Kristin Primus",
+    "terms": 4,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Tyler Haddow",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Joseph Kassman-Tod",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20198BC"
+  ]
+ },
+ "PHILOS 199": {
+  "course": "PHILOS 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Kwong-loi Shun",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Timothy Crockett",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Wesley Holliday",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kristin Primus",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nicholas Kolodny",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Olivia Bailey",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Katharina Kaiser",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20199"
+  ]
+ },
+ "PHILOS 2": {
+  "course": "PHILOS 2",
+  "difficulty": 2.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (36 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.307
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (36)",
+     "value": 2.3,
+     "weight": 0.132
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (36 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.351
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 4.6,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students describe an enjoyable, interesting class with a passionate instructor and relatively light work. Readings can be tricky but lectures clarify them, and discussion participation matters. It is recommended as a breadth, with the final essay the hardest part.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 1183,
+   "pctA": 51,
+   "pctBelowB": 5,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 247
+    },
+    {
+     "letter": "A-",
+     "count": 261
+    },
+    {
+     "letter": "B+",
+     "count": 238
+    },
+    {
+     "letter": "B",
+     "count": 150
+    },
+    {
+     "letter": "B-",
+     "count": 67
+    },
+    {
+     "letter": "C+",
+     "count": 27
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 150
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 36,
+   "difficulty": 2.7,
+   "workload": 2.3,
+   "usefulness": 3.6,
+   "recordedPct": 15,
+   "attendanceRequiredPct": 9
+  },
+  "byProfessor": [
+   {
+    "professor": "Olivia Bailey",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.18,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.9,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "R. Jay Wallace",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.35,
+    "studentCount": 11,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.7,
+    "difficulty": 2.8,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Christian Nakazawa",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Seth Yalcin",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Daniel Viehoff",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.59,
+    "studentCount": 20,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.4,
+    "difficulty": 2.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Richie Kim",
+    "terms": 4,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.31,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Sarah Vernallis",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.47,
+    "difficulty": 2.6
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Very passionate professor who knows what he's doing. Enjoyable class and interesting topics. Can manage the finals without doing the readings. Be prepared for discussion, though.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Great",
+    "professor": "Daniel Viehoff",
+    "grade": "A"
+   },
+   {
+    "text": "This class was very fun. There was a wide variety of topics covered, and it made me realize I was more interested in philosophy than I previously thought. The professor was very passionate, and the work was relatively light. Great class for breadth, and very good if you want to learn about philosophy too.",
+    "term": "2026 Fall",
+    "source": "Berkeleytime",
+    "title": "Good class",
+    "professor": "R. Jay Wallace"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%202"
+  ]
+ },
+ "PHILOS 25A": {
+  "course": "PHILOS 25A",
+  "difficulty": 3.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 3.7,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.233
+    },
+    {
+     "label": "Tone of written student reviews (17 on file)",
+     "value": 3.2,
+     "weight": 0.121
+    }
+   ]
+  },
+  "sentiment": "Students find lectures clear and the material interesting, but the course is demanding for an intro. Expect a lot of reading, reading quizzes, and tough essay grading that depends heavily on your GSI. Reviewers advise keeping up with readings, using the study questions, and attending discussion.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 888,
+   "pctA": 52,
+   "pctBelowB": 15,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 213
+    },
+    {
+     "letter": "A-",
+     "count": 162
+    },
+    {
+     "letter": "B+",
+     "count": 108
+    },
+    {
+     "letter": "B",
+     "count": 79
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 33
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 19
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 10
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 21
+    },
+    {
+     "letter": "P",
+     "count": 145
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 4,
+   "workload": 3.7,
+   "usefulness": 4,
+   "recordedPct": 14,
+   "attendanceRequiredPct": 43
+  },
+  "byProfessor": [
+   {
+    "professor": "David Riesbeck",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.51,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Kathryn Coyne",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.51,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Branislav Kotoc",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.84,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Luna Cheng",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.42,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Daniel Gonzalez",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.42,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Jamie Greene",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.42,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Landon Hobbs",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.42,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2025A"
+  ]
+ },
+ "PHILOS 25B": {
+  "course": "PHILOS 25B",
+  "difficulty": 3.0,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.7,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (18 on file)",
+     "value": 4.2,
+     "weight": 0.123
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are clear, thorough and enjoyable and break down dense readings well. The course is reading-heavy with three essays and a final, and your grade depends largely on your GSI. Reviewers advise doing at least some of the readings and using the study guide.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 850,
+   "pctA": 55,
+   "pctBelowB": 11,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 194
+    },
+    {
+     "letter": "A-",
+     "count": 201
+    },
+    {
+     "letter": "B+",
+     "count": 125
+    },
+    {
+     "letter": "B",
+     "count": 82
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 28
+    },
+    {
+     "letter": "P",
+     "count": 101
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3,
+   "workload": 2.7,
+   "usefulness": 3.3,
+   "recordedPct": 60,
+   "attendanceRequiredPct": 20
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristin Primus",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.29,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Jonathan Tanaka",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.37,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Seth Yalcin",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.37,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Timothy Crockett",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.18,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 3.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.25,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Jennifer Marsh",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.83,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Scott Casleton",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.67,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Joshua Beattie",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.27,
+    "difficulty": 3.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Difficult but interesting. Expect to write a lot. Lecturer was extremely nice though.",
+    "term": "2026 Summer",
+    "source": "Berkeleytime",
+    "title": "Modern Philosophy",
+    "grade": "B+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2025B"
+  ]
+ },
+ "PHILOS 3": {
+  "course": "PHILOS 3",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.337
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 1.9,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.1,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.275
+    },
+    {
+     "label": "Tone of written student reviews (43 on file)",
+     "value": 4.3,
+     "weight": 0.137
+    }
+   ]
+  },
+  "sentiment": "Students find it an engaging, funny and easy-going intro to philosophy with a reasonable workload. Grading is mostly essays, section participation and a final. Grading speed and quality depend heavily on the GSI, and the readings take time to digest.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 1266,
+   "pctA": 72,
+   "pctBelowB": 4,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 40
+    },
+    {
+     "letter": "A",
+     "count": 452
+    },
+    {
+     "letter": "A-",
+     "count": 300
+    },
+    {
+     "letter": "B+",
+     "count": 148
+    },
+    {
+     "letter": "B",
+     "count": 79
+    },
+    {
+     "letter": "B-",
+     "count": 40
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 159
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 2.3,
+   "workload": 1.9,
+   "usefulness": 3.5,
+   "recordedPct": 91,
+   "attendanceRequiredPct": 10
+  },
+  "byProfessor": [
+   {
+    "professor": "John Campbell",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.65,
+    "studentCount": 10,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.1,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Alina Wang",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.38,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Seth Yalcin",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.38,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.17,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Luna Cheng",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.3,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Madeleine Levac",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.12,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Anhui Huang",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.43,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%203"
+  ]
+ },
+ "PHILOS 4": {
+  "course": "PHILOS 4",
+  "difficulty": 3.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.234
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.02), with 35% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 101,
+   "pctA": 35,
+   "pctBelowB": 23,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah DeBrine",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.56,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.56,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Xueyin Zhang",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.93,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%204"
+  ]
+ },
+ "PHILOS 5": {
+  "course": "PHILOS 5",
+  "difficulty": 2.5,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.301
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.58), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 305,
+   "pctA": 68,
+   "pctBelowB": 3,
+   "pctPassNoPass": 29,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 83
+    },
+    {
+     "letter": "A-",
+     "count": 61
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 83
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.53,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 2.5,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Ezra Rubenstein",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.34,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Veronica Gomez Sanchez",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%205"
+  ]
+ },
+ "PHILOS 7": {
+  "course": "PHILOS 7",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.23
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 96,
+   "pctA": 64,
+   "pctBelowB": 5,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andreja Novakovic",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joseph Kassman-Tod",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.48,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.48,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%207"
+  ]
+ },
+ "PHILOS 9": {
+  "course": "PHILOS 9",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Madeleine Levac",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   },
+   {
+    "professor": "Alva Noe",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%209"
+  ]
+ },
+ "PHILOS 98": {
+  "course": "PHILOS 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Olivia Bailey",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2098"
+  ]
+ },
+ "PHILOS 98BC": {
+  "course": "PHILOS 98BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Elek Lane",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Caitlin Dolan",
+    "terms": 4,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Kristin Primus",
+    "terms": 4,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Joseph Kassman-Tod",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Daniel Khokhar",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Andreja Novakovic",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%2098BC"
+  ]
+ },
+ "PHILOS C158": {
+  "course": "PHILOS C158",
+  "difficulty": 3.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.185
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.053
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.5/5 for difficulty, 4.5/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.51), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 56,
+   "pctA": 57,
+   "pctBelowB": 10,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4.5,
+   "workload": 4.5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Christian Coseru",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.42,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 5,
+    "difficulty": 3.4,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Roy Tzohar",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.76,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20C158"
+  ]
+ },
+ "PHILOS H195": {
+  "course": "PHILOS H195",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Nicholas Kolodny",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "R. Jay Wallace",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Hans Sluga",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ezra Rubenstein",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kwong-loi Shun",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Timothy Clarke",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Wesley Holliday",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Shamik Dasgupta",
+    "terms": 3,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20H195"
+  ]
+ },
+ "PHILOS H196": {
+  "course": "PHILOS H196",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Nicholas Kolodny",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Geoffrey Lee",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Hannah Ginsborg",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20H196"
+  ]
+ },
+ "PHILOS N188": {
+  "course": "PHILOS N188",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 58% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 58,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Kassman-Tod",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Florian Grosser",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20N188"
+  ]
+ },
+ "PHILOS R1B": {
+  "course": "PHILOS R1B",
+  "difficulty": 2.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.257
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.50), with 65% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 138,
+   "pctA": 65,
+   "pctBelowB": 8,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Crockett",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.54,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Nicholas Gooding",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20R1B"
+  ]
+ },
+ "PHILOS W12A": {
+  "course": "PHILOS W12A",
+  "difficulty": 3.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.308
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.5/5 for workload and 3.0/5 for usefulness. The average grade is B (3.10), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 366,
+   "pctA": 58,
+   "pctBelowB": 20,
+   "pctPassNoPass": 39,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 61
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 22
+    },
+    {
+     "letter": "P",
+     "count": 108
+    },
+    {
+     "letter": "NP",
+     "count": 35
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Wesley Holliday",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.1,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.4,
+    "shouldTake": 2.9
+   }
+  ],
+  "reviews": [
+   {
+    "text": "The class is not that bad, but there are 2-4 weeks of heavy lectures, so basically lots of notes. It's also veeerrryyyy math based so if you aren't good at math, I wouldn't recommend it. I struggled a lot because of that. The final is in-person even if you take it off campus, so make sure you know the material well.",
+    "term": "2026 Summer",
+    "source": "Berkeleytime",
+    "title": "It's okay",
+    "professor": "Wesley Holliday"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHILOS%20W12A"
+  ]
+ }
+}

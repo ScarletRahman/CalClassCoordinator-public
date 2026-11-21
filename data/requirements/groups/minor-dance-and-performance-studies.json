@@ -1,0 +1,114 @@
+{
+ "id": "minor-dance-and-performance-studies",
+ "title": "Dance and Performance Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I037U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I037U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I037U",
+ "notes": [
+  "Requirements\nA course with the identical course number may only be counted twice toward the minor and only if they have different focus topics. Only two courses may be repeated in this way.\nTransfer Units: It is rare that Community College coursework will transfer into the Dance and Performance Studies Minor because they are lower division. If you have a strong dance background, continue your dance training in the department at the appropriate level. Since your minor will be from this department, it is likely you will do most of your minor coursework here. If you have a question about coursework transferring into the minor, bring unofficial transcripts and course descriptions to the Undergraduate Academic Advisor.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "Upper Division Electives\nSelect a minimum of three upper division elective courses to build a focus in the minor. If you find a course in another department that may be considered for inclusion in your minor as an elective, you can discuss it with the Undergraduate Academic Advisor."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division-practice-courses",
+   "title": "Lower Division Practice Courses",
+   "section": "Lower Division",
+   "notes": "In certain circumstances, students may use THEATER 141, THEATER 142, or THEATER 143 to fulfill THEATER 40, in which case, they will then take a total of four upper-division elective courses instead of three.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 14"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 40"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 60"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division-performance-studies",
+   "title": "Lower Division Performance Studies",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 25AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 26"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 52AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-dance-technique",
+   "title": "Upper Division Dance Technique",
+   "section": "Upper Division",
+   "notes": "-\nTHEATER 40 or THEATER 45 may be used/repeated to fulfill the upper division technique requirement.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 141"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 142"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 143"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 145"
+     }
+    ]
+   }
+  },
+  {
+   "id": "choreography",
+   "title": "Choreography",
+   "section": "Upper Division",
+   "notes": "THEATER 146A and THEATER 146B have two types of enrollment: Dancers enroll for one unit in the course and must be enrolled concurrently in a technique class, or choreographers enroll for three units in the course and must complete the prerequisite of THEATER 144 or THEATER 148 in advance.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 144"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 146A"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 148"
+     }
+    ]
+   }
+  }
+ ]
+}

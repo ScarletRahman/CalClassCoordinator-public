@@ -1,0 +1,942 @@
+{
+ "data": {
+  "course": {
+   "subject": "ELENG",
+   "number": "66",
+   "aggregatedRatings": {
+    "metrics": [
+     {
+      "metricName": "Attendance",
+      "count": 41,
+      "weightedAverage": 0.024390243902439025,
+      "categories": [
+       {
+        "value": 0,
+        "count": 40,
+        "__typename": "Category"
+       },
+       {
+        "value": 1,
+        "count": 1,
+        "__typename": "Category"
+       }
+      ],
+      "__typename": "Metric"
+     },
+     {
+      "metricName": "Usefulness",
+      "count": 44,
+      "weightedAverage": 3.772727272727273,
+      "categories": [
+       {
+        "value": 3,
+        "count": 9,
+        "__typename": "Category"
+       },
+       {
+        "value": 4,
+        "count": 16,
+        "__typename": "Category"
+       },
+       {
+        "value": 2,
+        "count": 4,
+        "__typename": "Category"
+       },
+       {
+        "value": 1,
+        "count": 2,
+        "__typename": "Category"
+       },
+       {
+        "value": 5,
+        "count": 13,
+        "__typename": "Category"
+       }
+      ],
+      "__typename": "Metric"
+     },
+     {
+      "metricName": "Workload",
+      "count": 44,
+      "weightedAverage": 3.340909090909091,
+      "categories": [
+       {
+        "value": 3,
+        "count": 17,
+        "__typename": "Category"
+       },
+       {
+        "value": 4,
+        "count": 14,
+        "__typename": "Category"
+       },
+       {
+        "value": 5,
+        "count": 5,
+        "__typename": "Category"
+       },
+       {
+        "value": 1,
+        "count": 1,
+        "__typename": "Category"
+       },
+       {
+        "value": 2,
+        "count": 7,
+        "__typename": "Category"
+       }
+      ],
+      "__typename": "Metric"
+     },
+     {
+      "metricName": "Recording",
+      "count": 41,
+      "weightedAverage": 0.975609756097561,
+      "categories": [
+       {
+        "value": 0,
+        "count": 1,
+        "__typename": "Category"
+       },
+       {
+        "value": 1,
+        "count": 40,
+        "__typename": "Category"
+       }
+      ],
+      "__typename": "Metric"
+     },
+     {
+      "metricName": "Difficulty",
+      "count": 44,
+      "weightedAverage": 3.590909090909091,
+      "categories": [
+       {
+        "value": 2,
+        "count": 6,
+        "__typename": "Category"
+       },
+       {
+        "value": 4,
+        "count": 20,
+        "__typename": "Category"
+       },
+       {
+        "value": 5,
+        "count": 7,
+        "__typename": "Category"
+       },
+       {
+        "value": 1,
+        "count": 1,
+        "__typename": "Category"
+       },
+       {
+        "value": 3,
+        "count": 10,
+        "__typename": "Category"
+       }
+      ],
+      "__typename": "Metric"
+     }
+    ],
+    "__typename": "AggregatedRatings"
+   },
+   "instructorAggregatedRatings": [
+    {
+     "instructor": {
+      "givenName": "Gireeja",
+      "familyName": "Ranade",
+      "__typename": "Instructor"
+     },
+     "aggregatedRatings": {
+      "metrics": [
+       {
+        "metricName": "Attendance",
+        "count": 2,
+        "weightedAverage": 0,
+        "categories": [
+         {
+          "value": 0,
+          "count": 2,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Recording",
+        "count": 2,
+        "weightedAverage": 1,
+        "categories": [
+         {
+          "value": 0,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 2,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Workload",
+        "count": 2,
+        "weightedAverage": 4,
+        "categories": [
+         {
+          "value": 2,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Usefulness",
+        "count": 2,
+        "weightedAverage": 4.5,
+        "categories": [
+         {
+          "value": 5,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Difficulty",
+        "count": 2,
+        "weightedAverage": 4,
+        "categories": [
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       }
+      ],
+      "__typename": "AggregatedRatings"
+     },
+     "__typename": "InstructorRating"
+    },
+    {
+     "instructor": {
+      "givenName": "Babak",
+      "familyName": "Ayazifar",
+      "__typename": "Instructor"
+     },
+     "aggregatedRatings": {
+      "metrics": [
+       {
+        "metricName": "Workload",
+        "count": 40,
+        "weightedAverage": 3.35,
+        "categories": [
+         {
+          "value": 2,
+          "count": 6,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 15,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 14,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 4,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Recording",
+        "count": 38,
+        "weightedAverage": 0.9736842105263158,
+        "categories": [
+         {
+          "value": 0,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 37,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Usefulness",
+        "count": 40,
+        "weightedAverage": 3.8,
+        "categories": [
+         {
+          "value": 4,
+          "count": 15,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 8,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 12,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 2,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 3,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Attendance",
+        "count": 38,
+        "weightedAverage": 0.02631578947368421,
+        "categories": [
+         {
+          "value": 0,
+          "count": 37,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Difficulty",
+        "count": 40,
+        "weightedAverage": 3.675,
+        "categories": [
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 20,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 9,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 6,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 5,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       }
+      ],
+      "__typename": "AggregatedRatings"
+     },
+     "__typename": "InstructorRating"
+    },
+    {
+     "instructor": {
+      "givenName": "Ana",
+      "familyName": "Arias",
+      "__typename": "Instructor"
+     },
+     "aggregatedRatings": {
+      "metrics": [
+       {
+        "metricName": "Workload",
+        "count": 2,
+        "weightedAverage": 2.5,
+        "categories": [
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Usefulness",
+        "count": 2,
+        "weightedAverage": 2.5,
+        "categories": [
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Difficulty",
+        "count": 2,
+        "weightedAverage": 1.5,
+        "categories": [
+         {
+          "value": 3,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Recording",
+        "count": 1,
+        "weightedAverage": 1,
+        "categories": [
+         {
+          "value": 1,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 0,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Attendance",
+        "count": 1,
+        "weightedAverage": 0,
+        "categories": [
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 0,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       }
+      ],
+      "__typename": "AggregatedRatings"
+     },
+     "__typename": "InstructorRating"
+    },
+    {
+     "instructor": {
+      "givenName": "Miki",
+      "familyName": "Lustig",
+      "__typename": "Instructor"
+     },
+     "aggregatedRatings": {
+      "metrics": [
+       {
+        "metricName": "Usefulness",
+        "count": 2,
+        "weightedAverage": 2.5,
+        "categories": [
+         {
+          "value": 3,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Recording",
+        "count": 1,
+        "weightedAverage": 1,
+        "categories": [
+         {
+          "value": 0,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Difficulty",
+        "count": 2,
+        "weightedAverage": 1.5,
+        "categories": [
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 1,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Workload",
+        "count": 2,
+        "weightedAverage": 2.5,
+        "categories": [
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Attendance",
+        "count": 1,
+        "weightedAverage": 0,
+        "categories": [
+         {
+          "value": 0,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       }
+      ],
+      "__typename": "AggregatedRatings"
+     },
+     "__typename": "InstructorRating"
+    },
+    {
+     "instructor": {
+      "givenName": "Jean-Paul",
+      "familyName": "Tennant",
+      "__typename": "Instructor"
+     },
+     "aggregatedRatings": {
+      "metrics": [
+       {
+        "metricName": "Usefulness",
+        "count": 6,
+        "weightedAverage": 3.8333333333333335,
+        "categories": [
+         {
+          "value": 3,
+          "count": 2,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 3,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Difficulty",
+        "count": 6,
+        "weightedAverage": 3.3333333333333335,
+        "categories": [
+         {
+          "value": 4,
+          "count": 3,
+          "__typename": "Category"
+         },
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 2,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Attendance",
+        "count": 6,
+        "weightedAverage": 0,
+        "categories": [
+         {
+          "value": 0,
+          "count": 6,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Workload",
+        "count": 6,
+        "weightedAverage": 3,
+        "categories": [
+         {
+          "value": 2,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 4,
+          "count": 1,
+          "__typename": "Category"
+         },
+         {
+          "value": 5,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 3,
+          "count": 4,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Recording",
+        "count": 6,
+        "weightedAverage": 1,
+        "categories": [
+         {
+          "value": 0,
+          "count": 0,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 6,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       }
+      ],
+      "__typename": "AggregatedRatings"
+     },
+     "__typename": "InstructorRating"
+    }
+   ],
+   "classes": [],
+   "__typename": "Course"
+  },
+  "semestersWithRatings": [
+   {
+    "semester": "Fall",
+    "year": 2025,
+    "maxMetricCount": 21,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Fall",
+    "year": 2022,
+    "maxMetricCount": 2,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Spring",
+    "year": 2024,
+    "maxMetricCount": 1,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Spring",
+    "year": 2026,
+    "maxMetricCount": 3,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Fall",
+    "year": 2026,
+    "maxMetricCount": 4,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Fall",
+    "year": 2023,
+    "maxMetricCount": 2,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Spring",
+    "year": 2025,
+    "maxMetricCount": 5,
+    "__typename": "SemesterRatings"
+   },
+   {
+    "semester": "Fall",
+    "year": 2024,
+    "maxMetricCount": 6,
+    "__typename": "SemesterRatings"
+   }
+  ]
+ }
+}

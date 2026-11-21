@@ -1,0 +1,5347 @@
+{
+ "SPANISH 1": {
+  "course": "SPANISH 1",
+  "difficulty": 2.7,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.308
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.2/5 for difficulty, 3.2/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.56), with 75% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 371,
+   "pctA": 75,
+   "pctBelowB": 8,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 125
+    },
+    {
+     "letter": "A-",
+     "count": 107
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 7
+    },
+    {
+     "letter": "U",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.2,
+   "workload": 3.2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Amir Effat",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joseph Rager",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Julian Vargo",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Coral del Mar Murphy Marcos",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Veronica Grajeda",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.55,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Benito Lopez Romero",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.49,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Ana Belen Redondo Campillos",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%201"
+  ]
+ },
+ "SPANISH 100": {
+  "course": "SPANISH 100",
+  "difficulty": 2.9,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.0/5 for difficulty, 2.0/5 for workload and 2.8/5 for usefulness. The average grade is B+ (3.32), with 59% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 418,
+   "pctA": 59,
+   "pctBelowB": 17,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 140
+    },
+    {
+     "letter": "A-",
+     "count": 59
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 37
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 2.8,
+   "recordedPct": 20,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Sarah Lease",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 8,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.31,
+    "studentCount": 5,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2.8,
+    "difficulty": 2.9,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Marguerite Morlan",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.51,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Nikolai Schwarz",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.29,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jonathan Jones-Edwards",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.89,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Riley VanMeter",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Annie Helms",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20100"
+  ]
+ },
+ "SPANISH 101": {
+  "course": "SPANISH 101",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.243
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 113,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.75,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.92,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20101"
+  ]
+ },
+ "SPANISH 102A": {
+  "course": "SPANISH 102A",
+  "difficulty": 2.5,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.285
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3.5,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 2.8/5 for difficulty, 3.5/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.69), with 81% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 219,
+   "pctA": 81,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 103
+    },
+    {
+     "letter": "A-",
+     "count": 49
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.8,
+   "workload": 3.5,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Victoria Martinez Robertson",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.22,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Jose Lujan Perez",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.74,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.6,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Victoria Robertson",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.69,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20102A"
+  ]
+ },
+ "SPANISH 102C": {
+  "course": "SPANISH 102C",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 26,
+   "pctA": 94,
+   "pctBelowB": 0,
+   "pctPassNoPass": 31,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20102C"
+  ]
+ },
+ "SPANISH 104A": {
+  "course": "SPANISH 104A",
+  "difficulty": 2.2,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.283
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.75), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 212,
+   "pctA": 83,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 113
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Arturo Davila Sanchez",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.84,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.75,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.0,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20104A"
+  ]
+ },
+ "SPANISH 104B": {
+  "course": "SPANISH 104B",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.251
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 127,
+   "pctA": 81,
+   "pctBelowB": 2,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 25
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniella Cadiz Bedini",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20104B"
+  ]
+ },
+ "SPANISH 107A": {
+  "course": "SPANISH 107A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.245
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 117,
+   "pctA": 80,
+   "pctBelowB": 4,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Paulina Leon",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Nasser Meerkhan",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.06,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20107A"
+  ]
+ },
+ "SPANISH 107B": {
+  "course": "SPANISH 107B",
+  "difficulty": 2.8,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.242
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.069
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.52), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 112,
+   "pctA": 65,
+   "pctBelowB": 6,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 45
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Iarocci",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.48,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Alex Saum-Pascual",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ignacio Navarrete",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.26,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20107B"
+  ]
+ },
+ "SPANISH 109A": {
+  "course": "SPANISH 109A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Julia Peck",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Adam Mahler",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20109A"
+  ]
+ },
+ "SPANISH 111A": {
+  "course": "SPANISH 111A",
+  "difficulty": 2.3,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.153
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.044
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.58), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 76,
+   "pctBelowB": 6,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ignacio Navarrete",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.65,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4,
+    "difficulty": 2.0,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20111A"
+  ]
+ },
+ "SPANISH 111B": {
+  "course": "SPANISH 111B",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.39), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 38,
+   "pctA": 51,
+   "pctBelowB": 5,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ignacio Navarrete",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20111B"
+  ]
+ },
+ "SPANISH 112": {
+  "course": "SPANISH 112",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.177
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 51,
+   "pctA": 76,
+   "pctBelowB": 5,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ignacio Navarrete",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20112"
+  ]
+ },
+ "SPANISH 115": {
+  "course": "SPANISH 115",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.222
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 87,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 41
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Iarocci",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20115"
+  ]
+ },
+ "SPANISH 121": {
+  "course": "SPANISH 121",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.139
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.93), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 33,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Estelle Tarica",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.94,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20121"
+  ]
+ },
+ "SPANISH 122": {
+  "course": "SPANISH 122",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.178
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 52,
+   "pctA": 77,
+   "pctBelowB": 2,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.44,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.94,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20122"
+  ]
+ },
+ "SPANISH 123": {
+  "course": "SPANISH 123",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 32,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Arturo Davila Sanchez",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20123"
+  ]
+ },
+ "SPANISH 131": {
+  "course": "SPANISH 131",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.249
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 124,
+   "pctA": 85,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.8,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Agustin De Jesus",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Tanya Varela",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.58,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20131"
+  ]
+ },
+ "SPANISH 135": {
+  "course": "SPANISH 135",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.304
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.64), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 329,
+   "pctA": 74,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 134
+    },
+    {
+     "letter": "A-",
+     "count": 74
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniella Cadiz Bedini",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Paulina Leon",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Victoria Martinez Robertson",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.72,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Jair Jauregui Torres",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.36,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Thomas McEnaney",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Anahit Manoukian",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20135"
+  ]
+ },
+ "SPANISH 135AC": {
+  "course": "SPANISH 135AC",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.217
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 82,
+   "pctA": 81,
+   "pctBelowB": 6,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Estelle Tarica",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20135AC"
+  ]
+ },
+ "SPANISH 135W": {
+  "course": "SPANISH 135W",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.222
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 87,
+   "pctA": 78,
+   "pctBelowB": 6,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20135W"
+  ]
+ },
+ "SPANISH 16": {
+  "course": "SPANISH 16",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Donna Southard",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Victoria Martinez Robertson",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2016"
+  ]
+ },
+ "SPANISH 161": {
+  "course": "SPANISH 161",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.246
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 71% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 119,
+   "pctA": 71,
+   "pctBelowB": 5,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20161"
+  ]
+ },
+ "SPANISH 162": {
+  "course": "SPANISH 162",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 70% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 86,
+   "pctA": 70,
+   "pctBelowB": 8,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Lease",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jhonni Carr",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20162"
+  ]
+ },
+ "SPANISH 163": {
+  "course": "SPANISH 163",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.267
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 160,
+   "pctA": 74,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 62
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.3,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20163"
+  ]
+ },
+ "SPANISH 164": {
+  "course": "SPANISH 164",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.241
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 111,
+   "pctA": 87,
+   "pctBelowB": 4,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 80
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20164"
+  ]
+ },
+ "SPANISH 165": {
+  "course": "SPANISH 165",
+  "difficulty": 2.3,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.156
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.044
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.74), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 40,
+   "pctA": 79,
+   "pctBelowB": 5,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.81,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20165"
+  ]
+ },
+ "SPANISH 166": {
+  "course": "SPANISH 166",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.207
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 83% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 72,
+   "pctA": 83,
+   "pctBelowB": 6,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Justin Davidson",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20166"
+  ]
+ },
+ "SPANISH 179": {
+  "course": "SPANISH 179",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.222
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.63), with 80% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 87,
+   "pctA": 80,
+   "pctBelowB": 7,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nikolai Schwarz",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Riley VanMeter",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Jhonni Carr",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Ben Papadopoulos",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.98,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Sean McKinnon",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Gabriella Licata",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20179"
+  ]
+ },
+ "SPANISH 197": {
+  "course": "SPANISH 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Justin Davidson",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20197"
+  ]
+ },
+ "SPANISH 198": {
+  "course": "SPANISH 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Maria Marisela Navarro Macias",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Francisco Ramirez-Cisneros",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Victoria Robertson",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20198"
+  ]
+ },
+ "SPANISH 199": {
+  "course": "SPANISH 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jhonni Carr",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jose Lujan Perez",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ana Belen Redondo Campillos",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20199"
+  ]
+ },
+ "SPANISH 2": {
+  "course": "SPANISH 2",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 3.0/5 for workload and 4.7/5 for usefulness. The average grade is B+ (3.37), with 60% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 417,
+   "pctA": 60,
+   "pctBelowB": 10,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 97
+    },
+    {
+     "letter": "A-",
+     "count": 107
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 42
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 57
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 12
+    },
+    {
+     "letter": "U",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 3,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.29,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jose Lujan Perez",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Agustin De Jesus",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Anna Rodas",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Anna Knall",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.35,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Amir Effat",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.97,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Ana Belen Redondo Campillos",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Benito Lopez Romero",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%202"
+  ]
+ },
+ "SPANISH 21": {
+  "course": "SPANISH 21",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.254
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.44), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 132,
+   "pctA": 71,
+   "pctBelowB": 9,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Veronica Grajeda",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Luis Amaya Madrid",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Ana Belen Redondo Campillos",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.18,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2021"
+  ]
+ },
+ "SPANISH 22": {
+  "course": "SPANISH 22",
+  "difficulty": 2.6,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.251
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.072
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.59), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 127,
+   "pctA": 74,
+   "pctBelowB": 5,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jose Lujan Perez",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Miroslava Guzman Perez",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Gabi Rodriguez Lebron",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.64,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Alejandra Decker",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.34,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Donna Southard",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.34,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2022"
+  ]
+ },
+ "SPANISH 24": {
+  "course": "SPANISH 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Emilie Bergmann",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2024"
+  ]
+ },
+ "SPANISH 25": {
+  "course": "SPANISH 25",
+  "difficulty": 2.5,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.4,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 3.3/5 for difficulty, 2.4/5 for workload and 3.6/5 for usefulness. The average grade is A- (3.69), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 578,
+   "pctA": 79,
+   "pctBelowB": 3,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 43
+    },
+    {
+     "letter": "A",
+     "count": 244
+    },
+    {
+     "letter": "A-",
+     "count": 133
+    },
+    {
+     "letter": "B+",
+     "count": 48
+    },
+    {
+     "letter": "B",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 38
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 3.3,
+   "workload": 2.4,
+   "usefulness": 3.6,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Arturo Davila Sanchez",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Alejandra Decker",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.77,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Alex Saum-Pascual",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.41,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Luisina Gentile",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.35,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Nasser Meerkhan",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2025"
+  ]
+ },
+ "SPANISH 3": {
+  "course": "SPANISH 3",
+  "difficulty": 2.6,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.305
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.57), with 71% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 336,
+   "pctA": 71,
+   "pctBelowB": 3,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 80
+    },
+    {
+     "letter": "A-",
+     "count": 93
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 70
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 17
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Ana Belen Redondo Campillos",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Anna Knall",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mia Lilly",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Amir Effat",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Donna Southard",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Veronica Grajeda",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.86,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.38,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%203"
+  ]
+ },
+ "SPANISH 30": {
+  "course": "SPANISH 30",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.203
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 69,
+   "pctA": 55,
+   "pctBelowB": 4,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 14
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2030"
+  ]
+ },
+ "SPANISH 31": {
+  "course": "SPANISH 31",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.162
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 43,
+   "pctA": 68,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Iarocci",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2031"
+  ]
+ },
+ "SPANISH 32": {
+  "course": "SPANISH 32",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 140,
+   "pctA": 55,
+   "pctBelowB": 11,
+   "pctPassNoPass": 26,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 29
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas McEnaney",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2032"
+  ]
+ },
+ "SPANISH 33": {
+  "course": "SPANISH 33",
+  "difficulty": 3.1,
+  "shouldTake": 2.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.096
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.028
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 2.7/5 for workload and 2.0/5 for usefulness. The average grade is B (3.09), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 19,
+   "pctA": 47,
+   "pctBelowB": 18,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 2.7,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Raul Coronado",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.09,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 3.2,
+    "shouldTake": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2033"
+  ]
+ },
+ "SPANISH 4": {
+  "course": "SPANISH 4",
+  "difficulty": 2.5,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.50)",
+     "value": 2.4,
+     "weight": 0.297
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.2/5 for difficulty, 2.2/5 for workload and 4.8/5 for usefulness. The average grade is A- (3.50), with 67% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.5,
+   "letter": "A-",
+   "students": 279,
+   "pctA": 67,
+   "pctBelowB": 6,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 62
+    },
+    {
+     "letter": "A-",
+     "count": 73
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 64
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.2,
+   "workload": 2.2,
+   "usefulness": 4.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Miriam Hernandez-Rodriguez",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.45,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Agustin De Jesus",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jonathan Jones-Edwards",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Donna Southard",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.39,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Victoria Martinez Robertson",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.57,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Miroslava Guzman Perez",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jose Lujan Perez",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%204"
+  ]
+ },
+ "SPANISH 40A": {
+  "course": "SPANISH 40A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 11,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.97,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2040A"
+  ]
+ },
+ "SPANISH 40B": {
+  "course": "SPANISH 40B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Julia Byrd",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2040B"
+  ]
+ },
+ "SPANISH 40C": {
+  "course": "SPANISH 40C",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2040C"
+  ]
+ },
+ "SPANISH 40D": {
+  "course": "SPANISH 40D",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2040D"
+  ]
+ },
+ "SPANISH 40E": {
+  "course": "SPANISH 40E",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2040E"
+  ]
+ },
+ "SPANISH 40F": {
+  "course": "SPANISH 40F",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2040F"
+  ]
+ },
+ "SPANISH 98": {
+  "course": "SPANISH 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Justin Davidson",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Sasha Sato",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%2098"
+  ]
+ },
+ "SPANISH C110": {
+  "course": "SPANISH C110",
+  "difficulty": 2.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.131
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.038
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.71), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 30,
+   "pctA": 84,
+   "pctBelowB": 4,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20C110"
+  ]
+ },
+ "SPANISH C26": {
+  "course": "SPANISH C26",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.162
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 75% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 43,
+   "pctA": 75,
+   "pctBelowB": 6,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Oliver Whitmore",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.84,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Gabriella Licata",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.84,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Rachel Weiher",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.84,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20C26"
+  ]
+ },
+ "SPANISH H195A": {
+  "course": "SPANISH H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Justin Davidson",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Arturo Davila Sanchez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniella Cadiz Bedini",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sarah Lease",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Oscar Perea Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Paulina Leon",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20H195A"
+  ]
+ },
+ "SPANISH H195B": {
+  "course": "SPANISH H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Estelle Tarica",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daylet Dominguez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Iarocci",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20H195B"
+  ]
+ },
+ "SPANISH N102C": {
+  "course": "SPANISH N102C",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.178
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 93% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 52,
+   "pctA": 93,
+   "pctBelowB": 2,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Donna Southard",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Estelle Tarica",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20N102C"
+  ]
+ },
+ "SPANISH N3": {
+  "course": "SPANISH N3",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 86% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 48,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Donna Southard",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Lorena Mancilla Corona",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.83,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Victoria Martinez Robertson",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.83,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20N3"
+  ]
+ },
+ "SPANISH N4": {
+  "course": "SPANISH N4",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 75% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 75,
+   "pctBelowB": 0,
+   "pctPassNoPass": 35,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Donna Southard",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Victoria Martinez Robertson",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.88,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20N4"
+  ]
+ },
+ "SPANISH R1A": {
+  "course": "SPANISH R1A",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.248
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.75), with 86% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 121,
+   "pctA": 86,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Estelle Tarica",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.78,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Derek Allen",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Gabi Rodriguez Lebron",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Paz Regueiro",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Chloe Mauvais",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.82,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Karol Alzate Londono",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.94,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Luisina Gentile",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Jose Patino Romero",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.31,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20R1A"
+  ]
+ },
+ "SPANISH R1B": {
+  "course": "SPANISH R1B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.239
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 71% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 108,
+   "pctA": 71,
+   "pctBelowB": 4,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Estelle Tarica",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Jair Jauregui Torres",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Karol Alzate Londono",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Anahit Manoukian",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Alejandro Munera",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Lorena Mancilla Corona",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Michael Iarocci",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SPANISH%20R1B"
+  ]
+ }
+}

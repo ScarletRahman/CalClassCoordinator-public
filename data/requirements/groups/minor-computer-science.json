@@ -1,0 +1,135 @@
+{
+ "id": "minor-computer-science",
+ "title": "Computer Science minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I011U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I011U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I011U",
+ "notes": [
+  "Students who have a strong interest in an area of study outside their major often decide to complete a minor program. These programs have set requirements and are noted officially on the diploma and the awards section of the transcript.\nGeneral Guidelines\n- All minors must be declared before the first day of classes in your Expected Graduation Term (EGT). For summer graduates, minors must be declared prior to the first day of Summer Session A.\n- All upper-division courses must be taken for a letter grade.\n- A minimum of three of the upper-division courses taken to fulfill the minor requirements must be completed at UC Berkeley.\n- A minimum grade point average (GPA) of 2.0 is required in the upper-division courses to fulfill the minor requirements.\n- Courses used for minor requirements may also satisfy the Seven-Course Breadth requirement for students in the College of Letters & Science and the College of Computing, Data Science, and Society.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- All minor requirements must be completed prior to the last day of finals during the semester in which the student plans to graduate. If students cannot finish all courses required for the minor by that time, they should consult with a college advisor immediately.\n- All minor requirements must be completed within the unit ceiling. (For further information regarding the unit ceiling, please see the College Requirements tab.)",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61BL"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61C"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61CL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division Electives",
+   "notes": "Students must attain a minimum 2.00 GPA in the minor.\nDoes not count: any Pass/Fail course.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "DATA C100",
+      "DATA 101",
+      "INFO 159",
+      "MECENG C205",
+      "NWMEDIA 190",
+      "NWMEDIA C203",
+      "STAT C100",
+      "COMPSCI 150",
+      "COMPSCI 152",
+      "COMPSCI 160",
+      "COMPSCI 161",
+      "COMPSCI 162",
+      "COMPSCI 164",
+      "COMPSCI 168",
+      "COMPSCI 169",
+      "COMPSCI 169A",
+      "COMPSCI 169L",
+      "COMPSCI 170",
+      "COMPSCI 171",
+      "COMPSCI 172",
+      "COMPSCI 174",
+      "COMPSCI 176",
+      "COMPSCI 180",
+      "COMPSCI 182",
+      "COMPSCI 184",
+      "COMPSCI 185",
+      "COMPSCI 186",
+      "COMPSCI 188",
+      "COMPSCI 189",
+      "COMPSCI 194",
+      "COMPSCI 270",
+      "COMPSCI 285",
+      "COMPSCI 288",
+      "COMPSCI 294",
+      "COMPSCI C100",
+      "COMPSCI C176",
+      "COMPSCI C177",
+      "COMPSCI C182",
+      "COMPSCI C187",
+      "COMPSCI C191",
+      "COMPSCI C280",
+      "COMPSCI H195",
+      "COMPSCI H196A",
+      "COMPSCI H196B",
+      "EECS 107",
+      "EECS 116",
+      "EECS 126",
+      "EECS 127",
+      "EECS 144",
+      "EECS 149",
+      "EECS 151",
+      "EECS 151LA",
+      "EECS 151LB",
+      "EECS 183",
+      "EECS C106A",
+      "EECS C106B",
+      "EECS C128",
+      "EECS C191A",
+      "EECS C191B"
+     ]
+    }
+   }
+  }
+ ]
+}

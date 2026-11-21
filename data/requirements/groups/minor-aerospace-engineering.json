@@ -1,0 +1,86 @@
+{
+ "id": "minor-aerospace-engineering",
+ "title": "Aerospace Engineering minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I159U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I159U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I159U",
+ "notes": [
+  "Students who have a strong interest in an area of study outside their major often decide to complete a minor program. These programs have set requirements.\nGeneral Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- All courses taken to fulfill the minor requirements must be taken for graded credit.\n- A minimum technical grade point average of 3.0 (math, science & engineering courses) is required for acceptance into the minor program.\n- A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- Completion of the minor program cannot delay a student’s graduation.\n- Please see more details at the department website.\nAll students can apply to declare the Aerospace Engineering (AE) Minor after completing the following prerequisite courses: MEC ENG C85 (Introduction to Solid Mechanics), MEC ENG 106 (Fluid Mechanics), and MEC ENG 132 (Dynamic Systems and Feedback). A minimum of 3.0 grade-point average in the prerequisite courses for the minor, as well as an overall/cumulative grade-point average of 3.0 are required to be considered for admission into the AE Minor program. To declare your intention to pursue the Aerospace Engineering Minor, please use your Berkeley email address/calnet ID and fill out the following application to declare form.\nTo complete the AE minor, three (3) upper division courses are required: ME 127 (Introduction to Composite Materials), ME 136 (Dynamics and Control of Autonomous Flight), and ME 163 (Engineering Aerodynamics) or AE C162/ME C162 (Intro to Flight Mechanics). For Mechanical Engineering (ME) students only, these upper division minor coursework cannot double count/overlap to be used towards the ME Technical Electives. Candidates are strongly encouraged to meet with their major advisors (ESS Advisors for ME or other Engineering Students) to check on policies between the major and minor overlap and to confirm they are on track to satisfy both the major and minor requirements. Students must have a minimum of 2.0 grade-point average in the remaining minor courses at graduation to receive the AE Minor. Completion of the minor cannot delay graduation. For questions, please contact aero@berkeley.edu.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "prerequisites",
+   "title": "Prerequisites",
+   "section": "Lower Division",
+   "notes": "A minimum GPA of 3.0 is required in all courses used towards the minor Prerequisites.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Students will have the option to take either MECENG 163 or AEROENG C162/MECENG C162 depending on what is being offered during the semester.\nA minimum GPA of 2.0 is required in all courses used towards the minor Core.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MECENG C127"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C136"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG 163"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C162"
+       },
+       {
+        "type": "course",
+        "course": "AEROENG C162"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

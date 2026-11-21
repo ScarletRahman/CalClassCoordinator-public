@@ -1,0 +1,6897 @@
+{
+ "LEGALST 10": {
+  "course": "LEGALST 10",
+  "difficulty": 2.2,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.195
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.056
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.66), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 63,
+   "pctA": 72,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristen Holmquist",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.66,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%2010"
+  ]
+ },
+ "LEGALST 100": {
+  "course": "LEGALST 100",
+  "difficulty": 2.6,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (18 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.274
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (18)",
+     "value": 2.6,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (18 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.313
+    }
+   ]
+  },
+  "sentiment": "18 students on Berkeleytime rate it 2.6/5 for difficulty, 2.6/5 for workload and 3.6/5 for usefulness. The average grade is A- (3.51), with 66% of letter grades in the A range. It usually has 4 scheduled midterms. Lectures are usually recorded. Attendance is usually required.",
+  "midterms": 4,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 863,
+   "pctA": 66,
+   "pctBelowB": 6,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 85
+    },
+    {
+     "letter": "A",
+     "count": 217
+    },
+    {
+     "letter": "A-",
+     "count": 247
+    },
+    {
+     "letter": "B+",
+     "count": 128
+    },
+    {
+     "letter": "B",
+     "count": 62
+    },
+    {
+     "letter": "B-",
+     "count": 43
+    },
+    {
+     "letter": "C+",
+     "count": 15
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 18,
+   "difficulty": 2.6,
+   "workload": 2.6,
+   "usefulness": 3.6,
+   "recordedPct": 75,
+   "attendanceRequiredPct": 62
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicole Lindahl-Ruiz",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kyle Deland",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.47,
+    "studentCount": 5,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 2.8,
+    "difficulty": 2.6,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Mariel Bustamante",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.36,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.36,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Naomi Yitref",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.36,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Jonathan Simon",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "studentCount": 8,
+    "studentDifficulty": 2.4,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.2,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Abbye Atkinson",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.44,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.7,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Mark Leinauer",
+    "terms": 3,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.17,
+    "midterms": 4,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20100"
+  ]
+ },
+ "LEGALST 102": {
+  "course": "LEGALST 102",
+  "difficulty": 2.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 3.0/5 for workload and 3.3/5 for usefulness. The average grade is B+ (3.44), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 263,
+   "pctA": 54,
+   "pctBelowB": 5,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 61
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 46
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3,
+   "usefulness": 3.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Perry",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.36,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Eduardo Bautista Duran",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ralph Madlalate",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Maura Ernestina Lievano Nunez",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.8
+   }
+  ],
+  "reviews": [
+   {
+    "text": "I loved this course, it is one of the best I have taken at Berkeley, and very relevant. Professor Perry is an expert, and able to answer decisively with depth to any questions that comes up, and it is genuinely fun to go to lecture because most of it is Q&A in the best way. He has an organized lecture, but most of the time as actually spent discussing what the class wants to discuss that comes up as a result of his plan or the materials.\n\nThe writing assignments are daunting, 4 total and…",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Take This Class!",
+    "professor": "Richard Perry",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20102"
+  ]
+ },
+ "LEGALST 103": {
+  "course": "LEGALST 103",
+  "difficulty": 2.8,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.7/5 for difficulty, 2.7/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.27), with 48% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 430,
+   "pctA": 48,
+   "pctBelowB": 13,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 92
+    },
+    {
+     "letter": "A-",
+     "count": 76
+    },
+    {
+     "letter": "B+",
+     "count": 77
+    },
+    {
+     "letter": "B",
+     "count": 53
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.7,
+   "workload": 2.7,
+   "usefulness": 3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Tomlins",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.27,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Jason Ferguson",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.11,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Rahel Fischer",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.18,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Zoe Lee-Park",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.18,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Yoav Mehozay",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.36,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 1,
+    "difficulty": 2.5,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Anthony Carrasco",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.06,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Jorge Cortes-Monroy",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.06,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20103"
+  ]
+ },
+ "LEGALST 105": {
+  "course": "LEGALST 105",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 56,
+   "pctA": 68,
+   "pctBelowB": 0,
+   "pctPassNoPass": 61,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20105"
+  ]
+ },
+ "LEGALST 106": {
+  "course": "LEGALST 106",
+  "difficulty": 3.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.261
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.22), with 39% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 147,
+   "pctA": 39,
+   "pctBelowB": 11,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Kutz",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.18,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20106"
+  ]
+ },
+ "LEGALST 106WI": {
+  "course": "LEGALST 106WI",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.144
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 35,
+   "pctA": 71,
+   "pctBelowB": 3,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Kutz",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20106WI"
+  ]
+ },
+ "LEGALST 107": {
+  "course": "LEGALST 107",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.27), with 39% of letter grades in the A range. It usually has 3 scheduled midterms.",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 450,
+   "pctA": 39,
+   "pctBelowB": 9,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 80
+    },
+    {
+     "letter": "A-",
+     "count": 69
+    },
+    {
+     "letter": "B+",
+     "count": 103
+    },
+    {
+     "letter": "B",
+     "count": 69
+    },
+    {
+     "letter": "B-",
+     "count": 49
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Kutz",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.2,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.32,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Cheri Kruse",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.45,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Naomi Yitref",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.27,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Nikila Lakshmanan",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Sarah Song",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.27,
+    "midterms": 3,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Isabella Mariani",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.08,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Dorna Mohaghegh",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.08,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20107"
+  ]
+ },
+ "LEGALST 107WI": {
+  "course": "LEGALST 107WI",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 30,
+   "pctA": 87,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Kutz",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20107WI"
+  ]
+ },
+ "LEGALST 109": {
+  "course": "LEGALST 109",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.303
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.40), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 321,
+   "pctA": 48,
+   "pctBelowB": 6,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 58
+    },
+    {
+     "letter": "B+",
+     "count": 55
+    },
+    {
+     "letter": "B",
+     "count": 63
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Perry",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.34,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20109"
+  ]
+ },
+ "LEGALST 110": {
+  "course": "LEGALST 110",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.173
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.51), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 49,
+   "pctA": 67,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jonathan Simon",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Yoav Mehozay",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Anthony Platt",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20110"
+  ]
+ },
+ "LEGALST 113": {
+  "course": "LEGALST 113",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 76% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 26,
+   "pctA": 76,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kathryn Abrams",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20113"
+  ]
+ },
+ "LEGALST 119": {
+  "course": "LEGALST 119",
+  "difficulty": 3.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.221
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.063
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.19), with 45% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 86,
+   "pctA": 45,
+   "pctBelowB": 17,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Kinch Hoekstra",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.5,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.3,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20119"
+  ]
+ },
+ "LEGALST 12": {
+  "course": "LEGALST 12",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 81,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.75,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Douglas Sangster",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.8,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Brianne Felsher",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%2012"
+  ]
+ },
+ "LEGALST 122": {
+  "course": "LEGALST 122",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.224
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 98% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 89,
+   "pctA": 98,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 60
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chris Hoofnagle",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20122"
+  ]
+ },
+ "LEGALST 123": {
+  "course": "LEGALST 123",
+  "difficulty": 2.6,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 5.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.52), with 68% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 215,
+   "pctA": 68,
+   "pctBelowB": 8,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 54
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 5,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Maura Ernestina Lievano Nunez",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20123"
+  ]
+ },
+ "LEGALST 125": {
+  "course": "LEGALST 125",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 65% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 140,
+   "pctA": 65,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexa Koenig",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.55,
+    "midterms": 2,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20125"
+  ]
+ },
+ "LEGALST 127": {
+  "course": "LEGALST 127",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 57% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 56,
+   "pctA": 57,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kyle Deland",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20127"
+  ]
+ },
+ "LEGALST 129": {
+  "course": "LEGALST 129",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 22,
+   "pctA": 77,
+   "pctBelowB": 14,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Steven Solomon",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.57,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20129"
+  ]
+ },
+ "LEGALST 130": {
+  "course": "LEGALST 130",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 83% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 24,
+   "pctA": 83,
+   "pctBelowB": 6,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20130"
+  ]
+ },
+ "LEGALST 132AC": {
+  "course": "LEGALST 132AC",
+  "difficulty": 2.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 1.5/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.60), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 587,
+   "pctA": 72,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 241
+    },
+    {
+     "letter": "A-",
+     "count": 142
+    },
+    {
+     "letter": "B+",
+     "count": 72
+    },
+    {
+     "letter": "B",
+     "count": 42
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 1.5,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Leti Volpp",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lisa Knox",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.51,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Christina Lee",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.7,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.0,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20132AC"
+  ]
+ },
+ "LEGALST 134": {
+  "course": "LEGALST 134",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.139
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 56% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 33,
+   "pctA": 56,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Reinsberg",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20134"
+  ]
+ },
+ "LEGALST 135": {
+  "course": "LEGALST 135",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.39), with 63% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 141,
+   "pctA": 63,
+   "pctBelowB": 12,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Monica Castillejos Aragon",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20135"
+  ]
+ },
+ "LEGALST 136": {
+  "course": "LEGALST 136",
+  "difficulty": 2.8,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.277
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.2/5 for difficulty, 3.0/5 for workload and 4.2/5 for usefulness. The average grade is B+ (3.48), with 64% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 189,
+   "pctA": 64,
+   "pctBelowB": 8,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.2,
+   "workload": 3,
+   "usefulness": 4.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Rachel Stern",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.8,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20136"
+  ]
+ },
+ "LEGALST 137": {
+  "course": "LEGALST 137",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.50)",
+     "value": 2.4,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.50), with 53% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.5,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 53,
+   "pctBelowB": 3,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lindsay Harris",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20137"
+  ]
+ },
+ "LEGALST 138": {
+  "course": "LEGALST 138",
+  "difficulty": 3.1,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (12 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.247
+    },
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (12)",
+     "value": 2.9,
+     "weight": 0.106
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.1,
+     "weight": 0.035
+    },
+    {
+     "label": "Student usefulness rating (12 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.282
+    }
+   ]
+  },
+  "sentiment": "12 students on Berkeleytime rate it 3.0/5 for difficulty, 2.9/5 for workload and 3.8/5 for usefulness. The average grade is B+ (3.26), with 49% of letter grades in the A range. It usually has 8 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 8,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 941,
+   "pctA": 49,
+   "pctBelowB": 13,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 54
+    },
+    {
+     "letter": "A",
+     "count": 197
+    },
+    {
+     "letter": "A-",
+     "count": 180
+    },
+    {
+     "letter": "B+",
+     "count": 127
+    },
+    {
+     "letter": "B",
+     "count": 131
+    },
+    {
+     "letter": "B-",
+     "count": 76
+    },
+    {
+     "letter": "C+",
+     "count": 37
+    },
+    {
+     "letter": "C",
+     "count": 29
+    },
+    {
+     "letter": "C-",
+     "count": 16
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 17
+    },
+    {
+     "letter": "P",
+     "count": 53
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 12,
+   "difficulty": 3,
+   "workload": 2.9,
+   "usefulness": 3.8,
+   "recordedPct": 92,
+   "attendanceRequiredPct": 17
+  },
+  "byProfessor": [
+   {
+    "professor": "Kyle Deland",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "studentCount": 12,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Erwin Chemerinsky",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.44,
+    "midterms": 8,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Brittany Arsiniega",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.08,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Elizabeth Tejada",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Robert Brown",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20138"
+  ]
+ },
+ "LEGALST 140": {
+  "course": "LEGALST 140",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.252
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.26), with 39% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 128,
+   "pctA": 39,
+   "pctBelowB": 7,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20140"
+  ]
+ },
+ "LEGALST 141": {
+  "course": "LEGALST 141",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.205
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 41% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 71,
+   "pctA": 41,
+   "pctBelowB": 7,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Brilliant",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Steven Solomon",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20141"
+  ]
+ },
+ "LEGALST 142": {
+  "course": "LEGALST 142",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.278
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.46), with 60% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 193,
+   "pctA": 60,
+   "pctBelowB": 5,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20142"
+  ]
+ },
+ "LEGALST 143": {
+  "course": "LEGALST 143",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.162
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.33), with 62% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 43,
+   "pctA": 62,
+   "pctBelowB": 14,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Grewal",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20143"
+  ]
+ },
+ "LEGALST 144": {
+  "course": "LEGALST 144",
+  "difficulty": 2.9,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.139
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.04
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.29), with 42% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 33,
+   "pctA": 42,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Veronica Santarosa",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.29,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20144"
+  ]
+ },
+ "LEGALST 145": {
+  "course": "LEGALST 145",
+  "difficulty": 3.0,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B (3.14)",
+     "value": 3.6,
+     "weight": 0.321
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.2/5 for difficulty, 2.2/5 for workload and 4.2/5 for usefulness. The average grade is B (3.14), with 43% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.14,
+   "letter": "B",
+   "students": 545,
+   "pctA": 43,
+   "pctBelowB": 24,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 38
+    },
+    {
+     "letter": "A",
+     "count": 106
+    },
+    {
+     "letter": "A-",
+     "count": 70
+    },
+    {
+     "letter": "B+",
+     "count": 63
+    },
+    {
+     "letter": "B",
+     "count": 64
+    },
+    {
+     "letter": "B-",
+     "count": 39
+    },
+    {
+     "letter": "C+",
+     "count": 53
+    },
+    {
+     "letter": "C",
+     "count": 38
+    },
+    {
+     "letter": "C-",
+     "count": 22
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.2,
+   "workload": 2.2,
+   "usefulness": 4.2,
+   "recordedPct": 75,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.05,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 3.2,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Dhammika Dharmapala",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Peter Sester",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.3,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20145"
+  ]
+ },
+ "LEGALST 147": {
+  "course": "LEGALST 147",
+  "difficulty": 2.5,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.295
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.54), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 268,
+   "pctA": 60,
+   "pctBelowB": 6,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 67
+    },
+    {
+     "letter": "A-",
+     "count": 52
+    },
+    {
+     "letter": "B+",
+     "count": 54
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.57,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.3,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20147"
+  ]
+ },
+ "LEGALST 149": {
+  "course": "LEGALST 149",
+  "difficulty": 3.0,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.299
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.33), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 291,
+   "pctA": 52,
+   "pctBelowB": 13,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 78
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 39
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Sonia Katyal",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.21,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20149"
+  ]
+ },
+ "LEGALST 151": {
+  "course": "LEGALST 151",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.188
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 58,
+   "pctA": 47,
+   "pctBelowB": 11,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20151"
+  ]
+ },
+ "LEGALST 154": {
+  "course": "LEGALST 154",
+  "difficulty": 2.6,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.27
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.46), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 170,
+   "pctA": 66,
+   "pctBelowB": 10,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Rohini Haar",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Lisa Reinsberg",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Eric Stover",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Alexa Koenig",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.32,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20154"
+  ]
+ },
+ "LEGALST 157": {
+  "course": "LEGALST 157",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.299
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.33), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 294,
+   "pctA": 48,
+   "pctBelowB": 10,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 60
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 66
+    },
+    {
+     "letter": "B",
+     "count": 41
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Reinsberg",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.5,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Anthony Ghaly",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Daimeon Shanks-Dumont",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Ralph Madlalate",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.33,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Sarah Graham",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.17,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Smadar Ben-Natan",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.09,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20157"
+  ]
+ },
+ "LEGALST 158": {
+  "course": "LEGALST 158",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.294
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 265,
+   "pctA": 50,
+   "pctBelowB": 12,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 53
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 40
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20158"
+  ]
+ },
+ "LEGALST 159": {
+  "course": "LEGALST 159",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.20)",
+     "value": 3.4,
+     "weight": 0.3
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.20), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.2,
+   "letter": "B+",
+   "students": 297,
+   "pctA": 47,
+   "pctBelowB": 16,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 44
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 31
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sonia Katyal",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.12,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20159"
+  ]
+ },
+ "LEGALST 160": {
+  "course": "LEGALST 160",
+  "difficulty": 3.4,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 4.3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.7,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (21 on file)",
+     "value": 3.2,
+     "weight": 0.126
+    }
+   ]
+  },
+  "sentiment": "Reviewers disagree sharply. Fans call it one of the best classes, with detailed lectures and strong law school preparation, while critics find it stressful and strict. Expect 50 to 100 pages of reading weekly, required participation and tough exams. Doing the readings and attending lecture is the repeated advice.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 617,
+   "pctA": 59,
+   "pctBelowB": 13,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 58
+    },
+    {
+     "letter": "A",
+     "count": 181
+    },
+    {
+     "letter": "A-",
+     "count": 110
+    },
+    {
+     "letter": "B+",
+     "count": 74
+    },
+    {
+     "letter": "B",
+     "count": 55
+    },
+    {
+     "letter": "B-",
+     "count": 33
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 16
+    },
+    {
+     "letter": "D",
+     "count": 11
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 4.3,
+   "workload": 4.3,
+   "usefulness": 3.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristin Sangren",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.99,
+    "studentCount": 6,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.0,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Nicole Lindahl-Ruiz",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alessandro De Giorgi",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.67,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Jonathan Simon",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20160"
+  ]
+ },
+ "LEGALST 161": {
+  "course": "LEGALST 161",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.266
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 158,
+   "pctA": 61,
+   "pctBelowB": 15,
+   "pctPassNoPass": 49,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 73
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristin Sangren",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.21,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20161"
+  ]
+ },
+ "LEGALST 162AC": {
+  "course": "LEGALST 162AC",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 96% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 141,
+   "pctA": 96,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 109
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Julie Shackford-Bradley",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20162AC"
+  ]
+ },
+ "LEGALST 164": {
+  "course": "LEGALST 164",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.264
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 154,
+   "pctA": 71,
+   "pctBelowB": 8,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 66
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20164"
+  ]
+ },
+ "LEGALST 165": {
+  "course": "LEGALST 165",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.219
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 84,
+   "pctA": 94,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Julie Shackford-Bradley",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.91,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20165"
+  ]
+ },
+ "LEGALST 168": {
+  "course": "LEGALST 168",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.16)",
+     "value": 3.5,
+     "weight": 0.262
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.16), with 41% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.16,
+   "letter": "B+",
+   "students": 148,
+   "pctA": 41,
+   "pctBelowB": 18,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Leinauer",
+    "terms": 4,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.17,
+    "midterms": 1,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20168"
+  ]
+ },
+ "LEGALST 170": {
+  "course": "LEGALST 170",
+  "difficulty": 2.9,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.3/5 for difficulty, 3.0/5 for workload and 4.7/5 for usefulness. The average grade is B+ (3.49), with 61% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 625,
+   "pctA": 61,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 197
+    },
+    {
+     "letter": "A-",
+     "count": 146
+    },
+    {
+     "letter": "B+",
+     "count": 118
+    },
+    {
+     "letter": "B",
+     "count": 54
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.3,
+   "workload": 3,
+   "usefulness": 4.7,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicole Lindahl-Ruiz",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "studentCount": 6,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.9,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Hadar Aviram",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Brittany Arsiniega",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Elizabeth Tejada",
+    "terms": 2,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.57,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20170"
+  ]
+ },
+ "LEGALST 172AC": {
+  "course": "LEGALST 172AC",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 29,
+   "pctA": 72,
+   "pctBelowB": 3,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nazune Menka",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20172AC"
+  ]
+ },
+ "LEGALST 173AC": {
+  "course": "LEGALST 173AC",
+  "difficulty": 3.1,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.249
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.38), with 58% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 123,
+   "pctA": 58,
+   "pctBelowB": 9,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Tomlins",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.48,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20173AC"
+  ]
+ },
+ "LEGALST 174": {
+  "course": "LEGALST 174",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.254
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 51% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 133,
+   "pctA": 51,
+   "pctBelowB": 12,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ayelet Blecher",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Masua Sagiv",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Michal Tamir",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 2.81,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20174"
+  ]
+ },
+ "LEGALST 175": {
+  "course": "LEGALST 175",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Alexandra Havrylyshyn",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20175"
+  ]
+ },
+ "LEGALST 177": {
+  "course": "LEGALST 177",
+  "difficulty": 3.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 4.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 4.0/5 for difficulty, 4.5/5 for workload and 4.2/5 for usefulness. The average grade is B+ (3.30), with 49% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 410,
+   "pctA": 49,
+   "pctBelowB": 12,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 68
+    },
+    {
+     "letter": "B+",
+     "count": 53
+    },
+    {
+     "letter": "B",
+     "count": 68
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 4,
+   "workload": 4.5,
+   "usefulness": 4.2,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Aaron Hall",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dylan Penningroth",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.97,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Kyle Deland",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.46,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 2.95,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Douglas Sangster",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 2.95,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Bonnie Dumitrescu",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 2.68,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Anthony Carrasco",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.22,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Robert Brown",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20177"
+  ]
+ },
+ "LEGALST 180": {
+  "course": "LEGALST 180",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.191
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 60,
+   "pctA": 61,
+   "pctBelowB": 0,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20180"
+  ]
+ },
+ "LEGALST 181": {
+  "course": "LEGALST 181",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.234
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 43% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 101,
+   "pctA": 43,
+   "pctBelowB": 11,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20181"
+  ]
+ },
+ "LEGALST 182": {
+  "course": "LEGALST 182",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.267
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 162,
+   "pctA": 59,
+   "pctBelowB": 10,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 55
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Malcolm Feeley",
+    "terms": 4,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.35,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20182"
+  ]
+ },
+ "LEGALST 184": {
+  "course": "LEGALST 184",
+  "difficulty": 3.7,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B (3.06)",
+     "value": 3.8,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (21 on file)",
+     "value": 3.5,
+     "weight": 0.126
+    }
+   ]
+  },
+  "sentiment": "Students agree it is a lot of work, with long readings, annotations and detailed exams. Many find it rewarding, well organized and clearly graded, and say effort leads to good grades. Others find it overwhelming, with no slides posted, dry delivery and a rigid style. Office hours help.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.06,
+   "letter": "B",
+   "students": 406,
+   "pctA": 48,
+   "pctBelowB": 24,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 87
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 39
+    },
+    {
+     "letter": "B",
+     "count": 36
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 16
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 21
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristin Sangren",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.92,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 4.0,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.56,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Nandina Babic",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.89,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Daisy Trujillo",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.89,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Yen-Tung Lin",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.42,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Lucas Osborne",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.42,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20184"
+  ]
+ },
+ "LEGALST 185AC": {
+  "course": "LEGALST 185AC",
+  "difficulty": 2.1,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.199
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.057
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.95), with 93% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 66,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 59,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20185AC"
+  ]
+ },
+ "LEGALST 190": {
+  "course": "LEGALST 190",
+  "difficulty": 2.5,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 2.8/5 for difficulty, 3.0/5 for workload and 4.3/5 for usefulness. The average grade is A- (3.66), with 78% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 947,
+   "pctA": 78,
+   "pctBelowB": 5,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 164
+    },
+    {
+     "letter": "A",
+     "count": 407
+    },
+    {
+     "letter": "A-",
+     "count": 132
+    },
+    {
+     "letter": "B+",
+     "count": 85
+    },
+    {
+     "letter": "B",
+     "count": 51
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 17
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.8,
+   "workload": 3,
+   "usefulness": 4.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 83
+  },
+  "byProfessor": [
+   {
+    "professor": "Alan Pomerantz",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.84,
+    "studentCount": 3,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.4
+   },
+   {
+    "professor": "Monica Castillejos Aragon",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.76,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Kristin Sangren",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sanchita Saxena",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Nicole Lindahl-Ruiz",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.93,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.42,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Sonia Katyal",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Asad Rahim",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20190"
+  ]
+ },
+ "LEGALST 198": {
+  "course": "LEGALST 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jonathan Simon",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Christopher Tomlins",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alan Pomerantz",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Julie Shackford-Bradley",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Bruno Meyerhof Salama",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kyle Deland",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richard Perry",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Christopher Kutz",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20198"
+  ]
+ },
+ "LEGALST 199": {
+  "course": "LEGALST 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jonathan Simon",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Christopher Kutz",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kyle Deland",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alan Pomerantz",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dhammika Dharmapala",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Molly Van Houweling",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kirk Bansak",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20199"
+  ]
+ },
+ "LEGALST 39D": {
+  "course": "LEGALST 39D",
+  "difficulty": 2.2,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.278
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.6/5 for difficulty, 2.6/5 for workload and 4.2/5 for usefulness. The average grade is A- (3.83), with 89% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 193,
+   "pctA": 89,
+   "pctBelowB": 1,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 54
+    },
+    {
+     "letter": "A",
+     "count": 61
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.6,
+   "workload": 2.6,
+   "usefulness": 4.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 80
+  },
+  "byProfessor": [
+   {
+    "professor": "Alan Pomerantz",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.8,
+    "studentCount": 5,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.1,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%2039D"
+  ]
+ },
+ "LEGALST 39E": {
+  "course": "LEGALST 39E",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "David Grewal",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%2039E"
+  ]
+ },
+ "LEGALST 39H": {
+  "course": "LEGALST 39H",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Erwin Chemerinsky",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%2039H"
+  ]
+ },
+ "LEGALST 88": {
+  "course": "LEGALST 88",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.204
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.47), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 70,
+   "pctA": 57,
+   "pctBelowB": 11,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Dag MacLeod",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%2088"
+  ]
+ },
+ "LEGALST C134": {
+  "course": "LEGALST C134",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.236
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.37), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 104,
+   "pctA": 51,
+   "pctBelowB": 15,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Irene Bloemraad",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Sarah Song",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20C134"
+  ]
+ },
+ "LEGALST H195B": {
+  "course": "LEGALST H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Rachel Stern",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Sarah Song",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Jonathan Simon",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Calvin Morrill",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Catherine Albiston",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Kathryn Abrams",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Catherine Fisk",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20H195B"
+  ]
+ },
+ "LEGALST H195C": {
+  "course": "LEGALST H195C",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Calvin Morrill",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Yael Plitmann",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20H195C"
+  ]
+ },
+ "LEGALST R1B": {
+  "course": "LEGALST R1B",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.286
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.69), with 83% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 222,
+   "pctA": 83,
+   "pctBelowB": 4,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 103
+    },
+    {
+     "letter": "A-",
+     "count": 56
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jonathan Marshall",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Anthony Ghaly",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Margot Lipin",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Matthew Cannon",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Cheri Kruse",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nandina Babic",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.81,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Yael Plitmann",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Laura Ramirez",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LEGALST%20R1B"
+  ]
+ }
+}

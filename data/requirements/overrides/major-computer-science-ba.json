@@ -1,0 +1,32 @@
+{
+ "why": "The catalog states the Computer Science upper division rules as free text. The Design list and the 16-unit COMPSCI/ELENG/EECS rule are checkable, so they are written out here from that same text. Courses the text names that are no longer in the catalog (COMPSCI 182/W182, W186, EL ENG C128) are left to the self-check alternative.",
+ "source": ["https://undergraduate.catalog.berkeley.edu/programs/A5201U/requirements-ZFjjs"],
+ "replace": {
+  "design": {
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {"type": "filter", "minUnits": 4, "filter": {"courses": [
+      "COMPSCI 152", "COMPSCI 160", "COMPSCI 161", "COMPSCI 162", "COMPSCI 164", "COMPSCI 168", "COMPSCI 169A", "COMPSCI 169L",
+      "COMPSCI 180", "COMPSCI 184", "COMPSCI 186", "ELENG 130", "ELENG 140", "ELENG 143", "ELENG 192",
+      "EECS C106A", "EECS C106B", "EECS 149", "EECS 151"]}},
+     {"type": "manual", "text": "4 design units from an approved special topics or graduate course, or from a listed course that has since been renumbered (COMPSCI 182/W182, W186, EL ENG C128)"}
+    ]
+   }
+  },
+  "computer-science-electrical-engineering": {
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {"type": "filter", "minUnits": 8, "filter": {"subjects": ["COMPSCI"], "minNumber": 100, "maxNumber": 199,
+       "exclude": ["COMPSCI 195", "COMPSCI H195", "COMPSCI H196A", "COMPSCI H196B", "COMPSCI 197", "COMPSCI 198", "COMPSCI 199"]}},
+     {"type": "anyOf", "rules": [
+      {"type": "filter", "minUnits": 16, "filter": {"subjects": ["COMPSCI", "ELENG", "EECS"], "minNumber": 100, "maxNumber": 199,
+        "exclude": ["COMPSCI 195", "COMPSCI H195", "COMPSCI H196A", "COMPSCI H196B", "COMPSCI 197", "COMPSCI 198", "COMPSCI 199"]}},
+      {"type": "manual", "text": "16 upper division units reached by counting INFO 159, DATA 101 or STAT/DATA C100, the only courses outside COMPSCI/EL ENG/EECS that count"}
+     ]}
+    ]
+   }
+  }
+ }
+}

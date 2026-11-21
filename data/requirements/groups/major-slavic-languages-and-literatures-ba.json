@@ -1,0 +1,561 @@
+{
+ "id": "major-slavic-languages-and-literatures-ba",
+ "title": "Slavic Languages and Literatures BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25849U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25849U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25849U",
+ "choices": [
+  {
+   "id": "track",
+   "title": "Track",
+   "pick": 1,
+   "options": [
+    {
+     "id": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-croatian-serbian-czech-hungarian-polish-or-ukrainian-language",
+     "title": "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language"
+    },
+    {
+     "id": "czech-polish-bcs-track-concentration-in-russian-r-1865",
+     "title": "Czech, Polish, BCS Track: Concentration in Russian (R-1865)"
+    },
+    {
+     "id": "russian-language-and-literature-track",
+     "title": "Russian Language and Literature Track"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "- Students must complete one of the following three tracks.\n- Each course must be completed with a letter grade."
+ ],
+ "requirements": [
+  {
+   "id": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-cr",
+   "title": "Literature and Culture",
+   "section": "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language",
+   "choice": "track",
+   "option": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-croatian-serbian-czech-hungarian-polish-or-ukrainian-language",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SLAVIC 36",
+      "SLAVIC 39",
+      "SLAVIC 45",
+      "SLAVIC 46",
+      "SLAVIC 50"
+     ]
+    }
+   }
+  },
+  {
+   "id": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-cr-2",
+   "title": "Elementary Target Language",
+   "section": "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language",
+   "choice": "track",
+   "option": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-croatian-serbian-czech-hungarian-polish-or-ukrainian-language",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ARMENI 1A",
+      "ARMENI 1B",
+      "BOSCRSR 27A",
+      "BOSCRSR 27B",
+      "CZECH 26A",
+      "CZECH 26B",
+      "HUNGARI 1A",
+      "HUNGARI 1B",
+      "POLISH 25A",
+      "POLISH 25B",
+      "UKRAINI 1A",
+      "UKRAINI 1B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-cr-3",
+   "title": "Seminar",
+   "section": "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language",
+   "choice": "track",
+   "option": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-croatian-serbian-czech-hungarian-polish-or-ukrainian-language",
+   "rule": {
+    "type": "course",
+    "course": "SLAVIC 100"
+   }
+  },
+  {
+   "id": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-cr-4",
+   "title": "Intermediate Target Language",
+   "section": "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language",
+   "choice": "track",
+   "option": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-croatian-serbian-czech-hungarian-polish-or-ukrainian-language",
+   "notes": "Note: HUNGARI 100 and UKRAINI 100 must be taken twice if pursuing Hungarian or Ukrainian as a target language.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ARMENI 101A",
+      "ARMENI 101B",
+      "BOSCRSR 117A",
+      "BOSCRSR 117B",
+      "CZECH 116A",
+      "CZECH 116B",
+      "HUNGARI 100",
+      "POLISH 115A",
+      "POLISH 115B",
+      "UKRAINI 100"
+     ]
+    }
+   }
+  },
+  {
+   "id": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-cr-5",
+   "title": "Electives",
+   "section": "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language",
+   "choice": "track",
+   "option": "russian-east-european-and-eurasian-cultures-track-concentration-in-armenian-bcs-bosnian-croatian-serbian-czech-hungarian-polish-or-ukrainian-language",
+   "notes": "With permission of the Undergraduate Advisor, up to two upper-division language courses (taken in addition to the initial four semesters of language) or courses with readings in the original language may be counted among the electives.\nUp to two of the required five courses may be satisfied with SLAVIC 100L or SLAVIC 100R",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARMENI 102"
+     },
+     {
+      "type": "course",
+      "course": "ARMENI 124"
+     },
+     {
+      "type": "course",
+      "course": "ARMENI 126"
+     },
+     {
+      "type": "course",
+      "course": "CZECH 163"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 100L"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 100R"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 130"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 131"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 132"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 133"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 134A"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 134D"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 134E"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 134F"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 134G"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 134N"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 138"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 140"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 147A"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 147B"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 148"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 150"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 151"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 158"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 170"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 171"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 172"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SLAVIC C137"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C137"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SLAVIC C139"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C139"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "czech-polish-bcs-track-concentration-in-russian-r-1865-introduction-to-russian-east-europe",
+   "title": "Introduction to Russian, East European and Eurasian Cultures",
+   "section": "Czech, Polish, BCS Track: Concentration in Russian (R-1865)",
+   "choice": "track",
+   "option": "czech-polish-bcs-track-concentration-in-russian-r-1865",
+   "rule": {
+    "type": "course",
+    "course": "SLAVIC 50"
+   }
+  },
+  {
+   "id": "czech-polish-bcs-track-concentration-in-russian-r-1865-language",
+   "title": "Language",
+   "section": "Czech, Polish, BCS Track: Concentration in Russian (R-1865)",
+   "choice": "track",
+   "option": "czech-polish-bcs-track-concentration-in-russian-r-1865",
+   "notes": "Students must complete four semesters of one language in the area.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 16,
+    "filter": {
+     "courses": [
+      "ARMENI 1A",
+      "ARMENI 1B",
+      "ARMENI 101A",
+      "ARMENI 101B",
+      "BOSCRSR 117A",
+      "BOSCRSR 117B",
+      "BOSCRSR 27A",
+      "BOSCRSR 27B",
+      "CZECH 116A",
+      "CZECH 116B",
+      "CZECH 26A",
+      "CZECH 26B",
+      "HUNGARI 1A",
+      "HUNGARI 1B",
+      "HUNGARI 100",
+      "POLISH 115A",
+      "POLISH 115B",
+      "POLISH 25A",
+      "POLISH 25B",
+      "RUSSIAN 1",
+      "RUSSIAN 2",
+      "RUSSIAN 3",
+      "RUSSIAN 4"
+     ]
+    }
+   }
+  },
+  {
+   "id": "czech-polish-bcs-track-concentration-in-russian-r-1865-slavic-literature-and-culture",
+   "title": "Slavic Literature and Culture",
+   "section": "Czech, Polish, BCS Track: Concentration in Russian (R-1865)",
+   "choice": "track",
+   "option": "czech-polish-bcs-track-concentration-in-russian-r-1865",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SLAVIC 148"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 158"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 130"
+     }
+    ]
+   }
+  },
+  {
+   "id": "czech-polish-bcs-track-concentration-in-russian-r-1865-seminar",
+   "title": "Seminar",
+   "section": "Czech, Polish, BCS Track: Concentration in Russian (R-1865)",
+   "choice": "track",
+   "option": "czech-polish-bcs-track-concentration-in-russian-r-1865",
+   "rule": {
+    "type": "course",
+    "course": "SLAVIC 100"
+   }
+  },
+  {
+   "id": "czech-polish-bcs-track-concentration-in-russian-r-1865-electives",
+   "title": "Electives",
+   "section": "Czech, Polish, BCS Track: Concentration in Russian (R-1865)",
+   "choice": "track",
+   "option": "czech-polish-bcs-track-concentration-in-russian-r-1865",
+   "notes": "- Any SLAVIC 100-196 Level Course",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GEOG C55"
+     },
+     {
+      "type": "course",
+      "course": "MELC C26"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 129C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 141A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 141C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "russian-language-and-literature-track-russian-language",
+   "title": "Russian Language",
+   "section": "Russian Language and Literature Track",
+   "choice": "track",
+   "option": "russian-language-and-literature-track",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "RUSSIAN 1"
+     },
+     {
+      "type": "course",
+      "course": "RUSSIAN 2"
+     },
+     {
+      "type": "course",
+      "course": "RUSSIAN 3"
+     },
+     {
+      "type": "course",
+      "course": "RUSSIAN 4"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 45"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 46"
+     }
+    ]
+   }
+  },
+  {
+   "id": "russian-language-and-literature-track-seminar",
+   "title": "Seminar",
+   "section": "Russian Language and Literature Track",
+   "choice": "track",
+   "option": "russian-language-and-literature-track",
+   "rule": {
+    "type": "course",
+    "course": "SLAVIC 100"
+   }
+  },
+  {
+   "id": "russian-language-and-literature-track-advanced-russian-language",
+   "title": "Advanced Russian Language",
+   "section": "Russian Language and Literature Track",
+   "choice": "track",
+   "option": "russian-language-and-literature-track",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "RUSSIAN 103A",
+      "RUSSIAN 103B",
+      "RUSSIAN 120A",
+      "RUSSIAN 120B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "russian-language-and-literature-track-readings-in-russian",
+   "title": "Readings in Russian",
+   "section": "Russian Language and Literature Track",
+   "choice": "track",
+   "option": "russian-language-and-literature-track",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SLAVIC 180"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 181"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 182"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 188"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 190"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 191"
+     }
+    ]
+   }
+  },
+  {
+   "id": "russian-language-and-literature-track-russian-literature",
+   "title": "Russian Literature",
+   "section": "Russian Language and Literature Track",
+   "choice": "track",
+   "option": "russian-language-and-literature-track",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SLAVIC 131",
+      "SLAVIC 132",
+      "SLAVIC 133",
+      "SLAVIC 134A",
+      "SLAVIC 134B",
+      "SLAVIC 134C",
+      "SLAVIC 134D",
+      "SLAVIC 134E",
+      "SLAVIC 134F",
+      "SLAVIC 134G",
+      "SLAVIC 134N",
+      "SLAVIC 146"
+     ]
+    }
+   }
+  },
+  {
+   "id": "russian-language-and-literature-track-electives",
+   "title": "Electives",
+   "section": "Russian Language and Literature Track",
+   "choice": "track",
+   "option": "russian-language-and-literature-track",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SLAVIC 130",
+      "SLAVIC 131",
+      "SLAVIC 132",
+      "SLAVIC 133",
+      "SLAVIC 134A",
+      "SLAVIC 134B",
+      "SLAVIC 134C",
+      "SLAVIC 134D",
+      "SLAVIC 134E",
+      "SLAVIC 134F",
+      "SLAVIC 134F",
+      "SLAVIC 134G",
+      "SLAVIC 134N",
+      "SLAVIC 137",
+      "SLAVIC 138",
+      "SLAVIC 140",
+      "SLAVIC 146",
+      "SLAVIC 147A",
+      "SLAVIC 147B",
+      "SLAVIC 147B",
+      "SLAVIC 148",
+      "SLAVIC 150",
+      "SLAVIC 160",
+      "SLAVIC 170",
+      "SLAVIC 180",
+      "SLAVIC 181",
+      "SLAVIC 182",
+      "SLAVIC 188",
+      "SLAVIC 190"
+     ]
+    }
+   }
+  }
+ ]
+}

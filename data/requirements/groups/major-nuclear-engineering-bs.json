@@ -1,0 +1,393 @@
+{
+ "id": "major-nuclear-engineering-bs",
+ "title": "Nuclear Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16342U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16342U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16342U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "math-physics-engineering",
+   "title": "Math, Physics, Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 10"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A"
+    ]
+   }
+  },
+  {
+   "id": "electronic-circuits-elective",
+   "title": "Electronic Circuits Elective",
+   "section": "Lower Division Electives",
+   "notes": "- Students may not fulfill both core and elective requirements with the same course.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 11"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 111A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "NUCENG 100"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 101"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 104"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 150"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 170A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nuclear-engineering",
+   "title": "Nuclear Engineering",
+   "section": "Upper Division Electives",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Students admitted as first years must complete 29 technical elective units, which must include at least 17 units of upper-division nuclear engineering courses.\nJunior transfer admits must complete 26 technical elective units, which must include at least 14 units of upper-division nuclear engineering courses.\nThe remaining 12 technical elective units must be fulfilled by taking courses in engineering and science, of which a minimum of 9 units must be upper-division.\nFirst-year students … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "NUCENG 100"
+    ]
+   }
+  },
+  {
+   "id": "technical-electives",
+   "title": "Technical Electives",
+   "section": "Upper Division Electives",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Frosh-Entry students must complete 29 technical elective units which must include at least 17 units of upper division nuclear engineering courses. The remaining 12 technical elective units must be fulfilled by taking courses in engineering and science, of which a minimum of 9 units must be upper division.\nTransfer students must complete 26 technical elective units which must include at least 14 units of upper division nuclear engineering courses. … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "CHEM 100",
+     "MATH 100",
+     "DESINV 190E",
+     "NWMEDIA 136",
+     "ASTRON 7A",
+     "ASTRON 7B",
+     "BIOENG 10",
+     "BIOLOGY 1A",
+     "BIOLOGY 1AL",
+     "BIOLOGY 1B",
+     "CHEM 1B",
+     "CHEM 3A",
+     "CHEM 3B",
+     "CHEM 4B",
+     "CIVENG 11",
+     "CIVENG 60",
+     "CIVENG 70",
+     "CIVENG 93",
+     "CIVENG C30",
+     "CIVENG W30",
+     "COMPSCI C8",
+     "COMPSCI 61A",
+     "COMPSCI 61B",
+     "COMPSCI 61BL",
+     "COMPSCI 61C",
+     "COMPSCI 61CL",
+     "COMPSCI 70",
+     "DESINV 15",
+     "DESINV 22",
+     "DESINV 90E",
+     "EECS 16B",
+     "ENGIN 26",
+     "ENGIN 29",
+     "ENGIN 68",
+     "EPS 50",
+     "MATH 55",
+     "MCELLBI 32",
+     "MECENG C85",
+     "MECENG W85",
+     "PHYSICS 89",
+     "PHYSICS W89",
+     "STAT 20",
+     "STAT 21",
+     "BIOENG 100",
+     "BIOENG 153",
+     "CHEM 149",
+     "CHEM 192",
+     "COMPSCI 194",
+     "DATA C104",
+     "DATA 145",
+     "ENGIN 125",
+     "ENGIN 157AC",
+     "EPS C100",
+     "INDENG 171",
+     "INTEGBI 35AC",
+     "INTEGBI 101",
+     "INTEGBI C105",
+     "INTEGBI 191",
+     "MATH C103",
+     "MATH 151",
+     "MATH 152",
+     "MATH 153",
+     "MATH 160",
+     "MECENG 126",
+     "MECENG 191K",
+     "PHYSICS 100"
+    ]
+   }
+  },
+  {
+   "id": "statistics-data-analysis-elective",
+   "title": "Statistics/Data Analysis Elective",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C100"
+     },
+     {
+      "type": "course",
+      "course": "DATA C100"
+     },
+     {
+      "type": "course",
+      "course": "STAT C100"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "DATA C88S"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "DATA 88"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "EECS 126"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 178"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "STAT 133"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 156B"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 185"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 31"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100E"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 2"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 104"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 107"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 116"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "college-CHEM-coc-breadth-chemical-engineering",
+ "title": "College of Chemistry requirements (Chemical Engineering)",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/10294U"
+ ],
+ "catalogYear": "2026-27",
+ "college": "CHEM",
+ "variantOf": "college-CHEM",
+ "requirements": [
+  {
+   "id": "reading-and-composition",
+   "title": "Reading and Composition",
+   "notes": "Guidelines for Reading and Composition Courses\nIn order to provide a solid foundation in reading, writing, and critical thinking for work in the major, the College requires two semesters of lower division work in composition—Reading and Composition (R&C), Parts A and B, in sequential order.\n- All undergraduates should complete the Reading and Composition (R&C) requirement by the end of their fourth semester.\n- All courses used to satisfy Part A or B of Reading and Composition must be completed with a letter grade of C- or better.\n- Students who have been admitted to Berkeley and have not completed Entry Level Writing must enroll in College Writing R1A (6 units), which satisfies both Entry Level Writing and the first half of R&C. Please note: A minimum grade of C is required in COLWRIT R1A in order to satisfy the Entry Level Writing Requirement.\n- AGRS R44 (completed with a C- or higher) may be used to satisfy either Part A or Part B of R&C. This course may also be used to satisfy Arts and Literature, Historical Studies, or Social & Behavioral Sciences breadth.\n- With the exception of AGRS R44, courses fulfilling the Reading and Composition requirement may not be applied to Seven-Course Breadth.\nSatisfying Reading and Composition with an Exam\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 4 satisfies Part A\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 5 satisfies Parts A & B\n- Advanced Placement (AP) English Language and Composition - Score of 4 or 5 satisfies Part A\n- International Baccalaureate (IB) Higher Level (HL) English A: Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- Beginning with students admitted in fall 2018 - International Baccalaureate (IB) Higher Level (HL) English A: Language and Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- GCE A-Level English Literature exam - Not accepted for this requirement\n* The IB Literature and Performance exam, as well as the Standard Level (SL) exams in English A: Literature and English A: Language and Literature are NOT eligible for satisfaction of Reading and Composition.\nSatisfying Reading and Composition with Berkeley Courses\n- Successful completion with a C- grade or better of two designated Reading and Composition courses in sequence order. Review all approved below.\nSatisfying Reading and Composition Requirement with Transfer Courses\n- Transfer courses must be taken on a letter-graded basis and be completed with a grade of C- or better.\n- Students admitted with full CalGETC/UC IGETC Certification from a California Community College (CCC) or UC Reciprocity to the colleges of Chemistry, Computing, Data Science & Society, Education, Environmental Design, Letters & Science, and Rausser Natural Resources, as well as the School of Education, have satisfied Reading and Composition. No additional coursework is required.\n- Students can complete an articulated (pre-approved) Reading and Composition course at a CCC. Pre-approved courses can be found on ASSIST.\n- Current pre-approved Reading and Composition courses from outside of the California Community College System are published on the Transfer Evaluation System website.\nIt is advisable to refer to individual college/school advising websites regarding use of transfer courses before enrolling elsewhere to complete degree requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "coc-breadth-chemical-engineering",
+   "title": "COC Breadth: Chemical Engineering",
+   "notes": "The College of Chemistry’s humanities and social sciences breadth requirement for Chemical Engineering majors promotes educational experiences that enrich and complement the technical requirements.\n- 22 units total; includes Reading & Composition and American Cultures courses\n- As part of the 22 units, students must complete a two-course Breadth Series requirement, at least one being upper division, in the same or a very closely allied humanities or social science department(s).\n- Remaining units must come from the following L&S breadth areas, excluding courses which only teach a skill (such as drawing or playing an instrument):\n- Arts and Literature\n- Historical Studies\n- International Studies\n- Philosophy and Values\n- Social and Behavioral Sciences\nFor descriptions of these distribution areas, as well as more information on options to complete breadth, visit the L&S Breadth webpage.\n- Breadth courses may be taken on a Pass/No Pass basis (excluding Reading and Composition)\n- AP, IB, and GCE A-level exam credit may be used to satisfy the breadth requirement",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "units",
+      "minUnits": 22,
+      "filter": {
+       "attribute": "HSS"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Breadth Series: two courses in the same or closely allied humanities/social science department, at least one upper division"
+     },
+     {
+      "type": "manual",
+      "text": "Breadth units exclude courses that only teach a skill (for example drawing or playing an instrument)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "coc-unit-and-academic-requirements",
+   "title": "COC Unit and Academic Requirements",
+   "notes": "Class Schedule Requirements\n- Minimum units per semester: 13\n- Maximum units per semester: 20.5\n- 12 units of coursework each semester must satisfy degree requirements\n- Chemical Engineering freshmen and Chemistry majors are required to enroll in a minimum of one chemistry course each semester\n- After the freshman year, Chemical Engineering majors must enroll in a minimum of one chemical engineering course each semester\nSemester Limit\n- Students who entered as freshmen: 8 semesters\n- Chemistry & Chemical Biology majors who entered as transfer students: 4 semesters\n- Chemical Engineering and Joint majors who entered as transfer students: 5 semesters\nSummer sessions are excluded when determining the limit on semesters. Students who wish to delay graduation to complete a minor, a double major, or simultaneous degrees must request approval for delay of graduation before what would normally be their final two semesters. The College of Chemistry does not have a rule regarding maximum units that a student can accumulate.\nSenior Residence\nAfter 90 units toward the bachelor’s degree have been completed, at least 24 of the remaining units must be completed in residence in the College of Chemistry, in at least two semesters (the semester in which the 90 units are exceeded, plus at least one additional semester).\nTo count as a semester of residence for this requirement, a program must include at least 4 units of successfully completed courses. A summer session can be credited as a semester in residence if this minimum unit requirement is satisfied.\nJuniors and seniors who participate in the UC Education Abroad Program (EAP) for a full year may meet a modified senior residence requirement. After 60 units toward the bachelor’s degree have been completed, at least 24 (excluding EAP) of the remaining units must be completed in residence in the College of Chemistry, in at least two semesters. At least 12 of the 24 units must be completed after the student has already completed 90 units. Undergraduate Dean’s approval for the modified senior residence requirement must be obtained before enrollment in the Education Abroad Program.\nMinimum Total Units\nA student must successfully complete at least 120 semester units in order to graduate.\nMinimum Academic Requirements\nA student must earn at least a C average (2.0 GPA) in all courses undertaken at UC, including those from UC Summer Sessions, UC Education Abroad Program, and UC Berkeley Washington Program, as well as XB courses from University Extension.\nMinimum Course Grade Requirements\nStudents in the College of Chemistry who receive a grade of D+ or lower in a chemical engineering or chemistry course for which a grade of C- or higher is required must repeat the course at Berkeley.\nStudents in the College of Chemistry must achieve:\n- C- or higher in CHEM 4A before taking CHEM 4B\n- C- or higher in CHEM 4B before taking more advanced courses\n- C- or higher in CHEM 12A before taking CHEM 12B\n- GPA of at least 2.0 in all courses taken in the college in order to advance to and continue in the upper division\nChemistry or Chemical Biology majors must also achieve:\n- C- or higher in CHEM 120A and CHEM 120B if taken before CHEM 125 or CHEM C182",
+   "rule": {
+    "type": "manual",
+    "text": "College of Chemistry unit load, semester limit and senior residence rules are met (see notes)"
+   }
+  }
+ ]
+}

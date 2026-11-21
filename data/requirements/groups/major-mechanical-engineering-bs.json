@@ -1,0 +1,448 @@
+{
+ "id": "major-mechanical-engineering-bs",
+ "title": "Mechanical Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16330U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16330U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16330U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "no-concentration",
+     "title": "No concentration"
+    },
+    {
+     "id": "aerospace-engineering",
+     "title": "Aerospace Engineering"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all upper division technical courses taken in satisfaction of major requirements.\n- Students cannot overlap technical courses for multiple requirements.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "math-physics-and-chemistry",
+   "title": "Math, Physics, and Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 4A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "notes": "ENGIN 26 is optional for junior transfer student admits.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 26"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 29"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 178"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 102B"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 103"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 108"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 109"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-elective-units",
+   "title": "Technical Elective Units",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "manual",
+    "text": "15 units of technical electives are required and must be chosen from the approved technical elective list. Courses not on this list may be approved via petition. At least 12 of the 15 units must be upper division. At least 9 of the 12 upper division units must be from ME-sponsored courses."
+   }
+  },
+  {
+   "id": "technical-design",
+   "title": "Technical Design",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 3 credits from the following:\n- AEROENG C184\n- ART C166\n- BIOENG C117, C119, C137\n- CHMENG 150B, 154, 160, 162\n- CIVENG C138, 122, 123, 124, 153, 180, 186, 191\n- COMPSCI 160\n- DESINV190E\n- EECSC106A\n- ELENGC128, 192\n- ENGIN 128\n- INDENG170\n- MECENG 101, C106A, 110, C117, 118, 119, 130, 133, C134, 135, 139, 146, 151, 165, C176, C178, 179, C184\n- NWMEDIAC166",
+    "mentionedCourses": [
+     "AEROENG C184",
+     "ART C166",
+     "BIOENG C117",
+     "BIOENG C119",
+     "BIOENG C137",
+     "CHMENG 150B",
+     "CHMENG 154",
+     "CHMENG 160",
+     "CHMENG 162",
+     "CIVENG C138",
+     "CIVENG 122",
+     "CIVENG 123",
+     "CIVENG 124",
+     "CIVENG 153",
+     "CIVENG 180",
+     "CIVENG 186",
+     "CIVENG 191",
+     "COMPSCI 160",
+     "ENGIN 128",
+     "MECENG 101",
+     "MECENG C106A",
+     "MECENG 110",
+     "MECENG C117",
+     "MECENG 118",
+     "MECENG 119",
+     "MECENG 130",
+     "MECENG 133",
+     "MECENG C134",
+     "MECENG 135",
+     "MECENG 139",
+     "MECENG 146",
+     "MECENG 151",
+     "MECENG 165",
+     "MECENG C176",
+     "MECENG C178",
+     "MECENG 179",
+     "MECENG C184"
+    ]
+   }
+  },
+  {
+   "id": "quantitative-science",
+   "title": "Quantitative Science",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "minUnits": 3,
+    "filter": {
+     "courses": [
+      "AEROENG C127",
+      "AEROENG C136",
+      "AEROENG C162",
+      "CHMENG 162",
+      "CIVENG 120",
+      "CIVENG 121",
+      "CIVENG C133",
+      "COMPSCI 189",
+      "ELENG 105",
+      "ELENG 121",
+      "ELENG 126",
+      "ELENG 127",
+      "ELENG 144",
+      "ENGIN 117",
+      "ENGIN 120",
+      "ENGIN 150",
+      "ENGIN 177",
+      "INDENG 115",
+      "INDENG 120",
+      "INDENG 130",
+      "INDENG 135",
+      "INDENG 142",
+      "INDENG 142B",
+      "INDENG 145",
+      "INDENG 150",
+      "INDENG 151",
+      "INDENG 153",
+      "INDENG 156",
+      "INDENG 160",
+      "INDENG 162",
+      "INDENG 164",
+      "INDENG 165",
+      "INDENG 166",
+      "INDENG 172",
+      "MECENG C106A",
+      "MECENG 120",
+      "MECENG C127",
+      "MECENG 131",
+      "MECENG C136",
+      "MECENG 139",
+      "MECENG C162",
+      "MECENG 150",
+      "MECENG 163",
+      "MECENG C166",
+      "MECENG C180",
+      "MECENG 193B",
+      "MATH C103",
+      "MATH 104",
+      "MATH H104",
+      "MATH 105",
+      "MATH 106",
+      "MATH 110",
+      "MATH H110",
+      "MATH 113",
+      "MATH H113",
+      "MATH 114",
+      "MATH 115",
+      "MATH 116",
+      "MATH 118",
+      "MATH 121A",
+      "MATH 121B",
+      "MATH 123",
+      "MATH 124",
+      "MATH 125A",
+      "MATH 126",
+      "MATH 127",
+      "MATH 128A",
+      "MATH 128B",
+      "MATH W128A",
+      "MATH 130",
+      "MATH 135",
+      "MATH 136",
+      "MATH 140",
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 151",
+      "MATH 152",
+      "MATH 156",
+      "MATH 170",
+      "MATH 172",
+      "MATH 185",
+      "MATH H185",
+      "MATH 189",
+      "STAT C131A",
+      "STAT 133",
+      "STAT 134",
+      "STAT 135",
+      "STAT C140",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 154",
+      "STAT 155",
+      "STAT 158",
+      "STAT 159"
+     ]
+    }
+   }
+  },
+  {
+   "id": "upper-division-mechanical-engineering-units",
+   "title": "Upper Division Mechanical Engineering Units",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Complete a minimum of 9 units from the Technical Electives list.\nLower Division Options\n3 units can be chosen from this list:\n- ASTRO 7A, 7B\n- BIO ENG 10\n- BIOLOGY 1A + 1AL, 1B\n- CHEM 1B, CHEM 3A*, 3B, 4B\n- CIV ENG 11, 60, 70, 93\n- COMPSCI C8, 61A, 61B, 61C, 70\n- DES INV 15, 90E\n- EPS 50\n- ELENG 64\n- ENGIN 11\n- LS C30Z\n- MATH 55\n- MCELLBI C32*\n- MSE 45\n- PHYSICS 7C\n- STAT 20, 21\n* = no lab required for fulfillment of tech elective for lower div course",
+    "mentionedCourses": [
+     "BIOENG 10",
+     "BIOLOGY 1A",
+     "CHEM 1B",
+     "CHEM 3A",
+     "CIVENG 11",
+     "CIVENG 60",
+     "CIVENG 70",
+     "CIVENG 93",
+     "COMPSCI C8",
+     "COMPSCI 61A",
+     "COMPSCI 61B",
+     "COMPSCI 61C",
+     "COMPSCI 70",
+     "DESINV 15",
+     "DESINV 90E",
+     "EPS 50",
+     "ELENG 64",
+     "ENGIN 11",
+     "LS C30Z",
+     "MATH 55",
+     "PHYSICS 7C",
+     "STAT 20",
+     "STAT 21"
+    ]
+   }
+  },
+  {
+   "id": "aerospace-engineering-aerospace-technical-electives",
+   "title": "Aerospace Technical Electives",
+   "section": "Aerospace Engineering",
+   "choice": "concentration",
+   "option": "aerospace-engineering",
+   "notes": "Students may choose to complete the Aerospace Engineering concentration as part of their technical electives.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AEROENG C162"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C162"
+       },
+       {
+        "type": "course",
+        "course": "MECENG 163"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AEROENG C127"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C127"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AEROENG C136"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C136"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

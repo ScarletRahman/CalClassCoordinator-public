@@ -1,0 +1,288 @@
+{
+ "id": "major-business-administration-bs",
+ "title": "Business Administration BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/70141U",
+  "https://undergraduate.catalog.berkeley.edu/programs/70141U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/70141U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "70141U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "no-concentration",
+     "title": "No concentration"
+    },
+    {
+     "id": "global-management-program",
+     "title": "Global Management Program"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "General Guidelines\n- A minimum of 38 upper division business units are required, and a minimum of 12 upper division non-business units are required.\n- Haas students must adhere to the 7-course breadth guidelines outlined on the Haas Undergraduate Program website. Breadth courses must be completed with at least a C- or P grades.\n- No more than 16 units total in courses numbered 98, 99, 197, 198, and 199 may be used to satisfy degree requirements.\n- Students must complete the degree program in four semesters, not including Summer Session.\n- All Haas business courses must be taken for a letter grade, including core substitutions, with the exception of UGBA 194, UGBA 198, AND UGBA 199 (only offered Pass/No Pass).\n- No more than 1/3 of a student's total UC Berkeley units may be taken Pass/No Pass, including physical education courses, Education Abroad Program, or courses taken on another UC campus.\n- Students who receive a grade of D+ or lower in a core course must repeat the course until they achieve a grade of C- or better.\n- A minimum overall grade point average (GPA) of 2.0 is required for graduation."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 16A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 16B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "MATH 56"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "section": "Lower Division Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Lower Division Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DATA C131A"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 178"
+       },
+       {
+        "type": "course",
+        "course": "STAT 20"
+       },
+       {
+        "type": "course",
+        "course": "STAT 21"
+       },
+       {
+        "type": "course",
+        "course": "STAT W21"
+       },
+       {
+        "type": "course",
+        "course": "STAT C131A"
+       },
+       {
+        "type": "course",
+        "course": "STAT 134"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "filter",
+      "count": 2,
+      "filter": {
+       "courses": [
+        "COMPSCI C8",
+        "DATA C8",
+        "DATA C88S",
+        "DATA 89",
+        "INFO C8",
+        "STAT C8",
+        "STAT C88S",
+        "UGBA 88"
+       ]
+      },
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "business-principles",
+   "title": "Business Principles",
+   "section": "Lower Division Prerequisites",
+   "notes": "Students admitted directly to the Haas Undergraduate Business Program must complete UGBA 10X at UC Berkeley.\nContinuing students admitted to the Haas Undergraduate Business Program from a different UC Berkeley program may use a transfer course to complete this requirement. Talk to an advisor for more information.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "UGBA 10X"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 10"
+     }
+    ]
+   },
+   "overridden": true
+  },
+  {
+   "id": "upper-division",
+   "title": "Upper Division",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "UGBA 100"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 101A"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 101B"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 102A"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 102B"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 103"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 104"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 105"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 106"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 107"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-management-program-international-business-courses",
+   "title": "International Business Courses",
+   "section": "Global Management Program",
+   "choice": "concentration",
+   "option": "global-management-program",
+   "notes": "UGBA 78G and UGBA 179G count towards the 8 units of International Business Courses.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 8,
+    "filter": {
+     "courses": [
+      "ECON 115",
+      "ECON 151",
+      "ECON C181",
+      "ECON 162",
+      "ENVECON 152",
+      "ENVECON C181",
+      "POLSCI 126A",
+      "POLSCI 138E",
+      "UGBA 78G",
+      "UGBA 117",
+      "UGBA 118",
+      "UGBA 137",
+      "UGBA 157",
+      "UGBA 167",
+      "UGBA 177",
+      "UGBA 179",
+      "UGBA 179G",
+      "UGBA 178",
+      "UGBA 192T",
+      "UGBA 196"
+     ]
+    }
+   }
+  },
+  {
+   "id": "global-management-program-international-area-studies",
+   "title": "International Area Studies",
+   "section": "Global Management Program",
+   "choice": "concentration",
+   "option": "global-management-program",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 8 credits from the following:\n- Any upper division course that meets the International Studies general education requirement, excluding UGBA 118 and UGBA 178\n- HISTORY 15\n- MEDIAST 114\n- POLSCI 2\n- THEATER 20U",
+    "mentionedCourses": [
+     "MEDIAST 114",
+     "POLSCI 2",
+     "THEATER 20U"
+    ]
+   }
+  }
+ ]
+}

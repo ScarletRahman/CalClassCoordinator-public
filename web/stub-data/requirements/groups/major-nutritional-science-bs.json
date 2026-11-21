@@ -1,0 +1,191 @@
+{
+  "id": "major-nutritional-science-bs",
+  "title": "Nutritional Science: Physiology & Metabolism BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/nutritional-sciences/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "general-chemistry",
+      "title": "General chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 1A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 1AL"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 1B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 3A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 3AL"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 3B"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 3BL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biology",
+      "title": "General biology",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOLOGY 1A"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1AL"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro-nutrition",
+      "title": "Introduction to Human Nutrition",
+      "rule": {
+        "type": "course",
+        "course": "NUSCTX 10"
+      }
+    },
+    {
+      "id": "physiology",
+      "title": "Physiology",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MCELLBI 32"
+          },
+          {
+            "type": "course",
+            "course": "INTEGBI 132"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biochem",
+      "title": "Biochemistry",
+      "rule": {
+        "type": "course",
+        "course": "MCELLBI 102"
+      }
+    },
+    {
+      "id": "nutrition-core",
+      "title": "Nutrition core",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "NUSCTX 103"
+          },
+          {
+            "type": "course",
+            "course": "NUSCTX 160"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nusctx-electives",
+      "title": "Nutrition electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "NUSCTX"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "NUSCTX 103",
+            "NUSCTX 160"
+          ]
+        },
+        "count": 2
+      }
+    }
+  ]
+}

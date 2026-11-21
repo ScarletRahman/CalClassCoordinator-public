@@ -1,0 +1,1281 @@
+{
+ "id": "major-media-studies-ba",
+ "title": "Media Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252A9U",
+  "https://undergraduate.catalog.berkeley.edu/programs/252A9U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "252A9U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "digital-studies",
+     "title": "Digital Studies"
+    },
+    {
+     "id": "global-cultural-studies",
+     "title": "Global Cultural Studies"
+    },
+    {
+     "id": "media-law-and-policy",
+     "title": "Media Law and Policy"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "introduction-to-media-studies",
+   "title": "Introduction to Media Studies",
+   "section": "Lower Division",
+   "notes": "Students must complete each lower division course with a letter grade.\nA minimum grade of C is required.\nMEDIAST10 must be taken at UC Berkeley.",
+   "rule": {
+    "type": "course",
+    "course": "MEDIAST 10"
+   }
+  },
+  {
+   "id": "post-civil-war-u-s-history",
+   "title": "Post Civil War U.S. History",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "HISTORY 7B"
+     },
+     {
+      "type": "course",
+      "course": "XHISTOR 7B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 124A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 124B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 131B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "american-institutions",
+   "title": "American Institutions",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "XPOLSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI N1AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "introduction-to-social-sciences-and-humanities",
+   "title": "Introduction to Social Sciences and Humanities",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 3"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 3AC"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 20"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 20A"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 20B"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 20C"
+     },
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 1"
+     },
+     {
+      "type": "course",
+      "course": "XPSYCH 1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH N1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 2"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 10"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 20"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "XSOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 26"
+     }
+    ]
+   }
+  },
+  {
+   "id": "media-history",
+   "title": "Media History",
+   "section": "Core Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MEDIAST 111"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 111B"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 111C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "media-theories-and-processes",
+   "title": "Media Theories and Processes",
+   "section": "Core Courses",
+   "rule": {
+    "type": "course",
+    "course": "MEDIAST 112"
+   }
+  },
+  {
+   "id": "media-and-democracy",
+   "title": "Media and Democracy",
+   "section": "Core Courses",
+   "rule": {
+    "type": "course",
+    "course": "MEDIAST 113"
+   }
+  },
+  {
+   "id": "media-and-globalization",
+   "title": "Media and Globalization",
+   "section": "Core Courses",
+   "rule": {
+    "type": "course",
+    "course": "MEDIAST 114"
+   }
+  },
+  {
+   "id": "digital-studies-ds-1-research-methodologies",
+   "title": "DS.1 Research Methodologies",
+   "section": "Digital Studies",
+   "choice": "concentration",
+   "option": "digital-studies",
+   "notes": "Research methods courses taken at California community colleges, including STAT 2 equivalents, may not satisfy this requirement.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ART 178"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C6"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 180"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 220"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 132"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 127"
+     },
+     {
+      "type": "course",
+      "course": "STAT 2"
+     },
+     {
+      "type": "course",
+      "course": "STAT 20"
+     },
+     {
+      "type": "course",
+      "course": "STAT 21"
+     }
+    ]
+   }
+  },
+  {
+   "id": "digital-studies-ds-2-virtual-communities-and-social-media",
+   "title": "DS. 2 Virtual Communities and Social Media",
+   "section": "Digital Studies",
+   "choice": "concentration",
+   "option": "digital-studies",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 134"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM C134"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C134"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 182A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 182AT"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 182CT"
+     },
+     {
+      "type": "course",
+      "course": "INFO 103"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100D"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100J"
+     },
+     {
+      "type": "course",
+      "course": "ISF C100G"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 111"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 104E"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 165"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 168"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 166"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 167"
+     },
+     {
+      "type": "course",
+      "course": "STS C100"
+     },
+     {
+      "type": "course",
+      "course": "STS C101"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 118AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "digital-studies-ds-3-digital-projects-and-digital-storytelling",
+   "title": "DS 3: Digital Projects and Digital Storytelling",
+   "section": "Digital Studies",
+   "choice": "concentration",
+   "option": "digital-studies",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ART C166"
+     },
+     {
+      "type": "course",
+      "course": "DIGHUM 150A"
+     },
+     {
+      "type": "course",
+      "course": "FILM 155"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 103"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 118"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C183"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 110"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 115"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 122"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 124"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 222"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 101"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 138"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 131"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 132"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA C166"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA C183"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 200"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 201"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA C203"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 204"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 205"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA C262"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA C265"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 114"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-cultural-studies-gcs-1-research-methodologies",
+   "title": "GCS.1 Research Methodologies",
+   "section": "Global Cultural Studies",
+   "choice": "concentration",
+   "option": "global-cultural-studies",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GLOBAL 102"
+     },
+     {
+      "type": "course",
+      "course": "GWS 101"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 130"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 131"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 110"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-cultural-studies-gcs-2-visual-culture",
+   "title": "GCS.2 Visual Culture",
+   "section": "Global Cultural Studies",
+   "choice": "concentration",
+   "option": "global-cultural-studies",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 142A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 142AC"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 144"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 138A"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 171"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135A"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135B"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135C"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 172"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 188"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 181"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 183"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 173"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 122AC"
+     },
+     {
+      "type": "course",
+      "course": "FILM 125"
+     },
+     {
+      "type": "course",
+      "course": "FILM 129"
+     },
+     {
+      "type": "course",
+      "course": "FILM 135"
+     },
+     {
+      "type": "course",
+      "course": "FILM 145"
+     },
+     {
+      "type": "course",
+      "course": "FILM 160"
+     },
+     {
+      "type": "course",
+      "course": "FILM 170"
+     },
+     {
+      "type": "course",
+      "course": "FILM 170AC"
+     },
+     {
+      "type": "course",
+      "course": "FILM 171"
+     },
+     {
+      "type": "course",
+      "course": "FILM 172"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 177A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C183"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 100S"
+     },
+     {
+      "type": "course",
+      "course": "GWS 125"
+     },
+     {
+      "type": "course",
+      "course": "GWS 126"
+     },
+     {
+      "type": "course",
+      "course": "GWS C146B"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 170"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 175"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 188"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 189"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 185"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 186"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 187"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 188"
+     },
+     {
+      "type": "course",
+      "course": "LGBT C146B"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 101"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 138"
+     },
+     {
+      "type": "course",
+      "course": "MELC 165"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 120AC"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 158"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA C183"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 130"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 131T"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 132T"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 136"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 137"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 138"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 139"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 145"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 115"
+     },
+     {
+      "type": "course",
+      "course": "SSEASN 140N"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 118AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 151A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-cultural-studies-gcs-3-popular-culture",
+   "title": "GCS.3 Popular Culture",
+   "section": "Global Cultural Studies",
+   "choice": "concentration",
+   "option": "global-cultural-studies",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AMERSTD 101"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 101AC"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 102"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 102AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 156B"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 132"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 132AC"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 138"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 178"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 174"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 176"
+     },
+     {
+      "type": "course",
+      "course": "GWS C146A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 122AC"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 178"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 109"
+     },
+     {
+      "type": "course",
+      "course": "LGBT C146A"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 170"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 175"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 166AC"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 171"
+     },
+     {
+      "type": "course",
+      "course": "SEASIAN 167"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 160"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 163"
+     }
+    ]
+   }
+  },
+  {
+   "id": "media-law-and-policy-mlp-1-research-methodologies",
+   "title": "MLP.1 Research Methodologies",
+   "section": "Media Law and Policy",
+   "choice": "concentration",
+   "option": "media-law-and-policy",
+   "notes": "Research methods courses taken at California community colleges, including Sociology 5 equivalents, may not satisfy this requirement.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON C3"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C1"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 130"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 3"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI W3"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 101"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "media-law-and-policy-mlp-2-institutions",
+   "title": "MLP.2 Institutions",
+   "section": "Media Law and Policy",
+   "choice": "concentration",
+   "option": "media-law-and-policy",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 134"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM C134"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C134"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C172"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 183"
+     },
+     {
+      "type": "course",
+      "course": "FILM 177"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 160B"
+     },
+     {
+      "type": "course",
+      "course": "INFO 134"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100H"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 136"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 104B"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 104E"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 180"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST N180"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 133"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 106A"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 110"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 117"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 106"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 160"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C172"
+     }
+    ]
+   }
+  },
+  {
+   "id": "media-law-and-policy-mlp-3-citizenship",
+   "title": "MLP.3 Citizenship",
+   "section": "Media Law and Policy",
+   "choice": "concentration",
+   "option": "media-law-and-policy",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 156A"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 132"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 132AC"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "GWS 116AC"
+     },
+     {
+      "type": "course",
+      "course": "GWS 132AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "INFO 188"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100I"
+     },
+     {
+      "type": "course",
+      "course": "LS C180U"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 104D"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 133"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 161"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 164A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI W164A"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 192AC"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C103"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 114"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 140"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 145"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 145AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 145L"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 148"
+     }
+    ]
+   }
+  },
+  {
+   "id": "additional-electives",
+   "title": "Additional Electives",
+   "section": "Upper Division Electives: All Concentrations",
+   "notes": "Students are encouraged to take approved electives offered by Media Studies and other departments and programs. Students may not take more than two upper-division courses in the same outside department or program to ensure an interdisciplinary mix of courses; combined/cross-listed courses count as all departments and programs offering the course. … (see the catalog for the rest)",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "AFRICAM 134",
+      "AFRICAM 142A",
+      "AFRICAM 142AC",
+      "AFRICAM 144",
+      "AFRICAM C134",
+      "AMERSTD 101",
+      "AMERSTD 101AC",
+      "AMERSTD 102",
+      "AMERSTD 102AC",
+      "AMERSTD C134",
+      "AMERSTD C172",
+      "ANTHRO 138A",
+      "ANTHRO 156A",
+      "ANTHRO 156B",
+      "ART 178",
+      "ART C166",
+      "ASAMST 132",
+      "ASAMST 132AC",
+      "ASAMST 138",
+      "ASAMST 171",
+      "ASAMST 178",
+      "CHICANO 135A",
+      "CHICANO 135B",
+      "CHICANO 135C",
+      "CHINESE 172",
+      "CHINESE 188",
+      "DEMOG 180",
+      "EALANG 181",
+      "EDUC 183",
+      "ENGLISH 173",
+      "ENGLISH 174",
+      "ENGLISH 176",
+      "ETHSTD 122AC",
+      "FILM 125",
+      "FILM 129",
+      "FILM 135",
+      "FILM 145",
+      "FILM 155",
+      "FILM 160",
+      "FILM 170",
+      "FILM 170AC",
+      "FILM 171",
+      "FILM 172",
+      "FILM 177",
+      "FRENCH 177A",
+      "GEOG C152",
+      "GERMAN 160B",
+      "GLOBAL 100S",
+      "GLOBAL 102",
+      "GWS 101",
+      "GWS 116AC",
+      "GWS 125",
+      "GWS 126",
+      "GWS 132AC",
+      "GWS C146A",
+      "GWS C146B",
+      "HISTORY 122AC",
+      "HISTORY C176",
+      "HISTORY C182A",
+      "INFO 103",
+      "INFO 134",
+      "INFO 188",
+      "ISF 100D",
+      "ISF 100H",
+      "ISF 100I",
+      "ISF 100J",
+      "ISF C145",
+      "ITALIAN 170",
+      "ITALIAN 175",
+      "JAPAN 178",
+      "JAPAN 185",
+      "JAPAN 188",
+      "JAPAN 189",
+      "JOURN 110",
+      "JOURN 111",
+      "JOURN 115",
+      "JOURN 122",
+      "JOURN 124",
+      "JOURN 136",
+      "KOREAN 109",
+      "KOREAN 185",
+      "KOREAN 186",
+      "KOREAN 187",
+      "KOREAN 188",
+      "LGBT C146A",
+      "LGBT C146B",
+      "LS C180U",
+      "MEDIAST 101",
+      "MEDIAST 104B",
+      "MEDIAST 104D",
+      "MEDIAST 104E",
+      "MEDIAST 130",
+      "MEDIAST 131",
+      "MEDIAST 132",
+      "MEDIAST 165",
+      "MEDIAST 168",
+      "MEDIAST 170",
+      "MEDIAST 180",
+      "MEDIAST 190",
+      "MEDIAST N180",
+      "MELC 165",
+      "NATAMST 120AC",
+      "NWMEDIA 151AC",
+      "NWMEDIA 200",
+      "NWMEDIA 201",
+      "NWMEDIA 204",
+      "NWMEDIA 205",
+      "NWMEDIA C166",
+      "POLSCI 106A",
+      "POLSCI 161",
+      "POLSCI 164A",
+      "POLSCI W164A",
+      "PSYCH 166AC",
+      "PUBPOL 101",
+      "PUBPOL 192AC",
+      "PUBPOL C103",
+      "RHETOR 114",
+      "RHETOR 130",
+      "RHETOR 131T",
+      "RHETOR 132T",
+      "RHETOR 136",
+      "RHETOR 137",
+      "RHETOR 138",
+      "RHETOR 139",
+      "RHETOR 145",
+      "RHETOR 171",
+      "SCANDIN 115",
+      "SCANDIN 127",
+      "SEASIAN 167",
+      "SOCIOL 110",
+      "SOCIOL 114",
+      "SOCIOL 117",
+      "SOCIOL 140",
+      "SOCIOL 141",
+      "SOCIOL 145",
+      "SOCIOL 145AC",
+      "SOCIOL 145L",
+      "SOCIOL 148",
+      "SOCIOL 160",
+      "SOCIOL 163",
+      "SOCIOL 166",
+      "SOCIOL 167",
+      "SSEASN 140N",
+      "STS C101",
+      "THEATER 118AC",
+      "THEATER 151A",
+      "UGBA 106",
+      "UGBA 160",
+      "UGBA C172"
+     ]
+    }
+   }
+  }
+ ]
+}

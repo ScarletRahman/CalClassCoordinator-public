@@ -1,0 +1,7963 @@
+{
+ "ECON 1": {
+  "course": "ECON 1",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (83 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.33
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.345
+    },
+    {
+     "label": "Student workload rating (83)",
+     "value": 2.7,
+     "weight": 0.141
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (83 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.377
+    },
+    {
+     "label": "Tone of written student reviews (219 on file)",
+     "value": 4.4,
+     "weight": 0.147
+    }
+   ]
+  },
+  "sentiment": "Reviewers mostly love the lectures and say the course pack is the key to doing well on exams. Several note exams can include topics not covered in lecture, and some find lectures unhelpful for tests. Expect a few midterms and an essay final; most call it fair and manageable.",
+  "sentimentWrittenBy": "model",
+  "midterms": 1,
+  "finalExam": "C",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 3385,
+   "pctA": 44,
+   "pctBelowB": 17,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 185
+    },
+    {
+     "letter": "A",
+     "count": 741
+    },
+    {
+     "letter": "A-",
+     "count": 464
+    },
+    {
+     "letter": "B+",
+     "count": 443
+    },
+    {
+     "letter": "B",
+     "count": 498
+    },
+    {
+     "letter": "B-",
+     "count": 263
+    },
+    {
+     "letter": "C+",
+     "count": 165
+    },
+    {
+     "letter": "C",
+     "count": 175
+    },
+    {
+     "letter": "C-",
+     "count": 68
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 67
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 63
+    },
+    {
+     "letter": "P",
+     "count": 201
+    },
+    {
+     "letter": "NP",
+     "count": 46
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 83,
+   "difficulty": 3.2,
+   "workload": 2.7,
+   "usefulness": 4.1,
+   "recordedPct": 56,
+   "attendanceRequiredPct": 8
+  },
+  "byProfessor": [
+   {
+    "professor": "James Campbell",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.22,
+    "studentCount": 82,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.2,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Seamus Li",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.41,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Enrico Moretti",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.15,
+    "midterms": 1,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Muhammad Zia Mehmood",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.88,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Emi Nakamura",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.88,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%201"
+  ]
+ },
+ "ECON 100A": {
+  "course": "ECON 100A",
+  "difficulty": 3.4,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (83 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.33
+    },
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (83)",
+     "value": 3.0,
+     "weight": 0.141
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.0,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (83 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.377
+    },
+    {
+     "label": "Tone of written student reviews (220 on file)",
+     "value": 4.4,
+     "weight": 0.147
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are engaging and a detailed course pack closely matches exams, so doing its problems is the key advice. Midterms can be hard and time-pressured, there are three with the lowest dropped, and the final is an essay. Some find the structure loose.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 3039,
+   "pctA": 43,
+   "pctBelowB": 21,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 141
+    },
+    {
+     "letter": "A",
+     "count": 671
+    },
+    {
+     "letter": "A-",
+     "count": 415
+    },
+    {
+     "letter": "B+",
+     "count": 354
+    },
+    {
+     "letter": "B",
+     "count": 412
+    },
+    {
+     "letter": "B-",
+     "count": 279
+    },
+    {
+     "letter": "C+",
+     "count": 163
+    },
+    {
+     "letter": "C",
+     "count": 201
+    },
+    {
+     "letter": "C-",
+     "count": 86
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 74
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 64
+    },
+    {
+     "letter": "P",
+     "count": 154
+    },
+    {
+     "letter": "NP",
+     "count": 23
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 83,
+   "difficulty": 3.6,
+   "workload": 3.0,
+   "usefulness": 4.1,
+   "recordedPct": 44,
+   "attendanceRequiredPct": 5
+  },
+  "byProfessor": [
+   {
+    "professor": "James Campbell",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.14,
+    "studentCount": 83,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.5,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Zheng Huang",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.15,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20100A"
+  ]
+ },
+ "ECON 100B": {
+  "course": "ECON 100B",
+  "difficulty": 3.0,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (56 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.321
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (56)",
+     "value": 2.7,
+     "weight": 0.138
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.046
+    },
+    {
+     "label": "Student usefulness rating (56 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.367
+    },
+    {
+     "label": "Tone of written student reviews (81 on file)",
+     "value": 1.9,
+     "weight": 0.143
+    }
+   ]
+  },
+  "sentiment": "Reviewers mostly describe boring or unclear lectures, with sections doing most of the teaching. Exams are hard and calculus-heavy, problem sets use Excel, and grading is slow and strict. Students advise relying on sections and problem sets and studying a lot.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 2,
+  "finalExam": "C",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 2765,
+   "pctA": 45,
+   "pctBelowB": 7,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 98
+    },
+    {
+     "letter": "A",
+     "count": 542
+    },
+    {
+     "letter": "A-",
+     "count": 528
+    },
+    {
+     "letter": "B+",
+     "count": 583
+    },
+    {
+     "letter": "B",
+     "count": 415
+    },
+    {
+     "letter": "B-",
+     "count": 232
+    },
+    {
+     "letter": "C+",
+     "count": 66
+    },
+    {
+     "letter": "C",
+     "count": 48
+    },
+    {
+     "letter": "C-",
+     "count": 26
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 27
+    },
+    {
+     "letter": "P",
+     "count": 165
+    },
+    {
+     "letter": "NP",
+     "count": 16
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 56,
+   "difficulty": 3.1,
+   "workload": 2.7,
+   "usefulness": 3.6,
+   "recordedPct": 43,
+   "attendanceRequiredPct": 19
+  },
+  "byProfessor": [
+   {
+    "professor": "Ryan Edwards",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "studentCount": 17,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 3.6,
+    "difficulty": 3.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Besian Roshi",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.16,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Andreas Schaab",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.44,
+    "studentCount": 25,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Shawn Chi",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.4,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Mina Mirazimi",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.48,
+    "studentCount": 13,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.2,
+    "difficulty": 2.7,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Nicolas Depetris Chauvin",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.09,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Raymond Hawkins",
+    "terms": 4,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20100B"
+  ]
+ },
+ "ECON 101A": {
+  "course": "ECON 101A",
+  "difficulty": 3.7,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (19 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.277
+    },
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (19)",
+     "value": 3.6,
+     "weight": 0.119
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (19 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.317
+    },
+    {
+     "label": "Tone of written student reviews (27 on file)",
+     "value": 2.5,
+     "weight": 0.131
+    }
+   ]
+  },
+  "sentiment": "Reviewers say this is a very challenging, math-heavy course with fast, content-packed lectures and exam averages around 30 percent, offset by a curve. Practice worksheets and problem sets help. Opinions split between those who value the rigor and those who say lectures do not prepare students for exams.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 795,
+   "pctA": 50,
+   "pctBelowB": 17,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 43
+    },
+    {
+     "letter": "A",
+     "count": 193
+    },
+    {
+     "letter": "A-",
+     "count": 121
+    },
+    {
+     "letter": "B+",
+     "count": 108
+    },
+    {
+     "letter": "B",
+     "count": 67
+    },
+    {
+     "letter": "B-",
+     "count": 56
+    },
+    {
+     "letter": "C+",
+     "count": 32
+    },
+    {
+     "letter": "C",
+     "count": 34
+    },
+    {
+     "letter": "C-",
+     "count": 21
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 22
+    },
+    {
+     "letter": "P",
+     "count": 73
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 19,
+   "difficulty": 4.6,
+   "workload": 3.6,
+   "usefulness": 3.6,
+   "recordedPct": 41,
+   "attendanceRequiredPct": 61
+  },
+  "byProfessor": [
+   {
+    "professor": "Cecile Gaubert",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.34,
+    "studentCount": 10,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.6,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Giacomo Lanzani",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Zheng Huang",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.98,
+    "studentCount": 9,
+    "studentDifficulty": 4.8,
+    "studentUsefulness": 4.1,
+    "difficulty": 4.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Stefano DellaVigna",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.17,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20101A"
+  ]
+ },
+ "ECON 101B": {
+  "course": "ECON 101B",
+  "difficulty": 3.4,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (22 on Berkeleytime)",
+     "value": 4.0,
+     "weight": 0.285
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (22)",
+     "value": 3.0,
+     "weight": 0.122
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.0,
+     "weight": 0.041
+    },
+    {
+     "label": "Student usefulness rating (22 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.326
+    }
+   ]
+  },
+  "sentiment": "22 students on Berkeleytime rate it 4.0/5 for difficulty, 3.0/5 for workload and 3.6/5 for usefulness. The average grade is B+ (3.27), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 721,
+   "pctA": 48,
+   "pctBelowB": 12,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 140
+    },
+    {
+     "letter": "A-",
+     "count": 130
+    },
+    {
+     "letter": "B+",
+     "count": 107
+    },
+    {
+     "letter": "B",
+     "count": 99
+    },
+    {
+     "letter": "B-",
+     "count": 43
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 82
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 22,
+   "difficulty": 4.0,
+   "workload": 3.0,
+   "usefulness": 3.6,
+   "recordedPct": 43,
+   "attendanceRequiredPct": 57
+  },
+  "byProfessor": [
+   {
+    "professor": "Yuriy Gorodnichenko",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.14,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.5,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Jon Steinsson",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.24,
+    "studentCount": 16,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.6,
+    "difficulty": 3.5,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Benjamin Schoefer",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.37,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.3,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Regis Barnichon",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.17,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20101B"
+  ]
+ },
+ "ECON 104": {
+  "course": "ECON 104",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.268
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 57% of letter grades in the A range. It usually has 4 scheduled midterms.",
+  "midterms": 4,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 163,
+   "pctA": 57,
+   "pctBelowB": 7,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 51
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Cristián Ugarte",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.2,
+    "midterms": 4,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20104"
+  ]
+ },
+ "ECON 105": {
+  "course": "ECON 105",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.241
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 110,
+   "pctA": 68,
+   "pctBelowB": 1,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20105"
+  ]
+ },
+ "ECON 106": {
+  "course": "ECON 106",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 30,
+   "pctA": 70,
+   "pctBelowB": 0,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20106"
+  ]
+ },
+ "ECON 109": {
+  "course": "ECON 109",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Nicolas Longuet-Marx",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20109"
+  ]
+ },
+ "ECON 113": {
+  "course": "ECON 113",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.255
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 134,
+   "pctA": 92,
+   "pctBelowB": 1,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 88
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Bradford Delong",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.85,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20113"
+  ]
+ },
+ "ECON 115": {
+  "course": "ECON 115",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.45), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 1002,
+   "pctA": 61,
+   "pctBelowB": 7,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 270
+    },
+    {
+     "letter": "A-",
+     "count": 245
+    },
+    {
+     "letter": "B+",
+     "count": 129
+    },
+    {
+     "letter": "B",
+     "count": 91
+    },
+    {
+     "letter": "B-",
+     "count": 61
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 23
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 124
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Barry Eichengreen",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "James Bradford Delong",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20115"
+  ]
+ },
+ "ECON 119": {
+  "course": "ECON 119",
+  "difficulty": 2.5,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.178
+    },
+    {
+     "label": "Tone of written student reviews (22 on file)",
+     "value": 3.7,
+     "weight": 0.127
+    }
+   ]
+  },
+  "sentiment": "Reviewers find the lectures engaging and the topic interesting. Opinions split on difficulty, with some calling problem sets and exams fair and others finding problem sets long, hard and weakly tied to exams. Attendance is mandatory and electronics are not allowed.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 1101,
+   "pctA": 57,
+   "pctBelowB": 10,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 142
+    },
+    {
+     "letter": "A",
+     "count": 258
+    },
+    {
+     "letter": "A-",
+     "count": 184
+    },
+    {
+     "letter": "B+",
+     "count": 123
+    },
+    {
+     "letter": "B",
+     "count": 133
+    },
+    {
+     "letter": "B-",
+     "count": 73
+    },
+    {
+     "letter": "C+",
+     "count": 40
+    },
+    {
+     "letter": "C",
+     "count": 34
+    },
+    {
+     "letter": "C-",
+     "count": 18
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 77
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.8,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Dmitry Taubinsky",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Xin Jiang",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.48,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Robizon Khubulashvili",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.62,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Daniel Fragiadakis",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.44,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Xiangyi Meng",
+    "terms": 3,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.31,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Daniel Acland",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.27,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20119"
+  ]
+ },
+ "ECON 121": {
+  "course": "ECON 121",
+  "difficulty": 3.1,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.2/5 for difficulty, 2.8/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.27), with 46% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 809,
+   "pctA": 46,
+   "pctBelowB": 13,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 65
+    },
+    {
+     "letter": "A",
+     "count": 133
+    },
+    {
+     "letter": "A-",
+     "count": 136
+    },
+    {
+     "letter": "B+",
+     "count": 127
+    },
+    {
+     "letter": "B",
+     "count": 89
+    },
+    {
+     "letter": "B-",
+     "count": 74
+    },
+    {
+     "letter": "C+",
+     "count": 30
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 25
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 84
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.2,
+   "workload": 2.8,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Nano Barahona",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.27,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Celeste Saravia",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.15,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Kei Kawai",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Aaron Edlin",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.42,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20121"
+  ]
+ },
+ "ECON 127": {
+  "course": "ECON 127",
+  "difficulty": 2.6,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 3.8/5 for usefulness. The average grade is A- (3.63), with 68% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 486,
+   "pctA": 68,
+   "pctBelowB": 1,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 190
+    },
+    {
+     "letter": "A-",
+     "count": 116
+    },
+    {
+     "letter": "B+",
+     "count": 79
+    },
+    {
+     "letter": "B",
+     "count": 46
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3.8,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Aaron Edlin",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.8,
+    "difficulty": 2.5,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20127"
+  ]
+ },
+ "ECON 128": {
+  "course": "ECON 128",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Bryan Graham",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20128"
+  ]
+ },
+ "ECON 130": {
+  "course": "ECON 130",
+  "difficulty": 2.7,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 2.7,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.257
+    }
+   ]
+  },
+  "sentiment": "9 students on Berkeleytime rate it 2.6/5 for difficulty, 2.7/5 for workload and 4.2/5 for usefulness. The average grade is B+ (3.40), with 51% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 543,
+   "pctA": 51,
+   "pctBelowB": 10,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 149
+    },
+    {
+     "letter": "A-",
+     "count": 90
+    },
+    {
+     "letter": "B+",
+     "count": 94
+    },
+    {
+     "letter": "B",
+     "count": 78
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 24
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 2.6,
+   "workload": 2.7,
+   "usefulness": 4.2,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 88
+  },
+  "byProfessor": [
+   {
+    "professor": "Julien Lafortune",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "studentCount": 9,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.7,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20130"
+  ]
+ },
+ "ECON 131": {
+  "course": "ECON 131",
+  "difficulty": 3.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.8,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.4/5 for difficulty, 2.8/5 for workload and 4.2/5 for usefulness. The average grade is B (3.13), with 38% of letter grades in the A range. It usually has 1 scheduled midterm. Attendance is usually required.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 810,
+   "pctA": 38,
+   "pctBelowB": 18,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 54
+    },
+    {
+     "letter": "A",
+     "count": 109
+    },
+    {
+     "letter": "A-",
+     "count": 105
+    },
+    {
+     "letter": "B+",
+     "count": 119
+    },
+    {
+     "letter": "B",
+     "count": 115
+    },
+    {
+     "letter": "B-",
+     "count": 74
+    },
+    {
+     "letter": "C+",
+     "count": 52
+    },
+    {
+     "letter": "C",
+     "count": 30
+    },
+    {
+     "letter": "C-",
+     "count": 25
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 94
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.4,
+   "workload": 2.8,
+   "usefulness": 4.2,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Emmanuel Saez",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.14,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Danny Yagan",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.16,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.5,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Tomer Blumkin",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.93,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Dan Wilson",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.22,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Alan Auerbach",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.12,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20131"
+  ]
+ },
+ "ECON 133": {
+  "course": "ECON 133",
+  "difficulty": 3.0,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.40), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 568,
+   "pctA": 57,
+   "pctBelowB": 8,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 86
+    },
+    {
+     "letter": "A-",
+     "count": 116
+    },
+    {
+     "letter": "B+",
+     "count": 73
+    },
+    {
+     "letter": "B",
+     "count": 55
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 122
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Mathilde Munoz",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.48,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Morten Stoestad",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jakob Miethe",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.29,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Gabriel Zucman",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20133"
+  ]
+ },
+ "ECON 134": {
+  "course": "ECON 134",
+  "difficulty": 3.3,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.5/5 for difficulty, 3.0/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.21), with 41% of letter grades in the A range. It usually has 2 scheduled midterms. Attendance is usually required.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 765,
+   "pctA": 41,
+   "pctBelowB": 13,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 121
+    },
+    {
+     "letter": "A-",
+     "count": 116
+    },
+    {
+     "letter": "B+",
+     "count": 116
+    },
+    {
+     "letter": "B",
+     "count": 120
+    },
+    {
+     "letter": "B-",
+     "count": 65
+    },
+    {
+     "letter": "C+",
+     "count": 34
+    },
+    {
+     "letter": "C",
+     "count": 21
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 97
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 3.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Emi Nakamura",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.2,
+    "studentCount": 4,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.4,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Regis Barnichon",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.22,
+    "midterms": 2,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Yuriy Gorodnichenko",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.14,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20134"
+  ]
+ },
+ "ECON 135": {
+  "course": "ECON 135",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.296
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 275,
+   "pctA": 83,
+   "pctBelowB": 0,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 97
+    },
+    {
+     "letter": "A-",
+     "count": 78
+    },
+    {
+     "letter": "B+",
+     "count": 34
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 41
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Bradford Delong",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.77,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Nathan Goldstein",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20135"
+  ]
+ },
+ "ECON 136": {
+  "course": "ECON 136",
+  "difficulty": 3.4,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (15 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.262
+    },
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.338
+    },
+    {
+     "label": "Student workload rating (15)",
+     "value": 3.3,
+     "weight": 0.112
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (15 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.3
+    },
+    {
+     "label": "Tone of written student reviews (53 on file)",
+     "value": 1.5,
+     "weight": 0.139
+    }
+   ]
+  },
+  "sentiment": "Reviewers are strongly negative, describing a test-only grade of two midterms and a final, dry lectures, heavy self-study and a harsh curve. Exams reportedly follow the problem sets and practice problems, so working those helps. Strong math skills and memorization are needed.",
+  "sentimentWrittenBy": "model",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 1380,
+   "pctA": 49,
+   "pctBelowB": 15,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 55
+    },
+    {
+     "letter": "A",
+     "count": 331
+    },
+    {
+     "letter": "A-",
+     "count": 227
+    },
+    {
+     "letter": "B+",
+     "count": 168
+    },
+    {
+     "letter": "B",
+     "count": 179
+    },
+    {
+     "letter": "B-",
+     "count": 96
+    },
+    {
+     "letter": "C+",
+     "count": 45
+    },
+    {
+     "letter": "C",
+     "count": 45
+    },
+    {
+     "letter": "C-",
+     "count": 28
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 16
+    },
+    {
+     "letter": "D-",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 42
+    },
+    {
+     "letter": "P",
+     "count": 117
+    },
+    {
+     "letter": "NP",
+     "count": 23
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 15,
+   "difficulty": 3.9,
+   "workload": 3.3,
+   "usefulness": 3.8,
+   "recordedPct": 43,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Bianchi",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.13,
+    "studentCount": 14,
+    "studentDifficulty": 3.9,
+    "studentUsefulness": 3.7,
+    "difficulty": 3.6,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Shawn Chi",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.58,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Raymond Hawkins",
+    "terms": 3,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.4,
+    "midterms": 2,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20136"
+  ]
+ },
+ "ECON 138": {
+  "course": "ECON 138",
+  "difficulty": 2.8,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.7,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 4.0/5 for difficulty, 2.7/5 for workload and 4.3/5 for usefulness. The average grade is A- (3.68), with 74% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 703,
+   "pctA": 74,
+   "pctBelowB": 1,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 243
+    },
+    {
+     "letter": "A-",
+     "count": 126
+    },
+    {
+     "letter": "B+",
+     "count": 97
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 160
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 4,
+   "workload": 2.7,
+   "usefulness": 4.3,
+   "recordedPct": 17,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Chen Lian",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "studentCount": 6,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.7,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20138"
+  ]
+ },
+ "ECON 139": {
+  "course": "ECON 139",
+  "difficulty": 2.7,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.319
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.091
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 1.7,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Reviewers are largely negative. They say the course offers no slides, recordings, GSIs or sections, only student-written notes with errors, and very hard exams that differ from lecture. Heavy self-study is needed, though the curve is described as generous.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 508,
+   "pctA": 65,
+   "pctBelowB": 8,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 168
+    },
+    {
+     "letter": "A-",
+     "count": 95
+    },
+    {
+     "letter": "B+",
+     "count": 43
+    },
+    {
+     "letter": "B",
+     "count": 44
+    },
+    {
+     "letter": "B-",
+     "count": 26
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 65
+    },
+    {
+     "letter": "NP",
+     "count": 15
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Bianchi",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20139"
+  ]
+ },
+ "ECON 140": {
+  "course": "ECON 140",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (40 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.311
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (40)",
+     "value": 2.5,
+     "weight": 0.133
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (40 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.356
+    },
+    {
+     "label": "Tone of written student reviews (30 on file)",
+     "value": 2.5,
+     "weight": 0.132
+    }
+   ]
+  },
+  "sentiment": "Reviewers say the course is dry, math-heavy and proof-focused, with lectures that many find hard to follow. Grading is often described as unclear, though some find the class fair if you do practice exams and attend sections. Opinions are split, with several saying its bad reputation is exaggerated.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 3045,
+   "pctA": 42,
+   "pctBelowB": 10,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 104
+    },
+    {
+     "letter": "A",
+     "count": 482
+    },
+    {
+     "letter": "A-",
+     "count": 602
+    },
+    {
+     "letter": "B+",
+     "count": 576
+    },
+    {
+     "letter": "B",
+     "count": 463
+    },
+    {
+     "letter": "B-",
+     "count": 340
+    },
+    {
+     "letter": "C+",
+     "count": 127
+    },
+    {
+     "letter": "C",
+     "count": 76
+    },
+    {
+     "letter": "C-",
+     "count": 38
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 30
+    },
+    {
+     "letter": "P",
+     "count": 184
+    },
+    {
+     "letter": "NP",
+     "count": 16
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 40,
+   "difficulty": 3.3,
+   "workload": 2.5,
+   "usefulness": 3.8,
+   "recordedPct": 75,
+   "attendanceRequiredPct": 18
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Faber",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "studentCount": 6,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Demian Pouzo",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.22,
+    "studentCount": 21,
+    "studentDifficulty": 4.0,
+    "studentUsefulness": 3.7,
+    "difficulty": 3.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 6,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.37,
+    "studentCount": 13,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.8,
+    "difficulty": 2.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Seamus Li",
+    "terms": 4,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.36,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Stephen Bianchi",
+    "terms": 3,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.08,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Fernando Hoces De La Guardia Figueroa",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20140"
+  ]
+ },
+ "ECON 141": {
+  "course": "ECON 141",
+  "difficulty": 3.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 1.8,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Reviewers are mostly negative about teaching, describing proof-heavy, hard-to-follow lectures with tangents and little exam preparation. Exams are difficult and curve and grading criteria are said to be unclear. Problem sets, lecture slides and section help are the main resources. Self-study is needed.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 673,
+   "pctA": 55,
+   "pctBelowB": 13,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 42
+    },
+    {
+     "letter": "A",
+     "count": 163
+    },
+    {
+     "letter": "A-",
+     "count": 140
+    },
+    {
+     "letter": "B+",
+     "count": 79
+    },
+    {
+     "letter": "B",
+     "count": 75
+    },
+    {
+     "letter": "B-",
+     "count": 42
+    },
+    {
+     "letter": "C+",
+     "count": 19
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 15
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 22
+    },
+    {
+     "letter": "P",
+     "count": 38
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.6,
+   "workload": 3.4,
+   "usefulness": 4.2,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Bianchi",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.2,
+    "studentCount": 5,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Michael Jansson",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.41,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Vira Semenova",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Demian Pouzo",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20141"
+  ]
+ },
+ "ECON 143": {
+  "course": "ECON 143",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.255
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 134,
+   "pctA": 70,
+   "pctBelowB": 6,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 41
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Bryan Graham",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20143"
+  ]
+ },
+ "ECON 144": {
+  "course": "ECON 144",
+  "difficulty": 2.2,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.26
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 3.0/5 for usefulness. The average grade is A (3.90), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 145,
+   "pctA": 97,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 123
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Bianchi",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.9,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.0,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20144"
+  ]
+ },
+ "ECON 145": {
+  "course": "ECON 145",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.261
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.32), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 146,
+   "pctA": 45,
+   "pctBelowB": 15,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Zhe Liu",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.32,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20145"
+  ]
+ },
+ "ECON 148": {
+  "course": "ECON 148",
+  "difficulty": 2.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.2/5 for difficulty, 3.2/5 for workload and 3.6/5 for usefulness. The average grade is A- (3.69), with 76% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 666,
+   "pctA": 76,
+   "pctBelowB": 1,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 273
+    },
+    {
+     "letter": "A-",
+     "count": 194
+    },
+    {
+     "letter": "B+",
+     "count": 93
+    },
+    {
+     "letter": "B",
+     "count": 42
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.2,
+   "workload": 3.2,
+   "usefulness": 3.6,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Eric Van Dusen",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.7,
+    "studentCount": 5,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 3.6,
+    "difficulty": 2.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Tamer Cetin",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.57,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20148"
+  ]
+ },
+ "ECON 151": {
+  "course": "ECON 151",
+  "difficulty": 3.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.7,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 4.1/5 for difficulty, 2.7/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.47), with 57% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 970,
+   "pctA": 57,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 40
+    },
+    {
+     "letter": "A",
+     "count": 314
+    },
+    {
+     "letter": "A-",
+     "count": 176
+    },
+    {
+     "letter": "B+",
+     "count": 145
+    },
+    {
+     "letter": "B",
+     "count": 127
+    },
+    {
+     "letter": "B-",
+     "count": 68
+    },
+    {
+     "letter": "C+",
+     "count": 25
+    },
+    {
+     "letter": "C",
+     "count": 21
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 4.1,
+   "workload": 2.7,
+   "usefulness": 4,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Wilbur Townsend",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Denis Sosinskiy",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.45,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.36,
+    "studentCount": 5,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 3.6,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Scott Carson",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.57,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20151"
+  ]
+ },
+ "ECON 152": {
+  "course": "ECON 152",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.31
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.7/5 for difficulty, 2.7/5 for workload and 3.7/5 for usefulness. The average grade is B+ (3.33), with 51% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 387,
+   "pctA": 51,
+   "pctBelowB": 15,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 109
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 52
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 60
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.7,
+   "workload": 2.7,
+   "usefulness": 3.7,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Walters",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.19,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.7,
+    "difficulty": 3.3,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20152"
+  ]
+ },
+ "ECON 155": {
+  "course": "ECON 155",
+  "difficulty": 3.0,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.318
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 3.7/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.40), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 499,
+   "pctA": 51,
+   "pctBelowB": 5,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 118
+    },
+    {
+     "letter": "B+",
+     "count": 102
+    },
+    {
+     "letter": "B",
+     "count": 62
+    },
+    {
+     "letter": "B-",
+     "count": 39
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3.7,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Nilopa Shah",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.39,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Tamer Cetin",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20155"
+  ]
+ },
+ "ECON 155A": {
+  "course": "ECON 155A",
+  "difficulty": 2.5,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.268
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.5/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.61), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 164,
+   "pctA": 64,
+   "pctBelowB": 1,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Patrick Kline",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.59,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20155A"
+  ]
+ },
+ "ECON 157": {
+  "course": "ECON 157",
+  "difficulty": 2.0,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.338
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.4,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.0/5 for difficulty, 2.4/5 for workload and 3.7/5 for usefulness. The average grade is A- (3.81), with 86% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 1429,
+   "pctA": 86,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 469
+    },
+    {
+     "letter": "A",
+     "count": 521
+    },
+    {
+     "letter": "A-",
+     "count": 224
+    },
+    {
+     "letter": "B+",
+     "count": 106
+    },
+    {
+     "letter": "B",
+     "count": 40
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2,
+   "workload": 2.4,
+   "usefulness": 3.7,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 17
+  },
+  "byProfessor": [
+   {
+    "professor": "Ryan Edwards",
+    "terms": 9,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.81,
+    "studentCount": 7,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.7,
+    "difficulty": 1.8,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Benjamin Handel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.38,
+    "midterms": 2,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20157"
+  ]
+ },
+ "ECON 158": {
+  "course": "ECON 158",
+  "difficulty": 3.0,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.5/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.38), with 49% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 214,
+   "pctA": 49,
+   "pctBelowB": 10,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 38
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 29
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Chenzi Xu",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "studentCount": 4,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20158"
+  ]
+ },
+ "ECON 162": {
+  "course": "ECON 162",
+  "difficulty": 2.9,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.334
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.5/5 for difficulty, 1.2/5 for workload and 2.5/5 for usefulness. The average grade is B+ (3.36), with 50% of letter grades in the A range. It usually has 1 scheduled midterm. Lectures are usually not recorded.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 1045,
+   "pctA": 50,
+   "pctBelowB": 8,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 134
+    },
+    {
+     "letter": "A-",
+     "count": 237
+    },
+    {
+     "letter": "B+",
+     "count": 156
+    },
+    {
+     "letter": "B",
+     "count": 101
+    },
+    {
+     "letter": "B-",
+     "count": 91
+    },
+    {
+     "letter": "C+",
+     "count": 32
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 213
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.5,
+   "workload": 1.2,
+   "usefulness": 2.5,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Yuanyuan Deng",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.38,
+    "studentCount": 4,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.8,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Gerard Roland",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.47,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Nicolas Depetris Chauvin",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.37,
+    "midterms": 1,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20162"
+  ]
+ },
+ "ECON 165": {
+  "course": "ECON 165",
+  "difficulty": 2.6,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.5/5 for difficulty, 2.8/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.47), with 57% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 477,
+   "pctA": 57,
+   "pctBelowB": 8,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 83
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 71
+    },
+    {
+     "letter": "B+",
+     "count": 73
+    },
+    {
+     "letter": "B",
+     "count": 63
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.5,
+   "workload": 2.8,
+   "usefulness": 3.5,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "John Nelson-Mondragon",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.48,
+    "studentCount": 4,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.6,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20165"
+  ]
+ },
+ "ECON 172": {
+  "course": "ECON 172",
+  "difficulty": 3.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.32), with 50% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 625,
+   "pctA": 50,
+   "pctBelowB": 9,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 131
+    },
+    {
+     "letter": "B+",
+     "count": 100
+    },
+    {
+     "letter": "B",
+     "count": 66
+    },
+    {
+     "letter": "B-",
+     "count": 39
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 121
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Edward Miguel",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.35,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Yuanyuan Deng",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.15,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20172"
+  ]
+ },
+ "ECON 174": {
+  "course": "ECON 174",
+  "difficulty": 2.5,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.50), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 264,
+   "pctA": 65,
+   "pctBelowB": 5,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Supreet Kaur",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Frederico Finan",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.69,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Yuanyuan Deng",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.08,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20174"
+  ]
+ },
+ "ECON 182": {
+  "course": "ECON 182",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.315
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.32), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 444,
+   "pctA": 51,
+   "pctBelowB": 13,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 99
+    },
+    {
+     "letter": "A-",
+     "count": 63
+    },
+    {
+     "letter": "B+",
+     "count": 54
+    },
+    {
+     "letter": "B",
+     "count": 38
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 96
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Pierre-Olivier Gourinchas",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20182"
+  ]
+ },
+ "ECON 183": {
+  "course": "ECON 183",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.216
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.46), with 50% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 81,
+   "pctA": 50,
+   "pctBelowB": 4,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Barry Eichengreen",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20183"
+  ]
+ },
+ "ECON 191": {
+  "course": "ECON 191",
+  "difficulty": 2.6,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.48), with 64% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 738,
+   "pctA": 64,
+   "pctBelowB": 6,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 96
+    },
+    {
+     "letter": "A",
+     "count": 164
+    },
+    {
+     "letter": "A-",
+     "count": 136
+    },
+    {
+     "letter": "B+",
+     "count": 80
+    },
+    {
+     "letter": "B",
+     "count": 70
+    },
+    {
+     "letter": "B-",
+     "count": 30
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 114
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Schoefer",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.35,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Benjamin Handel",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.62,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.3,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "David Card",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20191"
+  ]
+ },
+ "ECON 196": {
+  "course": "ECON 196",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.126
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 28,
+   "pctA": 59,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Goldstein",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "James Bradford Delong",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Shirlee Lichtman-Sadot",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20196"
+  ]
+ },
+ "ECON 197": {
+  "course": "ECON 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Cecile Gaubert",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Demian Pouzo",
+    "terms": 11,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20197"
+  ]
+ },
+ "ECON 198": {
+  "course": "ECON 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Benjamin Schoefer",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Junseok Lee",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Benjamin Handel",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Cecile Gaubert",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Carolyn Stein",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Edward Miguel",
+    "terms": 7,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Eric Van Dusen",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20198"
+  ]
+ },
+ "ECON 198BC": {
+  "course": "ECON 198BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Cecile Gaubert",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Julia Paris",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20198BC"
+  ]
+ },
+ "ECON 199": {
+  "course": "ECON 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "James Bradford Delong",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Demian Pouzo",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lisa Goldberg",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shachar Kariv",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stefano DellaVigna",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ulrike Malmendier",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Edward Miguel",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Andres Rodriguez-clare",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20199"
+  ]
+ },
+ "ECON 2": {
+  "course": "ECON 2",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (50 on Berkeleytime)",
+     "value": 3.0,
+     "weight": 0.318
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.342
+    },
+    {
+     "label": "Student workload rating (50)",
+     "value": 2.4,
+     "weight": 0.136
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.045
+    },
+    {
+     "label": "Student usefulness rating (50 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.364
+    },
+    {
+     "label": "Tone of written student reviews (91 on file)",
+     "value": 2.4,
+     "weight": 0.144
+    }
+   ]
+  },
+  "sentiment": "Students agree the class is test-heavy, with grades driven mainly by a midterm and final. Slides and recordings are not posted, so attendance matters, and exams may draw on readings and small lecture details. Opinions split: some find it manageable if you attend and do practice problems, others find it unfair.",
+  "sentimentWrittenBy": "model",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 2261,
+   "pctA": 46,
+   "pctBelowB": 17,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 176
+    },
+    {
+     "letter": "A",
+     "count": 395
+    },
+    {
+     "letter": "A-",
+     "count": 326
+    },
+    {
+     "letter": "B+",
+     "count": 281
+    },
+    {
+     "letter": "B",
+     "count": 253
+    },
+    {
+     "letter": "B-",
+     "count": 176
+    },
+    {
+     "letter": "C+",
+     "count": 106
+    },
+    {
+     "letter": "C",
+     "count": 75
+    },
+    {
+     "letter": "C-",
+     "count": 54
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 19
+    },
+    {
+     "letter": "D-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 59
+    },
+    {
+     "letter": "P",
+     "count": 281
+    },
+    {
+     "letter": "NP",
+     "count": 47
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 50,
+   "difficulty": 3.0,
+   "workload": 2.4,
+   "usefulness": 3.9,
+   "recordedPct": 65,
+   "attendanceRequiredPct": 48
+  },
+  "byProfessor": [
+   {
+    "professor": "Enrico Moretti",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.06,
+    "studentCount": 9,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.6,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.6,
+    "studentCount": 32,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.6,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Emmanuel Saez",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.14,
+    "midterms": 2,
+    "studentCount": 8,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "David Romer",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 2.99,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 3.5,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Christina Romer",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 2.99,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 3.5,
+    "shouldTake": 3.3
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Decent, make sure to reread slides on your own time since lecture is always off topic",
+    "term": "2026 Fall",
+    "source": "Berkeleytime",
+    "title": "econ 2",
+    "professor": "Ryan Edwards"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%202"
+  ]
+ },
+ "ECON 84": {
+  "course": "ECON 84",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Yuriy Gorodnichenko",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "R Brown",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%2084"
+  ]
+ },
+ "ECON 98BC": {
+  "course": "ECON 98BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Cecile Gaubert",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Julia Paris",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%2098BC"
+  ]
+ },
+ "ECON C102": {
+  "course": "ECON C102",
+  "difficulty": 3.4,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.288
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.27), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 231,
+   "pctA": 52,
+   "pctBelowB": 13,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 55
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 28
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Larry Karp",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.1,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.7,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Celeste Saravia",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.5,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Todd Fitch",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.49,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C102"
+  ]
+ },
+ "ECON C103": {
+  "course": "ECON C103",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.16)",
+     "value": 3.5,
+     "weight": 0.288
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.16), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.16,
+   "letter": "B+",
+   "students": 232,
+   "pctA": 48,
+   "pctBelowB": 19,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Quitze Valenzuela-Stookey",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.16,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.3,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Haluk Ergin",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.29,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Itay Kavaler",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 2.43,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C103"
+  ]
+ },
+ "ECON C110": {
+  "course": "ECON C110",
+  "difficulty": 3.0,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (18 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.274
+    },
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (18)",
+     "value": 2.3,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (18 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.313
+    },
+    {
+     "label": "Tone of written student reviews (15 on file)",
+     "value": 3.5,
+     "weight": 0.118
+    }
+   ]
+  },
+  "sentiment": "Students say game theory is taught with fun in-class games and engaging lectures, though the course is more mathematical than expected. Exams and problem sets are challenging, and some find explanations unclear and support limited. Reviewers advise doing the problem sets and attending lecture.",
+  "sentimentWrittenBy": "model",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 1218,
+   "pctA": 51,
+   "pctBelowB": 15,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 75
+    },
+    {
+     "letter": "A",
+     "count": 257
+    },
+    {
+     "letter": "A-",
+     "count": 202
+    },
+    {
+     "letter": "B+",
+     "count": 158
+    },
+    {
+     "letter": "B",
+     "count": 135
+    },
+    {
+     "letter": "B-",
+     "count": 66
+    },
+    {
+     "letter": "C+",
+     "count": 42
+    },
+    {
+     "letter": "C",
+     "count": 43
+    },
+    {
+     "letter": "C-",
+     "count": 26
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 12
+    },
+    {
+     "letter": "D-",
+     "count": 8
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 142
+    },
+    {
+     "letter": "NP",
+     "count": 26
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 18,
+   "difficulty": 3.2,
+   "workload": 2.3,
+   "usefulness": 3.7,
+   "recordedPct": 7,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Sean Gailmard",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Shachar Kariv",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.3,
+    "studentCount": 10,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 3.4,
+    "difficulty": 2.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Zheng Huang",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.11,
+    "midterms": 2,
+    "studentCount": 5,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.5,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C110"
+  ]
+ },
+ "ECON C125": {
+  "course": "ECON C125",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (18 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.274
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (18)",
+     "value": 2.7,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (18 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.313
+    }
+   ]
+  },
+  "sentiment": "18 students on Berkeleytime rate it 3.1/5 for difficulty, 2.7/5 for workload and 3.8/5 for usefulness. The average grade is A- (3.51), with 59% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 593,
+   "pctA": 59,
+   "pctBelowB": 6,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 163
+    },
+    {
+     "letter": "A-",
+     "count": 118
+    },
+    {
+     "letter": "B+",
+     "count": 103
+    },
+    {
+     "letter": "B",
+     "count": 53
+    },
+    {
+     "letter": "B-",
+     "count": 29
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 63
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 18,
+   "difficulty": 3.1,
+   "workload": 2.7,
+   "usefulness": 3.8,
+   "recordedPct": 94,
+   "attendanceRequiredPct": 76
+  },
+  "byProfessor": [
+   {
+    "professor": "Tamma Carleton",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.52,
+    "studentCount": 17,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.8,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Steven Sexton",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.27,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "James Sallee",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C125"
+  ]
+ },
+ "ECON C142": {
+  "course": "ECON C142",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.28
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 201,
+   "pctA": 85,
+   "pctBelowB": 0,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 48
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 42
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Card",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.8,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C142"
+  ]
+ },
+ "ECON C147": {
+  "course": "ECON C147",
+  "difficulty": 3.5,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.229
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B (3.10), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 95,
+   "pctA": 45,
+   "pctBelowB": 21,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Federico Echenique",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.11,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.6,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C147"
+  ]
+ },
+ "ECON C171": {
+  "course": "ECON C171",
+  "difficulty": 2.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.4/5 for difficulty, 2.2/5 for workload and 3.4/5 for usefulness. The average grade is B+ (3.44), with 60% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 428,
+   "pctA": 60,
+   "pctBelowB": 12,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 95
+    },
+    {
+     "letter": "A",
+     "count": 73
+    },
+    {
+     "letter": "A-",
+     "count": 56
+    },
+    {
+     "letter": "B+",
+     "count": 60
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 49
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.4,
+   "workload": 2.2,
+   "usefulness": 3.4,
+   "recordedPct": 80,
+   "attendanceRequiredPct": 80
+  },
+  "byProfessor": [
+   {
+    "professor": "Marco Gonzalez-Navarro",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "studentCount": 5,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Michael Walker",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Benjamin Faber",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C171"
+  ]
+ },
+ "ECON C175": {
+  "course": "ECON C175",
+  "difficulty": 2.8,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 2.7/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.47), with 56% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 855,
+   "pctA": 56,
+   "pctBelowB": 5,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 84
+    },
+    {
+     "letter": "A",
+     "count": 134
+    },
+    {
+     "letter": "A-",
+     "count": 153
+    },
+    {
+     "letter": "B+",
+     "count": 124
+    },
+    {
+     "letter": "B",
+     "count": 87
+    },
+    {
+     "letter": "B-",
+     "count": 49
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 181
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 2.7,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joshua Goldstein",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.31,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C175"
+  ]
+ },
+ "ECON C181": {
+  "course": "ECON C181",
+  "difficulty": 3.2,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 2,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 3.9/5 for difficulty, 2.0/5 for workload and 2.9/5 for usefulness. The average grade is B+ (3.30), with 51% of letter grades in the A range. It usually has 1 scheduled midterm. Attendance is usually required.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 747,
+   "pctA": 51,
+   "pctBelowB": 14,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 74
+    },
+    {
+     "letter": "A",
+     "count": 129
+    },
+    {
+     "letter": "A-",
+     "count": 99
+    },
+    {
+     "letter": "B+",
+     "count": 73
+    },
+    {
+     "letter": "B",
+     "count": 82
+    },
+    {
+     "letter": "B-",
+     "count": 54
+    },
+    {
+     "letter": "C+",
+     "count": 30
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 146
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 3.9,
+   "workload": 2,
+   "usefulness": 2.9,
+   "recordedPct": 40,
+   "attendanceRequiredPct": 80
+  },
+  "byProfessor": [
+   {
+    "professor": "Andres Rodriguez-clare",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Edwin Lai",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 3,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Johannes Boehm",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.52,
+    "studentCount": 4,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Thibault Fally",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.05,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2,
+    "difficulty": 3.3,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Alejandro Graziano",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.42,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Peter Morrow",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.19,
+    "midterms": 1,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C181"
+  ]
+ },
+ "ECON C184": {
+  "course": "ECON C184",
+  "difficulty": 3.1,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.31), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 427,
+   "pctA": 45,
+   "pctBelowB": 9,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 98
+    },
+    {
+     "letter": "B+",
+     "count": 69
+    },
+    {
+     "letter": "B",
+     "count": 67
+    },
+    {
+     "letter": "B-",
+     "count": 37
+    },
+    {
+     "letter": "C+",
+     "count": 21
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Shapiro",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.2,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C184"
+  ]
+ },
+ "ECON C188": {
+  "course": "ECON C188",
+  "difficulty": 3.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.75)",
+     "value": 4.8,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.75), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.75,
+   "letter": "B-",
+   "students": 19,
+   "pctA": 47,
+   "pctBelowB": 33,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kirill Borusyak",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.75,
+    "difficulty": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C188"
+  ]
+ },
+ "ECON C3": {
+  "course": "ECON C3",
+  "difficulty": 2.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (12 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.247
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (12)",
+     "value": 2.5,
+     "weight": 0.106
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.035
+    },
+    {
+     "label": "Student usefulness rating (12 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.282
+    }
+   ]
+  },
+  "sentiment": "12 students on Berkeleytime rate it 2.9/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.34), with 57% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 614,
+   "pctA": 57,
+   "pctBelowB": 14,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 175
+    },
+    {
+     "letter": "A-",
+     "count": 113
+    },
+    {
+     "letter": "B+",
+     "count": 62
+    },
+    {
+     "letter": "B",
+     "count": 65
+    },
+    {
+     "letter": "B-",
+     "count": 31
+    },
+    {
+     "letter": "C+",
+     "count": 27
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 60
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 12,
+   "difficulty": 2.9,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Steven Sexton",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.22,
+    "studentCount": 11,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.0,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Maximilian Auffhammer",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.5,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20C3"
+  ]
+ },
+ "ECON H191": {
+  "course": "ECON H191",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 76% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 46,
+   "pctA": 76,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Schoefer",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Benjamin Handel",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20H191"
+  ]
+ },
+ "ECON H195A": {
+  "course": "ECON H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Ryan Edwards",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20H195A"
+  ]
+ },
+ "ECON H195B": {
+  "course": "ECON H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Barry Eichengreen",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nick Tsivanidis",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "James Bradford Delong",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Emmanuel Saez",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ryan Edwards",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sydnee Caldwell",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Enrico Moretti",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Benjamin Handel",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20H195B"
+  ]
+ },
+ "ECON N110": {
+  "course": "ECON N110",
+  "difficulty": 3.4,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.16)",
+     "value": 3.5,
+     "weight": 0.3
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.086
+    },
+    {
+     "label": "Tone of written student reviews (14 on file)",
+     "value": 3.5,
+     "weight": 0.117
+    }
+   ]
+  },
+  "sentiment": "Students say game theory is taught with fun in-class games and engaging lectures, though the course is more mathematical than expected. Exams and problem sets are challenging, and some find explanations unclear and support limited. Reviewers advise doing the problem sets and attending lecture.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.16,
+   "letter": "B+",
+   "students": 301,
+   "pctA": 45,
+   "pctBelowB": 18,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 45
+    },
+    {
+     "letter": "B",
+     "count": 33
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Svetlana Pevnitskaya",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.93,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Tyler Maxey",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.03,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Zheng Huang",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.17,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20N110"
+  ]
+ },
+ "ECON N171": {
+  "course": "ECON N171",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 90% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 20,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rajveer Jat",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.83,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ECON%20N171"
+  ]
+ }
+}

@@ -1,0 +1,3514 @@
+{
+ "INDENG 115": {
+  "course": "INDENG 115",
+  "difficulty": 2.7,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (36 on file)",
+     "value": 4.6,
+     "weight": 0.135
+    }
+   ]
+  },
+  "sentiment": "Students are very positive, citing clear lectures, fair exams and a useful database curriculum including SQL. The semester-long group project with a real client is time consuming but widely called rewarding. Some find quizzes and labs weaker or poorly worded.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 519,
+   "pctA": 66,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 55
+    },
+    {
+     "letter": "A",
+     "count": 152
+    },
+    {
+     "letter": "A-",
+     "count": 121
+    },
+    {
+     "letter": "B+",
+     "count": 79
+    },
+    {
+     "letter": "B",
+     "count": 55
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 4.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Ken Goldberg",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Xin Guo",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Wangdong Jia",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20115"
+  ]
+ },
+ "INDENG 120": {
+  "course": "INDENG 120",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (13 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.253
+    },
+    {
+     "label": "Average grade B+ (3.15)",
+     "value": 3.6,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (13)",
+     "value": 2.5,
+     "weight": 0.108
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.036
+    },
+    {
+     "label": "Student usefulness rating (13 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.289
+    }
+   ]
+  },
+  "sentiment": "13 students on Berkeleytime rate it 2.7/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.15), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.15,
+   "letter": "B+",
+   "students": 543,
+   "pctA": 42,
+   "pctBelowB": 22,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 72
+    },
+    {
+     "letter": "A",
+     "count": 102
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 86
+    },
+    {
+     "letter": "B",
+     "count": 75
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 36
+    },
+    {
+     "letter": "C",
+     "count": 36
+    },
+    {
+     "letter": "C-",
+     "count": 18
+    },
+    {
+     "letter": "D+",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 13,
+   "difficulty": 2.7,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 46,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Phillip Kerger",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Paul Grigas",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Alberto Gennaro",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Xin Guo",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Daniel Pirutinsky",
+    "terms": 6,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.16,
+    "studentCount": 11,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.1,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20120"
+  ]
+ },
+ "INDENG 130": {
+  "course": "INDENG 130",
+  "difficulty": 3.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.288
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.25), with 40% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 234,
+   "pctA": 40,
+   "pctBelowB": 12,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 42
+    },
+    {
+     "letter": "B",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Leachman",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.23,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20130"
+  ]
+ },
+ "INDENG 135": {
+  "course": "INDENG 135",
+  "difficulty": 2.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.304
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.67), with 76% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 328,
+   "pctA": 76,
+   "pctBelowB": 4,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 140
+    },
+    {
+     "letter": "A-",
+     "count": 59
+    },
+    {
+     "letter": "B+",
+     "count": 33
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 63
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Stewart Liu",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.94,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Derek S Chan",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.57,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Ikhlaq Sidhu",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.57,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20135"
+  ]
+ },
+ "INDENG 142": {
+  "course": "INDENG 142",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.33
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 58% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 829,
+   "pctA": 58,
+   "pctBelowB": 7,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 245
+    },
+    {
+     "letter": "A-",
+     "count": 170
+    },
+    {
+     "letter": "B+",
+     "count": 126
+    },
+    {
+     "letter": "B",
+     "count": 87
+    },
+    {
+     "letter": "B-",
+     "count": 41
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 94
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Paul Grigas",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.32,
+    "midterms": 1,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Stewart Liu",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20142"
+  ]
+ },
+ "INDENG 142A": {
+  "course": "INDENG 142A",
+  "difficulty": 3.1,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.5/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.35), with 51% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 802,
+   "pctA": 51,
+   "pctBelowB": 10,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 203
+    },
+    {
+     "letter": "A-",
+     "count": 153
+    },
+    {
+     "letter": "B+",
+     "count": 109
+    },
+    {
+     "letter": "B",
+     "count": 115
+    },
+    {
+     "letter": "B-",
+     "count": 78
+    },
+    {
+     "letter": "C+",
+     "count": 41
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Pirutinsky",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.23,
+    "studentCount": 5,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 5,
+    "difficulty": 3.3,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Phillip Kerger",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Paul Grigas",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.18,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.3,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Stewart Liu",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.83,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20142A"
+  ]
+ },
+ "INDENG 142B": {
+  "course": "INDENG 142B",
+  "difficulty": 2.5,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.214
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.061
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.68), with 78% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 79,
+   "pctA": 78,
+   "pctBelowB": 3,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Phillip Kerger",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Paul Grigas",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.75,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20142B"
+  ]
+ },
+ "INDENG 145": {
+  "course": "INDENG 145",
+  "difficulty": 2.4,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.194
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.055
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.60), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 62,
+   "pctA": 68,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Rajan Udwani",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.61,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20145"
+  ]
+ },
+ "INDENG 150": {
+  "course": "INDENG 150",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.24
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.069
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.34), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 109,
+   "pctA": 55,
+   "pctBelowB": 14,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Huiwen Jia",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.72,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Candace Yano",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.06,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20150"
+  ]
+ },
+ "INDENG 151": {
+  "course": "INDENG 151",
+  "difficulty": 2.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.62), with 72% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 216,
+   "pctA": 72,
+   "pctBelowB": 4,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 93
+    },
+    {
+     "letter": "A-",
+     "count": 42
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Huiwen Jia",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.59,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Alper Atamturk",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.73,
+    "midterms": 1,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20151"
+  ]
+ },
+ "INDENG 153": {
+  "course": "INDENG 153",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.309
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.57), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 376,
+   "pctA": 64,
+   "pctBelowB": 2,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 107
+    },
+    {
+     "letter": "A-",
+     "count": 72
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 45
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 64
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Chiwei Yan",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.53,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Philip Kaminsky",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20153"
+  ]
+ },
+ "INDENG 156": {
+  "course": "INDENG 156",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.27
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 170,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 137
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anil Aswani",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20156"
+  ]
+ },
+ "INDENG 160": {
+  "course": "INDENG 160",
+  "difficulty": 3.7,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B (2.96)",
+     "value": 4.2,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 3.3,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.8,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.275
+    }
+   ]
+  },
+  "sentiment": "11 students on Berkeleytime rate it 3.8/5 for difficulty, 3.3/5 for workload and 3.3/5 for usefulness. The average grade is B (2.96), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.96,
+   "letter": "B",
+   "students": 610,
+   "pctA": 47,
+   "pctBelowB": 26,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 94
+    },
+    {
+     "letter": "A",
+     "count": 99
+    },
+    {
+     "letter": "A-",
+     "count": 87
+    },
+    {
+     "letter": "B+",
+     "count": 66
+    },
+    {
+     "letter": "B",
+     "count": 68
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 21
+    },
+    {
+     "letter": "C-",
+     "count": 29
+    },
+    {
+     "letter": "D+",
+     "count": 11
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 24
+    },
+    {
+     "letter": "F",
+     "count": 42
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 3.8,
+   "workload": 3.3,
+   "usefulness": 3.3,
+   "recordedPct": 40,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Javad Lavaei",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.95,
+    "studentCount": 11,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.9,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20160"
+  ]
+ },
+ "INDENG 162": {
+  "course": "INDENG 162",
+  "difficulty": 3.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (10 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.233
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (10)",
+     "value": 3.3,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.033
+    },
+    {
+     "label": "Student usefulness rating (10 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.267
+    }
+   ]
+  },
+  "sentiment": "10 students on Berkeleytime rate it 2.9/5 for difficulty, 3.3/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.19), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 600,
+   "pctA": 47,
+   "pctBelowB": 18,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 40
+    },
+    {
+     "letter": "A",
+     "count": 118
+    },
+    {
+     "letter": "A-",
+     "count": 97
+    },
+    {
+     "letter": "B+",
+     "count": 91
+    },
+    {
+     "letter": "B",
+     "count": 58
+    },
+    {
+     "letter": "B-",
+     "count": 43
+    },
+    {
+     "letter": "C+",
+     "count": 26
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 19
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 10,
+   "difficulty": 2.9,
+   "workload": 3.3,
+   "usefulness": 4,
+   "recordedPct": 56,
+   "attendanceRequiredPct": 56
+  },
+  "byProfessor": [
+   {
+    "professor": "Dorit Hochbaum",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.1,
+    "studentCount": 10,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Javad Lavaei",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.38,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20162"
+  ]
+ },
+ "INDENG 164": {
+  "course": "INDENG 164",
+  "difficulty": 2.1,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.29
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is A (3.85), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 244,
+   "pctA": 91,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 146
+    },
+    {
+     "letter": "A-",
+     "count": 47
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ying Cui",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.85,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 1.9,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20164"
+  ]
+ },
+ "INDENG 165": {
+  "course": "INDENG 165",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.321
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 559,
+   "pctA": 53,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 159
+    },
+    {
+     "letter": "A-",
+     "count": 110
+    },
+    {
+     "letter": "B+",
+     "count": 129
+    },
+    {
+     "letter": "B",
+     "count": 62
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anil Aswani",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20165"
+  ]
+ },
+ "INDENG 166": {
+  "course": "INDENG 166",
+  "difficulty": 3.2,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.31
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 5.0/5 for difficulty, 4.5/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.48), with 54% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 391,
+   "pctA": 54,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 157
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 33
+    },
+    {
+     "letter": "B",
+     "count": 106
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 5,
+   "workload": 4.5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Pirutinsky",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rhonda Righter",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.48,
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Tyler Maxey",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.18,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20166"
+  ]
+ },
+ "INDENG 169": {
+  "course": "INDENG 169",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.177
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 51,
+   "pctA": 78,
+   "pctBelowB": 3,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alper Atamturk",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20169"
+  ]
+ },
+ "INDENG 170": {
+  "course": "INDENG 170",
+  "difficulty": 2.8,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.318
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.0/5 for difficulty, 3.2/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.47), with 56% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 490,
+   "pctA": 56,
+   "pctBelowB": 6,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 116
+    },
+    {
+     "letter": "A-",
+     "count": 101
+    },
+    {
+     "letter": "B+",
+     "count": 78
+    },
+    {
+     "letter": "B",
+     "count": 60
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 65
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 3.2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Carisa Harris",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.42,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.2
+   }
+  ],
+  "reviews": [
+   {
+    "text": "As someone who doesn't have any industrial design experience, this course was very technical and pretty confusing. Going back to the slides is still very difficult to try to understand what's going on.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Very hard material, project based",
+    "professor": "Carisa Harris"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20170"
+  ]
+ },
+ "INDENG 171": {
+  "course": "INDENG 171",
+  "difficulty": 2.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.299
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.59), with 65% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 290,
+   "pctA": 65,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 83
+    },
+    {
+     "letter": "A-",
+     "count": 81
+    },
+    {
+     "letter": "B+",
+     "count": 57
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Lee Fleming",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.48,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Carrie Requist",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20171"
+  ]
+ },
+ "INDENG 172": {
+  "course": "INDENG 172",
+  "difficulty": 3.6,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade B (2.98)",
+     "value": 4.1,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 3,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 3.4/5 for difficulty, 3.0/5 for workload and 3.8/5 for usefulness. The average grade is B (2.98), with 38% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.98,
+   "letter": "B",
+   "students": 652,
+   "pctA": 38,
+   "pctBelowB": 24,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 58
+    },
+    {
+     "letter": "A",
+     "count": 106
+    },
+    {
+     "letter": "A-",
+     "count": 75
+    },
+    {
+     "letter": "B+",
+     "count": 55
+    },
+    {
+     "letter": "B",
+     "count": 100
+    },
+    {
+     "letter": "B-",
+     "count": 79
+    },
+    {
+     "letter": "C+",
+     "count": 32
+    },
+    {
+     "letter": "C",
+     "count": 33
+    },
+    {
+     "letter": "C-",
+     "count": 32
+    },
+    {
+     "letter": "D+",
+     "count": 18
+    },
+    {
+     "letter": "D",
+     "count": 12
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 3.4,
+   "workload": 3,
+   "usefulness": 3.8,
+   "recordedPct": 38,
+   "attendanceRequiredPct": 12
+  },
+  "byProfessor": [
+   {
+    "professor": "Thibaut Mastrolia",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.12,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Rhonda Righter",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.35,
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Daniel Pirutinsky",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.83,
+    "studentCount": 7,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 3.9,
+    "difficulty": 3.9,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20172"
+  ]
+ },
+ "INDENG 173": {
+  "course": "INDENG 173",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.322
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 582,
+   "pctA": 54,
+   "pctBelowB": 14,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 165
+    },
+    {
+     "letter": "A-",
+     "count": 75
+    },
+    {
+     "letter": "B+",
+     "count": 58
+    },
+    {
+     "letter": "B",
+     "count": 84
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 24
+    },
+    {
+     "letter": "C",
+     "count": 21
+    },
+    {
+     "letter": "C-",
+     "count": 15
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 68
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chenyang Zhong",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rhonda Righter",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Xin Guo",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.72,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Zeyu Zheng",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20173"
+  ]
+ },
+ "INDENG 174": {
+  "course": "INDENG 174",
+  "difficulty": 1.7,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.0/5 for difficulty, 1.5/5 for workload and 3.5/5 for usefulness. The average grade is A (3.85), with 93% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 408,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 64
+    },
+    {
+     "letter": "A",
+     "count": 195
+    },
+    {
+     "letter": "A-",
+     "count": 103
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1,
+   "workload": 1.5,
+   "usefulness": 3.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Zeyu Zheng",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.87,
+    "studentCount": 2,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.4,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20174"
+  ]
+ },
+ "INDENG 180": {
+  "course": "INDENG 180",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.293
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 257,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 119
+    },
+    {
+     "letter": "A-",
+     "count": 68
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Candace Yano",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Ilan Adler",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.85,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Robert Leachman",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.74,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20180"
+  ]
+ },
+ "INDENG 190C": {
+  "course": "INDENG 190C",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.253
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 130,
+   "pctA": 79,
+   "pctBelowB": 0,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 39
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 27
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20190C"
+  ]
+ },
+ "INDENG 190G": {
+  "course": "INDENG 190G",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 18,
+   "pctA": 80,
+   "pctBelowB": 0,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20190G"
+  ]
+ },
+ "INDENG 190H": {
+  "course": "INDENG 190H",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 20,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 35,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20190H"
+  ]
+ },
+ "INDENG 197": {
+  "course": "INDENG 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Zeyu Zheng",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Anil Aswani",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Robert Leachman",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dorit Hochbaum",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rhonda Righter",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Alper Atamturk",
+    "terms": 3,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Daniel Pirutinsky",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Ikhlaq Sidhu",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20197"
+  ]
+ },
+ "INDENG 198": {
+  "course": "INDENG 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Thibaut Mastrolia",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lee Fleming",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Lukasz Kowalski",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Rishi Madala",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Siddhant Satapathy",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Lawson Graham",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Michael Morris",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Victoria Howell",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20198"
+  ]
+ },
+ "INDENG 199": {
+  "course": "INDENG 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Lee Fleming",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dorit Hochbaum",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ken Goldberg",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Anil Aswani",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Carisa Harris",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Chiwei Yan",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rhonda Righter",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Rajan Udwani",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20199"
+  ]
+ },
+ "INDENG 24": {
+  "course": "INDENG 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Phillip Kerger",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%2024"
+  ]
+ },
+ "INDENG H196A": {
+  "course": "INDENG H196A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Phillip Kerger",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Zeyu Zheng",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20H196A"
+  ]
+ },
+ "INDENG H196B": {
+  "course": "INDENG H196B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Phillip Kerger",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Zeyu Zheng",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INDENG%20H196B"
+  ]
+ }
+}

@@ -1,0 +1,871 @@
+{
+  "stub": true,
+  "note": "Stub predictions for UI development; replace with the ML pipeline output.",
+  "term": "2027 Spring",
+  "generatedAt": "2026-11-20T00:00:00Z",
+  "phases": [
+    {
+      "name": "Phase 1",
+      "start": "2026-10-20",
+      "end": "2026-11-14"
+    },
+    {
+      "name": "Phase 2",
+      "start": "2026-11-17",
+      "end": "2027-01-16"
+    },
+    {
+      "name": "Adjustment",
+      "start": "2027-01-17",
+      "end": "2027-02-06"
+    }
+  ],
+  "predictions": [
+    {
+      "course": "COMPSCI 61A",
+      "professor": "John DeNero",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.95,
+      "expectedFillDate": "2026-10-24",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.92,
+        "Phase 2": 0.95,
+        "Adjustment": 0.99
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "COMPSCI 61B",
+      "professor": "Josh Hug",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.93,
+      "expectedFillDate": "2026-10-28",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.89,
+        "Phase 2": 0.93,
+        "Adjustment": 0.98
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 9
+    },
+    {
+      "course": "COMPSCI 61C",
+      "professor": "Dan Garcia",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.9,
+      "expectedFillDate": "2026-11-02",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.84,
+        "Phase 2": 0.9,
+        "Adjustment": 0.95
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 7
+    },
+    {
+      "course": "COMPSCI 70",
+      "professor": "Satish Rao",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.9,
+      "expectedFillDate": "2026-11-05",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.84,
+        "Phase 2": 0.9,
+        "Adjustment": 0.95
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "COMPSCI 170",
+      "professor": "Prasad Raghavendra",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.85,
+      "expectedFillDate": "2026-11-10",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.77,
+        "Phase 2": 0.85,
+        "Adjustment": 0.89
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 6
+    },
+    {
+      "course": "COMPSCI 188",
+      "professor": "Stuart Russell",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.88,
+      "expectedFillDate": "2026-11-06",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.82,
+        "Phase 2": 0.88,
+        "Adjustment": 0.92
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "COMPSCI 189",
+      "professor": "Jennifer Listgarten",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.86,
+      "expectedFillDate": "2026-11-08",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.79,
+        "Phase 2": 0.86,
+        "Adjustment": 0.9
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 11
+    },
+    {
+      "course": "COMPSCI 161",
+      "professor": "David Wagner",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.8,
+      "expectedFillDate": "2026-11-12",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.7,
+        "Phase 2": 0.8,
+        "Adjustment": 0.84
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "COMPSCI 162",
+      "professor": "Ion Stoica",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.78,
+      "expectedFillDate": "2026-11-30",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.43,
+        "Phase 2": 0.78,
+        "Adjustment": 0.82
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 6
+    },
+    {
+      "course": "COMPSCI 186",
+      "professor": "Alvin Cheung",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.7,
+      "expectedFillDate": "2026-12-10",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.39,
+        "Phase 2": 0.7,
+        "Adjustment": 0.73
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 10
+    },
+    {
+      "course": "COMPSCI 160",
+      "professor": "Bjoern Hartmann",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.62,
+      "expectedFillDate": "2027-01-08",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.34,
+        "Phase 2": 0.62,
+        "Adjustment": 0.65
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "COMPSCI 169A",
+      "professor": "Armando Fox",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.6,
+      "expectedFillDate": "2026-12-18",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 6
+    },
+    {
+      "course": "DATA C8",
+      "professor": "Ani Adhikari",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.92,
+      "expectedFillDate": "2026-10-30",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.88,
+        "Phase 2": 0.92,
+        "Adjustment": 0.97
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 6
+    },
+    {
+      "course": "DATA C88C",
+      "professor": "John DeNero",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.6,
+      "expectedFillDate": "2026-12-01",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 5
+    },
+    {
+      "course": "DATA C100",
+      "professor": "Narges Norouzi",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.9,
+      "expectedFillDate": "2026-11-04",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.84,
+        "Phase 2": 0.9,
+        "Adjustment": 0.95
+      },
+      "recommendation": "Phase 1 priority",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 6
+    },
+    {
+      "course": "DATA C140",
+      "professor": "Ani Adhikari",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.7,
+      "expectedFillDate": "2026-12-05",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.39,
+        "Phase 2": 0.7,
+        "Adjustment": 0.73
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 8
+    },
+    {
+      "course": "DATA C104",
+      "professor": "Margarita Boenig-Liptsin",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.6,
+      "expectedFillDate": "2027-01-12",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 7
+    },
+    {
+      "course": "MATH 51",
+      "professor": "Alexander Paulin",
+      "professorSeenBefore": true,
+      "warning": "MATH 51 is a new course number (replaced MATH 1A in Fall 2025); estimate blends MATH 1A history",
+      "popularity": 0.84,
+      "expectedFillDate": "2026-11-12",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.76,
+        "Phase 2": 0.84,
+        "Adjustment": 0.88
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 3
+    },
+    {
+      "course": "MATH 52",
+      "professor": "Edward Frenkel",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.8,
+      "expectedFillDate": "2026-11-20",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.44,
+        "Phase 2": 0.8,
+        "Adjustment": 0.84
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 10
+    },
+    {
+      "course": "MATH 53",
+      "professor": "Michael Hutchings",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.82,
+      "expectedFillDate": "2026-11-18",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.45,
+        "Phase 2": 0.82,
+        "Adjustment": 0.86
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "MATH 54",
+      "professor": "Nikhil Srivastava",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.85,
+      "expectedFillDate": "2026-11-13",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.77,
+        "Phase 2": 0.85,
+        "Adjustment": 0.89
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 5
+    },
+    {
+      "course": "MATH 55",
+      "professor": "Kenneth Ribet",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.6,
+      "expectedFillDate": "2026-12-15",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "MATH 104",
+      "professor": "Ian Charlesworth",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.55,
+      "expectedFillDate": "2027-01-05",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.3,
+        "Phase 2": 0.55,
+        "Adjustment": 0.58
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 5
+    },
+    {
+      "course": "STAT 20",
+      "professor": "Andrew Bray",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.75,
+      "expectedFillDate": "2026-12-01",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.41,
+        "Phase 2": 0.75,
+        "Adjustment": 0.79
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 8
+    },
+    {
+      "course": "STAT 134",
+      "professor": "Adam Lucas",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.78,
+      "expectedFillDate": "2026-11-25",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.43,
+        "Phase 2": 0.78,
+        "Adjustment": 0.82
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "STAT 135",
+      "professor": "Bin Yu",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.6,
+      "expectedFillDate": "2027-01-10",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 12
+    },
+    {
+      "course": "ECON 1",
+      "professor": "Martha Olney",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.82,
+      "expectedFillDate": "2026-11-15",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.45,
+        "Phase 2": 0.82,
+        "Adjustment": 0.86
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "ECON 100A",
+      "professor": "Steven Wood",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.75,
+      "expectedFillDate": "2026-11-28",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.41,
+        "Phase 2": 0.75,
+        "Adjustment": 0.79
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 5
+    },
+    {
+      "course": "ECON 100B",
+      "professor": "Yuriy Gorodnichenko",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.7,
+      "expectedFillDate": "2026-12-08",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.39,
+        "Phase 2": 0.7,
+        "Adjustment": 0.73
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 12
+    },
+    {
+      "course": "ECON 140",
+      "professor": "Jeremy Magruder",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.72,
+      "expectedFillDate": "2026-12-03",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.4,
+        "Phase 2": 0.72,
+        "Adjustment": 0.76
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "ECON 119",
+      "professor": "Stefano DellaVigna",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.68,
+      "expectedFillDate": "2026-12-12",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.37,
+        "Phase 2": 0.68,
+        "Adjustment": 0.71
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 5
+    },
+    {
+      "course": "UGBA 10",
+      "professor": "Panos Patatoukas",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.78,
+      "expectedFillDate": "2026-11-20",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.43,
+        "Phase 2": 0.78,
+        "Adjustment": 0.82
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 10
+    },
+    {
+      "course": "UGBA 103",
+      "professor": "Lisa Goldberg",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.65,
+      "expectedFillDate": "2026-12-20",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.36,
+        "Phase 2": 0.65,
+        "Adjustment": 0.68
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 13
+    },
+    {
+      "course": "CHEM 1A",
+      "professor": "Michelle Douskey",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.85,
+      "expectedFillDate": "2026-11-10",
+      "fillsInPhase": "Phase 1",
+      "pFullByPhase": {
+        "Phase 1": 0.77,
+        "Phase 2": 0.85,
+        "Adjustment": 0.89
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "CHEM 3A",
+      "professor": "Peter Vollhardt",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.75,
+      "expectedFillDate": "2026-11-22",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.41,
+        "Phase 2": 0.75,
+        "Adjustment": 0.79
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "BIOLOGY 1A",
+      "professor": "Michael Meighan",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.8,
+      "expectedFillDate": "2026-11-18",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.44,
+        "Phase 2": 0.8,
+        "Adjustment": 0.84
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "MCELLBI 32",
+      "professor": "Mary Wildermuth",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.6,
+      "expectedFillDate": "2027-01-10",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 9
+    },
+    {
+      "course": "PSYCH 1",
+      "professor": "Serena Chen",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.7,
+      "expectedFillDate": "2026-12-15",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.39,
+        "Phase 2": 0.7,
+        "Adjustment": 0.73
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 9
+    },
+    {
+      "course": "POLSCI 1",
+      "professor": "Taeku Lee",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.62,
+      "expectedFillDate": "2027-01-08",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.34,
+        "Phase 2": 0.62,
+        "Adjustment": 0.65
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 8
+    },
+    {
+      "course": "PHYSICS 7A",
+      "professor": "Holger Muller",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.7,
+      "expectedFillDate": "2026-12-10",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.39,
+        "Phase 2": 0.7,
+        "Adjustment": 0.73
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 12
+    },
+    {
+      "course": "ASTRON C10",
+      "professor": "Alex Filippenko",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.7,
+      "expectedFillDate": "2026-12-22",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.39,
+        "Phase 2": 0.7,
+        "Adjustment": 0.73
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 9
+    },
+    {
+      "course": "ELENG 66",
+      "professor": "Gireeja Ranade",
+      "professorSeenBefore": true,
+      "warning": "Renamed from EECS 16A; history combines both course numbers",
+      "popularity": 0.72,
+      "expectedFillDate": "2026-11-26",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.4,
+        "Phase 2": 0.72,
+        "Adjustment": 0.76
+      },
+      "recommendation": "Phase 1 or early Phase 2",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 11
+    },
+    {
+      "course": "COLWRIT R1A",
+      "professor": "Staff",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.6,
+      "expectedFillDate": "2026-12-01",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.33,
+        "Phase 2": 0.6,
+        "Adjustment": 0.63
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "NUSCTX 10",
+      "professor": "Christopher Vulpe",
+      "professorSeenBefore": false,
+      "warning": "First time this professor teaches this course; estimate falls back to course-wide history",
+      "popularity": 0.55,
+      "expectedFillDate": "2027-01-14",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.3,
+        "Phase 2": 0.55,
+        "Adjustment": 0.58
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "low",
+      "basis": "course",
+      "historyTerms": 9
+    },
+    {
+      "course": "ENVECON C1",
+      "professor": "David Zilberman",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.5,
+      "expectedFillDate": null,
+      "fillsInPhase": null,
+      "pFullByPhase": {
+        "Phase 1": 0.28,
+        "Phase 2": 0.3,
+        "Adjustment": 0.35
+      },
+      "recommendation": "Adjustment period is fine",
+      "confidence": "high",
+      "basis": "professor",
+      "historyTerms": 12
+    },
+    {
+      "course": "INFO 159",
+      "professor": "David Bamman",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.65,
+      "expectedFillDate": "2026-12-14",
+      "fillsInPhase": "Phase 2",
+      "pFullByPhase": {
+        "Phase 1": 0.36,
+        "Phase 2": 0.65,
+        "Adjustment": 0.68
+      },
+      "recommendation": "Phase 2 is fine",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 4
+    },
+    {
+      "course": "COMPSCI 10",
+      "professor": "Dan Garcia",
+      "professorSeenBefore": true,
+      "warning": null,
+      "popularity": 0.45,
+      "expectedFillDate": null,
+      "fillsInPhase": null,
+      "pFullByPhase": {
+        "Phase 1": 0.25,
+        "Phase 2": 0.27,
+        "Adjustment": 0.32
+      },
+      "recommendation": "Adjustment period is fine",
+      "confidence": "medium",
+      "basis": "professor",
+      "historyTerms": 5
+    }
+  ]
+}

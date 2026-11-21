@@ -1,0 +1,372 @@
+{
+ "CDSS 170": {
+  "course": "CDSS 170",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.22
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.95), with 99% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 85,
+   "pctA": 99,
+   "pctBelowB": 1,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 84
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Narges Norouzi",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Riley VanMeter",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Emily Remirez",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.95,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CDSS%20170"
+  ]
+ },
+ "CDSS 198": {
+  "course": "CDSS 198",
+  "difficulty": 1.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.131
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Narges Norouzi",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 1.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Lisa Feldman",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Deborah Nolan",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 1,
+    "difficulty": 1.7,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Ronald Cohen",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CDSS%20198"
+  ]
+ },
+ "CDSS 60": {
+  "course": "CDSS 60",
+  "difficulty": 2.4,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.085
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.024
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.83), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 16,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Arpita Roy",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CDSS%2060"
+  ]
+ },
+ "CDSS 94": {
+  "course": "CDSS 94",
+  "difficulty": 2.1,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.229
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.1,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.9,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.9,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.6/5 for difficulty, 2.1/5 for workload and 4.4/5 for usefulness. The average grade is A (3.93), with 94% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 95,
+   "pctA": 94,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 79
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.6,
+   "workload": 2.1,
+   "usefulness": 4.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 83
+  },
+  "byProfessor": [
+   {
+    "professor": "Arpita Roy",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.93,
+    "studentCount": 6,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 4.3,
+    "difficulty": 1.8,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Narges Norouzi",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.96,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CDSS%2094"
+  ]
+ }
+}

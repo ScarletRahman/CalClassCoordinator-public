@@ -1,0 +1,106 @@
+{
+ "CPH C100": {
+  "course": "CPH C100",
+  "difficulty": 2.3,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.12
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.034
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 26,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Irene Chen",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 4.0,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.1,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Adam Yala",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 4.0,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.1,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CPH%20C100"
+  ]
+ }
+}

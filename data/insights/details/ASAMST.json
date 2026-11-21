@@ -1,0 +1,3524 @@
+{
+ "ASAMST 121": {
+  "course": "ASAMST 121",
+  "difficulty": 1.9,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.272
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.078
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (7 on file)",
+     "value": 3.6,
+     "weight": 0.095
+    }
+   ]
+  },
+  "sentiment": "Students say the instructor is kind and knowledgeable, but the class is loosely structured and lectures can be dry. Workload includes weekly writing, a group project and some quizzes on specific facts. Reviewers call it manageable and easy to do well in, best for those interested in the topic.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 174,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 126
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 34
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 4,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Harvey Dong",
+    "terms": 4,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.94,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2,
+    "difficulty": 1.6,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20121"
+  ]
+ },
+ "ASAMST 122": {
+  "course": "ASAMST 122",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.238
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 106,
+   "pctA": 76,
+   "pctBelowB": 8,
+   "pctPassNoPass": 26,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 5,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20122"
+  ]
+ },
+ "ASAMST 124": {
+  "course": "ASAMST 124",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.144
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 96% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 35,
+   "pctA": 96,
+   "pctBelowB": 4,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Choy",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20124"
+  ]
+ },
+ "ASAMST 125": {
+  "course": "ASAMST 125",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 40,
+   "pctA": 45,
+   "pctBelowB": 13,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Khatharya Um",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.08,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20125"
+  ]
+ },
+ "ASAMST 127": {
+  "course": "ASAMST 127",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 37,
+   "pctA": 94,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Arun Rasiah",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20127"
+  ]
+ },
+ "ASAMST 128AC": {
+  "course": "ASAMST 128AC",
+  "difficulty": 1.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (20 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.28
+    },
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (20)",
+     "value": 1.8,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.9,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.2,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (20 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.32
+    }
+   ]
+  },
+  "sentiment": "20 students on Berkeleytime rate it 1.7/5 for difficulty, 1.8/5 for workload and 3.3/5 for usefulness. The average grade is A (3.92), with 95% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 987,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 426
+    },
+    {
+     "letter": "A",
+     "count": 397
+    },
+    {
+     "letter": "A-",
+     "count": 65
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 54
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 20,
+   "difficulty": 1.7,
+   "workload": 1.8,
+   "usefulness": 3.3,
+   "recordedPct": 6,
+   "attendanceRequiredPct": 89
+  },
+  "byProfessor": [
+   {
+    "professor": "Hatem Albazian",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.93,
+    "studentCount": 20,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 3.3,
+    "difficulty": 1.5,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20128AC"
+  ]
+ },
+ "ASAMST 131": {
+  "course": "ASAMST 131",
+  "difficulty": 2.5,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.261
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 3.0/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.60), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 146,
+   "pctA": 75,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 3,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Khatharya Um",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.51,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Long Le-Khac",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.6,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.4,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20131"
+  ]
+ },
+ "ASAMST 132AC": {
+  "course": "ASAMST 132AC",
+  "difficulty": 1.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 1.2/5 for difficulty, 1.3/5 for workload and 4.0/5 for usefulness. The average grade is A (3.90), with 93% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 906,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 364
+    },
+    {
+     "letter": "A",
+     "count": 303
+    },
+    {
+     "letter": "A-",
+     "count": 80
+    },
+    {
+     "letter": "B+",
+     "count": 28
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 104
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.2,
+   "workload": 1.3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Hatem Albazian",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "studentCount": 4,
+    "studentDifficulty": 1.2,
+    "studentUsefulness": 4,
+    "difficulty": 1.3,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20132AC"
+  ]
+ },
+ "ASAMST 138": {
+  "course": "ASAMST 138",
+  "difficulty": 2.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.64), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 215,
+   "pctA": 77,
+   "pctBelowB": 5,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 47
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 21
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah Michell",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20138"
+  ]
+ },
+ "ASAMST 141": {
+  "course": "ASAMST 141",
+  "difficulty": 2.4,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.253
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.072
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.75), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 131,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 17
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Chang",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20141"
+  ]
+ },
+ "ASAMST 143AC": {
+  "course": "ASAMST 143AC",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.287
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.93), with 96% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 229,
+   "pctA": 96,
+   "pctBelowB": 1,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 72
+    },
+    {
+     "letter": "A",
+     "count": 127
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Winston Tseng",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20143AC"
+  ]
+ },
+ "ASAMST 143B": {
+  "course": "ASAMST 143B",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.27
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.93), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 170,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 128
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joe Lee",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.93,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20143B"
+  ]
+ },
+ "ASAMST 145AC": {
+  "course": "ASAMST 145AC",
+  "difficulty": 2.1,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.262
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 2.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.79), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 150,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 28
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Chang",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.8,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.9,
+    "shouldTake": 4.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Very chill professor who is happy to help those interested in Law despite being a busy attorney. The class seems intimidating at first with all the legal jargon and cases to remember, but there are only 3 written assignments and 2 presentations the entire semester. The class is a bit disorganized, but you can usually find everything you need under the modules tab on Canvas. Coming from a STEM background, I felt that it was not very hard to complete and do well on the assignments.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "ASAMST 145AC Spring 2026",
+    "professor": "Michael Chang",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20145AC"
+  ]
+ },
+ "ASAMST 146": {
+  "course": "ASAMST 146",
+  "difficulty": 2.6,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.269
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.65), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 166,
+   "pctA": 77,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 78
+    },
+    {
+     "letter": "A-",
+     "count": 42
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20146"
+  ]
+ },
+ "ASAMST 150": {
+  "course": "ASAMST 150",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.195
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 63,
+   "pctA": 84,
+   "pctBelowB": 0,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20150"
+  ]
+ },
+ "ASAMST 151": {
+  "course": "ASAMST 151",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20151"
+  ]
+ },
+ "ASAMST 152": {
+  "course": "ASAMST 152",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.144
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 35,
+   "pctA": 87,
+   "pctBelowB": 3,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20152"
+  ]
+ },
+ "ASAMST 171": {
+  "course": "ASAMST 171",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.268
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 164,
+   "pctA": 79,
+   "pctBelowB": 6,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 49
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah Michell",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20171"
+  ]
+ },
+ "ASAMST 172": {
+  "course": "ASAMST 172",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.17
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 47,
+   "pctA": 87,
+   "pctBelowB": 0,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fae Myenne Ng",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20172"
+  ]
+ },
+ "ASAMST 173": {
+  "course": "ASAMST 173",
+  "difficulty": 2.1,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.203
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.058
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.98), with 98% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 69,
+   "pctA": 98,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Fae Myenne Ng",
+    "terms": 5,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.97,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 1.8,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20173"
+  ]
+ },
+ "ASAMST 174": {
+  "course": "ASAMST 174",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Long Le-Khac",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20174"
+  ]
+ },
+ "ASAMST 175": {
+  "course": "ASAMST 175",
+  "difficulty": 2.2,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.194
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.055
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.0/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.82), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 62,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.82,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20175"
+  ]
+ },
+ "ASAMST 176": {
+  "course": "ASAMST 176",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.204
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 70,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 38
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fae Myenne Ng",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.96,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Long Le-Khac",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20176"
+  ]
+ },
+ "ASAMST 190": {
+  "course": "ASAMST 190",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.223
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 88,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 50
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ida Yalzadeh",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Dina Omar",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.96,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Esiteli Hafoka",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Pheng Cheah",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Lok Siu",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20190"
+  ]
+ },
+ "ASAMST 194A": {
+  "course": "ASAMST 194A",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 92% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 75,
+   "pctA": 92,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Terisa Siagatonu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.76,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Lok Siu",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Eunice Kwon",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20194A"
+  ]
+ },
+ "ASAMST 194B": {
+  "course": "ASAMST 194B",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 92% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 75,
+   "pctA": 92,
+   "pctBelowB": 7,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nabeeha Ali",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Terisa Siagatonu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.8,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Carolyn Chen",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Eunice Kwon",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20194B"
+  ]
+ },
+ "ASAMST 197": {
+  "course": "ASAMST 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Harvey Dong",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Joe Lee",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Miya Sommers",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Terisa Siagatonu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Winston Tseng",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Maria Barrios-Leblanc",
+    "terms": 6,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Carolyn Chen",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20197"
+  ]
+ },
+ "ASAMST 198": {
+  "course": "ASAMST 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Winston Tseng",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ikaika Ramones",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 8,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Michael Chang",
+    "terms": 7,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Harvey Dong",
+    "terms": 5,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Catherine Choy",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20198"
+  ]
+ },
+ "ASAMST 199": {
+  "course": "ASAMST 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Harvey Dong",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hatem Albazian",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Winston Tseng",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ikaika Ramones",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Khatharya Um",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Michael Chang",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20199"
+  ]
+ },
+ "ASAMST 20A": {
+  "course": "ASAMST 20A",
+  "difficulty": 1.8,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.79), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 578,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 358
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 37
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 98
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 5
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Choy",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.9,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.4,
+    "shouldTake": 4.4
+   },
+   {
+    "professor": "Harvey Dong",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.69,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Michael Chang",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%2020A"
+  ]
+ },
+ "ASAMST 20AC": {
+  "course": "ASAMST 20AC",
+  "difficulty": 2.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 2.4,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.246
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 3.5,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Students describe a relaxed class with low homework, weekly readings, and quizzes that allow multiple attempts, plus extra credit. Warnings: the midterm and final are closed-book, timed multiple choice with specific factual questions, so it is not as easy an A as rumored. Discussion attendance is mandatory.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 782,
+   "pctA": 90,
+   "pctBelowB": 5,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 595
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 91
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2,
+   "workload": 2.4,
+   "usefulness": 2.9,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Harvey Dong",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "studentCount": 8,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2.9,
+    "difficulty": 1.8,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%2020AC"
+  ]
+ },
+ "ASAMST 20B": {
+  "course": "ASAMST 20B",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.104
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 21,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 52,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%2020B"
+  ]
+ },
+ "ASAMST 20C": {
+  "course": "ASAMST 20C",
+  "difficulty": 2.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.277
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.2/5 for difficulty, 2.8/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.83), with 91% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 191,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 52
+    },
+    {
+     "letter": "A",
+     "count": 85
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.2,
+   "workload": 2.8,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Long Le-Khac",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.77,
+    "studentCount": 4,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.1,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.86,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Andrew Leong",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.98,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Hannah Michell",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%2020C"
+  ]
+ },
+ "ASAMST 24": {
+  "course": "ASAMST 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%2024"
+  ]
+ },
+ "ASAMST 39": {
+  "course": "ASAMST 39",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 15,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 67,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%2039"
+  ]
+ },
+ "ASAMST H195A": {
+  "course": "ASAMST H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gregory Choy",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Khatharya Um",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20H195A"
+  ]
+ },
+ "ASAMST H195B": {
+  "course": "ASAMST H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Catherine Choy",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Chang",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Carolyn Chen",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Lok Siu",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Harvey Dong",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Khatharya Um",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20H195B"
+  ]
+ },
+ "ASAMST R2A": {
+  "course": "ASAMST R2A",
+  "difficulty": 2.4,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.239
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.068
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.72), with 84% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 107,
+   "pctA": 84,
+   "pctBelowB": 4,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 40
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Joshua Acosta",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.88,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Sarah Halabe",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lisa Ng",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.86,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Lok Siu",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Anna Leong",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.66,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Ryan Ikeda",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.96,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Khatharya Um",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.96,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20R2A"
+  ]
+ },
+ "ASAMST R2B": {
+  "course": "ASAMST R2B",
+  "difficulty": 2.2,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.228
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.065
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.70), with 84% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 93,
+   "pctA": 84,
+   "pctBelowB": 6,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Derek Wu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Joshua Acosta",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "David Pham",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Carolyn Chen",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Lisa Ng",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.7,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Lok Siu",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Khatharya Um",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.83,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20R2B"
+  ]
+ },
+ "ASAMST W20AC": {
+  "course": "ASAMST W20AC",
+  "difficulty": 2.1,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.315
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.09
+    },
+    {
+     "label": "Tone of written student reviews (12 on file)",
+     "value": 3.8,
+     "weight": 0.112
+    }
+   ]
+  },
+  "sentiment": "Students describe a manageable, mostly online class with recorded lectures, weekly quizzes with multiple attempts and a group podcast project. Readings are extensive and quizzes and exams can ask for small details. Lectures are seen as interesting but monotone, and GSIs matter.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 444,
+   "pctA": 85,
+   "pctBelowB": 5,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 261
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 89
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ASAMST%20W20AC"
+  ]
+ }
+}

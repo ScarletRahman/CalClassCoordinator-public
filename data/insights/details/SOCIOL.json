@@ -1,0 +1,10314 @@
+{
+ "SOCIOL 1": {
+  "course": "SOCIOL 1",
+  "difficulty": 2.7,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (42 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.313
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.342
+    },
+    {
+     "label": "Student workload rating (42)",
+     "value": 3.0,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.0,
+     "weight": 0.045
+    },
+    {
+     "label": "Student usefulness rating (42 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.357
+    },
+    {
+     "label": "Tone of written student reviews (128 on file)",
+     "value": 4.2,
+     "weight": 0.145
+    }
+   ]
+  },
+  "sentiment": "Most reviewers enjoy this intro, praising engaging lectures, manageable work, and fair, fairly easy exams. Common complaints are lengthy readings, boring lectures for some, vague project rubrics, and grades that vary by GSI. Students advise going to lecture and doing the readings.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 2075,
+   "pctA": 63,
+   "pctBelowB": 8,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 148
+    },
+    {
+     "letter": "A",
+     "count": 742
+    },
+    {
+     "letter": "A-",
+     "count": 352
+    },
+    {
+     "letter": "B+",
+     "count": 234
+    },
+    {
+     "letter": "B",
+     "count": 221
+    },
+    {
+     "letter": "B-",
+     "count": 94
+    },
+    {
+     "letter": "C+",
+     "count": 50
+    },
+    {
+     "letter": "C",
+     "count": 45
+    },
+    {
+     "letter": "C-",
+     "count": 23
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 13
+    },
+    {
+     "letter": "D-",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 25
+    },
+    {
+     "letter": "P",
+     "count": 101
+    },
+    {
+     "letter": "NP",
+     "count": 17
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 42,
+   "difficulty": 2.8,
+   "workload": 3.0,
+   "usefulness": 4.1,
+   "recordedPct": 14,
+   "attendanceRequiredPct": 42
+  },
+  "byProfessor": [
+   {
+    "professor": "ELIZA BROWN",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.52,
+    "studentCount": 16,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.6,
+    "difficulty": 2.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Robert Braun",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.19,
+    "studentCount": 19,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.0,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Thomas Gold",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.84,
+    "studentCount": 5,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.8,
+    "difficulty": 2.0,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Tianna Paschel",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.48,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Michael Burawoy",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%201"
+  ]
+ },
+ "SOCIOL 101": {
+  "course": "SOCIOL 101",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (17 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.27
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (17)",
+     "value": 3.1,
+     "weight": 0.116
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (17 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.309
+    },
+    {
+     "label": "Tone of written student reviews (46 on file)",
+     "value": 3.9,
+     "weight": 0.138
+    }
+   ]
+  },
+  "sentiment": "Students describe a dense, reading-heavy theory course, with lectures that most find engaging and important for understanding. Discussion sections and a good GSI help a lot, and quizzes can be tricky. Opinions on how approachable and clear the lecturer is vary by semester.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 1184,
+   "pctA": 62,
+   "pctBelowB": 10,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 103
+    },
+    {
+     "letter": "A",
+     "count": 395
+    },
+    {
+     "letter": "A-",
+     "count": 200
+    },
+    {
+     "letter": "B+",
+     "count": 143
+    },
+    {
+     "letter": "B",
+     "count": 120
+    },
+    {
+     "letter": "B-",
+     "count": 63
+    },
+    {
+     "letter": "C+",
+     "count": 27
+    },
+    {
+     "letter": "C",
+     "count": 37
+    },
+    {
+     "letter": "C-",
+     "count": 26
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 42
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 17,
+   "difficulty": 3.2,
+   "workload": 3.1,
+   "usefulness": 4.1,
+   "recordedPct": 19,
+   "attendanceRequiredPct": 53
+  },
+  "byProfessor": [
+   {
+    "professor": "Luis Flores",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.41,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.77,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.4,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Cihan Tugal",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "studentCount": 11,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Dylan Riley",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.3,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Marion Fourcade",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.31,
+    "difficulty": 3.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "The course is very reading heavy, as expected from 5 units. But I love Prof. Flores, it's his first time teaching this class and the slides are all very organized, his lectures are engaging, and the GSI discussions are helpful.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Organized class, reading heavy",
+    "professor": "Luis Flores"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20101"
+  ]
+ },
+ "SOCIOL 102": {
+  "course": "SOCIOL 102",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    },
+    {
+     "label": "Tone of written student reviews (19 on file)",
+     "value": 3.4,
+     "weight": 0.124
+    }
+   ]
+  },
+  "sentiment": "Reviews conflict. Some praise clear, insightful explanations of hard theory and helpful office hours. Others find lectures confusing and disorganized, readings long, and papers demanding. Many say the section instructor is critical to doing well. An A takes real work, though a B range is more manageable.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 1151,
+   "pctA": 69,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 156
+    },
+    {
+     "letter": "A",
+     "count": 370
+    },
+    {
+     "letter": "A-",
+     "count": 236
+    },
+    {
+     "letter": "B+",
+     "count": 123
+    },
+    {
+     "letter": "B",
+     "count": 88
+    },
+    {
+     "letter": "B-",
+     "count": 50
+    },
+    {
+     "letter": "C+",
+     "count": 35
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 43
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Ricarda Hammer",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.61,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Lorraine Cruz Del Rio",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.5,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Dylan Riley",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.61,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.5,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Cihan Tugal",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Christopher Muller",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20102"
+  ]
+ },
+ "SOCIOL 103": {
+  "course": "SOCIOL 103",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 65% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 27,
+   "pctA": 65,
+   "pctBelowB": 9,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Lie",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.46,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20103"
+  ]
+ },
+ "SOCIOL 104": {
+  "course": "SOCIOL 104",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 14,
+   "pctA": 85,
+   "pctBelowB": 8,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "John Lie",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20104"
+  ]
+ },
+ "SOCIOL 105": {
+  "course": "SOCIOL 105",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.08)",
+     "value": 3.8,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.08), with 33% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.08,
+   "letter": "B",
+   "students": 12,
+   "pctA": 33,
+   "pctBelowB": 17,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20105"
+  ]
+ },
+ "SOCIOL 106": {
+  "course": "SOCIOL 106",
+  "difficulty": 2.7,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.248
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.5/5 for workload and 2.5/5 for usefulness. The average grade is A- (3.52), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 122,
+   "pctA": 70,
+   "pctBelowB": 8,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 2.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Hurtubise",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.56,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.6,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Kasey Zapatka",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.18,
+    "difficulty": 2.9
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Came into this class expecting to use R, as stated on the course description, but the class was completely using Stata, but there were no instances where we directly worked on a data set in class. Exams were take-home and we were just expected to write the commands in the pdf. I never even purchased Stata...",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Disorganized lecture, wish it would be useful",
+    "professor": "Peter Hurtubise"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20106"
+  ]
+ },
+ "SOCIOL 107": {
+  "course": "SOCIOL 107",
+  "difficulty": 3.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade C (2.00)",
+     "value": 5.0,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is C (2.00), with 25% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 2,
+   "letter": "C",
+   "students": 12,
+   "pctA": 25,
+   "pctBelowB": 75,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Martin Sanchez-Jankowski",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.0,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20107"
+  ]
+ },
+ "SOCIOL 108": {
+  "course": "SOCIOL 108",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.241
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 80% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 110,
+   "pctA": 80,
+   "pctBelowB": 5,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Yan Long",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Upasana Garnaik",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Laura Enriquez",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Edwin Lin",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20108"
+  ]
+ },
+ "SOCIOL 110": {
+  "course": "SOCIOL 110",
+  "difficulty": 3.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.17)",
+     "value": 3.5,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.178
+    },
+    {
+     "label": "Tone of written student reviews (38 on file)",
+     "value": 3.7,
+     "weight": 0.136
+    }
+   ]
+  },
+  "sentiment": "Students say the lectures are clear and engaging and the course is manageable if you attend or use the slides. Assessments are take-home midterms, reading responses and a final that many call hard. Reviewers complain about unclear rubrics and harsh grading by readers, with some calling it a low-effort A.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.17,
+   "letter": "B+",
+   "students": 894,
+   "pctA": 44,
+   "pctBelowB": 18,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 183
+    },
+    {
+     "letter": "A-",
+     "count": 122
+    },
+    {
+     "letter": "B+",
+     "count": 115
+    },
+    {
+     "letter": "B",
+     "count": 120
+    },
+    {
+     "letter": "B-",
+     "count": 64
+    },
+    {
+     "letter": "C+",
+     "count": 39
+    },
+    {
+     "letter": "C",
+     "count": 37
+    },
+    {
+     "letter": "C-",
+     "count": 21
+    },
+    {
+     "letter": "D+",
+     "count": 11
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 84
+    },
+    {
+     "letter": "NP",
+     "count": 20
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.2,
+   "workload": 2.8,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Heather Haveman",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.85,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Linus Huang",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.19,
+    "studentCount": 4,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.0,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20110"
+  ]
+ },
+ "SOCIOL 111AC": {
+  "course": "SOCIOL 111AC",
+  "difficulty": 2.7,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (15 on file)",
+     "value": 3.7,
+     "weight": 0.118
+    }
+   ]
+  },
+  "sentiment": "Students say the instructor is kind and caring and the topics are interesting, with essays, take-home or written exams and random attendance checks. Reading is heavy and lectures can be repetitive or tangent-filled. Grading by section instructors is described as inconsistent and sometimes harsh.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 896,
+   "pctA": 63,
+   "pctBelowB": 7,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 260
+    },
+    {
+     "letter": "A-",
+     "count": 189
+    },
+    {
+     "letter": "B+",
+     "count": 117
+    },
+    {
+     "letter": "B",
+     "count": 88
+    },
+    {
+     "letter": "B-",
+     "count": 26
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 131
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.4,
+   "workload": 3.2,
+   "usefulness": 3.4,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joanna Reed",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "studentCount": 4,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Charles Sarno",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Mary Kelsey",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.63,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20111AC"
+  ]
+ },
+ "SOCIOL 111C": {
+  "course": "SOCIOL 111C",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.20)",
+     "value": 3.4,
+     "weight": 0.309
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.20), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.2,
+   "letter": "B+",
+   "students": 378,
+   "pctA": 45,
+   "pctBelowB": 14,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 76
+    },
+    {
+     "letter": "B+",
+     "count": 57
+    },
+    {
+     "letter": "B",
+     "count": 52
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 58
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joanna Reed",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.24,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Caitlin Daniel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.74,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20111C"
+  ]
+ },
+ "SOCIOL 111L": {
+  "course": "SOCIOL 111L",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.253
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.41), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 130,
+   "pctA": 57,
+   "pctBelowB": 12,
+   "pctPassNoPass": 26,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Linus Huang",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.21,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20111L"
+  ]
+ },
+ "SOCIOL 112": {
+  "course": "SOCIOL 112",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.248
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.10), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 122,
+   "pctA": 46,
+   "pctBelowB": 18,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Sarno",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.28,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20112"
+  ]
+ },
+ "SOCIOL 113": {
+  "course": "SOCIOL 113",
+  "difficulty": 2.3,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.7/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.52), with 67% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 486,
+   "pctA": 67,
+   "pctBelowB": 9,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 227
+    },
+    {
+     "letter": "A-",
+     "count": 78
+    },
+    {
+     "letter": "B+",
+     "count": 43
+    },
+    {
+     "letter": "B",
+     "count": 41
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.7,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Hurtubise",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.56,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20113"
+  ]
+ },
+ "SOCIOL 113AC": {
+  "course": "SOCIOL 113AC",
+  "difficulty": 2.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (13 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.253
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (13)",
+     "value": 1.6,
+     "weight": 0.108
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.4,
+     "weight": 0.036
+    },
+    {
+     "label": "Student usefulness rating (13 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.289
+    }
+   ]
+  },
+  "sentiment": "13 students on Berkeleytime rate it 1.7/5 for difficulty, 1.6/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.63), with 76% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 431,
+   "pctA": 76,
+   "pctBelowB": 5,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 209
+    },
+    {
+     "letter": "A-",
+     "count": 76
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 13,
+   "difficulty": 1.7,
+   "workload": 1.6,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 8
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Hurtubise",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "studentCount": 13,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.9,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20113AC"
+  ]
+ },
+ "SOCIOL 114": {
+  "course": "SOCIOL 114",
+  "difficulty": 2.6,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.29
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.083
+    },
+    {
+     "label": "Tone of written student reviews (12 on file)",
+     "value": 4.3,
+     "weight": 0.112
+    }
+   ]
+  },
+  "sentiment": "Students mostly find it a rewarding, eye-opening class on legal theory with engaging lectures and fair, lenient grading. The material can be difficult. Lectures are recorded and attendance is not taken. A few reviewers felt the instructor pushed personal opinions.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 242,
+   "pctA": 69,
+   "pctBelowB": 6,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 54
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mary Vogel",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.14,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20114"
+  ]
+ },
+ "SOCIOL 115G": {
+  "course": "SOCIOL 115G",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.243
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.55), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 113,
+   "pctA": 66,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 44
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Yan Long",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Jennifer Dunn",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Kim Voss",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20115G"
+  ]
+ },
+ "SOCIOL 116": {
+  "course": "SOCIOL 116",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.15)",
+     "value": 3.6,
+     "weight": 0.264
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.15), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.15,
+   "letter": "B",
+   "students": 154,
+   "pctA": 46,
+   "pctBelowB": 16,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joanna Reed",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.03,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Robert Ovetz",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.31,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20116"
+  ]
+ },
+ "SOCIOL 116AC": {
+  "course": "SOCIOL 116AC",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 91,
+   "pctBelowB": 3,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anibel Ferus-Comelo",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20116AC"
+  ]
+ },
+ "SOCIOL 117": {
+  "course": "SOCIOL 117",
+  "difficulty": 3.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.312
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.089
+    },
+    {
+     "label": "Tone of written student reviews (9 on file)",
+     "value": 4.0,
+     "weight": 0.104
+    }
+   ]
+  },
+  "sentiment": "Students generally call this an easy, interesting class on sports and society with an enthusiastic lecturer. Attending lectures and doing some reading is enough for a good grade. Complaints include an overly specific final, tricky multiple-choice quizzes, vague instructions and strict rounding.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 408,
+   "pctA": 43,
+   "pctBelowB": 13,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 71
+    },
+    {
+     "letter": "A-",
+     "count": 69
+    },
+    {
+     "letter": "B+",
+     "count": 72
+    },
+    {
+     "letter": "B",
+     "count": 62
+    },
+    {
+     "letter": "B-",
+     "count": 29
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 30
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Linus Huang",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20117"
+  ]
+ },
+ "SOCIOL 119L": {
+  "course": "SOCIOL 119L",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.4/5 for difficulty, 2.6/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.51), with 69% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 477,
+   "pctA": 69,
+   "pctBelowB": 10,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 91
+    },
+    {
+     "letter": "A",
+     "count": 156
+    },
+    {
+     "letter": "A-",
+     "count": 53
+    },
+    {
+     "letter": "B+",
+     "count": 33
+    },
+    {
+     "letter": "B",
+     "count": 40
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 14
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.4,
+   "workload": 2.6,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Klett",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.55,
+    "studentCount": 5,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20119L"
+  ]
+ },
+ "SOCIOL 119S": {
+  "course": "SOCIOL 119S",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 56,
+   "pctA": 50,
+   "pctBelowB": 2,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20119S"
+  ]
+ },
+ "SOCIOL 120": {
+  "course": "SOCIOL 120",
+  "difficulty": 2.2,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 3.7/5 for usefulness. The average grade is A- (3.65), with 77% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 762,
+   "pctA": 77,
+   "pctBelowB": 4,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 92
+    },
+    {
+     "letter": "A",
+     "count": 300
+    },
+    {
+     "letter": "A-",
+     "count": 159
+    },
+    {
+     "letter": "B+",
+     "count": 70
+    },
+    {
+     "letter": "B",
+     "count": 45
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 43
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Armando Lara-Millan",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.86,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.5,
+    "difficulty": 1.8,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.45,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2,
+    "difficulty": 2.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Neil Fligstein",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "John Elrick",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20120"
+  ]
+ },
+ "SOCIOL 120T": {
+  "course": "SOCIOL 120T",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.209
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.37), with 52% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 74,
+   "pctA": 52,
+   "pctBelowB": 8,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Marion Fourcade",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.37,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20120T"
+  ]
+ },
+ "SOCIOL 121": {
+  "course": "SOCIOL 121",
+  "difficulty": 3.1,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (46 on file)",
+     "value": 2.1,
+     "weight": 0.138
+    }
+   ]
+  },
+  "sentiment": "Reviews are strongly divided. Some find the lectures inspiring and the workload easy, while many describe unclear instructions, subjective grading and a rude or condescending tone. No electronics are allowed, attendance is mandatory, and exams depend on fast note-taking.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 682,
+   "pctA": 50,
+   "pctBelowB": 18,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 46
+    },
+    {
+     "letter": "A",
+     "count": 135
+    },
+    {
+     "letter": "A-",
+     "count": 120
+    },
+    {
+     "letter": "B+",
+     "count": 76
+    },
+    {
+     "letter": "B",
+     "count": 71
+    },
+    {
+     "letter": "B-",
+     "count": 50
+    },
+    {
+     "letter": "C+",
+     "count": 40
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "D+",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 59
+    },
+    {
+     "letter": "NP",
+     "count": 19
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 3,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Szonja Ivester",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20121"
+  ]
+ },
+ "SOCIOL 122": {
+  "course": "SOCIOL 122",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.207
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 72,
+   "pctA": 79,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Cohen",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20122"
+  ]
+ },
+ "SOCIOL 124": {
+  "course": "SOCIOL 124",
+  "difficulty": 3.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.89)",
+     "value": 4.4,
+     "weight": 0.28
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.89), with 34% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.89,
+   "letter": "B",
+   "students": 199,
+   "pctA": 34,
+   "pctBelowB": 27,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Martin Sanchez-Jankowski",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.47,
+    "difficulty": 4.4
+   },
+   {
+    "professor": "Caitlin Daniel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.12,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20124"
+  ]
+ },
+ "SOCIOL 127": {
+  "course": "SOCIOL 127",
+  "difficulty": 2.2,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.338
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    },
+    {
+     "label": "Tone of written student reviews (19 on file)",
+     "value": 4.4,
+     "weight": 0.124
+    }
+   ]
+  },
+  "sentiment": "Most students find lectures engaging and the grading forgiving, with low-stakes quizzes, essays, extra credit for participation and clear rubrics. Readings are long and papers involve independent research, graded tougher by section instructors. Many call it an easy A with good notes. A couple of reviews object to lecture content.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 1382,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 679
+    },
+    {
+     "letter": "A-",
+     "count": 270
+    },
+    {
+     "letter": "B+",
+     "count": 105
+    },
+    {
+     "letter": "B",
+     "count": 68
+    },
+    {
+     "letter": "B-",
+     "count": 31
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 25
+    },
+    {
+     "letter": "P",
+     "count": 137
+    },
+    {
+     "letter": "NP",
+     "count": 12
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4.3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Edwin Lin",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.1,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20127"
+  ]
+ },
+ "SOCIOL 130": {
+  "course": "SOCIOL 130",
+  "difficulty": 3.0,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (9 on file)",
+     "value": 2.0,
+     "weight": 0.104
+    }
+   ]
+  },
+  "sentiment": "Reviews are split. A summer version was called easy, simple and interesting, but most reviewers describe unclear instructions, subjective grading and a condescending tone. Some say disagreeing with the instructor's viewpoint hurts grades, and one cited a low class average on the final.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 435,
+   "pctA": 61,
+   "pctBelowB": 10,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 67
+    },
+    {
+     "letter": "A",
+     "count": 87
+    },
+    {
+     "letter": "A-",
+     "count": 95
+    },
+    {
+     "letter": "B+",
+     "count": 47
+    },
+    {
+     "letter": "B",
+     "count": 52
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 3.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Szonja Ivester",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.26,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.2,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Charles Sarno",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.52,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Thien-Huong Villarreal",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.31,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20130"
+  ]
+ },
+ "SOCIOL 130AC": {
+  "course": "SOCIOL 130AC",
+  "difficulty": 3.4,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (7 on file)",
+     "value": 2.8,
+     "weight": 0.095
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed. Some find the content interesting and the instructor approachable, saying exams follow the study guides if you do the readings. Others call lectures boring and disconnected from the assignments, with unclear instructions and tough grading by readers. Expect a lot of reading.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 652,
+   "pctA": 53,
+   "pctBelowB": 12,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 156
+    },
+    {
+     "letter": "A-",
+     "count": 132
+    },
+    {
+     "letter": "B+",
+     "count": 94
+    },
+    {
+     "letter": "B",
+     "count": 62
+    },
+    {
+     "letter": "B-",
+     "count": 35
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 21
+    },
+    {
+     "letter": "P",
+     "count": 96
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joanna Reed",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.28,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20130AC"
+  ]
+ },
+ "SOCIOL 131": {
+  "course": "SOCIOL 131",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 38,
+   "pctA": 73,
+   "pctBelowB": 0,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20131"
+  ]
+ },
+ "SOCIOL 131AC": {
+  "course": "SOCIOL 131AC",
+  "difficulty": 2.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.302
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 2.7/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.54), with 61% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 314,
+   "pctA": 61,
+   "pctBelowB": 5,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 100
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 53
+    },
+    {
+     "letter": "B",
+     "count": 35
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 2.7,
+   "usefulness": 4.7,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.52,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.5,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20131AC"
+  ]
+ },
+ "SOCIOL 131F": {
+  "course": "SOCIOL 131F",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.84)",
+     "value": 4.6,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.84), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.84,
+   "letter": "B-",
+   "students": 13,
+   "pctA": 54,
+   "pctBelowB": 31,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Loic Wacquant",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.84,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20131F"
+  ]
+ },
+ "SOCIOL 133": {
+  "course": "SOCIOL 133",
+  "difficulty": 3.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.311
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.089
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 4.5,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are clear, organized and engaging, and the readings interesting. Workload is light, mostly readings, reading responses and take-home essays, with clear rubrics. Grading depends on the reader and can be tough but with good feedback. Attending lecture and office hours is advised.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 398,
+   "pctA": 43,
+   "pctBelowB": 11,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 89
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 70
+    },
+    {
+     "letter": "B",
+     "count": 53
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 74
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jill Bakehorn",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.24,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "ELIZA BROWN",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.13,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Sé Sullivan",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.85,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20133"
+  ]
+ },
+ "SOCIOL 135": {
+  "course": "SOCIOL 135",
+  "difficulty": 3.2,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (17 on file)",
+     "value": 4.3,
+     "weight": 0.121
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are engaging and the material fascinating, with weekly readings and several papers. The main complaint is tough grading by readers or GSIs. Reviewers say it is demanding but worth it if you attend, take notes and do the readings.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 405,
+   "pctA": 37,
+   "pctBelowB": 9,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 49
+    },
+    {
+     "letter": "A-",
+     "count": 75
+    },
+    {
+     "letter": "B+",
+     "count": 71
+    },
+    {
+     "letter": "B",
+     "count": 84
+    },
+    {
+     "letter": "B-",
+     "count": 36
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 51
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jill Bakehorn",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.22,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20135"
+  ]
+ },
+ "SOCIOL 136": {
+  "course": "SOCIOL 136",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.16)",
+     "value": 3.5,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.16), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.16,
+   "letter": "B+",
+   "students": 265,
+   "pctA": 47,
+   "pctBelowB": 17,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 39
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joanna Reed",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.12,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.4,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20136"
+  ]
+ },
+ "SOCIOL 137AC": {
+  "course": "SOCIOL 137AC",
+  "difficulty": 1.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 1.6,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.292
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 1.6,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 1.6/5 for difficulty, 1.6/5 for workload and 3.3/5 for usefulness. The average grade is A (3.86), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 250,
+   "pctA": 90,
+   "pctBelowB": 1,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 165
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 28
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 1.6,
+   "workload": 1.6,
+   "usefulness": 3.3,
+   "recordedPct": 43,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascarenhas",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.88,
+    "studentCount": 7,
+    "studentDifficulty": 1.6,
+    "studentUsefulness": 3.3,
+    "difficulty": 1.5,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20137AC"
+  ]
+ },
+ "SOCIOL 139": {
+  "course": "SOCIOL 139",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.288
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.30), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 233,
+   "pctA": 62,
+   "pctBelowB": 17,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 85
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Brian Bedford",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.91,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.17,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Upasana Garnaik",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Daniel Cohen",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.87,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20139"
+  ]
+ },
+ "SOCIOL 139F": {
+  "course": "SOCIOL 139F",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.265
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.26), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 157,
+   "pctA": 44,
+   "pctBelowB": 14,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 29
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jill Bakehorn",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.23,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20139F"
+  ]
+ },
+ "SOCIOL 139H": {
+  "course": "SOCIOL 139H",
+  "difficulty": 2.3,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.301
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.086
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 4.2,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students describe an eye-opening course with a reasonable workload, interesting projects and a caring instructor. Quiz answers come from lectures, so attendance and detailed notes matter, and lowest scores are dropped. One reviewer found grading conversations unpleasant.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 307,
+   "pctA": 76,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 120
+    },
+    {
+     "letter": "A-",
+     "count": 68
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Szonja Ivester",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20139H"
+  ]
+ },
+ "SOCIOL 140": {
+  "course": "SOCIOL 140",
+  "difficulty": 3.0,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3.5,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (43 on file)",
+     "value": 4.7,
+     "weight": 0.137
+    }
+   ]
+  },
+  "sentiment": "Reviewers overwhelmingly praise the lectures as engaging and life changing. Expect heavy and dense reading, though lectures cover much of it, and exams or essays graded fairly but sometimes tough. Take careful notes and attend, since missing lecture means missing a lot.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 783,
+   "pctA": 64,
+   "pctBelowB": 5,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 107
+    },
+    {
+     "letter": "A",
+     "count": 216
+    },
+    {
+     "letter": "A-",
+     "count": 154
+    },
+    {
+     "letter": "B+",
+     "count": 111
+    },
+    {
+     "letter": "B",
+     "count": 85
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.8,
+   "workload": 3.5,
+   "usefulness": 4.3,
+   "recordedPct": 80,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "studentCount": 5,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Cihan Tugal",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Rodriguez",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.85,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 2.3,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Robert Ovetz",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20140"
+  ]
+ },
+ "SOCIOL 141": {
+  "course": "SOCIOL 141",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.32
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.092
+    },
+    {
+     "label": "Tone of written student reviews (10 on file)",
+     "value": 4.8,
+     "weight": 0.107
+    }
+   ]
+  },
+  "sentiment": "Students rave about the lectures and the instructor's care, calling the course eye-opening. Readings are dense but manageable, and attendance is taken. Grades rest on a few essays, exams and reading responses, and one reviewer found the essay rubric strict. Office hours and keeping up with readings are recommended.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 542,
+   "pctA": 52,
+   "pctBelowB": 10,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 130
+    },
+    {
+     "letter": "A-",
+     "count": 83
+    },
+    {
+     "letter": "B+",
+     "count": 72
+    },
+    {
+     "letter": "B",
+     "count": 74
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 97
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 7,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20141"
+  ]
+ },
+ "SOCIOL 142": {
+  "course": "SOCIOL 142",
+  "difficulty": 4.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.69)",
+     "value": 5.0,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.69), with 31% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.69,
+   "letter": "B-",
+   "students": 53,
+   "pctA": 31,
+   "pctBelowB": 29,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Braun",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.38,
+    "difficulty": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20142"
+  ]
+ },
+ "SOCIOL 145": {
+  "course": "SOCIOL 145",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.171
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 48,
+   "pctA": 58,
+   "pctBelowB": 14,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20145"
+  ]
+ },
+ "SOCIOL 146": {
+  "course": "SOCIOL 146",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Pei Palmgren",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20146"
+  ]
+ },
+ "SOCIOL 146AC": {
+  "course": "SOCIOL 146AC",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.226
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 91,
+   "pctA": 66,
+   "pctBelowB": 8,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephanie Canizales",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lorraine Cruz Del Rio",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20146AC"
+  ]
+ },
+ "SOCIOL 148": {
+  "course": "SOCIOL 148",
+  "difficulty": 2.7,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.265
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.076
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.54), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 156,
+   "pctA": 62,
+   "pctBelowB": 5,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 28
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Cybelle Fox",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 4.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "This class is absolutely amazing. She is such a kind person and cares about her students. She is very accessible through email, and always open to questions in and out of class. She wouldn't move forward until the class understood the topic. It was so helpful. This class itself is super relevant in todays society. If you want to understand what is truly going on in the US today, take this class. It is one of the most important things you need to learn to be able to make informed decisions…",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Take this class. Do it.",
+    "professor": "Cybelle Fox",
+    "grade": "A+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20148"
+  ]
+ },
+ "SOCIOL 149": {
+  "course": "SOCIOL 149",
+  "difficulty": 2.8,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.282
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.081
+    },
+    {
+     "label": "Tone of written student reviews (10 on file)",
+     "value": 4.8,
+     "weight": 0.107
+    }
+   ]
+  },
+  "sentiment": "Reviewers consistently describe engaging, in-depth lectures, a supportive class environment and manageable readings with guides. Exams are essay-style, often take-home and open note. Grades rest on a few assignments, so students advise doing the readings and attending.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 207,
+   "pctA": 59,
+   "pctBelowB": 8,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 34
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Reuben Miller",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Loic Wacquant",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.65,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "David Maldonado",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.86,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20149"
+  ]
+ },
+ "SOCIOL 149P": {
+  "course": "SOCIOL 149P",
+  "difficulty": 2.6,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.48), with 61% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 439,
+   "pctA": 61,
+   "pctBelowB": 8,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 140
+    },
+    {
+     "letter": "A-",
+     "count": 95
+    },
+    {
+     "letter": "B+",
+     "count": 69
+    },
+    {
+     "letter": "B",
+     "count": 40
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.5,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20149P"
+  ]
+ },
+ "SOCIOL 150": {
+  "course": "SOCIOL 150",
+  "difficulty": 2.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 1.6,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 1.5,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.275
+    },
+    {
+     "label": "Tone of written student reviews (29 on file)",
+     "value": 2.7,
+     "weight": 0.132
+    }
+   ]
+  },
+  "sentiment": "Reviewers like the readings but mostly dislike the lectures, calling them repetitive and long. Grading is based on a few papers, reading logs and fieldwork, with no exams in most reports. Opinions split on workload and guidance, with some finding it easy and others finding prompts and expectations unclear.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 1177,
+   "pctA": 61,
+   "pctBelowB": 9,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 127
+    },
+    {
+     "letter": "A",
+     "count": 350
+    },
+    {
+     "letter": "A-",
+     "count": 217
+    },
+    {
+     "letter": "B+",
+     "count": 162
+    },
+    {
+     "letter": "B",
+     "count": 126
+    },
+    {
+     "letter": "B-",
+     "count": 49
+    },
+    {
+     "letter": "C+",
+     "count": 35
+    },
+    {
+     "letter": "C",
+     "count": 32
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 38
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 1.6,
+   "workload": 1.5,
+   "usefulness": 3.5,
+   "recordedPct": 90,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "John Kaiser",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "studentCount": 11,
+    "studentDifficulty": 1.6,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.1,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20150"
+  ]
+ },
+ "SOCIOL 152": {
+  "course": "SOCIOL 152",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 27,
+   "pctA": 48,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Sarno",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20152"
+  ]
+ },
+ "SOCIOL 152AC": {
+  "course": "SOCIOL 152AC",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.241
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 110,
+   "pctA": 79,
+   "pctBelowB": 0,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 28
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Sarno",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20152AC"
+  ]
+ },
+ "SOCIOL 160": {
+  "course": "SOCIOL 160",
+  "difficulty": 3.1,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.16)",
+     "value": 3.5,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.4,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.233
+    },
+    {
+     "label": "Tone of written student reviews (17 on file)",
+     "value": 3.9,
+     "weight": 0.121
+    }
+   ]
+  },
+  "sentiment": "Students find the content interesting and relevant, and the lectures engaging, with a moderate reading load. The class is writing heavy, and many report tough or inconsistent grading by readers. Slides are sparse, so attending lecture and doing readings is recommended. Instructors are described as accommodating.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.16,
+   "letter": "B+",
+   "students": 771,
+   "pctA": 37,
+   "pctBelowB": 15,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 114
+    },
+    {
+     "letter": "A-",
+     "count": 123
+    },
+    {
+     "letter": "B+",
+     "count": 108
+    },
+    {
+     "letter": "B",
+     "count": 142
+    },
+    {
+     "letter": "B-",
+     "count": 89
+    },
+    {
+     "letter": "C+",
+     "count": 42
+    },
+    {
+     "letter": "C",
+     "count": 36
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 53
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.9,
+   "workload": 2.4,
+   "usefulness": 3.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Jill Bakehorn",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.1,
+    "studentCount": 6,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Jerome Baggett",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.1,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Joseph Klett",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.87,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Was really interested in the content, was really relevant, as it talked about current-day college admissions and social dynamics that we can observe here at Berkeley as college students. Prof. Bakehorn is really knowledgeable about the topics. The midterm/reading responses did get moved from take-homes to in-class, but the final is still take home. It was very doable, and the readings were interesting and not excessive. Even if you didn't complete the readings, you could definitely get by…",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Interesting content, extremely relevant!",
+    "professor": "Jill Bakehorn",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20160"
+  ]
+ },
+ "SOCIOL 163": {
+  "course": "SOCIOL 163",
+  "difficulty": 2.0,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 1.5/5 for difficulty, 1.2/5 for workload and 4.2/5 for usefulness. The average grade is A- (3.66), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 731,
+   "pctA": 79,
+   "pctBelowB": 5,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 351
+    },
+    {
+     "letter": "A-",
+     "count": 131
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 48
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.5,
+   "workload": 1.2,
+   "usefulness": 4.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Klett",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.58,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Marina Romani",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 1.7,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20163"
+  ]
+ },
+ "SOCIOL 165": {
+  "course": "SOCIOL 165",
+  "difficulty": 2.3,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.137
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.039
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.5/5 for workload and 4.0/5 for usefulness. The average grade is A (3.95), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 32,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Lorraine Cruz Del Rio",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.95,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20165"
+  ]
+ },
+ "SOCIOL 166": {
+  "course": "SOCIOL 166",
+  "difficulty": 2.6,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 2.3,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.257
+    },
+    {
+     "label": "Tone of written student reviews (7 on file)",
+     "value": 4.0,
+     "weight": 0.095
+    }
+   ]
+  },
+  "sentiment": "Reviewers mostly call it an easy, interesting elective with few assignments, such as essay papers and a multiple choice final. Lectures should be attended since slides are hard to follow alone. Grading on writing can be picky, and one review strongly disliked the teaching.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 824,
+   "pctA": 67,
+   "pctBelowB": 8,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 113
+    },
+    {
+     "letter": "A",
+     "count": 273
+    },
+    {
+     "letter": "A-",
+     "count": 140
+    },
+    {
+     "letter": "B+",
+     "count": 76
+    },
+    {
+     "letter": "B",
+     "count": 82
+    },
+    {
+     "letter": "B-",
+     "count": 33
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 2.7,
+   "workload": 2.3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 62
+  },
+  "byProfessor": [
+   {
+    "professor": "Linus Huang",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.27,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Joseph Klett",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "studentCount": 7,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.2,
+    "shouldTake": 4.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "I took this class because I was looking for a 4 unit elective that wouldn't be too hard and people recommended this one. The professor is tough with grading and is very picky/precise about what they want. There were 2 midterm papers and 2 paper assignments along with a MC Final exam. I would say the class was fairly easy.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Recommend, especially if good at writing essays",
+    "professor": "Linus Huang",
+    "grade": "A-"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20166"
+  ]
+ },
+ "SOCIOL 167": {
+  "course": "SOCIOL 167",
+  "difficulty": 2.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (18 on Berkeleytime)",
+     "value": 1.9,
+     "weight": 0.274
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.342
+    },
+    {
+     "label": "Student workload rating (18)",
+     "value": 2.1,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.9,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (18 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.313
+    },
+    {
+     "label": "Tone of written student reviews (33 on file)",
+     "value": 3.4,
+     "weight": 0.134
+    }
+   ]
+  },
+  "sentiment": "Reviewers disagree. Many find the topic interesting, the lectures engaging, and the class easy to pass with few assignments. Others complain of inconsistent, nitpicky grading by readers, long regrade processes, and an 8AM time. Since few assignments make up the grade, students say each one matters.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 2126,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 1090
+    },
+    {
+     "letter": "A-",
+     "count": 441
+    },
+    {
+     "letter": "B+",
+     "count": 158
+    },
+    {
+     "letter": "B",
+     "count": 139
+    },
+    {
+     "letter": "B-",
+     "count": 33
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 21
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 30
+    },
+    {
+     "letter": "P",
+     "count": 143
+    },
+    {
+     "letter": "NP",
+     "count": 18
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 18,
+   "difficulty": 1.9,
+   "workload": 2.1,
+   "usefulness": 3.8,
+   "recordedPct": 29,
+   "attendanceRequiredPct": 21
+  },
+  "byProfessor": [
+   {
+    "professor": "Marina Romani",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 3,
+    "studentDifficulty": 1.3,
+    "studentUsefulness": 4.3,
+    "difficulty": 1.6,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Joseph Klett",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.32,
+    "studentCount": 6,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Edwin Lin",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.74,
+    "studentCount": 9,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.6,
+    "difficulty": 1.9,
+    "shouldTake": 3.7
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Great class with very understanding GSI + Professor, I thoroughly enjoyed the content. Very relevant.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Amazing Class",
+    "professor": "Marina Romani",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20167"
+  ]
+ },
+ "SOCIOL 169": {
+  "course": "SOCIOL 169",
+  "difficulty": 2.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.195
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.056
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.62), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 63,
+   "pctA": 77,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ekedi Mpondo-Dika",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.66,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Marina Romani",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lorraine Cruz Del Rio",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.61,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20169"
+  ]
+ },
+ "SOCIOL 169C": {
+  "course": "SOCIOL 169C",
+  "difficulty": 2.0,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 1.8/5 for difficulty, 2.0/5 for workload and 4.8/5 for usefulness. The average grade is A- (3.75), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 775,
+   "pctA": 86,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 51
+    },
+    {
+     "letter": "A",
+     "count": 469
+    },
+    {
+     "letter": "A-",
+     "count": 114
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.8,
+   "workload": 2,
+   "usefulness": 4.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Marina Romani",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4.7,
+    "difficulty": 1.7,
+    "shouldTake": 4.4
+   },
+   {
+    "professor": "John Kaiser",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.57,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Yi-Chen Liu",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.72,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20169C"
+  ]
+ },
+ "SOCIOL 169F": {
+  "course": "SOCIOL 169F",
+  "difficulty": 3.4,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.188
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.054
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B (3.02), with 19% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 58,
+   "pctA": 19,
+   "pctBelowB": 11,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jill Bakehorn",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.02,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.5,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20169F"
+  ]
+ },
+ "SOCIOL 179": {
+  "course": "SOCIOL 179",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.211
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.32), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 76,
+   "pctA": 59,
+   "pctBelowB": 16,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "John Lie",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.27,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20179"
+  ]
+ },
+ "SOCIOL 180C": {
+  "course": "SOCIOL 180C",
+  "difficulty": 2.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.309
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (16 on file)",
+     "value": 3.0,
+     "weight": 0.12
+    }
+   ]
+  },
+  "sentiment": "Reviews are polarized. Many call it an easy A with light workload and interesting content, especially in the online format. Others describe unclear essay instructions, harsh essay grading and an unwelcoming tone. Save the syllabus and grading criteria.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 377,
+   "pctA": 85,
+   "pctBelowB": 6,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 212
+    },
+    {
+     "letter": "A-",
+     "count": 55
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Marina Romani",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.88,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 1.8,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Szonja Ivester",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20180C"
+  ]
+ },
+ "SOCIOL 180E": {
+  "course": "SOCIOL 180E",
+  "difficulty": 2.6,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.29
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.50), with 61% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 241,
+   "pctA": 61,
+   "pctBelowB": 10,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 97
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Hurtubise",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.5,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20180E"
+  ]
+ },
+ "SOCIOL 180I": {
+  "course": "SOCIOL 180I",
+  "difficulty": 2.3,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.318
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (17 on file)",
+     "value": 4.0,
+     "weight": 0.121
+    }
+   ]
+  },
+  "sentiment": "Reviewers mostly like the course, citing engaging lectures, easy to moderate assignments and quizzes, and fair grading. Attendance is effectively required, with no devices, strict deadlines and papers graded closely to the prompt. A few found the material repetitive.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 493,
+   "pctA": 74,
+   "pctBelowB": 7,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 78
+    },
+    {
+     "letter": "A",
+     "count": 160
+    },
+    {
+     "letter": "A-",
+     "count": 86
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 48
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Szonja Ivester",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.54,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20180I"
+  ]
+ },
+ "SOCIOL 182": {
+  "course": "SOCIOL 182",
+  "difficulty": 3.2,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.261
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    },
+    {
+     "label": "Tone of written student reviews (12 on file)",
+     "value": 3.6,
+     "weight": 0.112
+    }
+   ]
+  },
+  "sentiment": "Students say the content is fascinating and the instructor a leading scholar, but lectures are fast, disorganized and hard to follow. Readings are long, and the grade rests on only a midterm and a final. Detailed notes are essential, though exams are open-note. Reviews are divided between devoted fans and frustrated students.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 147,
+   "pctA": 56,
+   "pctBelowB": 20,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Loic Wacquant",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.25,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.2,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20182"
+  ]
+ },
+ "SOCIOL 189G": {
+  "course": "SOCIOL 189G",
+  "difficulty": 2.4,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.286
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.082
+    },
+    {
+     "label": "Tone of written student reviews (9 on file)",
+     "value": 3.8,
+     "weight": 0.104
+    }
+   ]
+  },
+  "sentiment": "Most students describe an interesting, easy class with a light workload and a caring, organized instructor. Exams include questions on specific lecture points, so attending helps. A few reviewers found paper grading unfair or the content one-sided.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 225,
+   "pctA": 78,
+   "pctBelowB": 6,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 83
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Szonja Ivester",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20189G"
+  ]
+ },
+ "SOCIOL 190": {
+  "course": "SOCIOL 190",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.333
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 69% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 990,
+   "pctA": 69,
+   "pctBelowB": 8,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 117
+    },
+    {
+     "letter": "A",
+     "count": 370
+    },
+    {
+     "letter": "A-",
+     "count": 175
+    },
+    {
+     "letter": "B+",
+     "count": 107
+    },
+    {
+     "letter": "B",
+     "count": 79
+    },
+    {
+     "letter": "B-",
+     "count": 36
+    },
+    {
+     "letter": "C+",
+     "count": 15
+    },
+    {
+     "letter": "C",
+     "count": 23
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 22
+    },
+    {
+     "letter": "P",
+     "count": 29
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Edwin Lin",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Kristen Harknett",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Szonja Ivester",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Ricarda Hammer",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.1,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Christina Cross",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Danya Lagos",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Joseph Klett",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20190"
+  ]
+ },
+ "SOCIOL 197": {
+  "course": "SOCIOL 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Linus Huang",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Edwin Lin",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Margaret Weir",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Loic Wacquant",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kim Voss",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Cihan Tugal",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Barrie Thorne",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20197"
+  ]
+ },
+ "SOCIOL 198": {
+  "course": "SOCIOL 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Dean Tanioka",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristen Harknett",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Che Abram",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Trond Petersen",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marina Romani",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Linus Huang",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kim Voss",
+    "terms": 6,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Edwin Lin",
+    "terms": 9,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20198"
+  ]
+ },
+ "SOCIOL 198BC": {
+  "course": "SOCIOL 198BC",
+  "difficulty": 2.3,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "G Cristina Mora",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 2.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20198BC"
+  ]
+ },
+ "SOCIOL 199": {
+  "course": "SOCIOL 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "John Kaiser",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Joanna Reed",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Linus Huang",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Harding",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dylan Riley",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jill Bakehorn",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Edwin Lin",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20199"
+  ]
+ },
+ "SOCIOL 24": {
+  "course": "SOCIOL 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Joanna Reed",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%2024"
+  ]
+ },
+ "SOCIOL 271B": {
+  "course": "SOCIOL 271B",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 81% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 36,
+   "pctA": 81,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Danya Lagos",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.77,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Trond Petersen",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20271B"
+  ]
+ },
+ "SOCIOL 280L": {
+  "course": "SOCIOL 280L",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 17,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Danya Lagos",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20280L"
+  ]
+ },
+ "SOCIOL 3AC": {
+  "course": "SOCIOL 3AC",
+  "difficulty": 2.5,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 2.8,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.275
+    },
+    {
+     "label": "Tone of written student reviews (43 on file)",
+     "value": 4.6,
+     "weight": 0.137
+    }
+   ]
+  },
+  "sentiment": "Reviewers describe an engaging, caring instructor and an easy-to-moderate class. Grades come from a few papers and short quizzes, and lectures cover the readings. Some note reader grading on early essays can be harsh. Students recommend attending lecture and taking good notes.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 1127,
+   "pctA": 73,
+   "pctBelowB": 4,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 121
+    },
+    {
+     "letter": "A",
+     "count": 421
+    },
+    {
+     "letter": "A-",
+     "count": 212
+    },
+    {
+     "letter": "B+",
+     "count": 108
+    },
+    {
+     "letter": "B",
+     "count": 82
+    },
+    {
+     "letter": "B-",
+     "count": 42
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 95
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 2.5,
+   "workload": 2.8,
+   "usefulness": 4.2,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 64
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Sarno",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.79,
+    "studentCount": 8,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.1,
+    "difficulty": 2.2,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Kristen Harknett",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Nikkolette Lee",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Jerome Baggett",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.48,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Mary Kelsey",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.77,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.2,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Fatmir Haskaj",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.24,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%203AC"
+  ]
+ },
+ "SOCIOL 5": {
+  "course": "SOCIOL 5",
+  "difficulty": 2.4,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 2.1,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.337
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 2.3,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.257
+    },
+    {
+     "label": "Tone of written student reviews (18 on file)",
+     "value": 4.2,
+     "weight": 0.123
+    }
+   ]
+  },
+  "sentiment": "Students say the material can be dry but lectures are energetic and the course is well organized with clear rubrics. Grades rest on a few research projects, easy low-weight quizzes and a take-home final. Many call it an easy A, though the section instructor strongly affects the experience.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 1325,
+   "pctA": 71,
+   "pctBelowB": 6,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 82
+    },
+    {
+     "letter": "A",
+     "count": 576
+    },
+    {
+     "letter": "A-",
+     "count": 248
+    },
+    {
+     "letter": "B+",
+     "count": 116
+    },
+    {
+     "letter": "B",
+     "count": 133
+    },
+    {
+     "letter": "B-",
+     "count": 42
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 24
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 28
+    },
+    {
+     "letter": "P",
+     "count": 46
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 2.1,
+   "workload": 2.3,
+   "usefulness": 3.4,
+   "recordedPct": 56,
+   "attendanceRequiredPct": 11
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Hurtubise",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Edwin Lin",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.62,
+    "studentCount": 9,
+    "studentDifficulty": 2.1,
+    "studentUsefulness": 3.4,
+    "difficulty": 2.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Samuel Lucas",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.38,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Danya Lagos",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%205"
+  ]
+ },
+ "SOCIOL 7": {
+  "course": "SOCIOL 7",
+  "difficulty": 3.1,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B (3.08)",
+     "value": 3.8,
+     "weight": 0.263
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (9 on file)",
+     "value": 2.9,
+     "weight": 0.104
+    }
+   ]
+  },
+  "sentiment": "Reviews disagree. Some call it an easy, straightforward stats intro graded on problem sets and two exams. Others find lectures hard to follow, slides unclear, office hours limited and grading harsh. Attendance is described as important.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.08,
+   "letter": "B",
+   "students": 152,
+   "pctA": 47,
+   "pctBelowB": 20,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.5,
+   "workload": 2.2,
+   "usefulness": 3.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Linus Huang",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.15,
+    "studentCount": 6,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.0,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%207"
+  ]
+ },
+ "SOCIOL 88": {
+  "course": "SOCIOL 88",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 74% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 74,
+   "pctBelowB": 4,
+   "pctPassNoPass": 41,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Harding",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.19,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%2088"
+  ]
+ },
+ "SOCIOL C115": {
+  "course": "SOCIOL C115",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.29
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 244,
+   "pctA": 65,
+   "pctBelowB": 6,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 68
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jennifer Dunn",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Laura Enriquez",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.49,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Thien-Huong Villarreal",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Caitlin Daniel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C115"
+  ]
+ },
+ "SOCIOL C126": {
+  "course": "SOCIOL C126",
+  "difficulty": 2.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.8/5 for difficulty, 2.6/5 for workload and 3.6/5 for usefulness. The average grade is A- (3.67), with 75% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 263,
+   "pctA": 75,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 49
+    },
+    {
+     "letter": "A",
+     "count": 91
+    },
+    {
+     "letter": "A-",
+     "count": 44
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.8,
+   "workload": 2.6,
+   "usefulness": 3.6,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 40
+  },
+  "byProfessor": [
+   {
+    "professor": "Diana Foster",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.56,
+    "studentCount": 5,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.6,
+    "difficulty": 2.5,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C126"
+  ]
+ },
+ "SOCIOL C144L": {
+  "course": "SOCIOL C144L",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.271
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.0/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.59), with 71% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 172,
+   "pctA": 71,
+   "pctBelowB": 7,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 55
+    },
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Rodriguez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.58,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "G Cristina Mora",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.61,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C144L"
+  ]
+ },
+ "SOCIOL C146M": {
+  "course": "SOCIOL C146M",
+  "difficulty": 3.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.91)",
+     "value": 4.3,
+     "weight": 0.228
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.91), with 40% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.91,
+   "letter": "B",
+   "students": 94,
+   "pctA": 40,
+   "pctBelowB": 30,
+   "pctPassNoPass": 26,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Irene Bloemraad",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 2.77,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Sarah Song",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 2.77,
+    "difficulty": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C146M"
+  ]
+ },
+ "SOCIOL C196A": {
+  "course": "SOCIOL C196A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jimmy Ellis",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marc Sandalow",
+    "terms": 9,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C196A"
+  ]
+ },
+ "SOCIOL C196B": {
+  "course": "SOCIOL C196B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Jimmy Ellis",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marc Sandalow",
+    "terms": 9,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C196B"
+  ]
+ },
+ "SOCIOL C6": {
+  "course": "SOCIOL C6",
+  "difficulty": 2.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.191
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.8,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 2.7/5 for difficulty, 2.8/5 for workload and 3.5/5 for usefulness. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.7,
+   "workload": 2.8,
+   "usefulness": 3.5,
+   "recordedPct": 17,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "John Lopez",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Jonathan Pedroza",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20C6"
+  ]
+ },
+ "SOCIOL H190A": {
+  "course": "SOCIOL H190A",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.214
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 97% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 79,
+   "pctA": 97,
+   "pctBelowB": 1,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Joanna Reed",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Mary Kelsey",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20H190A"
+  ]
+ },
+ "SOCIOL H190B": {
+  "course": "SOCIOL H190B",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.202
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 99% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 68,
+   "pctA": 99,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laleh Behbehanian",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Joanna Reed",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Mary Kelsey",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.95
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20H190B"
+  ]
+ },
+ "SOCIOL N100": {
+  "course": "SOCIOL N100",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.282
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.41), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 208,
+   "pctA": 66,
+   "pctBelowB": 14,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 32
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tim Thomas",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Jerome Baggett",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Szonja Ivester",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.56,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Laura Enriquez",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20N100"
+  ]
+ },
+ "SOCIOL N169C": {
+  "course": "SOCIOL N169C",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 42,
+   "pctA": 82,
+   "pctBelowB": 5,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20N169C"
+  ]
+ },
+ "SOCIOL N1H": {
+  "course": "SOCIOL N1H",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.06)",
+     "value": 3.8,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.06), with 41% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.06,
+   "letter": "B",
+   "students": 32,
+   "pctA": 41,
+   "pctBelowB": 24,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20N1H"
+  ]
+ },
+ "SOCIOL R1B": {
+  "course": "SOCIOL R1B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.262
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 78% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 150,
+   "pctA": 78,
+   "pctBelowB": 7,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 78
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lorraine Cruz Del Rio",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristen Harknett",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charles Sarno",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Maxwell Lindquist",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kim Voss",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.81,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Jacqueline Brown",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Kirstin Krusell",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Laura Enriquez",
+    "terms": 4,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=SOCIOL%20R1B"
+  ]
+ }
+}

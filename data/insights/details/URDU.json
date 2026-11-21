@@ -1,0 +1,417 @@
+{
+ "URDU 100A": {
+  "course": "URDU 100A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 41,
+   "pctA": 84,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Amara Ali",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gregory Bruce",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.76,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=URDU%20100A"
+  ]
+ },
+ "URDU 100B": {
+  "course": "URDU 100B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 14,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Amara Ali",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Gregory Bruce",
+    "terms": 3,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=URDU%20100B"
+  ]
+ },
+ "URDU 101A": {
+  "course": "URDU 101A",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.96), with 97% of letter grades in the A range.",
+  "finalExam": "L",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 37,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Amara Ali",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Gregory Bruce",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.95,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=URDU%20101A"
+  ]
+ },
+ "URDU 1A": {
+  "course": "URDU 1A",
+  "difficulty": 1.9,
+  "shouldTake": 4.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.223
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 1.8/5 for difficulty, 1.8/5 for workload and 4.8/5 for usefulness. The average grade is A (3.85), with 86% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 88,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.8,
+   "workload": 1.8,
+   "usefulness": 4.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Amara Ali",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "studentCount": 4,
+    "studentDifficulty": 1.8,
+    "studentUsefulness": 4.8,
+    "difficulty": 1.7,
+    "shouldTake": 4.5
+   },
+   {
+    "professor": "Gregory Bruce",
+    "terms": 3,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.91,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=URDU%201A"
+  ]
+ },
+ "URDU 1B": {
+  "course": "URDU 1B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.17
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 47,
+   "pctA": 77,
+   "pctBelowB": 7,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Amara Ali",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Gregory Bruce",
+    "terms": 4,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=URDU%201B"
+  ]
+ }
+}

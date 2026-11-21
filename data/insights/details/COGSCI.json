@@ -1,0 +1,3980 @@
+{
+ "COGSCI 1": {
+  "course": "COGSCI 1",
+  "difficulty": 2.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (53 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.32
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.341
+    },
+    {
+     "label": "Student workload rating (53)",
+     "value": 2.3,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.046
+    },
+    {
+     "label": "Student usefulness rating (53 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.366
+    },
+    {
+     "label": "Tone of written student reviews (55 on file)",
+     "value": 3.8,
+     "weight": 0.14
+    }
+   ]
+  },
+  "sentiment": "Reviewers mostly find it an easy, entertaining intro with a generous curve and plenty of extra credit. Exams are multiple choice from the slides, and iClicker attendance matters. Lectures are fast and slide-heavy, the 3 hour option drags, and some dislike the teaching style.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 1996,
+   "pctA": 69,
+   "pctBelowB": 9,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 358
+    },
+    {
+     "letter": "A",
+     "count": 580
+    },
+    {
+     "letter": "A-",
+     "count": 265
+    },
+    {
+     "letter": "B+",
+     "count": 145
+    },
+    {
+     "letter": "B",
+     "count": 161
+    },
+    {
+     "letter": "B-",
+     "count": 77
+    },
+    {
+     "letter": "C+",
+     "count": 42
+    },
+    {
+     "letter": "C",
+     "count": 49
+    },
+    {
+     "letter": "C-",
+     "count": 18
+    },
+    {
+     "letter": "D+",
+     "count": 15
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 32
+    },
+    {
+     "letter": "P",
+     "count": 216
+    },
+    {
+     "letter": "NP",
+     "count": 27
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 53,
+   "difficulty": 2.6,
+   "workload": 2.3,
+   "usefulness": 3.5,
+   "recordedPct": 40,
+   "attendanceRequiredPct": 88
+  },
+  "byProfessor": [
+   {
+    "professor": "Davina Chan",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.55,
+    "studentCount": 24,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.5,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Jose Ramirez",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Uri Korisky",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.49,
+    "studentCount": 26,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 3.1,
+    "difficulty": 2.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Christopher Kymn",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.44,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Meredith Lanska",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.41,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 2,
+    "difficulty": 2.8,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Paul Li",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.14,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%201"
+  ]
+ },
+ "COGSCI 110": {
+  "course": "COGSCI 110",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.255
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 134,
+   "pctA": 82,
+   "pctBelowB": 12,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 80
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Davina Chan",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20110"
+  ]
+ },
+ "COGSCI 112": {
+  "course": "COGSCI 112",
+  "difficulty": 2.0,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.295
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.75), with 84% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 269,
+   "pctA": 84,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 88
+    },
+    {
+     "letter": "A",
+     "count": 103
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Danielle Cummings",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Meredith Lanska",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20112"
+  ]
+ },
+ "COGSCI 115": {
+  "course": "COGSCI 115",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 2.5,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.246
+    },
+    {
+     "label": "Tone of written student reviews (12 on file)",
+     "value": 3.8,
+     "weight": 0.112
+    }
+   ]
+  },
+  "sentiment": "Students find the topic interesting and often life-improving, with entertaining lectures. Common complaints: attendance clicker points are a big part of the grade, exams demand memorizing many detailed slides, and assignment instructions are vague. Exams are curved and described as tough but doable with heavy studying.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 659,
+   "pctA": 68,
+   "pctBelowB": 11,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 334
+    },
+    {
+     "letter": "A-",
+     "count": 56
+    },
+    {
+     "letter": "B+",
+     "count": 34
+    },
+    {
+     "letter": "B",
+     "count": 80
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 28
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 29
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2.9,
+   "workload": 2.5,
+   "usefulness": 4.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Davina Chan",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "studentCount": 8,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.6,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20115"
+  ]
+ },
+ "COGSCI 116": {
+  "course": "COGSCI 116",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.228
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 94,
+   "pctA": 89,
+   "pctBelowB": 6,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 39
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Danielle Cummings",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.73,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20116"
+  ]
+ },
+ "COGSCI 131": {
+  "course": "COGSCI 131",
+  "difficulty": 2.4,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (13 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.253
+    },
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (13)",
+     "value": 2.5,
+     "weight": 0.108
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.036
+    },
+    {
+     "label": "Student usefulness rating (13 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.289
+    }
+   ]
+  },
+  "sentiment": "13 students on Berkeleytime rate it 2.9/5 for difficulty, 2.5/5 for workload and 2.3/5 for usefulness. The average grade is A- (3.71), with 83% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 1001,
+   "pctA": 83,
+   "pctBelowB": 6,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 520
+    },
+    {
+     "letter": "A",
+     "count": 167
+    },
+    {
+     "letter": "A-",
+     "count": 96
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 50
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 17
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 13,
+   "difficulty": 2.9,
+   "workload": 2.5,
+   "usefulness": 2.3,
+   "recordedPct": 46,
+   "attendanceRequiredPct": 46
+  },
+  "byProfessor": [
+   {
+    "professor": "Jose Ramirez",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.72,
+    "studentCount": 13,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 2.3,
+    "difficulty": 2.3,
+    "shouldTake": 2.9
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Professor wasn't clear on instructions for any assignment or quiz",
+    "term": "2024 Fall",
+    "source": "Berkeleytime",
+    "title": "Disorganized",
+    "professor": "Jose Ramirez",
+    "grade": "A-"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20131"
+  ]
+ },
+ "COGSCI 132": {
+  "course": "COGSCI 132",
+  "difficulty": 2.3,
+  "shouldTake": 2.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 2,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.275
+    }
+   ]
+  },
+  "sentiment": "11 students on Berkeleytime rate it 2.8/5 for difficulty, 2.0/5 for workload and 1.5/5 for usefulness. The average grade is A- (3.72), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 441,
+   "pctA": 82,
+   "pctBelowB": 6,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 245
+    },
+    {
+     "letter": "A",
+     "count": 71
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 29
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 2.8,
+   "workload": 2,
+   "usefulness": 1.5,
+   "recordedPct": 44,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Jose Ramirez",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "studentCount": 11,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 1.5,
+    "difficulty": 2.2,
+    "shouldTake": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20132"
+  ]
+ },
+ "COGSCI 138": {
+  "course": "COGSCI 138",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 67% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 13,
+   "pctA": 67,
+   "pctBelowB": 22,
+   "pctPassNoPass": 31,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ahna Girshick",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20138"
+  ]
+ },
+ "COGSCI 139": {
+  "course": "COGSCI 139",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.104
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 21,
+   "pctA": 95,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jose Ramirez",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.81,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20139"
+  ]
+ },
+ "COGSCI 144": {
+  "course": "COGSCI 144",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.275
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 184,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 120
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Croom",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20144"
+  ]
+ },
+ "COGSCI 146": {
+  "course": "COGSCI 146",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.41), with 61% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 40,
+   "pctA": 61,
+   "pctBelowB": 16,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Croom",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.41,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20146"
+  ]
+ },
+ "COGSCI 150": {
+  "course": "COGSCI 150",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.248
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 66% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 121,
+   "pctA": 66,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Glushko",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20150"
+  ]
+ },
+ "COGSCI 151": {
+  "course": "COGSCI 151",
+  "difficulty": 2.9,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.25
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 2.7/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.29), with 50% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 125,
+   "pctA": 50,
+   "pctBelowB": 14,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 2.7,
+   "usefulness": 3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Naomi Odean",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.29,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20151"
+  ]
+ },
+ "COGSCI 170": {
+  "course": "COGSCI 170",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.291
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 249,
+   "pctA": 72,
+   "pctBelowB": 7,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 85
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 38
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20170"
+  ]
+ },
+ "COGSCI 171": {
+  "course": "COGSCI 171",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.202
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 68,
+   "pctA": 86,
+   "pctBelowB": 4,
+   "pctPassNoPass": 59,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20171"
+  ]
+ },
+ "COGSCI 172": {
+  "course": "COGSCI 172",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 31,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 42,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20172"
+  ]
+ },
+ "COGSCI 173": {
+  "course": "COGSCI 173",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 53% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 20,
+   "pctA": 53,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Naomi Odean",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.54,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20173"
+  ]
+ },
+ "COGSCI 175": {
+  "course": "COGSCI 175",
+  "difficulty": 1.7,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 1.5,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 1.5/5 for difficulty, 1.5/5 for workload and 4.2/5 for usefulness. The average grade is A- (3.84), with 89% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 438,
+   "pctA": 89,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 310
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 1.5,
+   "workload": 1.5,
+   "usefulness": 4.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sahar Yousef",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.84,
+    "studentCount": 6,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 4.2,
+    "difficulty": 1.5,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20175"
+  ]
+ },
+ "COGSCI 180": {
+  "course": "COGSCI 180",
+  "difficulty": 2.6,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (12 on file)",
+     "value": 4.3,
+     "weight": 0.112
+    }
+   ]
+  },
+  "sentiment": "Students generally enjoy this philosophical, personally meaningful class and call the lectures warm and engaging. Exams can be tricky and memorization-based, but a generous curve and extra credit make an A manageable. Clicker attendance counts, and there are two papers.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 720,
+   "pctA": 65,
+   "pctBelowB": 14,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 46
+    },
+    {
+     "letter": "A",
+     "count": 318
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 74
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 34
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.3,
+   "workload": 2.2,
+   "usefulness": 3.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Davina Chan",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.44,
+    "studentCount": 6,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 3.8,
+    "difficulty": 2.5,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20180"
+  ]
+ },
+ "COGSCI 181": {
+  "course": "COGSCI 181",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.255
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.22), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 134,
+   "pctA": 44,
+   "pctBelowB": 12,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Meredith Lanska",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.29,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20181"
+  ]
+ },
+ "COGSCI 182": {
+  "course": "COGSCI 182",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 42,
+   "pctA": 45,
+   "pctBelowB": 9,
+   "pctPassNoPass": 48,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20182"
+  ]
+ },
+ "COGSCI 190": {
+  "course": "COGSCI 190",
+  "difficulty": 2.6,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.324
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.093
+    },
+    {
+     "label": "Tone of written student reviews (9 on file)",
+     "value": 4.0,
+     "weight": 0.104
+    }
+   ]
+  },
+  "sentiment": "Students mostly enjoyed this happiness and neuroscience topics course, citing interesting research, practical exercises and curved exams. Some find the content life changing, while one reviewer found lectures slide-reading with subjective grading. Expect to learn brain structures and study the slides.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 633,
+   "pctA": 71,
+   "pctBelowB": 10,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 149
+    },
+    {
+     "letter": "A",
+     "count": 194
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 54
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 16
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 62
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Naomi Odean",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Davina Chan",
+    "terms": 3,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "David Presti",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.92,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Adam Croom",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Jose Ramirez",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.98,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20190"
+  ]
+ },
+ "COGSCI 197": {
+  "course": "COGSCI 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "David Whitney",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Clayton Critcher",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dor Abrahamson",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Anne Collins",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Terry Regier",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20197"
+  ]
+ },
+ "COGSCI 198": {
+  "course": "COGSCI 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "David Whitney",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Meagan Ann Mason",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Uri Korisky",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Robert Glushko",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Aurum Kathuria",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20198"
+  ]
+ },
+ "COGSCI 199": {
+  "course": "COGSCI 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "David Whitney",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Robert Knight",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mark D'Esposito",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Steven Piantadosi",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Presti",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richard Ivry",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20199"
+  ]
+ },
+ "COGSCI 1B": {
+  "course": "COGSCI 1B",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.329
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 787,
+   "pctA": 77,
+   "pctBelowB": 9,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 319
+    },
+    {
+     "letter": "A",
+     "count": 220
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 63
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 23
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Davina Chan",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Adam Croom",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%201B"
+  ]
+ },
+ "COGSCI 88": {
+  "course": "COGSCI 88",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 16,
+   "pctA": 94,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%2088"
+  ]
+ },
+ "COGSCI 98": {
+  "course": "COGSCI 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Anne Collins",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Zachary Pardos",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Robert Glushko",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Aurum Kathuria",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%2098"
+  ]
+ },
+ "COGSCI C100": {
+  "course": "COGSCI C100",
+  "difficulty": 2.1,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (15 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.262
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (15)",
+     "value": 1.7,
+     "weight": 0.112
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.3,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (15 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.3
+    },
+    {
+     "label": "Tone of written student reviews (21 on file)",
+     "value": 3.6,
+     "weight": 0.126
+    }
+   ]
+  },
+  "sentiment": "Reviewers like the engaging stories and interesting topics, and note lenient grading and curved exams. Frequent iClicker quizzes count heavily, so attendance matters. Critics call it shallow, memorization-based, with a big group project and unclear grading.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 743,
+   "pctA": 76,
+   "pctBelowB": 8,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 85
+    },
+    {
+     "letter": "A",
+     "count": 390
+    },
+    {
+     "letter": "A-",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 69
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 28
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 15,
+   "difficulty": 2,
+   "workload": 1.7,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 92
+  },
+  "byProfessor": [
+   {
+    "professor": "Mariam Aly",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Davina Chan",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.5,
+    "studentCount": 8,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.2,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "William Thompson",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.93,
+    "studentCount": 7,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4.1,
+    "difficulty": 1.6,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C100"
+  ]
+ },
+ "COGSCI C101": {
+  "course": "COGSCI C101",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 37,
+   "pctA": 73,
+   "pctBelowB": 3,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C101"
+  ]
+ },
+ "COGSCI C126": {
+  "course": "COGSCI C126",
+  "difficulty": 2.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.2/5 for difficulty, 1.5/5 for workload and 3.8/5 for usefulness. The average grade is B+ (3.27), with 45% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 755,
+   "pctA": 45,
+   "pctBelowB": 13,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 141
+    },
+    {
+     "letter": "A-",
+     "count": 116
+    },
+    {
+     "letter": "B+",
+     "count": 96
+    },
+    {
+     "letter": "B",
+     "count": 89
+    },
+    {
+     "letter": "B-",
+     "count": 61
+    },
+    {
+     "letter": "C+",
+     "count": 36
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 163
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.2,
+   "workload": 1.5,
+   "usefulness": 3.8,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "David Whitney",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "studentCount": 4,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.8,
+    "difficulty": 2.7,
+    "shouldTake": 3.5
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Content was super interesting, not too hard. I did enjoy writing the paper for this course, was pretty open ended.",
+    "term": "2025 Spring",
+    "source": "Berkeleytime",
+    "title": "Fun content, light work",
+    "professor": "David Whitney",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C126"
+  ]
+ },
+ "COGSCI C127": {
+  "course": "COGSCI C127",
+  "difficulty": 3.6,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (16 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.267
+    },
+    {
+     "label": "Average grade B (3.03)",
+     "value": 3.9,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (16)",
+     "value": 2.8,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (16 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.305
+    }
+   ]
+  },
+  "sentiment": "16 students on Berkeleytime rate it 3.8/5 for difficulty, 2.8/5 for workload and 3.9/5 for usefulness. The average grade is B (3.03), with 36% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.03,
+   "letter": "B",
+   "students": 642,
+   "pctA": 36,
+   "pctBelowB": 22,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 95
+    },
+    {
+     "letter": "A-",
+     "count": 80
+    },
+    {
+     "letter": "B+",
+     "count": 79
+    },
+    {
+     "letter": "B",
+     "count": 103
+    },
+    {
+     "letter": "B-",
+     "count": 51
+    },
+    {
+     "letter": "C+",
+     "count": 34
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 32
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 19
+    },
+    {
+     "letter": "P",
+     "count": 74
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 16,
+   "difficulty": 3.8,
+   "workload": 2.8,
+   "usefulness": 3.9,
+   "recordedPct": 58,
+   "attendanceRequiredPct": 85
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Ivry",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.99,
+    "studentCount": 8,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Amitai Shenhav",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.08,
+    "studentCount": 8,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.6,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Jack Gallant",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.74,
+    "difficulty": 4.2
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Great professor, clear instructions throughout the course, very transparent",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Great Professor",
+    "professor": "Amitai Shenhav",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C127"
+  ]
+ },
+ "COGSCI C131": {
+  "course": "COGSCI C131",
+  "difficulty": 3.3,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.18)",
+     "value": 3.5,
+     "weight": 0.305
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 3.3/5 for workload and 2.7/5 for usefulness. The average grade is B+ (3.18), with 55% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.18,
+   "letter": "B+",
+   "students": 339,
+   "pctA": 55,
+   "pctBelowB": 22,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 86
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 15
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3.3,
+   "usefulness": 2.7,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Steven Piantadosi",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.25,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.4,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Anne Collins",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.87,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.7,
+    "shouldTake": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C131"
+  ]
+ },
+ "COGSCI C133": {
+  "course": "COGSCI C133",
+  "difficulty": 3.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Terry Regier",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C133"
+  ]
+ },
+ "COGSCI C140": {
+  "course": "COGSCI C140",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 41,
+   "pctA": 62,
+   "pctBelowB": 17,
+   "pctPassNoPass": 29,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susanne Gahl",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.29,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C140"
+  ]
+ },
+ "COGSCI C142": {
+  "course": "COGSCI C142",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.26
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 2.0/5 for workload and 3.3/5 for usefulness. The average grade is B+ (3.39), with 61% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 145,
+   "pctA": 61,
+   "pctBelowB": 11,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 28
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Terry Regier",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Noah Hermalin",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C142"
+  ]
+ },
+ "COGSCI H195": {
+  "course": "COGSCI H195",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Kevin Weiner",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Robert Knight",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Richard Ivry",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mark D'Esposito",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Fei Xu",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "David Whitney",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Matthew Walker",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Eve Sweetser",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20H195"
+  ]
+ },
+ "COGSCI H195A": {
+  "course": "COGSCI H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Richard Ivry",
+    "terms": 5,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Mark D'Esposito",
+    "terms": 4,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "David Whitney",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Fei Xu",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Matthew Walker",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "David Presti",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20H195A"
+  ]
+ },
+ "COGSCI H195B": {
+  "course": "COGSCI H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Richard Ivry",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Anne Collins",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "David Presti",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Dacher Keltner",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Eve Sweetser",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "David Whitney",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Alison Gopnik",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Mahesh Srinivasan",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20H195B"
+  ]
+ },
+ "COGSCI N1": {
+  "course": "COGSCI N1",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.326
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 76% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 683,
+   "pctA": 76,
+   "pctBelowB": 10,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 302
+    },
+    {
+     "letter": "A",
+     "count": 128
+    },
+    {
+     "letter": "A-",
+     "count": 63
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 31
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 30
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Croom",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20N1"
+  ]
+ },
+ "COGSCI N100": {
+  "course": "COGSCI N100",
+  "difficulty": 3.0,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.059
+    },
+    {
+     "label": "Tone of written student reviews (11 on file)",
+     "value": 3.2,
+     "weight": 0.11
+    }
+   ]
+  },
+  "sentiment": "Reviews are split. Many love the engaging, story-filled lectures on practical topics like memory and mindfulness, while others find the daily quizzes, nitpicky exams, long lectures and group work frustrating. Quizzes count heavily and attendance matters.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 73,
+   "pctA": 61,
+   "pctBelowB": 17,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N120"
+  ]
+ }
+}

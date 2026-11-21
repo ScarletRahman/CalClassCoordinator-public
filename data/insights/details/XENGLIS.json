@@ -1,0 +1,384 @@
+{
+ "XENGLIS R1A": {
+  "course": "XENGLIS R1A",
+  "difficulty": 2.8,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 2.8/5 for difficulty, 3.2/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.44), with 60% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 784,
+   "pctA": 60,
+   "pctBelowB": 9,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 67
+    },
+    {
+     "letter": "A",
+     "count": 245
+    },
+    {
+     "letter": "A-",
+     "count": 148
+    },
+    {
+     "letter": "B+",
+     "count": 107
+    },
+    {
+     "letter": "B",
+     "count": 83
+    },
+    {
+     "letter": "B-",
+     "count": 47
+    },
+    {
+     "letter": "C+",
+     "count": 23
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.8,
+   "workload": 3.2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 83
+  },
+  "byProfessor": [
+   {
+    "professor": "Cathleen Small",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.21,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Julie Morfee",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.95,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Jennifer Edwell",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.77,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Amy Lee",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Juliet Kunkel",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.86,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Sharon Coleman",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Balthazar Beckett",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Avril Angevine",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 2.99,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XENGLIS%20R1A"
+  ]
+ },
+ "XENGLIS R1B": {
+  "course": "XENGLIS R1B",
+  "difficulty": 2.5,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.68), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 471,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 52
+    },
+    {
+     "letter": "A",
+     "count": 213
+    },
+    {
+     "letter": "A-",
+     "count": 98
+    },
+    {
+     "letter": "B+",
+     "count": 46
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Srijani Ghosh",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.8,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Jennifer Edwell",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Sharon Coleman",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Amy Lee",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Catherine Hollis",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.72,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Cheryl Colopy",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.28,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Sarah Herbold",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.11,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Aparajita Nanda",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XENGLIS%20R1B"
+  ]
+ }
+}

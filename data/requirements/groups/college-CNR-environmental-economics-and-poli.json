@@ -1,0 +1,151 @@
+{
+ "id": "college-CNR-environmental-economics-and-poli",
+ "title": "Rausser College of Natural Resources requirements (Environmental Economics & Policy)",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04779U"
+ ],
+ "catalogYear": "2026-27",
+ "college": "CNR",
+ "variantOf": "college-CNR",
+ "requirements": [
+  {
+   "id": "reading-and-composition",
+   "title": "Reading and Composition",
+   "notes": "Guidelines for Reading and Composition Courses\nIn order to provide a solid foundation in reading, writing, and critical thinking for work in the major, the College requires two semesters of lower division work in composition—Reading and Composition (R&C), Parts A and B, in sequential order.\n- All undergraduates should complete the Reading and Composition (R&C) requirement by the end of their fourth semester.\n- All courses used to satisfy Part A or B of Reading and Composition must be completed with a letter grade of C- or better.\n- Students who have been admitted to Berkeley and have not completed Entry Level Writing must enroll in College Writing R1A (6 units), which satisfies both Entry Level Writing and the first half of R&C. Please note: A minimum grade of C is required in COLWRIT R1A in order to satisfy the Entry Level Writing Requirement.\n- AGRS R44 (completed with a C- or higher) may be used to satisfy either Part A or Part B of R&C. This course may also be used to satisfy Arts and Literature, Historical Studies, or Social & Behavioral Sciences breadth.\n- With the exception of AGRS R44, courses fulfilling the Reading and Composition requirement may not be applied to Seven-Course Breadth.\nSatisfying Reading and Composition with an Exam\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 4 satisfies Part A\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 5 satisfies Parts A & B\n- Advanced Placement (AP) English Language and Composition - Score of 4 or 5 satisfies Part A\n- International Baccalaureate (IB) Higher Level (HL) English A: Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- Beginning with students admitted in fall 2018 - International Baccalaureate (IB) Higher Level (HL) English A: Language and Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- GCE A-Level English Literature exam - Not accepted for this requirement\n* The IB Literature and Performance exam, as well as the Standard Level (SL) exams in English A: Literature and English A: Language and Literature are NOT eligible for satisfaction of Reading and Composition.\nSatisfying Reading and Composition with Berkeley Courses\n- Successful completion with a C- grade or better of two designated Reading and Composition courses in sequence order. Review all approved below.\nSatisfying Reading and Composition Requirement with Transfer Courses\n- Transfer courses must be taken on a letter-graded basis and be completed with a grade of C- or better.\n- Students admitted with full CalGETC/UC IGETC Certification from a California Community College (CCC) or UC Reciprocity to the colleges of Chemistry, Computing, Data Science & Society, Education, Environmental Design, Letters & Science, and Rausser Natural Resources, as well as the School of Education, have satisfied Reading and Composition. No additional coursework is required.\n- Students can complete an articulated (pre-approved) Reading and Composition course at a CCC. Pre-approved courses can be found on ASSIST.\n- Current pre-approved Reading and Composition courses from outside of the California Community College System are published on the Transfer Evaluation System website.\nIt is advisable to refer to individual college/school advising websites regarding use of transfer courses before enrolling elsewhere to complete degree requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rcnr-unit-and-academic-requirements",
+   "title": "RCNR Unit and Academic Requirements",
+   "notes": "Unit Requirements\nStudents must complete at least 120 semester units of courses, subject to certain guidelines:\n- At least 36 units must be upper division courses, including a minimum of 15 units of upper division courses in the Rausser College (ENVECON, ENERES, ESPM, MBN, PLANTBI). These units can be included in the major requirements or taken separately.\n- A maximum of 16 units of Special Studies coursework (courses numbered 97, 98, 99, 197, 198, or 199) is allowed towards the 120 units; a maximum of four is allowed in a given semester.\n- A maximum of 4 units of Physical Education from any school attended will count towards the 120 units.\n- Students may receive unit credit for courses graded P (including P/NP units taken through EAP) up to a limit of one-third of the total units taken and passed on the Berkeley campus at the time of graduation. Courses taken for P/NP in the Spring 2020 semester will not count toward this limit. Major requirements, with the exception of EEP breadth, must be taken for a letter grade.\nSemester Unit Minimum\nAll Rausser College students must enroll in at least 12 units each fall and spring semester, unless on an approved Reduced Courseload.\nSemester Unit Maximum\nTo request permission to take more than 20.5 units in a semester, please review the Exceeding Maximum Unit Limits policies.\nTerm Limit\nStudents who enter as first-years (not junior transfer) are expected to graduate in a total of 8 semesters (summers excluded). Participation in the Fall Program for First Semester (FPF) is considered a Berkeley semester under College policy. Students who enter as junior transfers are expected to graduate in a total of 4 semesters (summers excluded). Rausser College does not limit the number of total units a student can accrue.\nStudents completing more than one major are automatically granted one additional semester by Rausser College. Simultaneous degree students will require approval from their other college before the change can be implemented.\nStudents who study abroad through the UC Education Abroad Program or UCDC during the academic year are automatically granted one additional semester. Simultaneous degree students will require approval from their other college before the change can be implemented.\nGrade Requirements\n- A 2.0 UC GPA is required for graduation.\n- A grade of at least C- is required in all courses for the major.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "units",
+      "minUnits": 36,
+      "filter": {
+       "attribute": "UD"
+      }
+     },
+     {
+      "type": "units",
+      "minUnits": 15,
+      "filter": {
+       "subjects": [
+        "ENVECON",
+        "ENERES",
+        "ESPM",
+        "MBN",
+        "NUSCTX",
+        "PLANTBI"
+       ],
+       "minNumber": 100,
+       "maxNumber": 199
+      }
+     },
+     {
+      "type": "manual",
+      "text": "At most 16 Special Studies units and 4 PE units count toward the 120; major courses taken for a letter grade"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-economics-and-policy-major-breadth-requirement",
+   "title": "Environmental Economics & Policy Major Breadth Requirements",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and provides context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nThe requirement consists of seven distribution areas: Arts and Literature, Biological Science, Historical Studies, International Studies, Philosophy and Values, Physical Science, and Social and Behavioral Sciences.\nFor descriptions of these distribution areas, as well as more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nGuidelines for Seven-Course Breadth\nComplete one approved course for each of the seven areas with a minimum grade of C- or P. To find course options for breadth, go to the Class Schedule, select the term of interest, and use the \"Breadth Requirements\" filter to select the breadth area(s) of interest. When selecting a course, keep the following in mind:\n- Some courses may list multiple breadth areas. These are options for which breadth areas the course can satisfy. A course may only be used for one of the approved breadth areas. To satisfy the breadth requirement, complete seven distinct courses, one for each breadth area.\n- Students may use up to two courses from any one academic department to satisfy the Seven-Course Breadth. This includes all subject areas offered by the department and—if a course is cross-listed (indicated by a 'C' prefix)—all other departments offering the course as well. Letters and Science (\"LS\") courses are an exception to this restriction. Students may complete as many LS courses as they wish for the Seven-Course Breadth. This includes LS courses offered through the Discovery and Big Ideas programs.\n- Courses fulfilling American History & Institutions, American Cultures or requirements in the major program may also be applied to the Seven-Course Breadth requirement.\n- Seven-Course Breadth is fulfilled by taking 7 college courses. Exams, such as Advanced Placement and International Baccalaureate, cannot be used to fulfill breadth requirements.\nSatisfying the Seven Course Breadth Requirement with Transfer Work\n- Students admitted with IGETC Certification or UC Reciprocity have satisfied Quantitative Reasoning. No additional course work is required.\n- All transfer courses must be completed with a grade of C- or better, or the equivalent of a Passed grade on the host campus, in order to be considered for Seven-Course Breadth.\n- To be eligible for consideration, the minimum unit requirement for a course offered from a campus on the semester system is 3.0 units, and for courses offered from campuses on the quarter system, 4.0 units.\n- Students can complete pre-approved breadth courses at a California Community College. Pre-approved courses can be found on ASSIST. Refer to the L&S Transfer Credit page for instructions on how to take transfer credit as an L&S student before enrolling at a California Community College.\n- Successful completion of transferable courses from other higher education institutions (i.e. 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may also be considered. Course descriptions and syllabi will be required to make a breadth determination. For more information on pursuing transfer courses for Seven-Course Breadth at another higher education institution, review L&S’s Transfer Credit: Other Higher Education Institutions webpage.\nClos",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

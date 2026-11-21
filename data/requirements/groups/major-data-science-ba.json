@@ -1,0 +1,4187 @@
+{
+ "id": "major-data-science-ba",
+ "title": "Data Science BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/A50AMU",
+  "https://undergraduate.catalog.berkeley.edu/programs/A50AMU/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/A50AMU"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "A50AMU",
+ "choices": [
+  {
+   "id": "domain-emphasis",
+   "title": "Domain Emphasis",
+   "pick": 1,
+   "options": [
+    {
+     "id": "aerospace",
+     "title": "Aerospace"
+    },
+    {
+     "id": "applied-mathematics-and-modeling",
+     "title": "Applied Mathematics and Modeling"
+    },
+    {
+     "id": "business-and-industrial-analytics",
+     "title": "Business and Industrial Analytics"
+    },
+    {
+     "id": "cognition",
+     "title": "Cognition"
+    },
+    {
+     "id": "computational-methods-in-molecular-and-genomic-biology",
+     "title": "Computational Methods in Molecular and Genomic Biology"
+    },
+    {
+     "id": "data-arts-and-humanities",
+     "title": "Data Arts and Humanities"
+    },
+    {
+     "id": "ecology-and-the-environment",
+     "title": "Ecology and the Environment"
+    },
+    {
+     "id": "economics",
+     "title": "Economics"
+    },
+    {
+     "id": "education",
+     "title": "Education"
+    },
+    {
+     "id": "environment-resource-management-and-society",
+     "title": "Environment, Resource Management, and Society"
+    },
+    {
+     "id": "evolution-and-biodiversity",
+     "title": "Evolution and Biodiversity"
+    },
+    {
+     "id": "geospatial-information-and-technology",
+     "title": "Geospatial Information and Technology"
+    },
+    {
+     "id": "human-and-population-health",
+     "title": "Human and Population Health"
+    },
+    {
+     "id": "human-behavior-and-psychology",
+     "title": "Human Behavior and Psychology"
+    },
+    {
+     "id": "inequalities-in-society",
+     "title": "Inequalities in Society"
+    },
+    {
+     "id": "linguistic-sciences",
+     "title": "Linguistic Sciences"
+    },
+    {
+     "id": "neurosciences",
+     "title": "Neurosciences"
+    },
+    {
+     "id": "organizations-and-the-economy",
+     "title": "Organizations and the Economy"
+    },
+    {
+     "id": "philosophical-foundations-evidence-and-inference",
+     "title": "Philosophical Foundations: Evidence and Inference"
+    },
+    {
+     "id": "philosophical-foundations-minds-morals-and-machines",
+     "title": "Philosophical Foundations: Minds, Morals, and Machines"
+    },
+    {
+     "id": "physical-science-analytics",
+     "title": "Physical Science Analytics"
+    },
+    {
+     "id": "quantitative-social-science",
+     "title": "Quantitative Social Science"
+    },
+    {
+     "id": "robotics",
+     "title": "Robotics"
+    },
+    {
+     "id": "science-technology-and-society",
+     "title": "Science, Technology, and Society"
+    },
+    {
+     "id": "social-welfare-health-and-poverty",
+     "title": "Social Welfare, Health, and Poverty"
+    },
+    {
+     "id": "social-policy-and-law",
+     "title": "Social Policy and Law"
+    },
+    {
+     "id": "sustainable-development-and-engineering",
+     "title": "Sustainable Development and Engineering"
+    },
+    {
+     "id": "urban-science",
+     "title": "Urban Science"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "There are additional lower division requirements associated with the Domain Emphases listed below. Select a Domain Emphasis to see these requirements.\nAP/IB or other high school exam credit is not accepted.",
+  "Domain Emphasis\nStudents can choose one of the following:\n- Aerospace\n- Applied Mathematics and Modeling\n- Business and Industrial Analytics\n- Cognition\n- Computational Methods in Molecular and Genomic Biology\n- Data Arts and Humanities\n- Ecology and the Environment\n- Economics\n- Education\n- Environment, Resource Management, and Society\n- Evolution and Biodiversity\n- Geospatial Information and Technology\n- Human and Population Health\n- Human Behavior and Psychology\n- Inequalities in Society\n- Linguistic Sciences\n- Neurosciences\n- Organizations and the Economy\n- Philosophical Foundations: Evidence and Inference\n- Philosophical Foundations: Minds, Morals, and Machines\n- Physical Science Analytics\n- Quantitative Social Science\n- Robotics\n- Science, Technology, and Society\n- Social Welfare, Health, and Poverty\n- Social Policy and Law\n- Sustainable Development and Engineering\n- Urban Science"
+ ],
+ "requirements": [
+  {
+   "id": "data-science",
+   "title": "Data Science",
+   "section": "Lower Division",
+   "notes": "- A minimum grade of C- is required for all lower division courses.\n- No P grades are allowed.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT 20"
+     }
+    ]
+   }
+  },
+  {
+   "id": "calculus-part-1",
+   "title": "Calculus: Part 1",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH N1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "calculus-part-2",
+   "title": "Calculus: Part 2",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH H1B"
+     },
+     {
+      "type": "course",
+      "course": "DATA 89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linear-algebra",
+   "title": "Linear Algebra",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH N54"
+       },
+       {
+        "type": "course",
+        "course": "MATH H54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       },
+       {
+        "type": "course",
+        "course": "MATH 56"
+       },
+       {
+        "type": "course",
+        "course": "STAT 89A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 89"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS W89"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ELENG 66"
+       },
+       {
+        "type": "course",
+        "course": "ELENG 64"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "program-structures",
+   "title": "Program Structures",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "DATA C88C"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C88C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-structures",
+   "title": "Data Structures",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61B"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61BL"
+     }
+    ]
+   }
+  },
+  {
+   "id": "principles-of-data-science",
+   "title": "Principles of Data Science",
+   "section": "Upper Division",
+   "notes": "- A minimum grade of C- is required for all upper division courses.\n- No P grades are allowed.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C100"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C100"
+     },
+     {
+      "type": "course",
+      "course": "STAT C100"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computational-and-inferential-depth",
+   "title": "Computational & Inferential Depth",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 7,
+    "filter": {
+     "courses": [
+      "ASTRON 128",
+      "BIOENG C142",
+      "CHEM C142",
+      "CHEM C191",
+      "COMPSCI C191",
+      "COMPSCI C187",
+      "DATA C101",
+      "COMPSCI 161",
+      "COMPSCI 162",
+      "COMPSCI 164",
+      "COMPSCI 168",
+      "COMPSCI 169",
+      "COMPSCI 169A",
+      "COMPSCI 170",
+      "COMPSCI 186",
+      "COMPSCI 188",
+      "DATA 144",
+      "ECON 140",
+      "ECON 141",
+      "EECS 127",
+      "ELENG 120",
+      "ELENG 122",
+      "ELENG 123",
+      "ENVECON C118",
+      "IAS C118",
+      "ESPM 174",
+      "INDENG 115",
+      "INDENG 135",
+      "INDENG 142B",
+      "INDENG 160",
+      "INDENG 162",
+      "INDENG 164",
+      "INDENG 165",
+      "INDENG 166",
+      "INDENG 173",
+      "INDENG 174",
+      "INFO 154",
+      "INFO 159",
+      "MATH 156",
+      "NUCENG 175",
+      "PHYSICS C191",
+      "PHYSICS 188",
+      "STAT 135",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 152",
+      "STAT 153",
+      "STAT 158",
+      "STAT 159",
+      "STAT 165",
+      "UGBA 142"
+     ]
+    }
+   }
+  },
+  {
+   "id": "probability",
+   "title": "Probability",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "EECS 126"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 126"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "MATH 106"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "modeling-learning-and-decision-making",
+   "title": "Modeling, Learning, and Decision-Making",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 189"
+     },
+     {
+      "type": "course",
+      "course": "DATA C102"
+     },
+     {
+      "type": "course",
+      "course": "DATA C182"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C182"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 142"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 142A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C102"
+     },
+     {
+      "type": "course",
+      "course": "STAT 154"
+     }
+    ]
+   }
+  },
+  {
+   "id": "human-contexts-and-ethics",
+   "title": "Human Contexts and Ethics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM C134"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 134"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C134"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 101"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "DIGHUM 100"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "INFO 188"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100J"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 121"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 159"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aerospace-lower-division",
+   "title": "Lower Division",
+   "section": "Aerospace",
+   "choice": "domain-emphasis",
+   "option": "aerospace",
+   "rule": {
+    "type": "course",
+    "course": "AEROENG 10"
+   }
+  },
+  {
+   "id": "aerospace-upper-division",
+   "title": "Upper Division",
+   "section": "Aerospace",
+   "choice": "domain-emphasis",
+   "option": "aerospace",
+   "notes": "- Any 3-unit AEROENG 1-199 level course",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 160"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON C162"
+     },
+     {
+      "type": "course",
+      "course": "EPS C162"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 126"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 168"
+     },
+     {
+      "type": "course",
+      "course": "EECS 149"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 117"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 120"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 121"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 122"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 142"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 103"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 109"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 140"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 151A"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 151B"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 154"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 163"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C134"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 1"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 10"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 100"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 120"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 122"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 143"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 193"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 196"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 197"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 198"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 199"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 2"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 24"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 98"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C124"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C127"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C136"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C136S"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C144"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C162"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C166"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C169"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C184"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C193P"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG H194"
+     }
+    ]
+   }
+  },
+  {
+   "id": "applied-mathematics-and-modeling-lower-division",
+   "title": "Lower Division",
+   "section": "Applied Mathematics and Modeling",
+   "choice": "domain-emphasis",
+   "option": "applied-mathematics-and-modeling",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "MATH N55"
+     }
+    ]
+   }
+  },
+  {
+   "id": "applied-mathematics-and-modeling-upper-division",
+   "title": "Upper Division",
+   "section": "Applied Mathematics and Modeling",
+   "choice": "domain-emphasis",
+   "option": "applied-mathematics-and-modeling",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "EECS 127"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 150"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 160"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 162"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 104"
+       },
+       {
+        "type": "course",
+        "course": "MATH H104"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 113"
+     },
+     {
+      "type": "course",
+      "course": "MATH 118"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 156"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C180"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C133"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "business-and-industrial-analytics-lower-division",
+   "title": "Lower Division",
+   "section": "Business and Industrial Analytics",
+   "choice": "domain-emphasis",
+   "option": "business-and-industrial-analytics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "business-and-industrial-analytics-upper-division",
+   "title": "Upper Division",
+   "section": "Business and Industrial Analytics",
+   "choice": "domain-emphasis",
+   "option": "business-and-industrial-analytics",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ENGIN 120",
+      "INDENG 115",
+      "INDENG 120",
+      "INDENG 130",
+      "INDENG 153",
+      "INDENG 156",
+      "INDENG 166",
+      "LEGALST 122",
+      "UGBA 104",
+      "UGBA 134",
+      "UGBA 141",
+      "UGBA 142",
+      "UGBA 161"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cognition-lower-division",
+   "title": "Lower Division",
+   "section": "Cognition",
+   "choice": "domain-emphasis",
+   "option": "cognition",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COGSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI N1"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI 1B"
+     },
+     {
+      "type": "course",
+      "course": "NEU C61"
+     },
+     {
+      "type": "course",
+      "course": "NEU 61"
+     },
+     {
+      "type": "course",
+      "course": "NEU C64"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C64"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C61"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cognition-upper-division",
+   "title": "Upper Division",
+   "section": "Cognition",
+   "choice": "domain-emphasis",
+   "option": "cognition",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C100"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C120"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C101"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C105"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C126"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C126"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C127"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C127"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C131"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI 131"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C123"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COGSCI 132"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI 150"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI 180"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 188"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS C146"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C143"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MUSIC 108"
+       },
+       {
+        "type": "course",
+        "course": "MUSIC 108M"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 114"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 117"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 131"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C143"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computational-methods-in-molecular-and-genomic-biology-lower-division",
+   "title": "Lower Division",
+   "section": "Computational Methods in Molecular and Genomic Biology",
+   "choice": "domain-emphasis",
+   "option": "computational-methods-in-molecular-and-genomic-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computational-methods-in-molecular-and-genomic-biology-upper-division",
+   "title": "Upper Division",
+   "section": "Computational Methods in Molecular and Genomic Biology",
+   "choice": "domain-emphasis",
+   "option": "computational-methods-in-molecular-and-genomic-biology",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOENG 131"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C131"
+       },
+       {
+        "type": "course",
+        "course": "CMPBIO C131"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 134"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 145"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 135"
+     },
+     {
+      "type": "course",
+      "course": "CMPBIO 156"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 176"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 161"
+     },
+     {
+      "type": "course",
+      "course": "MATH 127"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 137L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 160"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-arts-and-humanities-lower-division",
+   "title": "Lower Division",
+   "section": "Data Arts and Humanities",
+   "choice": "domain-emphasis",
+   "option": "data-arts-and-humanities",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ART 23AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 88"
+     },
+     {
+      "type": "course",
+      "course": "ISF 50"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 29"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 30"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 10"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-arts-and-humanities-upper-division",
+   "title": "Upper Division",
+   "section": "Data Arts and Humanities",
+   "choice": "domain-emphasis",
+   "option": "data-arts-and-humanities",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ART 172",
+      "ART 173",
+      "DIGHUM 100",
+      "DIGHUM 101",
+      "DIGHUM 150A",
+      "DIGHUM 150B",
+      "DIGHUM 150C",
+      "DIGHUM 160",
+      "ENGLISH C181",
+      "HISTART C109",
+      "HISTART 192DH",
+      "HISTORY 104",
+      "INFO 103",
+      "INFO 159",
+      "MELC 110",
+      "MUSIC 107",
+      "MUSIC 158A",
+      "MUSIC 158B",
+      "MUSIC 159",
+      "RHETOR 107",
+      "RHETOR 114",
+      "RHETOR 115",
+      "RHETOR 136",
+      "RHETOR 137",
+      "RHETOR 145",
+      "RHETOR 170"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ecology-and-the-environment-lower-division",
+   "title": "Lower Division",
+   "section": "Ecology and the Environment",
+   "choice": "domain-emphasis",
+   "option": "ecology-and-the-environment",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 80"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 2"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 6"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 15"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C46"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 88B"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 40"
+     },
+     {
+      "type": "course",
+      "course": "LS C46"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-and-the-environment-upper-division-course-1",
+   "title": "Upper Division Course 1",
+   "section": "Ecology and the Environment",
+   "choice": "domain-emphasis",
+   "option": "ecology-and-the-environment",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C106"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS C129"
+     },
+     {
+      "type": "course",
+      "course": "EPS C180"
+     },
+     {
+      "type": "course",
+      "course": "EPS C183"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C103"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C129"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C170"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C180"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 111"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 130A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 174A"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C153"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C156"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 170LF"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-and-the-environment-upper-division-course-2",
+   "title": "Upper Division Course 2",
+   "section": "Ecology and the Environment",
+   "choice": "domain-emphasis",
+   "option": "ecology-and-the-environment",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 102B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 102BL"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C106"
+       },
+       {
+        "type": "course",
+        "course": "ENERES 102"
+       },
+       {
+        "type": "course",
+        "course": "EPS C129"
+       },
+       {
+        "type": "course",
+        "course": "EPS C180"
+       },
+       {
+        "type": "course",
+        "course": "EPS C183"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C103"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C129"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C153"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C170"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C180"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 111"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 130A"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 157"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 174A"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C153"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C156"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 170LF"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics-lower-division",
+   "title": "Lower Division",
+   "section": "Economics",
+   "choice": "domain-emphasis",
+   "option": "economics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA 88E"
+     },
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics-upper-division",
+   "title": "Upper Division",
+   "section": "Economics",
+   "choice": "domain-emphasis",
+   "option": "economics",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "COMPSCI C177",
+      "DEMOG C175",
+      "ECON C103",
+      "ECON C110",
+      "ECON C125",
+      "ECON C142",
+      "ECON C147",
+      "ECON C175",
+      "ECON C184",
+      "ECON 100A",
+      "ECON 100B",
+      "ECON 101A",
+      "ECON 101B",
+      "ECON 104",
+      "ECON 119",
+      "ECON 121",
+      "ECON 127",
+      "ECON 131",
+      "ECON 134",
+      "ECON 136",
+      "ECON 139",
+      "ECON 140",
+      "ECON 141",
+      "ECON 143",
+      "ECON 144",
+      "ECON 148",
+      "ECON 151",
+      "ECON 157",
+      "ECON 165",
+      "ECON 152",
+      "ECON 172",
+      "ECON 174",
+      "ENVECON C101",
+      "ENVECON C118",
+      "ENVECON C132",
+      "IAS C118",
+      "MATH C103",
+      "POLSCI C131A",
+      "POLSCI C135",
+      "PUBPOL C142"
+     ]
+    }
+   }
+  },
+  {
+   "id": "education-lower-division",
+   "title": "Lower Division",
+   "section": "Education",
+   "choice": "domain-emphasis",
+   "option": "education",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EDUC 40AC"
+     },
+     {
+      "type": "course",
+      "course": "EDUC N40AC"
+     },
+     {
+      "type": "course",
+      "course": "EDUC W161"
+     }
+    ]
+   }
+  },
+  {
+   "id": "education-upper-division",
+   "title": "Upper Division",
+   "section": "Education",
+   "choice": "domain-emphasis",
+   "option": "education",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA 144"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EDUC C122"
+       },
+       {
+        "type": "course",
+        "course": "EDSTEM C122"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EDUC C130"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EDUC C142"
+       },
+       {
+        "type": "course",
+        "course": "EDUC 142"
+       },
+       {
+        "type": "course",
+        "course": "GLOBAL C129"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EDUC W161"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 153"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 161C"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 168"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 244"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 260"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 274A"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 274B"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 275B"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 275G"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 276A"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 293A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 113"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 113AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 180E"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environment-resource-management-and-society-lower-division",
+   "title": "Lower Division",
+   "section": "Environment, Resource Management, and Society",
+   "choice": "domain-emphasis",
+   "option": "environment-resource-management-and-society",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON C3"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C1"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 50AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environment-resource-management-and-society-upper-division",
+   "title": "Upper Division",
+   "section": "Environment, Resource Management, and Society",
+   "choice": "domain-emphasis",
+   "option": "environment-resource-management-and-society",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C102"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C102"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C125"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C101"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENERES C100"
+       },
+       {
+        "type": "course",
+        "course": "ENERES W100"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENERES 131"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENERES C176"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C176"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENERES 190C"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 100"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENVECON C115"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C104"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 142"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 145"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 147"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102C"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 151"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 186"
+     },
+     {
+      "type": "course",
+      "course": "IAS C176"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     }
+    ]
+   }
+  },
+  {
+   "id": "evolution-and-biodiversity-lower-division",
+   "title": "Lower Division",
+   "section": "Evolution and Biodiversity",
+   "choice": "domain-emphasis",
+   "option": "evolution-and-biodiversity",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "evolution-and-biodiversity-upper-division",
+   "title": "Upper Division",
+   "section": "Evolution and Biodiversity",
+   "choice": "domain-emphasis",
+   "option": "evolution-and-biodiversity",
+   "notes": "Students who elect to take INTEGBI 117 to satisfy this requirement will also need to take INTEGBI 117LF.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ESPM 108B"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 152"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C105"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C125"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C148"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C166"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 113L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C105"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C109"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C109"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 117"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 117LF"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 141"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 160"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 161"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 162"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 164L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 167"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 169"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 172"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geospatial-information-and-technology-lower-division",
+   "title": "Lower Division",
+   "section": "Geospatial Information and Technology",
+   "choice": "domain-emphasis",
+   "option": "geospatial-information-and-technology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C88"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN C88"
+     },
+     {
+      "type": "course",
+      "course": "EPS 50"
+     },
+     {
+      "type": "course",
+      "course": "EPS 88"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 72"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 88A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 80"
+     },
+     {
+      "type": "course",
+      "course": "GEOG N80"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geospatial-information-and-technology-upper-division",
+   "title": "Upper Division",
+   "section": "Geospatial Information and Technology",
+   "choice": "domain-emphasis",
+   "option": "geospatial-information-and-technology",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 101"
+     },
+     {
+      "type": "course",
+      "course": "EPS 115"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 137"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 164"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 172"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C172"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C172"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 173"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C177"
+       },
+       {
+        "type": "course",
+        "course": "LDARCH C177"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GEOG C188"
+       },
+       {
+        "type": "course",
+        "course": "LDARCH C188"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GEOG 183"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 185"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 186"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 187"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 177A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "human-and-population-health-lower-division",
+   "title": "Lower Division",
+   "section": "Human and Population Health",
+   "choice": "domain-emphasis",
+   "option": "human-and-population-health",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 50"
+     }
+    ]
+   }
+  },
+  {
+   "id": "human-and-population-health-upper-division",
+   "title": "Upper Division",
+   "section": "Human and Population Health",
+   "choice": "domain-emphasis",
+   "option": "human-and-population-health",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "DEMOG 110",
+      "ESPM C159",
+      "INTEGBI 114",
+      "INTEGBI 116L",
+      "INTEGBI 132",
+      "INTEGBI 137",
+      "INTEGBI 140",
+      "MBN 160",
+      "MCELLBI 132",
+      "NUSCTX 110",
+      "NUSCTX 121",
+      "NUSCTX C159",
+      "PBHLTH 132",
+      "PBHLTH 150A",
+      "PBHLTH 150B",
+      "PBHLTH 162A",
+      "PBHLTH 181"
+     ]
+    }
+   }
+  },
+  {
+   "id": "human-behavior-and-psychology-lower-division",
+   "title": "Lower Division",
+   "section": "Human Behavior and Psychology",
+   "choice": "domain-emphasis",
+   "option": "human-behavior-and-psychology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COGSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI 1B"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI N1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH N1"
+     },
+     {
+      "type": "course",
+      "course": "XPSYCH 1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "human-behavior-and-psychology-upper-division",
+   "title": "Upper Division",
+   "section": "Human Behavior and Psychology",
+   "choice": "domain-emphasis",
+   "option": "human-behavior-and-psychology",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "COGSCI 131"
+     },
+     {
+      "type": "course",
+      "course": "ECON 119"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI C135"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 101D"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 110"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N110"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 124"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 130"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N130"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 134"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N134"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 140"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N140"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 150"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N150"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 156"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 160"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N160"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 167AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 150"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 160"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inequalities-in-society-lower-division",
+   "title": "Lower Division",
+   "section": "Inequalities in Society",
+   "choice": "domain-emphasis",
+   "option": "inequalities-in-society",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C4AC"
+     },
+     {
+      "type": "course",
+      "course": "STS C4AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "XSOCIOL 3AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inequalities-in-society-upper-division",
+   "title": "Upper Division",
+   "section": "Inequalities in Society",
+   "choice": "domain-emphasis",
+   "option": "inequalities-in-society",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 101"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 111"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AFRICAM C156"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C155"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "DIGHUM 100"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "GWS 131"
+     },
+     {
+      "type": "course",
+      "course": "LS C180U"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 117AC"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 167"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 167AC"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C103"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 117AC"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 111"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 111AC"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 113"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 113AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 124"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 130"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 130AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 131"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 133"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 180E"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 180I"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 182"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linguistic-sciences-lower-division",
+   "title": "Lower Division",
+   "section": "Linguistic Sciences",
+   "choice": "domain-emphasis",
+   "option": "linguistic-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "LINGUIS 100"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS W100"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 12A"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS W12A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linguistic-sciences-upper-division",
+   "title": "Upper Division",
+   "section": "Linguistic Sciences",
+   "choice": "domain-emphasis",
+   "option": "linguistic-sciences",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "COGSCI 144"
+     },
+     {
+      "type": "course",
+      "course": "INFO 159"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 100"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 108"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 110"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 111"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 113"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 115"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 120"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 121"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS C142"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI C142"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 150A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS C160"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI C140"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 188"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS C189"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI C133"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 133"
+     }
+    ]
+   }
+  },
+  {
+   "id": "neurosciences-lower-division",
+   "title": "Lower Division",
+   "section": "Neurosciences",
+   "choice": "domain-emphasis",
+   "option": "neurosciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "NEU C61"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C61"
+     },
+     {
+      "type": "course",
+      "course": "NEU C64"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C64"
+     }
+    ]
+   }
+  },
+  {
+   "id": "neurosciences-upper-division",
+   "title": "Upper Division",
+   "section": "Neurosciences",
+   "choice": "domain-emphasis",
+   "option": "neurosciences",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 107"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI C127"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 139"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C143A"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100A"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NEU C124"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C171"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "NEU 128"
+     },
+     {
+      "type": "course",
+      "course": "NEU 151"
+     },
+     {
+      "type": "course",
+      "course": "NEU 165"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C113"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PSYCH 117"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N117"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 125"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C127"
+     }
+    ]
+   }
+  },
+  {
+   "id": "organizations-and-the-economy-lower-division",
+   "title": "Lower Division",
+   "section": "Organizations and the Economy",
+   "choice": "domain-emphasis",
+   "option": "organizations-and-the-economy",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C4AC"
+     },
+     {
+      "type": "course",
+      "course": "STS C4AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "XSOCIOL 3AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "organizations-and-the-economy-upper-division",
+   "title": "Upper Division",
+   "section": "Organizations and the Economy",
+   "choice": "domain-emphasis",
+   "option": "organizations-and-the-economy",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ECON 121",
+      "ECON 131",
+      "ENVECON 142",
+      "GEOG 110",
+      "GWS 139",
+      "POLSCI 132C",
+      "SOCIOL 110",
+      "SOCIOL 116",
+      "SOCIOL 119S",
+      "SOCIOL 120",
+      "SOCIOL 121",
+      "UGBA 105",
+      "UGBA 107"
+     ]
+    }
+   }
+  },
+  {
+   "id": "philosophical-foundations-evidence-and-inference-lower-division",
+   "title": "Lower Division",
+   "section": "Philosophical Foundations: Evidence and Inference",
+   "choice": "domain-emphasis",
+   "option": "philosophical-foundations-evidence-and-inference",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "MATH N55"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 4"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 5"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 12A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "philosophical-foundations-evidence-and-inference-upper-division",
+   "title": "Upper Division",
+   "section": "Philosophical Foundations: Evidence and Inference",
+   "choice": "domain-emphasis",
+   "option": "philosophical-foundations-evidence-and-inference",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "MATH 125A",
+      "MATH 135",
+      "MATH 136",
+      "PHILOS 122",
+      "PHILOS 125",
+      "PHILOS 128",
+      "PHILOS 134",
+      "PHILOS 140A",
+      "PHILOS 140B",
+      "PHILOS 142",
+      "PHILOS 143",
+      "PHILOS 146",
+      "PHILOS 148",
+      "PHILOS 149",
+      "RHETOR 107"
+     ]
+    }
+   }
+  },
+  {
+   "id": "philosophical-foundations-minds-morals-and-machines-lower-division",
+   "title": "Lower Division",
+   "section": "Philosophical Foundations: Minds, Morals, and Machines",
+   "choice": "domain-emphasis",
+   "option": "philosophical-foundations-minds-morals-and-machines",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COGSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 2"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 3"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 14"
+     }
+    ]
+   }
+  },
+  {
+   "id": "philosophical-foundations-minds-morals-and-machines-upper-division",
+   "title": "Upper Division",
+   "section": "Philosophical Foundations: Minds, Morals, and Machines",
+   "choice": "domain-emphasis",
+   "option": "philosophical-foundations-minds-morals-and-machines",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C100"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI N100"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C120"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH N120"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C101"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C105"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COGSCI 131"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COGSCI C142"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C142"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ECON C110"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 104"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 115"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 132"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 133"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 135"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 136"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 141"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI C135"
+     },
+     {
+      "type": "course",
+      "course": "STAT 155"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-science-analytics-lower-division",
+   "title": "Lower Division",
+   "section": "Physical Science Analytics",
+   "choice": "domain-emphasis",
+   "option": "physical-science-analytics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5BL"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5CL"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 77"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-science-analytics-upper-division",
+   "title": "Upper Division",
+   "section": "Physical Science Analytics",
+   "choice": "domain-emphasis",
+   "option": "physical-science-analytics",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ASTRON 120",
+      "ASTRON 121",
+      "ASTRON 128",
+      "ASTRON C161",
+      "ASTRON C162",
+      "CIVENG C103N",
+      "CIVENG C133",
+      "ENGIN 150",
+      "EPS 108",
+      "EPS 109",
+      "EPS 122",
+      "ESPM C130",
+      "EPS C162",
+      "ESPM C170",
+      "EPS C181",
+      "EPS C183",
+      "GEOG C136",
+      "GEOG C139",
+      "MECENG C180",
+      "NUCENG 101",
+      "NUCENG 130",
+      "NUCENG 155",
+      "PHYSICS 105",
+      "PHYSICS 111A",
+      "PHYSICS 112",
+      "PHYSICS 129",
+      "PHYSICS 151",
+      "PHYSICS C161",
+      "PHYSICS 188"
+     ]
+    }
+   }
+  },
+  {
+   "id": "quantitative-social-science-lower-division",
+   "title": "Lower Division",
+   "section": "Quantitative Social Science",
+   "choice": "domain-emphasis",
+   "option": "quantitative-social-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI N3"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 3"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI W3"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 5"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 88"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "XSOCIOL 3AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "quantitative-social-science-upper-division",
+   "title": "Upper Division",
+   "section": "Quantitative Social Science",
+   "choice": "domain-emphasis",
+   "option": "quantitative-social-science",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "DEMOG 110"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG C126"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 130"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DEMOG C175"
+       },
+       {
+        "type": "course",
+        "course": "ECON C175"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 180"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENVECON C118"
+       },
+       {
+        "type": "course",
+        "course": "IAS C118"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "IAS C118"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 123"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 130"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 133"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLSCI C135"
+       },
+       {
+        "type": "course",
+        "course": "ECON C110"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 106"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C126"
+     }
+    ]
+   }
+  },
+  {
+   "id": "robotics-lower-division",
+   "title": "Lower Division",
+   "section": "Robotics",
+   "choice": "domain-emphasis",
+   "option": "robotics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "robotics-upper-division",
+   "title": "Upper Division",
+   "section": "Robotics",
+   "choice": "domain-emphasis",
+   "option": "robotics",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 105"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOENG C106A"
+       },
+       {
+        "type": "course",
+        "course": "EECS C106A"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOENG C106B"
+       },
+       {
+        "type": "course",
+        "course": "EECS C106B"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C136L"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 185"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 188"
+     },
+     {
+      "type": "course",
+      "course": "EECS 149"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 143"
+     },
+     {
+      "type": "course",
+      "course": "ELENG C145O"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 147"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 192"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C135L"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 102B"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 119"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 131"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C134"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 135"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 139"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-technology-and-society-lower-division",
+   "title": "Lower Division",
+   "section": "Science, Technology, and Society",
+   "choice": "domain-emphasis",
+   "option": "science-technology-and-society",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C4AC"
+     },
+     {
+      "type": "course",
+      "course": "STS C4AC"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 80"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 30"
+     },
+     {
+      "type": "course",
+      "course": "ISF 60"
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-technology-and-society-upper-division-course-1",
+   "title": "Upper Division - Course 1",
+   "section": "Science, Technology, and Society",
+   "choice": "domain-emphasis",
+   "option": "science-technology-and-society",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 115"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 119"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 168"
+     },
+     {
+      "type": "course",
+      "course": "DISSTD 110"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 180Z"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 143"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "FILM 155"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GWS 130AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100S"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100ST"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 103S"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 138"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 138T"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 180"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 180T"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 182AT"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182C"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "INFO 103"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100D"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100G"
+     },
+     {
+      "type": "course",
+      "course": "ISF C100G"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C155"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132C"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 107"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 115"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 145"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C115"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 166"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 167"
+     },
+     {
+      "type": "course",
+      "course": "STS C100"
+     },
+     {
+      "type": "course",
+      "course": "STS C101"
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-technology-and-society-upper-division-course-2",
+   "title": "Upper Division - Course 2",
+   "section": "Science, Technology, and Society",
+   "choice": "domain-emphasis",
+   "option": "science-technology-and-society",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 134"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM C134"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 115"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 119"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 168"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 101"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "DIGHUM 100"
+     },
+     {
+      "type": "course",
+      "course": "DISSTD 110"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 180Z"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 143"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "FILM 155"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GWS 130AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100S"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100ST"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 138"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 138T"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 180"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 180T"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 182AT"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "INFO 103"
+     },
+     {
+      "type": "course",
+      "course": "INFO 188"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100D"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100G"
+     },
+     {
+      "type": "course",
+      "course": "ISF C100G"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100J"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C155"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 121"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 159"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132C"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 107"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 115"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 145"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-welfare-health-and-poverty-lower-division",
+   "title": "Lower Division",
+   "section": "Social Welfare, Health, and Poverty",
+   "choice": "domain-emphasis",
+   "option": "social-welfare-health-and-poverty",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C4AC"
+     },
+     {
+      "type": "course",
+      "course": "STS C4AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "XSOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-welfare-health-and-poverty-upper-division",
+   "title": "Upper Division",
+   "section": "Social Welfare, Health, and Poverty",
+   "choice": "domain-emphasis",
+   "option": "social-welfare-health-and-poverty",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 102"
+     },
+     {
+      "type": "course",
+      "course": "GPP 105"
+     },
+     {
+      "type": "course",
+      "course": "GPP 115"
+     },
+     {
+      "type": "course",
+      "course": "GWS 130AC"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 112"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 126"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150D"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PBHLTH C155"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL C115"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PBHLTH C160"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C167"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 181"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132C"
+     },
+     {
+      "type": "course",
+      "course": "SOCWEL 112"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 115G"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-policy-and-law-lower-division",
+   "title": "Lower Division",
+   "section": "Social Policy and Law",
+   "choice": "domain-emphasis",
+   "option": "social-policy-and-law",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "XSOCIOL 3AC"
+     },
+     {
+      "type": "course",
+      "course": "DATA C4AC"
+     },
+     {
+      "type": "course",
+      "course": "STS C4AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-policy-and-law-upper-division",
+   "title": "Upper Division",
+   "section": "Social Policy and Law",
+   "choice": "domain-emphasis",
+   "option": "social-policy-and-law",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "GWS 132AC",
+      "LEGALST 100",
+      "LEGALST 102",
+      "LEGALST 122",
+      "LEGALST 123",
+      "LEGALST 158",
+      "LEGALST 160",
+      "PBHLTH 150D",
+      "POLECON 111",
+      "POLSCI 132C",
+      "POLSCI 186",
+      "PUBPOL 101",
+      "SOCIOL 114",
+      "SOCIOL 148",
+      "SOCWEL 112",
+      "SOCWEL 181"
+     ]
+    }
+   }
+  },
+  {
+   "id": "sustainable-development-and-engineering-lower-division",
+   "title": "Lower Division",
+   "section": "Sustainable Development and Engineering",
+   "choice": "domain-emphasis",
+   "option": "sustainable-development-and-engineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 11"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 12"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sustainable-development-and-engineering-upper-division",
+   "title": "Upper Division",
+   "section": "Sustainable Development and Engineering",
+   "choice": "domain-emphasis",
+   "option": "sustainable-development-and-engineering",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ARCH 140",
+      "CIVENG 107",
+      "CIVENG 110",
+      "CIVENG 111",
+      "CIVENG 119",
+      "CIVENG 155",
+      "CIVENG 191",
+      "ENERES 131",
+      "ENERES 190C",
+      "ENVDES 11",
+      "ESPM C177",
+      "GEOG 135",
+      "LDARCH 122",
+      "LDARCH C177"
+     ]
+    }
+   }
+  },
+  {
+   "id": "urban-science-lower-division",
+   "title": "Lower Division",
+   "section": "Urban Science",
+   "choice": "domain-emphasis",
+   "option": "urban-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C88"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN C88"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 4B"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 70AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "urban-science-upper-division",
+   "title": "Upper Division",
+   "section": "Urban Science",
+   "choice": "domain-emphasis",
+   "option": "urban-science",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ARCH 110AC",
+      "CYPLAN 110",
+      "CYPLAN 113A",
+      "CYPLAN 114",
+      "CYPLAN 119",
+      "CYPLAN 140",
+      "ENERES 190C",
+      "ENVDES 100",
+      "ENVDES 102",
+      "GEOG 181",
+      "GEOG 182",
+      "GEOG C188",
+      "LDARCH 130",
+      "LDARCH 187",
+      "LDARCH C188",
+      "SOCIOL 136"
+     ]
+    }
+   }
+  }
+ ]
+}

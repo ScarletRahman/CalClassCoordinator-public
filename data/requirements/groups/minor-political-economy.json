@@ -1,0 +1,183 @@
+{
+ "id": "minor-political-economy",
+ "title": "Political Economy minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I123U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I123U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I123U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLECON 100"
+       },
+       {
+        "type": "course",
+        "course": "POLECON N100"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLECON 101"
+       },
+       {
+        "type": "course",
+        "course": "POLECON N101"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "globalization",
+   "title": "Globalization",
+   "section": "Electives",
+   "notes": "Students must complete three courses from one area of concentration for a letter grade.\nA maximum of two courses from the same department is allowed.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "ECON 115",
+      "ECON 162",
+      "ECON 182",
+      "ECON C181",
+      "ENVECON 131",
+      "ENVECON C181",
+      "ESPM 151",
+      "GEOG 110",
+      "GEOG 123",
+      "GEOG 138",
+      "GEOG 159AC",
+      "GLOBAL 150Q",
+      "GPP 115",
+      "HISTORY 160",
+      "HISTORY 186",
+      "PBHLTH 112",
+      "POLECON 160",
+      "POLSCI 138A",
+      "POLSCI 138E",
+      "POLSCI 138E",
+      "SOCIOL 127"
+     ]
+    }
+   }
+  },
+  {
+   "id": "poverty-inequality-and-policy",
+   "title": "Poverty, Inequality, and Policy",
+   "section": "Electives",
+   "notes": "A maximum of two courses from the same department is allowed.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "AFRICAM 111",
+      "AFRICAM C156",
+      "ECON 121",
+      "ECON 123",
+      "ECON 131",
+      "ECON 133",
+      "ECON 157",
+      "ECON 174",
+      "ECON C102",
+      "ECON C142",
+      "ECON C171",
+      "EDUC 182AC",
+      "ENVECON 145",
+      "ENVECON 152",
+      "ENVECON C102",
+      "ENVECON C151",
+      "ESPM 163AC",
+      "ESPM 169",
+      "ETHSTD 173AC",
+      "GEOG 110",
+      "GEOG C155",
+      "GPP 115",
+      "LS C180U",
+      "NATAMST 173AC",
+      "PBHLTH 181",
+      "POLSCI 128",
+      "POLSCI 147G",
+      "PUBPOL C103",
+      "PUBPOL C142",
+      "SOCIOL 124",
+      "SOCIOL 130AC",
+      "SOCIOL 137AC",
+      "SOCIOL 148"
+     ]
+    }
+   }
+  },
+  {
+   "id": "science-technology-and-economics",
+   "title": "Science, Technology, and Economics",
+   "section": "Electives",
+   "notes": "A maximum of two courses from the same department is allowed.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "AFRICAM 112A",
+      "AFRICAM 112B",
+      "AFRICAM 134",
+      "ANTHRO 137",
+      "CYPLAN C139",
+      "ECON 172",
+      "ECON C171",
+      "EDUC C148",
+      "ENERES C100",
+      "ENERES C176",
+      "ENVECON 153",
+      "ENVECON 154",
+      "ENVECON 162",
+      "ENVECON C151",
+      "ENVECON C175",
+      "ENVECON C176",
+      "ESPM 165",
+      "ESPM C167",
+      "GEOG C112",
+      "GLOBAL C100D",
+      "HISTORY C182A",
+      "HISTORY C182C",
+      "IAS C176",
+      "ISF C100G",
+      "LEGALST 158",
+      "PBHLTH 118",
+      "PBHLTH C160",
+      "POLSCI 139B",
+      "POLSCI 139D",
+      "POLSCI C139",
+      "PUBPOL C184",
+      "SOCIOL 121",
+      "SOCIOL 166"
+     ]
+    }
+   }
+  }
+ ]
+}

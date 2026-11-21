@@ -1,0 +1,80 @@
+{
+ "id": "college-HAAS",
+ "title": "Haas School of Business requirements",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/colleges/haas"
+ ],
+ "catalogYear": "2026-27",
+ "college": "HAAS",
+ "requirements": [
+  {
+   "id": "haas-seven-course-breadth",
+   "title": "Haas Seven Course Breadth",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nSeven Course Breadth Requirement\nStudents must successfully complete the seven course breadth sequence to earn a BS degree from the Haas School. Although breadth coursework is not required for admission, students are encouraged to spread breadth courses over 4 years.\n- Arts and Literature\n- Biological Science\n- Historical Studies\n- International Studies\n- Philosophy and Values\n- Physical Science\n- Social and Behavioral Sciences\nFor descriptions of these distribution areas, as well as a more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nHaas students should adhere to the 7-course breadth guidelines outlined on the College of Letters and Science website with the following exceptions:\n- Business courses cannot be used to fulfill breadth requirements.\n- Reading and Composition courses cannot be used to fulfill breadth requirements.\n- Microeconomics and macroeconomics at any level (Econ 1, Econ 2, Econ 3, Econ 100A/B, Econ 101A/B, IAS 106/107) cannot be used to fulfill breadth requirements.\n- No more than two courses from any one department may be used to satisfy the Seven Course Breadth requirement (L&S Discovery courses(opens in a new tab) are exempt).\nAdvanced Placement or International Baccalaureate credit will not satisfy the Seven Course Breadth requirement. A Level exams are accepted. Please contact a Haas Adviser to determine how your A Level exams can be applied to breadth requirements.\nBreadth courses may be taken at a California Community College. Please follow the most current Articulation Agreement between the community college and UC Berkeley for the business administration major. This information can be found at www.assist.org by selecting the community college followed by UC Berkeley then the business administration major.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "haas-academic-requirements",
+   "title": "Haas Academic Requirements",
+   "notes": "- A minimum of 120 units\n- Completion of degree in four or eight semesters, not including summer session",
+   "rule": {
+    "type": "manual",
+    "text": "Degree completed in four or eight semesters, not counting summer"
+   }
+  }
+ ]
+}

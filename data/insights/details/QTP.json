@@ -1,0 +1,95 @@
+{
+ "QTP 100": {
+  "course": "QTP 100",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Eric Stanley",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=QTP%20100"
+  ]
+ },
+ "QTP 101": {
+  "course": "QTP 101",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Eric Stanley",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=QTP%20101"
+  ]
+ },
+ "QTP 20AC": {
+  "course": "QTP 20AC",
+  "difficulty": 2.3,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (10 on Berkeleytime)",
+     "value": 1.9,
+     "weight": 0.233
+    },
+    {
+     "label": "Student workload rating (10)",
+     "value": 2.2,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.033
+    },
+    {
+     "label": "Student usefulness rating (10 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.267
+    }
+   ]
+  },
+  "sentiment": "10 students on Berkeleytime rate it 1.9/5 for difficulty, 2.2/5 for workload and 3.0/5 for usefulness. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 10,
+   "difficulty": 1.9,
+   "workload": 2.2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ianna Owen",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=QTP%2020AC"
+  ]
+ }
+}

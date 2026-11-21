@@ -1,0 +1,56 @@
+{
+ "id": "minor-digital-humanities",
+ "title": "Digital Humanities minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I153U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I153U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I153U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "theory",
+   "title": "Theory",
+   "section": "Upper Division",
+   "notes": "A maximum of 2 transfer courses are allowed.",
+   "rule": {
+    "type": "course",
+    "course": "DIGHUM 100"
+   }
+  },
+  {
+   "id": "practice",
+   "title": "Practice",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "DIGHUM 101"
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "DIGHUM 150A",
+      "DIGHUM 150B",
+      "DIGHUM 150C",
+      "DIGHUM 160",
+      "DIGHUM 161",
+      "DIGHUM 162"
+     ]
+    }
+   }
+  }
+ ]
+}

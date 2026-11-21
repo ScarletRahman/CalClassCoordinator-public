@@ -1,0 +1,64 @@
+{
+  "id": "major-political-science-ba",
+  "title": "Political Science BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/political-science/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "lower-division",
+      "title": "Three introductory courses",
+      "rule": {
+        "type": "nOf",
+        "n": 3,
+        "rules": [
+          {
+            "type": "course",
+            "course": "POLSCI 1"
+          },
+          {
+            "type": "course",
+            "course": "POLSCI 2"
+          },
+          {
+            "type": "course",
+            "course": "POLSCI 3"
+          },
+          {
+            "type": "course",
+            "course": "POLSCI 4"
+          },
+          {
+            "type": "course",
+            "course": "POLSCI 5"
+          }
+        ]
+      },
+      "notes": "Some catalog years require POLSCI 3; check the department."
+    },
+    {
+      "id": "ud-polsci",
+      "title": "Upper-division political science",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "POLSCI"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 6
+      },
+      "notes": "Stub: eight upper-division courses across at least three subfields."
+    },
+    {
+      "id": "subfields",
+      "title": "Subfield distribution",
+      "rule": {
+        "type": "manual",
+        "text": "Upper-division courses span at least three subfields (American, comparative, international relations, theory, methods)"
+      }
+    }
+  ]
+}

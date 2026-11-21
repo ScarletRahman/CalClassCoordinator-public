@@ -1,0 +1,243 @@
+{
+ "id": "major-gender-and-women-s-studies-ba",
+ "title": "Gender and Women's Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/259A1U",
+  "https://undergraduate.catalog.berkeley.edu/programs/259A1U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "259A1U",
+ "requirements": [
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Prerequisite",
+   "rule": {
+    "type": "course",
+    "course": "GWS 10"
+   }
+  },
+  {
+   "id": "lower-division-2",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GWS 14"
+     },
+     {
+      "type": "course",
+      "course": "QTP 20AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GWS 101"
+     },
+     {
+      "type": "course",
+      "course": "GWS 102"
+     },
+     {
+      "type": "course",
+      "course": "GWS 104"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GWS 195"
+       },
+       {
+        "type": "course",
+        "course": "GWS H195"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "Only 1 elective course may be from a department outside of GWS, and must be included in the list below.\n- Any GWS 100-196 course\n- Any LGBT 100-196 course\n- Any QTP 100-196 course",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "AFRICAM 109",
+      "AFRICAM 122",
+      "AFRICAM 126",
+      "AFRICAM 163",
+      "AFRICAM C153A",
+      "AFRICAM C153B",
+      "AGRS 161",
+      "AMERSTD 183E",
+      "ANTHRO 147A",
+      "ANTHRO 147C",
+      "ANTHRO C147B",
+      "ANTHRO 250B",
+      "ASAMST 151",
+      "ASAMST 151AC",
+      "ASAMST 178",
+      "COMLIT 151",
+      "COMLIT 185",
+      "COMLIT 265",
+      "DEMOG C126",
+      "DISSTD 112",
+      "DUTCH 163",
+      "EALANG 118",
+      "EDUC 124",
+      "EDUC 185",
+      "EDUC 191B",
+      "EDUC 191R",
+      "EDUC 224C",
+      "ENERES C124",
+      "ENGLISH 152",
+      "ENGLISH N152",
+      "ENGLISH 171",
+      "ESPM C124",
+      "ETHSTD 126",
+      "ETHSTD 127",
+      "ETHSTD 136",
+      "ETHSTD 147",
+      "ETHSTD N147",
+      "ETHSTD 147AC",
+      "FRENCH 150A",
+      "FRENCH 150B",
+      "GERMAN 122",
+      "GERMAN 164",
+      "GERMAN 166",
+      "GLOBAL 143Q",
+      "HISTART 104",
+      "HISTART N104",
+      "HISTORY 107C",
+      "HISTORY 136",
+      "HISTORY 136A",
+      "HISTORY 136B",
+      "HISTORY 136AC",
+      "HISTORY 136C",
+      "HISTORY 146",
+      "HISTORY 188E",
+      "HISTORY 190",
+      "IAS 143",
+      "INTEGBI 136",
+      "KOREAN 172",
+      "LEGALST 155",
+      "LEGALST 159",
+      "LEGALST 168",
+      "LEGALST 186",
+      "LEGALST 188",
+      "LEGALST 189",
+      "LINGUIS 151",
+      "LINGUIS 250C",
+      "LS 180AC",
+      "LS C180Y",
+      "MBA 255G",
+      "MELC 101",
+      "MUSIC 245",
+      "NATAMST 149",
+      "PBHLTH 155B",
+      "PBHLTH 180",
+      "PBHLTH 201C",
+      "PBHLTH 213A",
+      "PBHLTH 214C",
+      "PHILOS 119",
+      "POLECON C138",
+      "PSYCH 136",
+      "PSYCH 169",
+      "RHETOR 182",
+      "RHETOR 240H",
+      "SASIAN 118",
+      "SASIAN 139",
+      "SEASIAN 130",
+      "SOCIOL 111",
+      "SOCIOL 111AC",
+      "SOCIOL 133",
+      "SOCIOL 135",
+      "SOCIOL C126",
+      "SOCIOL 205F",
+      "SOCIOL 205L",
+      "SOCIOL 205W",
+      "SOCIOL 273J",
+      "SOCIOL 280F",
+      "SOCIOL 280L",
+      "SOCIOL 280W",
+      "SOCWEL 150L",
+      "SOCWEL 238D",
+      "SOCWEL 250B",
+      "SOCWEL 250L",
+      "SPANISH 148",
+      "GWS 100AC",
+      "GWS 101",
+      "GWS 102",
+      "GWS 103",
+      "GWS 104",
+      "GWS 111",
+      "GWS 112",
+      "GWS 115",
+      "GWS 116AC",
+      "GWS 120",
+      "GWS 125",
+      "GWS 126",
+      "GWS 129",
+      "GWS 130AC",
+      "GWS 131",
+      "GWS 132AC",
+      "GWS 133AC",
+      "GWS 134",
+      "GWS 139",
+      "GWS 140",
+      "GWS 141",
+      "GWS 142",
+      "GWS 143",
+      "GWS 144",
+      "GWS 155",
+      "GWS 181AC",
+      "GWS 194A",
+      "GWS 194B",
+      "GWS 195",
+      "GWS C138",
+      "GWS C146A",
+      "GWS C146B",
+      "GWS C180Y",
+      "GWS C196A",
+      "GWS C196B",
+      "GWS C196W",
+      "GWS H195",
+      "GWS H195A",
+      "GWS H195B",
+      "LGBT 100",
+      "LGBT 145",
+      "LGBT C146A",
+      "LGBT C146B",
+      "LGBT C147B",
+      "QTP 100",
+      "QTP 101",
+      "QTP 145",
+      "QTP 146",
+      "QTP C147B",
+      "QTP C148"
+     ]
+    }
+   }
+  }
+ ]
+}

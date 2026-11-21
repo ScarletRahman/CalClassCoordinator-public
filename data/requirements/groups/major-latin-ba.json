@@ -1,0 +1,131 @@
+{
+ "id": "major-latin-ba",
+ "title": "Latin BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25495U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25495U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25495U",
+ "requirements": [
+  {
+   "id": "introductory-latin-courses",
+   "title": "Introductory Latin Courses",
+   "section": "Lower Division",
+   "notes": "Students must complete each course with a letter grade.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 8,
+    "filter": {
+     "courses": [
+      "LATIN 1",
+      "LATIN 2",
+      "LATIN 15"
+     ]
+    }
+   }
+  },
+  {
+   "id": "greek-and-roman-civilization",
+   "title": "Greek and Roman Civilization",
+   "section": "Lower Division",
+   "notes": "AGRS 17A or 17B can replace 10A or 10B with advisor approval.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10A"
+       },
+       {
+        "type": "course",
+        "course": "XAGRS 10A"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10B"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "intermediate-latin-courses",
+   "title": "Intermediate Latin Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "LATIN 100"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LATIN 101"
+       },
+       {
+        "type": "course",
+        "course": "LATIN 102"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "latin-senior-reading-courses",
+   "title": "Latin Senior Reading Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "LATIN"
+     ],
+     "minNumber": 101,
+     "maxNumber": 194
+    }
+   }
+  },
+  {
+   "id": "greek-and-roman-civilization-2",
+   "title": "Greek and Roman Civilization",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "AGRS"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  }
+ ]
+}

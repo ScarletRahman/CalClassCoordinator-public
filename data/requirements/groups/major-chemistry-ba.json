@@ -1,0 +1,122 @@
+{
+ "id": "major-chemistry-ba",
+ "title": "Chemistry BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25153U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25153U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25153U",
+ "requirements": [
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "notes": "- A grade of C- or better is required in CHEM 4A before taking CHEM 4B, and in CHEM 4B before taking more advanced courses.\n- Students who declare the major after completing a general chemistry sequence that does not include quantitative analysis are required to take CHEM 4B or CHEM 105.\n- A grade of C- or better in Chem 12A is required before taking CHEM 12B.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division",
+   "title": "Upper Division",
+   "section": "Upper Division",
+   "notes": "- CHEM 103 and CHEM 135 may be substituted for CHEM 104A and CHEM 104B.\n- A grade of C- or higher is required in CHEM 120A and CHEM 120B if taken before CHEM 125.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 104A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "elective",
+   "title": "Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 105"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 108"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 115"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 125"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C170L"
+     }
+    ]
+   }
+  }
+ ]
+}

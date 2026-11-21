@@ -1,0 +1,129 @@
+{
+ "id": "major-greek-ba",
+ "title": "Greek BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25414U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25414U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25414U",
+ "notes": [
+  "A total of 48 units are required for this major. Courses may be needed in addition to the requirements listed here. See advisor for details."
+ ],
+ "requirements": [
+  {
+   "id": "greek-and-roman-civilization",
+   "title": "Greek & Roman Civilization",
+   "section": "Lower Division",
+   "notes": "AGRS 17A or 17B can replace AGRS 10A or 10B with advisor approval.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10A"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10B"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "introductory-greek-courses",
+   "title": "Introductory Greek Courses",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 8,
+    "filter": {
+     "courses": [
+      "GREEK 1",
+      "GREEK 2",
+      "GREEK 10"
+     ]
+    }
+   }
+  },
+  {
+   "id": "intermediate-greek",
+   "title": "Intermediate Greek",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GREEK 100"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GREEK 101"
+       },
+       {
+        "type": "course",
+        "course": "GREEK 102"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "greek-senior-reading-courses",
+   "title": "Greek Senior Reading Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "GREEK"
+     ],
+     "minNumber": 101,
+     "maxNumber": 196
+    }
+   }
+  },
+  {
+   "id": "greek-and-roman-civilization-2",
+   "title": "Greek & Roman Civilization",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "AGRS"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "id": "major-music-ba",
+ "title": "Music BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25579U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25579U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25579U",
+ "requirements": [
+  {
+   "id": "musicology",
+   "title": "Musicology",
+   "section": "Lower Division",
+   "notes": "Students must complete each course with a letter grade of C- or higher.",
+   "rule": {
+    "type": "course",
+    "course": "MUSIC 70"
+   }
+  },
+  {
+   "id": "ethnomusicology",
+   "title": "Ethnomusicology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "MUSIC 80"
+   }
+  },
+  {
+   "id": "making-music",
+   "title": "Making Music",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "MUSIC 90"
+   }
+  },
+  {
+   "id": "musicology-2",
+   "title": "Musicology",
+   "section": "Upper Division",
+   "notes": "A maxiumum of 1 course is allowed from MUSIC 151A–D for all requirements.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MUSIC 170"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 170A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ethnomusicology-2",
+   "title": "Ethnomusicology",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Ethnomusicology"
+   }
+  },
+  {
+   "id": "making-music-2",
+   "title": "Making Music",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MUSIC 108"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 116"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 150"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 150A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 151A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 151B"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 151C"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 151D"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 154A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 155"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 156"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 157A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 158A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 161A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 164"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 166A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 172"
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance-ensemble",
+   "title": "Performance Ensemble",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "MUSIC 116",
+      "MUSIC 140",
+      "MUSIC 141",
+      "MUSIC 142",
+      "MUSIC 143",
+      "MUSIC 144",
+      "MUSIC 145",
+      "MUSIC 146B",
+      "MUSIC 146M",
+      "MUSIC 147",
+      "MUSIC 148",
+      "MUSIC 149",
+      "MUSIC 165",
+      "MUSIC 147A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete a minimum of 24 upper division units for the major. Additional elective courses may be required to reach the total units required.\n- Any MUSIC 100-196 level course"
+   }
+  },
+  {
+   "id": "music-195",
+   "title": "MUSIC 195",
+   "section": "Capstone Project",
+   "rule": {
+    "type": "course",
+    "course": "MUSIC 195"
+   }
+  },
+  {
+   "id": "additional-capstone-project-course",
+   "title": "Additional Capstone Project Course",
+   "section": "Capstone Project",
+   "notes": "MUSIC 155 must be taken at least once prior to being used as a Capstone course. Reach out to your advisor to apply MUSIC 155 to this requirement.\n- If a course is being used to fulfill any requirement under Lower Division, it cannot also be used to satisfy the Additional Capstone Project Course requirement.\n- If a course is being used to fulfill any requirement under Upper Division, it cannot also be used to satisfy the Additional Capstone Project Course requirement.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MUSIC 107"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 155"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 156"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 157B"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 158B"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 159"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 161B"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 165"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 166B"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168B"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168C"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168D"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168E"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168G"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 168I"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 170"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 170A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 172"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 180"
+     }
+    ]
+   }
+  }
+ ]
+}

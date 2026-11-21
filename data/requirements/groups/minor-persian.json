@@ -1,0 +1,71 @@
+{
+ "id": "minor-persian",
+ "title": "Persian minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I056U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I056U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I056U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared before the first day of classes in your Expected Graduation Term (EGT). For summer graduates, minors must be declared prior to the first day of Summer Session A.\n- All upper-division courses must be taken for a letter grade.\n- A minimum of three of the upper-division courses taken to fulfill the minor requirements must be completed at UC Berkeley.\n- A minimum C grade point average (2.000) is required in the upper-division courses to fulfill the minor requirements.\n- Courses used to fulfill the minor requirements may be applied toward the Seven-Course Breadth requirement, for Letters & Science students.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- All minor requirements must be completed prior to the last day of finals during the semester in which the student plans to graduate. If students cannot finish all courses required for the minor by that time, they should see a College of Letters & Science adviser.\n- All minor requirements must be completed within the unit ceiling."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "PERSIAN 100A"
+   }
+  },
+  {
+   "id": "language-and-literature",
+   "title": "Language & Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "PERSIAN 100B",
+      "PERSIAN 101A",
+      "PERSIAN 101B",
+      "PERSIAN 102A",
+      "PERSIAN 102B",
+      "PERSIAN 103A",
+      "PERSIAN 103B",
+      "PERSIAN 104A",
+      "PERSIAN 104B",
+      "PERSIAN 105",
+      "PERSIAN 105A",
+      "PERSIAN 120",
+      "PERSIAN 190",
+      "PERSIAN 198",
+      "PERSIAN 199"
+     ]
+    }
+   }
+  },
+  {
+   "id": "culture",
+   "title": "Culture",
+   "section": "Upper Division",
+   "notes": "- Any MELC course 100-199",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ASAMST 128AC",
+      "ASAMST 132AC",
+      "HISTART C121A",
+      "HISTORY 109C"
+     ]
+    }
+   }
+  }
+ ]
+}

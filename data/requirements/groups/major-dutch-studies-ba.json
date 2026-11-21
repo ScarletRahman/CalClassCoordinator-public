@@ -1,0 +1,105 @@
+{
+ "id": "major-dutch-studies-ba",
+ "title": "Dutch Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25236U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25236U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25236U",
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DUTCH 1"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "A maximum of 5 EAP courses may be used toward upper division requirements.",
+   "rule": {
+    "type": "course",
+    "course": "DUTCH 110"
+   }
+  },
+  {
+   "id": "core-electives",
+   "title": "Core Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DUTCH 1"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 100"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 107"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 140"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 160"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 170"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 177"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH 190"
+     },
+     {
+      "type": "course",
+      "course": "DUTCH H196"
+     }
+    ]
+   }
+  },
+  {
+   "id": "additional-electives",
+   "title": "Additional Electives",
+   "section": "Upper Division",
+   "notes": "A maximum of two related upper-division courses outside of the Department may be used towards this requirement. Please see an advisor for course approval.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 16,
+    "filter": {
+     "subjects": [
+      "DUTCH"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196
+    }
+   }
+  }
+ ]
+}

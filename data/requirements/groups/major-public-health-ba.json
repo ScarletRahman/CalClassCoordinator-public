@@ -1,0 +1,780 @@
+{
+ "id": "major-public-health-ba",
+ "title": "Public Health BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25789U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25789U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25789U",
+ "requirements": [
+  {
+   "id": "biological-sciences",
+   "title": "Biological Sciences",
+   "section": "Prerequisites",
+   "notes": "All prerequisite courses must be completed before declaring the major with a minimum grade of C- and a 2.0 GPA overall, in the term the student is applying, and in the prerequisite coursework. For more information around Lower Division Prerequisites, please see the Berkeley Public Health website Undergraduate Admissions section. There may be additional requirements to apply and declare the Public Health major. … (see the catalog for the rest)\nAlso satisfied by:\n- AP Biology, score 4+",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "course",
+      "course": "MBN 10"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI 32"
+       },
+       {
+        "type": "course",
+        "course": "XMCELLB 32"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 38"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 50"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 55"
+     },
+     {
+      "type": "course",
+      "course": "NEU C61"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C61"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-part-1",
+   "title": "Mathematics Part 1",
+   "section": "Prerequisites",
+   "notes": "Also satisfied by:\n- AP Mathematics: Calculus BC, score 4+\n- AP Mathematics: Calculus AB, score 4+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Appl & Interpretation, score 5+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-part-2",
+   "title": "Mathematics Part 2",
+   "section": "Prerequisites",
+   "notes": "Also satisfied by:\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7\n- IB: HL Further Mathematics, score 7\n- AP Mathematics: Calculus BC, score 5",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH H1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences",
+   "title": "Social Sciences",
+   "section": "Prerequisites",
+   "notes": "Each course must be from a different subject area.\n- AP Comparative Government and Politics 4+\n- AP Psychology 4+\n- AP US Government and Politics 4+\n- AP Macroeconomics 4+ and AP Microeconomics 4+ (both are required to be equivalent to ECON 1)",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ANTHRO 3"
+       },
+       {
+        "type": "course",
+        "course": "ANTHRO 3AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C3"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C1"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 2"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 4"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 5"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 2"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 3"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 3AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "capstone",
+   "title": "Capstone",
+   "section": "Capstone",
+   "notes": "Please see the Public Health Curriculum webpage for more information about available Capstone courses being offered each term.\nPLEASE NOTE: The Capstone Requirement must be fulfilled in your senior year and must be the specific courses listed on the website for that particular year. Previous coursework does not apply.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PBHLTH 124"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 130"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 155A"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 155D"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-introduction-to-probability-and-stats-in-public-health",
+   "title": "Core: Introduction to Probability and Stats in Public Health",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "PBHLTH 142"
+   }
+  },
+  {
+   "id": "core-introduction-to-epidemiology",
+   "title": "Core: Introduction to Epidemiology",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "PBHLTH 150A"
+   }
+  },
+  {
+   "id": "core-introduction-human-health-and-the-environment",
+   "title": "Core: Introduction Human Health and the Environment",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PBHLTH 150B"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH N150B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-introduction-to-health-policy-and-management",
+   "title": "Core: Introduction to Health Policy and Management",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "PBHLTH 150D"
+   }
+  },
+  {
+   "id": "core-urban-and-community-health",
+   "title": "Core: Urban and Community Health",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PBHLTH 150E"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C150E"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-electives",
+   "title": "Upper Division Electives",
+   "section": "Electives",
+   "notes": "- Any 3-unit PBHLTH 100-196 level course, excluding 141, 142, 145, 150 series, H195 series",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "ANTHRO 114",
+      "ANTHRO 115",
+      "ANTHRO C119A",
+      "ASAMST 143AC",
+      "ASAMST 143B",
+      "BIOENG C146",
+      "CHEM 135",
+      "CHEM C130",
+      "CHICANO 174",
+      "CHICANO 176",
+      "CIVENG 110",
+      "CIVENG 111",
+      "CIVENG 113",
+      "CIVENG 187",
+      "CMPBIO 156",
+      "CMPBIO C146",
+      "COGSCI 131",
+      "COMPSCI C100",
+      "CYPLAN 115",
+      "CYPLAN 120",
+      "DATA C100",
+      "DATA C131A",
+      "DEMOG 110",
+      "DEMOG C126",
+      "DISSTD 110",
+      "ECON 157",
+      "ECON 172",
+      "ECON 174",
+      "ECON C102",
+      "ECON C171",
+      "ECON C181",
+      "EDUC 135B",
+      "EDUC 135D",
+      "ENERES 102",
+      "ENERES W174",
+      "ENERES C100",
+      "ENERES C176",
+      "ENERES W100",
+      "ENGIN 188",
+      "ENVECON 145",
+      "ENVECON 153",
+      "ENVECON C102",
+      "ENVECON C151",
+      "ENVECON C176",
+      "ENVECON C181",
+      "ESPM C162A",
+      "ESPM 101A",
+      "ESPM 102D",
+      "ESPM 155AC",
+      "ESPM 163AC",
+      "ESPM 168",
+      "ESPM 169",
+      "ESPM C138",
+      "ESPM C167",
+      "GEOG 123",
+      "GEOG 130",
+      "GEOG 138",
+      "GEOG 187",
+      "GEOG C112",
+      "GEOG C188",
+      "GLOBAL 123L",
+      "GLOBAL 173",
+      "GLOBAL C100D",
+      "GPP 115",
+      "GWS 130AC",
+      "HISTORY 183A",
+      "HISTORY 183B",
+      "HISTORY C182C",
+      "HISTORY C183A",
+      "IAS C176",
+      "INDENG 156",
+      "INTEGBI 114",
+      "INTEGBI 116L",
+      "INTEGBI 128",
+      "INTEGBI 131",
+      "INTEGBI 131L",
+      "INTEGBI 132",
+      "INTEGBI 132L",
+      "INTEGBI 139",
+      "INTEGBI 140",
+      "INTEGBI 141",
+      "INTEGBI 169",
+      "INTEGBI C110L",
+      "ISF 100D",
+      "ISF C100G",
+      "LDARCH C188",
+      "LEGALST 103",
+      "LEGALST 107",
+      "LEGALST 157",
+      "LEGALST 168",
+      "MBN 103",
+      "MBN 104",
+      "MBN 160",
+      "MBN 166",
+      "MBN C130",
+      "MCELLBI 102",
+      "MCELLBI 104",
+      "MCELLBI 136",
+      "MCELLBI 140",
+      "MCELLBI 141",
+      "MCELLBI 150",
+      "MCELLBI C100A",
+      "MCELLBI C103",
+      "MCELLBI C114",
+      "MCELLBI C130",
+      "MCELLBI C146",
+      "PLANTBI C103",
+      "PLANTBI C110L",
+      "PLANTBI C114",
+      "PLANTBI C146",
+      "POLSCI 103",
+      "POLSCI 171",
+      "PSYCH 130",
+      "PSYCH 131",
+      "PSYCH 134",
+      "PSYCH 135",
+      "PSYCH 150",
+      "PSYCH N180",
+      "PUBPOL 101",
+      "PUBPOL 117AC",
+      "PUBPOL C184",
+      "PUBPOL W184",
+      "SOCIOL 115G",
+      "SOCIOL 127",
+      "SOCIOL 137AC",
+      "SOCIOL 166",
+      "SOCIOL C115",
+      "SOCIOL C126",
+      "SOCWEL 112",
+      "STAT 133",
+      "STAT 134",
+      "STAT 135",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 153",
+      "STS C100",
+      "STS C103",
+      "STAT C131A",
+      "PBHLTH 101",
+      "PBHLTH 103",
+      "PBHLTH 104",
+      "PBHLTH 105",
+      "PBHLTH 107",
+      "PBHLTH 108",
+      "PBHLTH 110A",
+      "PBHLTH 112",
+      "PBHLTH 113",
+      "PBHLTH 114",
+      "PBHLTH 115",
+      "PBHLTH 116",
+      "PBHLTH 118",
+      "PBHLTH 124",
+      "PBHLTH 126",
+      "PBHLTH 129",
+      "PBHLTH 130",
+      "PBHLTH 130AC",
+      "PBHLTH 131AC",
+      "PBHLTH 132",
+      "PBHLTH 140",
+      "PBHLTH 142W",
+      "PBHLTH 150A",
+      "PBHLTH 150B",
+      "PBHLTH 150D",
+      "PBHLTH 150E",
+      "PBHLTH 155A",
+      "PBHLTH 155B",
+      "PBHLTH 155C",
+      "PBHLTH 155D",
+      "PBHLTH 155E",
+      "PBHLTH 162A",
+      "PBHLTH 167",
+      "PBHLTH 168",
+      "PBHLTH 170C",
+      "PBHLTH 171K",
+      "PBHLTH 177A",
+      "PBHLTH 180",
+      "PBHLTH 181",
+      "PBHLTH 182",
+      "PBHLTH 183",
+      "PBHLTH 188",
+      "PBHLTH 196",
+      "PBHLTH 196A",
+      "PBHLTH C102",
+      "PBHLTH C117",
+      "PBHLTH C129",
+      "PBHLTH C150E",
+      "PBHLTH C155",
+      "PBHLTH C160",
+      "PBHLTH H195A",
+      "PBHLTH N150B",
+      "PBHLTH W108",
+      "PBHLTH W142"
+     ]
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Electives",
+   "notes": "- DATA C88S\n- MATH 53\n- MATH 54\n- MBN 20\n- NUSCTX 11\n- STAT C88S\n- Any 3-unit PBHLTH 100-196 level course, excluding 141, 142, 145, 150 series, H195 series",
+   "rule": {
+    "type": "filter",
+    "minUnits": 6,
+    "filter": {
+     "courses": [
+      "ANTHRO 114",
+      "ANTHRO 115",
+      "ANTHRO C119A",
+      "ASAMST 143AC",
+      "ASAMST 143B",
+      "BIOENG C146",
+      "CHEM 135",
+      "CHEM C130",
+      "CHICANO 174",
+      "CHICANO 176",
+      "CIVENG 110",
+      "CIVENG 111",
+      "CIVENG 113",
+      "CIVENG 187",
+      "CMPBIO 156",
+      "CMPBIO C146",
+      "COGSCI 131",
+      "COMPSCI C100",
+      "CYPLAN 115",
+      "CYPLAN 120",
+      "DATA C100",
+      "DATA C131A",
+      "DEMOG 110",
+      "DEMOG C126",
+      "DISSTD 110",
+      "ECON 157",
+      "ECON 172",
+      "ECON 174",
+      "ECON C102",
+      "ECON C171",
+      "ECON C181",
+      "EDUC 135B",
+      "EDUC 135D",
+      "ENERES 102",
+      "ENERES W174",
+      "ENERES C100",
+      "ENERES C176",
+      "ENERES W100",
+      "ENGIN 188",
+      "ENVECON 145",
+      "ENVECON 153",
+      "ENVECON C102",
+      "ENVECON C151",
+      "ENVECON C176",
+      "ENVECON C181",
+      "ESPM C162A",
+      "ESPM 101A",
+      "ESPM 102D",
+      "ESPM 155AC",
+      "ESPM 163AC",
+      "ESPM 168",
+      "ESPM 169",
+      "ESPM C138",
+      "ESPM C167",
+      "GEOG 123",
+      "GEOG 130",
+      "GEOG 138",
+      "GEOG 187",
+      "GEOG C112",
+      "GEOG C188",
+      "GLOBAL 123L",
+      "GLOBAL 173",
+      "GLOBAL C100D",
+      "GPP 115",
+      "GWS 130AC",
+      "HISTORY 183A",
+      "HISTORY 183B",
+      "HISTORY C182C",
+      "HISTORY C183A",
+      "IAS C176",
+      "INDENG 156",
+      "INTEGBI 114",
+      "INTEGBI 116L",
+      "INTEGBI 128",
+      "INTEGBI 131",
+      "INTEGBI 131L",
+      "INTEGBI 132",
+      "INTEGBI 132L",
+      "INTEGBI 139",
+      "INTEGBI 140",
+      "INTEGBI 141",
+      "INTEGBI 169",
+      "INTEGBI C110L",
+      "ISF 100D",
+      "ISF C100G",
+      "LDARCH C188",
+      "LEGALST 103",
+      "LEGALST 107",
+      "LEGALST 157",
+      "LEGALST 168",
+      "MBN 103",
+      "MBN 104",
+      "MBN 160",
+      "MBN 166",
+      "MBN C130",
+      "MCELLBI 102",
+      "MCELLBI 104",
+      "MCELLBI 136",
+      "MCELLBI 140",
+      "MCELLBI 141",
+      "MCELLBI 150",
+      "MCELLBI C100A",
+      "MCELLBI C103",
+      "MCELLBI C114",
+      "MCELLBI C130",
+      "MCELLBI C146",
+      "PLANTBI C103",
+      "PLANTBI C110L",
+      "PLANTBI C114",
+      "PLANTBI C146",
+      "POLSCI 103",
+      "POLSCI 171",
+      "PSYCH 130",
+      "PSYCH 131",
+      "PSYCH 134",
+      "PSYCH 135",
+      "PSYCH 150",
+      "PSYCH N180",
+      "PUBPOL 101",
+      "PUBPOL 117AC",
+      "PUBPOL C184",
+      "PUBPOL W184",
+      "SOCIOL 115G",
+      "SOCIOL 127",
+      "SOCIOL 137AC",
+      "SOCIOL 166",
+      "SOCIOL C115",
+      "SOCIOL C126",
+      "SOCWEL 112",
+      "STAT 133",
+      "STAT 134",
+      "STAT 135",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 153",
+      "STS C100",
+      "STS C103",
+      "STAT C131A",
+      "PBHLTH 101",
+      "PBHLTH 103",
+      "PBHLTH 104",
+      "PBHLTH 105",
+      "PBHLTH 107",
+      "PBHLTH 108",
+      "PBHLTH 110A",
+      "PBHLTH 112",
+      "PBHLTH 113",
+      "PBHLTH 114",
+      "PBHLTH 115",
+      "PBHLTH 116",
+      "PBHLTH 118",
+      "PBHLTH 124",
+      "PBHLTH 126",
+      "PBHLTH 129",
+      "PBHLTH 130",
+      "PBHLTH 130AC",
+      "PBHLTH 131AC",
+      "PBHLTH 132",
+      "PBHLTH 140",
+      "PBHLTH 142W",
+      "PBHLTH 150A",
+      "PBHLTH 150B",
+      "PBHLTH 150D",
+      "PBHLTH 150E",
+      "PBHLTH 155A",
+      "PBHLTH 155B",
+      "PBHLTH 155C",
+      "PBHLTH 155D",
+      "PBHLTH 155E",
+      "PBHLTH 162A",
+      "PBHLTH 167",
+      "PBHLTH 168",
+      "PBHLTH 170C",
+      "PBHLTH 171K",
+      "PBHLTH 177A",
+      "PBHLTH 180",
+      "PBHLTH 181",
+      "PBHLTH 182",
+      "PBHLTH 183",
+      "PBHLTH 188",
+      "PBHLTH 196",
+      "PBHLTH 196A",
+      "PBHLTH C102",
+      "PBHLTH C117",
+      "PBHLTH C129",
+      "PBHLTH C150E",
+      "PBHLTH C155",
+      "PBHLTH C160",
+      "PBHLTH H195A",
+      "PBHLTH N150B",
+      "PBHLTH W108",
+      "PBHLTH W142"
+     ]
+    }
+   }
+  }
+ ]
+}

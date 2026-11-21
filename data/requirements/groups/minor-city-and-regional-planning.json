@@ -1,0 +1,330 @@
+{
+ "id": "minor-city-and-regional-planning",
+ "title": "City and Regional Planning minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/19I022U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19I022U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/19I022U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19I022U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "19I022U",
+ "notes": [
+  "Students who have a strong interest in an area of study outside their major often decide to complete a minor program.\nGeneral Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT).\n- A letter grade of C- or higher is required in two of the lower division requirements listed below to declare the minor. To declare, students must submit the CED Minor Declaration Form, available on the CED website.\n- DEADLINE TO SUBMIT FORM: One semester prior to a student's final semester.\n- Each course used to fulfill minor requirements must be completed with a letter grade of C- or above.\n- Students must earn a 2.0 GPA in the upper division requirements for the minor.\n- Any course used in fulfillment of minor requirements may also be used to fulfill major and upper division CED non-major requirements.\n- Courses used to fulfill a breadth requirement may also be used to satisfy minor requirements.\n- Students may apply the non-CED version of a CED cross-listed course towards the minor.\n- Students may use up to two courses taken abroad to fulfill upper division minor requirements, with faculty approval of the individual courses.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "notes": "Students must complete a minimum of two courses from two different subject areas.",
+   "rule": {
+    "type": "nOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON 1"
+       },
+       {
+        "type": "course",
+        "course": "ECON 2"
+       },
+       {
+        "type": "course",
+        "course": "ECON C3"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C1"
+       }
+      ],
+      "label": "Economics"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI C8"
+       },
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "INFO C8"
+       },
+       {
+        "type": "course",
+        "course": "STAT C8"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG 93"
+       },
+       {
+        "type": "course",
+        "course": "DATA C131A"
+       },
+       {
+        "type": "course",
+        "course": "STAT 2"
+       },
+       {
+        "type": "course",
+        "course": "STAT W21"
+       }
+      ],
+      "label": "Statistics"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENVDES 1"
+       },
+       {
+        "type": "course",
+        "course": "ENVDES 4A"
+       },
+       {
+        "type": "course",
+        "course": "ENVDES 4B"
+       },
+       {
+        "type": "course",
+        "course": "ENVDES 4C"
+       },
+       {
+        "type": "course",
+        "course": "ENVDES 5"
+       }
+      ],
+      "label": "Environmental Design"
+     }
+    ],
+    "n": 2
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "CYPLAN 110"
+   }
+  },
+  {
+   "id": "list-1",
+   "title": "List 1",
+   "section": "Upper Division Electives",
+   "notes": "At least three courses must be from List 1 below (Planning courses), and not more than one course must from List 2 below (Planning-related courses); all four courses may be from List 1.",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CYPLAN 101"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 113A"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 114"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CYPLAN 115"
+       },
+       {
+        "type": "course",
+        "course": "CYPLAN N115"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 117AC"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 118AC"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 119"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN C139"
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-2",
+   "title": "List 2",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 107"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 189"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG C126"
+     },
+     {
+      "type": "course",
+      "course": "ECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ECON C125"
+     },
+     {
+      "type": "course",
+      "course": "ECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ECON C171"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 186AC"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 165"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 181AC"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 110"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C112"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 181"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 100D"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL C100D"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 182"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 181"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150B"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 103"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 110"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 124"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C126"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 136"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 105"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 180"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 184"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 192P"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2763 @@
+{
+ "id": "major-global-studies-ba",
+ "title": "Global Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25492U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25492U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/25492U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25492U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "global-development",
+     "title": "Global Development"
+    },
+    {
+     "id": "global-peace-and-conflict",
+     "title": "Global Peace & Conflict"
+    },
+    {
+     "id": "global-societies-and-cultures",
+     "title": "Global Societies and Cultures"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "global-studies",
+   "title": "Global Studies",
+   "section": "Lower Division: All Concentrations",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "GEOG C32"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 10A"
+       },
+       {
+        "type": "course",
+        "course": "GLOBAL C10A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 10B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "section": "Lower Division: All Concentrations",
+   "notes": "Also satisfied by:\n- AP: Economics: Macroeconomics, score 4+\n- AP: Economics: Microeconomics, score 4+\n- IB: HL Economics, score 5+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "course",
+      "course": "ECON C3"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C1"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 50AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "survey-of-world-history",
+   "title": "Survey of World History",
+   "section": "Lower Division: All Concentrations",
+   "notes": "Also satisfied by:\n- AP: World History, score 5+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GLOBAL 45"
+     },
+     {
+      "type": "course",
+      "course": "IAS 45"
+     },
+     {
+      "type": "course",
+      "course": "IAS N45"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 45"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Lower Division: All Concentrations",
+   "notes": "Also satisfied by:\n- AP: Statistics, score 3+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "STAT 2"
+     },
+     {
+      "type": "course",
+      "course": "XSTAT 2"
+     },
+     {
+      "type": "course",
+      "course": "STAT 20"
+     },
+     {
+      "type": "course",
+      "course": "STAT 21"
+     },
+     {
+      "type": "course",
+      "course": "STAT W21"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "foreign-language",
+   "title": "Foreign Language",
+   "section": "Lower Division: All Concentrations",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 1 of:\n- AFRICAM 10B\n- ARABIC 20B\n- ARABIC 30\n- CHINESE 10\n- CHINESE 100A\n- CHINESE 100B\n- CHINESE 100XA\n- CHINESE 100XB\n- CHINESE 100YA\n- CHINESE 100YB\n- CHINESE 10B\n- CHINESE 10BX\n- CHINESE 10X\n- CHINESE 10Y\n- DUTCH 100\n- FILIPN 100B\n- FILIPN N100B\n- FRENCH 4\n- GERMAN 4\n- HEBREW 20B\n- HINDI 100B\n- ITALIAN 4\n- JAPAN 10\n- JAPAN 10B\n- KOREAN 10\n- KOREAN 100A\n- KOREAN 100AX\n- KOREAN 100B\n- KOREAN 100BX\n- KOREAN 10B\n- KOREAN 10BX\n- PORTUG 103\n- PUNJABI 100B\n- RUSSIAN 4\n- SPANISH 101\n- SPANISH 22\n- SPANISH 4\n- SPANISH N4\n- TAMIL 101B\n- THAI 100B\n- TURKISH 100B\n- URDU 100B … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "AFRICAM 10B",
+     "ARABIC 20B",
+     "ARABIC 30",
+     "CHINESE 10",
+     "CHINESE 100A",
+     "CHINESE 100B",
+     "CHINESE 100XA",
+     "CHINESE 100XB",
+     "CHINESE 100YA",
+     "CHINESE 100YB",
+     "CHINESE 10B",
+     "CHINESE 10BX",
+     "CHINESE 10X",
+     "CHINESE 10Y",
+     "DUTCH 100",
+     "FILIPN 100B",
+     "FILIPN N100B",
+     "FRENCH 4",
+     "GERMAN 4",
+     "HEBREW 20B",
+     "HINDI 100B",
+     "ITALIAN 4",
+     "JAPAN 10",
+     "JAPAN 10B",
+     "KOREAN 10",
+     "KOREAN 100A",
+     "KOREAN 100AX",
+     "KOREAN 100B",
+     "KOREAN 100BX",
+     "KOREAN 10B",
+     "KOREAN 10BX",
+     "PORTUG 103",
+     "PUNJABI 100B",
+     "RUSSIAN 4",
+     "SPANISH 101",
+     "SPANISH 22",
+     "SPANISH 4",
+     "SPANISH N4",
+     "TAMIL 101B",
+     "THAI 100B",
+     "TURKISH 100B",
+     "URDU 100B",
+     "VIETNMS 100B"
+    ]
+   }
+  },
+  {
+   "id": "global-development-concentration",
+   "title": "Concentration",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GEOG C112"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 100D"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL C100D"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-anthropology",
+   "title": "Disciplinary Course: Anthropology",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 114"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 140"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 141"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 148"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ANTHRO C147B"
+       },
+       {
+        "type": "course",
+        "course": "QTP C147B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-economics",
+   "title": "Disciplinary Course: Economics",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "notes": "Students must complete one Microeconomics course and one Macroeconomics course.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON 100A"
+       },
+       {
+        "type": "course",
+        "course": "ECON 101A"
+       },
+       {
+        "type": "course",
+        "course": "IAS 106"
+       },
+       {
+        "type": "course",
+        "course": "UGBA 101A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON 100B"
+       },
+       {
+        "type": "course",
+        "course": "ECON 101B"
+       },
+       {
+        "type": "course",
+        "course": "IAS 107"
+       },
+       {
+        "type": "course",
+        "course": "POLECON 107"
+       },
+       {
+        "type": "course",
+        "course": "UGBA 101B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-environmental-economics-and-policy",
+   "title": "Disciplinary Course - Environmental Economics & Policy",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C125"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C101"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C171"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C151"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 100"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-geography",
+   "title": "Disciplinary Course - Geography",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ESPM 165",
+      "ESPM 166",
+      "ESPM 167",
+      "ESPM 168",
+      "GEOG 123",
+      "GEOG 130",
+      "GEOG 138"
+     ]
+    }
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-political-economy",
+   "title": "Disciplinary Course - Political Economy",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 115"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C171"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C151"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GPP 115"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 158"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 100"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLECON 101"
+       },
+       {
+        "type": "course",
+        "course": "POLECON N101"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 126A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138G"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-political-science",
+   "title": "Disciplinary Course - Political Science",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C142"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C142"
+       },
+       {
+        "type": "course",
+        "course": "POLSCI C131A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-disciplinary-course-sociology",
+   "title": "Disciplinary Course - Sociology",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C167"
+       },
+       {
+        "type": "course",
+        "course": "PBHLTH C160"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 112"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 181"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 101"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 102"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-critical-thinking-methodology",
+   "title": "Critical Thinking/Methodology",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 101"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169B"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 110"
+     },
+     {
+      "type": "course",
+      "course": "ECON 140"
+     },
+     {
+      "type": "course",
+      "course": "ECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C180"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C180"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 100"
+     },
+     {
+      "type": "course",
+      "course": "ECON C142"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI C131A"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C118"
+     },
+     {
+      "type": "course",
+      "course": "IAS C118"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 102"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL H102"
+     },
+     {
+      "type": "course",
+      "course": "GPP 105"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 110"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 101"
+     },
+     {
+      "type": "course",
+      "course": "QTP 145"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 105"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 106"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 108"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-development-geographic-focus",
+   "title": "Geographic Focus",
+   "section": "Global Development",
+   "choice": "concentration",
+   "option": "global-development",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110Q"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 170",
+          "ANTHRO 171",
+          "ANTHRO 184",
+          "ASAMST 126",
+          "CHINESE 158",
+          "ECON 162",
+          "GEOG 164",
+          "GLOBAL 121",
+          "GLOBAL 143Q",
+          "HISTORY 111C",
+          "HISTORY 111D",
+          "HISTORY 113B",
+          "HISTORY 114A",
+          "HISTORY 114B",
+          "HISTORY 116C",
+          "HISTORY 116D",
+          "HISTORY 116G",
+          "HISTORY 117A",
+          "HISTORY 118C",
+          "HISTORY 119A",
+          "POLSCI 128",
+          "POLSCI 143A",
+          "POLSCI 143B",
+          "POLSCI 143C",
+          "POLSCI 143E",
+          "POLSCI 144",
+          "POLSCI 144B",
+          "POLSCI 145A",
+          "POLSCI 145B",
+          "POLSCI 149E",
+          "SEASIAN 148"
+         ]
+        }
+       }
+      ],
+      "label": "Asia"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110K"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AFRICAM 112B",
+          "AFRICAM 115",
+          "ANTHRO 123B",
+          "ECON 172",
+          "GLOBAL 131M",
+          "GLOBAL 176",
+          "HISTORY 112B",
+          "HISTORY 112C",
+          "POLSCI 146A"
+         ]
+        }
+       }
+      ],
+      "label": "Africa"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110E"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 180",
+          "ECON 161",
+          "FRENCH 140C",
+          "FRENCH 140D",
+          "GEOG C152",
+          "GERMAN 160C",
+          "GERMAN 160D",
+          "HISTORY 151B",
+          "HISTORY 151C",
+          "HISTORY 158A",
+          "HISTORY 158B",
+          "HISTORY 158C",
+          "HISTORY 159B",
+          "HISTORY 162A",
+          "HISTORY 163B",
+          "HISTORY 164C",
+          "HISTORY 166C",
+          "HISTORY 167B",
+          "HISTORY 167C",
+          "HISTORY 168A",
+          "HISTORY 170",
+          "HISTORY 171B",
+          "HISTORY 171C",
+          "HISTORY 173C",
+          "HISTORY 174A",
+          "HISTORY 178",
+          "HISTORY C159A",
+          "HISTORY C175B",
+          "HISTORY C176",
+          "ISF C145",
+          "ITALIAN 160",
+          "LEGALST 171",
+          "POLECON C160",
+          "POLSCI 122A",
+          "POLSCI 141A",
+          "RELIGST C135",
+          "UGIS C155"
+         ]
+        }
+       }
+      ],
+      "label": "Europe & Russia"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110L"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AFRICAM 111",
+          "AFRICAM 131",
+          "ASAMST 126",
+          "ASAMST 128AC",
+          "ASAMST 131",
+          "ASAMST 132AC",
+          "ASAMST 141",
+          "ASAMST 144",
+          "CHICANO 159",
+          "CHICANO 163",
+          "CHICANO 165",
+          "DUTCH 178",
+          "GEOG 159AC",
+          "GLOBAL 122L",
+          "GLOBAL 123L",
+          "HISTORY 124A",
+          "HISTORY 125B",
+          "HISTORY 140B",
+          "HISTORY 141B",
+          "HISTORY 143",
+          "HISTORY 146",
+          "HISTORY 162B",
+          "LATAMST 160",
+          "LEGALST 140",
+          "LEGALST 176",
+          "LEGALST 177",
+          "LEGALST 178",
+          "LS C180U",
+          "NATAMST 100",
+          "NATAMST 101",
+          "NATAMST 102",
+          "NATAMST 105",
+          "POLSCI 157B",
+          "PORTUG 128",
+          "PORTUG 135",
+          "PUBPOL C103",
+          "SOCIOL 124",
+          "SOCIOL 130AC",
+          "SOCIOL 131AC",
+          "SOCIOL 145L"
+         ]
+        }
+       }
+      ],
+      "label": "The Americas"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110M"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 181",
+          "GLOBAL 131M",
+          "GLOBAL 142",
+          "GLOBAL 172",
+          "GLOBAL 176",
+          "GWS 142",
+          "HISTORY 109C",
+          "HISTORY 177B",
+          "HISTORY C175B",
+          "LEGALST 174",
+          "MELC 147",
+          "MELC 165",
+          "POLSCI 142A",
+          "RELIGST C135",
+          "UGIS C155"
+         ]
+        }
+       }
+      ],
+      "label": "Middle East & North Africa"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-peace-and-conflict-concentration",
+   "title": "Concentration",
+   "section": "Global Peace & Conflict",
+   "choice": "concentration",
+   "option": "global-peace-and-conflict",
+   "rule": {
+    "type": "course",
+    "course": "GLOBAL 100P"
+   }
+  },
+  {
+   "id": "global-peace-and-conflict-disciplinary-course-justice-ethics-peace-and-conflict",
+   "title": "Disciplinary Course: Justice, Ethics, Peace & Conflict",
+   "section": "Global Peace & Conflict",
+   "choice": "concentration",
+   "option": "global-peace-and-conflict",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ESPM 100"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 132"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 133"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 134"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 173"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 162B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 178"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 187"
+       },
+       {
+        "type": "course",
+        "course": "LS C140V"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ISF 100E"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 107"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 140"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 154"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 171"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 182"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 144"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-peace-and-conflict-disciplinary-course-society-history-culture",
+   "title": "Disciplinary Course: Society, History, Culture",
+   "section": "Global Peace & Conflict",
+   "choice": "concentration",
+   "option": "global-peace-and-conflict",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 111"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 115"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 141"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 126"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 132"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 144"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD 128"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 141B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 146"
+     },
+     {
+      "type": "course",
+      "course": "MELC 140"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 122A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 128"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 148A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149E"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 167AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 145L"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 189G"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-peace-and-conflict-disciplinary-course-economics-inequality-security",
+   "title": "Disciplinary Course: Economics, Inequality, Security",
+   "section": "Global Peace & Conflict",
+   "choice": "concentration",
+   "option": "global-peace-and-conflict",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 148"
+     },
+     {
+      "type": "course",
+      "course": "ECON 133"
+     },
+     {
+      "type": "course",
+      "course": "ECON 161"
+     },
+     {
+      "type": "course",
+      "course": "ECON 172"
+     },
+     {
+      "type": "course",
+      "course": "ECON 174"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 105"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL C128"
+       },
+       {
+        "type": "course",
+        "course": "EDUC C148"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GPP 115"
+     },
+     {
+      "type": "course",
+      "course": "GWS 141"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 160"
+     },
+     {
+      "type": "course",
+      "course": "IAS 106"
+     },
+     {
+      "type": "course",
+      "course": "IAS 107"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 132AC"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 158"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 101"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 106"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 107"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PUBPOL 103"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C103"
+       },
+       {
+        "type": "course",
+        "course": "LS C180U"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 124"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 166"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-peace-and-conflict-critical-thinking-methodology",
+   "title": "Critical Thinking/Methodology",
+   "section": "Global Peace & Conflict",
+   "choice": "concentration",
+   "option": "global-peace-and-conflict",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 101"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169B"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 110"
+     },
+     {
+      "type": "course",
+      "course": "ECON 140"
+     },
+     {
+      "type": "course",
+      "course": "ECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ECON C142"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI C131A"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C142"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C180"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 100"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C118"
+     },
+     {
+      "type": "course",
+      "course": "IAS C118"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C180"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 102"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL H102"
+     },
+     {
+      "type": "course",
+      "course": "GPP 105"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 110"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 101"
+     },
+     {
+      "type": "course",
+      "course": "QTP 145"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 105"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 106"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 108"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-peace-and-conflict-geographic-focus",
+   "title": "Geographic Focus",
+   "section": "Global Peace & Conflict",
+   "choice": "concentration",
+   "option": "global-peace-and-conflict",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110Q"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 170",
+          "ANTHRO 171",
+          "ANTHRO 184",
+          "BUDDSTD 114",
+          "BUDDSTD C115",
+          "BUDDSTD C116",
+          "BUDDSTD C117",
+          "BUDDSTD C120",
+          "BUDDSTD C141",
+          "CHINESE C116",
+          "EALANG 118",
+          "EALANG C120",
+          "HISTORY 111B",
+          "HISTORY 111D",
+          "HISTORY 114A",
+          "HISTORY 114B",
+          "HISTORY 116D",
+          "HISTORY 116G",
+          "HISTORY 118C",
+          "HISTORY N119A",
+          "JAPAN C115",
+          "JAPAN C141",
+          "LEGALST 161",
+          "MONGOLN C117",
+          "POLSCI 143B",
+          "POLSCI 143C",
+          "POLSCI 143D",
+          "POLSCI 144B",
+          "POLSCI 145A",
+          "POLSCI 149E",
+          "SASIAN C142",
+          "SEASIAN 148",
+          "SEASIAN 160"
+         ]
+        }
+       }
+      ],
+      "label": "Asia"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110K"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AFRICAM 112B",
+          "AFRICAM 115",
+          "HISTORY 112B",
+          "HISTORY 112C",
+          "POLSCI 146A"
+         ]
+        }
+       }
+      ],
+      "label": "Africa"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110E"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 180",
+          "CELTIC 129",
+          "CELTIC 138",
+          "CELTIC 173",
+          "ECON 161",
+          "ENGLISH 139",
+          "GERMAN 157",
+          "GERMAN 160",
+          "GERMAN 160L",
+          "HISTORY 100",
+          "HISTORY 103",
+          "HISTORY 168A",
+          "HISTORY 170",
+          "HISTORY 172",
+          "HISTORY 173C",
+          "HISTORY 178",
+          "HISTORY C157",
+          "ITALIAN 117",
+          "ITALIAN 160",
+          "ITALIAN 170",
+          "ITALIAN 175",
+          "POLSCI 122A",
+          "POLSCI 141A",
+          "RELIGST C124",
+          "SLAVIC 158",
+          "SPANISH 121",
+          "SPANISH 135",
+          "SPANISH 163"
+         ]
+        }
+       }
+      ],
+      "label": "Europe & Russia"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110L"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AFRICAM 131",
+          "ANTHRO 179",
+          "ASAMST 131",
+          "ASAMST 132AC",
+          "ASAMST 141",
+          "CHICANO 159",
+          "CHICANO 163",
+          "CHICANO 172",
+          "CHICANO 174",
+          "DUTCH 178",
+          "GEOG 159AC",
+          "HISTORY 124A",
+          "HISTORY 125B",
+          "HISTORY 140B",
+          "HISTORY 168A",
+          "LATAMST 160",
+          "LEGALST 176",
+          "LEGALST 177",
+          "LEGALST 178",
+          "NATAMST 100",
+          "NATAMST 101",
+          "NATAMST 102",
+          "NATAMST 105",
+          "POLSCI 148A",
+          "POLSCI 157B"
+         ]
+        }
+       }
+      ],
+      "label": "The Americas"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110M"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 181",
+          "GLOBAL 131M",
+          "GWS 142",
+          "HISTART 109",
+          "HISTORY 109A",
+          "HISTORY 109B",
+          "HISTORY 109C",
+          "HISTORY 177B",
+          "HISTORY C175B",
+          "LEGALST 174",
+          "MELC 140",
+          "MELC 144",
+          "MELC 147",
+          "RELIGST C135",
+          "UGIS 162M",
+          "UGIS C155"
+         ]
+        }
+       }
+      ],
+      "label": "Middle East & North Africa"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-societies-and-cultures-concentration",
+   "title": "Concentration",
+   "section": "Global Societies and Cultures",
+   "choice": "concentration",
+   "option": "global-societies-and-cultures",
+   "rule": {
+    "type": "course",
+    "course": "GLOBAL 100S"
+   }
+  },
+  {
+   "id": "global-societies-and-cultures-disciplinary-course-the-arts",
+   "title": "Disciplinary Course: The Arts",
+   "section": "Global Societies and Cultures",
+   "choice": "concentration",
+   "option": "global-societies-and-cultures",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 138A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 138B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 150"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 189"
+     },
+     {
+      "type": "course",
+      "course": "ART 119"
+     },
+     {
+      "type": "course",
+      "course": "FILM 100"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 174"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 177B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GWS C146B"
+       },
+       {
+        "type": "course",
+        "course": "LGBT C146B"
+       },
+       {
+        "type": "course",
+        "course": "QTP 146"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "HISTART 100"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 101"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 108"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTART C158"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY C188A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 101"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 102"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 132"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 135A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 136"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MUSIC C128P"
+       },
+       {
+        "type": "course",
+        "course": "PHILOS C112"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 109"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 137"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 118AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 119"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 121"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 125"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 126"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-societies-and-cultures-disciplinary-course-historical-studies-and-literature",
+   "title": "Disciplinary Course: Historical Studies & Literature",
+   "section": "Global Societies and Cultures",
+   "choice": "concentration",
+   "option": "global-societies-and-cultures",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "AGRS 124"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 114"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 141"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ANTHRO C147B"
+       },
+       {
+        "type": "course",
+        "course": "QTP C147B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 111B"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD 190"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 100"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 120"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 165"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EDUC C145"
+       },
+       {
+        "type": "course",
+        "course": "GERMAN C106"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 171"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 177"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 103A"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 103B"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 121A"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 121B"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 174"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 177B"
+     },
+     {
+      "type": "course",
+      "course": "FRENCH 183A"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 141"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GWS C146A"
+       },
+       {
+        "type": "course",
+        "course": "LGBT C146A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 146"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY C175B"
+       },
+       {
+        "type": "course",
+        "course": "RELIGST C135"
+       },
+       {
+        "type": "course",
+        "course": "UGIS C155"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY C192"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI C103"
+       },
+       {
+        "type": "course",
+        "course": "INFO C103"
+       },
+       {
+        "type": "course",
+        "course": "MEDIAST C104C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "JEWISH 100"
+     },
+     {
+      "type": "course",
+      "course": "JEWISH 120"
+     },
+     {
+      "type": "course",
+      "course": "MELC 170"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "RELIGST C165"
+       },
+       {
+        "type": "course",
+        "course": "SASIAN C140"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 160"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 147A"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 147B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-societies-and-cultures-disciplinary-course-philosophy-theory-and-rhetoric",
+   "title": "Disciplinary Course: Philosophy, Theory, and Rhetoric",
+   "section": "Global Societies and Cultures",
+   "choice": "concentration",
+   "option": "global-societies-and-cultures",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "AGRS 163"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 115"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 140"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 148"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 149"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 15"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 155"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 156"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 166"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ANTHRO C147B"
+       },
+       {
+        "type": "course",
+        "course": "QTP C147B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 132AC"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 140AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "GWS 102"
+     },
+     {
+      "type": "course",
+      "course": "GWS 103"
+     },
+     {
+      "type": "course",
+      "course": "GWS 129"
+     },
+     {
+      "type": "course",
+      "course": "GWS 130AC"
+     },
+     {
+      "type": "course",
+      "course": "GWS 131"
+     },
+     {
+      "type": "course",
+      "course": "GWS 132AC"
+     },
+     {
+      "type": "course",
+      "course": "GWS 140"
+     },
+     {
+      "type": "course",
+      "course": "GWS 144"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100A"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100B"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100H"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 100"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 103"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 107"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 139"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 140"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 100"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 125"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 130"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 109"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 110"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 112"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 115"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 116"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 119"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 122"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 134"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 135"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 136"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 138"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 103A"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 103B"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 104"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 105T"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 107"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 108"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 109"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 116"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 117"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 157B"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 158"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 166"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 182"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 115G"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 116"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 133"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 135"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 136"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 146AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 160"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 165"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 166"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 185"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL C112"
+       },
+       {
+        "type": "course",
+        "course": "RELIGST C182"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL C126"
+       },
+       {
+        "type": "course",
+        "course": "DEMOG C126"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 163"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-societies-and-cultures-critical-thinking-methodology",
+   "title": "Critical Thinking/Methodology",
+   "section": "Global Societies and Cultures",
+   "choice": "concentration",
+   "option": "global-societies-and-cultures",
+   "notes": "Students are strongly encouraged to take GLOBAL 102 in their sophomore year.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 101"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169B"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 110"
+     },
+     {
+      "type": "course",
+      "course": "ECON 140"
+     },
+     {
+      "type": "course",
+      "course": "ECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ECON C142"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI C131A"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C142"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C180"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C180"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 100"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C118"
+     },
+     {
+      "type": "course",
+      "course": "IAS C118"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 102"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL H102"
+     },
+     {
+      "type": "course",
+      "course": "GPP 105"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 110"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 101"
+     },
+     {
+      "type": "course",
+      "course": "QTP 145"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 105"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 106"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 108"
+     }
+    ]
+   }
+  },
+  {
+   "id": "global-societies-and-cultures-geographic-focus",
+   "title": "Geographic Focus",
+   "section": "Global Societies and Cultures",
+   "choice": "concentration",
+   "option": "global-societies-and-cultures",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110Q"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 170",
+          "ANTHRO 171",
+          "ANTHRO 184",
+          "ANTHRO C125A",
+          "BUDDSTD 114",
+          "BUDDSTD 128",
+          "BUDDSTD C115",
+          "BUDDSTD C116",
+          "BUDDSTD C117",
+          "BUDDSTD C120",
+          "BUDDSTD C140",
+          "BUDDSTD C141",
+          "CHINESE 101",
+          "CHINESE 102",
+          "CHINESE 111",
+          "CHINESE 112",
+          "CHINESE 122",
+          "CHINESE 134",
+          "CHINESE 153",
+          "CHINESE 155",
+          "CHINESE 157",
+          "CHINESE 158",
+          "CHINESE 172",
+          "CHINESE 176",
+          "CHINESE 178",
+          "CHINESE 179",
+          "CHINESE 180",
+          "CHINESE 186",
+          "CHINESE C116",
+          "CHINESE C140",
+          "CHINESE C184",
+          "EALANG 101",
+          "EALANG 105",
+          "EALANG 108",
+          "EALANG 109",
+          "EALANG 118",
+          "EALANG C120",
+          "EALANG C175",
+          "HISTART 130A",
+          "HISTART 134A",
+          "HISTART 134C",
+          "HISTART 136A",
+          "HISTORY 111B",
+          "HISTORY 111D",
+          "HISTORY 114A",
+          "HISTORY 114B",
+          "HISTORY 116D",
+          "HISTORY 116G",
+          "HISTORY 118C",
+          "HISTORY 131B",
+          "HISTORY N119A",
+          "JAPAN C115",
+          "JAPAN C141",
+          "LEGALST 161",
+          "MONGOLN C117",
+          "MUSIC 131A",
+          "MUSIC 133C",
+          "MUSIC 134A",
+          "MUSIC 134B",
+          "MUSIC C134C",
+          "POLSCI 128",
+          "POLSCI 143A",
+          "POLSCI 143B",
+          "POLSCI 143C",
+          "POLSCI 143D",
+          "POLSCI 144B",
+          "POLSCI 145A",
+          "POLSCI 149E",
+          "SASIAN C142",
+          "SEASIAN 148",
+          "SEASIAN 150",
+          "SEASIAN 160"
+         ]
+        }
+       }
+      ],
+      "label": "Asia"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110K"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AFRICAM 115",
+          "ANTHRO 123B",
+          "ECON 172",
+          "HISTORY 112B",
+          "HISTORY 112C",
+          "POLSCI 146A",
+          "POLSCI 146B"
+         ]
+        }
+       }
+      ],
+      "label": "Africa"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110E"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AGRS 130",
+          "ANTHRO 123E",
+          "ANTHRO 180",
+          "CELTIC 119A",
+          "CELTIC 125",
+          "CELTIC 128",
+          "CELTIC 129",
+          "CELTIC 138",
+          "CELTIC 146A",
+          "CELTIC 146B",
+          "CELTIC 173",
+          "COMLIT 152",
+          "COMLIT 153",
+          "COMLIT 154",
+          "COMLIT 171",
+          "DUTCH 177",
+          "ECON 161",
+          "ENGLISH 110",
+          "ENGLISH 112",
+          "ENGLISH 114A",
+          "ENGLISH 114B",
+          "ENGLISH 117A",
+          "ENGLISH 117B",
+          "ENGLISH 118",
+          "ENGLISH 120",
+          "ENGLISH 121",
+          "ENGLISH 122",
+          "ENGLISH 125A",
+          "ENGLISH 125B",
+          "ENGLISH 125C",
+          "ENGLISH 126",
+          "ENGLISH 139",
+          "FRENCH 112A",
+          "FRENCH 114A",
+          "FRENCH 116A",
+          "FRENCH 117A",
+          "FRENCH 118A",
+          "FRENCH 118B",
+          "FRENCH 119A",
+          "FRENCH 119B",
+          "FRENCH 120A",
+          "FRENCH 120B",
+          "FRENCH 121A",
+          "FRENCH 121B",
+          "FRENCH 140A",
+          "FRENCH 140B",
+          "FRENCH 140C",
+          "FRENCH 140D",
+          "FRENCH 170",
+          "FRENCH 180B",
+          "FRENCH 180C",
+          "FRENCH 180D",
+          "GEOG C152",
+          "GERMAN 110",
+          "GERMAN 123",
+          "GERMAN 131",
+          "GERMAN 152",
+          "GERMAN 157A",
+          "GERMAN 157B",
+          "GERMAN 157C",
+          "GERMAN 160A",
+          "GERMAN 160B",
+          "GERMAN 160C",
+          "GERMAN 160L",
+          "HISTART 141A",
+          "HISTART 141B",
+          "HISTART 141C",
+          "HISTART 145A",
+          "HISTART 151",
+          "HISTART 155A",
+          "HISTART 169A",
+          "HISTART 170",
+          "HISTART 171",
+          "HISTART 175",
+          "HISTART 180C",
+          "HISTORY 105A",
+          "HISTORY 105B",
+          "HISTORY 106A",
+          "HISTORY 106B",
+          "HISTORY 108",
+          "HISTORY 151A",
+          "HISTORY 151B",
+          "HISTORY 151C",
+          "HISTORY 158A",
+          "HISTORY 158B",
+          "HISTORY 158C",
+          "HISTORY 159B",
+          "HISTORY 162A",
+          "HISTORY 163A",
+          "HISTORY 163B",
+          "HISTORY 164A",
+          "HISTORY 164B",
+          "HISTORY 164C",
+          "HISTORY 166A",
+          "HISTORY 166B",
+          "HISTORY 166C",
+          "HISTORY 167A",
+          "HISTORY 167B",
+          "HISTORY 167C",
+          "HISTORY 168A",
+          "HISTORY 170",
+          "HISTORY 171A",
+          "HISTORY 171B",
+          "HISTORY 171C",
+          "HISTORY 172",
+          "HISTORY 173C",
+          "HISTORY 178",
+          "HISTORY C157",
+          "HISTORY C159A",
+          "HISTORY C176",
+          "ISF C145",
+          "ITALIAN 104",
+          "ITALIAN 112",
+          "ITALIAN 117",
+          "ITALIAN 130B",
+          "ITALIAN 160",
+          "ITALIAN 170",
+          "ITALIAN 175",
+          "LEGALST 171",
+          "MDGRK 1A",
+          "MDGRK 1B",
+          "MUSIC 128A",
+          "MUSIC 128B",
+          "POLECON C160",
+          "POLSCI 122A",
+          "POLSCI 141A",
+          "RELIGST C124",
+          "SCANDIN 160",
+          "SCANDIN C108",
+          "SLAVIC 100",
+          "SLAVIC 132",
+          "SLAVIC 134D",
+          "SLAVIC 134E",
+          "SLAVIC 134F",
+          "SLAVIC 134G",
+          "SLAVIC 150",
+          "SLAVIC 158",
+          "SLAVIC 170",
+          "SLAVIC 181",
+          "SLAVIC 182",
+          "SLAVIC 190",
+          "SPANISH 107A",
+          "SPANISH 107B",
+          "SPANISH 111A",
+          "SPANISH 121",
+          "SPANISH 135",
+          "SPANISH 163",
+          "SPANISH 164",
+          "THEATER 113A",
+          "THEATER C108"
+         ]
+        }
+       }
+      ],
+      "label": "Europe & Russia"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110L"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "AFRICAM 131",
+          "ANTHRO 179",
+          "COMLIT 156",
+          "DUTCH 178",
+          "GEOG 159AC",
+          "HISTART 171",
+          "HISTART 188A",
+          "HISTART 192L",
+          "HISTORY 140B",
+          "HISTORY 141B",
+          "HISTORY 143",
+          "HISTORY 146",
+          "HISTORY 168A",
+          "MUSIC 135A",
+          "POLSCI 148A",
+          "PORTUG 104",
+          "PORTUG 128",
+          "PORTUG 135",
+          "SOCIOL 145L",
+          "SPANISH 104A",
+          "SPANISH 104B"
+         ]
+        }
+       }
+      ],
+      "label": "The Americas"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GLOBAL 110M"
+       },
+       {
+        "type": "filter",
+        "count": 3,
+        "filter": {
+         "courses": [
+          "ANTHRO 181",
+          "ETHSTD N180",
+          "HISTORY 109A",
+          "HISTORY 109B",
+          "HISTORY 109C",
+          "HISTORY 177B",
+          "HISTORY C175B",
+          "LEGALST 174",
+          "MELC 140",
+          "MELC 144",
+          "MELC 155",
+          "MELC 162",
+          "MELC 165",
+          "RELIGST C135",
+          "SOCIOL 189",
+          "UGIS 162M",
+          "UGIS C155"
+         ]
+        }
+       }
+      ],
+      "label": "Middle East & North Africa"
+     }
+    ]
+   }
+  }
+ ]
+}

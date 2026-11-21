@@ -1,0 +1,143 @@
+{
+ "id": "minor-structural-engineering",
+ "title": "Structural Engineering minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I020U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I020U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I020U",
+ "notes": [
+  "Minor programs are areas of concentration requiring fewer courses than an undergraduate major. These programs are optional, but they can provide depth and breadth to a UC Berkeley education. The College of Engineering does not offer additional time to complete a minor, but it is usually possible to finish within the allotted time with careful course planning. Students are encouraged to meet with their ESS adviser to discuss the feasibility of completing a minor program.\nAll the engineering departments offer minors. Students may also consider pursuing a minor in another school or college.\nAll minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics-options",
+   "title": "Mathematics Options",
+   "section": "Lower Division Prerequisites",
+   "notes": "Students must complete either MATH 1A and 1B or MATH 16A and 16B.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 16A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 16B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "phyics-and-engineering",
+   "title": "Phyics and Engineering",
+   "section": "Lower Division Prerequisites",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 8A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-core",
+   "title": "Upper Division Core",
+   "section": "Upper Division Core",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 60"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 120"
+     }
+    ]
+   }
+  },
+  {
+   "id": "structural-electives",
+   "title": "Structural Electives",
+   "section": "Upper Division Electives",
+   "notes": "Students must attain a minimum 2.00 GPA in the minor.\nStudents can not use both CIVENG 122N and 123N to satisfy this requirement.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CIVENG 121",
+      "CIVENG 124",
+      "CIVENG 140",
+      "CIVENG 165",
+      "CIVENG 166",
+      "CIVENG 175",
+      "CIVENG 193"
+     ]
+    }
+   }
+  }
+ ]
+}

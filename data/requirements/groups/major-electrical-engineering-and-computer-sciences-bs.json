@@ -1,0 +1,293 @@
+{
+ "id": "major-electrical-engineering-and-computer-sciences-bs",
+ "title": "Electrical Engineering and Computer Sciences BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16306U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16306U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16306U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "notes": "Students who take PHYSICS 5A to satisfy the Physics A requirement must take PHYSICS 5B and PHYSICS 5BL to complete the Physics B requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-science",
+   "title": "Computer Science",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61BL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "eecs",
+   "title": "EECS",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 64"
+     }
+    ]
+   }
+  },
+  {
+   "id": "eecs-upper-division-requirement",
+   "title": "EECS Upper Division Requirement",
+   "section": "Upper Division",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 20 units from the following:\n- EECS courses numbered 100-C191B\n- ELENG courses numbered 100-194\n- COMPSCI courses numbered 100-194, excluding COMPSCI 194 (Section 100)\n- COMPSCI 270, C280, 285, 288, 294 (Section 84: Interactive Device Design), 294 (Section 129: Designing, Visualizing and Understanding Deep Neural Networks); ELENG 229A\n- INFO 153A, 159, 213\n- Courses cross-listed with the above listings\nOf the 20 units required, at least one course needs to be from this list:\n- ELENG 113B, C128, 130, 140, 143, 192 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "INFO 153A",
+     "INFO 159",
+     "ELENG 113B",
+     "ELENG C128",
+     "ELENG 130",
+     "ELENG 140",
+     "ELENG 143",
+     "ELENG 192",
+     "COMPSCI 160",
+     "COMPSCI 161",
+     "COMPSCI 162",
+     "COMPSCI 164",
+     "COMPSCI 169",
+     "EECS C106A",
+     "EECS C106B",
+     "EECS 149",
+     "EECS 151",
+     "EECS 151LA"
+    ]
+   }
+  },
+  {
+   "id": "engineering-units",
+   "title": "Engineering Units",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "The 40 units include EECS lower division courses, with the exception of COMPSCI 70, as well as 20 units of EECS Upper Division Technical Electives.\nIf you have previously taken the articulated version of a UC Berkeley course that you are currently enrolled in, the UC Berkeley course will be used to satisfy the requirement once it is graded."
+   }
+  },
+  {
+   "id": "natural-science-elective",
+   "title": "Natural Science Elective",
+   "section": "Natural Science Elective",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete ANY of the following courses:\n- ASTRON 7A, 7B, 7AB (will only count if PHYSICS 7A and 7B are completed first)\n- BIOLOGY 1A and 1AL (must take both), 1B;\n- CHEM 1A and 1AL (must take both), 1B, 3A and 3AL (must take both), 3B and 3BL (must take both), 4A, 4B\n- EECS C191A, C191B\n- MCELLBI 32 and 32L (must take both)\n- PHYSICS 7C, 5C and 5CL (must take both)\n- Any 3+ unit ASTRON 100-196 level course\n- Any 3+ unit CHEM 101-196 level course, excluding 100, 149, 192\n- Any 3+ unit INTEGBI 100-196 level course, excluding 101, C105, 191\n- Any 3+ unit MCELLBI 100-196 level course … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "ASTRON 7A",
+     "ASTRON 7B",
+     "ASTRON 7AB",
+     "PHYSICS 7A",
+     "PHYSICS 7B",
+     "BIOLOGY 1A",
+     "BIOLOGY 1AL",
+     "CHEM 1A",
+     "CHEM 1AL",
+     "EECS C191A",
+     "EECS C191B",
+     "MCELLBI 32",
+     "MCELLBI 32L",
+     "PHYSICS 7C",
+     "PHYSICS 5C",
+     "PHYSICS 5CL",
+     "CHEM 101",
+     "PHYSICS 100"
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Upper Division Electives",
+   "notes": "Students must complete one course, which may be taken for a letter grade or pass/no pass.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI H195"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 195"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 185"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100D"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100G"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 104D"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 121"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 107"
+     }
+    ]
+   }
+  }
+ ]
+}

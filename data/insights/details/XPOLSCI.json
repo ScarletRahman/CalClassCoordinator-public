@@ -1,0 +1,381 @@
+{
+ "XPOLSCI 1": {
+  "course": "XPOLSCI 1",
+  "difficulty": 2.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.28
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.83), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 201,
+   "pctA": 86,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 110
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Wendy Muse Sinek",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.84,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 1.7,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XPOLSCI%201"
+  ]
+ },
+ "XPOLSCI 2": {
+  "course": "XPOLSCI 2",
+  "difficulty": 2.0,
+  "shouldTake": 4.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.28
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.7/5 for difficulty, 1.7/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.74), with 85% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 199,
+   "pctA": 85,
+   "pctBelowB": 5,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 85
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.7,
+   "workload": 1.7,
+   "usefulness": 5,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jonathon Whooley",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 4.0,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 5,
+    "difficulty": 1.6,
+    "shouldTake": 4.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XPOLSCI%202"
+  ]
+ },
+ "XPOLSCI 5": {
+  "course": "XPOLSCI 5",
+  "difficulty": 2.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.259
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 1.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 1.8/5 for difficulty, 1.6/5 for workload and 3.4/5 for usefulness. The average grade is B+ (3.44), with 62% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 143,
+   "pctA": 62,
+   "pctBelowB": 9,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 1.8,
+   "workload": 1.6,
+   "usefulness": 3.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Azamat Sakiev",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "studentCount": 5,
+    "studentDifficulty": 1.8,
+    "studentUsefulness": 3.4,
+    "difficulty": 2.3,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XPOLSCI%205"
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "minor-electrical-engineering-and-computer-science",
+ "title": "Electrical Engineering and Computer Science minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I012U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I012U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I012U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- All courses taken to fulfill the minor requirements must be completed with a letter grade.\n- A minimum grade point average (GPA) of 2.0 is required to apply for the minor.\n- A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n- Completion of the minor program cannot delay a student’s graduation.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- Student must submit the Minor Declaration Form once they have four or more of the minor requirements completed.\n- All students must submit the EECS Minor Completion Form, signed by their Major or ESS Advisor, during their final semester or summer term.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division-requirements",
+   "title": "Lower Division Requirements",
+   "section": "Lower Division",
+   "notes": "- For Fall 25 first-year admits and onward, Math 54 is a prerequisite for both EECS 16A & EECS 16B\n- ENGIN W7 may be taken in place of ENGIN 7\n- COMPSCI 61BL may be taken in place of COMPSCI 61B\n- Please note that non-EECS/CS majors don’t have enrollment access to CS 61C during the Fall/Spring semester. Class is accessible to all students over Summer Sessions, and Assist.org-approved equivalents are also accepted.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61C"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 of:\n- Any upper division ELENG, COMPSCI, or EECS courses\n- ELENG or COMPSCI 195, H196, 197, 198, or 199 will not be accepted\n- Pass/Fail courses will not be accepted\n- Graduate-level courses may be considered by petition only; contact the Minor Advisor before enrolling.",
+    "mentionedCourses": [
+     "COMPSCI 195",
+     "COMPSCI 197",
+     "COMPSCI 198",
+     "COMPSCI 199"
+    ]
+   }
+  }
+ ]
+}

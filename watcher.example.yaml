@@ -1,0 +1,60 @@
+# Copy to watcher.yaml (gitignored) and edit.
+term: "2027 Spring"            # empty = newest term on classes.berkeley.edu
+interval_seconds: 60           # minimum 30
+jitter_seconds: 10             # random extra delay so polls don't look robotic
+sources: [classes.berkeley.edu, berkeleytime]   # tried in order; later ones are fallbacks
+
+# Which events trigger alerts. All kinds:
+# seats_opened, seats_increased, reserved_opened, waitlist_opened, waitlist_moved,
+# closed, new_section, error
+alert_on: [seats_opened, seats_increased, reserved_opened, waitlist_opened, error]
+
+watch:
+  - course: COMPSCI 61A        # every section of the course
+  - course: DATA C8
+    section: "001 LEC"         # just one section
+  - class_number: "28984"      # exact class # from the schedule
+    include_reserved: true     # alert when reserved seats (e.g. for majors) open
+    include_waitlist: true
+
+notifiers:
+  - type: console
+  - type: desktop
+  # - type: ntfy               # free phone push: install the ntfy app, subscribe to your topic
+  #   topic: pick-a-long-random-topic-name
+  # - type: discord
+  #   webhook_url_env: DISCORD_WEBHOOK_URL
+  # - type: email
+  #   host: smtp.gmail.com
+  #   port: 587
+  #   user: you@gmail.com
+  #   password_env: SMTP_PASSWORD   # a Gmail app password
+  #   from: you@gmail.com
+  #   to: you@gmail.com
+
+# Used for alerts people sign up for through the HTTP API (POST /subscriptions).
+# "to" is filled in per subscriber.
+# subscription_email:
+#   type: email
+#   host: smtp.gmail.com
+#   port: 587
+#   user: you@gmail.com
+#   password_env: SMTP_PASSWORD
+#   from: you@gmail.com
+
+# ---- optional: politeness, Discord bot, server mode ------------------------
+# min_request_gap_seconds: 2.0     # minimum gap between two requests to one source
+# max_targets: 300                 # distinct fetches per pass; beyond this they take turns
+# cooldown_seconds: 600            # pause a source this long after it answers HTTP 429/403
+# subscriber_cooldown_seconds: 600 # at most one email per subscriber per class per this many seconds
+# history_max_bytes: 50000000      # rotate data/seats/history.jsonl past this (keeps one .1)
+# discord_auto_approve: true      # same as `discord-bot --auto-approve` (env DISCORD_AUTO_APPROVE=1)
+# discord_max_classes: 100          # same as `discord-bot --max-classes` (env DISCORD_MAX_CLASSES)
+# discord_routes_file: discord_channels.json   # relative paths go inside $WATCHER_DATA_DIR when set
+# watch_discord_classes: true      # also poll every class that has a Discord channel
+# lookup_sources: [classes.berkeley.edu, berkeleytime]   # GET /lookup (planner's weekly schedule), tried in order
+# lookup_cache_seconds: 300        # one fetch per course per this many seconds (minimum 60)
+#
+# subscription_email can be left out and built from env instead:
+#   SMTP_HOST, SMTP_PORT (587), SMTP_USER, SMTP_PASSWORD, MAIL_FROM
+# Subscriber emails end with "Manage or stop alerts: $APP_URL" when APP_URL is set.

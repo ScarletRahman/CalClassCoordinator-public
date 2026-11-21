@@ -1,0 +1,1788 @@
+{
+ "id": "major-integrative-biology-ba",
+ "title": "Integrative Biology BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25975U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25975U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/25975U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25975U",
+ "choices": [
+  {
+   "id": "emphasis",
+   "title": "Emphasis",
+   "pick": 1,
+   "options": [
+    {
+     "id": "ecology-evolution-and-organismal-biology",
+     "title": "Ecology, Evolution, and Organismal Biology"
+    },
+    {
+     "id": "integrative-human-biology",
+     "title": "Integrative Human Biology"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "notes": "Students must complete each course with a letter grade.\nSelect two courses from lists A, B and C. Only one course can count from each list.",
+   "rule": {
+    "type": "nOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 1A"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 1A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10A"
+       },
+       {
+        "type": "course",
+        "course": "MATH N10A"
+       },
+       {
+        "type": "course",
+        "course": "MATH N16A"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 16A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "course",
+        "course": "MATH N53"
+       },
+       {
+        "type": "course",
+        "course": "MATH W53"
+       },
+       {
+        "type": "course",
+        "course": "MATH H53"
+       },
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH N54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       },
+       {
+        "type": "course",
+        "course": "MATH H54"
+       },
+       {
+        "type": "course",
+        "course": "MATH 55"
+       },
+       {
+        "type": "course",
+        "course": "MATH N55"
+       }
+      ],
+      "label": "Math List A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 1B"
+       },
+       {
+        "type": "course",
+        "course": "MATH N1B"
+       },
+       {
+        "type": "course",
+        "course": "MATH H1B"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10B"
+       },
+       {
+        "type": "course",
+        "course": "MATH 16B"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 52"
+       },
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "course",
+        "course": "MATH N53"
+       },
+       {
+        "type": "course",
+        "course": "MATH W53"
+       },
+       {
+        "type": "course",
+        "course": "MATH H53"
+       },
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH N54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       },
+       {
+        "type": "course",
+        "course": "MATH H54"
+       },
+       {
+        "type": "course",
+        "course": "MATH 55"
+       },
+       {
+        "type": "course",
+        "course": "MATH N55"
+       }
+      ],
+      "label": "Math List B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI C8"
+       },
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "INFO C8"
+       },
+       {
+        "type": "course",
+        "course": "STAT C8"
+       },
+       {
+        "type": "course",
+        "course": "STAT 2"
+       },
+       {
+        "type": "course",
+        "course": "XSTAT 2"
+       },
+       {
+        "type": "course",
+        "course": "STAT 21"
+       },
+       {
+        "type": "course",
+        "course": "STAT W21"
+       },
+       {
+        "type": "course",
+        "course": "STAT 20"
+       }
+      ],
+      "label": "Math List C"
+     }
+    ],
+    "n": 2
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "CHEM 1A",
+      "CHEM 1AD",
+      "CHEM W1A",
+      "CHEM 1AL",
+      "XCHEM 1AL",
+      "CHEM 4A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "biology",
+   "title": "Biology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1AL"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-a-series",
+   "title": "Physics A Series",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "integrative-human-biology",
+   "title": "Integrative Human Biology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 77A"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 77B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-evolution-and-organismal-biology-group-a",
+   "title": "Group A",
+   "section": "Ecology, Evolution, and Organismal Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "ecology-evolution-and-organismal-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 136"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 141"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 160"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C144"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 161"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 162"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 163LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 164L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 167"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 169"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 172"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-evolution-and-organismal-biology-group-b",
+   "title": "Group B",
+   "section": "Ecology, Evolution, and Organismal Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "ecology-evolution-and-organismal-biology",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 102LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 103LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 108"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 113L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 114"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 118"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 142L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 146LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 154"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 159"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 162"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 167"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 168L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 170LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 177LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 178"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 181L"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C107L"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C107L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C110L"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C110L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C144"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C126"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C145"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C156"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C147"
+       },
+       {
+        "type": "course",
+        "course": "NEU C125"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C115C"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C153"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C153"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C156"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C103"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 158LF"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C158L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C171"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C115A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C176L"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C115C"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 115C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C185L"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NEU C125"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C115C"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NEU 163"
+       },
+       {
+        "type": "course",
+        "course": "NEU 163C"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-evolution-and-organismal-biology-group-c",
+   "title": "Group C",
+   "section": "Ecology, Evolution, and Organismal Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "ecology-evolution-and-organismal-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 114"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 116L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 117"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 118"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 123AL"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 128"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 130"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 131"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 132"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 135"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 136"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 137"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 138"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 139"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 140"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 142L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 148"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 150"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C125L"
+     },
+     {
+      "type": "course",
+      "course": "PHYSED C165"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C129L"
+       },
+       {
+        "type": "course",
+        "course": "PHYSED C129"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C130"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C118"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C139"
+     },
+     {
+      "type": "course",
+      "course": "NEU C166"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C142L"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C103"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C143A"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C113"
+     },
+     {
+      "type": "course",
+      "course": "NEU 163"
+     },
+     {
+      "type": "course",
+      "course": "NEU 163C"
+     },
+     {
+      "type": "course",
+      "course": "NEU C126"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C116"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-evolution-and-organismal-biology-field-lab",
+   "title": "Field Lab",
+   "section": "Ecology, Evolution, and Organismal Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "ecology-evolution-and-organismal-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 102LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 103LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 117LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 146LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 163LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 170LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-evolution-and-organismal-biology-additional-lab",
+   "title": "Additional Lab",
+   "section": "Ecology, Evolution, and Organismal Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "ecology-evolution-and-organismal-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 102LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 103LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 113L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 116L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 117LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 123AL"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 131L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 132L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 142L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 146LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 154L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 163LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 168L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 170LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 177LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 181L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C107L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C107L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C125L"
+     },
+     {
+      "type": "course",
+      "course": "PHYSED C165"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C129L"
+     },
+     {
+      "type": "course",
+      "course": "PHYSED C129"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C135L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C136L"
+     },
+     {
+      "type": "course",
+      "course": "ELENG C145O"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C142L"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C103"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C176L"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C115C"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C185L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecology-evolution-and-organismal-biology-electives-and-upper-division-units",
+   "title": "Electives and Upper Division Units",
+   "section": "Ecology, Evolution, and Organismal Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "ecology-evolution-and-organismal-biology",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete a minimum of 24 upper division units in the major. Additional elective units may be needed to bring total to 24 required upper division units. A maximum of two elective courses may be taken outside of the Department of Integrative Biology.\nComplete additional units in the following courses:\n- Any INTEGBI 100-196 level course\n- BIOENG 102\n- BIOENG 110\n- BIOENG C119\n- CHEM 135\n- CHEM C130\n- DATA C131A\n- EPS C241\n- ESPM 111\n- ESPM 114\n- ESPM 132\n- ESPM 144\n- ESPM 173\n- ESPM 174\n- ESPM C105\n- ESPM C125\n- ESPM C200\n- ESPM C216\n- ESPM C220\n- GEOG 148\n- GEOG C148\n- INTEGBI 178 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 102",
+     "BIOENG 110",
+     "BIOENG C119",
+     "CHEM 135",
+     "CHEM C130",
+     "DATA C131A",
+     "ESPM 111",
+     "ESPM 114",
+     "ESPM 132",
+     "ESPM 144",
+     "ESPM 173",
+     "ESPM 174",
+     "ESPM C105",
+     "ESPM C125",
+     "GEOG C148",
+     "INTEGBI 178",
+     "INTEGBI C105",
+     "INTEGBI C109",
+     "INTEGBI C166",
+     "LS 121",
+     "MCELLBI 102",
+     "MCELLBI 104",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 140",
+     "MCELLBI 150",
+     "MCELLBI C100A",
+     "MCELLBI C112",
+     "MECENG C176",
+     "NEU C125",
+     "PBHLTH 142",
+     "PBHLTH 162A",
+     "PLANTBI C109",
+     "PLANTBI C112",
+     "PSYCH 110",
+     "PSYCH 121",
+     "PSYCH C115C",
+     "STAT C131A"
+    ]
+   }
+  },
+  {
+   "id": "integrative-human-biology-group-a",
+   "title": "Group A",
+   "section": "Integrative Human Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "integrative-human-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 136"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 141"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 160"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C144"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 161"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 162"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 163LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 164L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 167"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 169"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 172"
+     }
+    ]
+   }
+  },
+  {
+   "id": "integrative-human-biology-group-b",
+   "title": "Group B",
+   "section": "Integrative Human Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "integrative-human-biology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 102LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 103LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 108"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 113L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 114"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 118"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 142L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 146LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 154"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 158LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C158L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 159"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 162"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 167"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 168L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 170LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 177LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 178"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 181L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C107L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C107L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C144"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C126"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C145"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C156"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C153"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C156"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C103"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C171"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C115A"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C176L"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 115C"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C115C"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C185L"
+     },
+     {
+      "type": "course",
+      "course": "NEU C125"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C115C"
+     },
+     {
+      "type": "course",
+      "course": "NEU 163"
+     },
+     {
+      "type": "course",
+      "course": "NEU 163C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "integrative-human-biology-group-c",
+   "title": "Group C",
+   "section": "Integrative Human Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "integrative-human-biology",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 114"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 116L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 117"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 118"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 123AL"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 128"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 131"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 132"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 135"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 136"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 137"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 138"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 139"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 140"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 142L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 148"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 150"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C125L"
+       },
+       {
+        "type": "course",
+        "course": "PHYSED C165"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C129L"
+       },
+       {
+        "type": "course",
+        "course": "PHYSED C129"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C130"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL C118"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C142L"
+       },
+       {
+        "type": "course",
+        "course": "ANTHRO C103"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C143A"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C113"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NEU C126"
+       },
+       {
+        "type": "course",
+        "course": "PSYCH C116"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "integrative-human-biology-lab",
+   "title": "Lab",
+   "section": "Integrative Human Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "integrative-human-biology",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "INTEGBI 102LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 103LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 113L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 116L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 117LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 123AL"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 131L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 132L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 142L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 146LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 154L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 168L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 170LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 177LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 181L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C107L"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C107L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C110L"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C110L"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C125L"
+       },
+       {
+        "type": "course",
+        "course": "PHYSED C165L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C129L"
+       },
+       {
+        "type": "course",
+        "course": "PHYSED C129"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C135L"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C136L"
+       },
+       {
+        "type": "course",
+        "course": "ELENG C145O"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C142L"
+       },
+       {
+        "type": "course",
+        "course": "ANTHRO C103"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI C176L"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 115C"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C115C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C185L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "integrative-human-biology-electives-and-upper-division-units",
+   "title": "Electives and Upper Division Units",
+   "section": "Integrative Human Biology: Upper Division",
+   "choice": "emphasis",
+   "option": "integrative-human-biology",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete a minimum of 24 upper division units in the major. Additional elective units may be needed to bring total to 24 required upper division units. A maximum of two elective courses may be taken outside of the Department of Integrative Biology.\nComplete additional units in the following courses:\n- Any INTEGBI 100-196 level course\n- BIOENG 102\n- BIOENG 110\n- BIOENG C119\n- CHEM 135\n- CHEM C130\n- DATA C131A\n- EPS C241\n- ESPM 111\n- ESPM 114\n- ESPM 132\n- ESPM 144\n- ESPM 173\n- ESPM 174\n- ESPM C105\n- ESPM C125\n- ESPM C200\n- ESPM C216\n- ESPM C220\n- GEOG 148\n- GEOG C148\n- INTEGBI 178 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 102",
+     "BIOENG 110",
+     "BIOENG C119",
+     "CHEM 135",
+     "CHEM C130",
+     "DATA C131A",
+     "ESPM 111",
+     "ESPM 114",
+     "ESPM 132",
+     "ESPM 144",
+     "ESPM 173",
+     "ESPM 174",
+     "ESPM C105",
+     "ESPM C125",
+     "GEOG C148",
+     "INTEGBI 178",
+     "INTEGBI C105",
+     "INTEGBI C109",
+     "INTEGBI C166",
+     "LS 121",
+     "MCELLBI 102",
+     "MCELLBI 104",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 140",
+     "MCELLBI 150",
+     "MCELLBI C100A",
+     "MCELLBI C112",
+     "MECENG C176",
+     "NEU C125",
+     "PBHLTH 142",
+     "PBHLTH 162A",
+     "PLANTBI C109",
+     "PLANTBI C112",
+     "PSYCH 110",
+     "PSYCH 121",
+     "PSYCH C115C",
+     "STAT C131A"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2180 @@
+{
+ "AMERSTD 10": {
+  "course": "AMERSTD 10",
+  "difficulty": 3.3,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 2.8,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed. Some enjoy the engaging, witty lectures and nuanced perspectives, while others find them boring or find the instructor dismissive of disagreement. Expect three papers, a midterm, a final, graded attendance, and no posted slides. Grading is described as harsh for an intro class.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 616,
+   "pctA": 47,
+   "pctBelowB": 18,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 113
+    },
+    {
+     "letter": "A-",
+     "count": 124
+    },
+    {
+     "letter": "B+",
+     "count": 76
+    },
+    {
+     "letter": "B",
+     "count": 70
+    },
+    {
+     "letter": "B-",
+     "count": 42
+    },
+    {
+     "letter": "C+",
+     "count": 31
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 26
+    },
+    {
+     "letter": "P",
+     "count": 74
+    },
+    {
+     "letter": "NP",
+     "count": 12
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.8,
+   "workload": 3.2,
+   "usefulness": 2.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 40
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Craghead",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.24,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2.5,
+    "difficulty": 3.2,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Bryan Wagner",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.22,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.21,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.2,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Christine Palmer",
+    "terms": 6,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.04,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Mark Brilliant",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.83,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Shannon Steen",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.3,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Kathleen Moran",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Margaretta Lovell",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.39,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%2010"
+  ]
+ },
+ "AMERSTD 101": {
+  "course": "AMERSTD 101",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.29), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 425,
+   "pctA": 54,
+   "pctBelowB": 14,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 124
+    },
+    {
+     "letter": "A-",
+     "count": 70
+    },
+    {
+     "letter": "B+",
+     "count": 47
+    },
+    {
+     "letter": "B",
+     "count": 46
+    },
+    {
+     "letter": "B-",
+     "count": 29
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Cohen",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Christine Palmer",
+    "terms": 8,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.14,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Bryan Wagner",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.03,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "David Miller",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "David Henkin",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Andy Shanken",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20101"
+  ]
+ },
+ "AMERSTD 101AC": {
+  "course": "AMERSTD 101AC",
+  "difficulty": 2.7,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.50)",
+     "value": 2.4,
+     "weight": 0.288
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.50), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "A-",
+   "students": 231,
+   "pctA": 68,
+   "pctBelowB": 8,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 83
+    },
+    {
+     "letter": "A-",
+     "count": 58
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 23
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.6,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Michael Cohen",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Bryan Wagner",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20101AC"
+  ]
+ },
+ "AMERSTD 102": {
+  "course": "AMERSTD 102",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.317
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.36), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 473,
+   "pctA": 58,
+   "pctBelowB": 10,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 135
+    },
+    {
+     "letter": "A-",
+     "count": 86
+    },
+    {
+     "letter": "B+",
+     "count": 44
+    },
+    {
+     "letter": "B",
+     "count": 56
+    },
+    {
+     "letter": "B-",
+     "count": 33
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 52
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andy Shanken",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "David Miller",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.37,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Christine Palmer",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mark Brilliant",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.99,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Steven Solomon",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.99,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Michael Cohen",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Charles Davis II",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20102"
+  ]
+ },
+ "AMERSTD 102AC": {
+  "course": "AMERSTD 102AC",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.293
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.41), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 259,
+   "pctA": 54,
+   "pctBelowB": 10,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 45
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.47,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Mark Brilliant",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 2.63,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.4,
+    "shouldTake": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20102AC"
+  ]
+ },
+ "AMERSTD 10AC": {
+  "course": "AMERSTD 10AC",
+  "difficulty": 3.2,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.3,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%2010AC"
+  ]
+ },
+ "AMERSTD 110": {
+  "course": "AMERSTD 110",
+  "difficulty": 2.7,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.248
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.38), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 121,
+   "pctA": 60,
+   "pctBelowB": 11,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 41
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Christine Palmer",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.04,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Mark Brilliant",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "David Miller",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.15,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Dmitri Brown",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.25,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Michael Cohen",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.93,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Andy Shanken",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.83,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Kathleen Moran",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20110"
+  ]
+ },
+ "AMERSTD 110AC": {
+  "course": "AMERSTD 110AC",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.126
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 28,
+   "pctA": 81,
+   "pctBelowB": 0,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rhiannon Welch",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20110AC"
+  ]
+ },
+ "AMERSTD 139AC": {
+  "course": "AMERSTD 139AC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Waldo Martin",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20139AC"
+  ]
+ },
+ "AMERSTD 189": {
+  "course": "AMERSTD 189",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.183
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 81% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 55,
+   "pctA": 81,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christine Palmer",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.88,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.88,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20189"
+  ]
+ },
+ "AMERSTD 190": {
+  "course": "AMERSTD 190",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Christine Palmer",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kathleen Moran",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20190"
+  ]
+ },
+ "AMERSTD 191": {
+  "course": "AMERSTD 191",
+  "difficulty": 3.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.98)",
+     "value": 4.1,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.98), with 43% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 2.98,
+   "letter": "B",
+   "students": 140,
+   "pctA": 43,
+   "pctBelowB": 25,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.81,
+    "difficulty": 4.2
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.42,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20191"
+  ]
+ },
+ "AMERSTD 198": {
+  "course": "AMERSTD 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Cohen",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Christine Palmer",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Christopher Kutz",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20198"
+  ]
+ },
+ "AMERSTD 199": {
+  "course": "AMERSTD 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Cohen",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Christine Palmer",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Margaretta Lovell",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Scott Saul",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kathleen Moran",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20199"
+  ]
+ },
+ "AMERSTD 98": {
+  "course": "AMERSTD 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alexander Craghead",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%2098"
+  ]
+ },
+ "AMERSTD C111E": {
+  "course": "AMERSTD C111E",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.255
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.25), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 134,
+   "pctA": 50,
+   "pctBelowB": 11,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Bryan Wagner",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Christine Palmer",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.31,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Scott Saul",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.95,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.44,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20C111E"
+  ]
+ },
+ "AMERSTD C112": {
+  "course": "AMERSTD C112",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 36,
+   "pctA": 68,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Craghead",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.59,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20C112"
+  ]
+ },
+ "AMERSTD C152": {
+  "course": "AMERSTD C152",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.177
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 51,
+   "pctA": 76,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Enrique Lima",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20C152"
+  ]
+ },
+ "AMERSTD C171": {
+  "course": "AMERSTD C171",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.128
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.037
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.37), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 29,
+   "pctA": 59,
+   "pctBelowB": 9,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Louise Mozingo",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.48,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20C171"
+  ]
+ },
+ "AMERSTD C172": {
+  "course": "AMERSTD C172",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 75,
+   "pctA": 51,
+   "pctBelowB": 11,
+   "pctPassNoPass": 37,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christine Rosen",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.2,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20C172"
+  ]
+ },
+ "AMERSTD C20": {
+  "course": "AMERSTD C20",
+  "difficulty": 4.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade C+ (2.34)",
+     "value": 5.0,
+     "weight": 0.215
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is C+ (2.34), with 14% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.34,
+   "letter": "C+",
+   "students": 80,
+   "pctA": 14,
+   "pctBelowB": 57,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 15
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Bryan Wagner",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.34,
+    "difficulty": 4.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20C20"
+  ]
+ },
+ "AMERSTD H195": {
+  "course": "AMERSTD H195",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.188
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 92% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 58,
+   "pctA": 92,
+   "pctBelowB": 4,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Craghead",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Sarah Gold McBride",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.85,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AMERSTD%20H195"
+  ]
+ }
+}

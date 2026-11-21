@@ -1,0 +1,127 @@
+{
+ "XTHEATR 52AC": {
+  "course": "XTHEATR 52AC",
+  "difficulty": 1.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.243
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.0/5 for difficulty, 1.5/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.83), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 114,
+   "pctA": 94,
+   "pctBelowB": 4,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 90
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1,
+   "workload": 1.5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sima Belmar",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.83,
+    "studentCount": 2,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 1.5,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XTHEATR%2052AC"
+  ]
+ }
+}

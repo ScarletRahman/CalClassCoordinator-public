@@ -1,0 +1,1280 @@
+{
+ "id": "major-chemical-engineering-bs",
+ "title": "Chemical Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/10294U",
+  "https://undergraduate.catalog.berkeley.edu/programs/10294U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "10294U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "open-elective-program-no-concentration",
+     "title": "Open Elective Program (no concentration)"
+    },
+    {
+     "id": "applied-physical-science",
+     "title": "Applied Physical Science"
+    },
+    {
+     "id": "biotechnology",
+     "title": "Biotechnology"
+    },
+    {
+     "id": "business-and-management",
+     "title": "Business and Management"
+    },
+    {
+     "id": "chemical-processing",
+     "title": "Chemical Processing"
+    },
+    {
+     "id": "energy-and-environment",
+     "title": "Energy & Environment"
+    },
+    {
+     "id": "materials-science-and-technology",
+     "title": "Materials Science & Technology"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "General Guidelines\n- A minimum grade point average (GPA) of 2.0 must be maintained in all courses undertaken at UC Berkeley, including those from UC Summer Sessions, UC Education Abroad Program, UC Berkeley in Washington Program, and XB courses from University Extension.\n- A minimum GPA of 2.0 in all courses taken in the college is required in order to advance and continue in the upper division.\n- A minimum GPA of 2.0 in all upper division courses taken at the University is required to satisfy major requirements.\n- Students in the College of Chemistry who receive a grade of D+ or lower in a chemical and biomolecular engineering or chemistry course for which a grade of C- or higher is required must repeat the course at UC Berkeley."
+ ],
+ "requirements": [
+  {
+   "id": "chemistry-a-series",
+   "title": "Chemistry A Series",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 5,
+    "filter": {
+     "courses": [
+      "CHEM 1A",
+      "CHEM 1AL",
+      "CHEM 4A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "chemistry-b-series",
+   "title": "Chemistry B Series",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "CHEM 4B"
+   }
+  },
+  {
+   "id": "organic-chemistry",
+   "title": "Organic Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "CHEM 12A"
+   }
+  },
+  {
+   "id": "programming-requirement",
+   "title": "Programming Requirement",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering-biology",
+   "title": "Bioengineering/Biology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 11"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-requirements",
+   "title": "Upper Division Requirements",
+   "section": "Upper Division",
+   "notes": "Plus 3 units of lower- or upper-division Engineering electives (required for all CBE majors).",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 120A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 137A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 130"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 140"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 141"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 142"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 150A"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 150B"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 160"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 162"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM C170L"
+       },
+       {
+        "type": "course",
+        "course": "CHMENG 154"
+       },
+       {
+        "type": "course",
+        "course": "CHMENG C170L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "open-elective-program-no-concentration-physical-and-biological-sciences-elective",
+   "title": "Physical & Biological Sciences Elective",
+   "section": "Open Elective Program (no concentration)",
+   "choice": "concentration",
+   "option": "open-elective-program-no-concentration",
+   "notes": "Students who do not choose a concentration must complete the following requirements for the open elective program.\nThe full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 units of:\n- Anthropology 1, C100, C103, 107, 134, 135\n- Astronomy 3, 7A, 7B, 10, C10, C12, C162\n- Biology 1B\n- Chemistry 12B+, 103, 104A, 104B, 105, 108, 113, 114, 115, 120B, 121, 122, 125, C130, 135, 143, 146, C147, C150, C182, C191, 192, H194, 196\n- Civil and Environmental Engineering C106, C116\n- Cognitive Science C102, C126, C127\n- Earth and Planetary Science 3, C12, 20, C20, 50, 80, 100A, 103, 108, 117, C129, 130, C146, C162, C171, C180, 181, C182\n- Energy and Resources Group 102 … (see the catalog for the rest)"
+   }
+  },
+  {
+   "id": "open-elective-program-no-concentration-chemical-engineering-elective",
+   "title": "Chemical Engineering Elective",
+   "section": "Open Elective Program (no concentration)",
+   "choice": "concentration",
+   "option": "open-elective-program-no-concentration",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 units of:\nChemical Engineering 143, 148, 170A, 170B, C170L, 171, 176, C178, 179, 182, 183, 186, 187, H194, C195A (C195A may be repeated for credit when the topic changes), 288, C295R"
+   }
+  },
+  {
+   "id": "open-elective-program-no-concentration-engineering-elective",
+   "title": "Engineering Elective",
+   "section": "Open Elective Program (no concentration)",
+   "choice": "concentration",
+   "option": "open-elective-program-no-concentration",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 6 units of:\nBioengineering 101, 102, 103, 104, 110, 111, C112, 113, 114, 115, C117, C118, C119, 121, 121L, 124, C125, C125B, 131, 132, 135, C136L, 140L, 143, 144, 144L, C145L, C145M, 147, 148, 150, 151, 163, 163L, 164, C165, 168L, C181, 196\nChemical Engineering 143, 148, 170A, 170B, C170L, 171, 176, C178, 179, 182, 183, 186, 187, H194, C195A (C195A may be repeated for credit when the topic changes), 196, 288, C295R\nChemistry C138 … (see the catalog for the rest)"
+   }
+  },
+  {
+   "id": "applied-physical-science-physical-and-biological-science-electives",
+   "title": "Physical & Biological Science Electives",
+   "section": "Applied Physical Science",
+   "choice": "concentration",
+   "option": "applied-physical-science",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 6 units of:\n- CHEM 12B+, 103, 104A, 104B, 105, 108, 113, 114, 115, 120B, 121, 122, 125, C130, 135, 143, 146, C147, C150, C182, C191, 192, H194, 196\n- PHYSICS 7C, C21, 105, 110A, 110B, 112, 129, 130, 137B, 138, 141A, 177",
+    "mentionedCourses": [
+     "CHEM 12B",
+     "PHYSICS 7C",
+     "PHYSICS C21",
+     "PHYSICS 105",
+     "PHYSICS 110A",
+     "PHYSICS 110B",
+     "PHYSICS 112",
+     "PHYSICS 129",
+     "PHYSICS 130",
+     "PHYSICS 137B",
+     "PHYSICS 138",
+     "PHYSICS 141A",
+     "PHYSICS 177"
+    ]
+   }
+  },
+  {
+   "id": "applied-physical-science-chemical-engineering-elective",
+   "title": "Chemical Engineering Elective",
+   "section": "Applied Physical Science",
+   "choice": "concentration",
+   "option": "applied-physical-science",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 units of:\n- CHMENG 143, 148, 170A, 170B, C170L, 171, 176, C178, 179, 182, 183, 186, 187, H194, C195A (C195A may be repeated for credit when the topic changes), 288, C295R",
+    "mentionedCourses": [
+     "CHMENG 143",
+     "CHMENG 148",
+     "CHMENG 170A",
+     "CHMENG 170B",
+     "CHMENG C170L",
+     "CHMENG 171",
+     "CHMENG 176",
+     "CHMENG C178",
+     "CHMENG 179",
+     "CHMENG 182",
+     "CHMENG 183",
+     "CHMENG 186",
+     "CHMENG 187",
+     "CHMENG H194",
+     "CHMENG C195A"
+    ]
+   }
+  },
+  {
+   "id": "applied-physical-science-engineering-elective",
+   "title": "Engineering Elective",
+   "section": "Applied Physical Science",
+   "choice": "concentration",
+   "option": "applied-physical-science",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 units of:\n- BIOENG 101, 102, 103, 104, 110, 111, C112, 113, 114, 115, C117, C118, C119, 121, 121L, 124, C125, C125B, 131, 132, 135, C136L, 140L, 143, 144, 144L, C145L, C145M, 147, 148, 150, 151, 163, 163L, 164, C165, 168L, C181, 196\n- CHEM C138\n- CHMENG 143, 148, 170A, 170B, C170L, 171, 176, C178, 179, 182, 183, 186, 187, H194, C195A (C195A may be repeated for credit when the topic changes), 196, 288, C295R … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 101",
+     "BIOENG 102",
+     "BIOENG 103",
+     "BIOENG 104",
+     "BIOENG 110",
+     "BIOENG 111",
+     "BIOENG C112",
+     "BIOENG 114",
+     "BIOENG 115",
+     "BIOENG C117",
+     "BIOENG C118",
+     "BIOENG C119",
+     "BIOENG 121",
+     "BIOENG 121L",
+     "BIOENG 124",
+     "BIOENG 131",
+     "BIOENG 135",
+     "BIOENG C136L",
+     "BIOENG 140L",
+     "BIOENG C145L",
+     "BIOENG C145M",
+     "BIOENG 147",
+     "BIOENG 148",
+     "BIOENG 150",
+     "BIOENG 163",
+     "BIOENG 163L",
+     "BIOENG C165",
+     "BIOENG 168L",
+     "BIOENG 196",
+     "CHMENG 143",
+     "CHMENG 148",
+     "CHMENG 170A",
+     "CHMENG 170B",
+     "CHMENG C170L",
+     "CHMENG 171",
+     "CHMENG 176",
+     "CHMENG C178",
+     "CHMENG 179",
+     "CHMENG 182",
+     "CHMENG 183",
+     "CHMENG 186",
+     "CHMENG 187",
+     "CHMENG H194",
+     "CHMENG C195A",
+     "CIVENG 101",
+     "CIVENG 105",
+     "CIVENG C106",
+     "CIVENG 107",
+     "CIVENG 108",
+     "CIVENG 110",
+     "CIVENG 111",
+     "CIVENG 111L",
+     "CIVENG 112",
+     "CIVENG 114",
+     "CIVENG 115",
+     "CIVENG C116",
+     "CIVENG 120",
+     "CIVENG 121",
+     "CIVENG 124",
+     "CIVENG C133",
+     "CIVENG 153",
+     "CIVENG 155",
+     "CIVENG 167",
+     "CIVENG 171",
+     "CIVENG 173",
+     "CIVENG 175",
+     "CIVENG 176",
+     "CIVENG C178",
+     "CIVENG 180",
+     "CIVENG 186",
+     "CIVENG 188",
+     "CIVENG 191",
+     "CIVENG 193",
+     "COMPSCI C100",
+     "COMPSCI 161",
+     "COMPSCI 162",
+     "COMPSCI 184",
+     "COMPSCI 188",
+     "COMPSCI 189",
+     "ELENG 105",
+     "ELENG C106A",
+     "ELENG C106B",
+     "ELENG 113",
+     "ELENG 118",
+     "ELENG 130",
+     "ELENG 134",
+     "ELENG 137A",
+     "ELENG 137B",
+     "ELENG 140",
+     "ELENG 142",
+     "ELENG 143",
+     "ELENG C145B",
+     "ELENG C145L",
+     "ELENG C145O",
+     "ELENG 147",
+     "ENGIN 117",
+     "ENGIN 120",
+     "INDENG 120",
+     "INDENG 153",
+     "INDENG 160",
+     "INDENG 162",
+     "INDENG 165",
+     "INDENG 166",
+     "INDENG 170",
+     "MATSCI 102",
+     "MATSCI 104",
+     "MATSCI 111",
+     "MATSCI 112",
+     "MATSCI 113",
+     "MATSCI 117",
+     "MATSCI C118",
+     "MATSCI 120",
+     "MATSCI 121",
+     "MATSCI 122",
+     "MATSCI 123",
+     "MATSCI 125",
+     "MATSCI 136",
+     "MATSCI 140",
+     "MATSCI 151",
+     "MATSCI 159",
+     "MATSCI H194",
+     "MECENG 102B",
+     "MECENG 104",
+     "MECENG 106",
+     "MECENG 108",
+     "MECENG 109",
+     "MECENG 110",
+     "MECENG C115",
+     "MECENG C117",
+     "MECENG 119",
+     "MECENG 122",
+     "MECENG 130",
+     "MECENG 131",
+     "MECENG 133",
+     "MECENG 135",
+     "MECENG 138",
+     "MECENG 140",
+     "MECENG 146",
+     "MECENG 150A",
+     "MECENG 151",
+     "MECENG 163",
+     "MECENG 164",
+     "MECENG 165",
+     "MECENG 167",
+     "MECENG 170",
+     "MECENG 173",
+     "MECENG 175",
+     "MECENG C180",
+     "MECENG 185",
+     "NUCENG 100",
+     "NUCENG 101",
+     "NUCENG 102",
+     "NUCENG 120",
+     "NUCENG 124",
+     "NUCENG 130",
+     "NUCENG 150",
+     "NUCENG 155",
+     "NUCENG 161",
+     "NUCENG 162",
+     "NUCENG 167",
+     "NUCENG 175",
+     "NUCENG 180"
+    ]
+   }
+  },
+  {
+   "id": "biotechnology-biotechnology-concentration",
+   "title": "Biotechnology Concentration",
+   "section": "Biotechnology",
+   "choice": "concentration",
+   "option": "biotechnology",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHMENG 170A"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 170B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 12B"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI C112"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI 104"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C112"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOENG 11"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 135"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI 102"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "biotechnology-electives",
+   "title": "Electives",
+   "section": "Biotechnology",
+   "choice": "concentration",
+   "option": "biotechnology",
+   "notes": "CHMENG 196/H194 requires faculty approval.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG C144"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C213"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 103"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 111"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 148"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C170L"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 182"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 196"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG H194"
+     }
+    ]
+   }
+  },
+  {
+   "id": "business-and-management-physical-and-biological-science-elective",
+   "title": "Physical & Biological Science Elective",
+   "section": "Business and Management",
+   "choice": "concentration",
+   "option": "business-and-management",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 3 credits from the following:\n- ANTHRO 1, C100, C103, 107, 134, 135\n- ASTRON 3, 7A, 7B, 10, C10, C12, C162\n- BIOLOGY 1B\n- CHEM 12B+, 103, 104A, 104B, 105, 108, 113, 114, 115, 120B, 121, 122, 125, C130, 135, 143, 146, C147, C150, C182, C191, 192, H194, 196\n- CIVENG C106, C116\n- COGSCI C102, C126, C127\n- EPS 3, C12, 20, C20, 50, 80, 100A, 103, 108, 117, C129, 130, C146, C162, C171, C180, 181, C182 ● ENERES 102 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "ANTHRO 1",
+     "ANTHRO C103",
+     "ANTHRO 107",
+     "ANTHRO 134",
+     "ANTHRO 135",
+     "ASTRON 3",
+     "ASTRON 7A",
+     "ASTRON 7B",
+     "ASTRON 10",
+     "ASTRON C10",
+     "ASTRON C12",
+     "ASTRON C162",
+     "BIOLOGY 1B",
+     "CHEM 12B",
+     "CIVENG C106",
+     "CIVENG C116",
+     "COGSCI C126",
+     "COGSCI C127",
+     "EPS 3",
+     "EPS C12",
+     "EPS 20",
+     "EPS C20",
+     "EPS 50",
+     "EPS 80",
+     "EPS 100A",
+     "EPS 103",
+     "EPS 108",
+     "EPS 117",
+     "EPS C129",
+     "EPS 130",
+     "EPS C162",
+     "EPS C180",
+     "EPS 181",
+     "EPS C182",
+     "ENERES 102",
+     "ESPM 2",
+     "ESPM 6",
+     "ESPM 15",
+     "ESPM C10",
+     "ESPM C11",
+     "ESPM 40",
+     "ESPM 42",
+     "ESPM 44",
+     "ESPM 100",
+     "ESPM 102B",
+     "ESPM 102C",
+     "ESPM C103",
+     "ESPM 106",
+     "ESPM C107",
+     "ESPM 108A",
+     "ESPM 108B",
+     "ESPM 112",
+     "ESPM 113",
+     "ESPM 114",
+     "ESPM 115B",
+     "ESPM 117",
+     "ESPM 118",
+     "ESPM 120",
+     "ESPM C128",
+     "ESPM C129",
+     "ESPM C130",
+     "ESPM 131",
+     "ESPM 134",
+     "ESPM 137",
+     "ESPM C138",
+     "ESPM 140",
+     "ESPM 142",
+     "ESPM 144",
+     "ESPM C148",
+     "ESPM 152",
+     "ESPM 172",
+     "ESPM 174",
+     "ESPM C180",
+     "ESPM 185",
+     "ESPM 186",
+     "ESPM 187",
+     "GEOG N1",
+     "GEOG 40",
+     "GEOG C136",
+     "GEOG 137",
+     "GEOG 140A",
+     "GEOG 143",
+     "GEOG 144",
+     "GEOG C148",
+     "GEOG 171",
+     "INTEGBI 31",
+     "INTEGBI 41",
+     "INTEGBI 102LF",
+     "INTEGBI 103LF",
+     "INTEGBI 104LF",
+     "INTEGBI C107L",
+     "INTEGBI 117",
+     "INTEGBI 118",
+     "INTEGBI 123AL",
+     "INTEGBI 131",
+     "INTEGBI 135",
+     "INTEGBI 137",
+     "INTEGBI C142L",
+     "INTEGBI C143A",
+     "INTEGBI C143B",
+     "INTEGBI 148",
+     "INTEGBI 151",
+     "INTEGBI 153",
+     "INTEGBI 154",
+     "INTEGBI 154L",
+     "INTEGBI C156",
+     "INTEGBI 158LF",
+     "INTEGBI 159",
+     "INTEGBI 161",
+     "INTEGBI 162",
+     "INTEGBI 164",
+     "INTEGBI 168L",
+     "INTEGBI 169",
+     "INTEGBI 174LF",
+     "INTEGBI 184L",
+     "INTEGBI C185L",
+     "LS C30U",
+     "LS C30V",
+     "LS C70T",
+     "LS C70U",
+     "LS C70W",
+     "LS C70Y",
+     "MATSCI 45",
+     "MCELLBI 32",
+     "MCELLBI 41",
+     "MCELLBI 50",
+     "MCELLBI C61",
+     "MCELLBI C62",
+     "MCELLBI C100A",
+     "MCELLBI 100B",
+     "MCELLBI 102",
+     "MCELLBI C103",
+     "MCELLBI 104",
+     "MCELLBI C112",
+     "MCELLBI C114",
+     "MCELLBI C116",
+     "MCELLBI 130",
+     "MCELLBI 132",
+     "MCELLBI 133L",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 140",
+     "MCELLBI 140L",
+     "MCELLBI 141",
+     "MCELLBI 143",
+     "MCELLBI C148",
+     "MCELLBI 150",
+     "MCELLBI 163L",
+     "MBN 10",
+     "MBN 108A",
+     "MBN 160",
+     "PHYSICS 7C",
+     "PHYSICS C21",
+     "PHYSICS 105",
+     "PHYSICS 110A",
+     "PHYSICS 110B",
+     "PHYSICS 112",
+     "PHYSICS 129",
+     "PHYSICS 130",
+     "PHYSICS 137B",
+     "PHYSICS 138",
+     "PHYSICS 141A",
+     "PHYSICS 177",
+     "PLANTBI 40",
+     "PLANTBI C103",
+     "PLANTBI C107L",
+     "PLANTBI C112",
+     "PLANTBI C114",
+     "PLANTBI C116",
+     "PLANTBI 120",
+     "PLANTBI 120L",
+     "PLANTBI 122",
+     "PLANTBI 135",
+     "PLANTBI C148",
+     "PLANTBI 150",
+     "PLANTBI 160",
+     "PLANTBI 170",
+     "PLANTBI 180",
+     "PSYCH 110",
+     "PSYCH C113",
+     "PSYCH 114",
+     "PSYCH C116",
+     "PSYCH 117",
+     "PSYCH C126",
+     "PSYCH C127",
+     "PBHLTH 162A"
+    ]
+   }
+  },
+  {
+   "id": "business-and-management-industrial-engineering",
+   "title": "Industrial Engineering",
+   "section": "Business and Management",
+   "choice": "concentration",
+   "option": "business-and-management",
+   "rule": {
+    "type": "course",
+    "course": "INDENG 120"
+   }
+  },
+  {
+   "id": "business-and-management-engineering-elective",
+   "title": "Engineering Elective",
+   "section": "Business and Management",
+   "choice": "concentration",
+   "option": "business-and-management",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 3 credits from the following:\n- BIOENG 101, 102, 103, 104, 110, 111, C112, 113, 114, 115, C117, C118, C119, 121, 121L, 124, C125, C125B, 131, 132, 135, C136L, 140L, 143, 144, 144L, C145L, C145M, 147, 148, 150, 151, 163, 163L, 164, C165, 168L, C181, 196\n- CHMENG 143, 148, 170A, 170B, C170L, 171, 176, C178, 179, 182, 183, 186, 187, H194, C195A (C195A may be repeated for credit when the topic changes), 196, 288, C295R\n- CHEM C138 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 101",
+     "BIOENG 102",
+     "BIOENG 103",
+     "BIOENG 104",
+     "BIOENG 110",
+     "BIOENG 111",
+     "BIOENG C112",
+     "BIOENG 114",
+     "BIOENG 115",
+     "BIOENG C117",
+     "BIOENG C118",
+     "BIOENG C119",
+     "BIOENG 121",
+     "BIOENG 121L",
+     "BIOENG 124",
+     "BIOENG 131",
+     "BIOENG 135",
+     "BIOENG C136L",
+     "BIOENG 140L",
+     "BIOENG C145L",
+     "BIOENG C145M",
+     "BIOENG 147",
+     "BIOENG 148",
+     "BIOENG 150",
+     "BIOENG 163",
+     "BIOENG 163L",
+     "BIOENG C165",
+     "BIOENG 168L",
+     "BIOENG 196",
+     "CHMENG 143",
+     "CHMENG 148",
+     "CHMENG 170A",
+     "CHMENG 170B",
+     "CHMENG C170L",
+     "CHMENG 171",
+     "CHMENG 176",
+     "CHMENG C178",
+     "CHMENG 179",
+     "CHMENG 182",
+     "CHMENG 183",
+     "CHMENG 186",
+     "CHMENG 187",
+     "CHMENG H194",
+     "CHMENG C195A",
+     "CIVENG 101",
+     "CIVENG 105",
+     "CIVENG C106",
+     "CIVENG 107",
+     "CIVENG 108",
+     "CIVENG 110",
+     "CIVENG 111",
+     "CIVENG 111L",
+     "CIVENG 112",
+     "CIVENG 114",
+     "CIVENG 115",
+     "CIVENG C116",
+     "CIVENG 120",
+     "CIVENG 121",
+     "CIVENG 124",
+     "CIVENG C133",
+     "CIVENG 153",
+     "CIVENG 155",
+     "CIVENG 167",
+     "CIVENG 171",
+     "CIVENG 173",
+     "CIVENG 175",
+     "CIVENG 176",
+     "CIVENG C178",
+     "CIVENG 180",
+     "CIVENG 186",
+     "CIVENG 188",
+     "CIVENG 191",
+     "CIVENG 193",
+     "COMPSCI C100",
+     "COMPSCI 161",
+     "COMPSCI 162",
+     "COMPSCI 184",
+     "COMPSCI 188",
+     "COMPSCI 189",
+     "ELENG 105",
+     "ELENG C106A",
+     "ELENG C106B",
+     "ELENG 113",
+     "ELENG 118",
+     "ELENG 130",
+     "ELENG 134",
+     "ELENG 137A",
+     "ELENG 137B",
+     "ELENG 140",
+     "ELENG 142",
+     "ELENG 143",
+     "ELENG C145B",
+     "ELENG C145L",
+     "ELENG C145O",
+     "ELENG 147",
+     "ENGIN 117",
+     "ENGIN 120",
+     "INDENG 120",
+     "INDENG 153",
+     "INDENG 160",
+     "INDENG 162",
+     "INDENG 165",
+     "INDENG 166",
+     "INDENG 170",
+     "MATSCI 102",
+     "MATSCI 104",
+     "MATSCI 111",
+     "MATSCI 112",
+     "MATSCI 113",
+     "MATSCI 117",
+     "MATSCI C118",
+     "MATSCI 120",
+     "MATSCI 121",
+     "MATSCI 122",
+     "MATSCI 123",
+     "MATSCI 125",
+     "MATSCI 136",
+     "MATSCI 140",
+     "MATSCI 151",
+     "MATSCI 159",
+     "MATSCI H194",
+     "MECENG 102B",
+     "MECENG 104",
+     "MECENG 106",
+     "MECENG 108",
+     "MECENG 109",
+     "MECENG 110",
+     "MECENG C115",
+     "MECENG C117",
+     "MECENG 119",
+     "MECENG 122",
+     "MECENG 130",
+     "MECENG 131",
+     "MECENG 133",
+     "MECENG 135",
+     "MECENG 138",
+     "MECENG 140",
+     "MECENG 146",
+     "MECENG 150A",
+     "MECENG 151",
+     "MECENG 163",
+     "MECENG 164",
+     "MECENG 165",
+     "MECENG 167",
+     "MECENG 170",
+     "MECENG 173",
+     "MECENG 175",
+     "MECENG C180",
+     "MECENG 185",
+     "NUCENG 100",
+     "NUCENG 101",
+     "NUCENG 102",
+     "NUCENG 120",
+     "NUCENG 124",
+     "NUCENG 130",
+     "NUCENG 150",
+     "NUCENG 155",
+     "NUCENG 161",
+     "NUCENG 162",
+     "NUCENG 167",
+     "NUCENG 175",
+     "NUCENG 180"
+    ]
+   }
+  },
+  {
+   "id": "business-and-management-business-elective",
+   "title": "Business Elective",
+   "section": "Business and Management",
+   "choice": "concentration",
+   "option": "business-and-management",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "UGBA 102A"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 105"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 106"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 152"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 155"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 160"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 161"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 162"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 169"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 175"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 192P"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 195A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemical-processing-chemical-processing-concentration",
+   "title": "Chemical Processing Concentration",
+   "section": "Chemical Processing",
+   "choice": "concentration",
+   "option": "chemical-processing",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 12B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemical-processing-chemical-engineering-elective",
+   "title": "Chemical Engineering Elective",
+   "section": "Chemical Processing",
+   "choice": "concentration",
+   "option": "chemical-processing",
+   "rule": {
+    "type": "filter",
+    "minUnits": 6,
+    "filter": {
+     "courses": [
+      "CHEM C178",
+      "CHMENG C178",
+      "CHMENG H194",
+      "CHMENG 170A",
+      "CHEM C170L",
+      "CHMENG 170B",
+      "CHMENG 171",
+      "CHMENG 176",
+      "CHMENG 179"
+     ]
+    }
+   }
+  },
+  {
+   "id": "chemical-processing-electives",
+   "title": "Electives",
+   "section": "Chemical Processing",
+   "choice": "concentration",
+   "option": "chemical-processing",
+   "rule": {
+    "type": "filter",
+    "minUnits": 3,
+    "filter": {
+     "courses": [
+      "BIOENG C118",
+      "CIVENG C30",
+      "CIVENG 111",
+      "CIVENG 114",
+      "CIVENG 173",
+      "MATSCI 111",
+      "MATSCI 112",
+      "MATSCI 113",
+      "MATSCI C118",
+      "MATSCI 120",
+      "MATSCI 121",
+      "MATSCI 122",
+      "MATSCI 123",
+      "MECENG 140",
+      "MECENG 151"
+     ]
+    }
+   }
+  },
+  {
+   "id": "energy-and-environment-science-course",
+   "title": "Science Course",
+   "section": "Energy & Environment",
+   "choice": "concentration",
+   "option": "energy-and-environment",
+   "rule": {
+    "type": "filter",
+    "minUnits": 3,
+    "filter": {
+     "courses": [
+      "ENERES 102",
+      "ENERES 131",
+      "EPS 80",
+      "EPS C180",
+      "CIVENG 106",
+      "EPS C181",
+      "EPS C183",
+      "EPS 102",
+      "ESPM 15",
+      "ESPM C46",
+      "ESPM C125",
+      "ESPM C133",
+      "ESPM 152",
+      "GEOG 142",
+      "ESPM C170",
+      "GEOG 40",
+      "GEOG C135",
+      "GEOG C148"
+     ]
+    }
+   }
+  },
+  {
+   "id": "energy-and-environment-engineering-course",
+   "title": "Engineering Course",
+   "section": "Energy & Environment",
+   "choice": "concentration",
+   "option": "energy-and-environment",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 9 credits from the following:\n- CHMENG 90, 176, 183, 195/295 (Carbon Sequestration, Energy from Biomass, or other approved topics)\n- CIVENG 11, C103N, 105, 106,*** 107, 110, 111, 111L, 113, 114, C116, 173\n- ELENG 134, 137A, 137B\n- MATSCI 136\n- MECENG 140, 146\n- NUCENG 100, 101, 150, 161, 180\nA maximum of 4 units of lower division coursework total can be applied from the courses above.\n***Students may not use both CIV ENG 106 and EPS C180 to fulfill the concentration requirements.",
+    "mentionedCourses": [
+     "CHMENG 90",
+     "CHMENG 176",
+     "CHMENG 183",
+     "CHMENG 195",
+     "CIVENG 11",
+     "CIVENG C103N",
+     "CIVENG 105",
+     "CIVENG 106",
+     "ELENG 134",
+     "ELENG 137A",
+     "ELENG 137B",
+     "MATSCI 136",
+     "MECENG 140",
+     "MECENG 146",
+     "NUCENG 100",
+     "NUCENG 101",
+     "NUCENG 150",
+     "NUCENG 161",
+     "NUCENG 180"
+    ]
+   }
+  },
+  {
+   "id": "materials-science-and-technology-materials-science-and-technology-concentration",
+   "title": "Materials Science & Technology Concentration",
+   "section": "Materials Science & Technology",
+   "choice": "concentration",
+   "option": "materials-science-and-technology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 12B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 108"
+     }
+    ]
+   }
+  },
+  {
+   "id": "materials-science-and-technology-materials-science-and-technology-concentration-2",
+   "title": "Materials Science & Technology Concentration",
+   "section": "Materials Science & Technology",
+   "choice": "concentration",
+   "option": "materials-science-and-technology",
+   "rule": {
+    "type": "filter",
+    "minUnits": 3,
+    "filter": {
+     "courses": [
+      "CHEM C178",
+      "CHMENG C178",
+      "CHMENG 176",
+      "CHMENG 179"
+     ]
+    }
+   }
+  },
+  {
+   "id": "materials-science-and-technology-concentration",
+   "title": "Concentration",
+   "section": "Materials Science & Technology",
+   "choice": "concentration",
+   "option": "materials-science-and-technology",
+   "rule": {
+    "type": "filter",
+    "minUnits": 6,
+    "filter": {
+     "courses": [
+      "CIVENG C30",
+      "ELENG 130",
+      "ELENG 143",
+      "MATSCI 45",
+      "MATSCI 45L",
+      "MATSCI 102",
+      "MATSCI 103",
+      "MATSCI 111",
+      "MATSCI 112",
+      "MATSCI 120",
+      "MATSCI 121",
+      "MATSCI 122",
+      "MATSCI 123",
+      "MATSCI 125",
+      "MECENG 122"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "id": "major-bioengineering-materials-science-and-engineering-joint-major-bs",
+ "title": "Bioengineering/Materials Science and Engineering BS",
+ "kind": "major",
+ "programType": "joint-major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/162B3U",
+  "https://undergraduate.catalog.berkeley.edu/programs/162B3U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "162B3U",
+ "notes": [
+  "General Guidelines\n- All courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements\n- Students cannot overlap technical courses for multiple requirements."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division-requirements",
+   "title": "Lower Division Requirements",
+   "section": "Lower Division",
+   "notes": "Please note: If you have previously taken the articulated version of a UC Berkeley course that you are currently enrolled in, the UC Berkeley course will be used to satisfy the requirement once it is graded.\n- ENGIN W7 may be taken in place of ENGIN 7\n- Junior transfer students are exempt from BIOENG 10.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 10"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 11"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 26"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis\nAND\nCHEM 3A – Chemical Structure and Reactivity and CHEM 3AL – Organic Chemistry Laboratory\nOR\nCHEM 12A – Organic Chemistry\nCHEM 4A and CHEM12A are intended for students majoring in chemistry or a closely-related field.",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A",
+     "CHEM 3A",
+     "CHEM 3AL",
+     "CHEM 12A"
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Students must complete each course with a letter grade.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 29,
+    "filter": {
+     "courses": [
+      "BIOENG C118",
+      "MATSCI C118",
+      "BIOENG 102",
+      "BIOENG 103",
+      "BIOENG 104",
+      "MATSCI 102",
+      "MATSCI 103",
+      "MATSCI 104",
+      "MATSCI 104L",
+      "MATSCI 131",
+      "BIOENG 115",
+      "MATSCI 151"
+     ]
+    }
+   }
+  },
+  {
+   "id": "physiology-stem-cells",
+   "title": "Physiology/Stem Cells",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 110"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 114"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-chemistry",
+   "title": "Physical Chemistry",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 120B"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "materials-science",
+   "title": "Materials Science",
+   "section": "Upper Division Electives",
+   "notes": "Students must complete one course, which may be taken for a letter grade or pass/no pass.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 124"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI C157"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C157"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 111"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 113"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 130"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering",
+   "title": "Bioengineering",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 110"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 111"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 114"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 115"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C117"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C117"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 121"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 124"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 150"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C157"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI C157"
+     }
+    ]
+   }
+  },
+  {
+   "id": "design-project-or-research",
+   "title": "Design Project or Research",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG H194"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 121L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 192"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 196"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182C"
+     },
+     {
+      "type": "course",
+      "course": "STS C100"
+     },
+     {
+      "type": "course",
+      "course": "ISF C100G"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100G"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 104"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 107"
+     }
+    ]
+   }
+  }
+ ]
+}

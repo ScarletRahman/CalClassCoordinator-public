@@ -1,0 +1,31 @@
+{
+ "why": "\"Students must complete two upper division laboratory courses. Option 1: a combination of independent study/research and coursework. Option 2: two courses.\" The catalog lists the pieces of both options as separate required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04847U"
+ ],
+ "merge": [
+  {
+   "block": "Upper Division Laboratory",
+   "title": "Upper Division Laboratory",
+   "type": "anyOf",
+   "notesFrom": [
+    "Options"
+   ],
+   "parts": [
+    {
+     "label": "Option 1: independent study or research plus one laboratory course",
+     "rules": [
+      "Independent Study and Research (Option 1)",
+      "Laboratory (Option 1)"
+     ]
+    },
+    {
+     "label": "Option 2: two laboratory courses",
+     "rules": [
+      "Laboratory (Option 2)"
+     ]
+    }
+   ]
+  }
+ ]
+}

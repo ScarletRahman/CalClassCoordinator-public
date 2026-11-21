@@ -1,0 +1,2077 @@
+{
+ "id": "major-environmental-sciences-bs",
+ "title": "Environmental Sciences BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04351U",
+  "https://undergraduate.catalog.berkeley.edu/programs/04351U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "04351U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "biological-sciences",
+     "title": "Biological Sciences"
+    },
+    {
+     "id": "physical-sciences",
+     "title": "Physical Sciences"
+    },
+    {
+     "id": "social-sciences",
+     "title": "Social Sciences"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Students in this major choose a concentration in biological, physical, or social sciences based on their intended research area, or general area of interest. The specific requirements for each concentration are outlined below.\nIn addition to the University, campus, and college requirements listed on the College Requirements tab, students must fulfill the below requirements specific to their major program. Please see the ES Major Snapshot for an overview.\nGeneral Requirements\n- All courses taken to fulfill the major requirements below must be taken for graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- All courses taken to fulfill major requirements must be passed with a C- or better letter grade.\n- A minimum cumulative grade point average (GPA) of 2.0 is required.\n- A minimum GPA of 2.0 in upper division major requirements is required.\n- A minimum of 30 upper division units is required in the Environmental Sciences major. 15 of the required upper division units must be taken in the College of Natural Resources.\n- Complete 10 upper-division courses for the major. Note that ESPM 175A and 175L\nin Fall will count as 2, as will ESPM 175B and 175L in Spring.\n- A minimum of 15 upper-division units must be taken in the College of Natural\nResources.\n- A maximum of 16 units of independent study (courses numbered 97, 98, 99, 197, 198, and 199) may count toward graduation, with a maximum of 4 units of independent study per semester.\n- No more than 1/3 of the total units attempted at UC Berkeley may be taken Pass/No Pass. This includes units in the Education Abroad Program and UC Intercampus Visitor or Exchange Programs.\n- A maximum of 4 units of physical education courses will count toward graduation.\n- Rausser College students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards many College and Major Requirements. See AP Exam Equivalency Chart and Higher Level IB Exam Equivalency Chart in the Rausser College Student Handbook for more information.",
+  "In addition to the concentration elective, all students take an additional elective from any area of concentration from the list below or seen on the Environmental Sciences Electives List."
+ ],
+ "requirements": [
+  {
+   "id": "biological-sciences-mathematics-part-1",
+   "title": "Mathematics, Part 1",
+   "section": "Biological Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "biological-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biological-sciences-mathematics-part-2",
+   "title": "Mathematics Part 2",
+   "section": "Biological Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "biological-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biological-sciences-chemistry",
+   "title": "Chemistry",
+   "section": "Biological Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "biological-sciences",
+   "notes": "- CHEM 12A can be taken instead of CHEM 1A/CHEM 1AL\n- CHEM 12A can be taken instead of CHEM 3A/CHEM 3AL",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "biological-sciences-biology",
+   "title": "Biology",
+   "section": "Biological Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "biological-sciences",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biological-sciences-physics",
+   "title": "Physics",
+   "section": "Biological Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "biological-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-sciences-mathematics-part-1",
+   "title": "Mathematics, Part 1",
+   "section": "Physical Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "physical-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-sciences-mathematics-part-2",
+   "title": "Mathematics, Part 2",
+   "section": "Physical Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "physical-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-sciences-chemistry",
+   "title": "Chemistry",
+   "section": "Physical Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "physical-sciences",
+   "notes": "- CHEM 12A can be taken instead of CHEM 1A/CHEM 1AL\n- CHEM 12A can be taken instead of CHEM 3A/CHEM 3AL",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-sciences-physics",
+   "title": "Physics",
+   "section": "Physical Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "physical-sciences",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-sciences-biology",
+   "title": "Biology",
+   "section": "Physical Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "physical-sciences",
+   "notes": "Option 2 requires BIOLOGY 1B and 1 additional course",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "allOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "BIOLOGY 1A"
+         },
+         {
+          "type": "course",
+          "course": "BIOLOGY 1AL"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENVECON C183"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C103"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C153"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C183"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 111"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 113"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 114"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 115B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 116B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 152"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C153"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C156"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 154"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-mathematics-part-1",
+   "title": "Mathematics, Part 1",
+   "section": "Social Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-mathematics-part-2",
+   "title": "Mathematics, Part 2",
+   "section": "Social Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-chemistry-part-1",
+   "title": "Chemistry, Part 1",
+   "section": "Social Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "notes": "CHEM 4A can be taken instead of CHEM 1A/CHEM 1AL.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 1A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1AL"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-chemistry-part-2",
+   "title": "Chemistry, Part 2",
+   "section": "Social Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "notes": "- CHEM1B can be taken instead of CHEM 3A/CHEM 3AL\n- CHEM4B can be taken instead of CHEM 3A/CHEM 3AL\n- CHEM12A can be taken instead of CHEM 3A/CHEM 3AL",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-physics",
+   "title": "Physics",
+   "section": "Social Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-biology",
+   "title": "Biology",
+   "section": "Social Sciences: Lower Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "notes": "Option 2 requires BIOLOGY 1B and 1 additional course",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "allOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "BIOLOGY 1A"
+         },
+         {
+          "type": "course",
+          "course": "BIOLOGY 1AL"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENVECON C183"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C103"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C153"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C183"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 111"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 113"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 114"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 115B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 116B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 152"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C153"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C156"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 154"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-science-core",
+   "title": "Environmental Science Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ESPM 2"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 6"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 10"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 15"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C46"
+     },
+     {
+      "type": "course",
+      "course": "LS C46"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-science-core",
+   "title": "Social Science Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO C12AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C11"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C22AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C52"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 5"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 50AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 52"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 60"
+     },
+     {
+      "type": "course",
+      "course": "LS C30U"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST C22AC"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST C52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-economics",
+   "title": "Environmental Economics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON C3"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "breadth",
+   "title": "Breadth",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "- 1 course in Arts & Literature, Historical Studies, or Philosophy & Values\n- 1 course in Social & Behavioral Sciences or International Studies"
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Upper Division Research Project",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "EECS 126"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 173"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT 133"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "methods-and-seminars",
+   "title": "Methods and Seminars",
+   "section": "Upper Division Research Project",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ESPM 100ES"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 175A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 175L"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 175B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biological-sciences-concentration-elective",
+   "title": "Concentration Elective",
+   "section": "Biological Sciences: Upper Division",
+   "choice": "concentration",
+   "option": "biological-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 103"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 115"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C100A"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 114"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS C100"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C100"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C146"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 102B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 102BL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM C103"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C156"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C104"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C115"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 105A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 106"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C107"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 108A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 108B"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 111"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 112"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 113"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 114"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 115B"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C115C"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 116C"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 117"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 118"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 120"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 121"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C126"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C144"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C129"
+     },
+     {
+      "type": "course",
+      "course": "EPS C129"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 130A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 131"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 134"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C138"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C114"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C114"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 139A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 140"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 144"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 147"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C148"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX C114"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 149"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 152"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 158"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C170"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 172"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 173"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 174"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 176A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 181A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 184"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 185"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 186"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 187"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 188"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 190"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C148"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 185"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C188"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH C188"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 126"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 102LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 103LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 117LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 146LF"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 151"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 151L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C153"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 154"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 154L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 156"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 159"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 162"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 110"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C112"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI C112L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C110L"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI C112"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C112L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C116"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C116"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI 120"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI 120L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 122"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 135"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 180"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150A"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150B"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 162A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-sciences-concentration-elective",
+   "title": "Concentration Elective",
+   "section": "Physical Sciences: Upper Division",
+   "choice": "concentration",
+   "option": "physical-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 140"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 149"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 140"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 141"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 142"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 150A"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 150B"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 183"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 103"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 105"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 125"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C100A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 130B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 135"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C182"
+     },
+     {
+      "type": "course",
+      "course": "EPS C182"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 100"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C103N"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C106"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 111"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 112"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 115"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C116"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 171"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "EPS C100"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C100"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C146"
+     },
+     {
+      "type": "course",
+      "course": "EPS 100A"
+     },
+     {
+      "type": "course",
+      "course": "EPS 100B"
+     },
+     {
+      "type": "course",
+      "course": "EPS 101"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "EPS 119"
+     },
+     {
+      "type": "course",
+      "course": "EPS 131"
+     },
+     {
+      "type": "course",
+      "course": "EPS C180"
+     },
+     {
+      "type": "course",
+      "course": "EPS C181"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C139"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 101A"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 102B"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 102BL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 120"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 121"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C128"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C129"
+     },
+     {
+      "type": "course",
+      "course": "EPS C129"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C130"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C136"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 131"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C148"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX C114"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 164"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C170"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 172"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 173"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 174"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 176A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C180"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 181A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 140A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 142"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 143"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 144"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 145"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 180"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 183"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 185"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C188"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH C188"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 126"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 120"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121B"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences-concentration-elective",
+   "title": "Concentration Elective",
+   "section": "Social Sciences: Upper Division",
+   "choice": "concentration",
+   "option": "social-sciences",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 110"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG C126"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG C175"
+     },
+     {
+      "type": "course",
+      "course": "ECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ECON C125"
+     },
+     {
+      "type": "course",
+      "course": "ECON C171"
+     },
+     {
+      "type": "course",
+      "course": "ECON C175"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 101"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C124"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 175"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 180"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 100"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C101"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C115"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 147"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C151"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 161"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 162"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 101A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102C"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C104"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 117"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C124"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 151"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 160AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 165"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 176A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 183"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 167AC"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 185"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C188"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 117"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 117LF"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 126"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 110"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 130"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH C188"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C126"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-modeling",
+   "title": "Environmental Modeling",
+   "section": "Upper Division Requirements: All Concentrations",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 131"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C115"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C104"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102C"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     }
+    ]
+   }
+  },
+  {
+   "id": "human-environment-interactions",
+   "title": "Human Environment Interactions",
+   "section": "Upper Division Requirements: All Concentrations",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO C119A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 137"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 175"
+     },
+     {
+      "type": "course",
+      "course": "ECON C125"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C160"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 171"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C180"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 160"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 174W"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 175"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C101"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C180"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 140AC"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C162A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C176"
+     },
+     {
+      "type": "course",
+      "course": "ESPM W169"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 101A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 136"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 151"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 166"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 186"
+     },
+     {
+      "type": "course",
+      "course": "GEOG N130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 138"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 120AC"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "minor-comparative-literature",
+ "title": "Comparative Literature minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I124U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I124U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I124U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "Minor Requirements\nFor the minor in Comparative Literature, students must take five courses for a letter grade: the three departmental core courses (COM LIT 100, 100A, B, C, or D; one from COM LIT 151–160, 156AC or 170, and COM LIT 190), and two in a secondary literature, which should be in another language aside from the student's main language. It is best that interested students meet with the major adviser to discuss planning for the minor.\nAll minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\nTo complete the minor, interested students should fill out the \"Completion of L&S Minor\" forms and submit to the departmental adviser no later than the fifth week of classes of your final semester before graduation. The College of L&S will be notified of minor completion approximately four weeks after the final minor course has been completed for inclusion in the student's diploma.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "introduction-to-comparative-literature",
+   "title": "Introduction to Comparative Literature",
+   "section": "Upper Division",
+   "notes": "Students must complete one course in the COMLIT 100 series OR HUM 100 when taught by a Comparative Literature professor (in consultation with advisor).",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMLIT 100"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 100A"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 100C"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 100D"
+     },
+     {
+      "type": "course",
+      "course": "HUM 100"
+     }
+    ]
+   }
+  },
+  {
+   "id": "historical-period",
+   "title": "Historical Period",
+   "section": "Upper Division",
+   "notes": "Course chosen should complement the period of the student's minor literature.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMLIT 151"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 152"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 153"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 154"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 155"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 156"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 165"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 156AC"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 170"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 171"
+     }
+    ]
+   }
+  },
+  {
+   "id": "senior-seminar",
+   "title": "Senior Seminar",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "COMLIT 190"
+   }
+  },
+  {
+   "id": "secondary-literature",
+   "title": "Secondary Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Student must choose two courses in a secondary language literature in consultation with the advisor."
+   }
+  }
+ ]
+}

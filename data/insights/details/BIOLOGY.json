@@ -1,0 +1,718 @@
+{
+ "BIOLOGY 15": {
+  "course": "BIOLOGY 15",
+  "difficulty": 2.3,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Adonis Rivie Guardado",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=BIOLOGY%2015"
+  ]
+ },
+ "BIOLOGY 1A": {
+  "course": "BIOLOGY 1A",
+  "difficulty": 4.1,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (70 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.327
+    },
+    {
+     "label": "Average grade B (2.89)",
+     "value": 4.4,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (70)",
+     "value": 3.9,
+     "weight": 0.14
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.6,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.1,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (70 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.373
+    },
+    {
+     "label": "Tone of written student reviews (171 on file)",
+     "value": 2.0,
+     "weight": 0.147
+    }
+   ]
+  },
+  "sentiment": "Reviewers describe an exam-heavy class with difficult, uncurved exams and lectures that many find disorganized or too dense. The genetics unit is called the hardest. Students say you must teach yourself from the textbook and recorded lectures, and attendance is enforced.",
+  "sentimentWrittenBy": "model",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.89,
+   "letter": "B",
+   "students": 4182,
+   "pctA": 33,
+   "pctBelowB": 31,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 157
+    },
+    {
+     "letter": "A",
+     "count": 671
+    },
+    {
+     "letter": "A-",
+     "count": 494
+    },
+    {
+     "letter": "B+",
+     "count": 446
+    },
+    {
+     "letter": "B",
+     "count": 627
+    },
+    {
+     "letter": "B-",
+     "count": 378
+    },
+    {
+     "letter": "C+",
+     "count": 314
+    },
+    {
+     "letter": "C",
+     "count": 382
+    },
+    {
+     "letter": "C-",
+     "count": 216
+    },
+    {
+     "letter": "D+",
+     "count": 119
+    },
+    {
+     "letter": "D",
+     "count": 104
+    },
+    {
+     "letter": "D-",
+     "count": 43
+    },
+    {
+     "letter": "F",
+     "count": 83
+    },
+    {
+     "letter": "P",
+     "count": 115
+    },
+    {
+     "letter": "NP",
+     "count": 33
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 70,
+   "difficulty": 4.3,
+   "workload": 3.9,
+   "usefulness": 3.8,
+   "recordedPct": 94,
+   "attendanceRequiredPct": 78
+  },
+  "byProfessor": [
+   {
+    "professor": "Karine Gibbs",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.87,
+    "studentCount": 21,
+    "studentDifficulty": 4.1,
+    "studentUsefulness": 3.7,
+    "difficulty": 4.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Randy Schekman",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.88,
+    "midterms": 2,
+    "studentCount": 43,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.3,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Andrea Gomez",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.88,
+    "studentCount": 20,
+    "studentDifficulty": 4.0,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Krishna Niyogi",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.99,
+    "midterms": 2,
+    "studentCount": 40,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Matthew Welch",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.81,
+    "midterms": 2,
+    "studentCount": 6,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4.2,
+    "difficulty": 4.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Mark Barnby",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.88,
+    "studentCount": 5,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 4.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Jennifer Doudna",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.85,
+    "studentCount": 21,
+    "studentDifficulty": 4.1,
+    "studentUsefulness": 3.7,
+    "difficulty": 4.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Lorenzo Lones",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.85,
+    "studentCount": 44,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.3,
+    "shouldTake": 3.2
+   }
+  ],
+  "reviews": [
+   {
+    "text": "We were told repeatedly that there are no curves, no grade bin shifts, no extra credit points (expect for 1 extra credit point through the course eval), even if the exams were hard because they believe the exams are easy (despite the average being low). The coordinator of Bio1A do not change his mind about this. In Fall 2025, they did provide us extra questions in the final. But, they were not happy about this, and they said that we needed to study better because this class is not a weeder…",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "This class is really something",
+    "professor": "Randy Schekman, Lorenzo Lones, Krishna Niyogi",
+    "grade": "A"
+   },
+   {
+    "text": "required attendance 8am mwf, instructors were very nit picky over attendance despite spring semester not requiring iclicker attendance. day to day course content is not hard but overall class is very exam heavy and exams are typically very difficult, not curved. midterm z-score policy is fair if needed.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "bio 1a",
+    "professor": "Randy Schekman, Lorenzo Lones, Krishna Niyogi",
+    "grade": "B"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=BIOLOGY%201A"
+  ]
+ },
+ "BIOLOGY 1AL": {
+  "course": "BIOLOGY 1AL",
+  "difficulty": 3.2,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (19 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.277
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (19)",
+     "value": 3.7,
+     "weight": 0.119
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (19 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.317
+    },
+    {
+     "label": "Tone of written student reviews (48 on file)",
+     "value": 3.0,
+     "weight": 0.138
+    }
+   ]
+  },
+  "sentiment": "Students call this a busy, dense lab course with manageable labs but exams that many consider very hard, with little partial credit. Lectures are mostly liked and effectively required because of pre-lab rules. Opinions split on fairness, and several say it is not an easy A.",
+  "sentimentWrittenBy": "model",
+  "midterms": 1,
+  "finalExam": "N",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 4148,
+   "pctA": 60,
+   "pctBelowB": 9,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 198
+    },
+    {
+     "letter": "A",
+     "count": 1482
+    },
+    {
+     "letter": "A-",
+     "count": 755
+    },
+    {
+     "letter": "B+",
+     "count": 575
+    },
+    {
+     "letter": "B",
+     "count": 411
+    },
+    {
+     "letter": "B-",
+     "count": 258
+    },
+    {
+     "letter": "C+",
+     "count": 174
+    },
+    {
+     "letter": "C",
+     "count": 106
+    },
+    {
+     "letter": "C-",
+     "count": 56
+    },
+    {
+     "letter": "D",
+     "count": 17
+    },
+    {
+     "letter": "F",
+     "count": 32
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 19,
+   "difficulty": 3.8,
+   "workload": 3.7,
+   "usefulness": 4.2,
+   "recordedPct": 94,
+   "attendanceRequiredPct": 29
+  },
+  "byProfessor": [
+   {
+    "professor": "James Smiley",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lorenzo Lones",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.41,
+    "studentCount": 18,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Robin Ball",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.7,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "William Sha",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.63,
+    "midterms": 1,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Mark Barnby",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Steve Takata",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.9
+   }
+  ],
+  "reviews": [
+   {
+    "text": "busy yet rewarding lab course. labs were pretty dense and informational, uses many different lab equipment (ex. stereoscope, dissection, etc.). quizzes and exam heavy--can break grade despite doing 9+/10 for all lab reports.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "bio 1al",
+    "professor": "Lorenzo Lones",
+    "grade": "B+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=BIOLOGY%201AL"
+  ]
+ },
+ "BIOLOGY 1B": {
+  "course": "BIOLOGY 1B",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (54 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.32
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (54)",
+     "value": 3.1,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.046
+    },
+    {
+     "label": "Student usefulness rating (54 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.366
+    },
+    {
+     "label": "Tone of written student reviews (221 on file)",
+     "value": 3.4,
+     "weight": 0.147
+    }
+   ]
+  },
+  "sentiment": "Students say the course is split into three units taught by different instructors, and quality and difficulty vary by unit. The plant and organism unit is dense and fast, while ecology is seen as easier and well organized. Reviewers advise rewatching recordings, using handouts and making flashcards.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 4045,
+   "pctA": 45,
+   "pctBelowB": 19,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 122
+    },
+    {
+     "letter": "A",
+     "count": 978
+    },
+    {
+     "letter": "A-",
+     "count": 663
+    },
+    {
+     "letter": "B+",
+     "count": 599
+    },
+    {
+     "letter": "B",
+     "count": 448
+    },
+    {
+     "letter": "B-",
+     "count": 367
+    },
+    {
+     "letter": "C+",
+     "count": 280
+    },
+    {
+     "letter": "C",
+     "count": 183
+    },
+    {
+     "letter": "C-",
+     "count": 131
+    },
+    {
+     "letter": "D+",
+     "count": 72
+    },
+    {
+     "letter": "D",
+     "count": 61
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 26
+    },
+    {
+     "letter": "P",
+     "count": 88
+    },
+    {
+     "letter": "NP",
+     "count": 26
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 54,
+   "difficulty": 2.8,
+   "workload": 3.1,
+   "usefulness": 3.7,
+   "recordedPct": 87,
+   "attendanceRequiredPct": 6
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Blackman",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.07,
+    "studentCount": 18,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.3,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Eileen Lacey",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Matthew Potts",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charles Marshall",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.25,
+    "studentCount": 25,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.0,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Caroline Williams",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.25,
+    "studentCount": 26,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.0,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Cindy Looy",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.12,
+    "studentCount": 5,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Christine Gehrig-Downie",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.54,
+    "studentCount": 3,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Benjamin Blonder",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.07,
+    "studentCount": 18,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.3,
+    "shouldTake": 3.2
+   }
+  ],
+  "reviews": [
+   {
+    "text": "1 unit per professor: Evolution (Nachman), Ecology (Blonder), Organismal Biology (Blackman). Final and Midterm retakes (both are MCQs) are on the day of Finals. Interestingly, they gave us partial credit for specific questions in Org Biology. Well organized class and lab. Midterms are MCQs and FRQs. MCQs are 3 points each, so it is easy to lose a lot of points. Units differ in difficulty depending on the person. Labs are okay and sometimes good for review.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Bio1B - Spring 2026 (Blackman, Blonder, Nachman)",
+    "professor": "Benjamin Blackman, Benjamin Blonder, Michael Nachman",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=BIOLOGY%201B"
+  ]
+ }
+}

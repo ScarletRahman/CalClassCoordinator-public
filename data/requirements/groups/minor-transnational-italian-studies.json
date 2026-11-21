@@ -1,0 +1,98 @@
+{
+ "id": "minor-transnational-italian-studies",
+ "title": "Transnational Italian Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I167U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I167U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I167U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "language",
+   "title": "Language",
+   "section": "Lower Division Prerequisites",
+   "notes": "Students must complete the equivalent of one year of Italian language to declare the Transnational Italian Studies minor.\nITALIAN 1R is equivalent to taking both ITALIAN 1 and 2.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ITALIAN 1"
+       },
+       {
+        "type": "course",
+        "course": "ITALIAN W1"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 2"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 1R"
+     }
+    ]
+   }
+  },
+  {
+   "id": "italian-literature-culture",
+   "title": "Italian Literature/Culture",
+   "section": "Lower Division Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ITALIAN 30"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 5,
+    "filter": {
+     "courses": [
+      "ITALIAN 101",
+      "ITALIAN 102",
+      "ITALIAN 105",
+      "ITALIAN 110",
+      "ITALIAN 117",
+      "ITALIAN 120",
+      "ITALIAN 125AC",
+      "ITALIAN 130A",
+      "ITALIAN 160",
+      "ITALIAN 160S",
+      "ITALIAN 163",
+      "ITALIAN 170",
+      "ITALIAN 130B",
+      "ITALIAN 140",
+      "ITALIAN 150AC",
+      "ITALIAN N160"
+     ]
+    }
+   }
+  }
+ ]
+}

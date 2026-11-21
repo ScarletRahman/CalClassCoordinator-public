@@ -1,0 +1,201 @@
+{
+ "id": "minor-eastern-european-and-eurasian-languages-and-cultures",
+ "title": "Eastern European and Eurasian Languages and Cultures minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I036U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I036U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I036U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I036U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "minor-requirements",
+   "title": "Minor Requirements",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete the following requirements for the Minor in East European/Eurasian Languages & Cultures."
+   }
+  },
+  {
+   "id": "language-sequence",
+   "title": "Language Sequence",
+   "section": "Upper Division",
+   "notes": "Students must complete one of the six language sequences, plus electives.\nHungarian: Students must complete two semesters of HUNGARI 100.\nUkrainian: Students must complete two semesters of UKRAINI 100.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLISH 115A"
+       },
+       {
+        "type": "course",
+        "course": "POLISH 115B"
+       }
+      ],
+      "label": "Polish"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CZECH 116A"
+       },
+       {
+        "type": "course",
+        "course": "CZECH 116B"
+       }
+      ],
+      "label": "Czech"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ARMENI 101A"
+       },
+       {
+        "type": "course",
+        "course": "ARMENI 101B"
+       }
+      ],
+      "label": "Armenian"
+     },
+     {
+      "type": "course",
+      "course": "HUNGARI 100",
+      "label": "Hungarian"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BOSCRSR 117A"
+       },
+       {
+        "type": "course",
+        "course": "BOSCRSR 117B"
+       }
+      ],
+      "label": "Bosnian, Croatian and Serbian"
+     },
+     {
+      "type": "course",
+      "course": "UKRAINI 100",
+      "label": "Ukrainian"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARMENI 102"
+     },
+     {
+      "type": "course",
+      "course": "ARMENI 124"
+     },
+     {
+      "type": "course",
+      "course": "ARMENI 126"
+     },
+     {
+      "type": "course",
+      "course": "ARMENI 128"
+     },
+     {
+      "type": "course",
+      "course": "CZECH 163"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 100"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 138"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 139"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 147A"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 147B"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 148AC"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 150"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 151"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 158"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 170"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 171"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 172"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 175"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SLAVIC C137"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C137"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

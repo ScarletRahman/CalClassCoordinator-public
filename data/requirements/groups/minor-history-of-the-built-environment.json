@@ -1,0 +1,82 @@
+{
+ "id": "minor-history-of-the-built-environment",
+ "title": "History of the Built Environment minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/19I025U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19I025U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "19I025U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT).\n- A letter grade of C- or higher in ENV DES 1 is required to declare the minor.o declare, students must submit the CED Minor Declaration Form, available on the CED website.\n- DEADLINE TO SUBMIT FORM: One semester prior to a students final semester.\n- Each course used to fulfill minor requirements must be completed with a letter grade of C- or above.\n- Students must earn a 2.0 GPA in the upper division requirements for the minor.\n- Any course used in fulfillment of minor requirements may also be used to fulfill major and upper division CED non-major requirements.\n- Courses used to fulfill a breadth requirement may also be used to satisfy minor requirements.\n- Students may apply the non-CED version of a CED cross-listed course towards the minor.\n- Students may use up to two courses taken abroad to fulfill upper division minor requirements, with faculty approval of the individual courses.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "prerequisites",
+   "title": "Prerequisites",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "ENVDES 1"
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 170A"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 170B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "To take an elective outside of CED, please contact your advisor(s) for approval of a course.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 179"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 108"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 170"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LDARCH C171"
+       },
+       {
+        "type": "course",
+        "course": "AMERSTD C171"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

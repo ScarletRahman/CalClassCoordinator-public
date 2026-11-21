@@ -1,0 +1,4202 @@
+{
+ "ETHSTD 100": {
+  "course": "ETHSTD 100",
+  "difficulty": 2.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.259
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.72), with 80% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 142,
+   "pctA": 80,
+   "pctBelowB": 4,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 95
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.7,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.0,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20100"
+  ]
+ },
+ "ETHSTD 101A": {
+  "course": "ETHSTD 101A",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.298
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.47), with 73% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 288,
+   "pctA": 73,
+   "pctBelowB": 10,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 145
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3
+  },
+  "byProfessor": [
+   {
+    "professor": "Carolyn Chen",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "John Dougherty",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.52,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.6,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20101A"
+  ]
+ },
+ "ETHSTD 101B": {
+  "course": "ETHSTD 101B",
+  "difficulty": 2.1,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.302
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.3/5 for difficulty, 2.3/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.79), with 91% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 312,
+   "pctA": 91,
+   "pctBelowB": 4,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 199
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.3,
+   "workload": 2.3,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.78,
+    "studentCount": 3,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 4.7,
+    "difficulty": 1.9,
+    "shouldTake": 4.4
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20101B"
+  ]
+ },
+ "ETHSTD 103A": {
+  "course": "ETHSTD 103A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Gregoria Olson",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20103A"
+  ]
+ },
+ "ETHSTD 103B": {
+  "course": "ETHSTD 103B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 18,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20103B"
+  ]
+ },
+ "ETHSTD 103C": {
+  "course": "ETHSTD 103C",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 34,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sonia Hart Suarez",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.98
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20103C"
+  ]
+ },
+ "ETHSTD 103D": {
+  "course": "ETHSTD 103D",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Salvador Gutierrez Peraza",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20103D"
+  ]
+ },
+ "ETHSTD 103E": {
+  "course": "ETHSTD 103E",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.139
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 33,
+   "pctA": 76,
+   "pctBelowB": 9,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aneliza Ruiz",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "David Pham",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20103E"
+  ]
+ },
+ "ETHSTD 10AC": {
+  "course": "ETHSTD 10AC",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.308
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 370,
+   "pctA": 87,
+   "pctBelowB": 5,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 112
+    },
+    {
+     "letter": "A",
+     "count": 180
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christian Paiz",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.77,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2010AC"
+  ]
+ },
+ "ETHSTD 11AC": {
+  "course": "ETHSTD 11AC",
+  "difficulty": 2.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 2.3/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.65), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 749,
+   "pctA": 80,
+   "pctBelowB": 6,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 408
+    },
+    {
+     "letter": "A-",
+     "count": 121
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2.3,
+   "usefulness": 3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Keith Feldman",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.66,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.1,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Gregory Choy",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Juana Maria Rodriguez",
+    "terms": 5,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.64,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2011AC"
+  ]
+ },
+ "ETHSTD 12": {
+  "course": "ETHSTD 12",
+  "difficulty": 2.1,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.222
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is A (3.87), with 88% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 87,
+   "pctA": 88,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Choy",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Ida Yalzadeh",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.0,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2012"
+  ]
+ },
+ "ETHSTD 122AC": {
+  "course": "ETHSTD 122AC",
+  "difficulty": 1.9,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.79), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 457,
+   "pctA": 87,
+   "pctBelowB": 1,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 221
+    },
+    {
+     "letter": "A-",
+     "count": 97
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 50
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Raymond Telles",
+    "terms": 7,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.78,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4,
+    "difficulty": 1.6,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Peter Kim",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.56,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20122AC"
+  ]
+ },
+ "ETHSTD 126": {
+  "course": "ETHSTD 126",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 37% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 30,
+   "pctA": 37,
+   "pctBelowB": 3,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20126"
+  ]
+ },
+ "ETHSTD 127": {
+  "course": "ETHSTD 127",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 75,
+   "pctA": 91,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 50
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Juana Maria Rodriguez",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.89,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20127"
+  ]
+ },
+ "ETHSTD 130": {
+  "course": "ETHSTD 130",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.228
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 94,
+   "pctA": 87,
+   "pctBelowB": 6,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.91,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20130"
+  ]
+ },
+ "ETHSTD 135": {
+  "course": "ETHSTD 135",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 29,
+   "pctA": 70,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Juan Berumen",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.44,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20135"
+  ]
+ },
+ "ETHSTD 144AC": {
+  "course": "ETHSTD 144AC",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.289
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 238,
+   "pctA": 79,
+   "pctBelowB": 6,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 133
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Chang",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Andrew Lah",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.52,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Kathleen Tarr",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.23,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20144AC"
+  ]
+ },
+ "ETHSTD 145": {
+  "course": "ETHSTD 145",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 91,
+   "pctBelowB": 3,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Munir Jiwa",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20145"
+  ]
+ },
+ "ETHSTD 147AC": {
+  "course": "ETHSTD 147AC",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 15,
+   "pctA": 60,
+   "pctBelowB": 0,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20147AC"
+  ]
+ },
+ "ETHSTD 150": {
+  "course": "ETHSTD 150",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.93), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 140,
+   "pctA": 94,
+   "pctBelowB": 0,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 106
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.95,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20150"
+  ]
+ },
+ "ETHSTD 159AC": {
+  "course": "ETHSTD 159AC",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.213
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 78,
+   "pctA": 79,
+   "pctBelowB": 1,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=GEOG%20159AC"
+  ]
+ },
+ "ETHSTD 160AC": {
+  "course": "ETHSTD 160AC",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 64% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 13,
+   "pctA": 64,
+   "pctBelowB": 18,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anibel Ferus-Comelo",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20160AC"
+  ]
+ },
+ "ETHSTD 173AC": {
+  "course": "ETHSTD 173AC",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.188
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 58,
+   "pctA": 82,
+   "pctBelowB": 5,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Biolsi",
+    "terms": 4,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20173AC"
+  ]
+ },
+ "ETHSTD 174": {
+  "course": "ETHSTD 174",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.262
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 92% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 148,
+   "pctA": 92,
+   "pctBelowB": 2,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 94
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20174"
+  ]
+ },
+ "ETHSTD 175": {
+  "course": "ETHSTD 175",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.272
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 91% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 175,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 126
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.87,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20175"
+  ]
+ },
+ "ETHSTD 176": {
+  "course": "ETHSTD 176",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.272
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 91% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 175,
+   "pctA": 91,
+   "pctBelowB": 3,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 122
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Choy",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20176"
+  ]
+ },
+ "ETHSTD 180": {
+  "course": "ETHSTD 180",
+  "difficulty": 2.1,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.293
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.74), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 255,
+   "pctA": 88,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 148
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Enrique Lima",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Dougherty",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.68,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Philip Ting",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Diana Negrin",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.69,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Andres Cediel",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Raymond Telles",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20180"
+  ]
+ },
+ "ETHSTD 180L": {
+  "course": "ETHSTD 180L",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.269
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 165,
+   "pctA": 86,
+   "pctBelowB": 6,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 104
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Chang",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.79,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Francisco Casique",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.69,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20180L"
+  ]
+ },
+ "ETHSTD 181AC": {
+  "course": "ETHSTD 181AC",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.263
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.90), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 152,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 47,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 73
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 69
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Keith Feldman",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Erin Kerrison",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Ianna Owen",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Eric Stanley",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20181AC"
+  ]
+ },
+ "ETHSTD 190": {
+  "course": "ETHSTD 190",
+  "difficulty": 2.2,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.263
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.65), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 152,
+   "pctA": 75,
+   "pctBelowB": 7,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 74
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Keith Feldman",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Long Le-Khac",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shari Huhndorf",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.36,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.95,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Esiteli Hafoka",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Juana Maria Rodriguez",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Raul Coronado",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.81,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20190"
+  ]
+ },
+ "ETHSTD 190AC": {
+  "course": "ETHSTD 190AC",
+  "difficulty": 2.0,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.254
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 2.5/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.80), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 133,
+   "pctA": 90,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 75
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 2.5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Victoria Robinson",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20190AC"
+  ]
+ },
+ "ETHSTD 194": {
+  "course": "ETHSTD 194",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.302
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 314,
+   "pctA": 89,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 63
+    },
+    {
+     "letter": "A",
+     "count": 191
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Mitzi Rocha",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Giovanni Fairrington",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.77,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Luisa Giulianetti",
+    "terms": 7,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20194"
+  ]
+ },
+ "ETHSTD 194B": {
+  "course": "ETHSTD 194B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Luisa Giulianetti",
+    "terms": 4,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20194B"
+  ]
+ },
+ "ETHSTD 196": {
+  "course": "ETHSTD 196",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Diana Negrin",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Pablo Gonzalez",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20196"
+  ]
+ },
+ "ETHSTD 197": {
+  "course": "ETHSTD 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Pablo Gonzalez",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Victoria Robinson",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Keith Feldman",
+    "terms": 11,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Harvey Dong",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Gregory Choy",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "G Cristina Mora",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20197"
+  ]
+ },
+ "ETHSTD 197A": {
+  "course": "ETHSTD 197A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Juan Berumen",
+    "terms": 3,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20197A"
+  ]
+ },
+ "ETHSTD 197AC": {
+  "course": "ETHSTD 197AC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Anibel Ferus-Comelo",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20197AC"
+  ]
+ },
+ "ETHSTD 198": {
+  "course": "ETHSTD 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Victoria Robinson",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Hatem Albazian",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Pablo Gonzalez",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gregory Choy",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Tomie Lenear Ii",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Christian Paiz",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Juana Maria Rodriguez",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20198"
+  ]
+ },
+ "ETHSTD 198BC": {
+  "course": "ETHSTD 198BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Keith Feldman",
+    "terms": 6,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Fernanda Rivera",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Cynthia Ledesma",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Nikki Jones",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20198BC"
+  ]
+ },
+ "ETHSTD 199": {
+  "course": "ETHSTD 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Juan Berumen",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Liliana Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lisa Hirai Tsuchitani",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Pablo Gonzalez",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Keith Feldman",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Raymond Telles",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20199"
+  ]
+ },
+ "ETHSTD 21AC": {
+  "course": "ETHSTD 21AC",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.308
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 362,
+   "pctA": 77,
+   "pctBelowB": 8,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 103
+    },
+    {
+     "letter": "A",
+     "count": 109
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Victoria Robinson",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2021AC"
+  ]
+ },
+ "ETHSTD 22AC": {
+  "course": "ETHSTD 22AC",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.301
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 1.8/5 for difficulty, 1.8/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.74), with 86% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 306,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 81
+    },
+    {
+     "letter": "A",
+     "count": 125
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.8,
+   "workload": 1.8,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Victoria Robinson",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "studentCount": 4,
+    "studentDifficulty": 1.8,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2022AC"
+  ]
+ },
+ "ETHSTD 24": {
+  "course": "ETHSTD 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Raul Coronado",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2024"
+  ]
+ },
+ "ETHSTD 39": {
+  "course": "ETHSTD 39",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 40,
+   "pctA": 77,
+   "pctBelowB": 4,
+   "pctPassNoPass": 35,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christian Paiz",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2039"
+  ]
+ },
+ "ETHSTD 98": {
+  "course": "ETHSTD 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "John Powell",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Coryna Ogunseitan",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2098"
+  ]
+ },
+ "ETHSTD 98BC": {
+  "course": "ETHSTD 98BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lorena Oropeza",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Keith Feldman",
+    "terms": 6,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Fernanda Rivera",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Cynthia Ledesma",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Nikki Jones",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%2098BC"
+  ]
+ },
+ "ETHSTD C135A": {
+  "course": "ETHSTD C135A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.164
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 44,
+   "pctA": 79,
+   "pctBelowB": 5,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20C135A"
+  ]
+ },
+ "ETHSTD C164A": {
+  "course": "ETHSTD C164A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 11,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anibel Ferus-Comelo",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.97,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20C164A"
+  ]
+ },
+ "ETHSTD C183": {
+  "course": "ETHSTD C183",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.51), with 73% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 15,
+   "pctA": 73,
+   "pctBelowB": 7,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Biolsi",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.51,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20C183"
+  ]
+ },
+ "ETHSTD C199C": {
+  "course": "ETHSTD C199C",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Anibel Ferus-Comelo",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20C199C"
+  ]
+ },
+ "ETHSTD C73AC": {
+  "course": "ETHSTD C73AC",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 34,
+   "pctA": 74,
+   "pctBelowB": 0,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20C73AC"
+  ]
+ },
+ "ETHSTD H196A": {
+  "course": "ETHSTD H196A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gregory Choy",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Salar Mameni",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Raymond Telles",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Victoria Robinson",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Pablo Gonzalez",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Carolyn Chen",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "John Dougherty",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20H196A"
+  ]
+ },
+ "ETHSTD H196B": {
+  "course": "ETHSTD H196B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Salar Mameni",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Pablo Gonzalez",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Victoria Robinson",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Vernadette Gonzalez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Keith Feldman",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hatem Albazian",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jesus Barraza",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shari Huhndorf",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20H196B"
+  ]
+ },
+ "ETHSTD N180": {
+  "course": "ETHSTD N180",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 53,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hatem Albazian",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20N180"
+  ]
+ },
+ "ETHSTD N194": {
+  "course": "ETHSTD N194",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.254
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 133,
+   "pctA": 90,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 91
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fernanda Rivera",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.91,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Luisa Giulianetti",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20N194"
+  ]
+ },
+ "ETHSTD W11AC": {
+  "course": "ETHSTD W11AC",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 42,
+   "pctA": 75,
+   "pctBelowB": 5,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Juana Maria Rodriguez",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ETHSTD%20W11AC"
+  ]
+ }
+}

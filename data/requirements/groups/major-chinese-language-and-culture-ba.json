@@ -1,0 +1,168 @@
+{
+ "id": "major-chinese-language-and-culture-ba",
+ "title": "Chinese Language and Culture BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25469U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25469U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25469U",
+ "requirements": [
+  {
+   "id": "language-requirements-placement-and-proficiency-exams",
+   "title": "Language Requirements: Placement and Proficiency Exams",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Language requirements may be satisfied via the EALC Chinese Placement Exam; students placing above the Elementary level will have the requirement waived and begin coursework at the level indicated by the exam.\nStudents who place out of both the Elementary and Intermediate levels must still complete 8 units of East Asian-related coursework (upper or lower division) within the EALC Department to fulfill major requirements. Courses outside the department may be used in consultation with the undergraduate major advisor."
+   }
+  },
+  {
+   "id": "elementary-chinese",
+   "title": "Elementary Chinese",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CHINESE 1A",
+      "CHINESE 1B",
+      "CHINESE 1X",
+      "CHINESE 1Y"
+     ]
+    }
+   }
+  },
+  {
+   "id": "intermediate-chinese",
+   "title": "Intermediate Chinese",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHINESE 10A"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 10B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "survey-of-chinese-literature-in-translation",
+   "title": "Survey of Chinese Literature in Translation",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHINESE 7A"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-chinese",
+   "title": "Advanced Chinese",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHINESE 100A"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "literary-chinese",
+   "title": "Literary Chinese",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHINESE 110A"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 110B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "modern-literature",
+   "title": "Modern Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHINESE 153"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 155"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 156"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 157"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 158"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ealc-electives",
+   "title": "EALC Electives",
+   "section": "Upper Division",
+   "notes": "These electives must be in addition to any coursework used to satisfy units for language requirement waivers.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "CHINESE",
+      "EALANG",
+      "JAPAN",
+      "KOREAN",
+      "MONGOLN",
+      "TIBETAN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 195
+    }
+   }
+  }
+ ]
+}

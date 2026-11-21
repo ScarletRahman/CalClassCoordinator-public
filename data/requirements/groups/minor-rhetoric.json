@@ -1,0 +1,149 @@
+{
+ "id": "minor-rhetoric",
+ "title": "Rhetoric minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I059U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I059U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I059U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "notes": "Students must complete one of the following with a letter grade.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "RHETOR 10"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 20"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 30"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 50"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 60"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "RHETOR 103A"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 103B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "- Any RHETOR 110–189 course",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "RHETOR 104",
+      "RHETOR 105T",
+      "RHETOR 106",
+      "RHETOR 107",
+      "RHETOR 108",
+      "RHETOR 109",
+      "RHETOR 110",
+      "RHETOR 111",
+      "RHETOR 112",
+      "RHETOR 113",
+      "RHETOR 114",
+      "RHETOR 115",
+      "RHETOR 116",
+      "RHETOR 117",
+      "RHETOR 118",
+      "RHETOR 119",
+      "RHETOR 119AC",
+      "RHETOR 120",
+      "RHETOR 121",
+      "RHETOR 122",
+      "RHETOR 123",
+      "RHETOR 124",
+      "RHETOR 125",
+      "RHETOR 127",
+      "RHETOR 128T",
+      "RHETOR 129",
+      "RHETOR 129AC",
+      "RHETOR 130",
+      "RHETOR 131T",
+      "RHETOR 132T",
+      "RHETOR 133T",
+      "RHETOR 134",
+      "RHETOR 135T",
+      "RHETOR 136",
+      "RHETOR 137",
+      "RHETOR 138",
+      "RHETOR 139",
+      "RHETOR 145",
+      "RHETOR 150",
+      "RHETOR 151",
+      "RHETOR 152",
+      "RHETOR 152AC",
+      "RHETOR 153",
+      "RHETOR 155",
+      "RHETOR 156",
+      "RHETOR 157A",
+      "RHETOR 157B",
+      "RHETOR 158",
+      "RHETOR 159A",
+      "RHETOR 159B",
+      "RHETOR 160",
+      "RHETOR 162AC",
+      "RHETOR 163",
+      "RHETOR 164",
+      "RHETOR 165",
+      "RHETOR 166",
+      "RHETOR 167",
+      "RHETOR 168",
+      "RHETOR 170",
+      "RHETOR 171",
+      "RHETOR 172",
+      "RHETOR 173",
+      "RHETOR 174",
+      "RHETOR 176",
+      "RHETOR 182",
+      "RHETOR 184",
+      "RHETOR 189",
+      "RHETOR 189A"
+     ]
+    }
+   }
+  }
+ ]
+}

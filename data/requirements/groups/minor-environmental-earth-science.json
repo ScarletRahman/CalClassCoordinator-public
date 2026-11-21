@@ -1,0 +1,129 @@
+{
+ "id": "minor-environmental-earth-science",
+ "title": "Environmental Earth Science minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I132U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I132U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I132U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "EPS 50"
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "A maximum of 2 transfer courses is allowed.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 100A"
+     },
+     {
+      "type": "course",
+      "course": "EPS 100B"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 103"
+     },
+     {
+      "type": "course",
+      "course": "EPS 109"
+     },
+     {
+      "type": "course",
+      "course": "EPS 115"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "EPS 131"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C100"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI C100"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C146"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C178"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C178"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C180"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C180"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C106"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C181"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C139"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

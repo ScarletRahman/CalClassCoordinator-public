@@ -1,0 +1,769 @@
+{
+ "id": "major-urban-studies-ba",
+ "title": "Urban Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/19912U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19912U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "19912U",
+ "notes": [
+  "General Guidelines\n- All lower division courses taken in fulfillment of major requirements must be completed with a grade of C- or better.\n- Courses taken to fulfill lower division major requirements may also be used to fulfill Seven-Course Breadth.\n- A minimum overall GPA of 2.0 for all courses taken at UC Berkeley is required for graduation.\n- Upper division major courses used to fulfill the major requirements must be completed with a letter grade.\n- A minimum grade point average (GPA) of 2.0 must be maintained in upper division major courses used to fulfill the major requirements.\n- Courses used to fulfill an upper division major requirement may not simultaneously fulfill a breadth requirement.\n- Up to two upper division courses taken at another institution, including an approved study abroad program, may be applied to the major requirements below (if transferable and approved in advance).\n- CED students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards many College and Major Requirements. Please see the High School Exam Credit section on the CED website for more information."
+ ],
+ "requirements": [
+  {
+   "id": "major-requirements",
+   "title": "Major Requirements",
+   "section": "Lower Division",
+   "notes": "CED students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards some of the above lower division major requirements. See the CED website section on High School Exam Credit for information: https://ced.berkeley.edu/advising/forms-documents.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "course",
+      "course": "ECON C3"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT 2"
+     },
+     {
+      "type": "course",
+      "course": "STAT 20"
+     },
+     {
+      "type": "course",
+      "course": "STAT 21"
+     },
+     {
+      "type": "course",
+      "course": "STAT W21"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division-major-electives",
+   "title": "Lower Division Major Electives",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "AFRICAM 4A",
+      "AFRICAM 5A",
+      "AFRICAM 5B",
+      "AMERSTD 10",
+      "ANTHRO 3",
+      "ANTHRO 3AC",
+      "ARCH 11A",
+      "ARCH 11B",
+      "ASAMST 20A",
+      "ASAMST 20AC",
+      "CHICANO 50",
+      "CHICANO 70",
+      "CIVENG 11",
+      "DEMOG 5",
+      "EDUC 40AC",
+      "ENGLISH C77",
+      "ESPM C10",
+      "ESPM C12",
+      "ESPM 50AC",
+      "ETHSTD C73AC",
+      "ETHSTD 21AC",
+      "GEOG N20",
+      "GEOG C32",
+      "GEOG N50AC",
+      "GEOG 50AC",
+      "GEOG 70AC",
+      "GEOG 72AC",
+      "GLOBAL C10A",
+      "GLOBAL 10A",
+      "GWS 14",
+      "GWS 50AC",
+      "HISTORY 7A",
+      "HISTORY 7B",
+      "HISTORY 8A",
+      "HISTORY 10",
+      "IAS 45",
+      "LDARCH 1",
+      "LDARCH 12",
+      "QTP 20AC",
+      "LS C30V",
+      "MCELLBI 55",
+      "NATAMST C73AC",
+      "NATAMST 72",
+      "PACS 10",
+      "PBHLTH 14",
+      "POLSCI 1",
+      "POLSCI 2",
+      "SOCIOL 1",
+      "SOCIOL 3AC",
+      "UGBA 10"
+     ]
+    }
+   }
+  },
+  {
+   "id": "urban-studies-core",
+   "title": "Urban Studies Core",
+   "section": "Upper Division",
+   "notes": "Students may need to take additional courses to reach the 120 units required for graduation.",
+   "rule": {
+    "type": "course",
+    "course": "CYPLAN 110"
+   }
+  },
+  {
+   "id": "major-electives-list-one",
+   "title": "Major Electives List One",
+   "section": "Upper Division",
+   "notes": "These courses train students in the study of urbanization, key substantive fields such as housing, analytical techniques such as economic analysis, and urban transformations such as community development. Courses used to fulfill the Upper Division Capstone Experience requirement may not also fulfill this Urban Studies Core requirement.\nGraduate level CY PLAN courses are often approved to fulfill the Core requirement. See your academic advisor for support.",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CYPLAN 101"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 113A"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 114"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 115"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 116"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CYPLAN 117AC"
+       },
+       {
+        "type": "course",
+        "course": "CYPLAN C117"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 118AC"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 119"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 120"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 124"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 130"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 140"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 160"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 180A"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 180B"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 190"
+     }
+    ]
+   }
+  },
+  {
+   "id": "major-elective-list-two",
+   "title": "Major Elective List Two",
+   "section": "Upper Division",
+   "notes": "Students must take two Urban Studies-related courses outside CED. At least one of the two courses must have international content.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 107"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM C133A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 136"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AMERSTD 102"
+       },
+       {
+        "type": "course",
+        "course": "AMERSTD 102AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 148"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 157"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 155"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 167"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DEMOG C126"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL C126"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 130"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DEMOG 145AC"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY C139B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ECON 115"
+     },
+     {
+      "type": "course",
+      "course": "ECON 121"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C125"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C101"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ECON 133"
+     },
+     {
+      "type": "course",
+      "course": "ECON 155"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C171"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C151"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ECON 174"
+     },
+     {
+      "type": "course",
+      "course": "ECON C184"
+     },
+     {
+      "type": "course",
+      "course": "EDUC C181"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EDUC 186AC"
+       },
+       {
+        "type": "course",
+        "course": "ETHSTD 159AC"
+       },
+       {
+        "type": "course",
+        "course": "GEOG 159AC"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENVECON C102"
+       },
+       {
+        "type": "course",
+        "course": "ECON C102"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C124"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 160AC"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 120AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 163AC"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 137AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 165"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C167"
+       },
+       {
+        "type": "course",
+        "course": "PBHLTH C160"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 181AC"
+       },
+       {
+        "type": "course",
+        "course": "SOCWEL 185AC"
+       },
+       {
+        "type": "course",
+        "course": "LEGALST 185AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GEOG 110"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C112"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 116"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 123"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 124"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 126"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C160"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 164"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 170"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 181"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 185"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 121"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 150E"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 173"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 105"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 134A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 159B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 160"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 186"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LS C180U"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C103"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 138"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 158"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 182"
+     },
+     {
+      "type": "course",
+      "course": "MBN 166"
+     },
+     {
+      "type": "course",
+      "course": "PACS 127"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PACS 148AC"
+       },
+       {
+        "type": "course",
+        "course": "IAS 158AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PACS 149"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150B"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 177A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 114A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 181"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 100"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 101"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 156"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 187"
+     },
+     {
+      "type": "course",
+      "course": "SOCWEL 185AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 110"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 124"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 130"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 130AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 136"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 139"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 145"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 180I"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 186"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 105"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 171"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 180"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 183"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 184"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 195S"
+     }
+    ]
+   }
+  },
+  {
+   "id": "capstone-experience",
+   "title": "Capstone Experience",
+   "section": "Upper Division",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Courses taken to fulfill the Capstone Experience requirement cannot overlap with another college or major requirement:\nThesis: This option requires ENV DES 195B (note: ENV DES 199 or 195A is a prerequisite). Whether a thesis is written or a project is produced, this option should be pursued with a faculty advisor.\nPlanning Studio*: CY PLAN 116\nResearch Studio*: CY PLAN 180A or CYPLAN 180B\nField experience/internship: CY PLAN 197 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "ENVDES 195B",
+     "ENVDES 199",
+     "ENVDES 195A",
+     "CYPLAN 116",
+     "CYPLAN 180A",
+     "CYPLAN 180B",
+     "CYPLAN 197"
+    ]
+   }
+  }
+ ]
+}

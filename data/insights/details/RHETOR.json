@@ -1,0 +1,4870 @@
+{
+ "RHETOR 10": {
+  "course": "RHETOR 10",
+  "difficulty": 2.6,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.304
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 3.3/5 for usefulness. The average grade is A- (3.65), with 73% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 331,
+   "pctA": 73,
+   "pctBelowB": 3,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 76
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 59
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Fumi Okiji",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.75,
+    "studentCount": 6,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%2010"
+  ]
+ },
+ "RHETOR 100": {
+  "course": "RHETOR 100",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 88% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 53,
+   "pctA": 88,
+   "pctBelowB": 4,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.77,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20100"
+  ]
+ },
+ "RHETOR 103A": {
+  "course": "RHETOR 103A",
+  "difficulty": 2.0,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.7/5 for difficulty, 2.7/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.76), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 399,
+   "pctA": 83,
+   "pctBelowB": 1,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 47
+    },
+    {
+     "letter": "A",
+     "count": 193
+    },
+    {
+     "letter": "A-",
+     "count": 77
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.7,
+   "workload": 2.7,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Ramona Naddaff",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Mario Telo",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.88,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4.7,
+    "difficulty": 1.7,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Michael Dalebout",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.89,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20103A"
+  ]
+ },
+ "RHETOR 103B": {
+  "course": "RHETOR 103B",
+  "difficulty": 2.8,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.293
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.55), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 259,
+   "pctA": 69,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 85
+    },
+    {
+     "letter": "A-",
+     "count": 82
+    },
+    {
+     "letter": "B+",
+     "count": 42
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Samera Esmeir",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.66,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 5,
+    "difficulty": 2.6,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Pheng Cheah",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.36,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20103B"
+  ]
+ },
+ "RHETOR 104": {
+  "course": "RHETOR 104",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.203
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 69,
+   "pctA": 78,
+   "pctBelowB": 7,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Fumi Okiji",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20104"
+  ]
+ },
+ "RHETOR 106": {
+  "course": "RHETOR 106",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 46,
+   "pctA": 66,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Robert Barrett",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20106"
+  ]
+ },
+ "RHETOR 107": {
+  "course": "RHETOR 107",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.241
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 110,
+   "pctA": 62,
+   "pctBelowB": 7,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.5,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20107"
+  ]
+ },
+ "RHETOR 108": {
+  "course": "RHETOR 108",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.191
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 61% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 60,
+   "pctA": 61,
+   "pctBelowB": 12,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Weston",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "David Bates",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20108"
+  ]
+ },
+ "RHETOR 109": {
+  "course": "RHETOR 109",
+  "difficulty": 2.2,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.238
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.068
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.79), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 106,
+   "pctA": 88,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 78
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Fumi Okiji",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.91,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 1.9,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Ramona Naddaff",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20109"
+  ]
+ },
+ "RHETOR 110": {
+  "course": "RHETOR 110",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.12), with 67% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 11,
+   "pctA": 67,
+   "pctBelowB": 22,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20110"
+  ]
+ },
+ "RHETOR 113": {
+  "course": "RHETOR 113",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.189
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 80% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 59,
+   "pctA": 80,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Porter",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.76,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Nancy Weston",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.26,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20113"
+  ]
+ },
+ "RHETOR 114": {
+  "course": "RHETOR 114",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.22
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 85,
+   "pctA": 64,
+   "pctBelowB": 7,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.43,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.26,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20114"
+  ]
+ },
+ "RHETOR 115": {
+  "course": "RHETOR 115",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.213
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 84% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 78,
+   "pctA": 84,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Samera Esmeir",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Zina Wang",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.51,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Robert Barrett",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20115"
+  ]
+ },
+ "RHETOR 116": {
+  "course": "RHETOR 116",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 56,
+   "pctA": 72,
+   "pctBelowB": 9,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.35,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Michael Dalebout",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.25,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20116"
+  ]
+ },
+ "RHETOR 117": {
+  "course": "RHETOR 117",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.30), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 53,
+   "pctA": 67,
+   "pctBelowB": 11,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Marianne Constable",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.2,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Michael Dalebout",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.51,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20117"
+  ]
+ },
+ "RHETOR 118": {
+  "course": "RHETOR 118",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 19,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Samiha Khalil",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20118"
+  ]
+ },
+ "RHETOR 119AC": {
+  "course": "RHETOR 119AC",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 83% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 83,
+   "pctBelowB": 7,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.61,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Winnie Wong",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20119AC"
+  ]
+ },
+ "RHETOR 120": {
+  "course": "RHETOR 120",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.217
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 82,
+   "pctA": 90,
+   "pctBelowB": 5,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mario Telo",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Samera Esmeir",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Deniz Morova",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Robert Barrett",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.61,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.46,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Eliza Michaeli",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.46,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20120"
+  ]
+ },
+ "RHETOR 121": {
+  "course": "RHETOR 121",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.264
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 154,
+   "pctA": 89,
+   "pctBelowB": 6,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 84
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascuch",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Joel Auerbach",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Samera Esmeir",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Ramona Naddaff",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.59,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Zina Wang",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.53,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Robert Barrett",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.91,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "William Morgan",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.91,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20121"
+  ]
+ },
+ "RHETOR 123": {
+  "course": "RHETOR 123",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.262
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 148,
+   "pctA": 81,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 84
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fumi Okiji",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Shannon Jackson",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Michael Dalebout",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20123"
+  ]
+ },
+ "RHETOR 127": {
+  "course": "RHETOR 127",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.175
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.24), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 50,
+   "pctA": 50,
+   "pctBelowB": 12,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Pheng Cheah",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.95,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20127"
+  ]
+ },
+ "RHETOR 129": {
+  "course": "RHETOR 129",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 41,
+   "pctA": 65,
+   "pctBelowB": 0,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascuch",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20129"
+  ]
+ },
+ "RHETOR 129AC": {
+  "course": "RHETOR 129AC",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.64), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 72,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascuch",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20129AC"
+  ]
+ },
+ "RHETOR 131T": {
+  "course": "RHETOR 131T",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 34,
+   "pctA": 85,
+   "pctBelowB": 6,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Barrett",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.68,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20131T"
+  ]
+ },
+ "RHETOR 133T": {
+  "course": "RHETOR 133T",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20133T"
+  ]
+ },
+ "RHETOR 136": {
+  "course": "RHETOR 136",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 71% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 71,
+   "pctBelowB": 4,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Winnie Wong",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20136"
+  ]
+ },
+ "RHETOR 137": {
+  "course": "RHETOR 137",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.274
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 73% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 179,
+   "pctA": 73,
+   "pctBelowB": 6,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 73
+    },
+    {
+     "letter": "A-",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascuch",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.62,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20137"
+  ]
+ },
+ "RHETOR 139": {
+  "course": "RHETOR 139",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.126
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 71% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 28,
+   "pctA": 71,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascuch",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20139"
+  ]
+ },
+ "RHETOR 145": {
+  "course": "RHETOR 145",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 97% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 37,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Shannon Jackson",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.78,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20145"
+  ]
+ },
+ "RHETOR 150": {
+  "course": "RHETOR 150",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.204
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 70,
+   "pctA": 79,
+   "pctBelowB": 5,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Wintroub",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20150"
+  ]
+ },
+ "RHETOR 152": {
+  "course": "RHETOR 152",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 27,
+   "pctA": 62,
+   "pctBelowB": 12,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20152"
+  ]
+ },
+ "RHETOR 152AC": {
+  "course": "RHETOR 152AC",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.25
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 125,
+   "pctA": 44,
+   "pctBelowB": 6,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nadesan Permaul",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.36,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20152AC"
+  ]
+ },
+ "RHETOR 153": {
+  "course": "RHETOR 153",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 75% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 56,
+   "pctA": 75,
+   "pctBelowB": 12,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Barrett",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.97,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.75,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Michael Dalebout",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.75,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20153"
+  ]
+ },
+ "RHETOR 155": {
+  "course": "RHETOR 155",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.164
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 44,
+   "pctA": 70,
+   "pctBelowB": 7,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Pheng Cheah",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.24,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Samiha Khalil",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 4.0,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20155"
+  ]
+ },
+ "RHETOR 156": {
+  "course": "RHETOR 156",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.13), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 19,
+   "pctA": 42,
+   "pctBelowB": 16,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Pheng Cheah",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.13,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20156"
+  ]
+ },
+ "RHETOR 157A": {
+  "course": "RHETOR 157A",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.24), with 34% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 36,
+   "pctA": 34,
+   "pctBelowB": 9,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Samera Esmeir",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20157A"
+  ]
+ },
+ "RHETOR 158": {
+  "course": "RHETOR 158",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.213
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.061
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.54), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 78,
+   "pctA": 80,
+   "pctBelowB": 9,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Samera Esmeir",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.77,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Russell Ladson",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Anooj Kansara",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.95,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Ramona Naddaff",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.95,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.01,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20158"
+  ]
+ },
+ "RHETOR 159B": {
+  "course": "RHETOR 159B",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.195
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 70% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 63,
+   "pctA": 70,
+   "pctBelowB": 10,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Marianne Constable",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.37,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20159B"
+  ]
+ },
+ "RHETOR 166": {
+  "course": "RHETOR 166",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.09), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 27,
+   "pctA": 52,
+   "pctBelowB": 19,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Weston",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.61,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Yaman Salahi",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20166"
+  ]
+ },
+ "RHETOR 167": {
+  "course": "RHETOR 167",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.30), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 37,
+   "pctA": 42,
+   "pctBelowB": 6,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Weston",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20167"
+  ]
+ },
+ "RHETOR 170": {
+  "course": "RHETOR 170",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.37), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 31,
+   "pctA": 48,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.37,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20170"
+  ]
+ },
+ "RHETOR 171": {
+  "course": "RHETOR 171",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 22,
+   "pctA": 95,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fumi Okiji",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20171"
+  ]
+ },
+ "RHETOR 172": {
+  "course": "RHETOR 172",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 41,
+   "pctA": 79,
+   "pctBelowB": 5,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.57,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20172"
+  ]
+ },
+ "RHETOR 173": {
+  "course": "RHETOR 173",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.33), with 58% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 45,
+   "pctA": 58,
+   "pctBelowB": 9,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20173"
+  ]
+ },
+ "RHETOR 174": {
+  "course": "RHETOR 174",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20174"
+  ]
+ },
+ "RHETOR 176": {
+  "course": "RHETOR 176",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 25,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20176"
+  ]
+ },
+ "RHETOR 182": {
+  "course": "RHETOR 182",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.02), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 16,
+   "pctA": 62,
+   "pctBelowB": 15,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Pheng Cheah",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20182"
+  ]
+ },
+ "RHETOR 189": {
+  "course": "RHETOR 189",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 30,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Samiha Khalil",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Pheng Cheah",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.74,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Fumi Okiji",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20189"
+  ]
+ },
+ "RHETOR 197": {
+  "course": "RHETOR 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "David Bates",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Winnie Wong",
+    "terms": 3,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 6,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Marianne Constable",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20197"
+  ]
+ },
+ "RHETOR 198": {
+  "course": "RHETOR 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "James Porter",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jose Madrigal",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Cara Chow",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Katelyn Van Andel",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Yoosung Jung",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Nadesan Permaul",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "David Bates",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20198"
+  ]
+ },
+ "RHETOR 199": {
+  "course": "RHETOR 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Nadesan Permaul",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Dalebout",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Bates",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Winnie Wong",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ramona Naddaff",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "James Porter",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniel Boyarin",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20199"
+  ]
+ },
+ "RHETOR 2": {
+  "course": "RHETOR 2",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 29,
+   "pctA": 67,
+   "pctBelowB": 7,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Dalebout",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.46,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%202"
+  ]
+ },
+ "RHETOR 20": {
+  "course": "RHETOR 20",
+  "difficulty": 2.4,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.7,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.7/5 for difficulty, 2.7/5 for workload and 3.9/5 for usefulness. The average grade is A- (3.69), with 80% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 462,
+   "pctA": 80,
+   "pctBelowB": 5,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 224
+    },
+    {
+     "letter": "A-",
+     "count": 112
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.7,
+   "workload": 2.7,
+   "usefulness": 3.9,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mascuch",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "studentCount": 6,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Winnie Wong",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.72,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%2020"
+  ]
+ },
+ "RHETOR 24": {
+  "course": "RHETOR 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Daniel Melia",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%2024"
+  ]
+ },
+ "RHETOR 98": {
+  "course": "RHETOR 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "James Porter",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Katelyn Van Andel",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Yoosung Jung",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Nadesan Permaul",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%2098"
+  ]
+ },
+ "RHETOR H190A": {
+  "course": "RHETOR H190A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Fumi Okiji",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Mascuch",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Bates",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Pheng Cheah",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mario Telo",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "James Porter",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marianne Constable",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20H190A"
+  ]
+ },
+ "RHETOR H190B": {
+  "course": "RHETOR H190B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Nasser Zakariya",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Fumi Okiji",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Mascuch",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Bates",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marianne Constable",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mario Telo",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "James Porter",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ramona Naddaff",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20H190B"
+  ]
+ },
+ "RHETOR R1A": {
+  "course": "RHETOR R1A",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 2.8,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 2.2/5 for difficulty, 2.8/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.67), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 415,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 208
+    },
+    {
+     "letter": "A-",
+     "count": 96
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2.2,
+   "workload": 2.8,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.72,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "David Lau",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Diego Arrocha Paris",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Nicholas Byers",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.48,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Jae-Min Yoo",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Hsuan-Lun (Sean) Fen",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.96,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Deniz Morova",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Russell Ladson",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20R1A"
+  ]
+ },
+ "RHETOR R1B": {
+  "course": "RHETOR R1B",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.63), with 77% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 599,
+   "pctA": 77,
+   "pctBelowB": 4,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 257
+    },
+    {
+     "letter": "A-",
+     "count": 155
+    },
+    {
+     "letter": "B+",
+     "count": 67
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nathan Atkinson",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Keoni Correa",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Lyndsey Karr",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Jae-Min Yoo",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dana Karout",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Zina Wang",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.41,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Diego Arrocha Paris",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Nicholas Byers",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.76,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=RHETOR%20R1B"
+  ]
+ }
+}

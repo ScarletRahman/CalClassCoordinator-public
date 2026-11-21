@@ -1,0 +1,79 @@
+{
+ "id": "major-african-american-studies-ba",
+ "title": "African American Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25014U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25014U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25014U",
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 4A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 5A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 5B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 100"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 101"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 116"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 195"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "Each course must be at least 3 units.",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "AFRICAM"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196
+    }
+   }
+  }
+ ]
+}

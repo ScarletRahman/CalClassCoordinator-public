@@ -1,0 +1,56 @@
+# Production config for `python -m watcher prod -c deploy/watcher.prod.yaml`.
+# Committed and secret-free: secrets and per-deploy values come from env vars.
+#
+# Env read by `prod` (defaults in brackets):
+#   WATCHER_CONFIG     config path when -c is not given        [watcher.yaml]
+#   WATCHER_HOST       API bind address                         [127.0.0.1]
+#   WATCHER_PORT       API port                                 [8765]
+#   WATCHER_DATA_DIR   state dir on the volume: latest.json, history.jsonl,
+#                      subscriptions.json, discord_channels.json  [repo data/seats, routes in cwd]
+#   WATCHER_API_TOKEN  bearer token the web app sends; required to bind a non-loopback host
+#   DISCORD_BOT_TOKEN  run the Discord bot in the same process when set
+#   DISCORD_AUTO_APPROVE / DISCORD_MAX_CLASSES   override the discord_* keys below
+#   SMTP_HOST, SMTP_PORT [587], SMTP_USER, SMTP_PASSWORD, MAIL_FROM   subscriber emails
+#   APP_URL            link at the end of every subscriber email ("Manage or stop alerts: ...")
+
+term: ""                    # empty = newest term on classes.berkeley.edu
+interval_seconds: 60        # minimum 30; a pass may run longer when there are many targets
+jitter_seconds: 10
+# Berkeleytime first: classes.berkeley.edu answers 403 to requests from Fly's network
+# (checked 2026-11-20), while Berkeleytime works from there. classes.berkeley.edu stays as the
+# fallback for hosts where it is reachable; a 403 pauses it for cooldown_seconds.
+sources: [berkeleytime, classes.berkeley.edu]
+
+alert_on: [seats_opened, seats_increased, reserved_opened, waitlist_opened, error]
+
+# Classes come from web subscriptions (POST /subscriptions) and the Discord bot.
+watch: []
+watch_discord_classes: true
+
+# These apply to classes listed under `watch:` and to classes that have a Discord channel.
+# Classes that only web subscribers follow are emailed to those subscribers and nowhere else.
+# The discord notifier posts to each class's own channel using the bot's routes file
+# (discord_channels.json on the volume) and does nothing useful until that file exists.
+notifiers:
+  - type: console
+  - type: discord
+
+# subscription_email is built from SMTP_* / MAIL_FROM env; leave it out here.
+
+# Politeness at scale.
+min_request_gap_seconds: 2.0      # minimum gap between two requests to one source
+max_targets: 300                  # distinct fetches per pass; beyond this they take turns (warned)
+cooldown_seconds: 600             # pause a source for 10 min after it answers 429/403
+subscriber_cooldown_seconds: 600  # at most one email per subscriber per class per 10 min
+history_max_bytes: 50000000       # rotate history.jsonl at ~50 MB, keep one .1
+
+# Live class lookups for the planner's weekly schedule (GET /lookup). The hosting provider's
+# addresses get HTTP 403 from classes.berkeley.edu, so the hosted app asks Berkeleytime only
+# (seat counts at most 15 minutes old). At home, put classes.berkeley.edu first.
+lookup_sources: [berkeleytime]
+lookup_cache_seconds: 300         # one fetch per course per 5 minutes, however many students ask
+
+# Discord bot (only runs when DISCORD_BOT_TOKEN is set).
+discord_routes_file: discord_channels.json   # resolved inside WATCHER_DATA_DIR
+discord_auto_approve: true
+discord_max_classes: 100

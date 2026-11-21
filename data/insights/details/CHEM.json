@@ -1,0 +1,6336 @@
+{
+ "CHEM 102": {
+  "course": "CHEM 102",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.259
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 93% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 142,
+   "pctA": 93,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 44
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Leone",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.95,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Naomi Ginsberg",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.74,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Katie Blackford",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20102"
+  ]
+ },
+ "CHEM 103": {
+  "course": "CHEM 103",
+  "difficulty": 2.5,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 2,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 2.6/5 for difficulty, 2.0/5 for workload and 2.9/5 for usefulness. The average grade is A- (3.53), with 60% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 459,
+   "pctA": 60,
+   "pctBelowB": 5,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 156
+    },
+    {
+     "letter": "A-",
+     "count": 80
+    },
+    {
+     "letter": "B+",
+     "count": 71
+    },
+    {
+     "letter": "B",
+     "count": 60
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2.6,
+   "workload": 2,
+   "usefulness": 2.9,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jonathan Rittle",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.69,
+    "studentCount": 7,
+    "studentDifficulty": 2.4,
+    "studentUsefulness": 2.6,
+    "difficulty": 2.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Michelle Chang",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.51,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20103"
+  ]
+ },
+ "CHEM 104A": {
+  "course": "CHEM 104A",
+  "difficulty": 3.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.3/5 for difficulty, 3.2/5 for workload and 4.2/5 for usefulness. The average grade is B (3.13), with 39% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 585,
+   "pctA": 39,
+   "pctBelowB": 22,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 41
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 71
+    },
+    {
+     "letter": "B+",
+     "count": 75
+    },
+    {
+     "letter": "B",
+     "count": 92
+    },
+    {
+     "letter": "B-",
+     "count": 53
+    },
+    {
+     "letter": "C+",
+     "count": 51
+    },
+    {
+     "letter": "C",
+     "count": 30
+    },
+    {
+     "letter": "C-",
+     "count": 24
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 11
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.3,
+   "workload": 3.2,
+   "usefulness": 4.2,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Don Tilley",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniel Bediako",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.33,
+    "studentCount": 6,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Jonathan Rittle",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.0,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20104A"
+  ]
+ },
+ "CHEM 104B": {
+  "course": "CHEM 104B",
+  "difficulty": 3.8,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 5.0/5 for difficulty, 4.5/5 for workload and 3.5/5 for usefulness. The average grade is B (3.10), with 43% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 477,
+   "pctA": 43,
+   "pctBelowB": 23,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 120
+    },
+    {
+     "letter": "A-",
+     "count": 44
+    },
+    {
+     "letter": "B+",
+     "count": 47
+    },
+    {
+     "letter": "B",
+     "count": 66
+    },
+    {
+     "letter": "B-",
+     "count": 36
+    },
+    {
+     "letter": "C+",
+     "count": 25
+    },
+    {
+     "letter": "C",
+     "count": 35
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 5,
+   "workload": 4.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "John Hartwig",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Don Tilley",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.88,
+    "studentCount": 2,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3.5,
+    "difficulty": 4.3,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.23,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Jeffrey Long",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.13,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Adrian Huang",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.44,
+    "midterms": 1,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Joseph Ondus",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.44,
+    "midterms": 1,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20104B"
+  ]
+ },
+ "CHEM 105": {
+  "course": "CHEM 105",
+  "difficulty": 3.7,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.3
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 2.0/5 for usefulness. The average grade is B (3.10), with 37% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 299,
+   "pctA": 37,
+   "pctBelowB": 20,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 60
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 52
+    },
+    {
+     "letter": "B-",
+     "count": 30
+    },
+    {
+     "letter": "C+",
+     "count": 19
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 2,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ashok Ajoy",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.08,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Evan Williams",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.02,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 2,
+    "difficulty": 4.0,
+    "shouldTake": 2.5
+   },
+   {
+    "professor": "Ronald Cohen",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.36,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20105"
+  ]
+ },
+ "CHEM 108": {
+  "course": "CHEM 108",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.186
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 57,
+   "pctA": 84,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Peidong Yang",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Don Tilley",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20108"
+  ]
+ },
+ "CHEM 113": {
+  "course": "CHEM 113",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.239
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 108,
+   "pctA": 73,
+   "pctBelowB": 1,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Colin Gould",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Richmond Sarpong",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.8,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20113"
+  ]
+ },
+ "CHEM 114": {
+  "course": "CHEM 114",
+  "difficulty": 2.8,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.253
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.072
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.45), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 131,
+   "pctA": 61,
+   "pctBelowB": 7,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 32
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Maimone",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.37,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20114"
+  ]
+ },
+ "CHEM 115": {
+  "course": "CHEM 115",
+  "difficulty": 2.4,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.257
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 5.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.72), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 138,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 57
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 5,
+   "usefulness": 5
+  },
+  "byProfessor": [
+   {
+    "professor": "Richmond Sarpong",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.9,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Alanna Schepartz",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Eliza Neidhart",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.85,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Adam Cahn",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.35,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Khalid Mahmood",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.92,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Nels Gerstner",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.25,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Christopher Chang",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.84,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Katie Blackford",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20115"
+  ]
+ },
+ "CHEM 120A": {
+  "course": "CHEM 120A",
+  "difficulty": 3.8,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade B (3.15)",
+     "value": 3.6,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 3.8,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.257
+    }
+   ]
+  },
+  "sentiment": "9 students on Berkeleytime rate it 4.6/5 for difficulty, 3.8/5 for workload and 3.4/5 for usefulness. The average grade is B (3.15), with 38% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.15,
+   "letter": "B",
+   "students": 995,
+   "pctA": 38,
+   "pctBelowB": 19,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 57
+    },
+    {
+     "letter": "A",
+     "count": 172
+    },
+    {
+     "letter": "A-",
+     "count": 118
+    },
+    {
+     "letter": "B+",
+     "count": 132
+    },
+    {
+     "letter": "B",
+     "count": 183
+    },
+    {
+     "letter": "B-",
+     "count": 90
+    },
+    {
+     "letter": "C+",
+     "count": 79
+    },
+    {
+     "letter": "C",
+     "count": 51
+    },
+    {
+     "letter": "C-",
+     "count": 23
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 62
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 4.6,
+   "workload": 3.8,
+   "usefulness": 3.4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Hendrik Utzat",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.03,
+    "midterms": 2,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3,
+    "difficulty": 4.0,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Michael Werner Zuerch",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Ashok Ajoy",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Eran Rabani",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.16,
+    "studentCount": 6,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.9,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Stephen Leone",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.96,
+    "midterms": 2,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "K Whaley",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.19,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Eric Neuscamman",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.96,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20120A"
+  ]
+ },
+ "CHEM 120B": {
+  "course": "CHEM 120B",
+  "difficulty": 4.0,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B (2.96)",
+     "value": 4.2,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 4.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.8,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 4.5/5 for difficulty, 4.5/5 for workload and 3.0/5 for usefulness. The average grade is B (2.96), with 28% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.96,
+   "letter": "B",
+   "students": 637,
+   "pctA": 28,
+   "pctBelowB": 26,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 102
+    },
+    {
+     "letter": "A-",
+     "count": 44
+    },
+    {
+     "letter": "B+",
+     "count": 71
+    },
+    {
+     "letter": "B",
+     "count": 153
+    },
+    {
+     "letter": "B-",
+     "count": 56
+    },
+    {
+     "letter": "C+",
+     "count": 33
+    },
+    {
+     "letter": "C",
+     "count": 61
+    },
+    {
+     "letter": "C-",
+     "count": 42
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 14
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 4.5,
+   "workload": 4.5,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "David Limmer",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.95,
+    "studentCount": 3,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 2.7,
+    "difficulty": 4.2,
+    "shouldTake": 2.6
+   },
+   {
+    "professor": "Naomi Ginsberg",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.96,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 4.2,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Daniel Neumark",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.96,
+    "midterms": 2,
+    "difficulty": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20120B"
+  ]
+ },
+ "CHEM 121": {
+  "course": "CHEM 121",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.275
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.078
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.5/5 for difficulty, 4.0/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.48), with 58% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 182,
+   "pctA": 58,
+   "pctBelowB": 8,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 58
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 28
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4.5,
+   "workload": 4,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Bingqing Cheng",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.4,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Rachel Clune",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20121"
+  ]
+ },
+ "CHEM 122": {
+  "course": "CHEM 122",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 40,
+   "pctA": 83,
+   "pctBelowB": 3,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Eran Rabani",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.9,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Graham Fleming",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20122"
+  ]
+ },
+ "CHEM 125": {
+  "course": "CHEM 125",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.295
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 269,
+   "pctA": 61,
+   "pctBelowB": 9,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 53
+    },
+    {
+     "letter": "A",
+     "count": 67
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 36
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Leone",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.28,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Michael Werner Zuerch",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20125"
+  ]
+ },
+ "CHEM 12A": {
+  "course": "CHEM 12A",
+  "difficulty": 3.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (14 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.258
+    },
+    {
+     "label": "Average grade B (3.08)",
+     "value": 3.8,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (14)",
+     "value": 4.4,
+     "weight": 0.111
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.6,
+     "weight": 0.037
+    },
+    {
+     "label": "Student usefulness rating (14 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.295
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 3.8,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Students say this is a hard, time-heavy organic chemistry course with frequent assignments. Most praise clear, organized lectures with in-class practice, fair grading and helpful office hours. A few found the workload excessive and the mechanism explanations vague. Lots of practice is the common advice.",
+  "sentimentWrittenBy": "model",
+  "midterms": 4,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.08,
+   "letter": "B",
+   "students": 1089,
+   "pctA": 40,
+   "pctBelowB": 24,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 57
+    },
+    {
+     "letter": "A",
+     "count": 233
+    },
+    {
+     "letter": "A-",
+     "count": 117
+    },
+    {
+     "letter": "B+",
+     "count": 141
+    },
+    {
+     "letter": "B",
+     "count": 148
+    },
+    {
+     "letter": "B-",
+     "count": 88
+    },
+    {
+     "letter": "C+",
+     "count": 68
+    },
+    {
+     "letter": "C",
+     "count": 73
+    },
+    {
+     "letter": "C-",
+     "count": 60
+    },
+    {
+     "letter": "D",
+     "count": 27
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 18
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 14,
+   "difficulty": 3.9,
+   "workload": 4.4,
+   "usefulness": 4.2,
+   "recordedPct": 92,
+   "attendanceRequiredPct": 7
+  },
+  "byProfessor": [
+   {
+    "professor": "Brooks Abel",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.03,
+    "studentCount": 13,
+    "studentDifficulty": 3.9,
+    "studentUsefulness": 4.2,
+    "difficulty": 4.0,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Alanna Schepartz",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.09,
+    "midterms": 4,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.8,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Anne Baranger",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.02,
+    "midterms": 4,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2012A"
+  ]
+ },
+ "CHEM 12B": {
+  "course": "CHEM 12B",
+  "difficulty": 3.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B (3.04)",
+     "value": 3.9,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 4,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 4.3/5 for usefulness. The average grade is B (3.04), with 42% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.04,
+   "letter": "B",
+   "students": 651,
+   "pctA": 42,
+   "pctBelowB": 27,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 53
+    },
+    {
+     "letter": "A",
+     "count": 155
+    },
+    {
+     "letter": "A-",
+     "count": 47
+    },
+    {
+     "letter": "B+",
+     "count": 47
+    },
+    {
+     "letter": "B",
+     "count": 96
+    },
+    {
+     "letter": "B-",
+     "count": 44
+    },
+    {
+     "letter": "C+",
+     "count": 42
+    },
+    {
+     "letter": "C",
+     "count": 40
+    },
+    {
+     "letter": "C-",
+     "count": 32
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 30
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4.3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ziyang Zhang",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.37,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Matthew Francis",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.08,
+    "studentCount": 5,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Felix Fischer",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 2.55,
+    "difficulty": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2012B"
+  ]
+ },
+ "CHEM 130B": {
+  "course": "CHEM 130B",
+  "difficulty": 2.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.215
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.062
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.33), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 80,
+   "pctA": 52,
+   "pctBelowB": 16,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 17
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Naomi Ginsberg",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.09,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Graham Fleming",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20130B"
+  ]
+ },
+ "CHEM 135": {
+  "course": "CHEM 135",
+  "difficulty": 3.4,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (12 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.247
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (12)",
+     "value": 3.5,
+     "weight": 0.106
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.035
+    },
+    {
+     "label": "Student usefulness rating (12 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.282
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 3.4,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Reviewers say the material is hard and memorization-heavy, including drawing many mechanisms. Lectures are described as organized and clear, with practice problems and extra credit that help. Opinions differ on exams: some call them fair, others say grading is unclear and questions unpredictable.",
+  "sentimentWrittenBy": "model",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 837,
+   "pctA": 51,
+   "pctBelowB": 20,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 133
+    },
+    {
+     "letter": "A",
+     "count": 150
+    },
+    {
+     "letter": "A-",
+     "count": 125
+    },
+    {
+     "letter": "B+",
+     "count": 70
+    },
+    {
+     "letter": "B",
+     "count": 109
+    },
+    {
+     "letter": "B-",
+     "count": 57
+    },
+    {
+     "letter": "C+",
+     "count": 34
+    },
+    {
+     "letter": "C",
+     "count": 54
+    },
+    {
+     "letter": "C-",
+     "count": 36
+    },
+    {
+     "letter": "D",
+     "count": 26
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 12,
+   "difficulty": 3.6,
+   "workload": 3.5,
+   "usefulness": 4.3,
+   "recordedPct": 92,
+   "attendanceRequiredPct": 42
+  },
+  "byProfessor": [
+   {
+    "professor": "Margaux Pinney",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.3,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Evan Miller",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.93,
+    "studentCount": 9,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Anne Baranger",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.09,
+    "midterms": 3,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Daniel Nomura",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.97,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20135"
+  ]
+ },
+ "CHEM 136": {
+  "course": "CHEM 136",
+  "difficulty": 2.8,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.072
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.021
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.0/5 for difficulty, 2.2/5 for workload and 4.2/5 for usefulness. The average grade is A- (3.54), with 55% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 13,
+   "pctA": 55,
+   "pctBelowB": 0,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 2.2,
+   "usefulness": 4.2,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Francis",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.54,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.7,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20136"
+  ]
+ },
+ "CHEM 143": {
+  "course": "CHEM 143",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.07)",
+     "value": 3.8,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.07), with 30% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.07,
+   "letter": "B",
+   "students": 15,
+   "pctA": 30,
+   "pctBelowB": 20,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20143"
+  ]
+ },
+ "CHEM 159": {
+  "course": "CHEM 159",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.64), with 73% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 73,
+   "pctA": 73,
+   "pctBelowB": 8,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Brooks Abel",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20159"
+  ]
+ },
+ "CHEM 171H": {
+  "course": "CHEM 171H",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 37,
+   "pctA": 85,
+   "pctBelowB": 3,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Megan Arnett",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20171H"
+  ]
+ },
+ "CHEM 179": {
+  "course": "CHEM 179",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 75% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 32,
+   "pctA": 75,
+   "pctBelowB": 11,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Martin Head-Gordon",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.5,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20179"
+  ]
+ },
+ "CHEM 195": {
+  "course": "CHEM 195",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 45,
+   "pctA": 64,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aleksandr Smirnov",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Conor Broderick",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Teresa Head-Gordon",
+    "terms": 4,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Matthew Francis",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Daniel Nomura",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Brooks Abel",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Ziyang Zhang",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20195"
+  ]
+ },
+ "CHEM 196": {
+  "course": "CHEM 196",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "John Groves",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Judith Klinman",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Naomi Ginsberg",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Evan Miller",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michelle Douskey",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Evan Williams",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jay Keasling",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 12,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20196"
+  ]
+ },
+ "CHEM 197": {
+  "course": "CHEM 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Armand Alivisatos",
+    "terms": 11,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dean Toste",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Roya Maboudian",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Matthew Francis",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Martin Head-Gordon",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jeffrey Long",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ting Xu",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Peidong Yang",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20197"
+  ]
+ },
+ "CHEM 198": {
+  "course": "CHEM 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Alexis Shusterman",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Kurt Vollhardt",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20198"
+  ]
+ },
+ "CHEM 199": {
+  "course": "CHEM 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Peidong Yang",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Evan Williams",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dean Toste",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Don Tilley",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richard Saykally",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richmond Sarpong",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kenneth Raymond",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexander Pines",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20199"
+  ]
+ },
+ "CHEM 1A": {
+  "course": "CHEM 1A",
+  "difficulty": 3.4,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (252 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.343
+    },
+    {
+     "label": "Average grade B (3.01)",
+     "value": 4.0,
+     "weight": 0.347
+    },
+    {
+     "label": "Student workload rating (252)",
+     "value": 2.9,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.1,
+     "weight": 0.049
+    },
+    {
+     "label": "Student usefulness rating (252 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.392
+    },
+    {
+     "label": "Tone of written student reviews (628 on file)",
+     "value": 4.3,
+     "weight": 0.149
+    }
+   ]
+  },
+  "sentiment": "Students describe a standard first-semester chemistry course with fairly challenging tests, easy-to-earn discussion credit, and plenty of practice exams. Lectures are widely praised as engaging, though a few say acids and bases are hard and some instructors confuse. Reviewers advise doing practice tests and going to office hours.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.01,
+   "letter": "B",
+   "students": 6049,
+   "pctA": 39,
+   "pctBelowB": 24,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 231
+    },
+    {
+     "letter": "A",
+     "count": 1191
+    },
+    {
+     "letter": "A-",
+     "count": 837
+    },
+    {
+     "letter": "B+",
+     "count": 751
+    },
+    {
+     "letter": "B",
+     "count": 784
+    },
+    {
+     "letter": "B-",
+     "count": 571
+    },
+    {
+     "letter": "C+",
+     "count": 365
+    },
+    {
+     "letter": "C",
+     "count": 342
+    },
+    {
+     "letter": "C-",
+     "count": 288
+    },
+    {
+     "letter": "D+",
+     "count": 18
+    },
+    {
+     "letter": "D",
+     "count": 97
+    },
+    {
+     "letter": "D-",
+     "count": 16
+    },
+    {
+     "letter": "F",
+     "count": 264
+    },
+    {
+     "letter": "P",
+     "count": 204
+    },
+    {
+     "letter": "NP",
+     "count": 90
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 252,
+   "difficulty": 3.3,
+   "workload": 2.9,
+   "usefulness": 4.3,
+   "recordedPct": 96,
+   "attendanceRequiredPct": 71
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexis Shusterman",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.03,
+    "studentCount": 247,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.5,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.98,
+    "studentCount": 69,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.3,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Eric Neuscamman",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.98,
+    "studentCount": 146,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.6,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Mark Kubinec",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.59,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Kristie Boering",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 2.93,
+    "difficulty": 3.9
+   }
+  ],
+  "reviews": [
+   {
+    "text": "very standard 1st semester college chemistry, similar to AP chemistry. course is set up pretty fairly and drop/clobber policies are decent.",
+    "term": "2024 Spring",
+    "source": "Berkeleytime",
+    "title": "chem 1a",
+    "professor": "Alexis Shusterman",
+    "grade": "B"
+   },
+   {
+    "text": "Professor Shusterman is an amazing professor and is very motivated to see her students succeed. Professor Roy's lectures on Acids and Bases can be pretty dense, but you can get by through self-study!",
+    "term": "2026 Fall",
+    "source": "Berkeleytime",
+    "title": "Professors",
+    "professor": "Alexis Shusterman, Debjani Roy"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%201A"
+  ]
+ },
+ "CHEM 1AL": {
+  "course": "CHEM 1AL",
+  "difficulty": 2.9,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (67 on Berkeleytime)",
+     "value": 3.0,
+     "weight": 0.326
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (67)",
+     "value": 4.1,
+     "weight": 0.14
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.9,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (67 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.372
+    },
+    {
+     "label": "Tone of written student reviews (128 on file)",
+     "value": 2.8,
+     "weight": 0.145
+    }
+   ]
+  },
+  "sentiment": "Students say the labs are straightforward, but weekly pre-labs and lab reports take far more time than a 2-unit class suggests. Grading is described as strict and unclear, with no rubric and big differences between GSIs. Lectures are fun but often unrelated to the labs, and the final closely mirrors the practice exams.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 4866,
+   "pctA": 68,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 203
+    },
+    {
+     "letter": "A",
+     "count": 2302
+    },
+    {
+     "letter": "A-",
+     "count": 748
+    },
+    {
+     "letter": "B+",
+     "count": 427
+    },
+    {
+     "letter": "B",
+     "count": 492
+    },
+    {
+     "letter": "B-",
+     "count": 213
+    },
+    {
+     "letter": "C+",
+     "count": 79
+    },
+    {
+     "letter": "C",
+     "count": 153
+    },
+    {
+     "letter": "C-",
+     "count": 63
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 69
+    },
+    {
+     "letter": "P",
+     "count": 92
+    },
+    {
+     "letter": "NP",
+     "count": 18
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 67,
+   "difficulty": 3.0,
+   "workload": 4.1,
+   "usefulness": 3.3,
+   "recordedPct": 85,
+   "attendanceRequiredPct": 90
+  },
+  "byProfessor": [
+   {
+    "professor": "Michelle Douskey",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.54,
+    "studentCount": 61,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.9,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.39,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Maheemah Bokhoree",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.5,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.9,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%201AL"
+  ]
+ },
+ "CHEM 1B": {
+  "course": "CHEM 1B",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 3.2,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed. Students say exams are manageable if you do the practice exams, and some appreciate free materials and helpful office hours. Others complain of heavy work, online homework that does not match lectures, errors in practice solutions, and topics on exams not covered.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 610,
+   "pctA": 59,
+   "pctBelowB": 11,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 234
+    },
+    {
+     "letter": "A-",
+     "count": 68
+    },
+    {
+     "letter": "B+",
+     "count": 54
+    },
+    {
+     "letter": "B",
+     "count": 93
+    },
+    {
+     "letter": "B-",
+     "count": 30
+    },
+    {
+     "letter": "C+",
+     "count": 28
+    },
+    {
+     "letter": "C",
+     "count": 16
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.8,
+   "workload": 3.6,
+   "usefulness": 3.6,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Michelle Douskey",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.39,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%201B"
+  ]
+ },
+ "CHEM 24": {
+  "course": "CHEM 24",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 32,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 47,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Evan Miller",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hendrik Utzat",
+    "terms": 3,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2024"
+  ]
+ },
+ "CHEM 32": {
+  "course": "CHEM 32",
+  "difficulty": 2.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (11 on file)",
+     "value": 4.7,
+     "weight": 0.11
+    }
+   ]
+  },
+  "sentiment": "Students describe an easy, well-structured prep course with caring teaching and very accessible office hours. Exams are fair and homework is harder than the tests. Many say it built a solid foundation for later chemistry, and it is often taken pass/no pass.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "C",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Maheemah Bokhoree",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Iulia-Oxana Andriuc",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Evan Miller",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Alexis Shusterman",
+    "terms": 2,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2032"
+  ]
+ },
+ "CHEM 34": {
+  "course": "CHEM 34",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 67% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 15,
+   "pctA": 67,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anneliese Gest",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Evan Miller",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2034"
+  ]
+ },
+ "CHEM 3A": {
+  "course": "CHEM 3A",
+  "difficulty": 3.9,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (92 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.332
+    },
+    {
+     "label": "Average grade B (2.98)",
+     "value": 4.1,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (92)",
+     "value": 4.1,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.9,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (92 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.379
+    },
+    {
+     "label": "Tone of written student reviews (229 on file)",
+     "value": 3.3,
+     "weight": 0.147
+    }
+   ]
+  },
+  "sentiment": "Students call this organic chemistry course demanding, with fast lectures, frequent assignments and quizzes, and a lot of work. Many say staying on top of the material, practicing, and attending office hours leads to success, and several note generous drops and cheat sheets. Opinions on teaching quality vary widely by instructor.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.98,
+   "letter": "B",
+   "students": 4297,
+   "pctA": 43,
+   "pctBelowB": 27,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 215
+    },
+    {
+     "letter": "A",
+     "count": 971
+    },
+    {
+     "letter": "A-",
+     "count": 575
+    },
+    {
+     "letter": "B+",
+     "count": 469
+    },
+    {
+     "letter": "B",
+     "count": 406
+    },
+    {
+     "letter": "B-",
+     "count": 340
+    },
+    {
+     "letter": "C+",
+     "count": 292
+    },
+    {
+     "letter": "C",
+     "count": 245
+    },
+    {
+     "letter": "C-",
+     "count": 230
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 22
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 304
+    },
+    {
+     "letter": "P",
+     "count": 132
+    },
+    {
+     "letter": "NP",
+     "count": 88
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 92,
+   "difficulty": 3.9,
+   "workload": 4.1,
+   "usefulness": 4.3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 49
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Marsden",
+    "terms": 8,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.0,
+    "studentCount": 51,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.9,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "MaryAnn Robak",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.97,
+    "studentCount": 41,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.1,
+    "difficulty": 4.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Kurt Vollhardt",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.79,
+    "difficulty": 4.4
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Very good instructor. Chalkboard lecturing. Lectures are explained in an intuitive way (relies on connecting dots and ideas) and hand-holdy. But, this helped me a lot in ochem. No cheat sheet. Do lots of practices and treat it like math!",
+    "term": "2025 Spring",
+    "source": "Berkeleytime",
+    "title": "Chem3A - Marsden",
+    "professor": "Peter Marsden",
+    "grade": "A"
+   },
+   {
+    "text": "standard organic chemistry class--will be unintuitive at first. robak gives cheat sheets for midterms which are extremely helpful and provides in class lecture fill in the black notes. one exam is entirely dropped which is very generous.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "chem 3a",
+    "professor": "MaryAnn Robak",
+    "grade": "B"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%203A"
+  ]
+ },
+ "CHEM 3AL": {
+  "course": "CHEM 3AL",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (17 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.27
+    },
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.345
+    },
+    {
+     "label": "Student workload rating (17)",
+     "value": 3.1,
+     "weight": 0.116
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (17 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.309
+    },
+    {
+     "label": "Tone of written student reviews (60 on file)",
+     "value": 4.5,
+     "weight": 0.141
+    }
+   ]
+  },
+  "sentiment": "Students describe a manageable, well-organized lab course with clear grading, helpful lectures tied to the labs, and a responsive instructor. Common warnings are that the final is harder than the practice exams and that notebook and lab report grading can be picky. Showing up and doing the work is enough for most.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 3663,
+   "pctA": 78,
+   "pctBelowB": 3,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 213
+    },
+    {
+     "letter": "A",
+     "count": 1846
+    },
+    {
+     "letter": "A-",
+     "count": 756
+    },
+    {
+     "letter": "B+",
+     "count": 419
+    },
+    {
+     "letter": "B",
+     "count": 199
+    },
+    {
+     "letter": "B-",
+     "count": 71
+    },
+    {
+     "letter": "C+",
+     "count": 35
+    },
+    {
+     "letter": "C",
+     "count": 32
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 20
+    },
+    {
+     "letter": "P",
+     "count": 56
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 17,
+   "difficulty": 2.9,
+   "workload": 3.1,
+   "usefulness": 3.8,
+   "recordedPct": 87,
+   "attendanceRequiredPct": 27
+  },
+  "byProfessor": [
+   {
+    "professor": "Katie Blackford",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "studentCount": 15,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 3.7,
+    "difficulty": 2.3,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Peter Marsden",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.65,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.7,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.66,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%203AL"
+  ]
+ },
+ "CHEM 3B": {
+  "course": "CHEM 3B",
+  "difficulty": 3.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (46 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.316
+    },
+    {
+     "label": "Average grade B (3.05)",
+     "value": 3.9,
+     "weight": 0.345
+    },
+    {
+     "label": "Student workload rating (46)",
+     "value": 3.9,
+     "weight": 0.135
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.1,
+     "weight": 0.045
+    },
+    {
+     "label": "Student usefulness rating (46 on Berkeleytime)",
+     "value": 4.0,
+     "weight": 0.361
+    },
+    {
+     "label": "Tone of written student reviews (127 on file)",
+     "value": 4.2,
+     "weight": 0.145
+    }
+   ]
+  },
+  "sentiment": "Students say organic chemistry is hard and the workload is heavy, but most find the lectures clear and the grading fair. Extra credit, dropped scores, notes on exams and office hours help. Reviewers urge doing all practice problems and going to office hours, though a few found the style hard to fit.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.05,
+   "letter": "B",
+   "students": 3434,
+   "pctA": 49,
+   "pctBelowB": 26,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 313
+    },
+    {
+     "letter": "A",
+     "count": 838
+    },
+    {
+     "letter": "A-",
+     "count": 467
+    },
+    {
+     "letter": "B+",
+     "count": 333
+    },
+    {
+     "letter": "B",
+     "count": 288
+    },
+    {
+     "letter": "B-",
+     "count": 220
+    },
+    {
+     "letter": "C+",
+     "count": 187
+    },
+    {
+     "letter": "C",
+     "count": 203
+    },
+    {
+     "letter": "C-",
+     "count": 204
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 242
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 48
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 46,
+   "difficulty": 3.8,
+   "workload": 3.9,
+   "usefulness": 4.0,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 35
+  },
+  "byProfessor": [
+   {
+    "professor": "MaryAnn Robak",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.89,
+    "studentCount": 13,
+    "studentDifficulty": 4.1,
+    "studentUsefulness": 4.3,
+    "difficulty": 4.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Peter Marsden",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.24,
+    "studentCount": 31,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4.0,
+    "difficulty": 3.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Raffaele Perrotta",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.59,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2.5,
+    "difficulty": 4.1,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Leo Chen",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.61,
+    "difficulty": 4.3
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 1.97,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Kevin Sibucao",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.32,
+    "difficulty": 4.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Attendance is taken account via QR code but can miss some. Very good instructor. Chalkboard lecturing. Lectures are explained in an intuitive way (relies on connecting dots and ideas) and hand-holdy. But, this helped me a lot in ochem. Do lots of practices and treat it like math!",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Chem3B - Marsden",
+    "professor": "Peter Marsden",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%203B"
+  ]
+ },
+ "CHEM 3BL": {
+  "course": "CHEM 3BL",
+  "difficulty": 2.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 3.3,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.257
+    },
+    {
+     "label": "Tone of written student reviews (32 on file)",
+     "value": 4.0,
+     "weight": 0.133
+    }
+   ]
+  },
+  "sentiment": "Students generally like the lectures and find exams fair, and many praise how approachable the instructor is. Grading on data analysis and lab assignments is described as strict, with small mistakes costing many points. Expect several assignments each week, and go to office hours for help.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 2822,
+   "pctA": 71,
+   "pctBelowB": 7,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 189
+    },
+    {
+     "letter": "A",
+     "count": 1216
+    },
+    {
+     "letter": "A-",
+     "count": 541
+    },
+    {
+     "letter": "B+",
+     "count": 272
+    },
+    {
+     "letter": "B",
+     "count": 223
+    },
+    {
+     "letter": "B-",
+     "count": 122
+    },
+    {
+     "letter": "C+",
+     "count": 84
+    },
+    {
+     "letter": "C",
+     "count": 49
+    },
+    {
+     "letter": "C-",
+     "count": 34
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 68
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 3.2,
+   "workload": 3.3,
+   "usefulness": 3.4,
+   "recordedPct": 86,
+   "attendanceRequiredPct": 29
+  },
+  "byProfessor": [
+   {
+    "professor": "Raffaele Perrotta",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Katie Blackford",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.63,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.54,
+    "studentCount": 5,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.2,
+    "difficulty": 2.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Leo Chen",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.56,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.6,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Alexis Shusterman",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.61,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Kevin Sibucao",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.25,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%203BL"
+  ]
+ },
+ "CHEM 49": {
+  "course": "CHEM 49",
+  "difficulty": 3.0,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "MaryAnn Robak",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Bediako",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Matthew Francis",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jennifer Bergner",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Debjani Roy",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 3.0,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Ronald Cohen",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Richard Saykally",
+    "terms": 3,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Ke Xu",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2049"
+  ]
+ },
+ "CHEM 4A": {
+  "course": "CHEM 4A",
+  "difficulty": 3.7,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (38 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.309
+    },
+    {
+     "label": "Average grade B (3.01)",
+     "value": 4.0,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (38)",
+     "value": 3.5,
+     "weight": 0.133
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (38 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.353
+    },
+    {
+     "label": "Tone of written student reviews (148 on file)",
+     "value": 3.4,
+     "weight": 0.146
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are engaging but dense, and exams are the hard part, with unclear question types and little exam prep. Grading is seen as fair by some and harsh by others. Reviewers advise reading the textbook, using GSI resources, and going to office hours. A midterm drop is mentioned.",
+  "sentimentWrittenBy": "model",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.01,
+   "letter": "B",
+   "students": 1220,
+   "pctA": 27,
+   "pctBelowB": 22,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 156
+    },
+    {
+     "letter": "A-",
+     "count": 147
+    },
+    {
+     "letter": "B+",
+     "count": 194
+    },
+    {
+     "letter": "B",
+     "count": 258
+    },
+    {
+     "letter": "B-",
+     "count": 148
+    },
+    {
+     "letter": "C+",
+     "count": 98
+    },
+    {
+     "letter": "C",
+     "count": 91
+    },
+    {
+     "letter": "C-",
+     "count": 56
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 38,
+   "difficulty": 3.8,
+   "workload": 3.5,
+   "usefulness": 4.1,
+   "recordedPct": 97,
+   "attendanceRequiredPct": 3
+  },
+  "byProfessor": [
+   {
+    "professor": "Jennifer Bergner",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.0,
+    "studentCount": 38,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Kristie Boering",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.06,
+    "studentCount": 29,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Ke Xu",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.97,
+    "midterms": 3,
+    "studentCount": 9,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 4.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Michael Werner Zuerch",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.96,
+    "midterms": 3,
+    "studentCount": 7,
+    "studentDifficulty": 4.1,
+    "studentUsefulness": 4,
+    "difficulty": 4.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%204A"
+  ]
+ },
+ "CHEM 4B": {
+  "course": "CHEM 4B",
+  "difficulty": 3.4,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (10 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.233
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (10)",
+     "value": 3.3,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.033
+    },
+    {
+     "label": "Student usefulness rating (10 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.267
+    },
+    {
+     "label": "Tone of written student reviews (37 on file)",
+     "value": 2.8,
+     "weight": 0.135
+    }
+   ]
+  },
+  "sentiment": "Students say this is a demanding course in a notoriously hard series, with tough exams and a heavy lab load. Opinions on lectures split, from engaging and fair to flat and confusing. Reviewers mention that practice exams do not match the real ones and that the head GSI matters a lot.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 1127,
+   "pctA": 36,
+   "pctBelowB": 14,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 41
+    },
+    {
+     "letter": "A",
+     "count": 144
+    },
+    {
+     "letter": "A-",
+     "count": 172
+    },
+    {
+     "letter": "B+",
+     "count": 176
+    },
+    {
+     "letter": "B",
+     "count": 210
+    },
+    {
+     "letter": "B-",
+     "count": 115
+    },
+    {
+     "letter": "C+",
+     "count": 74
+    },
+    {
+     "letter": "C",
+     "count": 40
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 130
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 10,
+   "difficulty": 3.5,
+   "workload": 3.3,
+   "usefulness": 3.9,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jennifer Bergner",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "studentCount": 7,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Ronald Cohen",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.6,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Daniel Bediako",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.15,
+    "studentCount": 10,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.9,
+    "difficulty": 3.5,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.14,
+    "difficulty": 3.5
+   }
+  ],
+  "reviews": [
+   {
+    "text": "More disorganized than 4A because the head GSI was not very good at her job. Prof. Bergner improved from 4A, shifting from pure graphics to handwriting derivations and adding notes to her slides. Exams were fair, and I applaud Bergner’s ability to come up with conceptual questions, but I think her MCQs should be worth less. Grading was sometimes inconsistent (e.g. sometimes a deduction system was used, other times it was an awarding system). Labs were much more demanding than 4A, which makes…",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "CHEM 4B Spring 2026",
+    "professor": "Daniel Bediako, Jennifer Bergner",
+    "grade": "A-"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%204B"
+  ]
+ },
+ "CHEM 96": {
+  "course": "CHEM 96",
+  "difficulty": 2.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 2.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 2,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Neumark",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Omar Yaghi",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 2,
+    "difficulty": 2.0,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Daniel Nomura",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Naomi Ginsberg",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2096"
+  ]
+ },
+ "CHEM 98": {
+  "course": "CHEM 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Anne Baranger",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Matthew Francis",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marcin Majda",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Alexis Shusterman",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2098"
+  ]
+ },
+ "CHEM 98W": {
+  "course": "CHEM 98W",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Roya Maboudian",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shamaya Pellum",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 6,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%2098W"
+  ]
+ },
+ "CHEM C110L": {
+  "course": "CHEM C110L",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.269
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.5/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.38), with 51% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 165,
+   "pctA": 51,
+   "pctBelowB": 12,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 28
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4.5,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Isabelle Le Blanc",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.34,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Eunyong Park",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.45,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "David Drubin",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.35,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C110L"
+  ]
+ },
+ "CHEM C130": {
+  "course": "CHEM C130",
+  "difficulty": 3.7,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade B (3.03)",
+     "value": 3.9,
+     "weight": 0.295
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 3.4,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 4.1/5 for difficulty, 3.4/5 for workload and 3.8/5 for usefulness. The average grade is B (3.03), with 36% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.03,
+   "letter": "B",
+   "students": 267,
+   "pctA": 36,
+   "pctBelowB": 26,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 37
+    },
+    {
+     "letter": "B-",
+     "count": 26
+    },
+    {
+     "letter": "C+",
+     "count": 25
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 4.1,
+   "workload": 3.4,
+   "usefulness": 3.8,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Ke Xu",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.9,
+    "midterms": 2,
+    "studentCount": 5,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.1,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Eunyong Park",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.99,
+    "midterms": 2,
+    "studentCount": 6,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.9,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "James Cate",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.96,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.9,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Bronwyn Lucas",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Susan Marqusee",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Margaux Pinney",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.14,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 3.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "John Groves",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.04,
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "John Kuriyan",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.17,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C130"
+  ]
+ },
+ "CHEM C142": {
+  "course": "CHEM C142",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 38,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Teresa Head-Gordon",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.94,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C142"
+  ]
+ },
+ "CHEM C146": {
+  "course": "CHEM C146",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Rebecca Abergel",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C146"
+  ]
+ },
+ "CHEM C150": {
+  "course": "CHEM C150",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.229
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.33), with 46% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 95,
+   "pctA": 46,
+   "pctBelowB": 11,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Hendrik Utzat",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.18,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.1,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Daniel Bediako",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.45,
+    "midterms": 1,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C150"
+  ]
+ },
+ "CHEM C178": {
+  "course": "CHEM C178",
+  "difficulty": 3.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 3.5/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C178"
+  ]
+ },
+ "CHEM C182": {
+  "course": "CHEM C182",
+  "difficulty": 2.7,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.213
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.061
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 4.6,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Reviewers largely love this class, praising an enthusiastic, clear instructor, clear expectations, helpful office hours and interesting content such as field trips. One review found the concepts poorly explained and demos unhelpful for the midterm. Overall students strongly recommend it.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 78,
+   "pctA": 59,
+   "pctBelowB": 7,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristie Boering",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C182"
+  ]
+ },
+ "CHEM C191": {
+  "course": "CHEM C191",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.211
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.36), with 57% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 76,
+   "pctA": 57,
+   "pctBelowB": 10,
+   "pctPassNoPass": 36,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Geoffrey Penington",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "K Whaley",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.36,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Alp Sipahigil",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.33,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Shimon Kolkowitz",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Ashok Ajoy",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Umesh Vazirani",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C191"
+  ]
+ },
+ "CHEM C191A": {
+  "course": "CHEM C191A",
+  "difficulty": 3.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.077
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.022
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.8/5 for difficulty, 4.0/5 for workload and 3.8/5 for usefulness. The average grade is B+ (3.31), with 70% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 14,
+   "pctA": 70,
+   "pctBelowB": 10,
+   "pctPassNoPass": 29,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.8,
+   "workload": 4,
+   "usefulness": 3.8,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Umesh Vazirani",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "studentCount": 4,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.5,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Katharine Whaley",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 1,
+    "difficulty": 3.8,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Shimon Kolkowitz",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.31,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.4,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C191A"
+  ]
+ },
+ "CHEM C191B": {
+  "course": "CHEM C191B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Aziza Suleymanzade",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Wright",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ashok Ajoy",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Hartmut Haeffner",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "K Whaley",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20C191B"
+  ]
+ },
+ "CHEM H193": {
+  "course": "CHEM H193",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Daniel Nomura",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Peidong Yang",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Omar Yaghi",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ting Xu",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ke Xu",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Evan Williams",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Wemmer",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dean Toste",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20H193"
+  ]
+ },
+ "CHEM H194": {
+  "course": "CHEM H194",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Matthew Francis",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 14,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jay Keasling",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Hartwig",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Peidong Yang",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ting Xu",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dean Toste",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Judith Klinman",
+    "terms": 14,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHEM%20H194"
+  ]
+ }
+}

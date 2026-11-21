@@ -1,0 +1,95 @@
+{
+ "id": "major-comparative-literature-ba",
+ "title": "Comparative Literature BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25192U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25192U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25192U",
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Advanced Subject Matter",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "COMLIT 100",
+      "COMLIT 100A",
+      "COMLIT 100B",
+      "COMLIT 100C",
+      "COMLIT 100D",
+      "COMLIT 190",
+      "DIGHUM 100",
+      "JEWISH 120A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "historical-period",
+   "title": "Historical Period",
+   "section": "Advanced Subject Matter",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AGRS 161"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 151"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 152"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 153"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 154"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 155"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 165"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 170"
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-literature",
+   "title": "Primary Literature",
+   "section": "Primary/Secondary Literature",
+   "rule": {
+    "type": "manual",
+    "text": "Select at least three upper division courses (minimum 12 units), with readings in the original language."
+   }
+  },
+  {
+   "id": "secondary-literature",
+   "title": "Secondary Literature",
+   "section": "Primary/Secondary Literature",
+   "rule": {
+    "type": "manual",
+    "text": "Select at least two upper division courses (minimum 8 units), with readings in the original language and selected to fit the student’s period of primary interest"
+   }
+  }
+ ]
+}

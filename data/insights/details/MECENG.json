@@ -1,0 +1,6670 @@
+{
+ "MECENG 100": {
+  "course": "MECENG 100",
+  "difficulty": 2.8,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (14 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.258
+    },
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.334
+    },
+    {
+     "label": "Student workload rating (14)",
+     "value": 3,
+     "weight": 0.111
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.037
+    },
+    {
+     "label": "Student usefulness rating (14 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.295
+    },
+    {
+     "label": "Tone of written student reviews (17 on file)",
+     "value": 2.0,
+     "weight": 0.121
+    }
+   ]
+  },
+  "sentiment": "Reviewers mostly say lectures teach little and the course is disorganized, with GSIs and discussions carrying the learning. Labs and the final project are praised as fun and useful. Exams vary, with some very hard take-home tests. Students advise self-studying and relying on staff.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 1049,
+   "pctA": 58,
+   "pctBelowB": 10,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 369
+    },
+    {
+     "letter": "A-",
+     "count": 191
+    },
+    {
+     "letter": "B+",
+     "count": 132
+    },
+    {
+     "letter": "B",
+     "count": 130
+    },
+    {
+     "letter": "B-",
+     "count": 63
+    },
+    {
+     "letter": "C+",
+     "count": 48
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 15
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 14,
+   "difficulty": 2.9,
+   "workload": 3,
+   "usefulness": 3.6,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Kameshwar Poolla",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.4,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "George Anwar",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "studentCount": 11,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3.4,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20100"
+  ]
+ },
+ "MECENG 101": {
+  "course": "MECENG 101",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 56% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 41,
+   "pctA": 56,
+   "pctBelowB": 6,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sara McMains",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20101"
+  ]
+ },
+ "MECENG 102B": {
+  "course": "MECENG 102B",
+  "difficulty": 2.3,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.6,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.4/5 for difficulty, 2.6/5 for workload and 4.1/5 for usefulness. The average grade is A- (3.67), with 74% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 899,
+   "pctA": 74,
+   "pctBelowB": 3,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 150
+    },
+    {
+     "letter": "A",
+     "count": 322
+    },
+    {
+     "letter": "A-",
+     "count": 179
+    },
+    {
+     "letter": "B+",
+     "count": 97
+    },
+    {
+     "letter": "B",
+     "count": 70
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 22
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.4,
+   "workload": 2.6,
+   "usefulness": 4.1,
+   "recordedPct": 71,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Homayoon Kazerooni",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Hannah Stuart",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.76,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Lining Yao",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.8,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.0,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20102B"
+  ]
+ },
+ "MECENG 103": {
+  "course": "MECENG 103",
+  "difficulty": 3.0,
+  "shouldTake": 2.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (11 on file)",
+     "value": 1.3,
+     "weight": 0.11
+    }
+   ]
+  },
+  "sentiment": "Reviewers are strongly negative. They say lectures cover little useful material, the course is run largely by GSIs, and grading and project expectations are unclear and punitive. Students report having to teach themselves and advise avoiding it with this instructor if you can.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 981,
+   "pctA": 56,
+   "pctBelowB": 8,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 72
+    },
+    {
+     "letter": "A",
+     "count": 246
+    },
+    {
+     "letter": "A-",
+     "count": 216
+    },
+    {
+     "letter": "B+",
+     "count": 154
+    },
+    {
+     "letter": "B",
+     "count": 100
+    },
+    {
+     "letter": "B-",
+     "count": 82
+    },
+    {
+     "letter": "C+",
+     "count": 35
+    },
+    {
+     "letter": "C",
+     "count": 14
+    },
+    {
+     "letter": "C-",
+     "count": 15
+    },
+    {
+     "letter": "D+",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.2,
+   "workload": 3.6,
+   "usefulness": 2.2,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "George Anwar",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.13,
+    "studentCount": 4,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 2,
+    "difficulty": 3.5,
+    "shouldTake": 2.4
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Michael Gollner",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Lydia Sohn",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Alanna Cooney",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.66,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Marcel Kristel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Simo Makiharju",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20103"
+  ]
+ },
+ "MECENG 104": {
+  "course": "MECENG 104",
+  "difficulty": 3.7,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 3.8,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.257
+    }
+   ]
+  },
+  "sentiment": "9 students on Berkeleytime rate it 4.2/5 for difficulty, 3.8/5 for workload and 2.8/5 for usefulness. The average grade is B (3.10), with 40% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 882,
+   "pctA": 40,
+   "pctBelowB": 21,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 171
+    },
+    {
+     "letter": "A-",
+     "count": 131
+    },
+    {
+     "letter": "B+",
+     "count": 105
+    },
+    {
+     "letter": "B",
+     "count": 144
+    },
+    {
+     "letter": "B-",
+     "count": 76
+    },
+    {
+     "letter": "C+",
+     "count": 58
+    },
+    {
+     "letter": "C",
+     "count": 49
+    },
+    {
+     "letter": "C-",
+     "count": 38
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 18
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 4.2,
+   "workload": 3.8,
+   "usefulness": 2.8,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 11
+  },
+  "byProfessor": [
+   {
+    "professor": "Kenneth Kamrin",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.16,
+    "studentCount": 4,
+    "studentDifficulty": 4.8,
+    "studentUsefulness": 3,
+    "difficulty": 3.9,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Theresa Honein",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.9,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Fai Ma",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.24,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "David Steigmann",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.88,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 2.3,
+    "difficulty": 4.0,
+    "shouldTake": 2.5
+   },
+   {
+    "professor": "James Casey",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.87,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Noel Perkins",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Kenneth Sprott",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20104"
+  ]
+ },
+ "MECENG 106": {
+  "course": "MECENG 106",
+  "difficulty": 3.3,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B (3.14)",
+     "value": 3.6,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 3.1,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.275
+    }
+   ]
+  },
+  "sentiment": "11 students on Berkeleytime rate it 3.0/5 for difficulty, 3.1/5 for workload and 4.2/5 for usefulness. The average grade is B (3.14), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.14,
+   "letter": "B",
+   "students": 1082,
+   "pctA": 42,
+   "pctBelowB": 21,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 75
+    },
+    {
+     "letter": "A",
+     "count": 214
+    },
+    {
+     "letter": "A-",
+     "count": 143
+    },
+    {
+     "letter": "B+",
+     "count": 137
+    },
+    {
+     "letter": "B",
+     "count": 148
+    },
+    {
+     "letter": "B-",
+     "count": 102
+    },
+    {
+     "letter": "C+",
+     "count": 78
+    },
+    {
+     "letter": "C",
+     "count": 66
+    },
+    {
+     "letter": "C-",
+     "count": 31
+    },
+    {
+     "letter": "D+",
+     "count": 12
+    },
+    {
+     "letter": "D",
+     "count": 15
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 3,
+   "workload": 3.1,
+   "usefulness": 4.2,
+   "recordedPct": 36,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Simo Makiharju",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Shawn Shadden",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.16,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.3,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Mohammad-reza Alam",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.17,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.5,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Alexis Kaminski",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.17,
+    "studentCount": 6,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Philip Marcus",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.8,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Jinge Wang",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.23,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Omer Savas",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.13,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20106"
+  ]
+ },
+ "MECENG 108": {
+  "course": "MECENG 108",
+  "difficulty": 3.6,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (10 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.233
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (10)",
+     "value": 3.6,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.033
+    },
+    {
+     "label": "Student usefulness rating (10 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.267
+    }
+   ]
+  },
+  "sentiment": "10 students on Berkeleytime rate it 3.9/5 for difficulty, 3.6/5 for workload and 3.9/5 for usefulness. The average grade is B (3.13), with 37% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 935,
+   "pctA": 37,
+   "pctBelowB": 16,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 136
+    },
+    {
+     "letter": "A-",
+     "count": 156
+    },
+    {
+     "letter": "B+",
+     "count": 135
+    },
+    {
+     "letter": "B",
+     "count": 165
+    },
+    {
+     "letter": "B-",
+     "count": 102
+    },
+    {
+     "letter": "C+",
+     "count": 56
+    },
+    {
+     "letter": "C",
+     "count": 35
+    },
+    {
+     "letter": "C-",
+     "count": 20
+    },
+    {
+     "letter": "D+",
+     "count": 10
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 59
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 10,
+   "difficulty": 3.9,
+   "workload": 3.6,
+   "usefulness": 3.9,
+   "recordedPct": 57,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Sangid",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Robert Ritchie",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.11,
+    "studentCount": 5,
+    "studentDifficulty": 4.8,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.9,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Grace O'Connell",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.18,
+    "studentCount": 5,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Kyriakos Komvopoulos",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.62,
+    "difficulty": 4.3
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.33,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Dingyi Sun",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.39,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20108"
+  ]
+ },
+ "MECENG 109": {
+  "course": "MECENG 109",
+  "difficulty": 3.7,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B (3.00)",
+     "value": 4.0,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.8/5 for difficulty, 3.4/5 for workload and 3.4/5 for usefulness. The average grade is B (3.00), with 31% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.0,
+   "letter": "B",
+   "students": 950,
+   "pctA": 31,
+   "pctBelowB": 25,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 149
+    },
+    {
+     "letter": "A-",
+     "count": 97
+    },
+    {
+     "letter": "B+",
+     "count": 129
+    },
+    {
+     "letter": "B",
+     "count": 172
+    },
+    {
+     "letter": "B-",
+     "count": 95
+    },
+    {
+     "letter": "C+",
+     "count": 77
+    },
+    {
+     "letter": "C",
+     "count": 70
+    },
+    {
+     "letter": "C-",
+     "count": 46
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 12
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.8,
+   "workload": 3.4,
+   "usefulness": 3.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Costas P. Grigoropoulos",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.02,
+    "studentCount": 5,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.8,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Michael Gollner",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.92,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "David Rich",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.02,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20109"
+  ]
+ },
+ "MECENG 110": {
+  "course": "MECENG 110",
+  "difficulty": 1.6,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.0/5 for difficulty, 1.0/5 for workload and 4.5/5 for usefulness. The average grade is A (3.87), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 657,
+   "pctA": 94,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 160
+    },
+    {
+     "letter": "A",
+     "count": 272
+    },
+    {
+     "letter": "A-",
+     "count": 174
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ala Moradian",
+    "terms": 10,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.85,
+    "studentCount": 2,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4.5,
+    "difficulty": 1.4,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20110"
+  ]
+ },
+ "MECENG 118": {
+  "course": "MECENG 118",
+  "difficulty": 3.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.253
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.072
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 5.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.35), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 130,
+   "pctA": 53,
+   "pctBelowB": 12,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Liwei Lin",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.34,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20118"
+  ]
+ },
+ "MECENG 119": {
+  "course": "MECENG 119",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.261
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.37), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 146,
+   "pctA": 52,
+   "pctBelowB": 10,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Liwei Lin",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20119"
+  ]
+ },
+ "MECENG 120": {
+  "course": "MECENG 120",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.203
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 75% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 69,
+   "pctA": 75,
+   "pctBelowB": 4,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mohammad Kaazem Pur Mofrad",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.61,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20120"
+  ]
+ },
+ "MECENG 122": {
+  "course": "MECENG 122",
+  "difficulty": 3.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.95)",
+     "value": 4.2,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.95), with 14% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.95,
+   "letter": "B",
+   "students": 32,
+   "pctA": 14,
+   "pctBelowB": 24,
+   "pctPassNoPass": 34,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20122"
+  ]
+ },
+ "MECENG 126": {
+  "course": "MECENG 126",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.291
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 72% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 249,
+   "pctA": 72,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 115
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lydia Sohn",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.66,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20126"
+  ]
+ },
+ "MECENG 130": {
+  "course": "MECENG 130",
+  "difficulty": 2.9,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.287
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.43), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 229,
+   "pctA": 48,
+   "pctBelowB": 8,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 60
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah Stuart",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Kourosh Youssefi",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.34,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20130"
+  ]
+ },
+ "MECENG 131": {
+  "course": "MECENG 131",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.275
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 183,
+   "pctA": 69,
+   "pctBelowB": 4,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 47
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Francesco Borrelli",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20131"
+  ]
+ },
+ "MECENG 132": {
+  "course": "MECENG 132",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 3.4,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 4.1/5 for difficulty, 3.4/5 for workload and 3.7/5 for usefulness. The average grade is B+ (3.35), with 52% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 911,
+   "pctA": 52,
+   "pctBelowB": 12,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 49
+    },
+    {
+     "letter": "A",
+     "count": 234
+    },
+    {
+     "letter": "A-",
+     "count": 174
+    },
+    {
+     "letter": "B+",
+     "count": 135
+    },
+    {
+     "letter": "B",
+     "count": 122
+    },
+    {
+     "letter": "B-",
+     "count": 68
+    },
+    {
+     "letter": "C+",
+     "count": 46
+    },
+    {
+     "letter": "C",
+     "count": 28
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 4.1,
+   "workload": 3.4,
+   "usefulness": 3.7,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Negar Mehr",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "George Anwar",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.39,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 2,
+    "difficulty": 3.3,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Kameshwar Poolla",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.34,
+    "studentCount": 6,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Charlott Vallon",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.47,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Koushil Sreenath",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.51,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Roberto Horowitz",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.0,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20132"
+  ]
+ },
+ "MECENG 133": {
+  "course": "MECENG 133",
+  "difficulty": 2.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.218
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.062
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.80), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 83,
+   "pctA": 88,
+   "pctBelowB": 1,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Fai Ma",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.8,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.0,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20133"
+  ]
+ },
+ "MECENG 135": {
+  "course": "MECENG 135",
+  "difficulty": 2.1,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.298
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.085
+    },
+    {
+     "label": "Tone of written student reviews (7 on file)",
+     "value": 2.8,
+     "weight": 0.095
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed. The class is mostly open labs and a large open-ended project in LabVIEW, where you get out what you put in. Some find the instructor helpful in lab, while others say lectures teach little and offer no help with projects.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 286,
+   "pctA": 78,
+   "pctBelowB": 2,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 157
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 24
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "George Anwar",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.75,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20135"
+  ]
+ },
+ "MECENG 136HL": {
+  "course": "MECENG 136HL",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.235
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 78% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 102,
+   "pctA": 78,
+   "pctBelowB": 7,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 61
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Mueller",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20136HL"
+  ]
+ },
+ "MECENG 137": {
+  "course": "MECENG 137",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Thomas Schutzius",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20137"
+  ]
+ },
+ "MECENG 139": {
+  "course": "MECENG 139",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.27
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 169,
+   "pctA": 70,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 55
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Homayoon Kazerooni",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.61,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20139"
+  ]
+ },
+ "MECENG 140": {
+  "course": "MECENG 140",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.198
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.50), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 65,
+   "pctA": 57,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Gollner",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20140"
+  ]
+ },
+ "MECENG 146": {
+  "course": "MECENG 146",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 15,
+   "pctA": 69,
+   "pctBelowB": 8,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Schutzius",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20146"
+  ]
+ },
+ "MECENG 150": {
+  "course": "MECENG 150",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.204
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 70,
+   "pctA": 91,
+   "pctBelowB": 3,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tarek Zohdi",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20150"
+  ]
+ },
+ "MECENG 151A": {
+  "course": "MECENG 151A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Costas P. Grigoropoulos",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20151A"
+  ]
+ },
+ "MECENG 151B": {
+  "course": "MECENG 151B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Van Carey",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20151B"
+  ]
+ },
+ "MECENG 154": {
+  "course": "MECENG 154",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.95)",
+     "value": 4.2,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.95), with 38% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.95,
+   "letter": "B",
+   "students": 14,
+   "pctA": 38,
+   "pctBelowB": 23,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Frenklach",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.95,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20154"
+  ]
+ },
+ "MECENG 160": {
+  "course": "MECENG 160",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Simo Makiharju",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mohammad-reza Alam",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20160"
+  ]
+ },
+ "MECENG 161": {
+  "course": "MECENG 161",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Reza Alam",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20161"
+  ]
+ },
+ "MECENG 163": {
+  "course": "MECENG 163",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.296
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.56), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 275,
+   "pctA": 70,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 60
+    },
+    {
+     "letter": "A",
+     "count": 97
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 31
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Reza Alam",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Mohammad-reza Alam",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.19,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Omer Savas",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20163"
+  ]
+ },
+ "MECENG 165": {
+  "course": "MECENG 165",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 82% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 82,
+   "pctBelowB": 3,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Simo Makiharju",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20165"
+  ]
+ },
+ "MECENG 168": {
+  "course": "MECENG 168",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 12,
+   "pctA": 75,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mohammad-reza Alam",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20168"
+  ]
+ },
+ "MECENG 170": {
+  "course": "MECENG 170",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 16,
+   "pctA": 89,
+   "pctBelowB": 0,
+   "pctPassNoPass": 44,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Casey",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20170"
+  ]
+ },
+ "MECENG 172": {
+  "course": "MECENG 172",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.28), with 64% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 25,
+   "pctA": 64,
+   "pctBelowB": 14,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Gollner",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.28,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20172"
+  ]
+ },
+ "MECENG 175": {
+  "course": "MECENG 175",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.43), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 40,
+   "pctA": 54,
+   "pctBelowB": 14,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Casey",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20175"
+  ]
+ },
+ "MECENG 179": {
+  "course": "MECENG 179",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.126
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 28,
+   "pctA": 85,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah Stuart",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20179"
+  ]
+ },
+ "MECENG 185": {
+  "course": "MECENG 185",
+  "difficulty": 3.0,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.209
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.06
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.39), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 74,
+   "pctA": 57,
+   "pctBelowB": 10,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Panayiotis Papadopoulos",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kenneth Kamrin",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.29,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.2,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "David Steigmann",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.8
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Great, top 5 MechE courses I took in undergrad",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Great intro course",
+    "professor": "Kenneth Kamrin",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20185"
+  ]
+ },
+ "MECENG 191K": {
+  "course": "MECENG 191K",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.31
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 99% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 385,
+   "pctA": 99,
+   "pctBelowB": 1,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 342
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Marcel Kristel",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.4
+   },
+   {
+    "professor": "Alanna Cooney",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20191K"
+  ]
+ },
+ "MECENG 193A": {
+  "course": "MECENG 193A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 20,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Van Carey",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Mohsen Naghipourfar",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20193A"
+  ]
+ },
+ "MECENG 193B": {
+  "course": "MECENG 193B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.205
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 71,
+   "pctA": 80,
+   "pctBelowB": 1,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Behcet Acikmese",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Koushil Sreenath",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20193B"
+  ]
+ },
+ "MECENG 193C": {
+  "course": "MECENG 193C",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.225
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 90,
+   "pctA": 92,
+   "pctBelowB": 8,
+   "pctPassNoPass": 86,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 69
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hayden Taylor",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Grace O'Connell",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20193C"
+  ]
+ },
+ "MECENG 193E": {
+  "course": "MECENG 193E",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.253
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 130,
+   "pctA": 94,
+   "pctBelowB": 2,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 89
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Schutzius",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Ralph Berger",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Peter Hosemann",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20193E"
+  ]
+ },
+ "MECENG 193G": {
+  "course": "MECENG 193G",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "David Horsley",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20193G"
+  ]
+ },
+ "MECENG 193H": {
+  "course": "MECENG 193H",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.171
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 48,
+   "pctA": 87,
+   "pctBelowB": 0,
+   "pctPassNoPass": 38,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20193H"
+  ]
+ },
+ "MECENG 196": {
+  "course": "MECENG 196",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Shawn Shadden",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kameshwar Poolla",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Simo Makiharju",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Liwei Lin",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Homayoon Kazerooni",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Grace Gu",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Koushil Sreenath",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20196"
+  ]
+ },
+ "MECENG 197": {
+  "course": "MECENG 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Hayden Taylor",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "George Anwar",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Van Carey",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Omer Savas",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Chris Dames",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Panayiotis Papadopoulos",
+    "terms": 4,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Costas P. Grigoropoulos",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20197"
+  ]
+ },
+ "MECENG 198": {
+  "course": "MECENG 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Grace Gu",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Tarek Zohdi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Oliver O'Reilly",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Matthieu Bourdeau de Fontenay",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Manank Doshi",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Aidan Rickert",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Franklin Ho",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20198"
+  ]
+ },
+ "MECENG 199": {
+  "course": "MECENG 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Simo Makiharju",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Liwei Lin",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Roberto Horowitz",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Costas P. Grigoropoulos",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alice Agogino",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Tarek Zohdi",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Masayoshi Tomizuka",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20199"
+  ]
+ },
+ "MECENG 24": {
+  "course": "MECENG 24",
+  "difficulty": 2.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 2.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Oliver O'Reilly",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Simo Makiharju",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Benson Tongue",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 2,
+    "difficulty": 2.0,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Kyriakos Komvopoulos",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%2024"
+  ]
+ },
+ "MECENG 266": {
+  "course": "MECENG 266",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 58% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 58,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexis Kaminski",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20266"
+  ]
+ },
+ "MECENG 40": {
+  "course": "MECENG 40",
+  "difficulty": 3.6,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (16 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.267
+    },
+    {
+     "label": "Average grade B (3.01)",
+     "value": 4.0,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (16)",
+     "value": 3.1,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (16 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.305
+    },
+    {
+     "label": "Tone of written student reviews (17 on file)",
+     "value": 2.6,
+     "weight": 0.121
+    }
+   ]
+  },
+  "sentiment": "Students describe a tough thermodynamics class with difficult exams, MATLAB-based homework and few practice exams. Many say attending lecture is key to doing well, and some find lectures thorough while others find them bare. Reviews are split, with several strongly negative about the course experience.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.01,
+   "letter": "B",
+   "students": 1004,
+   "pctA": 33,
+   "pctBelowB": 25,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 47
+    },
+    {
+     "letter": "A",
+     "count": 121
+    },
+    {
+     "letter": "A-",
+     "count": 149
+    },
+    {
+     "letter": "B+",
+     "count": 147
+    },
+    {
+     "letter": "B",
+     "count": 135
+    },
+    {
+     "letter": "B-",
+     "count": 130
+    },
+    {
+     "letter": "C+",
+     "count": 97
+    },
+    {
+     "letter": "C",
+     "count": 55
+    },
+    {
+     "letter": "C-",
+     "count": 53
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 16,
+   "difficulty": 3.6,
+   "workload": 3.1,
+   "usefulness": 3.7,
+   "recordedPct": 81,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Schutzius",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.96,
+    "studentCount": 10,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Claudio Hail",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.95,
+    "studentCount": 4,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "David Rich",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.02,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Michael Frenklach",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.99,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Alanna Cooney",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.36,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Van Carey",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.25,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%2040"
+  ]
+ },
+ "MECENG 98": {
+  "course": "MECENG 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Grace O'Connell",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mohammad-reza Alam",
+    "terms": 6,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Tyler Lai",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Franklin Ho",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Ronan Loberg",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Sara McMains",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%2098"
+  ]
+ },
+ "MECENG C106A": {
+  "course": "MECENG C106A",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (14 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.258
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.233
+    },
+    {
+     "label": "Student workload rating (14)",
+     "value": 4.1,
+     "weight": 0.111
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.9,
+     "weight": 0.037
+    },
+    {
+     "label": "Student usefulness rating (14 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.295
+    }
+   ]
+  },
+  "sentiment": "14 students on Berkeleytime rate it 3.9/5 for difficulty, 4.1/5 for workload and 4.1/5 for usefulness. The average grade is A- (3.62), with 72% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded. Attendance is usually required.",
+  "midterms": 2,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 99,
+   "pctA": 72,
+   "pctBelowB": 6,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 14,
+   "difficulty": 3.9,
+   "workload": 4.1,
+   "usefulness": 4.1,
+   "recordedPct": 85,
+   "attendanceRequiredPct": 64
+  },
+  "byProfessor": [
+   {
+    "professor": "Jean-Paul Tennant",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "studentCount": 13,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.5,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Roberto Horowitz",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "studentCount": 13,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.3,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Sosale Sastry",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.83,
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.5,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Koushil Sreenath",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.83,
+    "midterms": 2,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C106A"
+  ]
+ },
+ "MECENG C115": {
+  "course": "MECENG C115",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Mohammad Kaazem Pur Mofrad",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C115"
+  ]
+ },
+ "MECENG C117": {
+  "course": "MECENG C117",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.233
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 99% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 99,
+   "pctA": 99,
+   "pctBelowB": 0,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 84
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Pruitt",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.97,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C117"
+  ]
+ },
+ "MECENG C127": {
+  "course": "MECENG C127",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.316
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 64% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 471,
+   "pctA": 64,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 127
+    },
+    {
+     "letter": "A-",
+     "count": 136
+    },
+    {
+     "letter": "B+",
+     "count": 76
+    },
+    {
+     "letter": "B",
+     "count": 48
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 16
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Grace Gu",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Ali Imam",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.3,
+    "midterms": 1,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C127"
+  ]
+ },
+ "MECENG C134": {
+  "course": "MECENG C134",
+  "difficulty": 3.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.279
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.35), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 197,
+   "pctA": 54,
+   "pctBelowB": 11,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 40
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Somayeh Sojoudi",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.34,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C134"
+  ]
+ },
+ "MECENG C136": {
+  "course": "MECENG C136",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.306
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.37), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 345,
+   "pctA": 53,
+   "pctBelowB": 12,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 57
+    },
+    {
+     "letter": "B",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Mueller",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.36,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.7,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C136"
+  ]
+ },
+ "MECENG C136S": {
+  "course": "MECENG C136S",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.11
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 87% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 23,
+   "pctA": 87,
+   "pctBelowB": 13,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Mueller",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C136S"
+  ]
+ },
+ "MECENG C144": {
+  "course": "MECENG C144",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 24,
+   "pctA": 91,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tarek Zohdi",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.89,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C144"
+  ]
+ },
+ "MECENG C162": {
+  "course": "MECENG C162",
+  "difficulty": 3.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.258
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.8/5 for difficulty, 3.4/5 for workload and 4.6/5 for usefulness. The average grade is B+ (3.38), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 140,
+   "pctA": 58,
+   "pctBelowB": 12,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.8,
+   "workload": 3.4,
+   "usefulness": 4.6,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Lombaerts",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "studentCount": 5,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.3,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C162"
+  ]
+ },
+ "MECENG C166": {
+  "course": "MECENG C166",
+  "difficulty": 2.9,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.089
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.025
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.3/5 for difficulty, 3.2/5 for workload and 3.2/5 for usefulness. The average grade is A- (3.73), with 82% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 82,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.3,
+   "workload": 3.2,
+   "usefulness": 3.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Swati Saxena",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "studentCount": 6,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 3.2,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C166"
+  ]
+ },
+ "MECENG C176": {
+  "course": "MECENG C176",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.18)",
+     "value": 3.5,
+     "weight": 0.203
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.18), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.18,
+   "letter": "B+",
+   "students": 69,
+   "pctA": 52,
+   "pctBelowB": 14,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tony Keaveny",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.1,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C176"
+  ]
+ },
+ "MECENG C178": {
+  "course": "MECENG C178",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.224
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 68% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 89,
+   "pctA": 68,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Shelby Desroches",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Blythe Dumerer",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Grace O'Connell",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.66,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C178"
+  ]
+ },
+ "MECENG C180": {
+  "course": "MECENG C180",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.279
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 4.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 4.3/5 for difficulty, 4.3/5 for workload and 4.7/5 for usefulness. The average grade is B+ (3.45), with 59% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 196,
+   "pctA": 59,
+   "pctBelowB": 10,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 23
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 4.3,
+   "workload": 4.3,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Sanjay Govindjee",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.9,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Shawn Shadden",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.48,
+    "studentCount": 3,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.3,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Tarek Zohdi",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Jerome Solberg",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.2,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C180"
+  ]
+ },
+ "MECENG C184": {
+  "course": "MECENG C184",
+  "difficulty": 3.3,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B- (2.64)",
+     "value": 5.0,
+     "weight": 0.123
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.9,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.0,
+     "weight": 0.035
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.1,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.7/5 for difficulty, 2.9/5 for workload and 2.6/5 for usefulness. The average grade is B- (2.64), with 17% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.64,
+   "letter": "B-",
+   "students": 27,
+   "pctA": 17,
+   "pctBelowB": 43,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.7,
+   "workload": 2.9,
+   "usefulness": 2.6,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Nhan Nguyen",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.65,
+    "studentCount": 7,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 2.6,
+    "difficulty": 3.4,
+    "shouldTake": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C184"
+  ]
+ },
+ "MECENG C205": {
+  "course": "MECENG C205",
+  "difficulty": 2.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.053
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.015
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.89), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 9,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "attendanceRequiredPct": 100
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C205"
+  ]
+ },
+ "MECENG C85": {
+  "course": "MECENG C85",
+  "difficulty": 3.6,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (29 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.299
+    },
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (29)",
+     "value": 3.3,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.043
+    },
+    {
+     "label": "Student usefulness rating (29 on Berkeleytime)",
+     "value": 4.0,
+     "weight": 0.341
+    },
+    {
+     "label": "Tone of written student reviews (13 on file)",
+     "value": 3.3,
+     "weight": 0.115
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed. Many say the class is easy and the exams fair, with problems hinted ahead of time, while others find lectures hard to follow and feel they had to teach themselves. Homework is reasonable and counts for a good share of the grade. Several say it is an easy A but weak for learning the material.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 1170,
+   "pctA": 39,
+   "pctBelowB": 24,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 56
+    },
+    {
+     "letter": "A",
+     "count": 198
+    },
+    {
+     "letter": "A-",
+     "count": 185
+    },
+    {
+     "letter": "B+",
+     "count": 156
+    },
+    {
+     "letter": "B",
+     "count": 143
+    },
+    {
+     "letter": "B-",
+     "count": 108
+    },
+    {
+     "letter": "C+",
+     "count": 59
+    },
+    {
+     "letter": "C",
+     "count": 76
+    },
+    {
+     "letter": "C-",
+     "count": 59
+    },
+    {
+     "letter": "D+",
+     "count": 15
+    },
+    {
+     "letter": "D",
+     "count": 28
+    },
+    {
+     "letter": "D-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 25
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 29,
+   "difficulty": 3.7,
+   "workload": 3.3,
+   "usefulness": 4.0,
+   "recordedPct": 17,
+   "attendanceRequiredPct": 17
+  },
+  "byProfessor": [
+   {
+    "professor": "SHAOFAN LI",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Panayiotis Papadopoulos",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.48,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 4.1,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Sanjay Govindjee",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.99,
+    "studentCount": 4,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Francisco Armero",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.55,
+    "studentCount": 4,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 4.2,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Grace Gu",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.12,
+    "studentCount": 19,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Tony Keaveny",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.48,
+    "difficulty": 4.3
+   },
+   {
+    "professor": "Parsa Taheri",
+    "terms": 4,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.75,
+    "difficulty": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20C85"
+  ]
+ },
+ "MECENG H194": {
+  "course": "MECENG H194",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Simo Makiharju",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hayden Taylor",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shawn Shadden",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Gollner",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Masayoshi Tomizuka",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Koushil Sreenath",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Liwei Lin",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Grace Gu",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20H194"
+  ]
+ },
+ "MECENG W85": {
+  "course": "MECENG W85",
+  "difficulty": 4.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade C+ (2.49)",
+     "value": 5.0,
+     "weight": 0.217
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is C+ (2.49), with 26% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.49,
+   "letter": "C+",
+   "students": 82,
+   "pctA": 26,
+   "pctBelowB": 38,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MECENG%20W85"
+  ]
+ }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "major-statistics-ba",
+  "title": "Statistics BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/statistics/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 54"
+          },
+          {
+            "type": "course",
+            "course": "MATH 56"
+          },
+          {
+            "type": "course",
+            "course": "ELENG 66"
+          },
+          {
+            "type": "course",
+            "course": "EECS 16A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro-stats",
+      "title": "Introductory statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "computing",
+      "title": "Computing",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          },
+          {
+            "type": "course",
+            "course": "DATA C88C"
+          },
+          {
+            "type": "course",
+            "course": "STAT 33A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "stat-133",
+      "title": "Concepts in Computing with Data",
+      "rule": {
+        "type": "course",
+        "course": "STAT 133"
+      }
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 134"
+          },
+          {
+            "type": "course",
+            "course": "DATA C140"
+          }
+        ]
+      }
+    },
+    {
+      "id": "stat-135",
+      "title": "Concepts of Statistics",
+      "rule": {
+        "type": "course",
+        "course": "STAT 135"
+      }
+    },
+    {
+      "id": "stat-electives",
+      "title": "Four upper-division statistics electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "STAT 150",
+            "STAT 151A",
+            "STAT 152",
+            "STAT 153",
+            "STAT 154",
+            "STAT 155",
+            "STAT 158",
+            "STAT 159",
+            "STAT 165",
+            "DATA C100",
+            "DATA C102"
+          ]
+        },
+        "count": 4
+      },
+      "notes": "Including at least one lab course (STAT 151A, 152, 153, 154, 158, or 159)."
+    },
+    {
+      "id": "cluster",
+      "title": "Applied cluster",
+      "rule": {
+        "type": "manual",
+        "text": "Three upper-division courses forming a coherent applied cluster outside statistics, approved by an advisor"
+      }
+    }
+  ]
+}

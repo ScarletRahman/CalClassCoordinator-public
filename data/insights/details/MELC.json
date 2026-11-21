@@ -1,0 +1,4233 @@
+{
+ "MELC 10": {
+  "course": "MELC 10",
+  "difficulty": 2.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (16 on Berkeleytime)",
+     "value": 2.1,
+     "weight": 0.267
+    },
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (16)",
+     "value": 2,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (16 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.305
+    }
+   ]
+  },
+  "sentiment": "16 students on Berkeleytime rate it 2.1/5 for difficulty, 2.0/5 for workload and 3.4/5 for usefulness. The average grade is A- (3.84), with 91% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 394,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 83
+    },
+    {
+     "letter": "A",
+     "count": 196
+    },
+    {
+     "letter": "A-",
+     "count": 54
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 16,
+   "difficulty": 2.1,
+   "workload": 2,
+   "usefulness": 3.4,
+   "recordedPct": 64,
+   "attendanceRequiredPct": 29
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "studentCount": 5,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 4,
+    "difficulty": 2.0,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.83,
+    "studentCount": 11,
+    "studentDifficulty": 1.8,
+    "studentUsefulness": 3.2,
+    "difficulty": 1.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Yonatan Binyam",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.7
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Lucarelli is by far one of the best professors I've ever had! She's extremely compassionate and patient and approachable, so if you're ever feeling lost and confused don't be afraid to go to her! She's also great at answering emails and coordinating times to meet with students. She was extra helpful getting me connected with other faculty members in the MELC department as well, and overall I'd just say that she makes this course a wonderful experience.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Great course!!",
+    "professor": "Rita Lucarelli",
+    "grade": "A+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%2010"
+  ]
+ },
+ "MELC 100": {
+  "course": "MELC 100",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.97)",
+     "value": 4.1,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.97), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.97,
+   "letter": "B",
+   "students": 24,
+   "pctA": 53,
+   "pctBelowB": 26,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jenna Kemp",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.97,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20100"
+  ]
+ },
+ "MELC 101": {
+  "course": "MELC 101",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 92% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 73,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Carol Redmount",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20101"
+  ]
+ },
+ "MELC 103": {
+  "course": "MELC 103",
+  "difficulty": 1.8,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.162
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.046
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.96), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 43,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.96,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4,
+    "difficulty": 1.4,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20103"
+  ]
+ },
+ "MELC 104": {
+  "course": "MELC 104",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 34,
+   "pctA": 93,
+   "pctBelowB": 3,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Niek Veldhuis",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20104"
+  ]
+ },
+ "MELC 106": {
+  "course": "MELC 106",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Deanna Kiser-Go",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20106"
+  ]
+ },
+ "MELC 109": {
+  "course": "MELC 109",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.43), with 50% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 12,
+   "pctA": 50,
+   "pctBelowB": 10,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laurie Pearce",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.43,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20109"
+  ]
+ },
+ "MELC 11": {
+  "course": "MELC 11",
+  "difficulty": 2.3,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.309
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 3.3/5 for usefulness. The average grade is A- (3.76), with 84% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 378,
+   "pctA": 84,
+   "pctBelowB": 2,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 170
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 84
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3.3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Rama Alhabian",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nora Jacobsen Ben Hammed",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.75,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "John Hayes",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 1.9,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Fateme Montazeri",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.76,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Adam Benkato",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Nasser Meerkhan",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%2011"
+  ]
+ },
+ "MELC 110": {
+  "course": "MELC 110",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20110"
+  ]
+ },
+ "MELC 111": {
+  "course": "MELC 111",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 45,
+   "pctA": 89,
+   "pctBelowB": 7,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Carol Redmount",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.86,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20111"
+  ]
+ },
+ "MELC 113": {
+  "course": "MELC 113",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 85,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Niek Veldhuis",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.75,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20113"
+  ]
+ },
+ "MELC 116": {
+  "course": "MELC 116",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Deanna Kiser-Go",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20116"
+  ]
+ },
+ "MELC 117AC": {
+  "course": "MELC 117AC",
+  "difficulty": 2.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.228
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.065
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.4/5 for difficulty, 2.0/5 for workload and 3.2/5 for usefulness. The average grade is A- (3.82), with 87% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 93,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.4,
+   "workload": 2,
+   "usefulness": 3.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 60
+  },
+  "byProfessor": [
+   {
+    "professor": "Yonatan Binyam",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 5,
+    "studentDifficulty": 2.4,
+    "studentUsefulness": 3.2,
+    "difficulty": 1.9,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20117AC"
+  ]
+ },
+ "MELC 118": {
+  "course": "MELC 118",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 13,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Benkato",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.94,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20118"
+  ]
+ },
+ "MELC 119": {
+  "course": "MELC 119",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.183
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.64), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 55,
+   "pctA": 87,
+   "pctBelowB": 9,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20119"
+  ]
+ },
+ "MELC 124": {
+  "course": "MELC 124",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.55), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 22,
+   "pctA": 77,
+   "pctBelowB": 9,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20124"
+  ]
+ },
+ "MELC 125": {
+  "course": "MELC 125",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Simon Brelaud",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20125"
+  ]
+ },
+ "MELC 126": {
+  "course": "MELC 126",
+  "difficulty": 1.9,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.249
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.89), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 123,
+   "pctA": 94,
+   "pctBelowB": 2,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 91
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sanjyot Mehendale",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.6,
+    "shouldTake": 4.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "interesting course, reasonable grading, prof is super knowledgeable, one writing assignment per week (graded mostly on completion)",
+    "term": "2024 Spring",
+    "source": "Berkeleytime",
+    "title": "good course for breadth req",
+    "professor": "Sanjyot Mehendale",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20126"
+  ]
+ },
+ "MELC 132": {
+  "course": "MELC 132",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Joseph Cross",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20132"
+  ]
+ },
+ "MELC 133": {
+  "course": "MELC 133",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Rafael Neis",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20133"
+  ]
+ },
+ "MELC 134": {
+  "course": "MELC 134",
+  "difficulty": 2.6,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Yifat Moas",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.5,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Uri Mor",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20134"
+  ]
+ },
+ "MELC 135": {
+  "course": "MELC 135",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 37,
+   "pctA": 91,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jenna Kemp",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.79,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20135"
+  ]
+ },
+ "MELC 144": {
+  "course": "MELC 144",
+  "difficulty": 2.2,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.1
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.029
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.96), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 20,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nora Jacobsen Ben Hammed",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.96,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 1.9,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20144"
+  ]
+ },
+ "MELC 145": {
+  "course": "MELC 145",
+  "difficulty": 2.1,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.246
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.3/5 for difficulty, 2.3/5 for workload and 4.0/5 for usefulness. The average grade is A (3.86), with 93% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 119,
+   "pctA": 93,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 77
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.3,
+   "workload": 2.3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Azza Ahmad",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.87,
+    "studentCount": 3,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20145"
+  ]
+ },
+ "MELC 146": {
+  "course": "MELC 146",
+  "difficulty": 2.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.292
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 3.1/5 for usefulness. The average grade is A- (3.65), with 78% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 250,
+   "pctA": 78,
+   "pctBelowB": 3,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 109
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 32
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3.1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 29
+  },
+  "byProfessor": [
+   {
+    "professor": "Asad Ahmed",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.67,
+    "studentCount": 7,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.1,
+    "difficulty": 2.0,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Daniyal Channa",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "S Shiraz Ali",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Christine Philliou",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.77,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Madeline Wyse",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.77,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20146"
+  ]
+ },
+ "MELC 148": {
+  "course": "MELC 148",
+  "difficulty": 1.8,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.301
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 1.6,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 1.7/5 for difficulty, 1.6/5 for workload and 4.0/5 for usefulness. The average grade is A (3.86), with 94% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 309,
+   "pctA": 94,
+   "pctBelowB": 0,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 49
+    },
+    {
+     "letter": "A",
+     "count": 132
+    },
+    {
+     "letter": "A-",
+     "count": 81
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 29
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 1.7,
+   "workload": 1.6,
+   "usefulness": 4,
+   "recordedPct": 14,
+   "attendanceRequiredPct": 57
+  },
+  "byProfessor": [
+   {
+    "professor": "Hatem Albazian",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.86,
+    "studentCount": 7,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4,
+    "difficulty": 1.6,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20148"
+  ]
+ },
+ "MELC 150B": {
+  "course": "MELC 150B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Dima Nasser",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nathalie Khankan",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20150B"
+  ]
+ },
+ "MELC 151": {
+  "course": "MELC 151",
+  "difficulty": 2.0,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.114
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.032
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.99), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 24,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nasser Meerkhan",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.99,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20151"
+  ]
+ },
+ "MELC 153": {
+  "course": "MELC 153",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Nasser Meerkhan",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20153"
+  ]
+ },
+ "MELC 155": {
+  "course": "MELC 155",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 11,
+   "pctA": 89,
+   "pctBelowB": 0,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Margaret Larkin",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.86,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20155"
+  ]
+ },
+ "MELC 157": {
+  "course": "MELC 157",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.191
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 60,
+   "pctA": 85,
+   "pctBelowB": 4,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rama Alhabian",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ahmad Diab",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.51,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20157"
+  ]
+ },
+ "MELC 158AC": {
+  "course": "MELC 158AC",
+  "difficulty": 1.8,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.31
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 1.4,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.6,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 2.0/5 for difficulty, 1.4/5 for workload and 3.5/5 for usefulness. The average grade is A (3.88), with 94% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 388,
+   "pctA": 94,
+   "pctBelowB": 1,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 57
+    },
+    {
+     "letter": "A",
+     "count": 213
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 46
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2,
+   "workload": 1.4,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 57
+  },
+  "byProfessor": [
+   {
+    "professor": "Hatem Albazian",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.88,
+    "studentCount": 8,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.6,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20158AC"
+  ]
+ },
+ "MELC 159": {
+  "course": "MELC 159",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Hatem Albazian",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20159"
+  ]
+ },
+ "MELC 160": {
+  "course": "MELC 160",
+  "difficulty": 2.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.203
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.058
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.71), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 69,
+   "pctA": 83,
+   "pctBelowB": 5,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 39
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Benkato",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.72,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20160"
+  ]
+ },
+ "MELC 161": {
+  "course": "MELC 161",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 85,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20161"
+  ]
+ },
+ "MELC 162": {
+  "course": "MELC 162",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Fateme Montazeri",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20162"
+  ]
+ },
+ "MELC 163": {
+  "course": "MELC 163",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 11,
+   "pctA": 82,
+   "pctBelowB": 9,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Ahmad Rashid Salim",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20163"
+  ]
+ },
+ "MELC 165": {
+  "course": "MELC 165",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 83% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 83,
+   "pctBelowB": 9,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Minoo Moallem",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20165"
+  ]
+ },
+ "MELC 166": {
+  "course": "MELC 166",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Nora Jacobsen Ben Hammed",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20166"
+  ]
+ },
+ "MELC 175": {
+  "course": "MELC 175",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 86,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20175"
+  ]
+ },
+ "MELC 18": {
+  "course": "MELC 18",
+  "difficulty": 2.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.303
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 3.6,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students describe a chill survey of Ancient Egypt with light workload and engaging subject matter, though lectures can be dry and fast. Reviews disagree on exams: some find them easy, others say you must memorize over 100 terms. Discussion sections and GSIs are praised.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 322,
+   "pctA": 73,
+   "pctBelowB": 11,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 69
+    },
+    {
+     "letter": "A",
+     "count": 76
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 69
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 3.8,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Cross",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Deanna Kiser-Go",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.88,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.77,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Christine Philliou",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.53,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Jess Johnson",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Carol Redmount",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.39,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Jason Silvestri",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.61,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.53,
+    "difficulty": 2.6
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Great class, Lucarelli is super engaging and excited about the material, which makes it easier to enjoy the lectures. There's one assignment a week which probably takes 1-2 hours to complete, and a couple readings that probably take 2-3 hours total. Overall, I'd say this is a fairly chill class, and fun to take too (if you're into Ancient Egypt).",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Fun, chill class",
+    "professor": "Rita Lucarelli",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%2018"
+  ]
+ },
+ "MELC 180": {
+  "course": "MELC 180",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.284
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 214,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 107
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Asad Ahmed",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Zain Alattar",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Christine Philliou",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "S Shiraz Ali",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20180"
+  ]
+ },
+ "MELC 181": {
+  "course": "MELC 181",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Azza Ahmad",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20181"
+  ]
+ },
+ "MELC 187": {
+  "course": "MELC 187",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Simon Brelaud",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20187"
+  ]
+ },
+ "MELC 190A": {
+  "course": "MELC 190A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Rexhina Ndoci",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Carol Redmount",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20190A"
+  ]
+ },
+ "MELC 190B": {
+  "course": "MELC 190B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 13,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.92,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Carol Redmount",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Jason Silvestri",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Deanna Kiser-Go",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20190B"
+  ]
+ },
+ "MELC 190C": {
+  "course": "MELC 190C",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Masua Sagiv",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Oren Yirmiya",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20190C"
+  ]
+ },
+ "MELC 190D": {
+  "course": "MELC 190D",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 14,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Azza Ahmad",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.98,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Adam Benkato",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20190D"
+  ]
+ },
+ "MELC 199": {
+  "course": "MELC 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Adam Benkato",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Dima Nasser",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Azza Ahmad",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Asad Ahmed",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Nora Jacobsen Ben Hammed",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20199"
+  ]
+ },
+ "MELC 24": {
+  "course": "MELC 24",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.173
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 49,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 37,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 18
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Carol Redmount",
+    "terms": 6,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%2024"
+  ]
+ },
+ "MELC 34": {
+  "course": "MELC 34",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Joseph Cross",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%2034"
+  ]
+ },
+ "MELC 39A": {
+  "course": "MELC 39A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Yonatan Binyam",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%2039A"
+  ]
+ },
+ "MELC C120B": {
+  "course": "MELC C120B",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.198
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 65,
+   "pctA": 95,
+   "pctBelowB": 2,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20C120B"
+  ]
+ },
+ "MELC C121": {
+  "course": "MELC C121",
+  "difficulty": 3.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.153
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.044
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.25), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 39,
+   "pctA": 54,
+   "pctBelowB": 11,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Persis Berlekamp",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.28,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20C121"
+  ]
+ },
+ "MELC C188": {
+  "course": "MELC C188",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.22), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 34,
+   "pctA": 52,
+   "pctBelowB": 10,
+   "pctPassNoPass": 38,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Maria Mavroudi",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "David Wheeler",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20C188"
+  ]
+ },
+ "MELC C26": {
+  "course": "MELC C26",
+  "difficulty": 1.9,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.238
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.068
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 4.5/5 for workload and 3.0/5 for usefulness. The average grade is A (3.95), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 106,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 78
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 4.5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sanjyot Mehendale",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.94,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3,
+    "difficulty": 1.7,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20C26"
+  ]
+ },
+ "MELC H195": {
+  "course": "MELC H195",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Benjamin Porter",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Asad Ahmed",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Jenna Kemp",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Rita Lucarelli",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Nora Jacobsen Ben Hammed",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Wali Ahmadi",
+    "terms": 3,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Adam Benkato",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20H195"
+  ]
+ },
+ "MELC R1A": {
+  "course": "MELC R1A",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.281
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.2/5 for usefulness. The average grade is A- (3.64), with 76% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 202,
+   "pctA": 76,
+   "pctBelowB": 4,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 66
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Asad Ahmed",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Beatrice De Faveri",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Christine Philliou",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Rachel Webberman",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Rachel Barnas",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.82,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Doaa Atamna",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.44,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Jason Moser",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.46,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Jess Johnson",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20R1A"
+  ]
+ },
+ "MELC R1B": {
+  "course": "MELC R1B",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.257
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 76% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 138,
+   "pctA": 76,
+   "pctBelowB": 8,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Asad Ahmed",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Evan Grennon",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Wihad Al-Tawil",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rachel Webberman",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.79,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Deanna Kiser-Go",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jenna Kemp",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Christine Philliou",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.43,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "S Shiraz Ali",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MELC%20R1B"
+  ]
+ }
+}

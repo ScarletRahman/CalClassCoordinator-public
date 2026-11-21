@@ -1,0 +1,93 @@
+{
+ "XSTAT 2": {
+  "course": "XSTAT 2",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.28
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.08
+    },
+    {
+     "label": "Tone of written student reviews (19 on file)",
+     "value": 4.5,
+     "weight": 0.124
+    }
+   ]
+  },
+  "sentiment": "Students strongly recommend this introductory statistics class, describing a caring, accommodating instructor who helps even math-averse students pass. Exams and homework are called fair, and office hours and the textbook help a lot. Lectures are sometimes disorganized or confusing.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 199,
+   "pctA": 63,
+   "pctBelowB": 9,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 105
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 15
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Seema Singh Saharan",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XSTAT%202"
+  ]
+ }
+}

@@ -1,0 +1,735 @@
+{
+ "data": {
+  "class": {
+   "year": 2024,
+   "semester": "Fall",
+   "subject": "COMPSCI",
+   "sessionId": "1",
+   "courseNumber": "61A",
+   "number": "001",
+   "title": null,
+   "description": null,
+   "decal": {
+    "title": null,
+    "syllabus": null,
+    "description": null,
+    "syllabusUrl": null,
+    "applicationUrl": null,
+    "applicationDueDate": null,
+    "instructors": [],
+    "__typename": "DeCal"
+   },
+   "unitsMax": 4,
+   "unitsMin": 4,
+   "gradingBasis": "OPT",
+   "finalExam": "Y",
+   "gradeDistribution": {
+    "average": 3.256976744186047,
+    "pnpPercentage": 0.75,
+    "distribution": [
+     {
+      "letter": "A",
+      "count": 248,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "A-",
+      "count": 228,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "A+",
+      "count": 47,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "B",
+      "count": 176,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "B-",
+      "count": 104,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "B+",
+      "count": 180,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "C",
+      "count": 14,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "C-",
+      "count": 10,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "C+",
+      "count": 67,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "D",
+      "count": 4,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "D-",
+      "count": 2,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "D+",
+      "count": 8,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "F",
+      "count": 30,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "NP",
+      "count": 12,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "P",
+      "count": 35,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "S",
+      "count": 1,
+      "__typename": "Grade"
+     },
+     {
+      "letter": "U",
+      "count": 0,
+      "__typename": "Grade"
+     }
+    ],
+    "__typename": "GradeDistribution"
+   },
+   "course": {
+    "title": "The Structure and Interpretation of Computer Programs",
+    "description": "An introduction to programming and computer science focused on abstraction techn",
+    "aggregatedRatings": {
+     "metrics": [
+      {
+       "categories": [
+        {
+         "count": 2,
+         "value": 1,
+         "__typename": "Category"
+        },
+        {
+         "count": 190,
+         "value": 5,
+         "__typename": "Category"
+        },
+        {
+         "count": 102,
+         "value": 4,
+         "__typename": "Category"
+        },
+        {
+         "count": 57,
+         "value": 3,
+         "__typename": "Category"
+        },
+        {
+         "count": 5,
+         "value": 2,
+         "__typename": "Category"
+        }
+       ],
+       "count": 356,
+       "metricName": "Usefulness",
+       "weightedAverage": 4.328651685393258,
+       "__typename": "Metric"
+      },
+      {
+       "categories": [
+        {
+         "count": 25,
+         "value": 5,
+         "__typename": "Category"
+        },
+        {
+         "count": 45,
+         "value": 2,
+         "__typename": "Category"
+        },
+        {
+         "count": 157,
+         "value": 3,
+         "__typename": "Category"
+        },
+        {
+         "count": 9,
+         "value": 1,
+         "__typename": "Category"
+        },
+        {
+         "count": 120,
+         "value": 4,
+         "__typename": "Category"
+        }
+       ],
+       "count": 356,
+       "metricName": "Workload",
+       "weightedAverage": 3.300561797752809,
+       "__typename": "Metric"
+      },
+      {
+       "categories": [
+        {
+         "count": 151,
+         "value": 4,
+         "__typename": "Category"
+        },
+        {
+         "count": 9,
+         "value": 1,
+         "__typename": "Category"
+        },
+        {
+         "count": 24,
+         "value": 2,
+         "__typename": "Category"
+        },
+        {
+         "count": 62,
+         "value": 5,
+         "__typename": "Category"
+        },
+        {
+         "count": 110,
+         "value": 3,
+         "__typename": "Category"
+        }
+       ],
+       "count": 356,
+       "metricName": "Difficulty",
+       "weightedAverage": 3.654494382022472,
+       "__typename": "Metric"
+      },
+      {
+       "categories": [
+        {
+         "count": 303,
+         "value": 1,
+         "__typename": "Category"
+        },
+        {
+         "count": 20,
+         "value": 0,
+         "__typename": "Category"
+        }
+       ],
+       "count": 323,
+       "metricName": "Recording",
+       "weightedAverage": 0.9380804953560371,
+       "__typename": "Metric"
+      },
+      {
+       "categories": [
+        {
+         "count": 5,
+         "value": 1,
+         "__typename": "Category"
+        },
+        {
+         "count": 321,
+         "value": 0,
+         "__typename": "Category"
+        }
+       ],
+       "count": 326,
+       "metricName": "Attendance",
+       "weightedAverage": 0.015337423312883436,
+       "__typename": "Metric"
+      }
+     ],
+     "__typename": "AggregatedRatings"
+    },
+    "gradeDistribution": {
+     "average": 3.117310896367877,
+     "pnpPercentage": 0.8405103668261563,
+     "distribution": [
+      {
+       "letter": "A",
+       "count": 1024,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "A-",
+       "count": 1030,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "A+",
+       "count": 325,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "B",
+       "count": 1045,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "B-",
+       "count": 649,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "B+",
+       "count": 957,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "C",
+       "count": 152,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "C-",
+       "count": 63,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "C+",
+       "count": 411,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "D",
+       "count": 43,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "D-",
+       "count": 22,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "D+",
+       "count": 33,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "F",
+       "count": 248,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "NP",
+       "count": 96,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "P",
+       "count": 501,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "S",
+       "count": 26,
+       "__typename": "Grade"
+      },
+      {
+       "letter": "U",
+       "count": 4,
+       "__typename": "Grade"
+      }
+     ],
+     "__typename": "GradeDistribution"
+    },
+    "academicCareer": "UGRD",
+    "requirements": "MATH 1A (may be taken concurrently) or Math 10A or Math 16A. Programming experience equivalent to that gained from a score of 3 or above on the Advanced Placement Computer Science exam.",
+    "requiredCourses": [
+     {
+      "subject": "MATH",
+      "number": "51",
+      "__typename": "Course"
+     }
+    ],
+    "classes": [
+     {
+      "semester": "Spring",
+      "year": 2020,
+      "number": "001",
+      "anyPrintInScheduleOfClasses": true,
+      "primarySection": {
+       "startDate": "2020-01-21",
+       "meetings": [
+        {
+         "instructors": [
+          {
+           "familyName": "DeNero",
+           "givenName": "John",
+           "__typename": "Instructor"
+          }
+         ],
+         "__typename": "Meeting"
+        }
+       ],
+       "__typename": "Section"
+      },
+      "__typename": "Class"
+     },
+     {
+      "semester": "Fall",
+      "year": 2019,
+      "number": "001",
+      "anyPrintInScheduleOfClasses": true,
+      "primarySection": {
+       "startDate": "2019-08-28",
+       "meetings": [
+        {
+         "instructors": [
+          {
+           "familyName": "DeNero",
+           "givenName": "John",
+           "__typename": "Instructor"
+          }
+         ],
+         "__typename": "Meeting"
+        },
+        {
+         "instructors": [],
+         "__typename": "Meeting"
+        }
+       ],
+       "__typename": "Section"
+      },
+      "__typename": "Class"
+     }
+    ],
+    "__typename": "Course"
+   },
+   "primarySection": {
+    "number": "001",
+    "sectionId": "28522",
+    "component": "LEC",
+    "online": false,
+    "attendanceRequired": false,
+    "lecturesRecorded": false,
+    "startDate": "2024-08-28",
+    "endDate": "2024-12-13",
+    "sectionAttributes": [
+     {
+      "attribute": {
+       "code": "NOTE",
+       "description": "",
+       "formalDescription": "Class Notes",
+       "__typename": "SectionAttributeInfo"
+      },
+      "value": {
+       "code": "2",
+       "description": "",
+       "formalDescription": "* To enroll in this class, enroll in Lecture 1, Discussion 999, and Lab 999A. Actual lab and discussion assignments will be done outside the system during the first class.\n\n* Time conflicts are allowed.\n\n* Lecture will be recorded.\n\n* Alternate final exam will be offered.",
+       "__typename": "SectionAttributeInfo"
+      },
+      "__typename": "SectionAttribute"
+     }
+    ],
+    "enrollment": {
+     "history": [
+      {
+       "startTime": "2024-04-04T12:00:00.000Z",
+       "endTime": "2024-04-22T12:00:00.000Z",
+       "granularitySeconds": 86400,
+       "status": null,
+       "enrolledCount": 0,
+       "maxEnroll": 1300,
+       "waitlistedCount": 0,
+       "maxWaitlist": 500,
+       "__typename": "EnrollmentSingular"
+      },
+      {
+       "startTime": "2024-04-23T12:00:00.000Z",
+       "endTime": "2024-04-23T12:00:00.000Z",
+       "granularitySeconds": 86400,
+       "status": null,
+       "enrolledCount": 24,
+       "maxEnroll": 1300,
+       "waitlistedCount": 0,
+       "maxWaitlist": 500,
+       "__typename": "EnrollmentSingular"
+      },
+      {
+       "startTime": "2024-04-24T12:00:00.000Z",
+       "endTime": "2024-04-24T12:00:00.000Z",
+       "granularitySeconds": 86400,
+       "status": null,
+       "enrolledCount": 43,
+       "maxEnroll": 1300,
+       "waitlistedCount": 0,
+       "maxWaitlist": 500,
+       "__typename": "EnrollmentSingular"
+      },
+      {
+       "startTime": "2024-04-25T12:00:00.000Z",
+       "endTime": "2024-04-25T12:00:00.000Z",
+       "granularitySeconds": 86400,
+       "status": null,
+       "enrolledCount": 48,
+       "maxEnroll": 1300,
+       "waitlistedCount": 0,
+       "maxWaitlist": 500,
+       "__typename": "EnrollmentSingular"
+      },
+      {
+       "startTime": "2024-04-26T12:00:00.000Z",
+       "endTime": "2024-04-26T12:00:00.000Z",
+       "granularitySeconds": 86400,
+       "status": null,
+       "enrolledCount": 56,
+       "maxEnroll": 1300,
+       "waitlistedCount": 0,
+       "maxWaitlist": 500,
+       "__typename": "EnrollmentSingular"
+      },
+      {
+       "startTime": "2024-04-27T12:00:00.000Z",
+       "endTime": "2024-04-28T12:00:00.000Z",
+       "granularitySeconds": 86400,
+       "status": null,
+       "enrolledCount": 67,
+       "maxEnroll": 1300,
+       "waitlistedCount": 0,
+       "maxWaitlist": 500,
+       "__typename": "EnrollmentSingular"
+      }
+     ],
+     "latest": {
+      "startTime": "2024-09-21T12:00:00.000Z",
+      "endTime": "2024-10-13T12:00:00.000Z",
+      "granularitySeconds": 86400,
+      "status": null,
+      "enrolledCount": 1210,
+      "maxEnroll": 1375,
+      "waitlistedCount": 0,
+      "maxWaitlist": 500,
+      "activeReservedMaxCount": 0,
+      "seatReservationCount": [],
+      "__typename": "EnrollmentSingular"
+     },
+     "__typename": "Enrollment"
+    },
+    "meetings": [
+     {
+      "days": [
+       true,
+       false,
+       true,
+       false,
+       true,
+       false,
+       false
+      ],
+      "location": "Wheeler 150",
+      "endTime": "13:59:00",
+      "startTime": "13:00:00",
+      "instructors": [
+       {
+        "familyName": "DeNero",
+        "givenName": "John",
+        "__typename": "Instructor"
+       }
+      ],
+      "__typename": "Meeting"
+     }
+    ],
+    "exams": [
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "RSF Fieldhouse",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Latimer 120",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Hearst Field Annex A1",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Valley Life Sciences 2060",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Valley Life Sciences 2040",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Mulford 159",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "North Gate 105",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Stanley 106",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "Physics Building 3",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": null,
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": "McCone 141",
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     },
+     {
+      "date": "2024-12-18",
+      "type": "FIN",
+      "location": null,
+      "startTime": "19:00:00",
+      "endTime": "22:00:00",
+      "__typename": "Exam"
+     }
+    ],
+    "__typename": "Section"
+   },
+   "sections": [
+    {
+     "number": "101L",
+     "sectionId": "28523",
+     "component": "LAB",
+     "online": false,
+     "attendanceRequired": false,
+     "lecturesRecorded": false,
+     "startDate": "2024-08-28",
+     "endDate": "2024-12-13",
+     "sectionAttributes": [],
+     "enrollment": null,
+     "meetings": [
+      {
+       "days": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+       ],
+       "location": "Soda 271",
+       "endTime": "15:29:00",
+       "startTime": "14:00:00",
+       "instructors": [],
+       "__typename": "Meeting"
+      }
+     ],
+     "exams": [],
+     "__typename": "Section"
+    },
+    {
+     "number": "102",
+     "sectionId": "28530",
+     "component": "DIS",
+     "online": false,
+     "attendanceRequired": false,
+     "lecturesRecorded": false,
+     "startDate": "2024-08-28",
+     "endDate": "2024-12-13",
+     "sectionAttributes": [
+      {
+       "attribute": {
+        "code": "NOTE",
+        "description": "",
+        "formalDescription": "Class Notes",
+        "__typename": "SectionAttributeInfo"
+       },
+       "value": {
+        "code": "2",
+        "description": "",
+        "formalDescription": "CS Scholars section",
+        "__typename": "SectionAttributeInfo"
+       },
+       "__typename": "SectionAttribute"
+      }
+     ],
+     "enrollment": null,
+     "meetings": [
+      {
+       "days": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+       ],
+       "location": "Soda 310",
+       "endTime": "16:59:00",
+       "startTime": "15:30:00",
+       "instructors": [],
+       "__typename": "Meeting"
+      }
+     ],
+     "exams": [],
+     "__typename": "Section"
+    }
+   ],
+   "__typename": "Class"
+  }
+ }
+}

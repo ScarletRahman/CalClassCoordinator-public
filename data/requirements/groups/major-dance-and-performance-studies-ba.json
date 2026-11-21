@@ -1,0 +1,260 @@
+{
+ "id": "major-dance-and-performance-studies-ba",
+ "title": "Dance and Performance Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252A1U",
+  "https://undergraduate.catalog.berkeley.edu/programs/252A1U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "252A1U",
+ "requirements": [
+  {
+   "id": "performance-practice",
+   "title": "Performance Practice",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "THEATER 14"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 40"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 45"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "THEATER 60"
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance-studies",
+   "title": "Performance Studies",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "THEATER 25AC"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 52AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "THEATER 26"
+     }
+    ]
+   }
+  },
+  {
+   "id": "choreography",
+   "title": "Choreography",
+   "section": "Upper Division",
+   "notes": "Students must complete each course for a letter grade unless offered only on a pass/no pass basis.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "THEATER 144"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 148"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "THEATER 146A"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 146B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance-history",
+   "title": "Performance History",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "THEATER 151"
+   }
+  },
+  {
+   "id": "technical-theater",
+   "title": "Technical Theater",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 167"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 168"
+     }
+    ]
+   }
+  },
+  {
+   "id": "production-and-design",
+   "title": "Production and Design",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 166"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 172"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 173"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 174"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 175A"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 175B"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 177"
+     }
+    ]
+   }
+  },
+  {
+   "id": "one-dance-technique-course-for-at-least-4-semesters-alternat",
+   "title": "One dance technique course for at least 4 semesters. Alternatively, 4 P.E. Dance courses (2 units) may satisfy 1 of the 4 required dance technique courses.",
+   "section": "Dance Technique",
+   "rule": {
+    "type": "manual",
+    "text": "Alternatively, 4 P.E. Dance courses (2 units) may satisfy 1 of the 4 required dance technique courses.\nMax 2 units allowed for P.E. Dance courses"
+   }
+  },
+  {
+   "id": "dance-technique-term",
+   "title": "Dance Technique - Term",
+   "section": "Dance Technique",
+   "notes": "Two units of dance courses offered through the Physical Education Program may be used for one 3-unit dance technique requirement. Note that no more than 4 units total of Physical Education units may be counted towards your B.A. degree.",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "THEATER 40",
+      "THEATER 45",
+      "THEATER 141",
+      "THEATER 142",
+      "THEATER 143",
+      "THEATER 145",
+      "PHYSED 1",
+      "PHYSED 2",
+      "PHYSED 3",
+      "PHYSED 4",
+      "PHYSED 5"
+     ]
+    }
+   }
+  },
+  {
+   "id": "performance-studies-2",
+   "title": "Performance Studies",
+   "section": "Performance Studies",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AFRICAM C143C"
+       },
+       {
+        "type": "course",
+        "course": "THEATER C183C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "THEATER 114"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 117AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 118AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 119"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 121"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 125"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 126"
+     }
+    ]
+   }
+  }
+ ]
+}

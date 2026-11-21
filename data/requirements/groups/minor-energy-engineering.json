@@ -1,0 +1,120 @@
+{
+ "id": "minor-energy-engineering",
+ "title": "Energy Engineering minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I013U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I013U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I013U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- All courses taken to fulfill the minor requirements must be taken for graded credit.\n- A minimum overall grade point average (GPA) of 3.0 and a minimum GPA of 3.0 in the prerequisite courses is required for acceptance into the minor program.\n- A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- Completion of the minor program cannot delay a student’s graduation.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "thermodynamics",
+   "title": "Thermodynamics",
+   "section": "Requirements",
+   "notes": "Students must complete each course with a letter grade.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 115"
+     }
+    ]
+   }
+  },
+  {
+   "id": "introduction-to-electric-power-systems",
+   "title": "Introduction to Electric Power Systems",
+   "section": "Requirements",
+   "rule": {
+    "type": "course",
+    "course": "ELENG 137A"
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Requirements",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C106"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 111"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "EPS C180"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C180"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Electives",
+   "notes": "Students can not use both INDENG 172 and STAT 134 to fulfill this requirement.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ELENG 134",
+      "ELENG 137B",
+      "ENERES C100",
+      "ENERES C180",
+      "ENGIN 120",
+      "ENGIN 194",
+      "ENVECON C151",
+      "ENVECON 153",
+      "ENVECON 154",
+      "ESPM 102D",
+      "ESPM C180",
+      "GEOG 142",
+      "INDENG 172",
+      "MATSCI 136",
+      "MECENG 106",
+      "MECENG 109",
+      "NUCENG 161",
+      "POLECON 101"
+     ]
+    }
+   }
+  }
+ ]
+}

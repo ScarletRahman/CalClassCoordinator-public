@@ -1,0 +1,133 @@
+{
+ "id": "minor-music",
+ "title": "Music minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I055U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I055U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I055U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division-1",
+   "title": "Lower Division 1",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MUSIC 20"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 25"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 57"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 90"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division-2",
+   "title": "Lower Division 2",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MUSIC 26AC"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 27"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 29"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 290"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 30"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 31"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 70"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 80"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a-minimum-of-5-upper-division-courses-from-the-lists-below-i",
+   "title": "A minimum of 5 upper division courses from the lists below is required.",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "A maximum of 2 transfer credit courses is allowed."
+   }
+  },
+  {
+   "id": "performance-ensemble",
+   "title": "Performance Ensemble",
+   "section": "Upper Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "MUSIC 116",
+      "MUSIC 140",
+      "MUSIC 141",
+      "MUSIC 141A",
+      "MUSIC 142",
+      "MUSIC 143",
+      "MUSIC 144",
+      "MUSIC 145",
+      "MUSIC 146B",
+      "MUSIC 147",
+      "MUSIC 147A",
+      "MUSIC 148",
+      "MUSIC 165"
+     ]
+    }
+   }
+  },
+  {
+   "id": "non-performance-ensemble",
+   "title": "Non-Performance Ensemble",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Students must take at least 1 non-performance ensemble course.\n- Any MUSIC 100-196 level course"
+   }
+  }
+ ]
+}

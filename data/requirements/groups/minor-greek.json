@@ -1,0 +1,80 @@
+{
+ "id": "minor-greek",
+ "title": "Greek minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I045U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I045U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I045U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "greek",
+   "title": "Greek",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "subjects": [
+      "GREEK"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "- Any GREEK 100-194 course",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "AGRS 121",
+      "AGRS 130C",
+      "AGRS 130E",
+      "AGRS 130F",
+      "AGRS 130G",
+      "AGRS 130H",
+      "AGRS 130I",
+      "AGRS 130J",
+      "AGRS 130K",
+      "AGRS 130L",
+      "AGRS 130M",
+      "AGRS 161",
+      "AGRS 170A",
+      "AGRS 170C",
+      "AGRS 172",
+      "AGRS 175A",
+      "AGRS 180",
+      "AGRS N172A",
+      "AGRS N172B",
+      "GREEK 100",
+      "GREEK 101",
+      "GREEK 102",
+      "GREEK 105",
+      "GREEK 115",
+      "GREEK 116",
+      "GREEK 117",
+      "GREEK 120",
+      "GREEK 121",
+      "GREEK 122",
+      "GREEK 123",
+      "GREEK 125",
+      "GREEK 160"
+     ]
+    }
+   }
+  }
+ ]
+}

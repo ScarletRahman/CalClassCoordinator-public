@@ -1,0 +1,224 @@
+{
+ "XSOCIOL 1": {
+  "course": "XSOCIOL 1",
+  "difficulty": 3.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.76)",
+     "value": 4.8,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.76), with 41% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.76,
+   "letter": "B-",
+   "students": 40,
+   "pctA": 41,
+   "pctBelowB": 27,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Ovetz",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.76,
+    "difficulty": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XSOCIOL%201"
+  ]
+ },
+ "XSOCIOL 3AC": {
+  "course": "XSOCIOL 3AC",
+  "difficulty": 2.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.296
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.31), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 276,
+   "pctA": 57,
+   "pctBelowB": 13,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 73
+    },
+    {
+     "letter": "A-",
+     "count": 77
+    },
+    {
+     "letter": "B+",
+     "count": 34
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Thien-Huong Villarreal",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.32,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.9,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XSOCIOL%203AC"
+  ]
+ }
+}

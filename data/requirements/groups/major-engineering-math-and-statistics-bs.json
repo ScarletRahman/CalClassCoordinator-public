@@ -1,0 +1,430 @@
+{
+ "id": "major-engineering-math-and-statistics-bs",
+ "title": "Engineering Math and Statistics BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16312U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16312U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16312U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A"
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Physics"
+   }
+  },
+  {
+   "id": "computer-science",
+   "title": "Computer Science",
+   "section": "Lower Division",
+   "notes": "Students must complete ENGIN 7 or COMPSCI 61A and 1 additional course.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 177"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61BL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-electives",
+   "title": "Technical Electives",
+   "section": "Lower Division Elective",
+   "notes": "This course may only be used as a lower division technical elective if not being used to satisfy other requirements above.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI C8"
+       },
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "INFO C8"
+       },
+       {
+        "type": "course",
+        "course": "STAT C8"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61BL"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61C"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61CL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 64"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 29"
+     },
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Students must complete MATH 105 or MATH 185, not both.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 104"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 105"
+       },
+       {
+        "type": "course",
+        "course": "MATH 185"
+       },
+       {
+        "type": "course",
+        "course": "MATH H185"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-elective",
+   "title": "Probability Elective",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EECS 126"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics-elective",
+   "title": "Statistics Elective",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "STAT 135"
+     },
+     {
+      "type": "course",
+      "course": "STAT 150"
+     },
+     {
+      "type": "course",
+      "course": "STAT 151A"
+     },
+     {
+      "type": "course",
+      "course": "STAT 152"
+     },
+     {
+      "type": "course",
+      "course": "STAT 153"
+     },
+     {
+      "type": "course",
+      "course": "STAT 154"
+     },
+     {
+      "type": "course",
+      "course": "STAT 157"
+     },
+     {
+      "type": "course",
+      "course": "STAT 158"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-elective",
+   "title": "Mathematics Elective",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "MATH"
+     ],
+     "minNumber": 100,
+     "maxNumber": 190,
+     "exclude": [
+      "MATH C103",
+      "MATH 104",
+      "MATH 110",
+      "MATH 125A",
+      "MATH 135",
+      "MATH 160"
+     ]
+    }
+   }
+  },
+  {
+   "id": "additional-math-statistics-elective",
+   "title": "Additional Math/Statistics Elective",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "courses": [
+      "ENGIN 117",
+      "STAT 135",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 152",
+      "STAT 153",
+      "STAT 154",
+      "STAT 157",
+      "STAT 158",
+      "STAT 165",
+      "MATH 100",
+      "MATH 105",
+      "MATH 106",
+      "MATH 113",
+      "MATH 114",
+      "MATH 115",
+      "MATH 116",
+      "MATH 118",
+      "MATH 121A",
+      "MATH 121B",
+      "MATH 123",
+      "MATH 124",
+      "MATH 125B",
+      "MATH 126",
+      "MATH 127",
+      "MATH 128A",
+      "MATH 128B",
+      "MATH 130",
+      "MATH 136",
+      "MATH 140",
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 151",
+      "MATH 152",
+      "MATH 153",
+      "MATH 156",
+      "MATH 170",
+      "MATH 172",
+      "MATH 185",
+      "MATH 189",
+      "MATH H104",
+      "MATH H110",
+      "MATH H113",
+      "MATH H185",
+      "MATH W128A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "upper-division-engineering-electives",
+   "title": "Upper Division Engineering Electives",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 16 units of:\n- Any BIOENG 100-192 course, not including 100, and 153\n- Any CIVENG 100-193 course\n- Any CHMENG 100-188 course\n- Any COMPSCI 100-H191 course, not including C104\n- Any EECS 100-C191B course\n- Any ELENG 100-192 course\n- Any INDENG 100-189 course, not including 172, 185, 186\n- Any MATSCI 100-159 course\n- Any MECENG 100-185 course\n- Any NUCENG 100-180 course\n- Any ENGIN 100-178 course, not including 125, 157AC, ENGIN 170 series\n- DESINV190E",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "CIVENG 100",
+     "MECENG 100",
+     "NUCENG 100"
+    ]
+   }
+  }
+ ]
+}

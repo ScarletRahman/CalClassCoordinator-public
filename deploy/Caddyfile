@@ -1,0 +1,5 @@
+# SITE_ADDRESS is your domain (e.g. classes.example.com). Caddy gets the HTTPS certificate itself.
+{$SITE_ADDRESS} {
+	encode zstd gzip
+	reverse_proxy app:3000
+}

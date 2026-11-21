@@ -1,0 +1,207 @@
+{
+  "id": "college-CDSS",
+  "title": "College of Computing, Data Science, and Society requirements",
+  "kind": "college",
+  "source": "https://cdss.berkeley.edu/college-degree-requirements-and-policies",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "reading-composition-a",
+      "title": "Reading & Composition A",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCA"
+        },
+        "count": 1
+      },
+      "notes": "First half of R&C (an R1A or R4A course), or an AP/IB exam score. Complete by the end of your first year."
+    },
+    {
+      "id": "reading-composition-b",
+      "title": "Reading & Composition B",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCB"
+        },
+        "count": 1
+      },
+      "notes": "Second half of R&C (an R1B or R4B course). Complete by the end of your second year."
+    },
+    {
+      "id": "computational-reasoning",
+      "title": "Computational Reasoning",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "COMPSCI 61A",
+            "DATA C88C",
+            "COMPSCI 10",
+            "ENGIN 7",
+            "DATA C8"
+          ]
+        },
+        "count": 1
+      },
+      "notes": "CDSS essential skill. Stub list of courses; most majors satisfy it with COMPSCI 61A, DATA C88C, or DATA C8."
+    },
+    {
+      "id": "statistical-reasoning",
+      "title": "Statistical Reasoning",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "DATA C8",
+            "STAT 2",
+            "STAT 20",
+            "STAT 134",
+            "DATA C140"
+          ]
+        },
+        "count": 1
+      },
+      "notes": "CDSS essential skill. Stub list; DATA C8 or STAT 20 is typical. In this planner a course counts toward only one CDSS essential skill."
+    },
+    {
+      "id": "human-social-dynamics",
+      "title": "Human & Social Dynamics of Data and Technology",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "DATA C104",
+            "INFO 101",
+            "INFO 188",
+            "ANTHRO 168",
+            "PHILOS 121",
+            "NWMEDIA 151AC",
+            "CYPLAN 101",
+            "COMPSCI 195"
+          ]
+        },
+        "count": 1
+      },
+      "notes": "CDSS essential skill (Fall 2024+ admits). Stub list of approved courses; check the CDSS site for the official list."
+    },
+    {
+      "id": "breadth-arts-literature",
+      "title": "Breadth: Arts & Literature",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Arts & Literature"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved list for this area. A course counts toward only one breadth area."
+    },
+    {
+      "id": "breadth-biological-science",
+      "title": "Breadth: Biological Science",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Biological Science"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved list for this area. A course counts toward only one breadth area."
+    },
+    {
+      "id": "breadth-historical-studies",
+      "title": "Breadth: Historical Studies",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Historical Studies"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved list for this area. A course counts toward only one breadth area."
+    },
+    {
+      "id": "breadth-international-studies",
+      "title": "Breadth: International Studies",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "filter",
+            "filter": {
+              "breadth": "International Studies"
+            },
+            "count": 1
+          },
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "FL"
+            },
+            "count": 1
+          }
+        ]
+      },
+      "notes": "One International Studies course. In CDSS a second-semester (or higher) foreign language course also satisfies this area."
+    },
+    {
+      "id": "breadth-philosophy-values",
+      "title": "Breadth: Philosophy & Values",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Philosophy & Values"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved list for this area. A course counts toward only one breadth area."
+    },
+    {
+      "id": "breadth-physical-science",
+      "title": "Breadth: Physical Science",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Physical Science"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved list for this area. A course counts toward only one breadth area."
+    },
+    {
+      "id": "breadth-social-behavioral-sciences",
+      "title": "Breadth: Social & Behavioral Sciences",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Social & Behavioral Sciences"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved list for this area. A course counts toward only one breadth area."
+    },
+    {
+      "id": "upper-division-units",
+      "title": "36 upper-division units",
+      "rule": {
+        "type": "units",
+        "minUnits": 36,
+        "filter": {
+          "attribute": "UD"
+        }
+      },
+      "notes": "Courses numbered 100-199. Up to 6 units of 300-level courses may count in some colleges."
+    },
+    {
+      "id": "senior-residence",
+      "title": "Senior residence",
+      "rule": {
+        "type": "manual",
+        "text": "Senior residence: after reaching 90 units, complete at least 24 of your remaining units over two semesters in residence in your college"
+      },
+      "notes": "Exceptions for UCEAP, UCDC, and other approved programs."
+    }
+  ]
+}

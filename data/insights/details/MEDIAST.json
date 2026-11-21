@@ -1,0 +1,2838 @@
+{
+ "MEDIAST 10": {
+  "course": "MEDIAST 10",
+  "difficulty": 3.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (30 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.3
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (30)",
+     "value": 3.0,
+     "weight": 0.129
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.0,
+     "weight": 0.043
+    },
+    {
+     "label": "Student usefulness rating (30 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.343
+    }
+   ]
+  },
+  "sentiment": "30 students on Berkeleytime rate it 2.9/5 for difficulty, 3.0/5 for workload and 4.1/5 for usefulness. The average grade is B+ (3.21), with 47% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 1160,
+   "pctA": 47,
+   "pctBelowB": 16,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 314
+    },
+    {
+     "letter": "A-",
+     "count": 186
+    },
+    {
+     "letter": "B+",
+     "count": 142
+    },
+    {
+     "letter": "B",
+     "count": 175
+    },
+    {
+     "letter": "B-",
+     "count": 80
+    },
+    {
+     "letter": "C+",
+     "count": 49
+    },
+    {
+     "letter": "C",
+     "count": 48
+    },
+    {
+     "letter": "C-",
+     "count": 20
+    },
+    {
+     "letter": "D+",
+     "count": 16
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 26
+    },
+    {
+     "letter": "P",
+     "count": 76
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 30,
+   "difficulty": 2.9,
+   "workload": 3.0,
+   "usefulness": 4.1,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 93
+  },
+  "byProfessor": [
+   {
+    "professor": "Josh Jackson",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.27,
+    "studentCount": 30,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.1,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%2010"
+  ]
+ },
+ "MEDIAST 101": {
+  "course": "MEDIAST 101",
+  "difficulty": 2.9,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.224
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.42), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 89,
+   "pctA": 57,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Josh Jackson",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.54,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20101"
+  ]
+ },
+ "MEDIAST 104A": {
+  "course": "MEDIAST 104A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.17
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 47,
+   "pctA": 85,
+   "pctBelowB": 0,
+   "pctPassNoPass": 72,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20104A"
+  ]
+ },
+ "MEDIAST 104B": {
+  "course": "MEDIAST 104B",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.223
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.22), with 32% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 88,
+   "pctA": 32,
+   "pctBelowB": 5,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ian Davis",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.2,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20104B"
+  ]
+ },
+ "MEDIAST 104D": {
+  "course": "MEDIAST 104D",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.259
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.13), with 34% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 142,
+   "pctA": 34,
+   "pctBelowB": 11,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Geoffrey King",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.02,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20104D"
+  ]
+ },
+ "MEDIAST 104E": {
+  "course": "MEDIAST 104E",
+  "difficulty": 2.6,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.291
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.34), with 50% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 245,
+   "pctA": 50,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 45
+    },
+    {
+     "letter": "A-",
+     "count": 70
+    },
+    {
+     "letter": "B+",
+     "count": 43
+    },
+    {
+     "letter": "B",
+     "count": 38
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Rich Jaroslovsky",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20104E"
+  ]
+ },
+ "MEDIAST 111": {
+  "course": "MEDIAST 111",
+  "difficulty": 3.1,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.318
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (40 on file)",
+     "value": 1.8,
+     "weight": 0.136
+    }
+   ]
+  },
+  "sentiment": "Students report an overwhelming amount of reading, disorganized lectures, and difficult exams that test obscure details. Clicker quizzes and harsh grading draw complaints, and extra credit is seen as minimal. A few say it is rewarding if you stay engaged and use office hours. Reviews are strongly negative.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 502,
+   "pctA": 54,
+   "pctBelowB": 7,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 89
+    },
+    {
+     "letter": "A-",
+     "count": 103
+    },
+    {
+     "letter": "B+",
+     "count": 71
+    },
+    {
+     "letter": "B",
+     "count": 60
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 122
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20111"
+  ]
+ },
+ "MEDIAST 111B": {
+  "course": "MEDIAST 111B",
+  "difficulty": 3.8,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B (3.05)",
+     "value": 3.9,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 4.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 4.2/5 for difficulty, 4.2/5 for workload and 3.0/5 for usefulness. The average grade is B (3.05), with 30% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.05,
+   "letter": "B",
+   "students": 766,
+   "pctA": 30,
+   "pctBelowB": 19,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 90
+    },
+    {
+     "letter": "A-",
+     "count": 120
+    },
+    {
+     "letter": "B+",
+     "count": 132
+    },
+    {
+     "letter": "B",
+     "count": 164
+    },
+    {
+     "letter": "B-",
+     "count": 83
+    },
+    {
+     "letter": "C+",
+     "count": 60
+    },
+    {
+     "letter": "C",
+     "count": 36
+    },
+    {
+     "letter": "C-",
+     "count": 20
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 4.2,
+   "workload": 4.2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Berry",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.04,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 3,
+    "difficulty": 4.0,
+    "shouldTake": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20111B"
+  ]
+ },
+ "MEDIAST 111C": {
+  "course": "MEDIAST 111C",
+  "difficulty": 3.5,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.309
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is B (3.12), with 38% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 377,
+   "pctA": 38,
+   "pctBelowB": 18,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 55
+    },
+    {
+     "letter": "B",
+     "count": 70
+    },
+    {
+     "letter": "B-",
+     "count": 39
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 26
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Berry",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.12,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.6,
+    "shouldTake": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20111C"
+  ]
+ },
+ "MEDIAST 112": {
+  "course": "MEDIAST 112",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 4.4,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students find it challenging but rewarding, with engaging, humorous lectures and helpful office hours. Success depends on taking notes, completing study guides and studying ahead. Lectures move fast, and the grade includes two papers, a midterm and a final.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 1098,
+   "pctA": 52,
+   "pctBelowB": 14,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 43
+    },
+    {
+     "letter": "A",
+     "count": 327
+    },
+    {
+     "letter": "A-",
+     "count": 183
+    },
+    {
+     "letter": "B+",
+     "count": 123
+    },
+    {
+     "letter": "B",
+     "count": 175
+    },
+    {
+     "letter": "B-",
+     "count": 70
+    },
+    {
+     "letter": "C+",
+     "count": 50
+    },
+    {
+     "letter": "C",
+     "count": 40
+    },
+    {
+     "letter": "C-",
+     "count": 16
+    },
+    {
+     "letter": "D+",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 11
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Berry",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.01,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.6,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Ian Davis",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.54,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20112"
+  ]
+ },
+ "MEDIAST 113": {
+  "course": "MEDIAST 113",
+  "difficulty": 3.2,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 4.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (29 on file)",
+     "value": 1.8,
+     "weight": 0.132
+    }
+   ]
+  },
+  "sentiment": "Most reviewers are strongly negative, citing disorganized lectures and slides, confusing assignment instructions, heavy weekly group work, and unclear or slow grading. Some say the topic is interesting and one called it a favorite and worthwhile. Many skip lecture and rely on readings and discussion sections.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 1211,
+   "pctA": 56,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 264
+    },
+    {
+     "letter": "A-",
+     "count": 339
+    },
+    {
+     "letter": "B+",
+     "count": 249
+    },
+    {
+     "letter": "B",
+     "count": 137
+    },
+    {
+     "letter": "B-",
+     "count": 57
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 95
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 4.2,
+   "workload": 4.2,
+   "usefulness": 4.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Kaylee Williams",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Meeta Rani JHA",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.44,
+    "studentCount": 5,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.3,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20113"
+  ]
+ },
+ "MEDIAST 114": {
+  "course": "MEDIAST 114",
+  "difficulty": 2.4,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.52), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 912,
+   "pctA": 61,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 347
+    },
+    {
+     "letter": "A-",
+     "count": 207
+    },
+    {
+     "letter": "B+",
+     "count": 138
+    },
+    {
+     "letter": "B",
+     "count": 156
+    },
+    {
+     "letter": "B-",
+     "count": 23
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ian Davis",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.51,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20114"
+  ]
+ },
+ "MEDIAST 130": {
+  "course": "MEDIAST 130",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.255
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 134,
+   "pctA": 54,
+   "pctBelowB": 9,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kaylee Williams",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ian Davis",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20130"
+  ]
+ },
+ "MEDIAST 131": {
+  "course": "MEDIAST 131",
+  "difficulty": 3.0,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.249
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 2.0/5 for usefulness. The average grade is B+ (3.48), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 123,
+   "pctA": 57,
+   "pctBelowB": 10,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 62
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Meeta Rani JHA",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.52,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.0,
+    "shouldTake": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20131"
+  ]
+ },
+ "MEDIAST 132": {
+  "course": "MEDIAST 132",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.27
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 57% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 168,
+   "pctA": 57,
+   "pctBelowB": 2,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 35
+    },
+    {
+     "letter": "A-",
+     "count": 61
+    },
+    {
+     "letter": "B+",
+     "count": 44
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Emma Fraser",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.51,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20132"
+  ]
+ },
+ "MEDIAST 138": {
+  "course": "MEDIAST 138",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Daniel Fisher",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20138"
+  ]
+ },
+ "MEDIAST 160": {
+  "course": "MEDIAST 160",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.226
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 91,
+   "pctA": 55,
+   "pctBelowB": 0,
+   "pctPassNoPass": 52,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 47
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20160"
+  ]
+ },
+ "MEDIAST 165": {
+  "course": "MEDIAST 165",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.218
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 83,
+   "pctA": 60,
+   "pctBelowB": 5,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Josh Jackson",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20165"
+  ]
+ },
+ "MEDIAST 168": {
+  "course": "MEDIAST 168",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.274
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.10), with 40% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 180,
+   "pctA": 40,
+   "pctBelowB": 19,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 29
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Berry",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.13,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20168"
+  ]
+ },
+ "MEDIAST 170": {
+  "course": "MEDIAST 170",
+  "difficulty": 2.9,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.36), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 215,
+   "pctA": 54,
+   "pctBelowB": 8,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 53
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 33
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ian Davis",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.47,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20170"
+  ]
+ },
+ "MEDIAST 175": {
+  "course": "MEDIAST 175",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 45,
+   "pctA": 58,
+   "pctBelowB": 5,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Meeta Rani JHA",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.61,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20175"
+  ]
+ },
+ "MEDIAST 180": {
+  "course": "MEDIAST 180",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.286
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 223,
+   "pctA": 72,
+   "pctBelowB": 3,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 96
+    },
+    {
+     "letter": "A-",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Josh Jackson",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20180"
+  ]
+ },
+ "MEDIAST 190": {
+  "course": "MEDIAST 190",
+  "difficulty": 2.8,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.44), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 542,
+   "pctA": 55,
+   "pctBelowB": 7,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 135
+    },
+    {
+     "letter": "A-",
+     "count": 113
+    },
+    {
+     "letter": "B+",
+     "count": 99
+    },
+    {
+     "letter": "B",
+     "count": 64
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Berry",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Emma Fraser",
+    "terms": 7,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Meeta Rani JHA",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.33,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Chanel Caplan",
+    "terms": 3,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.57,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Ian Davis",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.68,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20190"
+  ]
+ },
+ "MEDIAST 199": {
+  "course": "MEDIAST 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Matthew Berry",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Fisher",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Ian Davis",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20199"
+  ]
+ },
+ "MEDIAST C196A": {
+  "course": "MEDIAST C196A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jimmy Ellis",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marc Sandalow",
+    "terms": 9,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20C196A"
+  ]
+ },
+ "MEDIAST C196B": {
+  "course": "MEDIAST C196B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Jimmy Ellis",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marc Sandalow",
+    "terms": 9,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20C196B"
+  ]
+ },
+ "MEDIAST H194": {
+  "course": "MEDIAST H194",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 97% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 64,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ian Davis",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Meeta Rani JHA",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.8,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20H194"
+  ]
+ },
+ "MEDIAST H195": {
+  "course": "MEDIAST H195",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.11
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 23,
+   "pctA": 91,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ian Davis",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Meeta Rani JHA",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20H195"
+  ]
+ },
+ "MEDIAST N180": {
+  "course": "MEDIAST N180",
+  "difficulty": 3.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.60)",
+     "value": 5.0,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.60), with 20% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.6,
+   "letter": "B-",
+   "students": 11,
+   "pctA": 20,
+   "pctBelowB": 20,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20N180"
+  ]
+ },
+ "MEDIAST W10": {
+  "course": "MEDIAST W10",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.327
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.12), with 43% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 714,
+   "pctA": 43,
+   "pctBelowB": 21,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 169
+    },
+    {
+     "letter": "A-",
+     "count": 106
+    },
+    {
+     "letter": "B+",
+     "count": 94
+    },
+    {
+     "letter": "B",
+     "count": 92
+    },
+    {
+     "letter": "B-",
+     "count": 43
+    },
+    {
+     "letter": "C+",
+     "count": 42
+    },
+    {
+     "letter": "C",
+     "count": 29
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "D+",
+     "count": 14
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 66
+    },
+    {
+     "letter": "NP",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Josh Jackson",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.96,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=MEDIAST%20W10"
+  ]
+ }
+}

@@ -1,0 +1,243 @@
+{
+  "id": "major-mechanical-engineering-bs",
+  "title": "Mechanical Engineering BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/mechanical-engineering/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 1A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENGIN 7"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "engin-design",
+      "title": "Engineering design & manufacturing",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENGIN 26"
+          },
+          {
+            "type": "course",
+            "course": "ENGIN 29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statics",
+      "title": "Introduction to Solid Mechanics",
+      "rule": {
+        "type": "course",
+        "course": "MECENG C85"
+      }
+    },
+    {
+      "id": "thermo",
+      "title": "Thermodynamics",
+      "rule": {
+        "type": "course",
+        "course": "MECENG 40"
+      }
+    },
+    {
+      "id": "me-core",
+      "title": "Mechanical engineering core",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MECENG 100"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 103"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 104"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 106"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 108"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 109"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 132"
+          }
+        ]
+      }
+    },
+    {
+      "id": "capstone",
+      "title": "Design capstone",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MECENG 102B"
+          },
+          {
+            "type": "course",
+            "course": "MECENG 110"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tech-electives",
+      "title": "Technical electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "MECENG",
+            "BIOENG",
+            "CIVENG",
+            "EECS",
+            "ELENG",
+            "INDENG",
+            "MATH"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "minUnits": 9
+      },
+      "notes": "Stub: upper-division technical electives; at least two MECENG courses."
+    }
+  ]
+}

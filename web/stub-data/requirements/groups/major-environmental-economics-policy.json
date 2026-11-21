@@ -1,0 +1,167 @@
+{
+  "id": "major-environmental-economics-policy",
+  "title": "Environmental Economics & Policy BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/environmental-economics-policy/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "intro",
+      "title": "Introductory environmental economics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENVECON C1"
+          },
+          {
+            "type": "course",
+            "course": "ECON 1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 16B"
+          },
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "micro",
+      "title": "Intermediate microeconomics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENVECON 100"
+          },
+          {
+            "type": "course",
+            "course": "ECON 100A"
+          },
+          {
+            "type": "course",
+            "course": "ECON 101A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "econometrics",
+      "title": "Econometrics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENVECON C118"
+          },
+          {
+            "type": "course",
+            "course": "ECON 140"
+          }
+        ]
+      }
+    },
+    {
+      "id": "environmental-econ",
+      "title": "Environmental & resource economics",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENVECON C101"
+          },
+          {
+            "type": "course",
+            "course": "ENVECON C102"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eep-electives",
+      "title": "EEP electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "ENVECON"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 3
+      }
+    }
+  ]
+}

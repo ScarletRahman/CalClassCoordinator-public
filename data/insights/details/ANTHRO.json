@@ -1,0 +1,7928 @@
+{
+ "ANTHRO 1": {
+  "course": "ANTHRO 1",
+  "difficulty": 3.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    },
+    {
+     "label": "Tone of written student reviews (58 on file)",
+     "value": 3.7,
+     "weight": 0.14
+    }
+   ]
+  },
+  "sentiment": "Students describe a fairly easy class with weekly quizzes, a midterm and a final, with questions drawn from lecture slides. Lectures are often called dense or boring, but slides are posted. Steady studying and keeping up with the lab book and quizzes are the main advice.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 1124,
+   "pctA": 58,
+   "pctBelowB": 11,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 122
+    },
+    {
+     "letter": "A",
+     "count": 253
+    },
+    {
+     "letter": "A-",
+     "count": 146
+    },
+    {
+     "letter": "B+",
+     "count": 127
+    },
+    {
+     "letter": "B",
+     "count": 92
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 33
+    },
+    {
+     "letter": "C",
+     "count": 28
+    },
+    {
+     "letter": "C-",
+     "count": 18
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 210
+    },
+    {
+     "letter": "NP",
+     "count": 21
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.7,
+   "workload": 3.3,
+   "usefulness": 3.3,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Maher",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Andrew Kim",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.38,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Gustav Steinhardt",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Terrence Deacon",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%201"
+  ]
+ },
+ "ANTHRO 106": {
+  "course": "ANTHRO 106",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.199
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.057
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.42), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 66,
+   "pctA": 63,
+   "pctBelowB": 14,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Gustav Steinhardt",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.36,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20106"
+  ]
+ },
+ "ANTHRO 107": {
+  "course": "ANTHRO 107",
+  "difficulty": 3.7,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.97)",
+     "value": 4.1,
+     "weight": 0.272
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.078
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 4.2,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Reviewers find the material fascinating and the lectures enthusiastic, with approachable staff. Opinions on difficulty differ: one calls it very easy, others say exams are tough and hard to predict because they can cover any slide. Do not rely on lecture recordings, which had audio problems.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.97,
+   "letter": "B",
+   "students": 175,
+   "pctA": 34,
+   "pctBelowB": 25,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gustav Steinhardt",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Terrence Deacon",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.92,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20107"
+  ]
+ },
+ "ANTHRO 109": {
+  "course": "ANTHRO 109",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.04)",
+     "value": 3.9,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.04), with 50% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.04,
+   "letter": "B",
+   "students": 39,
+   "pctA": 50,
+   "pctBelowB": 24,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrew Kim",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.04,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20109"
+  ]
+ },
+ "ANTHRO 111": {
+  "course": "ANTHRO 111",
+  "difficulty": 2.9,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.277
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.39), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 191,
+   "pctA": 61,
+   "pctBelowB": 15,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 39
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 52
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gustav Steinhardt",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20111"
+  ]
+ },
+ "ANTHRO 112": {
+  "course": "ANTHRO 112",
+  "difficulty": 2.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.305
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.75), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 337,
+   "pctA": 84,
+   "pctBelowB": 2,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 88
+    },
+    {
+     "letter": "A",
+     "count": 135
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Gustav Steinhardt",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "John Lindo",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Louise Corron",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.74,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.08,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Trent Trombley",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.08,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20112"
+  ]
+ },
+ "ANTHRO 113": {
+  "course": "ANTHRO 113",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.226
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 92% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 91,
+   "pctA": 92,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Louise Corron",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Rosemary Joyce",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20113"
+  ]
+ },
+ "ANTHRO 114": {
+  "course": "ANTHRO 114",
+  "difficulty": 2.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 3.0,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Few reviews. The readings and lectures are dense and hard, and several older reviews found lectures difficult to understand. A recent review found the material well explained and rewarding. The course focuses on the history of social and cultural anthropology.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 450,
+   "pctA": 86,
+   "pctBelowB": 4,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 68
+    },
+    {
+     "letter": "A",
+     "count": 222
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 46
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Hirschkind",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.76,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20114"
+  ]
+ },
+ "ANTHRO 115": {
+  "course": "ANTHRO 115",
+  "difficulty": 2.1,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.307
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.84), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 355,
+   "pctA": 90,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 127
+    },
+    {
+     "letter": "A",
+     "count": 153
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Briggs",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Bernardo Moreno Peniche",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stefania Pandolfo",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.65,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Roger Begrich",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20115"
+  ]
+ },
+ "ANTHRO 119": {
+  "course": "ANTHRO 119",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.238
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 106,
+   "pctA": 94,
+   "pctBelowB": 3,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Arpita Roy",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.84,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Stefania Pandolfo",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20119"
+  ]
+ },
+ "ANTHRO 121AC": {
+  "course": "ANTHRO 121AC",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.96), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 42,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Natasha Fernandez-Preston",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20121AC"
+  ]
+ },
+ "ANTHRO 121C": {
+  "course": "ANTHRO 121C",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.229
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 87% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 95,
+   "pctA": 87,
+   "pctBelowB": 5,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "William White",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.93,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20121C"
+  ]
+ },
+ "ANTHRO 122A": {
+  "course": "ANTHRO 122A",
+  "difficulty": 2.2,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.198
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.057
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness. The average grade is A (3.89), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 65,
+   "pctA": 95,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jun Sunseri",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.81,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 2.1,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122A"
+  ]
+ },
+ "ANTHRO 122C": {
+  "course": "ANTHRO 122C",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.224
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 89,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 67
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Venicia Slotten",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.77,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122C"
+  ]
+ },
+ "ANTHRO 122D": {
+  "course": "ANTHRO 122D",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.227
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.065
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.68), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 92,
+   "pctA": 80,
+   "pctBelowB": 6,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Charlotte Williams",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.5,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122D"
+  ]
+ },
+ "ANTHRO 122E": {
+  "course": "ANTHRO 122E",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 38,
+   "pctA": 63,
+   "pctBelowB": 3,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christine Hastorf",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.34,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122E"
+  ]
+ },
+ "ANTHRO 122F": {
+  "course": "ANTHRO 122F",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.188
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 58,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122F"
+  ]
+ },
+ "ANTHRO 122G": {
+  "course": "ANTHRO 122G",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Nicholas Laluk",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122G"
+  ]
+ },
+ "ANTHRO 122H": {
+  "course": "ANTHRO 122H",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 30,
+   "pctA": 87,
+   "pctBelowB": 7,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William White",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.79,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20122H"
+  ]
+ },
+ "ANTHRO 123A": {
+  "course": "ANTHRO 123A",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.269
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 166,
+   "pctA": 87,
+   "pctBelowB": 3,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 70
+    },
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Maher",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20123A"
+  ]
+ },
+ "ANTHRO 124B": {
+  "course": "ANTHRO 124B",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 29,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 55,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20124B"
+  ]
+ },
+ "ANTHRO 126M": {
+  "course": "ANTHRO 126M",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.96), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 14,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20126M"
+  ]
+ },
+ "ANTHRO 127A": {
+  "course": "ANTHRO 127A",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.01)",
+     "value": 4.0,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.01), with 50% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.01,
+   "letter": "B",
+   "students": 16,
+   "pctA": 50,
+   "pctBelowB": 38,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Louise Corron",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.01,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Trent Trombley",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.01,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20127A"
+  ]
+ },
+ "ANTHRO 128": {
+  "course": "ANTHRO 128",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.263
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 152,
+   "pctA": 91,
+   "pctBelowB": 1,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 72
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Laluk",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Lisa Maher",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Timothy Gill",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20128"
+  ]
+ },
+ "ANTHRO 128A": {
+  "course": "ANTHRO 128A",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.226
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 90% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 91,
+   "pctA": 90,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 63
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Natasha Fernandez-Preston",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nicholas Laluk",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.71,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Venicia Slotten",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.71,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Bryan Wagner",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "William White",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20128A"
+  ]
+ },
+ "ANTHRO 128M": {
+  "course": "ANTHRO 128M",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.224
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 86% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 89,
+   "pctA": 86,
+   "pctBelowB": 8,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jun Sunseri",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "William White",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.96,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20128M"
+  ]
+ },
+ "ANTHRO 129B": {
+  "course": "ANTHRO 129B",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.82), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 22,
+   "pctA": 86,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William White",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20129B"
+  ]
+ },
+ "ANTHRO 129C": {
+  "course": "ANTHRO 129C",
+  "difficulty": 3.0,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.168
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.048
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.30), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 46,
+   "pctA": 66,
+   "pctBelowB": 18,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Gill",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.31,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20129C"
+  ]
+ },
+ "ANTHRO 129D": {
+  "course": "ANTHRO 129D",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.164
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 44,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Maher",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.88,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20129D"
+  ]
+ },
+ "ANTHRO 130": {
+  "course": "ANTHRO 130",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 42,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20130"
+  ]
+ },
+ "ANTHRO 134": {
+  "course": "ANTHRO 134",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 42,
+   "pctA": 88,
+   "pctBelowB": 7,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William White",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20134"
+  ]
+ },
+ "ANTHRO 135": {
+  "course": "ANTHRO 135",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.47), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 45,
+   "pctA": 60,
+   "pctBelowB": 7,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Elizabeth Dresser-Kluchman",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Christine Hastorf",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20135"
+  ]
+ },
+ "ANTHRO 135B": {
+  "course": "ANTHRO 135B",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.228
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.065
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.53), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 94,
+   "pctA": 72,
+   "pctBelowB": 5,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Junko Habu",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.56,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20135B"
+  ]
+ },
+ "ANTHRO 136A": {
+  "course": "ANTHRO 136A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 36,
+   "pctA": 86,
+   "pctBelowB": 11,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20136A"
+  ]
+ },
+ "ANTHRO 136B": {
+  "course": "ANTHRO 136B",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.255
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.70), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 135,
+   "pctA": 77,
+   "pctBelowB": 5,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Carolyn Smith",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.68,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Christopher Lowman",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.94,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20136B"
+  ]
+ },
+ "ANTHRO 136D": {
+  "course": "ANTHRO 136D",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 89,
+   "pctBelowB": 7,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William White",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.74,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20136D"
+  ]
+ },
+ "ANTHRO 136G": {
+  "course": "ANTHRO 136G",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.96), with 96% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 42,
+   "pctA": 96,
+   "pctBelowB": 0,
+   "pctPassNoPass": 45,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 19
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20136G"
+  ]
+ },
+ "ANTHRO 137": {
+  "course": "ANTHRO 137",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.186
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 57,
+   "pctA": 79,
+   "pctBelowB": 0,
+   "pctPassNoPass": 67,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 36
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20137"
+  ]
+ },
+ "ANTHRO 138A": {
+  "course": "ANTHRO 138A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.173
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 49,
+   "pctA": 69,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Fisher",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.88,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20138A"
+  ]
+ },
+ "ANTHRO 138B": {
+  "course": "ANTHRO 138B",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.068
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.019
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.81), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 12,
+   "pctA": 92,
+   "pctBelowB": 8,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Karen Nakamura",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.81,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Daniel Fisher",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20138B"
+  ]
+ },
+ "ANTHRO 140": {
+  "course": "ANTHRO 140",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.253
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 131,
+   "pctA": 57,
+   "pctBelowB": 12,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christine Hastorf",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20140"
+  ]
+ },
+ "ANTHRO 141": {
+  "course": "ANTHRO 141",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.189
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 59,
+   "pctA": 81,
+   "pctBelowB": 7,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Xin Liu",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.59,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20141"
+  ]
+ },
+ "ANTHRO 142": {
+  "course": "ANTHRO 142",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.117
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.033
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.42), with 71% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 25,
+   "pctA": 71,
+   "pctBelowB": 8,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Vaughn",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20142"
+  ]
+ },
+ "ANTHRO 146": {
+  "course": "ANTHRO 146",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 40,
+   "pctA": 94,
+   "pctBelowB": 3,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20146"
+  ]
+ },
+ "ANTHRO 147A": {
+  "course": "ANTHRO 147A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 32,
+   "pctA": 88,
+   "pctBelowB": 6,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lawrence Cohen",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.66,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20147A"
+  ]
+ },
+ "ANTHRO 148": {
+  "course": "ANTHRO 148",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 41,
+   "pctA": 72,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Vaughn",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20148"
+  ]
+ },
+ "ANTHRO 149": {
+  "course": "ANTHRO 149",
+  "difficulty": 2.1,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.247
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 1.0/5 for usefulness. The average grade is A (3.90), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 120,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 85
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Stefania Pandolfo",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.93,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 1,
+    "difficulty": 1.9,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20149"
+  ]
+ },
+ "ANTHRO 150": {
+  "course": "ANTHRO 150",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.278
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 193,
+   "pctA": 67,
+   "pctBelowB": 5,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 61
+    },
+    {
+     "letter": "A-",
+     "count": 44
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexei Yurchak",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20150"
+  ]
+ },
+ "ANTHRO 156A": {
+  "course": "ANTHRO 156A",
+  "difficulty": 2.1,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.27
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.9,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is A (3.93), with 96% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 168,
+   "pctA": 96,
+   "pctBelowB": 1,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 135
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "James Holston",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.93,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 1.9,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20156A"
+  ]
+ },
+ "ANTHRO 157": {
+  "course": "ANTHRO 157",
+  "difficulty": 3.2,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.248
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.071
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 3.6,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Reviews are polarized. Some call it a favorite, with inspiring lectures built on personal anecdotes and current events that reward close attention. Others find tangents hard to follow and the reading excessive. Grading is by in-class written exams weighted toward the final.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 121,
+   "pctA": 52,
+   "pctBelowB": 18,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 15
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20157"
+  ]
+ },
+ "ANTHRO 158": {
+  "course": "ANTHRO 158",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.239
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.64), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 107,
+   "pctA": 75,
+   "pctBelowB": 5,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Hirschkind",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20158"
+  ]
+ },
+ "ANTHRO 159": {
+  "course": "ANTHRO 159",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.216
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 99% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 81,
+   "pctA": 99,
+   "pctBelowB": 1,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 65
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Laluk",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20159"
+  ]
+ },
+ "ANTHRO 160AC": {
+  "course": "ANTHRO 160AC",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.316
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 469,
+   "pctA": 81,
+   "pctBelowB": 4,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 80
+    },
+    {
+     "letter": "A",
+     "count": 179
+    },
+    {
+     "letter": "A-",
+     "count": 54
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Carolyn Smith",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charles Briggs",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Peter Tokofsky",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20160AC"
+  ]
+ },
+ "ANTHRO 161AC": {
+  "course": "ANTHRO 161AC",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.248
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.24), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 121,
+   "pctA": 59,
+   "pctBelowB": 16,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Bryan Wagner",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.3,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20161AC"
+  ]
+ },
+ "ANTHRO 162": {
+  "course": "ANTHRO 162",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.267
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 161,
+   "pctA": 80,
+   "pctBelowB": 3,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 76
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alessandro Testa",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Peter Tokofsky",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.84,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20162"
+  ]
+ },
+ "ANTHRO 166": {
+  "course": "ANTHRO 166",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.40), with 67% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 86,
+   "pctA": 67,
+   "pctBelowB": 9,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Brian Karl",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.23,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20166"
+  ]
+ },
+ "ANTHRO 168": {
+  "course": "ANTHRO 168",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 22,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Arpita Roy",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20168"
+  ]
+ },
+ "ANTHRO 169B": {
+  "course": "ANTHRO 169B",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.217
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.46), with 75% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 82,
+   "pctA": 75,
+   "pctBelowB": 11,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mariane Ferme",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.02,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Charles Briggs",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20169B"
+  ]
+ },
+ "ANTHRO 169C": {
+  "course": "ANTHRO 169C",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 61% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 61,
+   "pctBelowB": 0,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William Hanks",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20169C"
+  ]
+ },
+ "ANTHRO 170": {
+  "course": "ANTHRO 170",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.294
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 263,
+   "pctA": 85,
+   "pctBelowB": 5,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 71
+    },
+    {
+     "letter": "A-",
+     "count": 67
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 53
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Xin Liu",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.82,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20170"
+  ]
+ },
+ "ANTHRO 171": {
+  "course": "ANTHRO 171",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.239
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 107,
+   "pctA": 89,
+   "pctBelowB": 1,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mikiko Soga",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.8,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20171"
+  ]
+ },
+ "ANTHRO 174AC": {
+  "course": "ANTHRO 174AC",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.16
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 42,
+   "pctA": 83,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Laluk",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Kent Lightfoot",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20174AC"
+  ]
+ },
+ "ANTHRO 179": {
+  "course": "ANTHRO 179",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.248
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 121,
+   "pctA": 74,
+   "pctBelowB": 10,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William Hanks",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20179"
+  ]
+ },
+ "ANTHRO 180": {
+  "course": "ANTHRO 180",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Arpita Roy",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20180"
+  ]
+ },
+ "ANTHRO 181": {
+  "course": "ANTHRO 181",
+  "difficulty": 2.6,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.226
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.065
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.56), with 60% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 91,
+   "pctA": 60,
+   "pctBelowB": 2,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Charles Hirschkind",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.56,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20181"
+  ]
+ },
+ "ANTHRO 183": {
+  "course": "ANTHRO 183",
+  "difficulty": 3.1,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.162
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.046
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.5/5 for workload and 2.5/5 for usefulness. The average grade is B+ (3.46), with 68% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 43,
+   "pctA": 68,
+   "pctBelowB": 12,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3.5,
+   "usefulness": 2.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Mariane Ferme",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.46,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2.5,
+    "difficulty": 3.1,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20183"
+  ]
+ },
+ "ANTHRO 184": {
+  "course": "ANTHRO 184",
+  "difficulty": 2.4,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.215
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.062
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 5.0/5 for workload and 1.0/5 for usefulness. The average grade is A- (3.72), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 80,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 5,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Aarti Sethi",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.68,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 1,
+    "difficulty": 2.3,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Lawrence Cohen",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20184"
+  ]
+ },
+ "ANTHRO 186": {
+  "course": "ANTHRO 186",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 75% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 53,
+   "pctA": 75,
+   "pctBelowB": 10,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daena Funahashi",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20186"
+  ]
+ },
+ "ANTHRO 189": {
+  "course": "ANTHRO 189",
+  "difficulty": 2.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.31
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.088
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 3.2,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed. Some enjoy the engaging, discussion-based classes with weekly readings and posts, a generous grade and unclear criteria. Others found lectures dull or off topic, readings dense, and seminar discussions poorly organized. It is described as an easy A by some.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 383,
+   "pctA": 87,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 90
+    },
+    {
+     "letter": "A",
+     "count": 173
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Holston",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Charles Hirschkind",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Carolyn Smith",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.73,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.72,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Daena Funahashi",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.86,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Aarti Sethi",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Sarah Vaughn",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Jing Ge-Stadnyk",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20189"
+  ]
+ },
+ "ANTHRO 189A": {
+  "course": "ANTHRO 189A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.212
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 77,
+   "pctA": 85,
+   "pctBelowB": 4,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20189A"
+  ]
+ },
+ "ANTHRO 196": {
+  "course": "ANTHRO 196",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.299
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 293,
+   "pctA": 91,
+   "pctBelowB": 1,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 95
+    },
+    {
+     "letter": "A",
+     "count": 131
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexei Yurchak",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Daena Funahashi",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Nicholas Laluk",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.92,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Randeep Hothi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Aarti Sethi",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Lawrence Cohen",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.86,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Jun Sunseri",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20196"
+  ]
+ },
+ "ANTHRO 197": {
+  "course": "ANTHRO 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Stefania Pandolfo",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Charles Hirschkind",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "James Holston",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Saba Mahmood",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Nancy Scheper-Hughes",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Terrence Deacon",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Rosemary Joyce",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20197"
+  ]
+ },
+ "ANTHRO 198": {
+  "course": "ANTHRO 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Christine Hastorf",
+    "terms": 2,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Alexei Yurchak",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Aarti Sethi",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20198"
+  ]
+ },
+ "ANTHRO 199": {
+  "course": "ANTHRO 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Rosemary Joyce",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mariane Ferme",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Christine Hastorf",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kent Lightfoot",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20199"
+  ]
+ },
+ "ANTHRO 24": {
+  "course": "ANTHRO 24",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.139
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 33,
+   "pctA": 76,
+   "pctBelowB": 4,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jun Sunseri",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Nelson Graburn",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%2024"
+  ]
+ },
+ "ANTHRO 2AC": {
+  "course": "ANTHRO 2AC",
+  "difficulty": 2.2,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (21 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.283
+    },
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.34
+    },
+    {
+     "label": "Student workload rating (21)",
+     "value": 2.6,
+     "weight": 0.121
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (21 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.323
+    },
+    {
+     "label": "Tone of written student reviews (44 on file)",
+     "value": 1.7,
+     "weight": 0.137
+    }
+   ]
+  },
+  "sentiment": "Most reviewers are negative, citing mandatory attendance, a no-electronics rule, graded in-class notecards, heavy reading, and unpredictable, very specific quizzes. Lectures are called disorganized and boring. A few say it was an easy A with extra credit and that most reading is unnecessary, but most advise taking another breadth class.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 1642,
+   "pctA": 84,
+   "pctBelowB": 4,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 272
+    },
+    {
+     "letter": "A",
+     "count": 759
+    },
+    {
+     "letter": "A-",
+     "count": 122
+    },
+    {
+     "letter": "B+",
+     "count": 52
+    },
+    {
+     "letter": "B",
+     "count": 83
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 19
+    },
+    {
+     "letter": "C",
+     "count": 23
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 256
+    },
+    {
+     "letter": "NP",
+     "count": 19
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 21,
+   "difficulty": 2.4,
+   "workload": 2.6,
+   "usefulness": 3.1,
+   "recordedPct": 32,
+   "attendanceRequiredPct": 55
+  },
+  "byProfessor": [
+   {
+    "professor": "Charlotte Williams",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William White",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.61,
+    "studentCount": 13,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.2,
+    "difficulty": 2.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Jun Sunseri",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.65,
+    "studentCount": 5,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 2.8,
+    "difficulty": 2.3,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.77,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Christopher Lowman",
+    "terms": 6,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.86,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.8,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%202AC"
+  ]
+ },
+ "ANTHRO 39": {
+  "course": "ANTHRO 39",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 91,
+   "pctBelowB": 5,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laura Nader",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Nancy Scheper-Hughes",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%2039"
+  ]
+ },
+ "ANTHRO 3AC": {
+  "course": "ANTHRO 3AC",
+  "difficulty": 2.3,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (53 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.32
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.343
+    },
+    {
+     "label": "Student workload rating (53)",
+     "value": 2.2,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.046
+    },
+    {
+     "label": "Student usefulness rating (53 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.366
+    },
+    {
+     "label": "Tone of written student reviews (29 on file)",
+     "value": 2.8,
+     "weight": 0.132
+    }
+   ]
+  },
+  "sentiment": "Students describe a reading-heavy class with dry or digressive lectures and a few essays or a final project. Many say it is an easy A if you keep up, and that discussion sections and teaching assistants carry the learning. Some find grading subjective and exam prompts hard.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 2320,
+   "pctA": 75,
+   "pctBelowB": 6,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 202
+    },
+    {
+     "letter": "A",
+     "count": 919
+    },
+    {
+     "letter": "A-",
+     "count": 404
+    },
+    {
+     "letter": "B+",
+     "count": 190
+    },
+    {
+     "letter": "B",
+     "count": 133
+    },
+    {
+     "letter": "B-",
+     "count": 70
+    },
+    {
+     "letter": "C+",
+     "count": 31
+    },
+    {
+     "letter": "C",
+     "count": 25
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 28
+    },
+    {
+     "letter": "P",
+     "count": 260
+    },
+    {
+     "letter": "NP",
+     "count": 28
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 53,
+   "difficulty": 2.2,
+   "workload": 2.2,
+   "usefulness": 2.9,
+   "recordedPct": 56,
+   "attendanceRequiredPct": 32
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Fisher",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.43,
+    "studentCount": 6,
+    "studentDifficulty": 1.8,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.3,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 12,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.2,
+    "difficulty": 2.4,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.63,
+    "studentCount": 10,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 2.2,
+    "difficulty": 2.3,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Lawrence Cohen",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.76,
+    "studentCount": 24,
+    "studentDifficulty": 2.1,
+    "studentUsefulness": 3.2,
+    "difficulty": 2.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Brian Karl",
+    "terms": 3,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.39,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Arpita Roy",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.71,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4,
+    "difficulty": 1.9,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Mariane Ferme",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%203AC"
+  ]
+ },
+ "ANTHRO 84": {
+  "course": "ANTHRO 84",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 34,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 47,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rosemary Joyce",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Margaret Conkey",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%2084"
+  ]
+ },
+ "ANTHRO 98": {
+  "course": "ANTHRO 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sammy Minioza",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Charlotte Williams",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%2098"
+  ]
+ },
+ "ANTHRO 99": {
+  "course": "ANTHRO 99",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Karen Nakamura",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jun Sunseri",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Terrence Deacon",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Junko Habu",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Rosemary Joyce",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%2099"
+  ]
+ },
+ "ANTHRO C119A": {
+  "course": "ANTHRO C119A",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.189
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.054
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.75), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 59,
+   "pctA": 86,
+   "pctBelowB": 4,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Seth Holmes",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.73,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.4,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Ryan Whitacre",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20C119A"
+  ]
+ },
+ "ANTHRO C125A": {
+  "course": "ANTHRO C125A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.215
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 80,
+   "pctA": 61,
+   "pctBelowB": 1,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Junko Habu",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.58,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20C125A"
+  ]
+ },
+ "ANTHRO C125B": {
+  "course": "ANTHRO C125B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Junko Habu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20C125B"
+  ]
+ },
+ "ANTHRO C12AC": {
+  "course": "ANTHRO C12AC",
+  "difficulty": 2.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.307
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 4.4,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students call it an easy, enjoyable American Cultures course with engaging lectures and guest speakers. It involves readings discussed in discussion sections, a couple of exams and one research paper. Grading is generous, though content can feel repetitive.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 357,
+   "pctA": 76,
+   "pctBelowB": 6,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 42
+    },
+    {
+     "letter": "A",
+     "count": 118
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 82
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 1.5,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Kent Lightfoot",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.63,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 1.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Scott Stephens",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.63,
+    "studentCount": 4,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3,
+    "difficulty": 1.9,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20C12AC"
+  ]
+ },
+ "ANTHRO C146": {
+  "course": "ANTHRO C146",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "James Holston",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Greg Niemeyer",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20C146"
+  ]
+ },
+ "ANTHRO C147B": {
+  "course": "ANTHRO C147B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.209
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 74,
+   "pctA": 87,
+   "pctBelowB": 9,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 49
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Paola Bacchetta",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20C147B"
+  ]
+ },
+ "ANTHRO H195A": {
+  "course": "ANTHRO H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sabrina Agarwal",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexei Yurchak",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Corinne Hayden",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "James Holston",
+    "terms": 12,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William White",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Junko Habu",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jun Sunseri",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20H195A"
+  ]
+ },
+ "ANTHRO H195B": {
+  "course": "ANTHRO H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Rosemary Joyce",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Laurie Wilkie",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William White",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stefania Pandolfo",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karen Nakamura",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lisa Maher",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Xin Liu",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charles Hirschkind",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20H195B"
+  ]
+ },
+ "ANTHRO R5B": {
+  "course": "ANTHRO R5B",
+  "difficulty": 2.4,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (21 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.283
+    },
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (21)",
+     "value": 2.8,
+     "weight": 0.121
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (21 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.323
+    }
+   ]
+  },
+  "sentiment": "21 students on Berkeleytime rate it 2.6/5 for difficulty, 2.8/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.70), with 81% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 641,
+   "pctA": 81,
+   "pctBelowB": 3,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 77
+    },
+    {
+     "letter": "A",
+     "count": 309
+    },
+    {
+     "letter": "A-",
+     "count": 124
+    },
+    {
+     "letter": "B+",
+     "count": 53
+    },
+    {
+     "letter": "B",
+     "count": 35
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 21,
+   "difficulty": 2.6,
+   "workload": 2.8,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Mariane Ferme",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexa Kurmanov",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Anqi Yu",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Patrick DeSutter",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Tanya Bertone",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Milly McKenzie",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nicole Mabry",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Bernardo Moreno Peniche",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ANTHRO%20R5B"
+  ]
+ }
+}

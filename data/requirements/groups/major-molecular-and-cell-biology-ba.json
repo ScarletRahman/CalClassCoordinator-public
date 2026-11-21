@@ -1,0 +1,2233 @@
+{
+ "id": "major-molecular-and-cell-biology-ba",
+ "title": "Molecular and Cell Biology BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25974U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25974U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25974U",
+ "choices": [
+  {
+   "id": "emphasis",
+   "title": "Emphasis",
+   "pick": 1,
+   "options": [
+    {
+     "id": "biochemistry-biophysics-and-structural-biology-track-1",
+     "title": "Biochemistry, Biophysics & Structural Biology: Track 1"
+    },
+    {
+     "id": "biochemistry-biophysics-and-structural-biology-track-2",
+     "title": "Biochemistry, Biophysics & Structural Biology: Track 2"
+    },
+    {
+     "id": "cell-biology-development-and-physiology-track-1",
+     "title": "Cell Biology, Development & Physiology: Track 1"
+    },
+    {
+     "id": "cell-biology-development-and-physiology-track-2",
+     "title": "Cell Biology, Development & Physiology: Track 2"
+    },
+    {
+     "id": "genetics-genomics-evolution-and-development-track-1",
+     "title": "Genetics, Genomics, Evolution & Development: Track 1"
+    },
+    {
+     "id": "genetics-genomics-evolution-and-development-track-2",
+     "title": "Genetics, Genomics, Evolution & Development: Track 2"
+    },
+    {
+     "id": "immunology-and-molecular-medicine-track-1",
+     "title": "Immunology and Molecular Medicine: Track 1"
+    },
+    {
+     "id": "immunology-and-molecular-medicine-track-2",
+     "title": "Immunology and Molecular Medicine: Track 2"
+    },
+    {
+     "id": "immunology-and-molecular-medicine-track-3",
+     "title": "Immunology and Molecular Medicine: Track 3"
+    },
+    {
+     "id": "molecular-therapeutics-track-1",
+     "title": "Molecular Therapeutics: Track 1"
+    },
+    {
+     "id": "molecular-therapeutics-track-2",
+     "title": "Molecular Therapeutics: Track 2"
+    },
+    {
+     "id": "neurobiology",
+     "title": "Neurobiology"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Upper Division Requirements by Emphasis"
+ ],
+ "requirements": [
+  {
+   "id": "mathematics-options",
+   "title": "Mathematics Options",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Students are only responsible for completing ONE of the THREE Mathematics options."
+   }
+  },
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "notes": "Option 1: Students must take either MATH 10A & 10B or MATH 51 & 52 to complete this option.\nOption 2: Students may use MATH 54 or MATH 56 to complete this option, but not both.\nOption 3: Students must take one class from List A and one class from List B to complete this option.\nList A: MATH 52, MATH 53, MATH 54, MATH 56, MATH 55\nList B: STAT 2, STAT 20, STAT W21, COMPSCI/DATA/STAT C8",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "nOf",
+      "n": 2,
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 10A"
+         },
+         {
+          "type": "course",
+          "course": "MATH N10A"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 10B"
+         },
+         {
+          "type": "course",
+          "course": "MATH N10B"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 51"
+         },
+         {
+          "type": "course",
+          "course": "XMATH 51"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 52"
+         },
+         {
+          "type": "course",
+          "course": "XMATH 52"
+         }
+        ]
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "nOf",
+      "n": 2,
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 52"
+         },
+         {
+          "type": "course",
+          "course": "XMATH 52"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 53"
+         },
+         {
+          "type": "course",
+          "course": "MATH H53"
+         },
+         {
+          "type": "course",
+          "course": "MATH N53"
+         },
+         {
+          "type": "course",
+          "course": "MATH W53"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 54"
+         },
+         {
+          "type": "course",
+          "course": "MATH H54"
+         },
+         {
+          "type": "course",
+          "course": "MATH N54"
+         },
+         {
+          "type": "course",
+          "course": "MATH W54"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 55"
+         },
+         {
+          "type": "course",
+          "course": "MATH N55"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course": "MATH 56"
+       }
+      ],
+      "label": "Option 2"
+     },
+     {
+      "type": "nOf",
+      "n": 2,
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 52"
+         },
+         {
+          "type": "course",
+          "course": "XMATH 52"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 53"
+         },
+         {
+          "type": "course",
+          "course": "MATH H53"
+         },
+         {
+          "type": "course",
+          "course": "MATH N53"
+         },
+         {
+          "type": "course",
+          "course": "MATH W53"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 54"
+         },
+         {
+          "type": "course",
+          "course": "MATH H54"
+         },
+         {
+          "type": "course",
+          "course": "MATH N54"
+         },
+         {
+          "type": "course",
+          "course": "MATH W54"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 55"
+         },
+         {
+          "type": "course",
+          "course": "MATH N55"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course": "MATH 56"
+       },
+       {
+        "type": "course",
+        "course": "STAT 2"
+       },
+       {
+        "type": "course",
+        "course": "STAT 20"
+       },
+       {
+        "type": "course",
+        "course": "STAT 21"
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "STAT C8"
+         },
+         {
+          "type": "course",
+          "course": "DATA C8"
+         },
+         {
+          "type": "course",
+          "course": "COMPSCI C8"
+         }
+        ]
+       }
+      ],
+      "label": "Option 3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "general-chemistry",
+   "title": "General Chemistry",
+   "section": "Lower Division",
+   "notes": "Also satisfied by:\n- A-Level: Chemistry, score 1\n- AP: Chemistry, score 4+\n- IB: HL Chemistry, score 5+",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "CHEM 1A",
+      "CHEM 1AD",
+      "CHEM 1AL",
+      "CHEM W1A",
+      "CHEM 4A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "organic-chemistry-part-1",
+   "title": "Organic Chemistry: Part 1",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 5,
+    "filter": {
+     "courses": [
+      "CHEM 3A",
+      "CHEM 3AL",
+      "CHEM N3AL",
+      "CHEM 12A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "organic-chemistry-part-2",
+   "title": "Organic Chemistry: Part 2",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 5,
+    "filter": {
+     "courses": [
+      "CHEM 3B",
+      "CHEM 3BL",
+      "CHEM 12B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "biology",
+   "title": "Biology",
+   "section": "Lower Division",
+   "notes": "- Students who scored 5+ on IB: HL Biology or 4+ in AP Biology only need to take BIOLOGY 1B",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-1-core",
+   "title": "Core",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 1",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-1",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C100A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 100B"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 110"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-1-genetics",
+   "title": "Genetics",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 1",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-1",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C148"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C148"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-1-lab",
+   "title": "Lab",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 1",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-1",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C110L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-1-electives",
+   "title": "Electives",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 1",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-1",
+   "notes": "MCELLBI C148 will only be accepted if the Genetics requirement was fulfilled by MCELLBI 140.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 113"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 115"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 130B"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C138"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C148"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 127"
+     },
+     {
+      "type": "course",
+      "course": "MBN C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 132"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 135A"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 136"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 137L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 141"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 149"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C103"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C112"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C114"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C116"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C117"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C134"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C148"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C175"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100A"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100B"
+     },
+     {
+      "type": "course",
+      "course": "NEU 165"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX C114"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 141"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 177"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 135"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 150"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 160"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C103"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C112"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C114"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C116"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C134"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C148"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C195C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-2-core",
+   "title": "Core",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 2",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-2",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C100A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 130B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 135"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-2-genetics-or-cell-biology",
+   "title": "Genetics or Cell Biology",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 2",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-2",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI C130"
+     },
+     {
+      "type": "course",
+      "course": "MBN C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-2-lab",
+   "title": "Lab",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 2",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-2",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C110L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biochemistry-biophysics-and-structural-biology-track-2-electives",
+   "title": "Electives",
+   "section": "Biochemistry, Biophysics & Structural Biology: Track 2",
+   "choice": "emphasis",
+   "option": "biochemistry-biophysics-and-structural-biology-track-2",
+   "notes": "MCELLBI C148 will only be accepted if the Genetics requirement was fulfilled by MCELLBI 140.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 113"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C138"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C148"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 127"
+     },
+     {
+      "type": "course",
+      "course": "MBN C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 100B"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 132"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 135A"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 136"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 137L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 141"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 149"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C103"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C112"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C116"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C117"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C134"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C148"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C175"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100A"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100B"
+     },
+     {
+      "type": "course",
+      "course": "NEU 165"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX C114"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 141"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 177"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 135"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 150"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 160"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C103"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C112"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C114"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C116"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C134"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C148"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C195C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cell-biology-development-and-physiology-track-1-core",
+   "title": "Core",
+   "section": "Cell Biology, Development & Physiology: Track 1",
+   "choice": "emphasis",
+   "option": "cell-biology-development-and-physiology-track-1",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C130"
+       },
+       {
+        "type": "course",
+        "course": "MBN C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cell-biology-development-and-physiology-track-1-lab",
+   "title": "Lab",
+   "section": "Cell Biology, Development & Physiology: Track 1",
+   "choice": "emphasis",
+   "option": "cell-biology-development-and-physiology-track-1",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 133L"
+   }
+  },
+  {
+   "id": "cell-biology-development-and-physiology-track-1-electives",
+   "title": "Electives",
+   "section": "Cell Biology, Development & Physiology: Track 1",
+   "choice": "emphasis",
+   "option": "cell-biology-development-and-physiology-track-1",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "INTEGBI 160",
+      "MCELLBI 120",
+      "MCELLBI 132",
+      "MCELLBI 135A",
+      "MCELLBI 136",
+      "MCELLBI 137L",
+      "MCELLBI 141",
+      "MCELLBI 149",
+      "MCELLBI 150",
+      "MCELLBI 153",
+      "MCELLBI C103",
+      "MCELLBI C112",
+      "MCELLBI C116",
+      "MCELLBI C134",
+      "MCELLBI C148",
+      "MCELLBI C175",
+      "NEU 100A",
+      "NEU 100B",
+      "NEU 165",
+      "PLANTBI C103",
+      "PLANTBI C112",
+      "PLANTBI C116",
+      "PLANTBI C134",
+      "PLANTBI C148",
+      "UGBA C195C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cell-biology-development-and-physiology-track-2-core",
+   "title": "Core",
+   "section": "Cell Biology, Development & Physiology: Track 2",
+   "choice": "emphasis",
+   "option": "cell-biology-development-and-physiology-track-2",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 136"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cell-biology-development-and-physiology-track-2-lab",
+   "title": "Lab",
+   "section": "Cell Biology, Development & Physiology: Track 2",
+   "choice": "emphasis",
+   "option": "cell-biology-development-and-physiology-track-2",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 133L"
+   }
+  },
+  {
+   "id": "cell-biology-development-and-physiology-track-2-electives",
+   "title": "Electives",
+   "section": "Cell Biology, Development & Physiology: Track 2",
+   "choice": "emphasis",
+   "option": "cell-biology-development-and-physiology-track-2",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "DATA C131A",
+      "ESPM C138",
+      "INTEGBI 103LF",
+      "INTEGBI 104LF",
+      "INTEGBI 123AL",
+      "INTEGBI 131",
+      "INTEGBI 137",
+      "INTEGBI 140",
+      "INTEGBI 148",
+      "INTEGBI C143A",
+      "MBN 103",
+      "MBN 108A",
+      "MBN 160",
+      "MBN C130",
+      "MCELLBI 120",
+      "MCELLBI 132",
+      "MCELLBI 135A",
+      "MCELLBI 137L",
+      "MCELLBI 141",
+      "MCELLBI 149",
+      "MCELLBI 150",
+      "MCELLBI 153",
+      "MCELLBI C103",
+      "MCELLBI C112",
+      "MCELLBI C114",
+      "MCELLBI C116",
+      "MCELLBI C130",
+      "MCELLBI C134",
+      "MCELLBI C148",
+      "MCELLBI C175",
+      "NEU 100A",
+      "NEU 100B",
+      "NEU 165",
+      "NEU C126",
+      "NUSCTX 110",
+      "NUSCTX 161A",
+      "PBHLTH 141",
+      "PBHLTH 142",
+      "PBHLTH 150B",
+      "PBHLTH 162A",
+      "PLANTBI 135",
+      "PLANTBI 150",
+      "PLANTBI 160",
+      "PLANTBI C103",
+      "PLANTBI C112",
+      "PLANTBI C114",
+      "PLANTBI C116",
+      "PLANTBI C134",
+      "PLANTBI C148",
+      "PSYCH 110",
+      "PSYCH C113",
+      "PSYCH C116",
+      "STAT C131A",
+      "UGBA C195C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-1-core",
+   "title": "Core",
+   "section": "Genetics, Genomics, Evolution & Development: Track 1",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-1",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C100A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 110"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-1-lab",
+   "title": "Lab",
+   "section": "Genetics, Genomics, Evolution & Development: Track 1",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-1",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 140L"
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-1-electives",
+   "title": "Electives",
+   "section": "Genetics, Genomics, Evolution & Development: Track 1",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-1",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Student must complete one course from each list or two courses from List B.\nList A\n- BIOENG 114\n- BIOENG C131\n- BIOENG C146\n- CHEM 113\n- CHEM 115\n- CHEM 130B\n- CMPBIO C131\n- CMPBIO C146\n- CMPBIO 156\n- COMPSCI C100\n- DATA C100\n- ESPM 108B\n- ESPM 139A\n- ESPM 162\n- ESPM C138\n- ESPM C148\n- INTEGBI 103LF\n- INTEGBI 104LF\n- INTEGBI 131\n- INTEGBI 134L\n- INTEGBI 148\n- INTEGBI 160\n- INTEGBI 162\n- INTEGBI 163\n- MATH 110\n- MATH 127\n- MBN C130\n- MCELLBI 100B\n- MCELLBI 120\n- MCELLBI 135A\n- MCELLBI 136\n- MCELLBI 143\n- MCELLBI 150\n- MCELLBI 153\n- MCELLBI 168\n- MCELLBI C103\n- MCELLBI C112\n- MCELLBI C114 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 114",
+     "BIOENG C131",
+     "BIOENG C146",
+     "CHEM 113",
+     "CHEM 115",
+     "CHEM 130B",
+     "CMPBIO C131",
+     "CMPBIO C146",
+     "CMPBIO 156",
+     "COMPSCI C100",
+     "DATA C100",
+     "ESPM 108B",
+     "ESPM 139A",
+     "ESPM 162",
+     "ESPM C138",
+     "ESPM C148",
+     "INTEGBI 103LF",
+     "INTEGBI 104LF",
+     "INTEGBI 131",
+     "INTEGBI 134L",
+     "INTEGBI 148",
+     "INTEGBI 160",
+     "INTEGBI 162",
+     "MATH 110",
+     "MATH 127",
+     "MBN C130",
+     "MCELLBI 100B",
+     "MCELLBI 120",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 143",
+     "MCELLBI 150",
+     "MCELLBI 153",
+     "MCELLBI 168",
+     "MCELLBI C103",
+     "MCELLBI C112",
+     "MCELLBI C114",
+     "MCELLBI C116",
+     "MCELLBI C130",
+     "MCELLBI C134",
+     "MCELLBI 141",
+     "MCELLBI C146",
+     "MCELLBI C148",
+     "MCELLBI 149",
+     "MCELLBI C175",
+     "NEU 100A",
+     "NEU 100B",
+     "NEU 165",
+     "NUSCTX C114",
+     "NUSCTX 160",
+     "PBHLTH 142",
+     "PHYSICS 112",
+     "PLANTBI 135",
+     "PLANTBI 150",
+     "PLANTBI C103",
+     "PLANTBI C112",
+     "PLANTBI C114",
+     "PLANTBI C116",
+     "PLANTBI C146",
+     "PLANTBI 160",
+     "STAT C100",
+     "STAT C131A",
+     "STAT 134",
+     "UGBA C195C",
+     "BIOENG 131",
+     "BIOENG C149",
+     "DATA C131A",
+     "INTEGBI 161",
+     "MCELLBI 132",
+     "MCELLBI 137L",
+     "PBHLTH 141",
+     "PLANTBI C134"
+    ]
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-2-core",
+   "title": "Core",
+   "section": "Genetics, Genomics, Evolution & Development: Track 2",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-2",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 141"
+     }
+    ]
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-2-genetics",
+   "title": "Genetics",
+   "section": "Genetics, Genomics, Evolution & Development: Track 2",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-2",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-2-lab",
+   "title": "Lab",
+   "section": "Genetics, Genomics, Evolution & Development: Track 2",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-2",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 140L"
+   }
+  },
+  {
+   "id": "genetics-genomics-evolution-and-development-track-2-electives",
+   "title": "Electives",
+   "section": "Genetics, Genomics, Evolution & Development: Track 2",
+   "choice": "emphasis",
+   "option": "genetics-genomics-evolution-and-development-track-2",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Student must complete one course from each list or two courses from List B.\nList A\n- BIOENG 114\n- BIOENG C131\n- BIOENG C146\n- CHEM 113\n- CHEM 115\n- CHEM 130B\n- CMPBIO C131\n- CMPBIO C146\n- CMPBIO 156\n- COMPSCI C100\n- DATA C100\n- ESPM 108B\n- ESPM 139A\n- ESPM 162\n- ESPM C138\n- ESPM C148\n- INTEGBI 103LF\n- INTEGBI 104LF\n- INTEGBI 131\n- INTEGBI 134L\n- INTEGBI 148\n- INTEGBI 160\n- INTEGBI 162\n- INTEGBI 163\n- MATH 110\n- MATH 127\n- MBN C130\n- MCELLBI 100B\n- MCELLBI 120\n- MCELLBI 135A\n- MCELLBI 136\n- MCELLBI 143\n- MCELLBI 150\n- MCELLBI 153\n- MCELLBI 168\n- MCELLBI C103\n- MCELLBI C112\n- MCELLBI C114 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 114",
+     "BIOENG C131",
+     "BIOENG C146",
+     "CHEM 113",
+     "CHEM 115",
+     "CHEM 130B",
+     "CMPBIO C131",
+     "CMPBIO C146",
+     "CMPBIO 156",
+     "COMPSCI C100",
+     "DATA C100",
+     "ESPM 108B",
+     "ESPM 139A",
+     "ESPM 162",
+     "ESPM C138",
+     "ESPM C148",
+     "INTEGBI 103LF",
+     "INTEGBI 104LF",
+     "INTEGBI 131",
+     "INTEGBI 134L",
+     "INTEGBI 148",
+     "INTEGBI 160",
+     "INTEGBI 162",
+     "MATH 110",
+     "MATH 127",
+     "MBN C130",
+     "MCELLBI 100B",
+     "MCELLBI 120",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 143",
+     "MCELLBI 150",
+     "MCELLBI 153",
+     "MCELLBI 168",
+     "MCELLBI C103",
+     "MCELLBI C112",
+     "MCELLBI C114",
+     "MCELLBI C116",
+     "MCELLBI C130",
+     "MCELLBI C134",
+     "MCELLBI 141",
+     "MCELLBI C146",
+     "MCELLBI C148",
+     "MCELLBI 149",
+     "MCELLBI C175",
+     "NEU 100A",
+     "NEU 100B",
+     "NEU 165",
+     "NUSCTX C114",
+     "NUSCTX 160",
+     "PBHLTH 142",
+     "PHYSICS 112",
+     "PLANTBI 135",
+     "PLANTBI 150",
+     "PLANTBI C103",
+     "PLANTBI C112",
+     "PLANTBI C114",
+     "PLANTBI C116",
+     "PLANTBI C146",
+     "PLANTBI 160",
+     "STAT C100",
+     "STAT C131A",
+     "STAT 134",
+     "UGBA C195C",
+     "BIOENG 131",
+     "BIOENG C149",
+     "DATA C131A",
+     "INTEGBI 161",
+     "MCELLBI 132",
+     "MCELLBI 137L",
+     "PBHLTH 141",
+     "PLANTBI C134"
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-1-core",
+   "title": "Core",
+   "section": "Immunology and Molecular Medicine: Track 1",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-1",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C100A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 110"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-1-genetics",
+   "title": "Genetics",
+   "section": "Immunology and Molecular Medicine: Track 1",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-1",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-1-lab",
+   "title": "Lab",
+   "section": "Immunology and Molecular Medicine: Track 1",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-1",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 150L"
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-1-electives",
+   "title": "Electives",
+   "section": "Immunology and Molecular Medicine: Track 1",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-1",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 131"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C131"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C138"
+     },
+     {
+      "type": "course",
+      "course": "MBN C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 100B"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 132"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 135A"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 141"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 149"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C103"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C112"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C114"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C134"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C175"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 250"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C103"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C112"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C114"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C134"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C195C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-2-core",
+   "title": "Core",
+   "section": "Immunology and Molecular Medicine: Track 2",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-2",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-2-genetics",
+   "title": "Genetics",
+   "section": "Immunology and Molecular Medicine: Track 2",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-2",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-2-lab",
+   "title": "Lab",
+   "section": "Immunology and Molecular Medicine: Track 2",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-2",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 150L"
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-2-electives",
+   "title": "Electives",
+   "section": "Immunology and Molecular Medicine: Track 2",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-2",
+   "rule": {
+    "type": "manual",
+    "text": "Complete one course from each list.\nList A\n- MCELLBI C103\n- PLANTBI C103\n- MCELLBI C112\n- PLANTBI C112\n- ESPM C138\n- MCELLBI C114\n- PLANTBI C114\nList B\n- MBN C130\n- MCELLBIO 120\n- MCELLBI 132\n- MCELLBI 135A\n- MCELLBI 136\n- MCELLBI 141\n- MCELLBI 149\n- MCELLBI 153\n- MCELLBI 160\n- MCELLBI 250\n- MCELLBI C130\n- MCELLBI C134\n- MCELLBI C175\n- NEU 100A\n- NEU 100B\n- PLANTBI C134\n- UGBA C195C",
+    "mentionedCourses": [
+     "MCELLBI C103",
+     "PLANTBI C103",
+     "MCELLBI C112",
+     "PLANTBI C112",
+     "ESPM C138",
+     "MCELLBI C114",
+     "PLANTBI C114",
+     "MBN C130",
+     "MCELLBI 132",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 141",
+     "MCELLBI 149",
+     "MCELLBI 153",
+     "MCELLBI C130",
+     "MCELLBI C134",
+     "MCELLBI C175",
+     "NEU 100A",
+     "NEU 100B",
+     "PLANTBI C134",
+     "UGBA C195C"
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-3-core",
+   "title": "Core",
+   "section": "Immunology and Molecular Medicine: Track 3",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-3",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-3-genetics",
+   "title": "Genetics",
+   "section": "Immunology and Molecular Medicine: Track 3",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-3",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-3-lab",
+   "title": "Lab",
+   "section": "Immunology and Molecular Medicine: Track 3",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-3",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 153L"
+   }
+  },
+  {
+   "id": "immunology-and-molecular-medicine-track-3-electives",
+   "title": "Electives",
+   "section": "Immunology and Molecular Medicine: Track 3",
+   "choice": "emphasis",
+   "option": "immunology-and-molecular-medicine-track-3",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 131"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C131"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C138"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 132"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 135A"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 136"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 141"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 149"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C112"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C114"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C134"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C175"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100A"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100B"
+     },
+     {
+      "type": "course",
+      "course": "NEU 165"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C103"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C112"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C114"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C134"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C195C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "molecular-therapeutics-track-1-core",
+   "title": "Core",
+   "section": "Molecular Therapeutics: Track 1",
+   "choice": "emphasis",
+   "option": "molecular-therapeutics-track-1",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C100A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C100A"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "molecular-therapeutics-track-1-lab",
+   "title": "Lab",
+   "section": "Molecular Therapeutics: Track 1",
+   "choice": "emphasis",
+   "option": "molecular-therapeutics-track-1",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "molecular-therapeutics-track-1-electives",
+   "title": "Electives",
+   "section": "Molecular Therapeutics: Track 1",
+   "choice": "emphasis",
+   "option": "molecular-therapeutics-track-1",
+   "rule": {
+    "type": "manual",
+    "text": "Complete one course from each list.\nList A\n- BIOENG 100\n- BIOENG C131\n- CHEM 121\n- CHMENG 182\n- CMPBIO C131\n- DATA C131A\n- MCELLBI 100B\n- MCELLBI 110\n- MCELLBI 153\n- MCELLBI C175\n- NUSCTX 121\n- PBHLTH 142\n- STAT C131A\n- UGBA C195C\nList B\n- ESPM C138\n- MBN 160\n- MCELLBI 132\n- MCELLBI 135A\n- MCELLBI 136\n- MCELLBI 149\n- MCELLBI C103\n- MCELLBI C114\n- NEU 165\n- NUSCTX 110\n- PLANTBI C103\n- PLANTBI C114",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "BIOENG C131",
+     "CHEM 121",
+     "CHMENG 182",
+     "CMPBIO C131",
+     "DATA C131A",
+     "MCELLBI 100B",
+     "MCELLBI 110",
+     "MCELLBI 153",
+     "MCELLBI C175",
+     "NUSCTX 121",
+     "PBHLTH 142",
+     "STAT C131A",
+     "UGBA C195C",
+     "ESPM C138",
+     "MBN 160",
+     "MCELLBI 132",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 149",
+     "MCELLBI C103",
+     "MCELLBI C114",
+     "NEU 165",
+     "NUSCTX 110",
+     "PLANTBI C103",
+     "PLANTBI C114"
+    ]
+   }
+  },
+  {
+   "id": "molecular-therapeutics-track-2-core",
+   "title": "Core",
+   "section": "Molecular Therapeutics: Track 2",
+   "choice": "emphasis",
+   "option": "molecular-therapeutics-track-2",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120"
+     }
+    ]
+   }
+  },
+  {
+   "id": "molecular-therapeutics-track-2-lab",
+   "title": "Lab",
+   "section": "Molecular Therapeutics: Track 2",
+   "choice": "emphasis",
+   "option": "molecular-therapeutics-track-2",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 120L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "molecular-therapeutics-track-2-electives",
+   "title": "Electives",
+   "section": "Molecular Therapeutics: Track 2",
+   "choice": "emphasis",
+   "option": "molecular-therapeutics-track-2",
+   "rule": {
+    "type": "manual",
+    "text": "Complete one course from each list.\nList A\n- BIOENG 100\n- BIOENG C131\n- CHEM 121\n- CHMENG 182\n- CMPBIO C131\n- DATA C131A\n- MCELLBI 100B\n- MCELLBI 110\n- MCELLBI 153\n- MCELLBI C175\n- NUSCTX 121\n- PBHLTH 142\n- STAT C131A\n- UGBA C195C\nList B\n- ESPM C138\n- MBN 160\n- MCELLBI 132\n- MCELLBI 135A\n- MCELLBI 136\n- MCELLBI 149\n- MCELLBI C103\n- MCELLBI C114\n- NEU 165\n- NUSCTX 110\n- PLANTBI C103\n- PLANTBI C114",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "BIOENG C131",
+     "CHEM 121",
+     "CHMENG 182",
+     "CMPBIO C131",
+     "DATA C131A",
+     "MCELLBI 100B",
+     "MCELLBI 110",
+     "MCELLBI 153",
+     "MCELLBI C175",
+     "NUSCTX 121",
+     "PBHLTH 142",
+     "STAT C131A",
+     "UGBA C195C",
+     "ESPM C138",
+     "MBN 160",
+     "MCELLBI 132",
+     "MCELLBI 135A",
+     "MCELLBI 136",
+     "MCELLBI 149",
+     "MCELLBI C103",
+     "MCELLBI C114",
+     "NEU 165",
+     "NUSCTX 110",
+     "PLANTBI C103",
+     "PLANTBI C114"
+    ]
+   }
+  },
+  {
+   "id": "neurobiology-core",
+   "title": "Core",
+   "section": "Neurobiology",
+   "choice": "emphasis",
+   "option": "neurobiology",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100A"
+     },
+     {
+      "type": "course",
+      "course": "NEU 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "neurobiology-lab",
+   "title": "Lab",
+   "section": "Neurobiology",
+   "choice": "emphasis",
+   "option": "neurobiology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "NEU 171L"
+     },
+     {
+      "type": "course",
+      "course": "NEU 173L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "neurobiology-electives",
+   "title": "Electives",
+   "section": "Neurobiology",
+   "choice": "emphasis",
+   "option": "neurobiology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 121"
+     },
+     {
+      "type": "course",
+      "course": "COGSCI C127"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C126"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 139"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C143A"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C144"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 127"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128B"
+     },
+     {
+      "type": "course",
+      "course": "MBN C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 135A"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 136"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 137L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 141"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C175"
+     },
+     {
+      "type": "course",
+      "course": "NEU 165"
+     },
+     {
+      "type": "course",
+      "course": "NEU 171L"
+     },
+     {
+      "type": "course",
+      "course": "NEU 173L"
+     },
+     {
+      "type": "course",
+      "course": "NEU C126"
+     },
+     {
+      "type": "course",
+      "course": "NEUROSC C129"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 141"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C129"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 117"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C113"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C116"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH C127"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C195C"
+     }
+    ]
+   }
+  }
+ ]
+}

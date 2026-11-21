@@ -1,0 +1,6954 @@
+{
+ "PHYSICS 10": {
+  "course": "PHYSICS 10",
+  "difficulty": 2.8,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.231
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.5/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.46), with 59% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 97,
+   "pctA": 59,
+   "pctBelowB": 11,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 3,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Aziza Suleymanzade",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Barbara Jacak",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.53,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.6,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Na Ji",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.29,
+    "midterms": 2,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2010"
+  ]
+ },
+ "PHYSICS 105": {
+  "course": "PHYSICS 105",
+  "difficulty": 3.5,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 4.1,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.9,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 3.9/5 for difficulty, 4.1/5 for workload and 4.6/5 for usefulness. The average grade is B+ (3.19), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 671,
+   "pctA": 45,
+   "pctBelowB": 16,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 158
+    },
+    {
+     "letter": "A-",
+     "count": 82
+    },
+    {
+     "letter": "B+",
+     "count": 80
+    },
+    {
+     "letter": "B",
+     "count": 127
+    },
+    {
+     "letter": "B-",
+     "count": 46
+    },
+    {
+     "letter": "C+",
+     "count": 15
+    },
+    {
+     "letter": "C",
+     "count": 40
+    },
+    {
+     "letter": "C-",
+     "count": 14
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 10
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 19
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 3.9,
+   "workload": 4.1,
+   "usefulness": 4.6,
+   "recordedPct": 43,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Swapan Chattopadhyay",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.55,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.12,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.8,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Zi Qiu",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.18,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Martin White",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.33,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Edgar Knobloch",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.85,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 4.1,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 3,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.01,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Erin Hansen",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.88,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20105"
+  ]
+ },
+ "PHYSICS 110A": {
+  "course": "PHYSICS 110A",
+  "difficulty": 3.7,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 3.7,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.275
+    }
+   ]
+  },
+  "sentiment": "11 students on Berkeleytime rate it 4.3/5 for difficulty, 3.7/5 for workload and 4.5/5 for usefulness. The average grade is B (3.13), with 40% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 884,
+   "pctA": 40,
+   "pctBelowB": 19,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 60
+    },
+    {
+     "letter": "A",
+     "count": 163
+    },
+    {
+     "letter": "A-",
+     "count": 111
+    },
+    {
+     "letter": "B+",
+     "count": 124
+    },
+    {
+     "letter": "B",
+     "count": 132
+    },
+    {
+     "letter": "B-",
+     "count": 79
+    },
+    {
+     "letter": "C+",
+     "count": 40
+    },
+    {
+     "letter": "C",
+     "count": 54
+    },
+    {
+     "letter": "C-",
+     "count": 32
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 49
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 4.3,
+   "workload": 3.7,
+   "usefulness": 4.5,
+   "recordedPct": 62,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Matt Pyle",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.17,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Eric Ma",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.15,
+    "studentCount": 7,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.8,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Michael Crommie",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.98,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 4.0,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.09,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.8,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Zi Qiu",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.4,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Feng Wang",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.25,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Liang Dai",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.93,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20110A"
+  ]
+ },
+ "PHYSICS 110B": {
+  "course": "PHYSICS 110B",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.292
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.27), with 50% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 254,
+   "pctA": 50,
+   "pctBelowB": 14,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Liang Dai",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.16,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Jonathan Wurtele",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.05,
+    "midterms": 1,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Ehud Altman",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.6,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20110B"
+  ]
+ },
+ "PHYSICS 111A": {
+  "course": "PHYSICS 111A",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 5.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.64), with 78% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 475,
+   "pctA": 78,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 53
+    },
+    {
+     "letter": "A",
+     "count": 210
+    },
+    {
+     "letter": "A-",
+     "count": 92
+    },
+    {
+     "letter": "B+",
+     "count": 43
+    },
+    {
+     "letter": "B",
+     "count": 29
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Chiara Salemi",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.61,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Daniel Barsky",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Matt Pyle",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "William Holzapfel",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Victoria Xu",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.64,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Eric Ma",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.57,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Joel Fajans",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20111A"
+  ]
+ },
+ "PHYSICS 111B": {
+  "course": "PHYSICS 111B",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.319
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.23), with 50% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 512,
+   "pctA": 50,
+   "pctBelowB": 15,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 43
+    },
+    {
+     "letter": "A",
+     "count": 118
+    },
+    {
+     "letter": "A-",
+     "count": 74
+    },
+    {
+     "letter": "B+",
+     "count": 58
+    },
+    {
+     "letter": "B",
+     "count": 78
+    },
+    {
+     "letter": "B-",
+     "count": 31
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 14
+    },
+    {
+     "letter": "C-",
+     "count": 24
+    },
+    {
+     "letter": "F",
+     "count": 19
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William Holzapfel",
+    "terms": 5,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Hartmut Haeffner",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.36,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Heather Gray",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.03,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Victoria Xu",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.4,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Shreya Puranam",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.23,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Samara Steinfeld",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.23,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Andrew Sun",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.23,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20111B"
+  ]
+ },
+ "PHYSICS 112": {
+  "course": "PHYSICS 112",
+  "difficulty": 3.8,
+  "shouldTake": 2.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 4.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 5.0/5 for difficulty, 4.6/5 for workload and 2.4/5 for usefulness. The average grade is B+ (3.21), with 47% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 909,
+   "pctA": 47,
+   "pctBelowB": 16,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 91
+    },
+    {
+     "letter": "A",
+     "count": 201
+    },
+    {
+     "letter": "A-",
+     "count": 111
+    },
+    {
+     "letter": "B+",
+     "count": 117
+    },
+    {
+     "letter": "B",
+     "count": 120
+    },
+    {
+     "letter": "B-",
+     "count": 76
+    },
+    {
+     "letter": "C+",
+     "count": 46
+    },
+    {
+     "letter": "C",
+     "count": 30
+    },
+    {
+     "letter": "C-",
+     "count": 22
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 29
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    },
+    {
+     "letter": "S",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 5,
+   "workload": 4.6,
+   "usefulness": 2.4,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Kasen",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.37,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Dunghai Lee",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Barbara Jacak",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.76,
+    "difficulty": 4.2
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.06,
+    "studentCount": 4,
+    "studentDifficulty": 5,
+    "studentUsefulness": 2.2,
+    "difficulty": 4.2,
+    "shouldTake": 2.4
+   },
+   {
+    "professor": "Ehud Altman",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.19,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Ori Ganor",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.24,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.7,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Zi Qiu",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.54,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.16,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20112"
+  ]
+ },
+ "PHYSICS 129": {
+  "course": "PHYSICS 129",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 67% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 187,
+   "pctA": 67,
+   "pctBelowB": 11,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 73
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Haichen Wang",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.46,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Daniel Mckinsey",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Marjorie Shapiro",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20129"
+  ]
+ },
+ "PHYSICS 130": {
+  "course": "PHYSICS 130",
+  "difficulty": 2.4,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.224
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.72), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 89,
+   "pctA": 79,
+   "pctBelowB": 1,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 35
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Harry Levine",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.74,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Dan Stamper-Kurn",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20130"
+  ]
+ },
+ "PHYSICS 137A": {
+  "course": "PHYSICS 137A",
+  "difficulty": 3.5,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (21 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.283
+    },
+    {
+     "label": "Average grade B (3.15)",
+     "value": 3.6,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (21)",
+     "value": 3.7,
+     "weight": 0.121
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (21 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.323
+    },
+    {
+     "label": "Tone of written student reviews (19 on file)",
+     "value": 3.7,
+     "weight": 0.124
+    }
+   ]
+  },
+  "sentiment": "Students call this a very hard, theory-heavy quantum course with long, difficult exams, but a good curve. Many praise the lecture notes, fair exams, and accessible help, while others find the lectures abstract or confusing. Reviewers say to refresh linear algebra and vector calculus beforehand.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.15,
+   "letter": "B",
+   "students": 1098,
+   "pctA": 44,
+   "pctBelowB": 18,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 109
+    },
+    {
+     "letter": "A",
+     "count": 218
+    },
+    {
+     "letter": "A-",
+     "count": 136
+    },
+    {
+     "letter": "B+",
+     "count": 133
+    },
+    {
+     "letter": "B",
+     "count": 159
+    },
+    {
+     "letter": "B-",
+     "count": 95
+    },
+    {
+     "letter": "C+",
+     "count": 54
+    },
+    {
+     "letter": "C",
+     "count": 52
+    },
+    {
+     "letter": "C-",
+     "count": 24
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 15
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 40
+    },
+    {
+     "letter": "P",
+     "count": 48
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 21,
+   "difficulty": 3.7,
+   "workload": 3.7,
+   "usefulness": 4.4,
+   "recordedPct": 76,
+   "attendanceRequiredPct": 40
+  },
+  "byProfessor": [
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.1,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4,
+    "difficulty": 3.5,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.91,
+    "studentCount": 2,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 4.1,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Zi Qiu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Miha Muskinja",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.75,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Luca Iliesiu",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.17,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Joel Moore",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.5,
+    "studentCount": 10,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.2,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Raul Briceno",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.47,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 4.1,
+    "shouldTake": 3.3
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Hardest class I’ve taken, but I learned the material really well. Exams are hard (35% average), so the curve is really good",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Charman 137A",
+    "professor": "Andrew Charman",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20137A"
+  ]
+ },
+ "PHYSICS 137B": {
+  "course": "PHYSICS 137B",
+  "difficulty": 3.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B (3.14)",
+     "value": 3.6,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 3.3/5 for workload and 4.3/5 for usefulness. The average grade is B (3.14), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.14,
+   "letter": "B",
+   "students": 985,
+   "pctA": 47,
+   "pctBelowB": 22,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 111
+    },
+    {
+     "letter": "A",
+     "count": 230
+    },
+    {
+     "letter": "A-",
+     "count": 93
+    },
+    {
+     "letter": "B+",
+     "count": 110
+    },
+    {
+     "letter": "B",
+     "count": 123
+    },
+    {
+     "letter": "B-",
+     "count": 61
+    },
+    {
+     "letter": "C+",
+     "count": 42
+    },
+    {
+     "letter": "C",
+     "count": 76
+    },
+    {
+     "letter": "C-",
+     "count": 26
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 13
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 39
+    },
+    {
+     "letter": "P",
+     "count": 49
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3.3,
+   "usefulness": 4.3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Zi Qiu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Mckinsey",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.97,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Raul Briceno",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.82,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 3.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Austin Hedeman",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.04,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.6,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Michael Crommie",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.08,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Swapan Chattopadhyay",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.12,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20137B"
+  ]
+ },
+ "PHYSICS 138": {
+  "course": "PHYSICS 138",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.198
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 65,
+   "pctA": 74,
+   "pctBelowB": 4,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Harry Levine",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shimon Kolkowitz",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Dan Stamper-Kurn",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20138"
+  ]
+ },
+ "PHYSICS 139": {
+  "course": "PHYSICS 139",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.294
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.24), with 46% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 260,
+   "pctA": 46,
+   "pctBelowB": 18,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 31
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 15
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Lawrence Hall",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.24,
+    "midterms": 1,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Ori Ganor",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Liang Dai",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20139"
+  ]
+ },
+ "PHYSICS 141A": {
+  "course": "PHYSICS 141A",
+  "difficulty": 2.9,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.44), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 412,
+   "pctA": 61,
+   "pctBelowB": 9,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 51
+    },
+    {
+     "letter": "A",
+     "count": 112
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 47
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 11
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Crommie",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Joel Moore",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.48,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "James Analitis",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.48,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.6,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Joseph Orenstein",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.27,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.3,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Ehud Altman",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jeffrey Neaton",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Zi Qiu",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.7,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20141A"
+  ]
+ },
+ "PHYSICS 141B": {
+  "course": "PHYSICS 141B",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 86,
+   "pctA": 92,
+   "pctBelowB": 1,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 50
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Orenstein",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.94,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "James Analitis",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Joel Moore",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Dunghai Lee",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.8,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20141B"
+  ]
+ },
+ "PHYSICS 142": {
+  "course": "PHYSICS 142",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 85,
+   "pctBelowB": 0,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stuart Bale",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20142"
+  ]
+ },
+ "PHYSICS 151": {
+  "course": "PHYSICS 151",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.302
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.57), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 312,
+   "pctA": 68,
+   "pctBelowB": 8,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 68
+    },
+    {
+     "letter": "A",
+     "count": 88
+    },
+    {
+     "letter": "A-",
+     "count": 38
+    },
+    {
+     "letter": "B+",
+     "count": 34
+    },
+    {
+     "letter": "B",
+     "count": 23
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Hitoshi Murayama",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Petr Horava",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.72,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Raphael Bousso",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20151"
+  ]
+ },
+ "PHYSICS 153": {
+  "course": "PHYSICS 153",
+  "difficulty": 2.3,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Vi Hong",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Haichen Wang",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gabriel Orebi Gann",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Andres Franco Valiente",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Naomi Ginsberg",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Na Ji",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Michael DeWeese",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20153"
+  ]
+ },
+ "PHYSICS 177": {
+  "course": "PHYSICS 177",
+  "difficulty": 2.6,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.243
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.61), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 114,
+   "pctA": 71,
+   "pctBelowB": 3,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ahmet Yildiz",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Oskar Hallatschek",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20177"
+  ]
+ },
+ "PHYSICS 188": {
+  "course": "PHYSICS 188",
+  "difficulty": 2.9,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.291
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.40), with 65% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 249,
+   "pctA": 65,
+   "pctBelowB": 14,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 90
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Uros Seljak",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Markus Hohle",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.41,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20188"
+  ]
+ },
+ "PHYSICS 198": {
+  "course": "PHYSICS 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Holger Mueller",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael DeWeese",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marjorie Shapiro",
+    "terms": 6,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Oskar Hallatschek",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Catherine Bordel",
+    "terms": 4,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Austin Hedeman",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Ori Ganor",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Michael Zaletel",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20198"
+  ]
+ },
+ "PHYSICS 198BC": {
+  "course": "PHYSICS 198BC",
+  "difficulty": 2.3,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Haichen Wang",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Tehya Andersen",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Yue Wang",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Benjamin Safdi",
+    "terms": 4,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Violet Concepcion",
+    "terms": 3,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Elise LePage",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Yujin Park",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Nicole Neto Godry Farias",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20198BC"
+  ]
+ },
+ "PHYSICS 199": {
+  "course": "PHYSICS 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Feng Wang",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Crommie",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Raul Briceno",
+    "terms": 8,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dan Stamper-Kurn",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "James Analitis",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Haichen Wang",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stephen Leone",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20199"
+  ]
+ },
+ "PHYSICS 24": {
+  "course": "PHYSICS 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Steven Kahn",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Heather Gray",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Haichen Wang",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2024"
+  ]
+ },
+ "PHYSICS 49": {
+  "course": "PHYSICS 49",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Catherine Bordel",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nathan Lowhorn",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael DeWeese",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ronnie Spitzer",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Adrian Lee",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Feng Wang",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Raul Briceno",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2049"
+  ]
+ },
+ "PHYSICS 5A": {
+  "course": "PHYSICS 5A",
+  "difficulty": 3.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (22 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.285
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (22)",
+     "value": 3.7,
+     "weight": 0.122
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.041
+    },
+    {
+     "label": "Student usefulness rating (22 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.326
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 3.0,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Reviews are divided. Some find lectures rigorous and clear, while others find them confusing and say homework is extremely long and typo-ridden. Exams are hard with averages near 50 percent, but students report generous curves and partial credit. Expect a challenging, theory-heavy course.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 610,
+   "pctA": 44,
+   "pctBelowB": 16,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 121
+    },
+    {
+     "letter": "A-",
+     "count": 91
+    },
+    {
+     "letter": "B+",
+     "count": 70
+    },
+    {
+     "letter": "B",
+     "count": 88
+    },
+    {
+     "letter": "B-",
+     "count": 65
+    },
+    {
+     "letter": "C+",
+     "count": 28
+    },
+    {
+     "letter": "C",
+     "count": 29
+    },
+    {
+     "letter": "C-",
+     "count": 19
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 48
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 22,
+   "difficulty": 4.4,
+   "workload": 3.7,
+   "usefulness": 4.3,
+   "recordedPct": 89,
+   "attendanceRequiredPct": 10
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael DeWeese",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.25,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Michael Zaletel",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 8,
+    "studentDifficulty": 4.6,
+    "studentUsefulness": 4.5,
+    "difficulty": 4.1,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Oskar Hallatschek",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.17,
+    "studentCount": 11,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.8,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.07,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Shimon Kolkowitz",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.2,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.18,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Matt Pyle",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.04,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%205A"
+  ]
+ },
+ "PHYSICS 5B": {
+  "course": "PHYSICS 5B",
+  "difficulty": 3.5,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B (3.14)",
+     "value": 3.6,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    },
+    {
+     "label": "Tone of written student reviews (9 on file)",
+     "value": 4.3,
+     "weight": 0.104
+    }
+   ]
+  },
+  "sentiment": "Students praise clear lectures and excellent posted lecture notes, light homework with flexible deadlines and plenty of practice problems. Exams are hard, often harder than practice ones, and lectures can feel rushed near the end. Studying derivations is a common tip.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.14,
+   "letter": "B",
+   "students": 540,
+   "pctA": 41,
+   "pctBelowB": 19,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 54
+    },
+    {
+     "letter": "A",
+     "count": 93
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 73
+    },
+    {
+     "letter": "B",
+     "count": 75
+    },
+    {
+     "letter": "B-",
+     "count": 58
+    },
+    {
+     "letter": "C+",
+     "count": 28
+    },
+    {
+     "letter": "C",
+     "count": 35
+    },
+    {
+     "letter": "C-",
+     "count": 18
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 4,
+   "workload": 3.5,
+   "usefulness": 3.8,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Feng Wang",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.13,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.5,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Ronnie Spitzer",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.03,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Joseph Orenstein",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.14,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Mae Teo",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.04,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.01,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%205B"
+  ]
+ },
+ "PHYSICS 5BL": {
+  "course": "PHYSICS 5BL",
+  "difficulty": 2.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.81), with 88% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 452,
+   "pctA": 88,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 66
+    },
+    {
+     "letter": "A",
+     "count": 258
+    },
+    {
+     "letter": "A-",
+     "count": 64
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Caroline Silva Rocha Costa",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.8,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Nathan Lowhorn",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Andrew Charman",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Daniel Barsky",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Hartmut Haeffner",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Swapan Chattopadhyay",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.8,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%205BL"
+  ]
+ },
+ "PHYSICS 5C": {
+  "course": "PHYSICS 5C",
+  "difficulty": 3.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.8/5 for difficulty, 3.5/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.31), with 47% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 434,
+   "pctA": 47,
+   "pctBelowB": 12,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 97
+    },
+    {
+     "letter": "A-",
+     "count": 63
+    },
+    {
+     "letter": "B+",
+     "count": 74
+    },
+    {
+     "letter": "B",
+     "count": 58
+    },
+    {
+     "letter": "B-",
+     "count": 37
+    },
+    {
+     "letter": "C+",
+     "count": 22
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.8,
+   "workload": 3.5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ronnie Spitzer",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.27,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Feng Wang",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.29,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 4,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Swapan Chattopadhyay",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%205C"
+  ]
+ },
+ "PHYSICS 5CL": {
+  "course": "PHYSICS 5CL",
+  "difficulty": 2.1,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 1.0/5 for usefulness. The average grade is A- (3.84), with 88% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 404,
+   "pctA": 88,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 31
+    },
+    {
+     "letter": "A",
+     "count": 251
+    },
+    {
+     "letter": "A-",
+     "count": 66
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrew Charman",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nathan Lowhorn",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Barsky",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.93,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 1,
+    "difficulty": 1.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Sean Wu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.83,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.94,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%205CL"
+  ]
+ },
+ "PHYSICS 77": {
+  "course": "PHYSICS 77",
+  "difficulty": 2.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.305
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.2/5 for difficulty, 3.0/5 for workload and 3.8/5 for usefulness. The average grade is B+ (3.48), with 66% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 342,
+   "pctA": 66,
+   "pctBelowB": 10,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 53
+    },
+    {
+     "letter": "A",
+     "count": 93
+    },
+    {
+     "letter": "A-",
+     "count": 55
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.2,
+   "workload": 3,
+   "usefulness": 3.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Markus Hohle",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Eric Ma",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.41,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Haichen Wang",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.51,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Amin Jazaeri",
+    "terms": 3,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.04,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2077"
+  ]
+ },
+ "PHYSICS 7A": {
+  "course": "PHYSICS 7A",
+  "difficulty": 3.6,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (63 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.324
+    },
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (63)",
+     "value": 3.2,
+     "weight": 0.139
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.046
+    },
+    {
+     "label": "Student usefulness rating (63 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.371
+    },
+    {
+     "label": "Tone of written student reviews (87 on file)",
+     "value": 3.5,
+     "weight": 0.143
+    }
+   ]
+  },
+  "sentiment": "Students say the course is tough, with a steep learning curve and hard exams, but generous grade bins and curves. Lectures, notes and practice exams are widely praised for helping, though quality varies by instructor. Keeping up with homework and practice tests is the common advice.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 3105,
+   "pctA": 33,
+   "pctBelowB": 24,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 235
+    },
+    {
+     "letter": "A",
+     "count": 397
+    },
+    {
+     "letter": "A-",
+     "count": 344
+    },
+    {
+     "letter": "B+",
+     "count": 417
+    },
+    {
+     "letter": "B",
+     "count": 453
+    },
+    {
+     "letter": "B-",
+     "count": 383
+    },
+    {
+     "letter": "C+",
+     "count": 223
+    },
+    {
+     "letter": "C",
+     "count": 278
+    },
+    {
+     "letter": "C-",
+     "count": 138
+    },
+    {
+     "letter": "D+",
+     "count": 22
+    },
+    {
+     "letter": "D",
+     "count": 15
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 41
+    },
+    {
+     "letter": "P",
+     "count": 133
+    },
+    {
+     "letter": "NP",
+     "count": 24
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 63,
+   "difficulty": 3.8,
+   "workload": 3.2,
+   "usefulness": 3.4,
+   "recordedPct": 61,
+   "attendanceRequiredPct": 8
+  },
+  "byProfessor": [
+   {
+    "professor": "Adrian Lee",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.07,
+    "studentCount": 18,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.8,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.86,
+    "studentCount": 7,
+    "studentDifficulty": 3.9,
+    "studentUsefulness": 4.1,
+    "difficulty": 4.0,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Ramamoorthy Ramesh",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.82,
+    "studentCount": 21,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.8,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Sean Wu",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.17,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.4,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Catherine Bordel",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.96,
+    "studentCount": 12,
+    "studentDifficulty": 3.9,
+    "studentUsefulness": 3.6,
+    "difficulty": 3.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Chien-I Chiang",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.9,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 4.0,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Ronnie Spitzer",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.0,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.9,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Oskar Hallatschek",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.98,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Although this is like the most lower division of lower division physics courses, it is not beginner friendly at all. I did not come from an AP/IB physics background, and I found the learning curve incredibly steep. Exams were tough, but the curve made up for that. I did not prioritize this course as much as I should have, but I will say that I never thought I would put in this much effort for a B this early into college. Adrian Lee is extremely friendly and genuinely wants to help, but he is…",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Physics 7A Spring 2026",
+    "professor": "Adrian Lee",
+    "grade": "B"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%207A"
+  ]
+ },
+ "PHYSICS 7B": {
+  "course": "PHYSICS 7B",
+  "difficulty": 3.8,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (34 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.305
+    },
+    {
+     "label": "Average grade B (2.97)",
+     "value": 4.1,
+     "weight": 0.345
+    },
+    {
+     "label": "Student workload rating (34)",
+     "value": 3.4,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (34 on Berkeleytime)",
+     "value": 3.0,
+     "weight": 0.349
+    },
+    {
+     "label": "Tone of written student reviews (57 on file)",
+     "value": 3.2,
+     "weight": 0.14
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are intuitive for many, but exams are very hard with low averages, short formula sheets and limited partial credit. Curves are often described as generous, though some disagree. Attending lecture, doing practice exams and textbook problems, and keeping up with the fast pace are the repeated advice.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.97,
+   "letter": "B",
+   "students": 3149,
+   "pctA": 35,
+   "pctBelowB": 27,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 78
+    },
+    {
+     "letter": "A",
+     "count": 771
+    },
+    {
+     "letter": "A-",
+     "count": 187
+    },
+    {
+     "letter": "B+",
+     "count": 246
+    },
+    {
+     "letter": "B",
+     "count": 714
+    },
+    {
+     "letter": "B-",
+     "count": 202
+    },
+    {
+     "letter": "C+",
+     "count": 151
+    },
+    {
+     "letter": "C",
+     "count": 352
+    },
+    {
+     "letter": "C-",
+     "count": 108
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 77
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 102
+    },
+    {
+     "letter": "P",
+     "count": 134
+    },
+    {
+     "letter": "NP",
+     "count": 18
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 34,
+   "difficulty": 3.8,
+   "workload": 3.4,
+   "usefulness": 3.0,
+   "recordedPct": 81,
+   "attendanceRequiredPct": 10
+  },
+  "byProfessor": [
+   {
+    "professor": "Luca Iliesiu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alessandra Lanzara",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.04,
+    "studentCount": 10,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 2.9,
+    "difficulty": 4.0,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Sean Wu",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.92,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Catherine Bordel",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.93,
+    "studentCount": 7,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.9,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.88,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 4.1,
+    "shouldTake": 2.5
+   },
+   {
+    "professor": "Robert Birgeneau",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.04,
+    "studentCount": 10,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 2.6,
+    "difficulty": 3.8,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Stuart Bale",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.09,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "During exams, it's hard to understand what the question is asking.",
+    "term": "2026 Fall",
+    "source": "Berkeleytime",
+    "title": "Hard exams",
+    "professor": "Alessandra Lanzara"
+   },
+   {
+    "text": "Pretty chill if you’ve taken E&M before, thermo unit is pretty basic. The provided formula sheet has everything you need, so exams aren’t too bad.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Bordel 7B",
+    "professor": "Catherine Bordel",
+    "grade": "A"
+   },
+   {
+    "text": "Same as physics C. Curve is nice and concepts can be crammed right before class. Lectures are not recorded tho and mostly just derivations during lecture time",
+    "term": "2025 Spring",
+    "source": "Berkeleytime",
+    "title": "I want lecture recordings",
+    "professor": "Catherine Bordel",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%207B"
+  ]
+ },
+ "PHYSICS 7C": {
+  "course": "PHYSICS 7C",
+  "difficulty": 3.3,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.5,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 4.1,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Reviewers describe clear, engaging, supportive lectures and say 7C is the most interesting of the series. Exams are generally fair and resemble the plentiful practice material, though they require real studying. A couple of older reviews mention uneven exam difficulty and harsh rubrics.",
+  "sentimentWrittenBy": "model",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 707,
+   "pctA": 34,
+   "pctBelowB": 21,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 114
+    },
+    {
+     "letter": "A-",
+     "count": 85
+    },
+    {
+     "letter": "B+",
+     "count": 100
+    },
+    {
+     "letter": "B",
+     "count": 114
+    },
+    {
+     "letter": "B-",
+     "count": 86
+    },
+    {
+     "letter": "C+",
+     "count": 65
+    },
+    {
+     "letter": "C",
+     "count": 43
+    },
+    {
+     "letter": "C-",
+     "count": 25
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.2,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 80,
+   "attendanceRequiredPct": 20
+  },
+  "byProfessor": [
+   {
+    "professor": "Raul Briceno",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Catherine Bordel",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.08,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.5,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Ronnie Spitzer",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.04,
+    "studentCount": 5,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.4,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Stuart Bale",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 2.94,
+    "midterms": 2,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "William Holzapfel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.4,
+    "midterms": 2,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%207C"
+  ]
+ },
+ "PHYSICS 88": {
+  "course": "PHYSICS 88",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Markus Hohle",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Eric Ma",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Haichen Wang",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2088"
+  ]
+ },
+ "PHYSICS 89": {
+  "course": "PHYSICS 89",
+  "difficulty": 3.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 4.3,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.7,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.257
+    }
+   ]
+  },
+  "sentiment": "9 students on Berkeleytime rate it 4.4/5 for difficulty, 4.3/5 for workload and 3.9/5 for usefulness. The average grade is B (3.12), with 45% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 696,
+   "pctA": 45,
+   "pctBelowB": 20,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 78
+    },
+    {
+     "letter": "A",
+     "count": 138
+    },
+    {
+     "letter": "A-",
+     "count": 72
+    },
+    {
+     "letter": "B+",
+     "count": 69
+    },
+    {
+     "letter": "B",
+     "count": 85
+    },
+    {
+     "letter": "B-",
+     "count": 71
+    },
+    {
+     "letter": "C+",
+     "count": 37
+    },
+    {
+     "letter": "C",
+     "count": 24
+    },
+    {
+     "letter": "C-",
+     "count": 24
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 24
+    },
+    {
+     "letter": "P",
+     "count": 42
+    },
+    {
+     "letter": "NP",
+     "count": 12
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 4.4,
+   "workload": 4.3,
+   "usefulness": 3.9,
+   "recordedPct": 12,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Austin Hedeman",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.17,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Ronnie Spitzer",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 4.0,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Caroline Silva Rocha Costa",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.46,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Edgar Knobloch",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.87,
+    "studentCount": 6,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.7,
+    "difficulty": 4.3,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Liang Dai",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.17,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.97,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Mae Teo",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.98,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Ori Ganor",
+    "terms": 3,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.0,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2089"
+  ]
+ },
+ "PHYSICS 8A": {
+  "course": "PHYSICS 8A",
+  "difficulty": 3.8,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (60 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.323
+    },
+    {
+     "label": "Average grade B (2.98)",
+     "value": 4.1,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (60)",
+     "value": 3.4,
+     "weight": 0.138
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.046
+    },
+    {
+     "label": "Student usefulness rating (60 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.369
+    },
+    {
+     "label": "Tone of written student reviews (75 on file)",
+     "value": 4.0,
+     "weight": 0.142
+    }
+   ]
+  },
+  "sentiment": "Students say the class is entertaining and approachable even without prior physics, though exams are tough and often differ from practice tests. Homework is seen as less useful than practice exams. Reviewers mention generous curving and grade bins, and advise self-study and lots of practice problems.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.98,
+   "letter": "B",
+   "students": 3945,
+   "pctA": 31,
+   "pctBelowB": 26,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 143
+    },
+    {
+     "letter": "A",
+     "count": 669
+    },
+    {
+     "letter": "A-",
+     "count": 372
+    },
+    {
+     "letter": "B+",
+     "count": 429
+    },
+    {
+     "letter": "B",
+     "count": 813
+    },
+    {
+     "letter": "B-",
+     "count": 372
+    },
+    {
+     "letter": "C+",
+     "count": 265
+    },
+    {
+     "letter": "C",
+     "count": 407
+    },
+    {
+     "letter": "C-",
+     "count": 185
+    },
+    {
+     "letter": "D+",
+     "count": 19
+    },
+    {
+     "letter": "D",
+     "count": 29
+    },
+    {
+     "letter": "D-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 67
+    },
+    {
+     "letter": "P",
+     "count": 116
+    },
+    {
+     "letter": "NP",
+     "count": 50
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 60,
+   "difficulty": 3.9,
+   "workload": 3.4,
+   "usefulness": 3.3,
+   "recordedPct": 96,
+   "attendanceRequiredPct": 9
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Bordel",
+    "terms": 4,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.98,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.9,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Daniel Barsky",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.94,
+    "studentCount": 5,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2.4,
+    "difficulty": 3.9,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Nathan Lowhorn",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.99,
+    "studentCount": 33,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.9,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Na Ji",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.96,
+    "studentCount": 6,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.9,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Michael DeWeese",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.93,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2.5,
+    "difficulty": 4.1,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 5,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.9,
+    "studentCount": 13,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.9,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.97,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%208A"
+  ]
+ },
+ "PHYSICS 8B": {
+  "course": "PHYSICS 8B",
+  "difficulty": 3.9,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (16 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.267
+    },
+    {
+     "label": "Average grade B (3.02)",
+     "value": 4.0,
+     "weight": 0.343
+    },
+    {
+     "label": "Student workload rating (16)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (16 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.305
+    },
+    {
+     "label": "Tone of written student reviews (24 on file)",
+     "value": 3.2,
+     "weight": 0.129
+    }
+   ]
+  },
+  "sentiment": "Reviews depend heavily on the instructor. Some semesters are described as fair, engaging and generous with grades. Others are described as having unclear lectures, disorganized materials, difficult exams with low medians and many drops. Students suggest using the textbook and checking who is teaching.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.02,
+   "letter": "B",
+   "students": 2487,
+   "pctA": 33,
+   "pctBelowB": 25,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 85
+    },
+    {
+     "letter": "A",
+     "count": 429
+    },
+    {
+     "letter": "A-",
+     "count": 281
+    },
+    {
+     "letter": "B+",
+     "count": 307
+    },
+    {
+     "letter": "B",
+     "count": 411
+    },
+    {
+     "letter": "B-",
+     "count": 270
+    },
+    {
+     "letter": "C+",
+     "count": 204
+    },
+    {
+     "letter": "C",
+     "count": 197
+    },
+    {
+     "letter": "C-",
+     "count": 138
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 18
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 32
+    },
+    {
+     "letter": "P",
+     "count": 90
+    },
+    {
+     "letter": "NP",
+     "count": 17
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 16,
+   "difficulty": 4.4,
+   "workload": 3.5,
+   "usefulness": 2.6,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Bordel",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.97,
+    "studentCount": 5,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 2.6,
+    "difficulty": 4.1,
+    "shouldTake": 2.6
+   },
+   {
+    "professor": "William Golightly",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.98,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.8,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Daniel Barsky",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.94,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Simone Perrotta",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.03,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3,
+    "difficulty": 3.9,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Achilles Speliotopoulos",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.9,
+    "studentCount": 7,
+    "studentDifficulty": 4.9,
+    "studentUsefulness": 2.4,
+    "difficulty": 4.3,
+    "shouldTake": 2.5
+   },
+   {
+    "professor": "Terrence Buehler",
+    "terms": 4,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.81,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 4.2,
+    "shouldTake": 2.4
+   },
+   {
+    "professor": "Nathan Lowhorn",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.28,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%208B"
+  ]
+ },
+ "PHYSICS 98": {
+  "course": "PHYSICS 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Holger Mueller",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael DeWeese",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Marjorie Shapiro",
+    "terms": 6,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Oskar Hallatschek",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Austin Hedeman",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Ori Ganor",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Michael Zaletel",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Montek Sethi",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2098"
+  ]
+ },
+ "PHYSICS 98BC": {
+  "course": "PHYSICS 98BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Haichen Wang",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Benjamin Safdi",
+    "terms": 4,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Violet Concepcion",
+    "terms": 3,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Elise LePage",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Yujin Park",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Nicole Neto Godry Farias",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Zack Weinstein",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Matt Pyle",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2098BC"
+  ]
+ },
+ "PHYSICS 99": {
+  "course": "PHYSICS 99",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Holger Mueller",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Frances Hellman",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Feng Wang",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alessandra Lanzara",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Haichen Wang",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Catherine Bordel",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 2,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Chiara Salemi",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%2099"
+  ]
+ },
+ "PHYSICS C10": {
+  "course": "PHYSICS C10",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.295
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.59), with 74% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 270,
+   "pctA": 74,
+   "pctBelowB": 8,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 52
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 63
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Na Ji",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.46,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.41,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C10"
+  ]
+ },
+ "PHYSICS C142": {
+  "course": "PHYSICS C142",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Ellie Tubman",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C142"
+  ]
+ },
+ "PHYSICS C161": {
+  "course": "PHYSICS C161",
+  "difficulty": 3.4,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.276
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness. The average grade is B+ (3.21), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 187,
+   "pctA": 47,
+   "pctBelowB": 17,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Steven Kahn",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.21,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.5,
+    "shouldTake": 2.6
+   },
+   {
+    "professor": "Daniel Kasen",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.17,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C161"
+  ]
+ },
+ "PHYSICS C180": {
+  "course": "PHYSICS C180",
+  "difficulty": 4.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.77)",
+     "value": 4.8,
+     "weight": 0.199
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.77), with 29% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 2.77,
+   "letter": "B-",
+   "students": 66,
+   "pctA": 29,
+   "pctBelowB": 29,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Eugene Chiang",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.77,
+    "difficulty": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C180"
+  ]
+ },
+ "PHYSICS C191": {
+  "course": "PHYSICS C191",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.283
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 60% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 211,
+   "pctA": 60,
+   "pctBelowB": 11,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Geoffrey Penington",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.35,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "K Whaley",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.31,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Alp Sipahigil",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.28,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Shimon Kolkowitz",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.35,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ashok Ajoy",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Umesh Vazirani",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C191"
+  ]
+ },
+ "PHYSICS C191A": {
+  "course": "PHYSICS C191A",
+  "difficulty": 3.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.50)",
+     "value": 2.4,
+     "weight": 0.162
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.046
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.8/5 for difficulty, 4.0/5 for workload and 3.8/5 for usefulness. The average grade is A- (3.50), with 65% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.5,
+   "letter": "A-",
+   "students": 43,
+   "pctA": 65,
+   "pctBelowB": 8,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.8,
+   "workload": 4,
+   "usefulness": 3.8,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Umesh Vazirani",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.5,
+    "studentCount": 4,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.2,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Katharine Whaley",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 1,
+    "difficulty": 3.7,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Shimon Kolkowitz",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.5,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.1,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C191A"
+  ]
+ },
+ "PHYSICS C191B": {
+  "course": "PHYSICS C191B",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 80% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 11,
+   "pctA": 80,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aziza Suleymanzade",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Wright",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ashok Ajoy",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Hartmut Haeffner",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "K Whaley",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C191B"
+  ]
+ },
+ "PHYSICS C21": {
+  "course": "PHYSICS C21",
+  "difficulty": 2.3,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 1.5/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.56), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 398,
+   "pctA": 74,
+   "pctBelowB": 9,
+   "pctPassNoPass": 41,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 47
+    },
+    {
+     "letter": "A",
+     "count": 79
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 158
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 1.5,
+   "usefulness": 3,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Terrence Buehler",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.46,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20C21"
+  ]
+ },
+ "PHYSICS H190": {
+  "course": "PHYSICS H190",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Andrew Charman",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Aziza Suleymanzade",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Eric Ma",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Gabriel Orebi Gann",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Michael DeWeese",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20H190"
+  ]
+ },
+ "PHYSICS H195A": {
+  "course": "PHYSICS H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Holger Mueller",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Benjamin Safdi",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Yury Kolomensky",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marjorie Shapiro",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Zaletel",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "James Analitis",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joel Moore",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Stuart Bale",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20H195A"
+  ]
+ },
+ "PHYSICS H195B": {
+  "course": "PHYSICS H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "James Analitis",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Zaletel",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Joel Moore",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stephen Leone",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ori Ganor",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alp Sipahigil",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hartmut Haeffner",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stuart Bale",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20H195B"
+  ]
+ },
+ "PHYSICS W89": {
+  "course": "PHYSICS W89",
+  "difficulty": 3.8,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.06)",
+     "value": 3.8,
+     "weight": 0.255
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 4.0/5 for usefulness. The average grade is B (3.06), with 51% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.06,
+   "letter": "B",
+   "students": 135,
+   "pctA": 51,
+   "pctBelowB": 24,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Austin Hedeman",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.05,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 4.0,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PHYSICS%20W89"
+  ]
+ }
+}

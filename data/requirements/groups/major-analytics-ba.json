@@ -1,0 +1,452 @@
+{
+ "id": "major-analytics-ba",
+ "title": "Analytics BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/253D2U",
+  "https://undergraduate.catalog.berkeley.edu/programs/253D2U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "253D2U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "economic-systems",
+     "title": "Economic Systems"
+    },
+    {
+     "id": "industrial-and-business-systems",
+     "title": "Industrial and Business Systems"
+    },
+    {
+     "id": "societal-systems",
+     "title": "Societal Systems"
+    },
+    {
+     "id": "algorithmic-and-decision-analytics",
+     "title": "Algorithmic and Decision Analytics"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "In addition to the University, campus, and college requirements, listed on the College Requirements tab, students must fulfill the below requirements specific to their major program.\nGeneral Guidelines\n- All courses taken to fulfill the major requirements below must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs, with the exception of minors offered outside of the College of Letters & Science.\n- A minimum grade point average (GPA) of 2.0 must be maintained in both upper and lower division courses used to fulfill the major requirements.\nFor information regarding residence requirements and unit requirements, please see the College Requirements tab."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-programming",
+   "title": "Computer Programming",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C8"
+         },
+         {
+          "type": "course",
+          "course": "DATA C8"
+         },
+         {
+          "type": "course",
+          "course": "INFO C8"
+         },
+         {
+          "type": "course",
+          "course": "STAT C8"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C88C"
+         },
+         {
+          "type": "course",
+          "course": "DATA C88C"
+         }
+        ]
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "section": "Lower Division",
+   "notes": "Also satisfied by:\n- AP: Economics: Macroeconomics, score 4+\n- AP: Economics: Microeconomics, score 4+\n- IB: HL Economics, score 5+\nA minimum grade of C- is required.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     },
+     {
+      "type": "course",
+      "course": "ECON C3"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "stochastics",
+   "title": "Stochastics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INDENG 173"
+     },
+     {
+      "type": "course",
+      "course": "STAT 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-analytics",
+   "title": "Data Analytics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INDENG 115"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 142A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concepts-of-probability",
+   "title": "Concepts of Probability",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linear-and-nonlinear-programming",
+   "title": "Linear and Nonlinear Programming",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INDENG 160"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 162"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concentrations",
+   "title": "Concentrations",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete one Concentration option. Please contact your advisor for approval of courses.\n- Economic Systems\n- Industrial and Business Systems\n- Societal Systems\n- Algorithmic and Decision Analytics\n- Custom"
+   }
+  },
+  {
+   "id": "economic-systems-concentration-electives",
+   "title": "Concentration Electives",
+   "section": "Economic Systems",
+   "choice": "concentration",
+   "option": "economic-systems",
+   "notes": "Students must complete 3 courses, each with a letter grade, within one of the concentrations below.",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 101B"
+     },
+     {
+      "type": "course",
+      "course": "ECON 104"
+     },
+     {
+      "type": "course",
+      "course": "ECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ECON 136"
+     },
+     {
+      "type": "course",
+      "course": "ECON 141"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C110"
+       },
+       {
+        "type": "course",
+        "course": "POLSCI C135"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C142"
+       },
+       {
+        "type": "course",
+        "course": "POLSCI C131A"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C142"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INDENG 120"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 165"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 174"
+     },
+     {
+      "type": "course",
+      "course": "MATH 104"
+     }
+    ]
+   }
+  },
+  {
+   "id": "industrial-and-business-systems-concentration-electives",
+   "title": "Concentration Electives",
+   "section": "Industrial and Business Systems",
+   "choice": "concentration",
+   "option": "industrial-and-business-systems",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON C110"
+       },
+       {
+        "type": "course",
+        "course": "POLSCI C135"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INDENG 156"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 165"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 166"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 171"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 174"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 105"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 106"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 130"
+     },
+     {
+      "type": "course",
+      "course": "STAT 155"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 143"
+     }
+    ]
+   }
+  },
+  {
+   "id": "societal-systems-concentration-electives",
+   "title": "Concentration Electives",
+   "section": "Societal Systems",
+   "choice": "concentration",
+   "option": "societal-systems",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "ECON C110",
+      "INDENG 156",
+      "INDENG 165",
+      "INDENG 166",
+      "INDENG 171",
+      "INDENG 174",
+      "SOCIOL 101",
+      "SOCIOL 105",
+      "SOCIOL 106",
+      "SOCIOL 119S",
+      "SOCIOL 130",
+      "STAT 155"
+     ]
+    }
+   }
+  },
+  {
+   "id": "algorithmic-and-decision-analytics-concentration-electives",
+   "title": "Concentration Electives",
+   "section": "Algorithmic and Decision Analytics",
+   "choice": "concentration",
+   "option": "algorithmic-and-decision-analytics",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "COMPSCI 172",
+      "COMPSCI 174",
+      "INDENG 142B",
+      "INDENG 164",
+      "INDENG 165",
+      "INDENG 166",
+      "INDENG 169",
+      "INDENG 174",
+      "MATH 110",
+      "MATH 172"
+     ]
+    }
+   }
+  }
+ ]
+}

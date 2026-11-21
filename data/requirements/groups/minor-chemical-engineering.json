@@ -1,0 +1,67 @@
+{
+ "id": "minor-chemical-engineering",
+ "title": "Chemical Engineering minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/10I008U",
+  "https://undergraduate.catalog.berkeley.edu/programs/10I008U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "10I008U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "Students who have a strong interest in an area of study outside their major often decide to complete a minor program. These programs have set requirements.\nGeneral Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- All courses taken to fulfill the minor requirements below must be taken for graded credit.\n- A minimum of three of the upper division courses taken to fulfill the minor requirements must be completed at UC Berkeley.\n- A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n- Students must consult with their college/school for information regarding an overlap of courses between their majors and minors."
+ ],
+ "requirements": [
+  {
+   "id": "upper-division-requirements",
+   "title": "Upper Division Requirements",
+   "section": "Upper Division",
+   "notes": "Students who have completed courses in other departments at Berkeley that are essentially equivalent to CHM ENG 141 and CHM ENG 150A can substitute other courses from the above list.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHMENG 140"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 141"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 150A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-requirements-2",
+   "title": "Upper Division Requirements",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CHMENG 142",
+      "CHMENG 143",
+      "CHMENG 150B",
+      "CHMENG 162",
+      "CHMENG 170A",
+      "CHMENG 170B",
+      "CHMENG 171",
+      "CHMENG 176",
+      "CHMENG C178",
+      "CHMENG 179",
+      "CHMENG 182",
+      "CHMENG 183",
+      "CHMENG C195A"
+     ]
+    }
+   }
+  }
+ ]
+}

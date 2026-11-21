@@ -1,0 +1,208 @@
+{
+ "id": "major-native-american-studies-ba",
+ "title": "Native American Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25587U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25587U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25587U",
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "notes": "Students must complete each course with a letter grade.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "NATAMST 20A"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 20B"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 11AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "program-course",
+   "title": "Program Course",
+   "section": "Upper Division",
+   "notes": "Each course must be at least 3 units.",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "ASAMST",
+      "CHICANO",
+      "ETHSTD"
+     ],
+     "minNumber": 100,
+     "maxNumber": 190
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 6,
+    "rules": [
+     {
+      "type": "course",
+      "course": "NATAMST 100"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 101"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 102"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 104"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 105"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 120"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 120AC"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 145"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 149"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 150"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 151"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 158"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NATAMST 173AC"
+       },
+       {
+        "type": "course",
+        "course": "ETHSTD 173AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 174"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 175"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 176"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 178"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 179"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 190"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NATAMST C152"
+       },
+       {
+        "type": "course",
+        "course": "AMERSTD C152"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "field-study",
+   "title": "Field Study",
+   "section": "Upper Division",
+   "notes": "Students must complete ETHSTD 197A (1 unit) plus 3 additional field study units.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "ETHSTD 197A",
+      "AFRICAM 197",
+      "ASAMST 197",
+      "CHICANO 197",
+      "EDUC 197",
+      "ETHSTD 197",
+      "ETHSTD 197AC",
+      "GWS 197",
+      "NATAMST 197",
+      "PUBPOL 162AC",
+      "SOCWEL 197"
+     ]
+    }
+   }
+  }
+ ]
+}

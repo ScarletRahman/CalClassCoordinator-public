@@ -1,0 +1,3070 @@
+{
+ "CYPLAN 101": {
+  "course": "CYPLAN 101",
+  "difficulty": 2.2,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.73), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 416,
+   "pctA": 84,
+   "pctBelowB": 5,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 69
+    },
+    {
+     "letter": "A",
+     "count": 189
+    },
+    {
+     "letter": "A-",
+     "count": 62
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 34
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Maryam Hosseini",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.61,
+    "studentCount": 3,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Li Plass",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.67,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Stephen Collier",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.75,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Alex Ramiller",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.79,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Lisa Schroer",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.79,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Cheng-Kai Hsu",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Flavia Leite",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20101"
+  ]
+ },
+ "CYPLAN 110": {
+  "course": "CYPLAN 110",
+  "difficulty": 2.3,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 2.0/5 for difficulty, 2.2/5 for workload and 2.8/5 for usefulness. The average grade is A- (3.60), with 76% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 571,
+   "pctA": 76,
+   "pctBelowB": 7,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 104
+    },
+    {
+     "letter": "A",
+     "count": 209
+    },
+    {
+     "letter": "A-",
+     "count": 93
+    },
+    {
+     "letter": "B+",
+     "count": 46
+    },
+    {
+     "letter": "B",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 28
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2,
+   "workload": 2.2,
+   "usefulness": 2.8,
+   "recordedPct": 17,
+   "attendanceRequiredPct": 83
+  },
+  "byProfessor": [
+   {
+    "professor": "Alli Appelbaum",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Stephen Collier",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Tahir de Noronha",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Aaditee Kudrimoti",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Yanin Kramsky",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.61,
+    "studentCount": 6,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2.8,
+    "difficulty": 2.1,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.11,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ooha Uppalapati",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.11,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Michael Larice",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.57,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20110"
+  ]
+ },
+ "CYPLAN 113A": {
+  "course": "CYPLAN 113A",
+  "difficulty": 2.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.303
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.39), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 322,
+   "pctA": 59,
+   "pctBelowB": 13,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 77
+    },
+    {
+     "letter": "A-",
+     "count": 75
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Maximilian Buchholz",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.23,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20113A"
+  ]
+ },
+ "CYPLAN 114": {
+  "course": "CYPLAN 114",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.313
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 427,
+   "pctA": 69,
+   "pctBelowB": 8,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 160
+    },
+    {
+     "letter": "A-",
+     "count": 90
+    },
+    {
+     "letter": "B+",
+     "count": 49
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrea Broaddus",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stephen Collier",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.72,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Yage Liu",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.72,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Isabel Qi",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.72,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.55,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Karen Frick",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.96,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Michael Montilla",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.72,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Tamara Kerzhner",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.78,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20114"
+  ]
+ },
+ "CYPLAN 115": {
+  "course": "CYPLAN 115",
+  "difficulty": 2.3,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 2.4,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 2.5/5 for difficulty, 2.4/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.70), with 80% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 456,
+   "pctA": 80,
+   "pctBelowB": 4,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 215
+    },
+    {
+     "letter": "A-",
+     "count": 90
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2.5,
+   "workload": 2.4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Alli Appelbaum",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sai Balakrishnan",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.72,
+    "studentCount": 8,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20115"
+  ]
+ },
+ "CYPLAN 116": {
+  "course": "CYPLAN 116",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 73,
+   "pctA": 87,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kimberly Smith",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20116"
+  ]
+ },
+ "CYPLAN 117AC": {
+  "course": "CYPLAN 117AC",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.286
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 222,
+   "pctA": 94,
+   "pctBelowB": 3,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 151
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Corburn",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20117AC"
+  ]
+ },
+ "CYPLAN 118AC": {
+  "course": "CYPLAN 118AC",
+  "difficulty": 2.3,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 1.5/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.66), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 458,
+   "pctA": 80,
+   "pctBelowB": 5,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 101
+    },
+    {
+     "letter": "A",
+     "count": 141
+    },
+    {
+     "letter": "A-",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 88
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 1.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Justin Hosbey",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.8,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.9,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.79,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.0,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Ricardo Huerta",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.26,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Monica Guerra",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.49,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20118AC"
+  ]
+ },
+ "CYPLAN 119": {
+  "course": "CYPLAN 119",
+  "difficulty": 2.0,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.85), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 486,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 113
+    },
+    {
+     "letter": "A",
+     "count": 285
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Charisma Acey",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.91,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.5
+   },
+   {
+    "professor": "Yanin Kramsky",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.54,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Stephen Collier",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.45,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20119"
+  ]
+ },
+ "CYPLAN 120": {
+  "course": "CYPLAN 120",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.236
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 103,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Victor Pineda",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.72,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20120"
+  ]
+ },
+ "CYPLAN 124": {
+  "course": "CYPLAN 124",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Daniel Rodriguez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20124"
+  ]
+ },
+ "CYPLAN 130": {
+  "course": "CYPLAN 130",
+  "difficulty": 2.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.304
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.60), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 330,
+   "pctA": 73,
+   "pctBelowB": 6,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 125
+    },
+    {
+     "letter": "A-",
+     "count": 84
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Shatan",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Stephen Collier",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.64,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Cecille de Laurentis",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.64,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Carolina Reid",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.6,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 5,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Flavia Leite",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.6,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Taesoo Song",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.59,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jeff Garnand",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Reid is a great professor, even when the policy and tax heavy content got pretty hard to sift through. One final, one midterm. Attendance is required and graded.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "spring 2026",
+    "professor": "Carolina Reid",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20130"
+  ]
+ },
+ "CYPLAN 140": {
+  "course": "CYPLAN 140",
+  "difficulty": 2.6,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 3.3/5 for workload and 4.3/5 for usefulness. The average grade is A- (3.58), with 69% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 473,
+   "pctA": 69,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 42
+    },
+    {
+     "letter": "A",
+     "count": 129
+    },
+    {
+     "letter": "A-",
+     "count": 145
+    },
+    {
+     "letter": "B+",
+     "count": 65
+    },
+    {
+     "letter": "B",
+     "count": 49
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 3.3,
+   "usefulness": 4.3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Zachary Lamb",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.51,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.6,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20140"
+  ]
+ },
+ "CYPLAN 160": {
+  "course": "CYPLAN 160",
+  "difficulty": 2.0,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.274
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.078
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.70), with 78% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 181,
+   "pctA": 78,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 85
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Chris Schildt",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.59,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 1.9,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20160"
+  ]
+ },
+ "CYPLAN 180A": {
+  "course": "CYPLAN 180A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 81% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 81,
+   "pctBelowB": 10,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Margaretta Lin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.86,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Marisa Turesky",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.44,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20180A"
+  ]
+ },
+ "CYPLAN 180B": {
+  "course": "CYPLAN 180B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 32,
+   "pctA": 86,
+   "pctBelowB": 10,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joshua Muldavin",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Teresa Caldeira",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Margaretta Lin",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.91,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Justin Hosbey",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.34,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Dan Lindheim",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20180B"
+  ]
+ },
+ "CYPLAN 190": {
+  "course": "CYPLAN 190",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 71% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 187,
+   "pctA": 71,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 49
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Deborah Mckoy",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Zoe Hamstead",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marta Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Rodriguez",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.19,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Nader Afzalan",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Marc Weiss",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Franchesca Rodriguez",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20190"
+  ]
+ },
+ "CYPLAN 197": {
+  "course": "CYPLAN 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Daniel Chatman",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Zachary Lamb",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Rodriguez",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Carolina Reid",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ben Metcalf",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karen Frick",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marta Gonzalez",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jason Corburn",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20197"
+  ]
+ },
+ "CYPLAN 198": {
+  "course": "CYPLAN 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Victor Tze",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Elizabeth Deakin",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Jennifer Glezen",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Ben Metcalf",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Zachary Lamb",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Robyn Shaina Lim",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Janice Huang",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Joshua Kim",
+    "terms": 2,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20198"
+  ]
+ },
+ "CYPLAN 199": {
+  "course": "CYPLAN 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Daniel Rodriguez",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ben Metcalf",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karen Frick",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charisma Acey",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Deborah Mckoy",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Zachary Lamb",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Justin Hosbey",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20199"
+  ]
+ },
+ "CYPLAN 204C": {
+  "course": "CYPLAN 204C",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.264
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 154,
+   "pctA": 91,
+   "pctBelowB": 1,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 58
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 19
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Zoe Hamstead",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "John Radke",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.66,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20204C"
+  ]
+ },
+ "CYPLAN 218": {
+  "course": "CYPLAN 218",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Karen Frick",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20218"
+  ]
+ },
+ "CYPLAN 24": {
+  "course": "CYPLAN 24",
+  "difficulty": 2.3,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 1.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sai Balakrishnan",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 1,
+    "difficulty": 2.0,
+    "shouldTake": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%2024"
+  ]
+ },
+ "CYPLAN 255": {
+  "course": "CYPLAN 255",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 82% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 185,
+   "pctA": 82,
+   "pctBelowB": 2,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 31
+    },
+    {
+     "letter": "A",
+     "count": 83
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 24
+    },
+    {
+     "letter": "U",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Maryam Hosseini",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Max Gardner",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Irene Farah Rivadeneyra",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Daniel Rodriguez",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20255"
+  ]
+ },
+ "CYPLAN 98": {
+  "course": "CYPLAN 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Ben Metcalf",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ryan Cannon",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Maximilian Buchholz",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ethan Jiang",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Stephanie Landaverde",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jack Kukulski",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniel Chatman",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Tapish Singh",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%2098"
+  ]
+ },
+ "CYPLAN C117": {
+  "course": "CYPLAN C117",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.83), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 456,
+   "pctA": 90,
+   "pctBelowB": 3,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 217
+    },
+    {
+     "letter": "A",
+     "count": 124
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Corburn",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20C150E"
+  ]
+ },
+ "CYPLAN C256": {
+  "course": "CYPLAN C256",
+  "difficulty": 2.0,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.215
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.062
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.96), with 97% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 80,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Corburn",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.94,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20C256"
+  ]
+ },
+ "CYPLAN C88": {
+  "course": "CYPLAN C88",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.195
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 63,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Marta Gonzalez",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20C88"
+  ]
+ },
+ "CYPLAN N115": {
+  "course": "CYPLAN N115",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 75% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 185,
+   "pctA": 75,
+   "pctBelowB": 13,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 31
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 18
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Chatman",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.47,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Gray Brakke",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.97,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Stephen Collier",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.97,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Emma Goh",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.97,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Liubing Xie",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.8,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Isabel Penaranda Currie",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.13,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Nicholas Shatan",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.13,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Alli Appelbaum",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.87,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CYPLAN%20N115"
+  ]
+ }
+}

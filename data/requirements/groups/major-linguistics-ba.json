@@ -1,0 +1,363 @@
+{
+ "id": "major-linguistics-ba",
+ "title": "Linguistics BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25510U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25510U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/25510U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25510U",
+ "requirements": [
+  {
+   "id": "intro-to-linguistics",
+   "title": "Intro to Linguistics",
+   "section": "Prerequisites",
+   "notes": "Students must earn a C or better in LINGUIS 100/LINGUIS W100 to declare the major.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "LINGUIS 100"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS W100"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division-courses",
+   "title": "Lower Division Courses",
+   "section": "Lower Division",
+   "notes": "No P grades allowed",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "LINGUIS 1A"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 1B"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS R1B"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 3"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 5"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 10"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 11"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 16"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 20A"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 20B"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 21A"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 21B"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 22"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 23"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 40"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 47"
+     },
+     {
+      "type": "course",
+      "course": "LINGUIS 55AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-bins",
+   "title": "Upper Division Bins",
+   "section": "Upper Division",
+   "notes": "Complete 1 course from 4 of the 5 bins, each with a letter grade.",
+   "rule": {
+    "type": "nOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS C105"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI C101"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 108"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 109"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C142"
+       },
+       {
+        "type": "course",
+        "course": "COGSCI C142"
+       }
+      ],
+      "label": "Language and Mind"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS 130"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 150"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 150A"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 150E"
+       }
+      ],
+      "label": "Sociolinguistics and Historical Linguistics"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS 110"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 111"
+       }
+      ],
+      "label": "Phonetics and Phonology"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS 115"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 120"
+       }
+      ],
+      "label": "Morphosyntax"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LINGUIS 106"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 121"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS 123"
+       }
+      ],
+      "label": "Meaning"
+     }
+    ],
+    "n": 4
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Electives",
+   "notes": "Students may need to complete additional units beyond the minimum 10 required to meet the 30-unit upper division unit minimum required for the major. Linguistics H195 A/B, Linguistics 197 (P/NP) and Linguistics 198 (P/NP) units may not count toward the minimum 30 upper division units requirement.\n- Any LINGUIS 100-195 level course (excluding LINGUIS H195)",
+   "rule": {
+    "type": "filter",
+    "minUnits": 10,
+    "filter": {
+     "courses": [
+      "AFRICAM 114",
+      "AFRICAM 115",
+      "AFRICAM 242",
+      "AFRKANS 150",
+      "ANTHRO 166",
+      "ANTHRO 169C",
+      "CELTIC 102A",
+      "CELTIC 105A",
+      "CELTIC 161",
+      "CHINESE 161",
+      "CHINESE 165",
+      "COGSCI C124",
+      "CUNEIF 100A",
+      "CUNEIF 100B",
+      "CUNEIF 101A",
+      "CUNEIF 101B",
+      "CUNEIF 102A",
+      "CUNEIF 102B",
+      "CUNEIF 103A",
+      "CUNEIF 103B",
+      "CUNEIF 106A",
+      "CUNEIF 106B",
+      "DUTCH 107",
+      "EDUC 120",
+      "EDUC 132",
+      "EDUC 154",
+      "EECS 183",
+      "EGYPT 100A",
+      "EGYPT 100B",
+      "EGYPT 101A",
+      "EGYPT 101B",
+      "ENGLISH 101",
+      "ENGLISH 102",
+      "ENGLISH 179",
+      "FRENCH 145",
+      "FRENCH 146A",
+      "FRENCH 146B",
+      "FRENCH 147",
+      "FRENCH 173",
+      "GERMAN 105",
+      "GERMAN 170",
+      "HEBREW 105A",
+      "HEBREW 106A",
+      "INFO 159",
+      "ISF 100C",
+      "ITALIAN 160",
+      "JAPAN 120",
+      "JAPAN 160",
+      "JAPAN 161",
+      "JAPAN 162",
+      "JAPAN 163",
+      "KOREAN 160",
+      "LINGUIS 156",
+      "LINGUIS C137",
+      "MELC 156",
+      "PHILOS 133",
+      "PHILOS 134",
+      "PHILOS 135",
+      "PSYCH 143",
+      "PSYCH C124",
+      "SANSKR 100A",
+      "SANSKR 100B",
+      "SCANDIN 100A",
+      "SCANDIN 100B",
+      "SCANDIN 101A",
+      "SCANDIN 180",
+      "SCANDIN 201A",
+      "SEMITIC 100B",
+      "SLAVIC C137",
+      "SPANISH 100",
+      "SPANISH 101",
+      "SPANISH 161",
+      "SPANISH 162",
+      "SPANISH 164",
+      "SPANISH 165",
+      "SPANISH 165AC",
+      "SPANISH 166",
+      "SPANISH 179",
+      "UGIS 120",
+      "LINGUIS 100",
+      "LINGUIS 106",
+      "LINGUIS 108",
+      "LINGUIS 109",
+      "LINGUIS 110",
+      "LINGUIS 111",
+      "LINGUIS 113",
+      "LINGUIS 115",
+      "LINGUIS 120",
+      "LINGUIS 121",
+      "LINGUIS 122",
+      "LINGUIS 123",
+      "LINGUIS 124",
+      "LINGUIS 125",
+      "LINGUIS 128",
+      "LINGUIS 130",
+      "LINGUIS 131",
+      "LINGUIS 140",
+      "LINGUIS 140A",
+      "LINGUIS 140X",
+      "LINGUIS 146",
+      "LINGUIS 148",
+      "LINGUIS 150",
+      "LINGUIS 150A",
+      "LINGUIS 150E",
+      "LINGUIS 151",
+      "LINGUIS 153",
+      "LINGUIS 154",
+      "LINGUIS 155AC",
+      "LINGUIS 158",
+      "LINGUIS 170",
+      "LINGUIS 175",
+      "LINGUIS 181",
+      "LINGUIS 188",
+      "LINGUIS C104",
+      "LINGUIS C105",
+      "LINGUIS C139",
+      "LINGUIS C142",
+      "LINGUIS C146",
+      "LINGUIS C147",
+      "LINGUIS C160",
+      "LINGUIS C189",
+      "LINGUIS H195A",
+      "LINGUIS H195B",
+      "LINGUIS H195S",
+      "LINGUIS H195T",
+      "LINGUIS W100"
+     ]
+    }
+   }
+  }
+ ]
+}

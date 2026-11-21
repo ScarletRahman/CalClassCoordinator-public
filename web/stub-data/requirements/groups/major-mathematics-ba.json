@@ -1,0 +1,127 @@
+{
+  "id": "major-mathematics-ba",
+  "title": "Mathematics BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/mathematics/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "discrete",
+      "title": "Discrete mathematics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 55"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 70"
+          }
+        ]
+      },
+      "notes": "Recommended; CS 70 accepted by petition."
+    },
+    {
+      "id": "analysis",
+      "title": "Introduction to Analysis",
+      "rule": {
+        "type": "course",
+        "course": "MATH 104"
+      }
+    },
+    {
+      "id": "linear-algebra-ud",
+      "title": "Abstract Linear Algebra",
+      "rule": {
+        "type": "course",
+        "course": "MATH 110"
+      }
+    },
+    {
+      "id": "algebra",
+      "title": "Abstract Algebra",
+      "rule": {
+        "type": "course",
+        "course": "MATH 113"
+      }
+    },
+    {
+      "id": "complex",
+      "title": "Complex Analysis",
+      "rule": {
+        "type": "course",
+        "course": "MATH 185"
+      }
+    },
+    {
+      "id": "math-electives",
+      "title": "Upper-division math electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "MATH"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 3
+      },
+      "notes": "Stub: total of at least 9 upper-division MATH courses in some catalog years."
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+ "id": "major-environmental-engineering-science-bs",
+ "title": "Environmental Engineering Science BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/160M0U",
+  "https://undergraduate.catalog.berkeley.edu/programs/160M0U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "160M0U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A"
+    ]
+   }
+  },
+  {
+   "id": "physics-and-engineering",
+   "title": "Physics and Engineering",
+   "section": "Lower Division",
+   "notes": "Junior transfer admits are exempt from completing CIV ENG 11.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 11"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-electives",
+   "title": "Science Electives",
+   "section": "Lower Division",
+   "notes": "- CHEM 4A and CHEM 4B are intended for students majoring in chemistry or a closely-related field.\n- Approved scores on Biology AP, IB, or A-Level exams can satisfy two of the three basic science electives.",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3B"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3BL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "course",
+      "course": "EPS 50"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-science-sequence",
+   "title": "Advanced Science Sequence",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 8,
+    "filter": {
+     "courses": [
+      "CHEM 12A",
+      "CHEM 12B",
+      "CHEM 120A",
+      "CHEM 120B",
+      "CHEM 125",
+      "EPS 101",
+      "EPS 103",
+      "EPS 108",
+      "EPS 109",
+      "EPS 113",
+      "EPS 116",
+      "EPS 117",
+      "EPS 124",
+      "EPS C180",
+      "EPS C181",
+      "EPS C182",
+      "ESPM 111",
+      "ESPM 112",
+      "ESPM 112L",
+      "ESPM 120",
+      "ESPM 131",
+      "ESPM C103",
+      "ESPM C128",
+      "GEOG 142",
+      "MCELLBI 102",
+      "MCELLBI C112",
+      "MCELLBI C112L"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mathematics-computing-elective",
+   "title": "Mathematics/Computing Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 117"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 177"
+     },
+     {
+      "type": "course",
+      "course": "MATH 104"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 126"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 170"
+     },
+     {
+      "type": "course",
+      "course": "MATH 185"
+     },
+     {
+      "type": "course",
+      "course": "STAT 133"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fluid-mechanics",
+   "title": "Fluid Mechanics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHMENG 150A"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     }
+    ]
+   }
+  },
+  {
+   "id": "thermodynamics",
+   "title": "Thermodynamics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHMENG 141"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-engineering",
+   "title": "Environmental Engineering",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "CIVENG 111"
+   }
+  },
+  {
+   "id": "water-chemistry-hydrology",
+   "title": "Water Chemistry/Hydrology",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C103N"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C136"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 115"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cluster-courses-select-any-12-units-from-the-clusters-listed",
+   "title": "Cluster courses: Select any 12 units from the clusters listed below.",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "manual",
+    "text": "The 12 units of cluster courses are in addition to the engineering and science courses used to fulfill other requirements for the major. While the courses are organized by topic, students may take any combination of courses from any of the lists."
+   }
+  },
+  {
+   "id": "air-pollution-and-climate-change",
+   "title": "Air Pollution and Climate Change",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 140"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C106"
+     },
+     {
+      "type": "course",
+      "course": "EPS C180"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C180"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 108"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 188"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 134"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137A"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137B"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 150"
+     },
+     {
+      "type": "course",
+      "course": "EPS C183"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C170"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 136"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 109"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 140"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 146"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 161"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biotechnology",
+   "title": "Biotechnology",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHMENG 140"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 142"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 150B"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG 170A"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG C170L"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 131"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C112"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI C112L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C116"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI C112"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C112L"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI 120"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI 120L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 122"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 180"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecosystems-and-ecological-engineering",
+   "title": "Ecosystems and Ecological Engineering",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 150"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C103"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C156"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C104"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C115"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 111"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C133"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C135"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 151"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 151L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ESPM 174"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C153"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 154"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-fluid-mechanics",
+   "title": "Environmental Fluid Mechanics",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C103N"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C136"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C130"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 105"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 150"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "EPS C129"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C129"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 165"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 167"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geoengineering",
+   "title": "Geoengineering",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 171"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 175"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C178"
+     },
+     {
+      "type": "course",
+      "course": "EPS C178"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 281"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 150"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     }
+    ]
+   }
+  },
+  {
+   "id": "water-quality",
+   "title": "Water Quality",
+   "section": "Cluster Courses",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 110"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 111L"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 112"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 115"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C116"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C128"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 120"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C133"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C135"
+     }
+    ]
+   }
+  }
+ ]
+}

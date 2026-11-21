@@ -1,0 +1,5523 @@
+{
+ "FRENCH 1": {
+  "course": "FRENCH 1",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.50)",
+     "value": 2.4,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 3.4,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 3.1/5 for difficulty, 3.4/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.50), with 68% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.5,
+   "letter": "A-",
+   "students": 695,
+   "pctA": 68,
+   "pctBelowB": 9,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 259
+    },
+    {
+     "letter": "A-",
+     "count": 85
+    },
+    {
+     "letter": "B+",
+     "count": 53
+    },
+    {
+     "letter": "B",
+     "count": 46
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 112
+    },
+    {
+     "letter": "NP",
+     "count": 30
+    },
+    {
+     "letter": "S",
+     "count": 29
+    },
+    {
+     "letter": "U",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 3.1,
+   "workload": 3.4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Margot Szarke",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Ariel Hixon",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Rachel Shuh",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.43,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Arianna Robertson",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%201"
+  ]
+ },
+ "FRENCH 102": {
+  "course": "FRENCH 102",
+  "difficulty": 2.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.276
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.80), with 84% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 187,
+   "pctA": 84,
+   "pctBelowB": 1,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 101
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Rachel Shuh",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.55,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Margot Szarke",
+    "terms": 5,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Ariel Hixon",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Henry Ravenhall",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.9,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 1.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20102"
+  ]
+ },
+ "FRENCH 103A": {
+  "course": "FRENCH 103A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 83,
+   "pctBelowB": 0,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.75,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Henry Ravenhall",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20103A"
+  ]
+ },
+ "FRENCH 103B": {
+  "course": "FRENCH 103B",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 53,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William Burton",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Rachel Shuh",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Caroline Godard",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.91,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.91,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20103B"
+  ]
+ },
+ "FRENCH 112A": {
+  "course": "FRENCH 112A",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 36,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Henry Ravenhall",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Johannes Michael Junge Ruhland",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20112A"
+  ]
+ },
+ "FRENCH 117A": {
+  "course": "FRENCH 117A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 12,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.89,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20117A"
+  ]
+ },
+ "FRENCH 117B": {
+  "course": "FRENCH 117B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 92,
+   "pctBelowB": 8,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.86,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20117B"
+  ]
+ },
+ "FRENCH 118A": {
+  "course": "FRENCH 118A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 20,
+   "pctA": 89,
+   "pctBelowB": 11,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.68,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20118A"
+  ]
+ },
+ "FRENCH 118B": {
+  "course": "FRENCH 118B",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.93), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 30,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.95,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20118B"
+  ]
+ },
+ "FRENCH 119A": {
+  "course": "FRENCH 119A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 32,
+   "pctA": 78,
+   "pctBelowB": 6,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rachel Shuh",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.92,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20119A"
+  ]
+ },
+ "FRENCH 119B": {
+  "course": "FRENCH 119B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 14,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20119B"
+  ]
+ },
+ "FRENCH 120A": {
+  "course": "FRENCH 120A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 16,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 56,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20120A"
+  ]
+ },
+ "FRENCH 120B": {
+  "course": "FRENCH 120B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 18,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20120B"
+  ]
+ },
+ "FRENCH 121A": {
+  "course": "FRENCH 121A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 40,
+   "pctA": 81,
+   "pctBelowB": 5,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Deborah Blocker",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Ariel Hixon",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "William Burton",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Michael Arrigo",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20121A"
+  ]
+ },
+ "FRENCH 121B": {
+  "course": "FRENCH 121B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.191
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 60,
+   "pctA": 84,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Henry Ravenhall",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "William Burton",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20121B"
+  ]
+ },
+ "FRENCH 123": {
+  "course": "FRENCH 123",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20123"
+  ]
+ },
+ "FRENCH 125A": {
+  "course": "FRENCH 125A",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 71,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20125A"
+  ]
+ },
+ "FRENCH 126": {
+  "course": "FRENCH 126",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 36,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Timothy Hampton",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20126"
+  ]
+ },
+ "FRENCH 13": {
+  "course": "FRENCH 13",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.225
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 86% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 90,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Vesna Rodic",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Noe Turchi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.83,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Rachel Shuh",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.92,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Margot Szarke",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 5,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.81,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Alice Giaprakis",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.84,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Michael Arrigo",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.89,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2013"
+  ]
+ },
+ "FRENCH 137": {
+  "course": "FRENCH 137",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.24
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 109,
+   "pctA": 86,
+   "pctBelowB": 5,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 74
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Deborah Blocker",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.95,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20137"
+  ]
+ },
+ "FRENCH 139": {
+  "course": "FRENCH 139",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 12,
+   "pctA": 73,
+   "pctBelowB": 18,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rachel Shuh",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20139"
+  ]
+ },
+ "FRENCH 14": {
+  "course": "FRENCH 14",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.186
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 91% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 57,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Vesna Rodic",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Noe Turchi",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 4,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Rachel Shuh",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Narjis El Qarchaoui",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Margot Szarke",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.97,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Michael Arrigo",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2014"
+  ]
+ },
+ "FRENCH 140A": {
+  "course": "FRENCH 140A",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 12,
+   "pctA": 75,
+   "pctBelowB": 0,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Alexis Stanley",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20140A"
+  ]
+ },
+ "FRENCH 140B": {
+  "course": "FRENCH 140B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20140B"
+  ]
+ },
+ "FRENCH 140D": {
+  "course": "FRENCH 140D",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.255
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.60), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 135,
+   "pctA": 74,
+   "pctBelowB": 6,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Damon Young",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.74,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "William Burton",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Olivia Goldring",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.7,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20140D"
+  ]
+ },
+ "FRENCH 141": {
+  "course": "FRENCH 141",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.265
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 157,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 95
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 22
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.93,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.86,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Henry Ravenhall",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Debarati Sanyal",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Karl Britto",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Amber Sweat",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20141"
+  ]
+ },
+ "FRENCH 142AC": {
+  "course": "FRENCH 142AC",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 75,
+   "pctA": 83,
+   "pctBelowB": 3,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20142AC"
+  ]
+ },
+ "FRENCH 143D": {
+  "course": "FRENCH 143D",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20143D"
+  ]
+ },
+ "FRENCH 146A": {
+  "course": "FRENCH 146A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.182
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 54,
+   "pctA": 77,
+   "pctBelowB": 0,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20146A"
+  ]
+ },
+ "FRENCH 147": {
+  "course": "FRENCH 147",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20147"
+  ]
+ },
+ "FRENCH 148": {
+  "course": "FRENCH 148",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.199
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 66,
+   "pctA": 90,
+   "pctBelowB": 2,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 41
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20148"
+  ]
+ },
+ "FRENCH 149": {
+  "course": "FRENCH 149",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.55), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 22,
+   "pctA": 72,
+   "pctBelowB": 6,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20149"
+  ]
+ },
+ "FRENCH 150A": {
+  "course": "FRENCH 150A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20150A"
+  ]
+ },
+ "FRENCH 150B": {
+  "course": "FRENCH 150B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20150B"
+  ]
+ },
+ "FRENCH 151A": {
+  "course": "FRENCH 151A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Alan Yeh",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20151A"
+  ]
+ },
+ "FRENCH 151B": {
+  "course": "FRENCH 151B",
+  "difficulty": 3.0,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "William Burton",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20151B"
+  ]
+ },
+ "FRENCH 161A": {
+  "course": "FRENCH 161A",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 25,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20161A"
+  ]
+ },
+ "FRENCH 161B": {
+  "course": "FRENCH 161B",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 24,
+   "pctA": 78,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.93,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20161B"
+  ]
+ },
+ "FRENCH 170": {
+  "course": "FRENCH 170",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.177
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 51,
+   "pctA": 86,
+   "pctBelowB": 2,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Maya Sidhu",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.78,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20170"
+  ]
+ },
+ "FRENCH 171A": {
+  "course": "FRENCH 171A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Deborah Blocker",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20171A"
+  ]
+ },
+ "FRENCH 171B": {
+  "course": "FRENCH 171B",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 11,
+   "pctA": 91,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.91,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20171B"
+  ]
+ },
+ "FRENCH 172A": {
+  "course": "FRENCH 172A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 16,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20172A"
+  ]
+ },
+ "FRENCH 173": {
+  "course": "FRENCH 173",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "William Burton",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20173"
+  ]
+ },
+ "FRENCH 175A": {
+  "course": "FRENCH 175A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 16,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.87,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20175A"
+  ]
+ },
+ "FRENCH 178A": {
+  "course": "FRENCH 178A",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.192
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 61,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Damon Young",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.89,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.95,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20178A"
+  ]
+ },
+ "FRENCH 178B": {
+  "course": "FRENCH 178B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 24,
+   "pctA": 91,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Maya Sidhu",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20178B"
+  ]
+ },
+ "FRENCH 180D": {
+  "course": "FRENCH 180D",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 85,
+   "pctBelowB": 0,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ty Blakeney",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20180D"
+  ]
+ },
+ "FRENCH 183A": {
+  "course": "FRENCH 183A",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 65,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Debarati Sanyal",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20183A"
+  ]
+ },
+ "FRENCH 183B": {
+  "course": "FRENCH 183B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Thomas Corbani",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20183B"
+  ]
+ },
+ "FRENCH 185": {
+  "course": "FRENCH 185",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 13,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.9,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20185"
+  ]
+ },
+ "FRENCH 197": {
+  "course": "FRENCH 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20197"
+  ]
+ },
+ "FRENCH 198": {
+  "course": "FRENCH 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20198"
+  ]
+ },
+ "FRENCH 199": {
+  "course": "FRENCH 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Deborah Blocker",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Thoraya Tlatli",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20199"
+  ]
+ },
+ "FRENCH 1R": {
+  "course": "FRENCH 1R",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.27), with 71% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 27,
+   "pctA": 71,
+   "pctBelowB": 21,
+   "pctPassNoPass": 48,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.45,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.45,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Danny Pham",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.45,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Ariel Hixon",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Cameron Flynn",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.27,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%201R"
+  ]
+ },
+ "FRENCH 2": {
+  "course": "FRENCH 2",
+  "difficulty": 2.7,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.6/5 for difficulty, 3.2/5 for workload and 4.6/5 for usefulness. The average grade is A- (3.51), with 66% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 401,
+   "pctA": 66,
+   "pctBelowB": 10,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 131
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 26
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.6,
+   "workload": 3.2,
+   "usefulness": 4.6,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.6,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rhone Geha",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jesus Ramirez Silva",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Riley Lim",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Samantha Bonadio",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ariel Hixon",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.13,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%202"
+  ]
+ },
+ "FRENCH 201": {
+  "course": "FRENCH 201",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 25,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.96,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20201"
+  ]
+ },
+ "FRENCH 24": {
+  "course": "FRENCH 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rebecca Tarvin",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2024"
+  ]
+ },
+ "FRENCH 3": {
+  "course": "FRENCH 3",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.289
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.68), with 80% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 238,
+   "pctA": 80,
+   "pctBelowB": 4,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 4
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Vesna Rodic",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Isabella Williams",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Robbie Spratt",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Danny Pham",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Noe Turchi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Lina Scally",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%203"
+  ]
+ },
+ "FRENCH 35": {
+  "course": "FRENCH 35",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.178
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 78% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 52,
+   "pctA": 78,
+   "pctBelowB": 5,
+   "pctPassNoPass": 29,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ariel Hixon",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Vesna Rodic",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Oliver Whitmore",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2035"
+  ]
+ },
+ "FRENCH 4": {
+  "course": "FRENCH 4",
+  "difficulty": 2.6,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.298
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.4/5 for difficulty, 3.6/5 for workload and 4.6/5 for usefulness. The average grade is A- (3.73), with 77% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 289,
+   "pctA": 77,
+   "pctBelowB": 2,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 129
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 62
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.4,
+   "workload": 3.6,
+   "usefulness": 4.6,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Vesna Rodic",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Noe Turchi",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Danny Pham",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rachel Shuh",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Oliver Whitmore",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%204"
+  ]
+ },
+ "FRENCH 40": {
+  "course": "FRENCH 40",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 45,
+   "pctA": 67,
+   "pctBelowB": 0,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2040"
+  ]
+ },
+ "FRENCH 43A": {
+  "course": "FRENCH 43A",
+  "difficulty": 1.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 1.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.291
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 1.8,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.2,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 1.4/5 for difficulty, 1.8/5 for workload and 3.4/5 for usefulness. The average grade is A (3.87), with 92% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 246,
+   "pctA": 92,
+   "pctBelowB": 1,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 150
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 1.4,
+   "workload": 1.8,
+   "usefulness": 3.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Hampton",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 4,
+    "difficulty": 1.7,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.94,
+    "studentCount": 3,
+    "studentDifficulty": 1.3,
+    "studentUsefulness": 3,
+    "difficulty": 1.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.94,
+    "studentCount": 3,
+    "studentDifficulty": 1.3,
+    "studentUsefulness": 3,
+    "difficulty": 1.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "William Burton",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.7,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Daniel Hoffmann",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.94,
+    "difficulty": 1.4
+   },
+   {
+    "professor": "Michael Arrigo",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.88,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2043A"
+  ]
+ },
+ "FRENCH 43B": {
+  "course": "FRENCH 43B",
+  "difficulty": 2.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.286
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.79), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 224,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 114
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 36
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Susan Maslan",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.86,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Henry Ravenhall",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.89,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.8,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "William Burton",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Karl Britto",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.88,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2043B"
+  ]
+ },
+ "FRENCH 48": {
+  "course": "FRENCH 48",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.225
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 3.3/5 for usefulness. The average grade is A- (3.54), with 70% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 90,
+   "pctA": 70,
+   "pctBelowB": 7,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 35
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.56,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.6,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2048"
+  ]
+ },
+ "FRENCH 80": {
+  "course": "FRENCH 80",
+  "difficulty": 2.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (12 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.247
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (12)",
+     "value": 2.8,
+     "weight": 0.106
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.035
+    },
+    {
+     "label": "Student usefulness rating (12 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.282
+    },
+    {
+     "label": "Tone of written student reviews (20 on file)",
+     "value": 4.5,
+     "weight": 0.125
+    }
+   ]
+  },
+  "sentiment": "Students love the engaging, entertaining lectures and interesting films and readings. Expect substantial annotated reading, short writing assignments that can be redone, and exams needing real memorization with little study guidance. Reviewers say it is not an easy breadth but very rewarding.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 573,
+   "pctA": 59,
+   "pctBelowB": 8,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 119
+    },
+    {
+     "letter": "A-",
+     "count": 102
+    },
+    {
+     "letter": "B+",
+     "count": 78
+    },
+    {
+     "letter": "B",
+     "count": 42
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 148
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 12,
+   "difficulty": 2.9,
+   "workload": 2.8,
+   "usefulness": 3.1,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 8
+  },
+  "byProfessor": [
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "studentCount": 12,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 3.1,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%2080"
+  ]
+ },
+ "FRENCH C26": {
+  "course": "FRENCH C26",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 75% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 38,
+   "pctA": 75,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Oliver Whitmore",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Justin Davidson",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.87,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Gabriella Licata",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.87,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Rachel Weiher",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.87,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20C26"
+  ]
+ },
+ "FRENCH H195A": {
+  "course": "FRENCH H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Maya Sidhu",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Burton",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Lucey",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20H195A"
+  ]
+ },
+ "FRENCH H195B": {
+  "course": "FRENCH H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Michael Lucey",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karl Britto",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William Burton",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richard Kern",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jonah Levy",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Claire Tourmen Perron",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20H195B"
+  ]
+ },
+ "FRENCH R1A": {
+  "course": "FRENCH R1A",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.23
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 96,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 61
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Kern",
+    "terms": 3,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Nicholas Paige",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.8,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Ben Beitler",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Ty Blakeney",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Rupinder Kaur",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Michael Lucey",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20R1A"
+  ]
+ },
+ "FRENCH R1B": {
+  "course": "FRENCH R1B",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.5/5 for difficulty, 3.2/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.65), with 83% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 262,
+   "pctA": 83,
+   "pctBelowB": 7,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 148
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.5,
+   "workload": 3.2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Vesna Rodic",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Mairi-Louise McLaughlin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Maya Sidhu",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Oliver Whitmore",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.66,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Liesl Yamaguchi",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Andrew Blough",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Debarati Sanyal",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Hannah Katznelson",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.95,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FRENCH%20R1B"
+  ]
+ }
+}

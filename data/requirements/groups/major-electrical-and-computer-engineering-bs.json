@@ -1,0 +1,574 @@
+{
+ "id": "major-electrical-and-computer-engineering-bs",
+ "title": "Electrical and Computer Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16333U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16333U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16333U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "math-physics",
+   "title": "Math/Physics",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 89"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 64"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-elective",
+   "title": "Probability Elective",
+   "section": "Preparatory Subject Matter",
+   "notes": "Students will receive no credit for COMPSCI 70 after taking MATH 55 at UC Berkeley. Correspondingly, students will receive no credit for MATH 55 after taking COMPSCI 70 at UC Berkeley.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-elective-option-one-course",
+   "title": "Science Elective Option (One Course)",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "manual",
+    "text": "Complete ANY of the following courses:\n- ASTRON 7A, 7B\n- BIOLOGY 1A and 1AL (must take both), 1B;\n- CHEM 1A and 1AL (must take both), 1B, 3A and 3AL (must take both), 3B and 3BL (must take both), 4A, 4B;\n- MCELLBI 32 and 32L (must take both)\n- PHYSICS 7C, 5C and 5CL (must take both)\n- An upper division course of 3 units or more in any of the following:\n- ASTRON\n- CHEM, excluding 100, 149, 192\n- EPS, excluding C100\n- EECS C191A and C191B\n- INTEGBI, excluding 101, C105, 191\n- MCELLBI, excluding MCELLBI 186B\n- PHYSICS, excluding 100",
+    "mentionedCourses": [
+     "ASTRON 7A",
+     "ASTRON 7B",
+     "BIOLOGY 1A",
+     "BIOLOGY 1AL",
+     "CHEM 1A",
+     "CHEM 1AL",
+     "MCELLBI 32",
+     "MCELLBI 32L",
+     "PHYSICS 7C",
+     "PHYSICS 5C",
+     "PHYSICS 5CL",
+     "EECS C191A",
+     "EECS C191B"
+    ]
+   }
+  },
+  {
+   "id": "ece-major-breadth",
+   "title": "ECE Major Breadth",
+   "section": "Advanced Subject Matter",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS C106A"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C106A"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61B"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 105"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 108"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 117"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 120"
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-electives-design",
+   "title": "Technical Electives: Design",
+   "section": "Advanced Subject Matter",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 162"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 164"
+     },
+     {
+      "type": "course",
+      "course": "EECS C106A"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C106A"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C106B"
+     },
+     {
+      "type": "course",
+      "course": "EECS C106B"
+     },
+     {
+      "type": "course",
+      "course": "EECS 149"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS 151"
+       },
+       {
+        "type": "course",
+        "course": "EECS 151LA"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS 151"
+       },
+       {
+        "type": "course",
+        "course": "EECS 151LB"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EECS C128"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C134"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 113B"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 130"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 140"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 143"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 192"
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-electives",
+   "title": "Technical Electives",
+   "section": "Advanced Subject Matter",
+   "notes": "- ELENG 194: Special Topics (except section 100, must be 3+ units)\n- EECS 151 must be taken with either 151LA or 151LB",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 152"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 162"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 164"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS C106A"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C106A"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS C106B"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C106B"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EECS 127"
+     },
+     {
+      "type": "course",
+      "course": "EECS 149"
+     },
+     {
+      "type": "course",
+      "course": "EECS 151"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS C128"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C134"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ELENG C145B"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C165"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ELENG C145L"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C145L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ELENG C145M"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C145M"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ELENG 113"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 113B"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 117"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 118"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 120"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 121"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 122"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 123"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 126"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 130"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 134"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137A"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137B"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 140"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 142"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 143"
+     },
+     {
+      "type": "course",
+      "course": "EECS 144"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 146L"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 147"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 192"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Advanced Subject Matter",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 195"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI H195"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 157AC"
+       },
+       {
+        "type": "course",
+        "course": "IAS 157AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 185"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100D"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100G"
+     },
+     {
+      "type": "course",
+      "course": "MEDIAST 104D"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 121"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 107"
+     }
+    ]
+   }
+  }
+ ]
+}

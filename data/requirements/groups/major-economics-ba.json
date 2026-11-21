@@ -1,0 +1,582 @@
+{
+ "id": "major-economics-ba",
+ "title": "Economics BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25246U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25246U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25246U",
+ "notes": [
+  "Students must complete each course with a letter grade."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics-a",
+   "title": "Mathematics A",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-b",
+   "title": "Mathematics B",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "STAT 20"
+     },
+     {
+      "type": "course",
+      "course": "STAT 21"
+     },
+     {
+      "type": "course",
+      "course": "STAT W21"
+     },
+     {
+      "type": "course",
+      "course": "STAT 88"
+     },
+     {
+      "type": "course",
+      "course": "DATA C88S"
+     },
+     {
+      "type": "course",
+      "course": "DATA 89"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT 135"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 1"
+     },
+     {
+      "type": "course",
+      "course": "ECON 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "microeconomics",
+   "title": "Microeconomics",
+   "section": "Upper Division",
+   "notes": "A maximum of two approved upper division courses (including the macro and micro theory courses) may be taken outside the department toward upper division major requirements. This includes courses transferred to UC Berkeley, courses taken through UCEAP, and courses offered at UC Berkeley through other departments (Business, History, Legal Studies, etc.). Courses officially cross-listed with upper division Economics courses do not count toward the two-course maximum. … (see the catalog for the rest)",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 100A"
+     },
+     {
+      "type": "course",
+      "course": "ECON 101A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "macroeconomics",
+   "title": "Macroeconomics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 100B"
+     },
+     {
+      "type": "course",
+      "course": "ECON 101B"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 101B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "econometrics",
+   "title": "Econometrics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON 140"
+     },
+     {
+      "type": "course",
+      "course": "ECON 141"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "A maximum of 2 courses are allowed from outside the ECON department.\n- Any ECON 100-196 level course, not including 100A, 100B, 101A, 101B, 140, 141, H195A, H195AS, and H195BS\n- ECON H195B may be used only if taken for a letter grade and for 3 or more units.",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CYPLAN 113A"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 160"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENERES C176"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C176"
+       },
+       {
+        "type": "course",
+        "course": "IAS C176"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 143"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 145"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 152"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 162"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 110"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 133A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY C159A"
+       },
+       {
+        "type": "course",
+        "course": "POLECON C160"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 159B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 160"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 120"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 142"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 145"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 147"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 141"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI W135"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 141"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 118"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 131"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 132"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 133"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 136F"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 180"
+     },
+     {
+      "type": "course",
+      "course": "ECON 104"
+     },
+     {
+      "type": "course",
+      "course": "ECON 105"
+     },
+     {
+      "type": "course",
+      "course": "ECON 106"
+     },
+     {
+      "type": "course",
+      "course": "ECON 109"
+     },
+     {
+      "type": "course",
+      "course": "ECON 113"
+     },
+     {
+      "type": "course",
+      "course": "ECON 115"
+     },
+     {
+      "type": "course",
+      "course": "ECON 119"
+     },
+     {
+      "type": "course",
+      "course": "ECON 121"
+     },
+     {
+      "type": "course",
+      "course": "ECON 123"
+     },
+     {
+      "type": "course",
+      "course": "ECON 127"
+     },
+     {
+      "type": "course",
+      "course": "ECON 128"
+     },
+     {
+      "type": "course",
+      "course": "ECON 130"
+     },
+     {
+      "type": "course",
+      "course": "ECON 131"
+     },
+     {
+      "type": "course",
+      "course": "ECON 132"
+     },
+     {
+      "type": "course",
+      "course": "ECON 133"
+     },
+     {
+      "type": "course",
+      "course": "ECON 134"
+     },
+     {
+      "type": "course",
+      "course": "ECON 135"
+     },
+     {
+      "type": "course",
+      "course": "ECON 136"
+     },
+     {
+      "type": "course",
+      "course": "ECON 138"
+     },
+     {
+      "type": "course",
+      "course": "ECON 139"
+     },
+     {
+      "type": "course",
+      "course": "ECON 143"
+     },
+     {
+      "type": "course",
+      "course": "ECON 144"
+     },
+     {
+      "type": "course",
+      "course": "ECON 145"
+     },
+     {
+      "type": "course",
+      "course": "ECON 148"
+     },
+     {
+      "type": "course",
+      "course": "ECON 151"
+     },
+     {
+      "type": "course",
+      "course": "ECON 152"
+     },
+     {
+      "type": "course",
+      "course": "ECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ECON 154"
+     },
+     {
+      "type": "course",
+      "course": "ECON 155"
+     },
+     {
+      "type": "course",
+      "course": "ECON 155A"
+     },
+     {
+      "type": "course",
+      "course": "ECON 157"
+     },
+     {
+      "type": "course",
+      "course": "ECON 158"
+     },
+     {
+      "type": "course",
+      "course": "ECON 161"
+     },
+     {
+      "type": "course",
+      "course": "ECON 162"
+     },
+     {
+      "type": "course",
+      "course": "ECON 165"
+     },
+     {
+      "type": "course",
+      "course": "ECON 172"
+     },
+     {
+      "type": "course",
+      "course": "ECON 173"
+     },
+     {
+      "type": "course",
+      "course": "ECON 174"
+     },
+     {
+      "type": "course",
+      "course": "ECON 182"
+     },
+     {
+      "type": "course",
+      "course": "ECON 183"
+     },
+     {
+      "type": "course",
+      "course": "ECON 191"
+     },
+     {
+      "type": "course",
+      "course": "ECON 196"
+     },
+     {
+      "type": "course",
+      "course": "ECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ECON C103"
+     },
+     {
+      "type": "course",
+      "course": "ECON C110"
+     },
+     {
+      "type": "course",
+      "course": "ECON C125"
+     },
+     {
+      "type": "course",
+      "course": "ECON C142"
+     },
+     {
+      "type": "course",
+      "course": "ECON C147"
+     },
+     {
+      "type": "course",
+      "course": "ECON C171"
+     },
+     {
+      "type": "course",
+      "course": "ECON C175"
+     },
+     {
+      "type": "course",
+      "course": "ECON C181"
+     },
+     {
+      "type": "course",
+      "course": "ECON C184"
+     },
+     {
+      "type": "course",
+      "course": "ECON C188"
+     },
+     {
+      "type": "course",
+      "course": "ECON H191"
+     },
+     {
+      "type": "course",
+      "course": "ECON H195B"
+     },
+     {
+      "type": "course",
+      "course": "ECON N110"
+     },
+     {
+      "type": "course",
+      "course": "ECON N113"
+     },
+     {
+      "type": "course",
+      "course": "ECON N121"
+     },
+     {
+      "type": "course",
+      "course": "ECON N131"
+     },
+     {
+      "type": "course",
+      "course": "ECON N136"
+     },
+     {
+      "type": "course",
+      "course": "ECON N151"
+     },
+     {
+      "type": "course",
+      "course": "ECON N171"
+     },
+     {
+      "type": "course",
+      "course": "ECON N175"
+     },
+     {
+      "type": "course",
+      "course": "ECON N181"
+     }
+    ]
+   }
+  }
+ ]
+}

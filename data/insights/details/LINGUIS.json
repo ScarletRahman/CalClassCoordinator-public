@@ -1,0 +1,4730 @@
+{
+ "LINGUIS 10": {
+  "course": "LINGUIS 10",
+  "difficulty": 2.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.233
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.48), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 99,
+   "pctA": 63,
+   "pctBelowB": 9,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.5,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2010"
+  ]
+ },
+ "LINGUIS 100": {
+  "course": "LINGUIS 100",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (29 on Berkeleytime)",
+     "value": 3.0,
+     "weight": 0.299
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.34
+    },
+    {
+     "label": "Student workload rating (29)",
+     "value": 2.8,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.043
+    },
+    {
+     "label": "Student usefulness rating (29 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.341
+    },
+    {
+     "label": "Tone of written student reviews (20 on file)",
+     "value": 3.8,
+     "weight": 0.125
+    }
+   ]
+  },
+  "sentiment": "Students say the weekly homework is hard and time consuming, while lectures are funny and interesting and exams are fairly straightforward. Recent reviews mention four midterms plus a final and nitpicky grading. Reviewers say it is hard to track your grade and that the work is worth it for those interested.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 4,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 1629,
+   "pctA": 57,
+   "pctBelowB": 16,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 191
+    },
+    {
+     "letter": "A",
+     "count": 401
+    },
+    {
+     "letter": "A-",
+     "count": 255
+    },
+    {
+     "letter": "B+",
+     "count": 171
+    },
+    {
+     "letter": "B",
+     "count": 143
+    },
+    {
+     "letter": "B-",
+     "count": 94
+    },
+    {
+     "letter": "C+",
+     "count": 68
+    },
+    {
+     "letter": "C",
+     "count": 50
+    },
+    {
+     "letter": "C-",
+     "count": 33
+    },
+    {
+     "letter": "D+",
+     "count": 13
+    },
+    {
+     "letter": "D",
+     "count": 15
+    },
+    {
+     "letter": "D-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 43
+    },
+    {
+     "letter": "P",
+     "count": 115
+    },
+    {
+     "letter": "NP",
+     "count": 26
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 29,
+   "difficulty": 3.0,
+   "workload": 2.8,
+   "usefulness": 4.1,
+   "recordedPct": 79,
+   "attendanceRequiredPct": 8
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrew Garrett",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.28,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Gasper Begus",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 6,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.43,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.6,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Lev Michael",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.28,
+    "studentCount": 10,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.8,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.31,
+    "studentCount": 14,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Keith Johnson",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20100"
+  ]
+ },
+ "LINGUIS 106": {
+  "course": "LINGUIS 106",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.245
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 53% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 117,
+   "pctA": 53,
+   "pctBelowB": 13,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Eve Sweetser",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20106"
+  ]
+ },
+ "LINGUIS 108": {
+  "course": "LINGUIS 108",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 18,
+   "pctA": 67,
+   "pctBelowB": 6,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Nikolai Schwarz",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20108"
+  ]
+ },
+ "LINGUIS 109": {
+  "course": "LINGUIS 109",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.68)",
+     "value": 1.9,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.68), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.68,
+   "letter": "A-",
+   "students": 53,
+   "pctA": 85,
+   "pctBelowB": 8,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Terry Regier",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.73,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Riley VanMeter",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.73,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20109"
+  ]
+ },
+ "LINGUIS 110": {
+  "course": "LINGUIS 110",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.308
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.19), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 370,
+   "pctA": 55,
+   "pctBelowB": 21,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 102
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Alan Yu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.05,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.5,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20110"
+  ]
+ },
+ "LINGUIS 111": {
+  "course": "LINGUIS 111",
+  "difficulty": 2.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.53), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 262,
+   "pctA": 70,
+   "pctBelowB": 11,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 67
+    },
+    {
+     "letter": "A",
+     "count": 75
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gasper Begus",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.36,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.66,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Darya Kavitskaya",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20111"
+  ]
+ },
+ "LINGUIS 113": {
+  "course": "LINGUIS 113",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.164
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 82% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 44,
+   "pctA": 82,
+   "pctBelowB": 15,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Keith Johnson",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Susan Lin",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20113"
+  ]
+ },
+ "LINGUIS 115": {
+  "course": "LINGUIS 115",
+  "difficulty": 3.0,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.294
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.36), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 263,
+   "pctA": 58,
+   "pctBelowB": 14,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 43
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 32
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Hannah Sande",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.44,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Andrew Garrett",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.34,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20115"
+  ]
+ },
+ "LINGUIS 120": {
+  "course": "LINGUIS 120",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.306
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.25), with 59% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 346,
+   "pctA": 59,
+   "pctBelowB": 15,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 94
+    },
+    {
+     "letter": "A-",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 55
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Jenks",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.02,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 5,
+    "difficulty": 3.5,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Franco Liu",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.38,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20120"
+  ]
+ },
+ "LINGUIS 121": {
+  "course": "LINGUIS 121",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.288
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.23), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 233,
+   "pctA": 59,
+   "pctBelowB": 19,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 86
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Amy Rose Deal",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.53,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Carlos Cisneros",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.55,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20121"
+  ]
+ },
+ "LINGUIS 122": {
+  "course": "LINGUIS 122",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.11
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 23,
+   "pctA": 60,
+   "pctBelowB": 20,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20122"
+  ]
+ },
+ "LINGUIS 123": {
+  "course": "LINGUIS 123",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.26), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 37,
+   "pctA": 61,
+   "pctBelowB": 22,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Eve Sweetser",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.39,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20123"
+  ]
+ },
+ "LINGUIS 125": {
+  "course": "LINGUIS 125",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 87% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 16,
+   "pctA": 87,
+   "pctBelowB": 7,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Schuyler Laparle",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.74,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20125"
+  ]
+ },
+ "LINGUIS 128": {
+  "course": "LINGUIS 128",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 88% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 13,
+   "pctA": 88,
+   "pctBelowB": 12,
+   "pctPassNoPass": 38,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Eve Sweetser",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20128"
+  ]
+ },
+ "LINGUIS 130": {
+  "course": "LINGUIS 130",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.296
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.085
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 4.5,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Students describe a hard but rewarding course with excellent, funny lectures. Weekly homework is demanding and tedious, but reviewers mention generous curves and grade cutoffs. Attending lecture, section and office hours is advised, since handouts alone are not enough.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 275,
+   "pctA": 73,
+   "pctBelowB": 10,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 57
+    },
+    {
+     "letter": "A",
+     "count": 96
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrew Garrett",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.33,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Alan Yu",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Darya Kavitskaya",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20130"
+  ]
+ },
+ "LINGUIS 140": {
+  "course": "LINGUIS 140",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Hannah Sande",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20140"
+  ]
+ },
+ "LINGUIS 140X": {
+  "course": "LINGUIS 140X",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Lev Michael",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20140X"
+  ]
+ },
+ "LINGUIS 146": {
+  "course": "LINGUIS 146",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.40), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 32,
+   "pctA": 52,
+   "pctBelowB": 6,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20146"
+  ]
+ },
+ "LINGUIS 148": {
+  "course": "LINGUIS 148",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 18,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 56,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20148"
+  ]
+ },
+ "LINGUIS 150": {
+  "course": "LINGUIS 150",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.259
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 142,
+   "pctA": 78,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20150"
+  ]
+ },
+ "LINGUIS 150A": {
+  "course": "LINGUIS 150A",
+  "difficulty": 2.9,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.266
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.076
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.37), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 158,
+   "pctA": 58,
+   "pctBelowB": 13,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicole Holliday",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.25,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Julia Swan",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.97,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20150A"
+  ]
+ },
+ "LINGUIS 150E": {
+  "course": "LINGUIS 150E",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.41), with 67% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 18,
+   "pctA": 67,
+   "pctBelowB": 11,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laura Alvarez Lopez",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.41,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20150E"
+  ]
+ },
+ "LINGUIS 151": {
+  "course": "LINGUIS 151",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 37,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Jenks",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Masi Santos",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20151"
+  ]
+ },
+ "LINGUIS 154": {
+  "course": "LINGUIS 154",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 43% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 53,
+   "pctA": 43,
+   "pctBelowB": 6,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christine Beier",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.23,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20154"
+  ]
+ },
+ "LINGUIS 155AC": {
+  "course": "LINGUIS 155AC",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.265
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 156,
+   "pctA": 77,
+   "pctBelowB": 7,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 78
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 34
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Carlos Cisneros",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.47,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Colleen Cotter",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20155AC"
+  ]
+ },
+ "LINGUIS 156": {
+  "course": "LINGUIS 156",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 20,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicole Holliday",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.89,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20156"
+  ]
+ },
+ "LINGUIS 170": {
+  "course": "LINGUIS 170",
+  "difficulty": 2.5,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.213
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.061
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.76), with 81% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 78,
+   "pctA": 81,
+   "pctBelowB": 3,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 44
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Lev Michael",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hannah Sande",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Andrew Garrett",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.83,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.62,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20170"
+  ]
+ },
+ "LINGUIS 181": {
+  "course": "LINGUIS 181",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 16,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 38,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20181"
+  ]
+ },
+ "LINGUIS 188": {
+  "course": "LINGUIS 188",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.214
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.45), with 72% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 79,
+   "pctA": 72,
+   "pctBelowB": 11,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Dmetri Hayes",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.13,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.13,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20188"
+  ]
+ },
+ "LINGUIS 197": {
+  "course": "LINGUIS 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Amy Rose Deal",
+    "terms": 7,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lev Michael",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20197"
+  ]
+ },
+ "LINGUIS 198": {
+  "course": "LINGUIS 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alan Yu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Terry Regier",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Eve Sweetser",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20198"
+  ]
+ },
+ "LINGUIS 199": {
+  "course": "LINGUIS 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Keith Johnson",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lev Michael",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Eve Sweetser",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Christine Beier",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Terry Regier",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20199"
+  ]
+ },
+ "LINGUIS 1A": {
+  "course": "LINGUIS 1A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.272
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 175,
+   "pctA": 77,
+   "pctBelowB": 7,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 72
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sherry Hicks",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%201A"
+  ]
+ },
+ "LINGUIS 1B": {
+  "course": "LINGUIS 1B",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.25
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 125,
+   "pctA": 85,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 46
+    },
+    {
+     "letter": "A",
+     "count": 40
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sherry Hicks",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.8,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%201B"
+  ]
+ },
+ "LINGUIS 20A": {
+  "course": "LINGUIS 20A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 12,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2020A"
+  ]
+ },
+ "LINGUIS 21A": {
+  "course": "LINGUIS 21A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Julia Byrd",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Keith Johnson",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Janet Waggaman",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2021A"
+  ]
+ },
+ "LINGUIS 21B": {
+  "course": "LINGUIS 21B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Julia Byrd",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Keith Johnson",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Janet Waggaman",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2021B"
+  ]
+ },
+ "LINGUIS 221": {
+  "course": "LINGUIS 221",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 87% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 17,
+   "pctA": 87,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Amy Rose Deal",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20221"
+  ]
+ },
+ "LINGUIS 24": {
+  "course": "LINGUIS 24",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 29,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 48,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Larry Hyman",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2024"
+  ]
+ },
+ "LINGUIS 3": {
+  "course": "LINGUIS 3",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 20,
+   "pctA": 69,
+   "pctBelowB": 0,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%203"
+  ]
+ },
+ "LINGUIS 40": {
+  "course": "LINGUIS 40",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 26,
+   "pctA": 58,
+   "pctBelowB": 8,
+   "pctPassNoPass": 54,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2040"
+  ]
+ },
+ "LINGUIS 47": {
+  "course": "LINGUIS 47",
+  "difficulty": 2.7,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.45)",
+     "value": 2.6,
+     "weight": 0.273
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.078
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.45), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.45,
+   "letter": "B+",
+   "students": 176,
+   "pctA": 63,
+   "pctBelowB": 9,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Susanne Gahl",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.44,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2047"
+  ]
+ },
+ "LINGUIS 5": {
+  "course": "LINGUIS 5",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.315
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 456,
+   "pctA": 71,
+   "pctBelowB": 8,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 53
+    },
+    {
+     "letter": "A",
+     "count": 169
+    },
+    {
+     "letter": "A-",
+     "count": 65
+    },
+    {
+     "letter": "B+",
+     "count": 39
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 20
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 48
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alan Yu",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Amy Rose Deal",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Alexandra Pfiffner",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.61,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Larry Hyman",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.1,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%205"
+  ]
+ },
+ "LINGUIS 55AC": {
+  "course": "LINGUIS 55AC",
+  "difficulty": 2.3,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.1,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.303
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 1.7,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.3,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.1/5 for difficulty, 1.7/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.57), with 71% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 320,
+   "pctA": 71,
+   "pctBelowB": 8,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 133
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 23
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.1,
+   "workload": 1.7,
+   "usefulness": 3,
+   "recordedPct": 57,
+   "attendanceRequiredPct": 86
+  },
+  "byProfessor": [
+   {
+    "professor": "Line Mikkelsen",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.7,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 1,
+    "difficulty": 2.0,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Isaac Bleaman",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.47,
+    "studentCount": 6,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%2055AC"
+  ]
+ },
+ "LINGUIS C105": {
+  "course": "LINGUIS C105",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 37,
+   "pctA": 73,
+   "pctBelowB": 3,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=COGSCI%20C101"
+  ]
+ },
+ "LINGUIS C137": {
+  "course": "LINGUIS C137",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Darya Kavitskaya",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20C137"
+  ]
+ },
+ "LINGUIS C142": {
+  "course": "LINGUIS C142",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 2.0/5 for workload and 3.3/5 for usefulness. The average grade is B+ (3.39), with 54% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 483,
+   "pctA": 54,
+   "pctBelowB": 11,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 123
+    },
+    {
+     "letter": "A-",
+     "count": 93
+    },
+    {
+     "letter": "B+",
+     "count": 66
+    },
+    {
+     "letter": "B",
+     "count": 62
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 19
+    },
+    {
+     "letter": "C",
+     "count": 16
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Terry Regier",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.36,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.8,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Noah Hermalin",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Peter Jenks",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20C142"
+  ]
+ },
+ "LINGUIS C146": {
+  "course": "LINGUIS C146",
+  "difficulty": 2.9,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.283
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.8/5 for difficulty, 3.2/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.40), with 58% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 210,
+   "pctA": 58,
+   "pctBelowB": 11,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.8,
+   "workload": 3.2,
+   "usefulness": 3,
+   "recordedPct": 75,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Mahesh Srinivasan",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.43,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20C146"
+  ]
+ },
+ "LINGUIS C160": {
+  "course": "LINGUIS C160",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.71)",
+     "value": 1.8,
+     "weight": 0.231
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.71), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.71,
+   "letter": "A-",
+   "students": 97,
+   "pctA": 75,
+   "pctBelowB": 5,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susanne Gahl",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20C160"
+  ]
+ },
+ "LINGUIS C189": {
+  "course": "LINGUIS C189",
+  "difficulty": 3.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.01)",
+     "value": 4.0,
+     "weight": 0.158
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.045
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B (3.01), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.01,
+   "letter": "B",
+   "students": 41,
+   "pctA": 46,
+   "pctBelowB": 21,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Terry Regier",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.01,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.5,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20C189"
+  ]
+ },
+ "LINGUIS R1B": {
+  "course": "LINGUIS R1B",
+  "difficulty": 2.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.296
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.4/5 for difficulty, 3.4/5 for workload and 3.6/5 for usefulness. The average grade is A- (3.69), with 85% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 273,
+   "pctA": 85,
+   "pctBelowB": 7,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 158
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.4,
+   "workload": 3.4,
+   "usefulness": 3.6,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Jenks",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.47,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Masi Santos",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Aurora Kane",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.99,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Claudia Iron Hawk",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Katherine Russell",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.34,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Terry Regier",
+    "terms": 4,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Emily Remirez",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.89,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Alexander Elias",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.87,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20R1B"
+  ]
+ },
+ "LINGUIS W100": {
+  "course": "LINGUIS W100",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.171
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.47), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 48,
+   "pctA": 68,
+   "pctBelowB": 8,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=LINGUIS%20W100"
+  ]
+ }
+}

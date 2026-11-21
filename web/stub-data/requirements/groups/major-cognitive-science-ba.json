@@ -1,0 +1,145 @@
+{
+  "id": "major-cognitive-science-ba",
+  "title": "Cognitive Science BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/cognitive-science/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "cogsci-1",
+      "title": "Introduction to Cognitive Science",
+      "rule": {
+        "type": "course",
+        "course": "COGSCI 1"
+      }
+    },
+    {
+      "id": "computing",
+      "title": "Computing",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          },
+          {
+            "type": "course",
+            "course": "DATA C88C"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro-psych",
+      "title": "Introductory psychology",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PSYCH 1"
+          },
+          {
+            "type": "course",
+            "course": "PSYCH 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "logic-or-mind",
+      "title": "Philosophy",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PHILOS 3"
+          },
+          {
+            "type": "course",
+            "course": "PHILOS 12A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cognition",
+      "title": "Basic Issues in Cognition",
+      "rule": {
+        "type": "course",
+        "course": "PSYCH C120"
+      }
+    },
+    {
+      "id": "computational-models",
+      "title": "Computational models",
+      "rule": {
+        "type": "course",
+        "course": "COGSCI 131"
+      }
+    },
+    {
+      "id": "ud-breadth",
+      "title": "Upper-division breadth",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "PSYCH C127",
+            "LINGUIS C105",
+            "LINGUIS 100",
+            "PHILOS 132",
+            "COMPSCI 188",
+            "PSYCH 110",
+            "COMPSCI 189"
+          ]
+        },
+        "count": 3
+      },
+      "notes": "Stub: courses from multiple cognitive science disciplines."
+    },
+    {
+      "id": "proseminar",
+      "title": "Proseminar",
+      "rule": {
+        "type": "course",
+        "course": "COGSCI 190"
+      }
+    },
+    {
+      "id": "concentration",
+      "title": "Concentration",
+      "rule": {
+        "type": "manual",
+        "text": "Three upper-division courses in a declared concentration"
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "major-business-administration-bs",
+  "title": "Business Administration BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/business-administration/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "ugba-10",
+      "title": "Principles of Business",
+      "rule": {
+        "type": "course",
+        "course": "UGBA 10"
+      }
+    },
+    {
+      "id": "intro-econ",
+      "title": "Introductory economics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ECON 1"
+          },
+          {
+            "type": "course",
+            "course": "ECON 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "core",
+      "title": "Haas core",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "UGBA 100"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 101A"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 101B"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 102A"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 103"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 104"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 105"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 106"
+          },
+          {
+            "type": "course",
+            "course": "UGBA 107"
+          }
+        ]
+      },
+      "notes": "Stub: core list as of recent catalogs; Haas revises the core periodically."
+    },
+    {
+      "id": "electives",
+      "title": "Business electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "UGBA"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "minUnits": 12
+      },
+      "notes": "Upper-division UGBA electives beyond the core."
+    }
+  ]
+}

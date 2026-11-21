@@ -1,0 +1,693 @@
+{
+ "id": "minor-data-science",
+ "title": "Data Science minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/A5I172U",
+  "https://undergraduate.catalog.berkeley.edu/programs/A5I172U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "A5I172U",
+ "choices": [
+  {
+   "id": "pathway",
+   "title": "Upper Division Pathway",
+   "pick": 1,
+   "options": [
+    {
+     "id": "data-pathway",
+     "title": "Data Pathway"
+    },
+    {
+     "id": "statistics-pathway",
+     "title": "Statistics Pathway"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "The Minor in Data Science at UC Berkeley aims to provide students with practical knowledge of the methods and techniques of data analysis, as well as the ability to think critically about the construction and implications of data analysis and models. The minor will empower students across the wide array of campus disciplines with a working knowledge of statistics, probability, and computation that allow students not just to participate in data science projects, but to design and carry out rigorous computational and inferential analysis for their field of interest.\nGeneral Guidelines\n- All minors must be declared prior to the first day of classes of the student's Expected Graduation Term (EGT). If the student's EGT is a summer term, the deadline to declare a minor is prior to the first day of classes of Summer Session A. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- All courses for the minor must be taken for a letter grade.\n- Students must earn a C- or better in each course, and have a minimum 2.0 GPA in all courses towards the minor.\n- Students may overlap up to 1 course in the upper division requirements for the Data Science minor with each of their majors (for example, a Computer Science major may count COMPSCI/DATA/STAT C100 toward both their major and the Data Science minor).\n- A maximum of one course offered by or cross-listed with the student’s major department(s) may count toward the data science minor upper-division requirements, including any overlapping course (for example, if a Computer Science major takes COMPSCI/DATA/STAT C100 toward the Data Science minor, this is the only COMPSCI, ELENG, or EECS course which may count toward the upper-division requirements for the minor).\n- An upper-division course used to fulfill a lower-division requirement (for example, Stat 134 to fulfill the probability requirement) will not be counted toward the maximum 1 course allowed to overlap with the major, nor will it fulfill one of the four upper division course requirements.\n- There is no restriction on overlap with another minor.\n- Courses used to fulfill the minor requirements may be applied toward the Seven-Course Breadth requirement.\n- All minor requirements must be completed prior to the last day of finals during the semester in which you plan to graduate.\n- A maximum of 1 course is allowed between STAT 20, ENGIN 7, and ENGIN W7.",
+  "Students will complete either the DATA 100 Pathway or the Statistics Pathway for their Upper Division requirements.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "foundations",
+   "title": "Foundations",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT 20"
+     }
+    ]
+   }
+  },
+  {
+   "id": "programming",
+   "title": "Programming",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "DATA C88C"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C88C"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability",
+   "title": "Probability",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 93"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "DATA C88S"
+     },
+     {
+      "type": "course",
+      "course": "STAT C88S"
+     },
+     {
+      "type": "course",
+      "course": "DATA 89"
+     },
+     {
+      "type": "course",
+      "course": "EECS 126"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "MATH 106"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-pathway-gateway",
+   "title": "Gateway",
+   "section": "Data Pathway: Upper Division",
+   "choice": "pathway",
+   "option": "data-pathway",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C100"
+     },
+     {
+      "type": "course",
+      "course": "DATA C100"
+     },
+     {
+      "type": "course",
+      "course": "STAT C100"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-pathway-human-contexts-and-ethics",
+   "title": "Human Contexts & Ethics",
+   "section": "Data Pathway: Upper Division",
+   "choice": "pathway",
+   "option": "data-pathway",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM C134"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 134"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C134"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 101"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "DIGHUM 100"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "INFO 188"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100J"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 121"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-pathway-electives",
+   "title": "Electives",
+   "section": "Data Pathway: Upper Division",
+   "choice": "pathway",
+   "option": "data-pathway",
+   "notes": "HISTORY 100S, INFO 190 and UGBA 147 by advisor approval only.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ART 172",
+      "ASTRON 128",
+      "BIOENG 145",
+      "BIOENG C131",
+      "BIOENG C142",
+      "BIOENG C146",
+      "CHEM 121",
+      "CHEM 179",
+      "CHEM C142",
+      "CHEM C191",
+      "CHMENG 143",
+      "CIVENG 191",
+      "CMPBIO C131",
+      "CMPBIO 156",
+      "CMPBIO C146",
+      "COGSCI 131",
+      "COGSCI 132",
+      "COGSCI C131",
+      "COGSCI C140",
+      "COMPSCI 161",
+      "COMPSCI 162",
+      "COMPSCI 164",
+      "COMPSCI 168",
+      "COMPSCI 169",
+      "COMPSCI 170",
+      "COMPSCI 186",
+      "COMPSCI 188",
+      "COMPSCI 189",
+      "COMPSCI C182",
+      "COMPSCI C191",
+      "CPH C100",
+      "CYPLAN 101",
+      "DATA 144",
+      "DATA C102",
+      "DATA C140",
+      "DATA C146",
+      "DATA C182",
+      "DEMOG 110",
+      "DEMOG 130",
+      "DEMOG 180",
+      "DEMOG C126",
+      "DEMOG C175",
+      "DIGHUM 100",
+      "DIGHUM 150A",
+      "DIGHUM 150B",
+      "DIGHUM 150C",
+      "ECON 140",
+      "ECON 141",
+      "ECON 143",
+      "ECON 144",
+      "ECON 148",
+      "ECON C142",
+      "ECON C175",
+      "EECS 126",
+      "EECS 127",
+      "EECS 183",
+      "ELENG 120",
+      "ELENG 122",
+      "ELENG 123",
+      "ENERES 131",
+      "ENGIN 150",
+      "ENVECON 105",
+      "ENVECON 153",
+      "ENVECON C115",
+      "ENVECON C118",
+      "EPS 101",
+      "EPS 109",
+      "ESPM 157",
+      "ESPM 172",
+      "ESPM 173",
+      "ESPM 174",
+      "ESPM C104",
+      "ESPM C167",
+      "GEOG 187",
+      "GEOG C188",
+      "HISTART 192DH",
+      "IAS C118",
+      "INDENG 115",
+      "INDENG 135",
+      "INDENG 142",
+      "INDENG 142A",
+      "INDENG 142B",
+      "INDENG 156",
+      "INDENG 160",
+      "INDENG 162",
+      "INDENG 164",
+      "INDENG 165",
+      "INDENG 166",
+      "INDENG 172",
+      "INDENG 173",
+      "INDENG 174",
+      "INFO 154",
+      "INFO 159",
+      "INTEGBI 111",
+      "INTEGBI 120",
+      "INTEGBI 134L",
+      "JOURN 124",
+      "LDARCH C188",
+      "LEGALST 122",
+      "LEGALST 123",
+      "LINGUIS C160",
+      "MATH 127",
+      "MCELLBI 149",
+      "MCELLBI C146",
+      "MECENG 100",
+      "MECENG 135",
+      "MELC 110",
+      "MUSIC 158A",
+      "NEU 172L",
+      "NUCENG 130",
+      "NUCENG 155",
+      "NUCENG 175",
+      "NUSCTX 121",
+      "PBHLTH 132",
+      "PBHLTH 142",
+      "PBHLTH 150A",
+      "PBHLTH 167",
+      "PBHLTH 177A",
+      "PBHLTH C160",
+      "PHYSICS 188",
+      "PHYSICS C191",
+      "PLANTBI C146",
+      "POLSCI 132B",
+      "POLSCI 132C",
+      "POLSCI C131A",
+      "PSYCH 101D",
+      "PSYCH C123",
+      "PUBPOL C142",
+      "SOCIOL 106",
+      "SOCIOL 165",
+      "SOCIOL C126",
+      "STAT 134",
+      "STAT 135",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 152",
+      "STAT 153",
+      "STAT 154",
+      "STAT 158",
+      "STAT 159",
+      "STAT 165",
+      "STAT C102",
+      "STAT C140",
+      "UGBA 104",
+      "UGBA 134",
+      "UGBA 161"
+     ]
+    }
+   }
+  },
+  {
+   "id": "statistics-pathway-gateway",
+   "title": "Gateway",
+   "section": "Statistics Pathway: Upper Division",
+   "choice": "pathway",
+   "option": "statistics-pathway",
+   "notes": "- Students may overlap up to 1 course in the upper division requirements for the Data Science minor with each of their majors (for example, a Computer Science major may count COMPSCI/STAT C100 toward both their major and the Data Science minor).\n- A maximum of one course offered by or cross-listed with the student’s major department(s) may count toward the data science minor upper-division requirements, including any overlapping course (for example, if a Computer Science major takes COMPSCI/STAT C100 toward the Data Science minor, this is the only COMPSCI, ELENG, or EECS course which may count toward the upper-division requirements for the minor).",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DATA C131A"
+       },
+       {
+        "type": "course",
+        "course": "STAT C131A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "STAT 133"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics-pathway-human-contexts-and-ethics",
+   "title": "Human Contexts & Ethics",
+   "section": "Statistics Pathway: Upper Division",
+   "choice": "pathway",
+   "option": "statistics-pathway",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM C134"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 134"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C134"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 101"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "DIGHUM 100"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "INFO 188"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100J"
+     },
+     {
+      "type": "course",
+      "course": "NWMEDIA 151AC"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 121"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics-pathway-electives",
+   "title": "Electives",
+   "section": "Statistics Pathway: Upper Division",
+   "choice": "pathway",
+   "option": "statistics-pathway",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 1 of the following courses:\n- ART 172\n- ASTRON 128\n- BIOENG 145\n- BIOENG C131\n- BIOENG C142\n- BIOENG C146\n- CHEM 121\n- CHEM 179\n- CHEM C142\n- CHEM C191\n- CHMENG 143\n- CIVENG 191\n- CMPBIO 156\n- CMPBIO C131\n- CMPBIO C146\n- COGSCI 131\n- COGSCI 132\n- COGSCI C131\n- COGSCI C140\n- COMPSCI 161\n- COMPSCI 162\n- COMPSCI 164\n- COMPSCI 168\n- COMPSCI 169\n- COMPSCI 170\n- COMPSCI 186\n- COMPSCI 188\n- COMPSCI 189\n- COMPSCI C182\n- COMPSCI C191\n- CPH C100\n- CPH C146\n- CYPLAN 101\n- DATA 144\n- DATA C102\n- DATA C140\n- DATA C146\n- DATA C182\n- DEMOG 110\n- DEMOG 180\n- DEMOG C126\n- DEMOG C175 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "ART 172",
+     "ASTRON 128",
+     "BIOENG 145",
+     "BIOENG C131",
+     "BIOENG C142",
+     "BIOENG C146",
+     "CHEM 121",
+     "CHEM 179",
+     "CHEM C142",
+     "CHEM C191",
+     "CHMENG 143",
+     "CIVENG 191",
+     "CMPBIO 156",
+     "CMPBIO C131",
+     "CMPBIO C146",
+     "COGSCI 131",
+     "COGSCI 132",
+     "COGSCI C131",
+     "COGSCI C140",
+     "COMPSCI 161",
+     "COMPSCI 162",
+     "COMPSCI 164",
+     "COMPSCI 168",
+     "COMPSCI 169",
+     "COMPSCI 170",
+     "COMPSCI 186",
+     "COMPSCI 188",
+     "COMPSCI 189",
+     "COMPSCI C182",
+     "COMPSCI C191",
+     "CPH C100",
+     "CYPLAN 101",
+     "DATA 144",
+     "DATA C102",
+     "DATA C140",
+     "DATA C146",
+     "DATA C182",
+     "DEMOG 110",
+     "DEMOG 180",
+     "DEMOG C126",
+     "DEMOG C175",
+     "DIGHUM 100",
+     "DIGHUM 150A",
+     "DIGHUM 150B",
+     "DIGHUM 150C",
+     "ECON 140",
+     "ECON 141",
+     "ECON 143",
+     "ECON 144",
+     "ECON 148",
+     "ECON C142",
+     "ECON C175",
+     "EECS 126",
+     "EECS 127",
+     "EECS 183",
+     "ELENG 120",
+     "ELENG 122",
+     "ELENG 123",
+     "ENERES 131",
+     "ENGIN 150",
+     "ENGIN 183C",
+     "ENVECON 105",
+     "ENVECON 153",
+     "ENVECON C115",
+     "ENVECON C118",
+     "EPS 101",
+     "EPS 109",
+     "ESPM 157",
+     "ESPM 172",
+     "ESPM 173",
+     "ESPM 174",
+     "ESPM C104",
+     "ESPM C167",
+     "GEOG 187",
+     "GEOG C188",
+     "HISTART 192DH",
+     "IAS C118",
+     "INDENG 115",
+     "INDENG 135",
+     "INDENG 142",
+     "INDENG 142A",
+     "INDENG 142B",
+     "INDENG 156",
+     "INDENG 160",
+     "INDENG 162",
+     "INDENG 164",
+     "INDENG 165",
+     "INDENG 166",
+     "INDENG 172",
+     "INDENG 173",
+     "INDENG 174",
+     "INFO 154",
+     "INFO 159",
+     "INTEGBI 111",
+     "INTEGBI 120",
+     "INTEGBI 134L",
+     "JOURN 124",
+     "LDARCH C188",
+     "LEGALST 122",
+     "LEGALST 123",
+     "LINGUIS C160",
+     "MATH 127",
+     "MCELLBI 149",
+     "MCELLBI C146",
+     "MECENG 100",
+     "MECENG 135",
+     "MELC 110",
+     "MUSIC 158A",
+     "NEU 172L",
+     "NUCENG 130",
+     "NUCENG 155",
+     "NUCENG 175",
+     "NUSCTX 121",
+     "PBHLTH 132",
+     "PBHLTH 142",
+     "PBHLTH 150A",
+     "PBHLTH 167",
+     "PBHLTH 177A",
+     "PBHLTH C160",
+     "PHYSICS 188",
+     "PHYSICS C191",
+     "PLANTBI C146",
+     "POLSCI 132B",
+     "POLSCI 132C",
+     "POLSCI C131A",
+     "PSYCH 101D",
+     "PSYCH C123",
+     "PUBPOL C142",
+     "SOCIOL 106",
+     "SOCIOL 165",
+     "SOCIOL C126",
+     "STAT 134",
+     "STAT 135",
+     "STAT 150",
+     "STAT 151A",
+     "STAT 152",
+     "STAT 153",
+     "STAT 154",
+     "STAT 158",
+     "STAT 159",
+     "STAT 165",
+     "STAT C102",
+     "STAT C140",
+     "UGBA 104",
+     "UGBA 134",
+     "UGBA 161",
+     "HISTORY 100S",
+     "INFO 190",
+     "UGBA 147"
+    ]
+   }
+  }
+ ]
+}

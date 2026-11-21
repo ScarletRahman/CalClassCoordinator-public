@@ -1,0 +1,159 @@
+{
+  "id": "major-architecture-ba",
+  "title": "Architecture BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/architecture/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "envdes",
+      "title": "Environmental design foundations",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENVDES 1"
+          },
+          {
+            "type": "course",
+            "course": "ENVDES 4A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "drawing",
+      "title": "Visual representation and design",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ARCH 11A"
+          },
+          {
+            "type": "course",
+            "course": "ARCH 11B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "math",
+      "title": "Mathematics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PHYSICS 8A"
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 7A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "studios",
+      "title": "Design studios",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ARCH 100A"
+          },
+          {
+            "type": "course",
+            "course": "ARCH 100B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "history",
+      "title": "History of architecture",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ARCH 170A"
+          },
+          {
+            "type": "course",
+            "course": "ARCH 170B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "technology",
+      "title": "Building technology",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ARCH 140"
+          },
+          {
+            "type": "course",
+            "course": "ARCH 150"
+          }
+        ]
+      }
+    },
+    {
+      "id": "social-cultural",
+      "title": "Social & cultural factors",
+      "rule": {
+        "type": "course",
+        "course": "ARCH 110AC"
+      }
+    },
+    {
+      "id": "arch-electives",
+      "title": "Architecture electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "ARCH"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 2
+      }
+    }
+  ]
+}

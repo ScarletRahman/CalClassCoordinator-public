@@ -1,0 +1,4377 @@
+{
+ "CHINESE 100A": {
+  "course": "CHINESE 100A",
+  "difficulty": 3.0,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.221
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.063
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.54), with 72% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 86,
+   "pctA": 72,
+   "pctBelowB": 8,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Hsinyu Lin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Lihua Zhang",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20100A"
+  ]
+ },
+ "CHINESE 100B": {
+  "course": "CHINESE 100B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.162
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 79% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 43,
+   "pctA": 79,
+   "pctBelowB": 0,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hsinyu Lin",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Lihua Zhang",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20100B"
+  ]
+ },
+ "CHINESE 100XA": {
+  "course": "CHINESE 100XA",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.251
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 87% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 127,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 71
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 6
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Weisi Cai",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.89,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20100XA"
+  ]
+ },
+ "CHINESE 100XB": {
+  "course": "CHINESE 100XB",
+  "difficulty": 2.2,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.223
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.81), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 88,
+   "pctA": 89,
+   "pctBelowB": 3,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 5
+  },
+  "byProfessor": [
+   {
+    "professor": "Weisi Cai",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.86,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.0,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.7,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20100XB"
+  ]
+ },
+ "CHINESE 101": {
+  "course": "CHINESE 101",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.205
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 71,
+   "pctA": 95,
+   "pctBelowB": 2,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chunhong Xie",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.92,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Hsinyu Lin",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.91,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20101"
+  ]
+ },
+ "CHINESE 102": {
+  "course": "CHINESE 102",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 75,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 49
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chunhong Xie",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20102"
+  ]
+ },
+ "CHINESE 10A": {
+  "course": "CHINESE 10A",
+  "difficulty": 2.8,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.268
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.5/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.63), with 74% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 163,
+   "pctA": 74,
+   "pctBelowB": 7,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Chunhong Xie",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.55,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2010A"
+  ]
+ },
+ "CHINESE 10B": {
+  "course": "CHINESE 10B",
+  "difficulty": 2.6,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.248
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 3.7/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.70), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 122,
+   "pctA": 79,
+   "pctBelowB": 2,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 28
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3.7,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Li Liu",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.78,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.6,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Chunhong Xie",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Weisi Cai",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2010B"
+  ]
+ },
+ "CHINESE 10X": {
+  "course": "CHINESE 10X",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.261
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 147,
+   "pctA": 89,
+   "pctBelowB": 3,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 34
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hsinyu Lin",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.79,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Weisi Cai",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.75,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2010X"
+  ]
+ },
+ "CHINESE 10Y": {
+  "course": "CHINESE 10Y",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.164
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 81% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 44,
+   "pctA": 81,
+   "pctBelowB": 0,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Weisi Cai",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Chunhong Xie",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.85,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2010Y"
+  ]
+ },
+ "CHINESE 110A": {
+  "course": "CHINESE 110A",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.256
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.36), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 137,
+   "pctA": 61,
+   "pctBelowB": 10,
+   "pctPassNoPass": 29,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ling Hon Lam",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Robert Ashmore",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.33,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Paula Varsano",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.29,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Matthew Wild",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.56,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20110A"
+  ]
+ },
+ "CHINESE 110B": {
+  "course": "CHINESE 110B",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.196
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 64,
+   "pctA": 75,
+   "pctBelowB": 8,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ling Hon Lam",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Robert Ashmore",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Paula Varsano",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Matthew Wild",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.33,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20110B"
+  ]
+ },
+ "CHINESE 111": {
+  "course": "CHINESE 111",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.17
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 92% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 47,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Weisi Cai",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.91,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Hsinyu Lin",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.87,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20111"
+  ]
+ },
+ "CHINESE 134": {
+  "course": "CHINESE 134",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.62), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 72,
+   "pctBelowB": 4,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Paula Varsano",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20134"
+  ]
+ },
+ "CHINESE 153": {
+  "course": "CHINESE 153",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.234
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 101,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 52
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 21
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lanchih Po",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20153"
+  ]
+ },
+ "CHINESE 155": {
+  "course": "CHINESE 155",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.186
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 57,
+   "pctA": 44,
+   "pctBelowB": 9,
+   "pctPassNoPass": 44,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sophie Volpp",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Robert Ashmore",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20155"
+  ]
+ },
+ "CHINESE 156": {
+  "course": "CHINESE 156",
+  "difficulty": 3.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.183
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.052
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.59), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 55,
+   "pctA": 69,
+   "pctBelowB": 2,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Rea",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.5,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Andrew Jones",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.47,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Robert Ashmore",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Xiaoyu Xia",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20156"
+  ]
+ },
+ "CHINESE 157": {
+  "course": "CHINESE 157",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.22
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.063
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.64), with 72% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 85,
+   "pctA": 72,
+   "pctBelowB": 2,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrew Jones",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.64,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20157"
+  ]
+ },
+ "CHINESE 158": {
+  "course": "CHINESE 158",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 56,
+   "pctA": 84,
+   "pctBelowB": 4,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lanchih Po",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20158"
+  ]
+ },
+ "CHINESE 172": {
+  "course": "CHINESE 172",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 83% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 31,
+   "pctA": 83,
+   "pctBelowB": 0,
+   "pctPassNoPass": 26,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Linda Zhang",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20172"
+  ]
+ },
+ "CHINESE 179": {
+  "course": "CHINESE 179",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.182
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.31), with 54% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 54,
+   "pctA": 54,
+   "pctBelowB": 10,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ling Hon Lam",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.31,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20179"
+  ]
+ },
+ "CHINESE 180": {
+  "course": "CHINESE 180",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.214
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 79,
+   "pctA": 74,
+   "pctBelowB": 4,
+   "pctPassNoPass": 32,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sophie Volpp",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Matthew Wild",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20180"
+  ]
+ },
+ "CHINESE 186": {
+  "course": "CHINESE 186",
+  "difficulty": 2.7,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.293
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.61), with 75% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 257,
+   "pctA": 75,
+   "pctBelowB": 6,
+   "pctPassNoPass": 30,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 72
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Csikszentmihalyi",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.52,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Yifan Zheng",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20186"
+  ]
+ },
+ "CHINESE 188": {
+  "course": "CHINESE 188",
+  "difficulty": 2.7,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.264
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.075
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.38), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 154,
+   "pctA": 55,
+   "pctBelowB": 11,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Rea",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Andrew Jones",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.51,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.95,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Roy Chan",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20188"
+  ]
+ },
+ "CHINESE 199": {
+  "course": "CHINESE 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sophie Volpp",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Lanchih Po",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Ling Hon Lam",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Mark Csikszentmihalyi",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20199"
+  ]
+ },
+ "CHINESE 1A": {
+  "course": "CHINESE 1A",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.304
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 4.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.087
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 4.3/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.60), with 72% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 334,
+   "pctA": 72,
+   "pctBelowB": 6,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 128
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 69
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 13
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 4.3,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Ashmore",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Lianbi Ji",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Damien Donnelly",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.62,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Allyson Weiyong Kohen Tang",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Hardy Stewart",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Weisi Cai",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jiahe Mei",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.79,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%201A"
+  ]
+ },
+ "CHINESE 1B": {
+  "course": "CHINESE 1B",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.281
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 3.3/5 for workload and 4.3/5 for usefulness. The average grade is A- (3.62), with 74% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 202,
+   "pctA": 74,
+   "pctBelowB": 5,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 77
+    },
+    {
+     "letter": "A-",
+     "count": 32
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 13
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 3.3,
+   "usefulness": 4.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Damien Donnelly",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.41,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Weisi Cai",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.5,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Li Liu",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Robert Ashmore",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Zijing Fan",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Chunhong Xie",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.61,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%201B"
+  ]
+ },
+ "CHINESE 1X": {
+  "course": "CHINESE 1X",
+  "difficulty": 2.1,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.282
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.79), with 83% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 207,
+   "pctA": 83,
+   "pctBelowB": 3,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 104
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Hsinyu Lin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Weisi Cai",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.81,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.8,
+    "shouldTake": 4.4
+   },
+   {
+    "professor": "Lihua Zhang",
+    "terms": 6,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%201X"
+  ]
+ },
+ "CHINESE 1Y": {
+  "course": "CHINESE 1Y",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.218
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 82% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 83,
+   "pctA": 82,
+   "pctBelowB": 3,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Weisi Cai",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Chi Leung Chan",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.81,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%201Y"
+  ]
+ },
+ "CHINESE 30A": {
+  "course": "CHINESE 30A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.104
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 88% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 21,
+   "pctA": 88,
+   "pctBelowB": 0,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chi Leung Chan",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.85,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2030A"
+  ]
+ },
+ "CHINESE 30X": {
+  "course": "CHINESE 30X",
+  "difficulty": 2.3,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.195
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.056
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 3.5/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.85), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 63,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 3.5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Chi Leung Chan",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.84,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2030X"
+  ]
+ },
+ "CHINESE 3A": {
+  "course": "CHINESE 3A",
+  "difficulty": 2.4,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.223
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.064
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.74), with 82% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 88,
+   "pctA": 82,
+   "pctBelowB": 2,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "S",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Chi Leung Chan",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.78,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%203A"
+  ]
+ },
+ "CHINESE 3B": {
+  "course": "CHINESE 3B",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.212
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 92% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 77,
+   "pctA": 92,
+   "pctBelowB": 2,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 46
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chi Leung Chan",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%203B"
+  ]
+ },
+ "CHINESE 3X": {
+  "course": "CHINESE 3X",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.23
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 96,
+   "pctA": 82,
+   "pctBelowB": 2,
+   "pctPassNoPass": 42,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 32
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Chi Leung Chan",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%203X"
+  ]
+ },
+ "CHINESE 40A": {
+  "course": "CHINESE 40A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Hsin-Hung Yeh",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2040A"
+  ]
+ },
+ "CHINESE 4A": {
+  "course": "CHINESE 4A",
+  "difficulty": 1.8,
+  "shouldTake": 4.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.162
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.046
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.0/5 for difficulty, 1.5/5 for workload and 5.0/5 for usefulness. The average grade is A (3.88), with 93% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 43,
+   "pctA": 93,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1,
+   "workload": 1.5,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Hsin-Hung Yeh",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.88,
+    "studentCount": 2,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.5,
+    "shouldTake": 4.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%204A"
+  ]
+ },
+ "CHINESE 4B": {
+  "course": "CHINESE 4B",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 45,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hsin-Hung Yeh",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.94,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%204B"
+  ]
+ },
+ "CHINESE 51": {
+  "course": "CHINESE 51",
+  "difficulty": 2.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.23
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.63), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 96,
+   "pctA": 79,
+   "pctBelowB": 6,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 38
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Csikszentmihalyi",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.84,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.5,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Thomas Crone",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.11,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%2051"
+  ]
+ },
+ "CHINESE 7A": {
+  "course": "CHINESE 7A",
+  "difficulty": 3.0,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.292
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.35), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 254,
+   "pctA": 57,
+   "pctBelowB": 13,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 66
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Ashmore",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Allyson Weiyong Kohen Tang",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Paula Varsano",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.29,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Mark Csikszentmihalyi",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.51,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Andrew Jones",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%207A"
+  ]
+ },
+ "CHINESE 7B": {
+  "course": "CHINESE 7B",
+  "difficulty": 3.3,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.234
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.067
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.25), with 57% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 101,
+   "pctA": 57,
+   "pctBelowB": 14,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Sophie Volpp",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ling Hon Lam",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.99,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.7,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Robert Ashmore",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.66,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Andrew Jones",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.44,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Zijing Fan",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.84,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%207B"
+  ]
+ },
+ "CHINESE C116": {
+  "course": "CHINESE C116",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 39,
+   "pctA": 53,
+   "pctBelowB": 6,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lu Huang",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Antonello Palumbo",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Xiaoming Hou",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.62,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20C116"
+  ]
+ },
+ "CHINESE C118": {
+  "course": "CHINESE C118",
+  "difficulty": 2.5,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.12
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.034
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.85), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 26,
+   "pctA": 88,
+   "pctBelowB": 0,
+   "pctPassNoPass": 35,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jiangnan Li",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20C118"
+  ]
+ },
+ "CHINESE C140": {
+  "course": "CHINESE C140",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.84)",
+     "value": 4.6,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.84), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.84,
+   "letter": "B-",
+   "students": 13,
+   "pctA": 42,
+   "pctBelowB": 42,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lu Huang",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Xiaoming Hou",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.84,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Jiangnan Li",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20C140"
+  ]
+ },
+ "CHINESE H195A": {
+  "course": "CHINESE H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Andrew Jones",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20H195A"
+  ]
+ },
+ "CHINESE H195B": {
+  "course": "CHINESE H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Andrew Jones",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHINESE%20H195B"
+  ]
+ }
+}

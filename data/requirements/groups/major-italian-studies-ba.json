@@ -1,0 +1,94 @@
+{
+ "id": "major-italian-studies-ba",
+ "title": "Italian Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25479U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25479U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25479U",
+ "requirements": [
+  {
+   "id": "italian-language",
+   "title": "Italian Language",
+   "section": "Lower Division",
+   "notes": "Students must complete Italian 1-4 or their equivalent in linguistic proficiency.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ITALIAN 1"
+       },
+       {
+        "type": "course",
+        "course": "ITALIAN W1"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 2"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 3"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 4"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 5"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 1R"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-italian-language",
+   "title": "Advanced Italian Language",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ITALIAN 101"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 102"
+     }
+    ]
+   }
+  },
+  {
+   "id": "readings-in-cultural-studies-or-literature",
+   "title": "Readings in Cultural Studies or Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "ITALIAN 105"
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "A minimum of three courses must have primary readings and discussion in Italian, a maximum of two may be completed with primary readings and discussion in English.\n- Any ITALIAN 100-196 level course (excluding ITALIAN 101A and ITALIAN 101B)\n- EAPITAL 132-118"
+   }
+  }
+ ]
+}

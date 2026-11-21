@@ -1,0 +1,3616 @@
+{
+ "CHMENG 130": {
+  "course": "CHMENG 130",
+  "difficulty": 4.0,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B- (2.85)",
+     "value": 4.5,
+     "weight": 0.302
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.5,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 4.0/5 for difficulty, 3.7/5 for workload and 3.3/5 for usefulness. The average grade is B- (2.85), with 28% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.85,
+   "letter": "B-",
+   "students": 318,
+   "pctA": 28,
+   "pctBelowB": 33,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 58
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 34
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 20
+    },
+    {
+     "letter": "D",
+     "count": 17
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 4,
+   "workload": 3.7,
+   "usefulness": 3.3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Rui Wang",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.76,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.3,
+    "difficulty": 4.3,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Aditi Krishnapriyan",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.84,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.3,
+    "difficulty": 4.2,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Ali Mesbah",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.3,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20130"
+  ]
+ },
+ "CHMENG 140": {
+  "course": "CHMENG 140",
+  "difficulty": 3.7,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B (2.94)",
+     "value": 4.2,
+     "weight": 0.325
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 3.6,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.8,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.233
+    },
+    {
+     "label": "Tone of written student reviews (20 on file)",
+     "value": 3.9,
+     "weight": 0.125
+    }
+   ]
+  },
+  "sentiment": "Students call this a very difficult, fast-paced course with long problem sets and tough exams, but most praise the teaching and say it is rewarding. Going to every lecture, discussion, and office hours is repeatedly advised, and working with others on homework helps. Some find lectures disorganized or intimidating.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.94,
+   "letter": "B",
+   "students": 658,
+   "pctA": 32,
+   "pctBelowB": 27,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 92
+    },
+    {
+     "letter": "A-",
+     "count": 82
+    },
+    {
+     "letter": "B+",
+     "count": 89
+    },
+    {
+     "letter": "B",
+     "count": 93
+    },
+    {
+     "letter": "B-",
+     "count": 65
+    },
+    {
+     "letter": "C+",
+     "count": 45
+    },
+    {
+     "letter": "C",
+     "count": 50
+    },
+    {
+     "letter": "C-",
+     "count": 32
+    },
+    {
+     "letter": "D+",
+     "count": 13
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 3.6,
+   "workload": 3.6,
+   "usefulness": 4.1,
+   "recordedPct": 29,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.78,
+    "studentCount": 7,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.1,
+    "difficulty": 4.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Negar Beheshti Pour",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 3.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Clayton Radke",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.78,
+    "studentCount": 6,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4.3,
+    "difficulty": 4.1,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20140"
+  ]
+ },
+ "CHMENG 141": {
+  "course": "CHMENG 141",
+  "difficulty": 3.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.23)",
+     "value": 3.3,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 5.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.23), with 43% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.23,
+   "letter": "B+",
+   "students": 614,
+   "pctA": 43,
+   "pctBelowB": 14,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 112
+    },
+    {
+     "letter": "A-",
+     "count": 91
+    },
+    {
+     "letter": "B+",
+     "count": 92
+    },
+    {
+     "letter": "B",
+     "count": 95
+    },
+    {
+     "letter": "B-",
+     "count": 59
+    },
+    {
+     "letter": "C+",
+     "count": 31
+    },
+    {
+     "letter": "C",
+     "count": 24
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 5,
+   "usefulness": 4.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Rui Wang",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Laura Hirshfield",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.18,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.15,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.6,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20141"
+  ]
+ },
+ "CHMENG 142": {
+  "course": "CHMENG 142",
+  "difficulty": 4.1,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (2.87)",
+     "value": 4.5,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.5,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 3.0/5 for usefulness. The average grade is B (2.87), with 30% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.87,
+   "letter": "B",
+   "students": 581,
+   "pctA": 30,
+   "pctBelowB": 30,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 77
+    },
+    {
+     "letter": "B+",
+     "count": 74
+    },
+    {
+     "letter": "B",
+     "count": 86
+    },
+    {
+     "letter": "B-",
+     "count": 59
+    },
+    {
+     "letter": "C+",
+     "count": 46
+    },
+    {
+     "letter": "C",
+     "count": 43
+    },
+    {
+     "letter": "C-",
+     "count": 29
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 18
+    },
+    {
+     "letter": "D-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 29
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Shiyu Xia",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.69,
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 4.6,
+    "shouldTake": 2.4
+   },
+   {
+    "professor": "Kranthi Kiran Mandadapu",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.37,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 4.6,
+    "shouldTake": 2.5
+   },
+   {
+    "professor": "Neil Razdan",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.59,
+    "difficulty": 4.5
+   },
+   {
+    "professor": "Gregory Schoofs",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.38,
+    "difficulty": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20142"
+  ]
+ },
+ "CHMENG 143": {
+  "course": "CHMENG 143",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.72)",
+     "value": 1.7,
+     "weight": 0.194
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.72), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.72,
+   "letter": "A-",
+   "students": 62,
+   "pctA": 79,
+   "pctBelowB": 2,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ali Mesbah",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20143"
+  ]
+ },
+ "CHMENG 148": {
+  "course": "CHMENG 148",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.33), with 67% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 11,
+   "pctA": 67,
+   "pctBelowB": 11,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joelle Frechette",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20148"
+  ]
+ },
+ "CHMENG 150A": {
+  "course": "CHMENG 150A",
+  "difficulty": 3.9,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B (2.99)",
+     "value": 4.1,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.5/5 for difficulty, 4.5/5 for workload and 4.0/5 for usefulness. The average grade is B (2.99), with 35% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.99,
+   "letter": "B",
+   "students": 632,
+   "pctA": 35,
+   "pctBelowB": 26,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 121
+    },
+    {
+     "letter": "A-",
+     "count": 55
+    },
+    {
+     "letter": "B+",
+     "count": 80
+    },
+    {
+     "letter": "B",
+     "count": 74
+    },
+    {
+     "letter": "B-",
+     "count": 65
+    },
+    {
+     "letter": "C+",
+     "count": 50
+    },
+    {
+     "letter": "C",
+     "count": 39
+    },
+    {
+     "letter": "C-",
+     "count": 28
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 13
+    },
+    {
+     "letter": "F",
+     "count": 16
+    },
+    {
+     "letter": "P",
+     "count": 62
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4.5,
+   "workload": 4.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Joelle Frechette",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.02,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 4.0,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Babak Vajdi Hokmabad",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kranthi Kiran Mandadapu",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.75,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 4.5,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Clayton Radke",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.75,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 4.5,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Aditi Krishnapriyan",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.06,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.94,
+    "difficulty": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20150A"
+  ]
+ },
+ "CHMENG 150B": {
+  "course": "CHMENG 150B",
+  "difficulty": 3.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B (3.13), with 45% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 588,
+   "pctA": 45,
+   "pctBelowB": 23,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 33
+    },
+    {
+     "letter": "A",
+     "count": 149
+    },
+    {
+     "letter": "A-",
+     "count": 65
+    },
+    {
+     "letter": "B+",
+     "count": 62
+    },
+    {
+     "letter": "B",
+     "count": 64
+    },
+    {
+     "letter": "B-",
+     "count": 51
+    },
+    {
+     "letter": "C+",
+     "count": 36
+    },
+    {
+     "letter": "C",
+     "count": 35
+    },
+    {
+     "letter": "C-",
+     "count": 27
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 18
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 35
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Katz",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.07,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Joelle Frechette",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.06,
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 3.4,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Alexis Bell",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.09,
+    "midterms": 2,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20150B"
+  ]
+ },
+ "CHMENG 154": {
+  "course": "CHMENG 154",
+  "difficulty": 3.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.308
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 4.5/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.47), with 56% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 370,
+   "pctA": 56,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 86
+    },
+    {
+     "letter": "A-",
+     "count": 74
+    },
+    {
+     "letter": "B+",
+     "count": 53
+    },
+    {
+     "letter": "B",
+     "count": 61
+    },
+    {
+     "letter": "B-",
+     "count": 26
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 20
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 4.5,
+   "usefulness": 5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Negar Beheshti Pour",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.45,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Alexander Katz",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Nitash Balsara",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Carlo Carraro",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Roya Maboudian",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Markita Landry",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.17,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20154"
+  ]
+ },
+ "CHMENG 160": {
+  "course": "CHMENG 160",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.65), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 470,
+   "pctA": 73,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 31
+    },
+    {
+     "letter": "A",
+     "count": 187
+    },
+    {
+     "letter": "A-",
+     "count": 102
+    },
+    {
+     "letter": "B+",
+     "count": 52
+    },
+    {
+     "letter": "B",
+     "count": 45
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 29
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Laura Hirshfield",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "George Tyson",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Kenny Higa",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.82,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Dean Draemel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.18,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "David Humbird",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.18,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Ricardo San Martin",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.18,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20160"
+  ]
+ },
+ "CHMENG 162": {
+  "course": "CHMENG 162",
+  "difficulty": 3.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.31), with 51% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 470,
+   "pctA": 51,
+   "pctBelowB": 14,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 68
+    },
+    {
+     "letter": "A",
+     "count": 84
+    },
+    {
+     "letter": "A-",
+     "count": 70
+    },
+    {
+     "letter": "B+",
+     "count": 63
+    },
+    {
+     "letter": "B",
+     "count": 60
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 32
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jay Keasling",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Ali Mesbah",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.22,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Nitash Balsara",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.31,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Kenneth Jordan",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.09,
+    "midterms": 2,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20162"
+  ]
+ },
+ "CHMENG 170A": {
+  "course": "CHMENG 170A",
+  "difficulty": 3.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.297
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.5/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.46), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 281,
+   "pctA": 52,
+   "pctBelowB": 4,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 49
+    },
+    {
+     "letter": "B+",
+     "count": 51
+    },
+    {
+     "letter": "B",
+     "count": 44
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3.5,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Ryder",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Wenjun Zhang",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.47,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Bob Kiss",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20170A"
+  ]
+ },
+ "CHMENG 170B": {
+  "course": "CHMENG 170B",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.287
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 230,
+   "pctA": 62,
+   "pctBelowB": 2,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 72
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Ryder",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Wenjun Zhang",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Bob Kiss",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20170B"
+  ]
+ },
+ "CHMENG 176": {
+  "course": "CHMENG 176",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.46), with 58% of letter grades in the A range. It usually has 2 scheduled midterms.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 215,
+   "pctA": 58,
+   "pctBelowB": 9,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 29
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 10
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Nitash Balsara",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.36,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Neil Razdan",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.51,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Bryan Mccloskey",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.44,
+    "midterms": 2,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20176"
+  ]
+ },
+ "CHMENG 179": {
+  "course": "CHMENG 179",
+  "difficulty": 3.4,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.253
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.072
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B (3.13), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 131,
+   "pctA": 45,
+   "pctBelowB": 22,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5
+  },
+  "byProfessor": [
+   {
+    "professor": "Roya Maboudian",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.14,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.5,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20179"
+  ]
+ },
+ "CHMENG 180": {
+  "course": "CHMENG 180",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.21), with 34% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 86,
+   "pctA": 34,
+   "pctBelowB": 15,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "S",
+     "count": 3
+    },
+    {
+     "letter": "U",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Schoofs",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.17,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20180"
+  ]
+ },
+ "CHMENG 182": {
+  "course": "CHMENG 182",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.215
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 80,
+   "pctA": 76,
+   "pctBelowB": 2,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Markita Landry",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20182"
+  ]
+ },
+ "CHMENG 183": {
+  "course": "CHMENG 183",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 32,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20183"
+  ]
+ },
+ "CHMENG 186": {
+  "course": "CHMENG 186",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 40,
+   "pctA": 65,
+   "pctBelowB": 8,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Andrew Pendergast",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.24,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Emma Kaeli",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20186"
+  ]
+ },
+ "CHMENG 187": {
+  "course": "CHMENG 187",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.12), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 14,
+   "pctA": 42,
+   "pctBelowB": 8,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Emma Kaeli",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20187"
+  ]
+ },
+ "CHMENG 188": {
+  "course": "CHMENG 188",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Jihan Zhang",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Emma Kaeli",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20188"
+  ]
+ },
+ "CHMENG 189": {
+  "course": "CHMENG 189",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.13)",
+     "value": 3.6,
+     "weight": 0.085
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.13), with 40% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.13,
+   "letter": "B",
+   "students": 16,
+   "pctA": 40,
+   "pctBelowB": 27,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.13,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20189"
+  ]
+ },
+ "CHMENG 195": {
+  "course": "CHMENG 195",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Bryan Mccloskey",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Clayton Radke",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jay Keasling",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Carlo Carraro",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Douglas Clark",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "David Graves",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Berend Smit",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20195"
+  ]
+ },
+ "CHMENG 196": {
+  "course": "CHMENG 196",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jay Keasling",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Roya Maboudian",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Wenjun Zhang",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jeffrey Reimer",
+    "terms": 13,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ting Xu",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Clayton Radke",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Bryan Mccloskey",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Markita Landry",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20196"
+  ]
+ },
+ "CHMENG 197": {
+  "course": "CHMENG 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Roya Maboudian",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 8,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Jay Keasling",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20197"
+  ]
+ },
+ "CHMENG 198": {
+  "course": "CHMENG 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Bryan Mccloskey",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Jeffrey Reimer",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20198"
+  ]
+ },
+ "CHMENG 199": {
+  "course": "CHMENG 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Roya Maboudian",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Shannon Ciston",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20199"
+  ]
+ },
+ "CHMENG 24": {
+  "course": "CHMENG 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Jeffrey Reimer",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%2024"
+  ]
+ },
+ "CHMENG 286": {
+  "course": "CHMENG 286",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Andrew Pendergast",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Emma Kaeli",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20286"
+  ]
+ },
+ "CHMENG 287": {
+  "course": "CHMENG 287",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Emma Kaeli",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20287"
+  ]
+ },
+ "CHMENG 288": {
+  "course": "CHMENG 288",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Jihan Zhang",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Emma Kaeli",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20288"
+  ]
+ },
+ "CHMENG 289": {
+  "course": "CHMENG 289",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Shannon Boettcher",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20289"
+  ]
+ },
+ "CHMENG 40": {
+  "course": "CHMENG 40",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.3
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 297,
+   "pctA": 77,
+   "pctBelowB": 4,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 134
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 54
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%2040"
+  ]
+ },
+ "CHMENG 90": {
+  "course": "CHMENG 90",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.251
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 126,
+   "pctA": 81,
+   "pctBelowB": 2,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexis Bell",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%2090"
+  ]
+ },
+ "CHMENG 98": {
+  "course": "CHMENG 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Bryan Mccloskey",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jeffrey Reimer",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%2098"
+  ]
+ },
+ "CHMENG 98W": {
+  "course": "CHMENG 98W",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Roya Maboudian",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "John Arnold",
+    "terms": 4,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Shamaya Pellum",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%2098W"
+  ]
+ },
+ "CHMENG C170L": {
+  "course": "CHMENG C170L",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.262
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.64), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 148,
+   "pctA": 70,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Francis Cunningham",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.68,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Frederick Twigg",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Shiyu Xia",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jason Ryder",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Zahmiria Bluesky Johnson",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.6,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Yoo-Sung Ko",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Clara Kim",
+    "terms": 3,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Wenjun Zhang",
+    "terms": 3,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20C170L"
+  ]
+ },
+ "CHMENG C178": {
+  "course": "CHMENG C178",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.266
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.076
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.36), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 158,
+   "pctA": 52,
+   "pctBelowB": 12,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 27
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Nitash Balsara",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.3,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Rui Wang",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.49,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.8,
+    "shouldTake": 3.3
+   }
+  ],
+  "reviews": [
+   {
+    "text": "The class is kind of useful, when you are doing research on polymers, but it would be more efficient if you learn by yourself. This course wasted a lot of my time. If you are for the credits, it's fine. If you want to learn something, you'd better just read papers and books.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "Not great if wanted to learn something better",
+    "professor": "Nitash Balsara",
+    "grade": "A+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20C178"
+  ]
+ },
+ "CHMENG H193": {
+  "course": "CHMENG H193",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Wenjun Zhang",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Berend Smit",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Schaffer",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jeffrey Reimer",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Clayton Radke",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ali Mesbah",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Bryan Mccloskey",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kranthi Kiran Mandadapu",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20H193"
+  ]
+ },
+ "CHMENG H194": {
+  "course": "CHMENG H194",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Roya Maboudian",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nitash Balsara",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rui Wang",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Karthik Shekhar",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Clayton Radke",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Markita Landry",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jay Keasling",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Teresa Head-Gordon",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=CHMENG%20H194"
+  ]
+ }
+}

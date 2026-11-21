@@ -1,0 +1,565 @@
+{
+ "id": "major-scandinavian-ba",
+ "title": "Scandinavian BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25834U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25834U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25834U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "danish",
+     "title": "Danish"
+    },
+    {
+     "id": "finnish",
+     "title": "Finnish"
+    },
+    {
+     "id": "norwegian",
+     "title": "Norwegian"
+    },
+    {
+     "id": "old-norse-studies",
+     "title": "Old Norse Studies"
+    },
+    {
+     "id": "swedish",
+     "title": "Swedish"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "danish-lower-division",
+   "title": "Lower Division",
+   "section": "Danish",
+   "choice": "concentration",
+   "option": "danish",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DANISH 1A"
+     },
+     {
+      "type": "course",
+      "course": "DANISH 1B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 60"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 75"
+     }
+    ]
+   }
+  },
+  {
+   "id": "danish-upper-division",
+   "title": "Upper Division",
+   "section": "Danish",
+   "choice": "concentration",
+   "option": "danish",
+   "notes": "Students must complete SCANDIN 149 twice to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SCANDIN 100A"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 100B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 106"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 115"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 149"
+     }
+    ]
+   }
+  },
+  {
+   "id": "danish-electives",
+   "title": "Electives",
+   "section": "Danish",
+   "choice": "concentration",
+   "option": "danish",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "SCANDIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196,
+     "exclude": [
+      "SCANDIN 100A",
+      "SCANDIN 100B",
+      "SCANDIN 149"
+     ]
+    }
+   }
+  },
+  {
+   "id": "finnish-lower-division",
+   "title": "Lower Division",
+   "section": "Finnish",
+   "choice": "concentration",
+   "option": "finnish",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "FINNISH 1A"
+     },
+     {
+      "type": "course",
+      "course": "FINNISH 1B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 60"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 75"
+     }
+    ]
+   }
+  },
+  {
+   "id": "finnish-upper-division",
+   "title": "Upper Division",
+   "section": "Finnish",
+   "choice": "concentration",
+   "option": "finnish",
+   "notes": "Students must complete SCANDIN 149 twice to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "FINNISH 102A"
+     },
+     {
+      "type": "course",
+      "course": "FINNISH 102B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 100A"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 100B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 132"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 149"
+     }
+    ]
+   }
+  },
+  {
+   "id": "finnish-electives",
+   "title": "Electives",
+   "section": "Finnish",
+   "choice": "concentration",
+   "option": "finnish",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "SCANDIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196,
+     "exclude": [
+      "SCANDIN 100A",
+      "SCANDIN 100B",
+      "SCANDIN 132",
+      "SCANDIN 149"
+     ]
+    }
+   }
+  },
+  {
+   "id": "norwegian-lower-division",
+   "title": "Lower Division",
+   "section": "Norwegian",
+   "choice": "concentration",
+   "option": "norwegian",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "NORWEGN 1A"
+     },
+     {
+      "type": "course",
+      "course": "NORWEGN 1B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 60"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 75"
+     }
+    ]
+   }
+  },
+  {
+   "id": "norwegian-upper-division",
+   "title": "Upper Division",
+   "section": "Norwegian",
+   "choice": "concentration",
+   "option": "norwegian",
+   "notes": "Students must complete SCANDIN 149 twice to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SCANDIN 100A"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 100B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SCANDIN C107"
+       },
+       {
+        "type": "course",
+        "course": "THEATER C107"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 120"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 149"
+     }
+    ]
+   }
+  },
+  {
+   "id": "norwegian-electives",
+   "title": "Electives",
+   "section": "Norwegian",
+   "choice": "concentration",
+   "option": "norwegian",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "SCANDIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196,
+     "exclude": [
+      "SCANDIN C107",
+      "SCANDIN 120"
+     ]
+    }
+   }
+  },
+  {
+   "id": "old-norse-studies-lower-division",
+   "title": "Lower Division",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete two courses in one language:"
+   }
+  },
+  {
+   "id": "old-norse-studies-languages",
+   "title": "Languages",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "DANISH 1A",
+      "DANISH 1B",
+      "FINNISH 1A",
+      "FINNISH 1B",
+      "ICELAND 1A",
+      "ICELAND 1B",
+      "LATIN 1",
+      "LATIN 2",
+      "NORWEGN 1A",
+      "NORWEGN 1B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "old-norse-studies-old-norse-studies-concentration",
+   "title": "Old Norse Studies Concentration",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SCANDIN 60"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 75"
+     }
+    ]
+   }
+  },
+  {
+   "id": "old-norse-studies-upper-division",
+   "title": "Upper Division",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "rule": {
+    "type": "manual",
+    "text": "Requirements"
+   }
+  },
+  {
+   "id": "old-norse-studies-language",
+   "title": "Language",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "notes": "With advanced approval by the major advisor and instructor SCANDIN 201A may be taken in place of SCANDIN 101A and SCANDIN 201B taken in place of SCANDIN 101B.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SCANDIN 101A"
+       },
+       {
+        "type": "course",
+        "course": "SCANDIN 201A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SCANDIN 101B"
+       },
+       {
+        "type": "course",
+        "course": "SCANDIN 201B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "old-norse-studies-medieval-culture",
+   "title": "Medieval Culture",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SCANDIN 123",
+      "SCANDIN 125",
+      "SCANDIN 160"
+     ]
+    }
+   }
+  },
+  {
+   "id": "old-norse-studies-readings-in-old-norse",
+   "title": "Readings in Old Norse",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "notes": "Students must complete SCANDIN 149 twice to satisfy this requirement.",
+   "rule": {
+    "type": "course",
+    "course": "SCANDIN 149"
+   }
+  },
+  {
+   "id": "old-norse-studies-electives",
+   "title": "Electives",
+   "section": "Old Norse Studies",
+   "choice": "concentration",
+   "option": "old-norse-studies",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "SCANDIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196,
+     "exclude": [
+      "SCANDIN 101A",
+      "SCANDIN 101B",
+      "SCANDIN 123",
+      "SCANDIN 125",
+      "SCANDIN 149",
+      "SCANDIN 160"
+     ]
+    }
+   }
+  },
+  {
+   "id": "swedish-lower-division",
+   "title": "Lower Division",
+   "section": "Swedish",
+   "choice": "concentration",
+   "option": "swedish",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SWEDISH 1A"
+     },
+     {
+      "type": "course",
+      "course": "SWEDISH 1B"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 60"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 75"
+     }
+    ]
+   }
+  },
+  {
+   "id": "swedish-upper-division",
+   "title": "Upper Division",
+   "section": "Swedish",
+   "choice": "concentration",
+   "option": "swedish",
+   "notes": "Students must complete SCANDIN 149 twice to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SCANDIN 100A"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 100B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SCANDIN C108"
+       },
+       {
+        "type": "course",
+        "course": "THEATER C108"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 115"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 149"
+     }
+    ]
+   }
+  },
+  {
+   "id": "swedish-electives",
+   "title": "Electives",
+   "section": "Swedish",
+   "choice": "concentration",
+   "option": "swedish",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "subjects": [
+      "SCANDIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196,
+     "exclude": [
+      "SCANDIN 100A",
+      "SCANDIN 100B",
+      "SCANDIN C108",
+      "SCANDIN 115",
+      "SCANDIN 149"
+     ]
+    }
+   }
+  }
+ ]
+}

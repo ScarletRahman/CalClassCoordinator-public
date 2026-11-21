@@ -1,0 +1,59 @@
+{
+ "id": "minor-portuguese-languages-literatures-and-cultures",
+ "title": "Portuguese Languages, Literatures & Cultures minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I053U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I053U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I053U",
+ "notes": [
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "portuguese-language",
+   "title": "Portuguese Language",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "course",
+    "course": "PORTUG 50"
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PORTUG 102"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 103"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division",
+   "title": "Upper Division",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "subjects": [
+      "PORTUG"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196
+    }
+   }
+  }
+ ]
+}

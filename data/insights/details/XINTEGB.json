@@ -1,0 +1,280 @@
+{
+ "XINTEGB 31": {
+  "course": "XINTEGB 31",
+  "difficulty": 3.0,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.273
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.078
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 2.0/5 for usefulness. The average grade is B+ (3.32), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 176,
+   "pctA": 51,
+   "pctBelowB": 14,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 28
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Timothy Markowitz",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.35,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 3.0,
+    "shouldTake": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XINTEGB%2031"
+  ]
+ },
+ "XINTEGB 33": {
+  "course": "XINTEGB 33",
+  "difficulty": 3.1,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B (2.98)",
+     "value": 4.1,
+     "weight": 0.286
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.082
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.7/5 for difficulty, 1.7/5 for workload and 2.7/5 for usefulness. The average grade is B (2.98), with 38% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.98,
+   "letter": "B",
+   "students": 224,
+   "pctA": 38,
+   "pctBelowB": 27,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 41
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.7,
+   "workload": 1.7,
+   "usefulness": 2.7,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Bonnie Rauscher",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.88,
+    "studentCount": 3,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 2.7,
+    "difficulty": 3.2,
+    "shouldTake": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XINTEGB%2033"
+  ]
+ }
+}

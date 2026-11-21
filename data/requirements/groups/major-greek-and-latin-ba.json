@@ -1,0 +1,147 @@
+{
+ "id": "major-greek-and-latin-ba",
+ "title": "Greek and Latin BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25625U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25625U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25625U",
+ "requirements": [
+  {
+   "id": "greek-and-roman-civilization",
+   "title": "Greek and Roman Civilization",
+   "section": "Lower Division",
+   "notes": "AGRS 17A or 17B can replace AGRS 10A or 10B with advisor approval.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10A"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10B"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "introductory-language-courses",
+   "title": "Introductory Language Courses",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 16,
+    "filter": {
+     "courses": [
+      "GREEK 1",
+      "GREEK 2",
+      "GREEK 15",
+      "LATIN 1",
+      "LATIN 2",
+      "LATIN 15"
+     ]
+    }
+   }
+  },
+  {
+   "id": "intermediate-language-courses",
+   "title": "Intermediate Language Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GREEK 100"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GREEK 101"
+       },
+       {
+        "type": "course",
+        "course": "GREEK 102"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LATIN 100"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LATIN 101"
+       },
+       {
+        "type": "course",
+        "course": "LATIN 102"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "senior-reading",
+   "title": "Senior Reading",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "GREEK",
+      "LATIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  },
+  {
+   "id": "greek-and-roman-civilization-2",
+   "title": "Greek & Roman Civilization",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "AGRS"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,680 @@
+{
+ "id": "major-environmental-engineering-bs",
+ "title": "Environmental Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16384U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16384U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16384U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biology-and-physics",
+   "title": "Biology and Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A"
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 11"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 70"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 93"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-science",
+   "title": "Data Science",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "basic-science-elective",
+   "title": "Basic Science Elective",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 3A"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-engineering-core",
+   "title": "Environmental Engineering Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 8,
+    "filter": {
+     "courses": [
+      "CIVENG C103N",
+      "ESPM C130",
+      "GEOG C136",
+      "CIVENG C106",
+      "EPS C180",
+      "ESPM C180",
+      "CIVENG 100",
+      "CIVENG 111",
+      "CIVENG 111L",
+      "CIVENG 115"
+     ]
+    }
+   }
+  },
+  {
+   "id": "climate-change-elective",
+   "title": "Climate Change Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 108"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 110"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-justice-elective",
+   "title": "Environmental Justice Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 119"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "project-management-environmental-policy-elective",
+   "title": "Project Management / Environmental Policy Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 167"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 119"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 180A"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C160"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C176"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W174"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 170"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 60"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 101A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 101"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL 187"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-humanities-elective",
+   "title": "Environmental Humanities Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AMERSTD C171"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH C171"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C119A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C162A"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C176"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C176"
+     },
+     {
+      "type": "course",
+      "course": "IAS C176"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C192"
+     },
+     {
+      "type": "course",
+      "course": "UGBA C192R"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 170"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 100"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 102"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 106"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C167"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH C160"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "ESPM W169"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 160AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C112"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL C100D"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 138"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 181"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 105"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 120AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 128AC"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 130"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 170"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 179"
+     },
+     {
+      "type": "course",
+      "course": "MBN 104"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 101"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150B"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 127"
+     },
+     {
+      "type": "course",
+      "course": "UKRAINI 168"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geotechnical-elective",
+   "title": "Geotechnical Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 170A"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 171"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 175"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 176"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 188"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-technical-elective",
+   "title": "Upper Division Technical Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "AEROENG",
+      "ASTRON",
+      "BIOENG",
+      "CHEM",
+      "CHMENG",
+      "CIVENG",
+      "COMPSCI",
+      "CYPLAN",
+      "DATA",
+      "DESINV",
+      "EECS",
+      "ELENG",
+      "ENERES",
+      "ENGIN",
+      "ENVECON",
+      "EPS",
+      "ESPM",
+      "INDENG",
+      "INTEGBI",
+      "LDARCH",
+      "MATH",
+      "MATSCI",
+      "MCELLBI",
+      "MECENG",
+      "NEU",
+      "NUCENG",
+      "PBHLTH",
+      "PHYSICS",
+      "PLANTBI",
+      "STAT"
+     ],
+     "minNumber": 100,
+     "maxNumber": 199,
+     "exclude": [
+      "BIOENG 100",
+      "BIOENG 153",
+      "CHEM 100",
+      "CHEM 149",
+      "CHEM 192",
+      "CYPLAN 180B",
+      "CYPLAN 190",
+      "CYPLAN 197",
+      "DATA C104",
+      "DESINV 190E",
+      "ENERES 190",
+      "ENERES C100",
+      "ENERES C124",
+      "ENERES C160",
+      "ENERES C176",
+      "ENERES C180",
+      "ENERES C192",
+      "ENGIN 125",
+      "ENGIN 157AC",
+      "ENGIN 180",
+      "ENGIN 183",
+      "ENGIN 183A",
+      "ENGIN 183B",
+      "ENGIN 183C",
+      "ENGIN 183D",
+      "ENGIN 183E",
+      "ENGIN 184",
+      "ENGIN 185",
+      "ENGIN 187",
+      "ENGIN 188",
+      "ENGIN 195A",
+      "ENGIN 195B",
+      "ENVECON 185",
+      "ENVECON C176",
+      "ENVECON C180",
+      "ENVECON C188",
+      "EPS C100",
+      "ESPM 109B",
+      "ESPM 130",
+      "ESPM 151",
+      "ESPM 155AC",
+      "ESPM 160AC",
+      "ESPM 161",
+      "ESPM 161A",
+      "ESPM 162",
+      "ESPM 162A",
+      "ESPM 163AC",
+      "ESPM 165",
+      "ESPM 168",
+      "ESPM 169",
+      "ESPM 178B",
+      "ESPM 190",
+      "ESPM C105",
+      "ESPM C124",
+      "ESPM C135A",
+      "ESPM C162A",
+      "ESPM C176",
+      "ESPM C193A",
+      "INDENG 190",
+      "INDENG 190B",
+      "INDENG 190C",
+      "INDENG 190D",
+      "INDENG 190F",
+      "INDENG 190G",
+      "INDENG 190H",
+      "INDENG 190I",
+      "INDENG 190K",
+      "INTEGBI 101",
+      "INTEGBI 191",
+      "INTEGBI C100",
+      "INTEGBI C105",
+      "LDARCH 130",
+      "LDARCH 135",
+      "LDARCH 154",
+      "LDARCH 160",
+      "LDARCH 170",
+      "LDARCH 187",
+      "LDARCH 197",
+      "LDARCH 171",
+      "MATH 151",
+      "MATH 152",
+      "MATH 153",
+      "MATH 160",
+      "MATH C103",
+      "MCELLBI 186B",
+      "MECENG 191K",
+      "NEU 110",
+      "NEU 162",
+      "PBHLTH 101",
+      "PBHLTH 107",
+      "PBHLTH 155D",
+      "PBHLTH 188",
+      "PBHLTH 196",
+      "PBHLTH 197",
+      "PHYSICS 100"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capstone-design-requirement",
+   "title": "Capstone Design Requirement",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 105"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 112"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 186"
+     }
+    ]
+   }
+  }
+ ]
+}

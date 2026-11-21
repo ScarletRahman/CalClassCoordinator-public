@@ -1,0 +1,23 @@
+{
+ "why": "The catalog names only UGBA 10X, the current number of Principles of Business. Students who took it as UGBA 10 before the renumbering have met the same prerequisite, so both numbers are listed.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/70141U"
+ ],
+ "replace": {
+  "business-principles": {
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "UGBA 10X"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 10"
+     }
+    ]
+   }
+  }
+ }
+}

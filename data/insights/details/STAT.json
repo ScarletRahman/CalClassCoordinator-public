@@ -1,0 +1,4653 @@
+{
+ "STAT 133": {
+  "course": "STAT 133",
+  "difficulty": 3.1,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (18 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.274
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.338
+    },
+    {
+     "label": "Student workload rating (18)",
+     "value": 3.4,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (18 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.313
+    },
+    {
+     "label": "Tone of written student reviews (53 on file)",
+     "value": 2.5,
+     "weight": 0.139
+    }
+   ]
+  },
+  "sentiment": "Reviews split sharply. Older ones call it an easy, manageable R course, while recent ones describe quizzes worth about half the grade that are much harder than homework, with no drops or curve, heavy workload for 3 units, and disorganization. Many recent students would not recommend it.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 1453,
+   "pctA": 59,
+   "pctBelowB": 13,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 108
+    },
+    {
+     "letter": "A",
+     "count": 427
+    },
+    {
+     "letter": "A-",
+     "count": 246
+    },
+    {
+     "letter": "B+",
+     "count": 157
+    },
+    {
+     "letter": "B",
+     "count": 150
+    },
+    {
+     "letter": "B-",
+     "count": 75
+    },
+    {
+     "letter": "C+",
+     "count": 50
+    },
+    {
+     "letter": "C",
+     "count": 40
+    },
+    {
+     "letter": "C-",
+     "count": 23
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 14
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 34
+    },
+    {
+     "letter": "P",
+     "count": 95
+    },
+    {
+     "letter": "NP",
+     "count": 23
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 18,
+   "difficulty": 3.3,
+   "workload": 3.4,
+   "usefulness": 3.6,
+   "recordedPct": 19,
+   "attendanceRequiredPct": 12
+  },
+  "byProfessor": [
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 8,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.44,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Andrew Bray",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.07,
+    "studentCount": 14,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.5,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20133"
+  ]
+ },
+ "STAT 134": {
+  "course": "STAT 134",
+  "difficulty": 4.1,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (38 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.309
+    },
+    {
+     "label": "Average grade B- (2.84)",
+     "value": 4.6,
+     "weight": 0.343
+    },
+    {
+     "label": "Student workload rating (38)",
+     "value": 3.8,
+     "weight": 0.133
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.4,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (38 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.353
+    },
+    {
+     "label": "Tone of written student reviews (117 on file)",
+     "value": 2.6,
+     "weight": 0.145
+    }
+   ]
+  },
+  "sentiment": "Reviews are sharply split. Some find lectures clear, grading fair and the class enjoyable, while many describe disorganization, shifting syllabi, tangents, a much harder final and slow grading. Reading the textbook and doing practice problems is the repeated advice, and exams carry heavy weight.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.84,
+   "letter": "B-",
+   "students": 2308,
+   "pctA": 35,
+   "pctBelowB": 35,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 140
+    },
+    {
+     "letter": "A",
+     "count": 400
+    },
+    {
+     "letter": "A-",
+     "count": 211
+    },
+    {
+     "letter": "B+",
+     "count": 218
+    },
+    {
+     "letter": "B",
+     "count": 239
+    },
+    {
+     "letter": "B-",
+     "count": 192
+    },
+    {
+     "letter": "C+",
+     "count": 196
+    },
+    {
+     "letter": "C",
+     "count": 196
+    },
+    {
+     "letter": "C-",
+     "count": 198
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 15
+    },
+    {
+     "letter": "F",
+     "count": 135
+    },
+    {
+     "letter": "P",
+     "count": 124
+    },
+    {
+     "letter": "NP",
+     "count": 35
+    },
+    {
+     "letter": "S",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 38,
+   "difficulty": 4.1,
+   "workload": 3.8,
+   "usefulness": 3.9,
+   "recordedPct": 29,
+   "attendanceRequiredPct": 11
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Lucas",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.76,
+    "studentCount": 16,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 3.8,
+    "difficulty": 4.4,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Shirshendu Ganguly",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.8,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Alexander Strang",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.96,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4,
+    "difficulty": 3.9,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.81,
+    "studentCount": 18,
+    "studentDifficulty": 4.1,
+    "studentUsefulness": 3.9,
+    "difficulty": 4.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Adityanand Guntuboyina",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.14,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Haiyan Huang",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.14,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Vadim Gorin",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.96,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.07,
+    "difficulty": 4.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "This was the first class I took at Berkeley as part of the Freshman Edge program. It is the best class I've taken in my entire life. Professor Strang always had well-organized lecture notes, well-prepared lectures, and highly detailed examples and explanations to build intuition. The content was also at the perfect level where it was just challenging enough to be interesting and require effort, but not challenging enough to become dull and boring. I loved every moment of being in this class.",
+    "term": "2026 Summer",
+    "source": "Berkeleytime",
+    "title": "One of my favorite classes of all time",
+    "professor": "Alexander Strang",
+    "grade": "A+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20134"
+  ]
+ },
+ "STAT 135": {
+  "course": "STAT 135",
+  "difficulty": 4.0,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade B (2.88)",
+     "value": 4.4,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 3.8,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.6,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.246
+    },
+    {
+     "label": "Tone of written student reviews (31 on file)",
+     "value": 2.6,
+     "weight": 0.133
+    }
+   ]
+  },
+  "sentiment": "Reviews depend heavily on instructor. Some report disorganization, unclear exam expectations and weak preparation for later courses, while others praise caring, helpful teaching and generous curves. Exams and the final are described as difficult, and many suggest leaning on the textbook.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.88,
+   "letter": "B",
+   "students": 997,
+   "pctA": 35,
+   "pctBelowB": 32,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 46
+    },
+    {
+     "letter": "A",
+     "count": 192
+    },
+    {
+     "letter": "A-",
+     "count": 79
+    },
+    {
+     "letter": "B+",
+     "count": 87
+    },
+    {
+     "letter": "B",
+     "count": 113
+    },
+    {
+     "letter": "B-",
+     "count": 88
+    },
+    {
+     "letter": "C+",
+     "count": 61
+    },
+    {
+     "letter": "C",
+     "count": 103
+    },
+    {
+     "letter": "C-",
+     "count": 59
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 17
+    },
+    {
+     "letter": "F",
+     "count": 48
+    },
+    {
+     "letter": "P",
+     "count": 76
+    },
+    {
+     "letter": "NP",
+     "count": 24
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 4,
+   "workload": 3.8,
+   "usefulness": 4,
+   "recordedPct": 20,
+   "attendanceRequiredPct": 20
+  },
+  "byProfessor": [
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.9,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 4,
+    "difficulty": 4.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Elizabeth Purdom",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Mary Combs",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.89,
+    "difficulty": 4.2
+   },
+   {
+    "professor": "Adam Lucas",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.71,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.7,
+    "difficulty": 4.4,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Michael Hochster",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.92,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Sam Pimentel",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.86,
+    "difficulty": 4.3
+   },
+   {
+    "professor": "Haiyan Huang",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.05,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Tyler Mansfield",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.05,
+    "difficulty": 4.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Some of the rigorous, underlying theory is handwaved, but otherwise very good",
+    "term": "2026 Fall",
+    "source": "Berkeleytime",
+    "title": "STAT 135 Review",
+    "professor": "Elizabeth Purdom"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20135"
+  ]
+ },
+ "STAT 150": {
+  "course": "STAT 150",
+  "difficulty": 3.5,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B (3.03)",
+     "value": 3.9,
+     "weight": 0.321
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is B (3.03), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.03,
+   "letter": "B",
+   "students": 560,
+   "pctA": 45,
+   "pctBelowB": 26,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 49
+    },
+    {
+     "letter": "A",
+     "count": 100
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 62
+    },
+    {
+     "letter": "B",
+     "count": 42
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 21
+    },
+    {
+     "letter": "C",
+     "count": 39
+    },
+    {
+     "letter": "C-",
+     "count": 26
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 27
+    },
+    {
+     "letter": "P",
+     "count": 75
+    },
+    {
+     "letter": "NP",
+     "count": 19
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Vadim Gorin",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.98,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Arash Jamshidpey",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.95,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.7,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Alan Hammond",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.74,
+    "difficulty": 4.1
+   },
+   {
+    "professor": "Benson Au",
+    "terms": 5,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.02,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20150"
+  ]
+ },
+ "STAT 151A": {
+  "course": "STAT 151A",
+  "difficulty": 3.5,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.318
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.6,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.19), with 45% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 502,
+   "pctA": 45,
+   "pctBelowB": 18,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 121
+    },
+    {
+     "letter": "A-",
+     "count": 57
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 93
+    },
+    {
+     "letter": "B-",
+     "count": 31
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 36
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 11
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 64
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ryan Giordano",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.12,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Hugo Chardon",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sam Pimentel",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.99,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Nikita Zhivotovskiy",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.37,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.0,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Haiyan Huang",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.36,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Aidan McLoughlin",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.36,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Michael Mahoney",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.51,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20151A"
+  ]
+ },
+ "STAT 152": {
+  "course": "STAT 152",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.177
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 51,
+   "pctA": 80,
+   "pctBelowB": 0,
+   "pctPassNoPass": 90,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20152"
+  ]
+ },
+ "STAT 153": {
+  "course": "STAT 153",
+  "difficulty": 3.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.42), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 693,
+   "pctA": 61,
+   "pctBelowB": 11,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 54
+    },
+    {
+     "letter": "A",
+     "count": 201
+    },
+    {
+     "letter": "A-",
+     "count": 113
+    },
+    {
+     "letter": "B+",
+     "count": 64
+    },
+    {
+     "letter": "B",
+     "count": 72
+    },
+    {
+     "letter": "B-",
+     "count": 36
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 76
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Huth",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Adityanand Guntuboyina",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.0,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Liberty Hamilton",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.89,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Ryan Tibshirani",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.08,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Alice Cima",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.21,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Haiyan Huang",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.21,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Hansheng Jiang",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.48,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ruoqi Yu",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 2.89,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20153"
+  ]
+ },
+ "STAT 154": {
+  "course": "STAT 154",
+  "difficulty": 3.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 3.3,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Few reviews, and they disagree. Several say the machine learning concepts are explained clearly and the structure is organized, while others call it homework heavy with a hard final that does not match the homework or lectures. Grading is described as tough with no curve.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 454,
+   "pctA": 55,
+   "pctBelowB": 16,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 114
+    },
+    {
+     "letter": "A-",
+     "count": 72
+    },
+    {
+     "letter": "B+",
+     "count": 39
+    },
+    {
+     "letter": "B",
+     "count": 57
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 22
+    },
+    {
+     "letter": "C-",
+     "count": 17
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 48
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.6,
+   "workload": 3.6,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Hugo Chardon",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.08,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Adityanand Guntuboyina",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ryan Giordano",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.47,
+    "studentCount": 5,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Song Mei",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Nikita Zhivotovskiy",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.2,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "James Brown",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Nusrat Rabbee",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20154"
+  ]
+ },
+ "STAT 155": {
+  "course": "STAT 155",
+  "difficulty": 3.9,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B (3.00)",
+     "value": 4.0,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.0,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (7 on file)",
+     "value": 2.6,
+     "weight": 0.095
+    }
+   ]
+  },
+  "sentiment": "Very few and conflicting reviews. Older ones describe engaging lectures, fair exams, and a caring instructor. Recent ones complain that the course falls behind the material, the instructor seems disengaged, and exams are extremely hard. Experiences seem to vary a lot by semester.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.0,
+   "letter": "B",
+   "students": 537,
+   "pctA": 40,
+   "pctBelowB": 27,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 88
+    },
+    {
+     "letter": "A-",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 57
+    },
+    {
+     "letter": "B",
+     "count": 48
+    },
+    {
+     "letter": "B-",
+     "count": 41
+    },
+    {
+     "letter": "C+",
+     "count": 36
+    },
+    {
+     "letter": "C",
+     "count": 32
+    },
+    {
+     "letter": "C-",
+     "count": 25
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 20
+    },
+    {
+     "letter": "P",
+     "count": 78
+    },
+    {
+     "letter": "NP",
+     "count": 15
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 4.4,
+   "workload": 4,
+   "usefulness": 3.8,
+   "recordedPct": 60,
+   "attendanceRequiredPct": 20
+  },
+  "byProfessor": [
+   {
+    "professor": "Alan Hammond",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.04,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Jorge Blanco",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.95,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "James Hickman",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.95,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Alexander Strang",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.95,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Arash Jamshidpey",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.03,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 4.0,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Adam Lucas",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.87,
+    "studentCount": 4,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 3.5,
+    "difficulty": 4.2,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Haiyan Huang",
+    "terms": 3,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.04,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20155"
+  ]
+ },
+ "STAT 156": {
+  "course": "STAT 156",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.262
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 73% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 149,
+   "pctA": 73,
+   "pctBelowB": 1,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 45
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Peng Ding",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Amanda Coston",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20156"
+  ]
+ },
+ "STAT 157": {
+  "course": "STAT 157",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.277
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 191,
+   "pctA": 70,
+   "pctBelowB": 4,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 75
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 22
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jingfeng Wu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Mahoney",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alexander Strang",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Shirshendu Ganguly",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.15,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Jacob Noah Steinhardt",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20157"
+  ]
+ },
+ "STAT 158": {
+  "course": "STAT 158",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.17)",
+     "value": 3.5,
+     "weight": 0.291
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.17), with 42% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.17,
+   "letter": "B+",
+   "students": 247,
+   "pctA": 42,
+   "pctBelowB": 16,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 51
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 2
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrew Bray",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.09,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Sam Pimentel",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.13,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Peng Ding",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.36,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20158"
+  ]
+ },
+ "STAT 159": {
+  "course": "STAT 159",
+  "difficulty": 1.8,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.0/5 for difficulty, 1.0/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.79), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 215,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 49
+    },
+    {
+     "letter": "A",
+     "count": 100
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Fernando Perez",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.79,
+    "studentCount": 2,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.5,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20159"
+  ]
+ },
+ "STAT 165": {
+  "course": "STAT 165",
+  "difficulty": 2.4,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.69), with 79% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 214,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 38
+    },
+    {
+     "letter": "A",
+     "count": 98
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "William Fithian",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Jacob Noah Steinhardt",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.75,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20165"
+  ]
+ },
+ "STAT 197": {
+  "course": "STAT 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Liberty Hamilton",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Andrew Bray",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Shirshendu Ganguly",
+    "terms": 5,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Yun Song",
+    "terms": 4,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 4,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Jacob Noah Steinhardt",
+    "terms": 6,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Sandrine Dudoit",
+    "terms": 4,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Adam Lucas",
+    "terms": 4,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20197"
+  ]
+ },
+ "STAT 198": {
+  "course": "STAT 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Michael Leong",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Adam Lucas",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Fithian",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ryan Giordano",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Shirshendu Ganguly",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Everett Wetchler",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20198"
+  ]
+ },
+ "STAT 199": {
+  "course": "STAT 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William Fithian",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alexander Strang",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Everett Wetchler",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ryan Giordano",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Arash Jamshidpey",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Josh Grossman",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20199"
+  ]
+ },
+ "STAT 2": {
+  "course": "STAT 2",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (38 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.309
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (38)",
+     "value": 2.6,
+     "weight": 0.133
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (38 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.353
+    },
+    {
+     "label": "Tone of written student reviews (54 on file)",
+     "value": 3.4,
+     "weight": 0.14
+    }
+   ]
+  },
+  "sentiment": "Students say the class is mostly online with recorded lectures, easy to moderate, and good for fulfilling a stats requirement. Homework and quizzes make up much of the grade, and some warn the final or homework volume can hurt. Experiences depend heavily on the GSI, and opinions on lecture quality are mixed.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 3131,
+   "pctA": 47,
+   "pctBelowB": 17,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 161
+    },
+    {
+     "letter": "A",
+     "count": 737
+    },
+    {
+     "letter": "A-",
+     "count": 515
+    },
+    {
+     "letter": "B+",
+     "count": 442
+    },
+    {
+     "letter": "B",
+     "count": 422
+    },
+    {
+     "letter": "B-",
+     "count": 218
+    },
+    {
+     "letter": "C+",
+     "count": 205
+    },
+    {
+     "letter": "C",
+     "count": 182
+    },
+    {
+     "letter": "C-",
+     "count": 51
+    },
+    {
+     "letter": "F",
+     "count": 61
+    },
+    {
+     "letter": "P",
+     "count": 114
+    },
+    {
+     "letter": "NP",
+     "count": 23
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 38,
+   "difficulty": 2.4,
+   "workload": 2.6,
+   "usefulness": 3.6,
+   "recordedPct": 94,
+   "attendanceRequiredPct": 9
+  },
+  "byProfessor": [
+   {
+    "professor": "Adam Lucas",
+    "terms": 11,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "studentCount": 38,
+    "studentDifficulty": 2.4,
+    "studentUsefulness": 3.6,
+    "difficulty": 2.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Eaman Jahani",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.98,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Chun Yu Hong",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.01,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Maureen Lahiff",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.35,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%202"
+  ]
+ },
+ "STAT 20": {
+  "course": "STAT 20",
+  "difficulty": 3.6,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (94 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.332
+    },
+    {
+     "label": "Average grade B (2.98)",
+     "value": 4.1,
+     "weight": 0.346
+    },
+    {
+     "label": "Student workload rating (94)",
+     "value": 3.5,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.099
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (94 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.38
+    },
+    {
+     "label": "Tone of written student reviews (156 on file)",
+     "value": 3.7,
+     "weight": 0.146
+    }
+   ]
+  },
+  "sentiment": "Students describe a fairly easy, chill class with a lot of coding, where weekly quizzes make up a big part of the grade. Experience depends strongly on the instructor and the GSI. Many praise caring instructors, while some find explanations confusing and grading rubrics unclear.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.98,
+   "letter": "B",
+   "students": 4155,
+   "pctA": 35,
+   "pctBelowB": 26,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 216
+    },
+    {
+     "letter": "A",
+     "count": 618
+    },
+    {
+     "letter": "A-",
+     "count": 548
+    },
+    {
+     "letter": "B+",
+     "count": 462
+    },
+    {
+     "letter": "B",
+     "count": 622
+    },
+    {
+     "letter": "B-",
+     "count": 406
+    },
+    {
+     "letter": "C+",
+     "count": 347
+    },
+    {
+     "letter": "C",
+     "count": 306
+    },
+    {
+     "letter": "C-",
+     "count": 157
+    },
+    {
+     "letter": "D+",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 100
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 110
+    },
+    {
+     "letter": "P",
+     "count": 182
+    },
+    {
+     "letter": "NP",
+     "count": 68
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 94,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 3.6,
+   "recordedPct": 4,
+   "attendanceRequiredPct": 46
+  },
+  "byProfessor": [
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.03,
+    "studentCount": 10,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.5,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Andrea Massari",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.98,
+    "studentCount": 12,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.04,
+    "studentCount": 14,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 3.1,
+    "difficulty": 3.6,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.95,
+    "studentCount": 15,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.9,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Adam Lucas",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.91,
+    "studentCount": 4,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.6,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Curtis McDonald",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.8,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Everett Wetchler",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.96,
+    "studentCount": 25,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 3.6,
+    "difficulty": 3.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Hugo Chardon",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.78,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 4.1,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2020"
+  ]
+ },
+ "STAT 21": {
+  "course": "STAT 21",
+  "difficulty": 2.6,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 2.5/5 for usefulness. The average grade is B+ (3.50), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 933,
+   "pctA": 66,
+   "pctBelowB": 9,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 79
+    },
+    {
+     "letter": "A",
+     "count": 399
+    },
+    {
+     "letter": "A-",
+     "count": 123
+    },
+    {
+     "letter": "B+",
+     "count": 87
+    },
+    {
+     "letter": "B",
+     "count": 107
+    },
+    {
+     "letter": "B-",
+     "count": 37
+    },
+    {
+     "letter": "C+",
+     "count": 21
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 11
+    },
+    {
+     "letter": "F",
+     "count": 20
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 2.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Strang",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.56,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "William Torous",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.56,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Sam Pimentel",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.8,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Andrea Massari",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.44,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2,
+    "difficulty": 2.5,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Yang Chu",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.27,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Zhiyue Hu",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.27,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Haiyan Huang",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.27,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Tae Joo Ahn",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.2,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2021"
+  ]
+ },
+ "STAT 33A": {
+  "course": "STAT 33A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.321
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 559,
+   "pctA": 80,
+   "pctBelowB": 5,
+   "pctPassNoPass": 31,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 210
+    },
+    {
+     "letter": "A-",
+     "count": 72
+    },
+    {
+     "letter": "B+",
+     "count": 33
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 143
+    },
+    {
+     "letter": "NP",
+     "count": 15
+    },
+    {
+     "letter": "S",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 6,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2033A"
+  ]
+ },
+ "STAT 33B": {
+  "course": "STAT 33B",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 4.0,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Students describe an easy, low-stress 1 unit class that teaches basic R. Assignments and exams are called manageable and graded generously, though some find the homework time consuming for the units and lectures boring. Reviewers say lectures are not essential.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 632,
+   "pctA": 77,
+   "pctBelowB": 5,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 264
+    },
+    {
+     "letter": "A-",
+     "count": 102
+    },
+    {
+     "letter": "B+",
+     "count": 57
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 94
+    },
+    {
+     "letter": "NP",
+     "count": 13
+    },
+    {
+     "letter": "S",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 7,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.66,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Andrea Massari",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "chill 1 unit class, weekly assignments\nr is lowk annoying but easy to pick up (idt u need to take 33a bfr 33b if u know basic coding in any other lang) and can be useful for ds research stuff sometimes\nour midterm/final were online unproctored on bcourses",
+    "term": "2024 Spring",
+    "source": "Berkeleytime",
+    "title": "easy A",
+    "professor": "Gaston Sanchez Trujillo",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2033B"
+  ]
+ },
+ "STAT 88": {
+  "course": "STAT 88",
+  "difficulty": 3.6,
+  "shouldTake": 2.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.04)",
+     "value": 3.9,
+     "weight": 0.328
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.094
+    },
+    {
+     "label": "Tone of written student reviews (37 on file)",
+     "value": 1.9,
+     "weight": 0.135
+    }
+   ]
+  },
+  "sentiment": "Most reviewers are negative, citing disorganized lectures with off-topic starts, cold calling, slow communication, late exam materials and difficult quizzes. Discussion sections, office hours and the textbook are the repeated advice. A few say the pace is rigorous but fair and the instructor is caring.",
+  "sentimentWrittenBy": "model",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.04,
+   "letter": "B",
+   "students": 733,
+   "pctA": 39,
+   "pctBelowB": 28,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 177
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 89
+    },
+    {
+     "letter": "B",
+     "count": 85
+    },
+    {
+     "letter": "B-",
+     "count": 47
+    },
+    {
+     "letter": "C+",
+     "count": 72
+    },
+    {
+     "letter": "C",
+     "count": 48
+    },
+    {
+     "letter": "C-",
+     "count": 41
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 23
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 11
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Xiao",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.18,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.91,
+    "midterms": 1,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Ani Adhikari",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.19,
+    "midterms": 1,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Salil Goyal",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.81,
+    "difficulty": 4.0
+   },
+   {
+    "professor": "Syed Rizvi",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.81,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=DATA%20C88S"
+  ]
+ },
+ "STAT 89A": {
+  "course": "STAT 89A",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.236
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 103,
+   "pctA": 60,
+   "pctBelowB": 4,
+   "pctPassNoPass": 54,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 50
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Mahoney",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.28,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2089A"
+  ]
+ },
+ "STAT 97": {
+  "course": "STAT 97",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Bin Yu",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2097"
+  ]
+ },
+ "STAT 98": {
+  "course": "STAT 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 6,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Philip Stark",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Edward Cekici",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Gabriel Husain",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Katherine Phan",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Stephen Song",
+    "terms": 3,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Shane Pauker",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%2098"
+  ]
+ },
+ "STAT C100": {
+  "course": "STAT C100",
+  "difficulty": 3.2,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (74 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.328
+    },
+    {
+     "label": "Average grade B+ (3.28)",
+     "value": 3.1,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (74)",
+     "value": 3.4,
+     "weight": 0.141
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.047
+    },
+    {
+     "label": "Student usefulness rating (74 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.375
+    }
+   ]
+  },
+  "sentiment": "74 students on Berkeleytime rate it 3.2/5 for difficulty, 3.4/5 for workload and 4.6/5 for usefulness. The average grade is B+ (3.28), with 44% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.28,
+   "letter": "B+",
+   "students": 988,
+   "pctA": 44,
+   "pctBelowB": 11,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 44
+    },
+    {
+     "letter": "A",
+     "count": 221
+    },
+    {
+     "letter": "A-",
+     "count": 156
+    },
+    {
+     "letter": "B+",
+     "count": 155
+    },
+    {
+     "letter": "B",
+     "count": 148
+    },
+    {
+     "letter": "B-",
+     "count": 127
+    },
+    {
+     "letter": "C+",
+     "count": 59
+    },
+    {
+     "letter": "C",
+     "count": 34
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 74,
+   "difficulty": 3.2,
+   "workload": 3.4,
+   "usefulness": 4.6,
+   "recordedPct": 90,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Josh Grossman",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "studentCount": 55,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.2,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Ramesh Sridharan",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "studentCount": 12,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.4,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 3,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 4,
+    "difficulty": 3.6,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Sarah Kiefer",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Michael Xiao",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "studentCount": 12,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.8,
+    "difficulty": 3.5,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Narges Norouzi",
+    "terms": 6,
+    "lastTaught": "2025 Spring",
+    "midterms": 2,
+    "studentCount": 19,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.0,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Joseph Gonzalez",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "studentCount": 8,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.2,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Kevin Miao",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20C100"
+  ]
+ },
+ "STAT C102": {
+  "course": "STAT C102",
+  "difficulty": 3.3,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B (3.15)",
+     "value": 3.6,
+     "weight": 0.289
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.4,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.4/5 for difficulty, 3.0/5 for workload and 3.4/5 for usefulness. The average grade is B (3.15), with 55% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually not recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.15,
+   "letter": "B",
+   "students": 236,
+   "pctA": 55,
+   "pctBelowB": 26,
+   "pctPassNoPass": 58,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 132
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.4,
+   "workload": 3,
+   "usefulness": 3.4,
+   "recordedPct": 20,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Alexander Strang",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "midterms": 2,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Ramesh Sridharan",
+    "terms": 8,
+    "lastTaught": "2025 Fall",
+    "midterms": 2,
+    "studentCount": 5,
+    "studentDifficulty": 3.4,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.3,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Peng Ding",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.2,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Adityanand Guntuboyina",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "midterms": 3
+   },
+   {
+    "professor": "Eaman Jahani",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "midterms": 4
+   },
+   {
+    "professor": "Jacob Noah Steinhardt",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Nika Haghtalab",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "midterms": 2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20C102"
+  ]
+ },
+ "STAT C131A": {
+  "course": "STAT C131A",
+  "difficulty": 2.8,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.0/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.44), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 417,
+   "pctA": 59,
+   "pctBelowB": 11,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 105
+    },
+    {
+     "letter": "A-",
+     "count": 69
+    },
+    {
+     "letter": "B+",
+     "count": 52
+    },
+    {
+     "letter": "B",
+     "count": 40
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 15
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 3.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Haiyan Huang",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Josh Grossman",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.38,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Shuva Gupta",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Andrea Massari",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Naveen Ashish",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 2.6,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Everett Wetchler",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.1,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.18,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Elizabeth Purdom",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.36,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20C131A"
+  ]
+ },
+ "STAT C140": {
+  "course": "STAT C140",
+  "difficulty": 4.0,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (35 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.306
+    },
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (35)",
+     "value": 4.5,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.5,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (35 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.35
+    }
+   ]
+  },
+  "sentiment": "35 students on Berkeleytime rate it 4.7/5 for difficulty, 4.5/5 for workload and 4.3/5 for usefulness. The average grade is B (3.12), with 42% of letter grades in the A range. It usually has 3 scheduled midterms. Lectures are usually not recorded.",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 1003,
+   "pctA": 42,
+   "pctBelowB": 24,
+   "pctPassNoPass": 56,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 103
+    },
+    {
+     "letter": "A-",
+     "count": 69
+    },
+    {
+     "letter": "B+",
+     "count": 50
+    },
+    {
+     "letter": "B",
+     "count": 64
+    },
+    {
+     "letter": "B-",
+     "count": 34
+    },
+    {
+     "letter": "C+",
+     "count": 38
+    },
+    {
+     "letter": "C",
+     "count": 33
+    },
+    {
+     "letter": "C-",
+     "count": 25
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 521
+    },
+    {
+     "letter": "NP",
+     "count": 42
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 35,
+   "difficulty": 4.7,
+   "workload": 4.5,
+   "usefulness": 4.3,
+   "recordedPct": 9,
+   "attendanceRequiredPct": 16
+  },
+  "byProfessor": [
+   {
+    "professor": "Ani Adhikari",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "midterms": 3,
+    "studentCount": 10,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 4.4,
+    "difficulty": 4.3,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Alexander Strang",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "midterms": 3,
+    "studentCount": 20,
+    "studentDifficulty": 4.7,
+    "studentUsefulness": 4.2,
+    "difficulty": 4.4,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Michael Xiao",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "studentCount": 5,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4.2,
+    "difficulty": 4.4,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20C140"
+  ]
+ },
+ "STAT C8": {
+  "course": "STAT C8",
+  "difficulty": 2.7,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (271 on Berkeleytime)",
+     "value": 3.0,
+     "weight": 0.344
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.339
+    },
+    {
+     "label": "Student workload rating (271)",
+     "value": 3.2,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.049
+    },
+    {
+     "label": "Student usefulness rating (271 on Berkeleytime)",
+     "value": 4.0,
+     "weight": 0.393
+    }
+   ]
+  },
+  "sentiment": "271 students on Berkeleytime rate it 3.0/5 for difficulty, 3.2/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.63), with 74% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 1587,
+   "pctA": 74,
+   "pctBelowB": 5,
+   "pctPassNoPass": 34,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 55
+    },
+    {
+     "letter": "A",
+     "count": 547
+    },
+    {
+     "letter": "A-",
+     "count": 169
+    },
+    {
+     "letter": "B+",
+     "count": 89
+    },
+    {
+     "letter": "B",
+     "count": 92
+    },
+    {
+     "letter": "B-",
+     "count": 40
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 498
+    },
+    {
+     "letter": "NP",
+     "count": 37
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 271,
+   "difficulty": 3.0,
+   "workload": 3.2,
+   "usefulness": 4.0,
+   "recordedPct": 96,
+   "attendanceRequiredPct": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 6,
+    "lastTaught": "2026 Summer",
+    "studentCount": 177,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Swupnil Sahai",
+    "terms": 5,
+    "lastTaught": "2024 Spring",
+    "studentCount": 22,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.0,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Muhammad Khan",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "studentCount": 13,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "John DeNero",
+    "terms": 4,
+    "lastTaught": "2023 Summer",
+    "studentCount": 24,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.0,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Kevin Miao",
+    "terms": 2,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Ciara Acosta",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Kanu Grover",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Joseph Gonzalez",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20C8"
+  ]
+ },
+ "STAT C88S": {
+  "course": "STAT C88S",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.335
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.27), with 50% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 1092,
+   "pctA": 50,
+   "pctBelowB": 17,
+   "pctPassNoPass": 31,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 56
+    },
+    {
+     "letter": "A",
+     "count": 240
+    },
+    {
+     "letter": "A-",
+     "count": 83
+    },
+    {
+     "letter": "B+",
+     "count": 101
+    },
+    {
+     "letter": "B",
+     "count": 94
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 43
+    },
+    {
+     "letter": "C",
+     "count": 39
+    },
+    {
+     "letter": "C-",
+     "count": 12
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 18
+    },
+    {
+     "letter": "P",
+     "count": 317
+    },
+    {
+     "letter": "NP",
+     "count": 24
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Xiao",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Shobhana Stoyanov",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.97,
+    "midterms": 1,
+    "difficulty": 3.6
+   },
+   {
+    "professor": "Ani Adhikari",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "midterms": 1
+   },
+   {
+    "professor": "Salil Goyal",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Syed Rizvi",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20C88S"
+  ]
+ },
+ "STAT H195": {
+  "course": "STAT H195",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Gaston Sanchez Trujillo",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Elizabeth Purdom",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Adityanand Guntuboyina",
+    "terms": 8,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Alexander Strang",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Liberty Hamilton",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Bin Yu",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Andrew Bray",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Arash Jamshidpey",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20H195"
+  ]
+ },
+ "STAT W21": {
+  "course": "STAT W21",
+  "difficulty": 3.0,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.317
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.091
+    },
+    {
+     "label": "Tone of written student reviews (28 on file)",
+     "value": 2.3,
+     "weight": 0.131
+    }
+   ]
+  },
+  "sentiment": "Students say this online statistics class is a big time sink, with tedious homework, outdated tools, and inconsistent help. Exams are described as tricky and harder than assignments. Some say the instructor is helpful in office hours and flexible with grading. Reviews lean negative, and self-study is essential.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 481,
+   "pctA": 58,
+   "pctBelowB": 17,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 94
+    },
+    {
+     "letter": "A",
+     "count": 104
+    },
+    {
+     "letter": "A-",
+     "count": 46
+    },
+    {
+     "letter": "B+",
+     "count": 48
+    },
+    {
+     "letter": "B",
+     "count": 43
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 19
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 45
+    },
+    {
+     "letter": "NP",
+     "count": 13
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STAT%20W21"
+  ]
+ }
+}

@@ -1,0 +1,572 @@
+{
+ "id": "minor-astrophysics",
+ "title": "Astrophysics minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I069U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I069U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I069U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "calculus-i",
+   "title": "Calculus I",
+   "section": "Prerequisites",
+   "notes": "Students must complete each course with a letter grade.\nAlso satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus BC, score 3+\n- AP: Mathematics: Calculus AB, score 3+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\n- IB: HL Further Mathematics, score 6+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "calculus-ii",
+   "title": "Calculus II",
+   "section": "Prerequisites",
+   "notes": "Also satisfied by:\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus BC, score 5\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7\n- IB: HL Further Mathematics, score 7",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH H1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "multivariable-calculus",
+   "title": "Multivariable Calculus",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH N53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linear-algebra",
+   "title": "Linear Algebra",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH N54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "MATH H54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS W89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-a-series",
+   "title": "Physics: A Series",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-b-series",
+   "title": "Physics: B Series",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5BL"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-c-series",
+   "title": "Physics: C Series",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5C"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5CL"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "informal-preparation-for-upper-division",
+   "title": "Informal Preparation for Upper Division",
+   "section": "Prerequisites",
+   "notes": "The department recommends that students complete ASTRON 7A and 7B before taking upper division coursework. This is not a requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 7A"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "A maximum of two transfer courses is allowed to fulfill upper division requirements for the Astrophysics Minor.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 120"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 121"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 128"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 160"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ASTRON C161"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS C161"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ASTRON C162"
+       },
+       {
+        "type": "course",
+        "course": "EPS C162"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 12A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 104B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 105"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 108"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 122"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 125"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 143"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 160"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 164"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 169"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 184"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 186"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 188"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 189"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 120"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 108"
+     },
+     {
+      "type": "course",
+      "course": "EPS 109"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "EPS 122"
+     },
+     {
+      "type": "course",
+      "course": "EPS 124"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C162"
+       },
+       {
+        "type": "course",
+        "course": "ASTRON C162"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EPS C181"
+     },
+     {
+      "type": "course",
+      "course": "MATH 100"
+     },
+     {
+      "type": "course",
+      "course": "MATH 104"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 113"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 160"
+     },
+     {
+      "type": "course",
+      "course": "MATH 185"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C162"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 163"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 100"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 101"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 105"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 110A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 110B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 111A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 111B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 129"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 137A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 137B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 139"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 141A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 141B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 142"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 151"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 188"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS C161"
+       },
+       {
+        "type": "course",
+        "course": "ASTRON C161"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS C180"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     },
+     {
+      "type": "course",
+      "course": "STAT 135"
+     },
+     {
+      "type": "course",
+      "course": "STAT 153"
+     },
+     {
+      "type": "course",
+      "course": "STAT 154"
+     },
+     {
+      "type": "course",
+      "course": "STAT 159"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     }
+    ]
+   }
+  }
+ ]
+}

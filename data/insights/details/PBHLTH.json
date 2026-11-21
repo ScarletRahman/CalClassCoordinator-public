@@ -1,0 +1,5253 @@
+{
+ "PBHLTH 101": {
+  "course": "PBHLTH 101",
+  "difficulty": 1.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 1.9,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.339
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 1.9/5 for difficulty, 2.0/5 for workload and 3.3/5 for usefulness. The average grade is A (3.89), with 93% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 1603,
+   "pctA": 93,
+   "pctBelowB": 2,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 913
+    },
+    {
+     "letter": "A",
+     "count": 382
+    },
+    {
+     "letter": "A-",
+     "count": 94
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 107
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 1.9,
+   "workload": 2,
+   "usefulness": 3.3,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 83
+  },
+  "byProfessor": [
+   {
+    "professor": "Lauren van der Walt",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.88,
+    "studentCount": 7,
+    "studentDifficulty": 1.9,
+    "studentUsefulness": 3.3,
+    "difficulty": 1.6,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Marlon Maus",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.86,
+    "studentCount": 7,
+    "studentDifficulty": 1.9,
+    "studentUsefulness": 3.3,
+    "difficulty": 1.6,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20101"
+  ]
+ },
+ "PBHLTH 104": {
+  "course": "PBHLTH 104",
+  "difficulty": 2.3,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 4.0/5 for usefulness.",
+  "finalExam": "A",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ronald Dahl",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20104"
+  ]
+ },
+ "PBHLTH 107": {
+  "course": "PBHLTH 107",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.248
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.76), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 121,
+   "pctA": 89,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 31
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ashika John",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Emilie Iannarelli",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.72,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Khirin Carter",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.68,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Mari Matthews",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.77,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20107"
+  ]
+ },
+ "PBHLTH 108": {
+  "course": "PBHLTH 108",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.285
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 219,
+   "pctA": 90,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 128
+    },
+    {
+     "letter": "A",
+     "count": 39
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anke Hemmerling",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Deborah Mindry",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.76,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20108"
+  ]
+ },
+ "PBHLTH 110A": {
+  "course": "PBHLTH 110A",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.189
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 59,
+   "pctA": 95,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 50
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ariana Bennett",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.93,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20110A"
+  ]
+ },
+ "PBHLTH 112": {
+  "course": "PBHLTH 112",
+  "difficulty": 2.3,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.276
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.90), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 186,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 120
+    },
+    {
+     "letter": "A",
+     "count": 45
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Hildy Baker",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Arthur Reingold",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.92,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20112"
+  ]
+ },
+ "PBHLTH 115": {
+  "course": "PBHLTH 115",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.234
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.42), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 101,
+   "pctA": 58,
+   "pctBelowB": 9,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 28
+    },
+    {
+     "letter": "A-",
+     "count": 17
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20115"
+  ]
+ },
+ "PBHLTH 116": {
+  "course": "PBHLTH 116",
+  "difficulty": 2.1,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (20 on Berkeleytime)",
+     "value": 1.6,
+     "weight": 0.28
+    },
+    {
+     "label": "Student workload rating (20)",
+     "value": 2,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (20 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.32
+    }
+   ]
+  },
+  "sentiment": "20 students on Berkeleytime rate it 1.6/5 for difficulty, 2.0/5 for workload and 3.4/5 for usefulness. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 20,
+   "difficulty": 1.6,
+   "workload": 2,
+   "usefulness": 3.4,
+   "recordedPct": 61,
+   "attendanceRequiredPct": 95
+  },
+  "byProfessor": [
+   {
+    "professor": "Darlene Francis",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "studentCount": 20,
+    "studentDifficulty": 1.6,
+    "studentUsefulness": 3.4,
+    "difficulty": 1.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Ann Keller",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Very light class, 2hr online lecture + 1hr in person discussion. Light weekly assignments and three easy midterms. Although it's easy, it's relatively interesting content.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Light class, do recommend",
+    "professor": "Darlene Francis"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20116"
+  ]
+ },
+ "PBHLTH 118": {
+  "course": "PBHLTH 118",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.275
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 73% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 184,
+   "pctA": 73,
+   "pctBelowB": 7,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 75
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sarah Zyba",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.7,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Erin Milner",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.41,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20118"
+  ]
+ },
+ "PBHLTH 124": {
+  "course": "PBHLTH 124",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.239
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 107,
+   "pctA": 89,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Hector Rodriguez",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.82,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20124"
+  ]
+ },
+ "PBHLTH 126": {
+  "course": "PBHLTH 126",
+  "difficulty": 2.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.3
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.47), with 57% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 299,
+   "pctA": 57,
+   "pctBelowB": 5,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 53
+    },
+    {
+     "letter": "B+",
+     "count": 28
+    },
+    {
+     "letter": "B",
+     "count": 47
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 62
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Dan Zeltzer",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.44,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Brent Fulton",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.4,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.7,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20126"
+  ]
+ },
+ "PBHLTH 129": {
+  "course": "PBHLTH 129",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.07)",
+     "value": 3.8,
+     "weight": 0.309
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.07), with 34% of letter grades in the A range.",
+  "finalExam": "C",
+  "grades": {
+   "average": 3.07,
+   "letter": "B",
+   "students": 381,
+   "pctA": 34,
+   "pctBelowB": 21,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 68
+    },
+    {
+     "letter": "B",
+     "count": 51
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 21
+    },
+    {
+     "letter": "C",
+     "count": 23
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 41
+    },
+    {
+     "letter": "NP",
+     "count": 16
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "William Jagust",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.9,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20129"
+  ]
+ },
+ "PBHLTH 130": {
+  "course": "PBHLTH 130",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.295
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 268,
+   "pctA": 90,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 166
+    },
+    {
+     "letter": "A-",
+     "count": 49
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Flagg",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20130"
+  ]
+ },
+ "PBHLTH 132": {
+  "course": "PBHLTH 132",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.254
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 50% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 132,
+   "pctA": 50,
+   "pctBelowB": 4,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 29
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "S",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ziad Obermeyer",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.43,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20132"
+  ]
+ },
+ "PBHLTH 142": {
+  "course": "PBHLTH 142",
+  "difficulty": 2.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (20 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.28
+    },
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.343
+    },
+    {
+     "label": "Student workload rating (20)",
+     "value": 3.2,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (20 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.32
+    }
+   ]
+  },
+  "sentiment": "20 students on Berkeleytime rate it 3.0/5 for difficulty, 3.2/5 for workload and 3.6/5 for usefulness. The average grade is A- (3.59), with 72% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 2374,
+   "pctA": 72,
+   "pctBelowB": 7,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 316
+    },
+    {
+     "letter": "A",
+     "count": 913
+    },
+    {
+     "letter": "A-",
+     "count": 429
+    },
+    {
+     "letter": "B+",
+     "count": 196
+    },
+    {
+     "letter": "B",
+     "count": 184
+    },
+    {
+     "letter": "B-",
+     "count": 116
+    },
+    {
+     "letter": "C+",
+     "count": 50
+    },
+    {
+     "letter": "C",
+     "count": 46
+    },
+    {
+     "letter": "C-",
+     "count": 25
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 17
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 48
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 9
+    },
+    {
+     "letter": "U",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 20,
+   "difficulty": 3,
+   "workload": 3.2,
+   "usefulness": 3.6,
+   "recordedPct": 88,
+   "attendanceRequiredPct": 39
+  },
+  "byProfessor": [
+   {
+    "professor": "Mi-Suk Kang Dufour",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.51,
+    "studentCount": 9,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.7,
+    "difficulty": 2.9,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Xiudi Li",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Jiaxin Qing",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.76,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.2,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Tomer Altman",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.48,
+    "studentCount": 7,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 3.6,
+    "difficulty": 2.5,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Alan Hubbard",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.57,
+    "midterms": 2,
+    "difficulty": 2.4
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Fine course, just learning basic R. The labs are tedious but the professors and GSIs are so helpful. Take during summer if you can!",
+    "term": "2026 Summer",
+    "source": "Berkeleytime",
+    "title": "Summer 142",
+    "professor": "Jiaxin Qing",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20142"
+  ]
+ },
+ "PBHLTH 142W": {
+  "course": "PBHLTH 142W",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.316
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.81), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 462,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 182
+    },
+    {
+     "letter": "A",
+     "count": 116
+    },
+    {
+     "letter": "A-",
+     "count": 80
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 20
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Emily Place",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.87,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.6,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Mi-Suk Kang Dufour",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20142W"
+  ]
+ },
+ "PBHLTH 150A": {
+  "course": "PBHLTH 150A",
+  "difficulty": 3.6,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.17)",
+     "value": 3.5,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.5/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.17), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.17,
+   "letter": "B+",
+   "students": 1139,
+   "pctA": 46,
+   "pctBelowB": 22,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 101
+    },
+    {
+     "letter": "A",
+     "count": 242
+    },
+    {
+     "letter": "A-",
+     "count": 154
+    },
+    {
+     "letter": "B+",
+     "count": 110
+    },
+    {
+     "letter": "B",
+     "count": 142
+    },
+    {
+     "letter": "B-",
+     "count": 91
+    },
+    {
+     "letter": "C+",
+     "count": 72
+    },
+    {
+     "letter": "C",
+     "count": 65
+    },
+    {
+     "letter": "C-",
+     "count": 56
+    },
+    {
+     "letter": "D+",
+     "count": 22
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 60
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4.5,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Lisa Barcellos",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.05,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.8,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Mahasin Mujahid",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.08,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Lila Sheira",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.16,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 3,
+    "difficulty": 3.7,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Joseph Lewnard",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.02,
+    "difficulty": 3.8
+   }
+  ],
+  "reviews": [
+   {
+    "text": "The class was very difficult, however, if you put your time and effort into it, you will be able to pass. Even though I did below the mean on the first exam, I was able to lock in and get a B+ at the end of the semester so don't feel discouraged! Also, do not fall behind because there is way too much material per exam",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Very difficult but will pass if you lock in!",
+    "professor": "Mahasin Mujahid, Lila Sheira",
+    "grade": "B+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20150A"
+  ]
+ },
+ "PBHLTH 150B": {
+  "course": "PBHLTH 150B",
+  "difficulty": 1.8,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 1.8/5 for difficulty, 2.2/5 for workload and 4.2/5 for usefulness. The average grade is A (3.89), with 92% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 1130,
+   "pctA": 92,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 60
+    },
+    {
+     "letter": "A",
+     "count": 840
+    },
+    {
+     "letter": "A-",
+     "count": 118
+    },
+    {
+     "letter": "B+",
+     "count": 50
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 1.8,
+   "workload": 2.2,
+   "usefulness": 4.2,
+   "recordedPct": 75,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Ajay Pillarisetti",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.93,
+    "studentCount": 5,
+    "studentDifficulty": 1.8,
+    "studentUsefulness": 4.2,
+    "difficulty": 1.5,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "David Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.9,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Rainbow Rubin",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.6,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20150B"
+  ]
+ },
+ "PBHLTH 150D": {
+  "course": "PBHLTH 150D",
+  "difficulty": 2.4,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.337
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.6,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.6/5 for difficulty, 2.6/5 for workload and 4.8/5 for usefulness. The average grade is A- (3.63), with 75% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 1256,
+   "pctA": 75,
+   "pctBelowB": 3,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 102
+    },
+    {
+     "letter": "A",
+     "count": 490
+    },
+    {
+     "letter": "A-",
+     "count": 311
+    },
+    {
+     "letter": "B+",
+     "count": 90
+    },
+    {
+     "letter": "B",
+     "count": 110
+    },
+    {
+     "letter": "B-",
+     "count": 62
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.6,
+   "workload": 2.6,
+   "usefulness": 4.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 20
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Flagg",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.64,
+    "studentCount": 5,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 4.8,
+    "difficulty": 2.3,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20150D"
+  ]
+ },
+ "PBHLTH 150E": {
+  "course": "PBHLTH 150E",
+  "difficulty": 1.7,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.93)",
+     "value": 1.1,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.9,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.93), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.93,
+   "letter": "A",
+   "students": 903,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 620
+    },
+    {
+     "letter": "A",
+     "count": 180
+    },
+    {
+     "letter": "A-",
+     "count": 38
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 24
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Griffin",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.85,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Jason Corburn",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.93,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.4,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20150E"
+  ]
+ },
+ "PBHLTH 155A": {
+  "course": "PBHLTH 155A",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.274
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 97% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 179,
+   "pctA": 97,
+   "pctBelowB": 1,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 39
+    },
+    {
+     "letter": "A",
+     "count": 110
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mahader Tamene",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.79,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Hannah Thompson",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.93,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Kristine Madsen",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.99,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20155A"
+  ]
+ },
+ "PBHLTH 155B": {
+  "course": "PBHLTH 155B",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.298
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 94% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 287,
+   "pctA": 94,
+   "pctBelowB": 2,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 123
+    },
+    {
+     "letter": "A",
+     "count": 106
+    },
+    {
+     "letter": "A-",
+     "count": 37
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anke Hemmerling",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.89,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Mara Decker",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.86,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20155B"
+  ]
+ },
+ "PBHLTH 155C": {
+  "course": "PBHLTH 155C",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.245
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.41), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 116,
+   "pctA": 61,
+   "pctBelowB": 10,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 34
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Pauline Lubens",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20155C"
+  ]
+ },
+ "PBHLTH 155D": {
+  "course": "PBHLTH 155D",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.298
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 95% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 289,
+   "pctA": 95,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 240
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lucinda Bazile",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Kevin Williams",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20155D"
+  ]
+ },
+ "PBHLTH 155E": {
+  "course": "PBHLTH 155E",
+  "difficulty": 2.1,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.296
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.7/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.87), with 87% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 276,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 231
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.7,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Colette Auerswald",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.87,
+    "midterms": 1,
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 4,
+    "difficulty": 1.9,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20155E"
+  ]
+ },
+ "PBHLTH 15A": {
+  "course": "PBHLTH 15A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Lise Saffran",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%2015A"
+  ]
+ },
+ "PBHLTH 162A": {
+  "course": "PBHLTH 162A",
+  "difficulty": 2.7,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.337
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 2.2,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.257
+    }
+   ]
+  },
+  "sentiment": "9 students on Berkeleytime rate it 3.1/5 for difficulty, 2.2/5 for workload and 4.2/5 for usefulness. The average grade is B+ (3.50), with 68% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 1250,
+   "pctA": 68,
+   "pctBelowB": 10,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 189
+    },
+    {
+     "letter": "A",
+     "count": 367
+    },
+    {
+     "letter": "A-",
+     "count": 277
+    },
+    {
+     "letter": "B+",
+     "count": 112
+    },
+    {
+     "letter": "B",
+     "count": 113
+    },
+    {
+     "letter": "B-",
+     "count": 49
+    },
+    {
+     "letter": "C+",
+     "count": 32
+    },
+    {
+     "letter": "C",
+     "count": 41
+    },
+    {
+     "letter": "C-",
+     "count": 23
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 3.1,
+   "workload": 2.2,
+   "usefulness": 4.2,
+   "recordedPct": 88,
+   "attendanceRequiredPct": 88
+  },
+  "byProfessor": [
+   {
+    "professor": "Fenyong Liu",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.46,
+    "studentCount": 9,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.7,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Eva Harris",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.31,
+    "studentCount": 8,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.9,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Daniil Prigozhin",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.17,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.1,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Ashley Wolf",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.26,
+    "studentCount": 7,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.4,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20162A"
+  ]
+ },
+ "PBHLTH 167": {
+  "course": "PBHLTH 167",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.294
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 98% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 265,
+   "pctA": 98,
+   "pctBelowB": 1,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 240
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charlotte Smith",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.94,
+    "difficulty": 1.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20167"
+  ]
+ },
+ "PBHLTH 168": {
+  "course": "PBHLTH 168",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.313
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 424,
+   "pctA": 63,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 73
+    },
+    {
+     "letter": "A",
+     "count": 115
+    },
+    {
+     "letter": "A-",
+     "count": 75
+    },
+    {
+     "letter": "B+",
+     "count": 66
+    },
+    {
+     "letter": "B",
+     "count": 36
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 15
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Fenyong Liu",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.62,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20168"
+  ]
+ },
+ "PBHLTH 170C": {
+  "course": "PBHLTH 170C",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.185
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 56,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charlotte Smith",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20170C"
+  ]
+ },
+ "PBHLTH 171K": {
+  "course": "PBHLTH 171K",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 73% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 73,
+   "pctBelowB": 7,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sadie Costello",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.57,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20171K"
+  ]
+ },
+ "PBHLTH 177A": {
+  "course": "PBHLTH 177A",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.282
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.95), with 97% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 209,
+   "pctA": 97,
+   "pctBelowB": 1,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 186
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Charlotte Smith",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.93,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20177A"
+  ]
+ },
+ "PBHLTH 180": {
+  "course": "PBHLTH 180",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.303
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 321,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 112
+    },
+    {
+     "letter": "A",
+     "count": 157
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Mills",
+    "terms": 4,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.91,
+    "difficulty": 1.4
+   },
+   {
+    "professor": "Marlon Maus",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20180"
+  ]
+ },
+ "PBHLTH 181": {
+  "course": "PBHLTH 181",
+  "difficulty": 1.7,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.9,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.3/5 for difficulty, 2.3/5 for workload and 3.7/5 for usefulness. The average grade is A (3.92), with 95% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 686,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 122
+    },
+    {
+     "letter": "A",
+     "count": 425
+    },
+    {
+     "letter": "A-",
+     "count": 96
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.3,
+   "workload": 2.3,
+   "usefulness": 3.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ndola Prata",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.93,
+    "studentCount": 3,
+    "studentDifficulty": 1.3,
+    "studentUsefulness": 3.7,
+    "difficulty": 1.4,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20181"
+  ]
+ },
+ "PBHLTH 182": {
+  "course": "PBHLTH 182",
+  "difficulty": 2.0,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.82)",
+     "value": 1.4,
+     "weight": 0.285
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.82), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.82,
+   "letter": "A-",
+   "students": 220,
+   "pctA": 90,
+   "pctBelowB": 3,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 161
+    },
+    {
+     "letter": "A-",
+     "count": 22
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Mills",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20182"
+  ]
+ },
+ "PBHLTH 196": {
+  "course": "PBHLTH 196",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.317
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 96% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 477,
+   "pctA": 96,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 86
+    },
+    {
+     "letter": "A",
+     "count": 335
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Darlene Francis",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.3
+   },
+   {
+    "professor": "Meghana Gadgil",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Presti",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ronald Dahl",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ariana Bennett",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.4
+   },
+   {
+    "professor": "Colette Auerswald",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.82,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Brian Villa",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Julianna Deardorff",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.95,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20196"
+  ]
+ },
+ "PBHLTH 196A": {
+  "course": "PBHLTH 196A",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.156
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 40,
+   "pctA": 82,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stefano Bertozzi",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20196A"
+  ]
+ },
+ "PBHLTH 197": {
+  "course": "PBHLTH 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Darlene Francis",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lisa Barcellos",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Susan Ivey",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ashley Wolf",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Anke Hemmerling",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Amani Nuru-Jeter",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jenny Guadamuz",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Timothy Brown",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20197"
+  ]
+ },
+ "PBHLTH 198": {
+  "course": "PBHLTH 198",
+  "difficulty": 2.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 2.0/5 for workload and 3.5/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 2,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Eva Harris",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Robin Mills",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jyothi Marbin",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marlon Maus",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dilys Walker",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kimberly MacPherson",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charlotte Smith",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Emily Ozer",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20198"
+  ]
+ },
+ "PBHLTH 199": {
+  "course": "PBHLTH 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Eva Harris",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Colette Auerswald",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charlotte Smith",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stefano Bertozzi",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jason Corburn",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Julianna Deardorff",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristine Madsen",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lisa Barcellos",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20199"
+  ]
+ },
+ "PBHLTH 213A": {
+  "course": "PBHLTH 213A",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 34,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ndola Prata",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20213A"
+  ]
+ },
+ "PBHLTH 222A": {
+  "course": "PBHLTH 222A",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.254
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 82% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 132,
+   "pctA": 82,
+   "pctBelowB": 0,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 11
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Robinson",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20222A"
+  ]
+ },
+ "PBHLTH 226A": {
+  "course": "PBHLTH 226A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.252
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 82% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 129,
+   "pctA": 82,
+   "pctBelowB": 1,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 36
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 14
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Robinson",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20226A"
+  ]
+ },
+ "PBHLTH 24": {
+  "course": "PBHLTH 24",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 30,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 60,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James Robinson",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%2024"
+  ]
+ },
+ "PBHLTH 250A": {
+  "course": "PBHLTH 250A",
+  "difficulty": 2.6,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.5/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.65), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 826,
+   "pctA": 71,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 186
+    },
+    {
+     "letter": "A",
+     "count": 239
+    },
+    {
+     "letter": "A-",
+     "count": 143
+    },
+    {
+     "letter": "B+",
+     "count": 103
+    },
+    {
+     "letter": "B",
+     "count": 68
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 10
+    },
+    {
+     "letter": "U",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3.5,
+   "usefulness": 5
+  },
+  "byProfessor": [
+   {
+    "professor": "Lia Scott",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.8,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Krista Neumann",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Sandra McCoy",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Arthur Reingold",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20250A"
+  ]
+ },
+ "PBHLTH 4": {
+  "course": "PBHLTH 4",
+  "difficulty": 2.4,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.156
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 2.8/5 for usefulness. Lectures are usually not recorded.",
+  "finalExam": "A",
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 2.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Ronald Dahl",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "studentCount": 3,
+    "studentDifficulty": 1.3,
+    "studentUsefulness": 2.3,
+    "difficulty": 1.9,
+    "shouldTake": 3.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Very easy class, this is mainly to encourage you throughout college.",
+    "term": "2026 Fall",
+    "source": "Berkeleytime",
+    "title": "Change maker",
+    "professor": "Ronald Dahl",
+    "grade": "P"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%204"
+  ]
+ },
+ "PBHLTH C150E": {
+  "course": "PBHLTH C150E",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.83), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 456,
+   "pctA": 90,
+   "pctBelowB": 3,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 217
+    },
+    {
+     "letter": "A",
+     "count": 124
+    },
+    {
+     "letter": "A-",
+     "count": 60
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Corburn",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20C150E"
+  ]
+ },
+ "PBHLTH C155": {
+  "course": "PBHLTH C155",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.137
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 32,
+   "pctA": 89,
+   "pctBelowB": 4,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jennifer Dunn",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.74,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20C155"
+  ]
+ },
+ "PBHLTH C160": {
+  "course": "PBHLTH C160",
+  "difficulty": 2.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.83), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 411,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 273
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 31
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Kurt Spreyer",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.84,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 1.9,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Kenneth Worthy",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20C160"
+  ]
+ },
+ "PBHLTH C202B": {
+  "course": "PBHLTH C202B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 96% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 27,
+   "pctA": 96,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mienah Sharif",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Anila Daulatzai",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20C202B"
+  ]
+ },
+ "PBHLTH C233": {
+  "course": "PBHLTH C233",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.209
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.06
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.97), with 96% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 74,
+   "pctA": 96,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 66
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jason Corburn",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.95,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20C233"
+  ]
+ },
+ "PBHLTH H195A": {
+  "course": "PBHLTH H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Lisa Barcellos",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kristine Madsen",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Hannah Thompson",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20H195A"
+  ]
+ },
+ "PBHLTH N150B": {
+  "course": "PBHLTH N150B",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.288
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 233,
+   "pctA": 85,
+   "pctBelowB": 2,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 169
+    },
+    {
+     "letter": "A-",
+     "count": 21
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Laura Kwong",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Jay Graham",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.82,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20N150B"
+  ]
+ },
+ "PBHLTH N250A": {
+  "course": "PBHLTH N250A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.309
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 79% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 374,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 100
+    },
+    {
+     "letter": "A",
+     "count": 126
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 14
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Krista Neumann",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Nancy Ortiz",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.76,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Catie Oldenburg",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.68,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PBHLTH%20N250A"
+  ]
+ }
+}

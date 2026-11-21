@@ -1,0 +1,119 @@
+{
+ "why": "Each concentration lists five \"Geographic Focus\" rows (Asia, Africa, Europe & Russia, The Americas, Middle East & North Africa), each a regional core course plus three area courses. A student focuses on one region, so the five rows are alternatives. The \"Disciplinary Course\" rows are left as the catalog has them.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25492U"
+ ],
+ "merge": [
+  {
+   "block": "Global Development Concentration",
+   "title": "Geographic Focus",
+   "type": "anyOf",
+   "parts": [
+    {
+     "label": "Asia",
+     "rules": [
+      "Geographic Focus: Asia"
+     ]
+    },
+    {
+     "label": "Africa",
+     "rules": [
+      "Geographic Focus: Africa"
+     ]
+    },
+    {
+     "label": "Europe & Russia",
+     "rules": [
+      "Geographic Focus: Europe & Russia"
+     ]
+    },
+    {
+     "label": "The Americas",
+     "rules": [
+      "Geographic Focus: The Americas"
+     ]
+    },
+    {
+     "label": "Middle East & North Africa",
+     "rules": [
+      "Geographic Focus: Middle East & North Africa"
+     ]
+    }
+   ]
+  },
+  {
+   "block": "Global Peace & Conflict Concentration",
+   "title": "Geographic Focus",
+   "type": "anyOf",
+   "parts": [
+    {
+     "label": "Asia",
+     "rules": [
+      "Geographic Focus: Asia"
+     ]
+    },
+    {
+     "label": "Africa",
+     "rules": [
+      "Geographic Focus: Africa"
+     ]
+    },
+    {
+     "label": "Europe & Russia",
+     "rules": [
+      "Geographic Focus: Europe & Russia"
+     ]
+    },
+    {
+     "label": "The Americas",
+     "rules": [
+      "Geographic Focus: The Americas"
+     ]
+    },
+    {
+     "label": "Middle East & North Africa",
+     "rules": [
+      "Geographic Focus: Middle East & North Africa"
+     ]
+    }
+   ]
+  },
+  {
+   "block": "Global Societies and Cultures",
+   "title": "Geographic Focus",
+   "type": "anyOf",
+   "parts": [
+    {
+     "label": "Asia",
+     "rules": [
+      "Geographic Focus: Asia"
+     ]
+    },
+    {
+     "label": "Africa",
+     "rules": [
+      "Geographic Focus: Africa"
+     ]
+    },
+    {
+     "label": "Europe & Russia",
+     "rules": [
+      "Geographic Focus: Europe & Russia"
+     ]
+    },
+    {
+     "label": "The Americas",
+     "rules": [
+      "Geographic Focus: The Americas"
+     ]
+    },
+    {
+     "label": "Middle East & North Africa",
+     "rules": [
+      "Geographic Focus: Middle East & North Africa"
+     ]
+    }
+   ]
+  }
+ ]
+}

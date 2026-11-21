@@ -1,0 +1,89 @@
+{
+ "id": "minor-japanese",
+ "title": "Japanese minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I049U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I049U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I049U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "- A maximum of one course may be taken outside of the department with approval. Request for approval can be submitted here.\n- Students can complete JAPAN 7A or 7B in place of one upper division course.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "JAPAN 7A",
+      "JAPAN 7B",
+      "JAPAN 100A",
+      "JAPAN 100B",
+      "JAPAN 100S",
+      "JAPAN 101",
+      "JAPAN 102",
+      "JAPAN 103",
+      "JAPAN 104",
+      "JAPAN 105",
+      "JAPAN 116",
+      "JAPAN 120",
+      "JAPAN 130",
+      "JAPAN 132",
+      "JAPAN 134",
+      "JAPAN 140",
+      "JAPAN 142",
+      "JAPAN 144",
+      "JAPAN 146",
+      "JAPAN 150",
+      "JAPAN 155",
+      "JAPAN 159",
+      "JAPAN 160",
+      "JAPAN 161",
+      "JAPAN 162",
+      "JAPAN 163",
+      "JAPAN 164",
+      "JAPAN 170",
+      "JAPAN 173",
+      "JAPAN 177",
+      "JAPAN 178",
+      "JAPAN 180",
+      "JAPAN 181",
+      "JAPAN 185",
+      "JAPAN 188",
+      "JAPAN 189",
+      "JAPAN C115",
+      "JAPAN C119",
+      "JAPAN C141",
+      "JAPAN C176"
+     ]
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "Any EALANG 100-194 course\nAny JAPAN 100-194 course\nAny KOREAN 100-194 course\nAny MONGOLN 100-194 course\nAny TIBETAN 100-194 course\n- JAPAN 7A\n- JAPAN 7B",
+   "rule": {
+    "type": "filter",
+    "minUnits": 20,
+    "filter": {
+     "subjects": [
+      "CHINESE"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "minor-armenian-studies",
+ "title": "Armenian Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I154U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I154U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I154U",
+ "notes": [
+  "A maximum of two transfer courses are allowed.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "intermediate-language",
+   "title": "Intermediate Language",
+   "section": "Upper Division",
+   "notes": "This requirement can be satisfied by Armenian 101A and 101B or a placement assessment. If the requirement is fulfilled by examination, two additional upper-division electives relevant to the minor should be added.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARMENI 101A"
+     },
+     {
+      "type": "course",
+      "course": "ARMENI 101B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "- HISTORY 100M - Special Topics: Marriage in the Middle East: What’s Love Got to Do with It?",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "ARMENI 102",
+      "ARMENI 122",
+      "ARMENI 124",
+      "ARMENI 126",
+      "ARMENI 128"
+     ]
+    }
+   }
+  }
+ ]
+}

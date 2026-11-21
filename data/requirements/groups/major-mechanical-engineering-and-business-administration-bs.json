@@ -1,0 +1,723 @@
+{
+ "id": "major-mechanical-engineering-and-business-administration-bs",
+ "title": "Mechanical Engineering and Business Administration BS",
+ "kind": "major",
+ "programType": "dual-degree",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/Tqx3rktbkoWOvjBatqi1",
+  "https://undergraduate.catalog.berkeley.edu/programs/Tqx3rktbkoWOvjBatqi1/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "*16A09U",
+ "notes": [
+  "M.E.T. General Guidelines\nGeneral Guidelines\n- A minimum of 38 upper division business units is required.\n- Students must complete the degree program in eight semesters, not including Summer Session.\n- Students must complete ALL of their business prerequisite courses (including R&C) by the spring semester of their sophomore (2nd) year. Required prerequisite courses are: UGBA 10X; ECON 1 or ECON 2; Math 51 & Math 52 , or Math 53 or Math 54; Reading & Composition Parts A & B; and, depending on their major track, students may choose one of the following statistics courses or combinations:\n- EECS 126\n- ENGIN 178 (recommended for ME)\n- INDENG 172 (required for IEOR)\n- STAT 20\n- STAT 21/STAT W21\n- STAT C131A\n- STAT 134 (recommended for BioE)\n- STAT/DATA C140\n- DATA C8, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT C88S\n- DATA C100, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT 88S\n- All Haas business courses must be taken for a letter grade, including core substitutions, with the exception of UGBA 194, UGBA 198 and UGBA 199 (only offered Pass/No Pass).\n- Students who receive a grade of D+ or lower in a core UGBA course must repeat the course until they achieve a grade of C- or better.\n- All technical courses that can be used to fulfill a requirement must be taken for a letter grade.\n- Two M.E.T. Special Topics courses are required. One during the first year, first semester and another during the third year, first semester. M.E.T. Special Topics courses will count as upper division business elective units. A passing grade of C- or better is required.\n- Students in this program must adhere to all policies and procedures of the College of Engineering and the Haas School of Business.\n- Students must complete the College Requirements and the Program Major Requirements."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics-economics-and-business-principles",
+   "title": "Mathematics, Economics, and Business Principles",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 54"
+         },
+         {
+          "type": "course",
+          "course": "MATH W54"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON 1"
+       },
+       {
+        "type": "course",
+        "course": "ECON 2"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "UGBA 10"
+       },
+       {
+        "type": "course",
+        "course": "UGBA 10X"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 1A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 26"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 29"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ugba-core",
+   "title": "UGBA Core",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 30,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107"
+     ]
+    }
+   }
+  },
+  {
+   "id": "m-e-t-special-topics",
+   "title": "M.E.T. Special Topics",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "manual",
+    "text": "Complete the following Special Topics courses:\n- UGBA 196 001, “Managing Technological Innovation”\n- UGBA 196 002, “Entrepreneurship and Strategic Growth”\n4 units total",
+    "mentionedCourses": [
+     "UGBA 196"
+    ]
+   }
+  },
+  {
+   "id": "ugba-elective",
+   "title": "UGBA Elective",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107",
+      "UGBA 173",
+      "UGBA 117",
+      "UGBA 118",
+      "UGBA 174",
+      "UGBA 120AA",
+      "UGBA 120AB",
+      "UGBA 120B",
+      "UGBA 121",
+      "UGBA 122",
+      "UGBA 126",
+      "UGBA 127",
+      "UGBA 128",
+      "UGBA 131",
+      "UGBA 132",
+      "UGBA 133",
+      "UGBA 136F",
+      "UGBA 137",
+      "UGBA 141",
+      "UGBA 143",
+      "UGBA 147",
+      "UGBA 151",
+      "UGBA 152",
+      "UGBA 154",
+      "UGBA 155",
+      "UGBA 157",
+      "UGBA 160",
+      "UGBA 161",
+      "UGBA 162",
+      "UGBA 165",
+      "UGBA 167",
+      "UGBA 169",
+      "UGBA 175",
+      "UGBA 177",
+      "UGBA 178",
+      "UGBA 179",
+      "UGBA 180",
+      "UGBA 183",
+      "UGBA 184",
+      "UGBA 187",
+      "UGBA 190S",
+      "UGBA 190T",
+      "UGBA 191C",
+      "UGBA 191I",
+      "UGBA 191P",
+      "UGBA 192A",
+      "UGBA 192L",
+      "UGBA 192N",
+      "UGBA 192P",
+      "UGBA 192T",
+      "UGBA 193C",
+      "UGBA 193I",
+      "UGBA 194",
+      "UGBA 195A",
+      "UGBA 195P",
+      "UGBA 195S",
+      "UGBA 195T",
+      "UGBA 196",
+      "UGBA 198",
+      "UGBA 199",
+      "UGBA 162A",
+      "UGBA 176",
+      "UGBA 123",
+      "UGBA 192B",
+      "UGBA 193B",
+      "UGBA 192AC",
+      "UGBA 191L",
+      "UGBA 134",
+      "UGBA 164",
+      "UGBA 131A",
+      "UGBA 190C",
+      "UGBA 192E",
+      "UGBA 192G",
+      "UGBA 125",
+      "UGBA 190D",
+      "UGBA 135",
+      "UGBA 146",
+      "UGBA 192S",
+      "UGBA 192H",
+      "UGBA 195B",
+      "UGBA 159",
+      "UGBA 171",
+      "UGBA 192MC",
+      "UGBA 151A",
+      "UGBA 192ID",
+      "UGBA 150",
+      "UGBA 196SA",
+      "UGBA 196SC",
+      "UGBA 196SB",
+      "UGBA 179G",
+      "UGBA 168B",
+      "UGBA 194S",
+      "UGBA 192F",
+      "UGBA 142",
+      "UGBA 156",
+      "UGBA 192PF",
+      "UGBA 195M",
+      "UGBA 155N",
+      "UGBA 171A",
+      "UGBA 170AC"
+     ]
+    }
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division Engineering",
+   "notes": "ENGIN 178 will fulfill the Statistics prerequisite for Haas. The course must be completed by spring semester, sophomore year.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 178"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 102B"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 103"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 108"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 109"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-electives",
+   "title": "Technical Electives",
+   "section": "Upper Division Engineering",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "15 units of technical electives are required from the approved technical elective list. 12 of the 15 units must be upper division. Nine of the 12 upper division units must be from MECENG-sponsored courses. ENGIN 117, ENGIN 128, ENGIN 150, and ENGIN 177 can count toward the 9 units of upper division mechanical engineering courses. At least 3 units of the 15 units must be from a Technical Design course and at least 3 units of the 15 must be from a Quantitative Science course. Up to 3 of the total units may be from an approved lower division list. … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "ENGIN 117",
+     "ENGIN 128",
+     "ENGIN 150",
+     "ENGIN 177",
+     "AEROENG C184",
+     "ART C166",
+     "BIOENG C106A",
+     "BIOENG C117",
+     "BIOENG C119",
+     "BIOENG C137",
+     "CHMENG 150B",
+     "CHMENG 154",
+     "CHMENG 160",
+     "CHMENG 162",
+     "CIVENG 122",
+     "CIVENG 123",
+     "CIVENG 124",
+     "CIVENG 153",
+     "CIVENG 180",
+     "CIVENG 186",
+     "CIVENG 191",
+     "CIVENG C138",
+     "COMPSCI 160",
+     "DESINV 190E",
+     "EECS C106A",
+     "EECS C128",
+     "ELENG 192",
+     "INDENG 170",
+     "MECENG 101",
+     "MECENG 110",
+     "MECENG 118",
+     "MECENG 119",
+     "MECENG 130",
+     "MECENG 133",
+     "MECENG 135",
+     "MECENG 139",
+     "MECENG 146",
+     "MECENG 151",
+     "MECENG 151A",
+     "MECENG 151B",
+     "MECENG 165",
+     "MECENG 179",
+     "MECENG C106A",
+     "MECENG C117",
+     "MECENG C134",
+     "MECENG C176",
+     "MECENG C178",
+     "MECENG C184",
+     "NWMEDIA C166",
+     "MATH 110",
+     "AEROENG C127",
+     "AEROENG C136",
+     "AEROENG C162",
+     "AEROENG C166",
+     "CIVENG 120",
+     "CIVENG 121",
+     "CIVENG C133",
+     "COMPSCI 189",
+     "DATA C131A",
+     "DATA C140",
+     "ECON C103",
+     "EECS 126",
+     "EECS 127",
+     "EECS 144",
+     "EECS 149",
+     "ELENG 105",
+     "ELENG 121",
+     "ELENG 126",
+     "ENGIN 120",
+     "INDENG 115",
+     "INDENG 120",
+     "INDENG 130",
+     "INDENG 135",
+     "INDENG 142",
+     "INDENG 145",
+     "INDENG 150",
+     "INDENG 151",
+     "INDENG 153",
+     "INDENG 160",
+     "INDENG 162",
+     "INDENG 164",
+     "INDENG 165",
+     "INDENG 166",
+     "INDENG 172",
+     "MATH 104",
+     "MATH 105",
+     "MATH 106",
+     "MATH C103",
+     "MATH H104",
+     "MECENG 120",
+     "MECENG 131",
+     "MECENG 150",
+     "MECENG 163",
+     "MECENG 193B",
+     "MECENG C127",
+     "MECENG C136",
+     "MECENG C162",
+     "MECENG C166",
+     "MECENG C180",
+     "STAT 133",
+     "STAT 134",
+     "STAT 135",
+     "STAT 150",
+     "STAT 151A",
+     "STAT 154",
+     "STAT 155",
+     "STAT 158",
+     "STAT 159",
+     "STAT C131A",
+     "STAT C140",
+     "ASTRON C180",
+     "BIOENG C106B",
+     "BIOENG C112",
+     "EECS C106B",
+     "MECENG 122",
+     "MECENG 125",
+     "MECENG 126",
+     "MECENG 136HL",
+     "MECENG 138",
+     "MECENG 140",
+     "MECENG 144",
+     "MECENG 153",
+     "MECENG 154",
+     "MECENG 164",
+     "MECENG 167",
+     "MECENG 168",
+     "MECENG 170",
+     "MECENG 172",
+     "MECENG 173",
+     "MECENG 174",
+     "MECENG 175",
+     "MECENG 185",
+     "MECENG 190L",
+     "MECENG 190M",
+     "MECENG 190Y",
+     "MECENG 193G",
+     "MECENG 196",
+     "MECENG C106B",
+     "MECENG C115",
+     "MECENG H194",
+     "NUCENG 100",
+     "PHYSICS C180",
+     "ASTRON 7A",
+     "ASTRON 7B",
+     "BIOENG 10",
+     "BIOENG 121",
+     "BIOENG C118",
+     "BIOENG C136L",
+     "BIOENG C145L",
+     "BIOENG C145M",
+     "BIOENG C165",
+     "BIOLOGY 1A",
+     "BIOLOGY 1AL",
+     "BIOLOGY 1B",
+     "CHEM 1B",
+     "CHEM 3A",
+     "CHEM 3B",
+     "CHEM 4B",
+     "CHEM C150",
+     "CHEM C170L",
+     "CHEM C178",
+     "CHEM C191",
+     "CHMENG 140",
+     "CHMENG 141",
+     "CHMENG 142",
+     "CHMENG 150A",
+     "CHMENG 170A",
+     "CHMENG 170B",
+     "CHMENG 171",
+     "CHMENG 176",
+     "CHMENG C170L",
+     "CHMENG C178",
+     "CIVENG 107",
+     "CIVENG 108",
+     "CIVENG 11",
+     "CIVENG 111",
+     "CIVENG 112",
+     "CIVENG 113",
+     "CIVENG 114",
+     "CIVENG 115",
+     "CIVENG 140",
+     "CIVENG 155",
+     "CIVENG 165",
+     "CIVENG 166",
+     "CIVENG 167",
+     "CIVENG 171",
+     "CIVENG 172",
+     "CIVENG 173",
+     "CIVENG 175",
+     "CIVENG 176",
+     "CIVENG 179",
+     "CIVENG 188",
+     "CIVENG 60",
+     "CIVENG 70",
+     "CIVENG 93",
+     "CIVENG C106",
+     "CIVENG C178",
+     "COMPSCI 161",
+     "COMPSCI 162",
+     "COMPSCI 184",
+     "COMPSCI 61A",
+     "COMPSCI 61B",
+     "COMPSCI 61BL",
+     "COMPSCI 61C",
+     "COMPSCI 70",
+     "COMPSCI C191",
+     "COMPSCI C8",
+     "DATA C8",
+     "DESINV 15",
+     "DESINV 190",
+     "DESINV 90E",
+     "ECON 100A",
+     "ECON 100B",
+     "ECON 101A",
+     "ECON 101B",
+     "ECON 104",
+     "ECON 121",
+     "ECON 131",
+     "ECON 133",
+     "ECON 136",
+     "ECON 138",
+     "ECON 139",
+     "ECON 140",
+     "ECON 141",
+     "ECON 155",
+     "ECON 155A",
+     "ECON 157",
+     "ECON 182",
+     "ECON C102",
+     "ECON C125",
+     "ECON C142",
+     "ECON C181",
+     "ECON N136",
+     "ECON N181",
+     "EECS 151",
+     "EECS 16B",
+     "ELENG 113",
+     "ELENG 117",
+     "ELENG 118",
+     "ELENG 120",
+     "ELENG 122",
+     "ELENG 123",
+     "ELENG 130",
+     "ELENG 137A",
+     "ELENG 140",
+     "ELENG 141",
+     "ELENG 142",
+     "ELENG 143",
+     "ELENG 147",
+     "ELENG 64",
+     "ELENG C106A",
+     "ELENG C145B",
+     "ELENG C145L",
+     "ELENG C145M",
+     "ELENG C145O",
+     "ENGIN 11",
+     "ENGIN 45",
+     "ENVECON C101",
+     "ENVECON C102",
+     "ENVECON C181",
+     "EPS 50",
+     "EPS C178",
+     "EPS C180",
+     "ESPM C180",
+     "INFO C8",
+     "INTEGBI 130",
+     "INTEGBI 131",
+     "INTEGBI 132",
+     "INTEGBI C135L",
+     "MATSCI 102",
+     "MATSCI 103",
+     "MATSCI 104",
+     "MATSCI 104L",
+     "MATSCI 111",
+     "MATSCI 112",
+     "MATSCI 113",
+     "MATSCI 117",
+     "MATSCI 120",
+     "MATSCI 121",
+     "MATSCI 122",
+     "MATSCI 123",
+     "MATSCI 125",
+     "MATSCI 127",
+     "MATSCI 128",
+     "MATSCI 130",
+     "MATSCI 131",
+     "MATSCI 136",
+     "MATSCI 140",
+     "MATSCI 151",
+     "MATSCI 45",
+     "MATSCI C118",
+     "MATSCI C150",
+     "MCELLBI 32",
+     "NUCENG 101",
+     "NUCENG 102",
+     "NUCENG 104",
+     "NUCENG 107",
+     "NUCENG 120",
+     "NUCENG 124",
+     "NUCENG 130",
+     "NUCENG 150",
+     "NUCENG 155",
+     "NUCENG 161",
+     "NUCENG 162",
+     "NUCENG 167",
+     "NUCENG 170A",
+     "NUCENG 170B",
+     "NUCENG 175",
+     "NUCENG C180",
+     "PHYSICS 105",
+     "PHYSICS 110A",
+     "PHYSICS 110B",
+     "PHYSICS 111A",
+     "PHYSICS 112",
+     "PHYSICS 130",
+     "PHYSICS 137A",
+     "PHYSICS 137B",
+     "PHYSICS 138",
+     "PHYSICS 141A",
+     "PHYSICS 141B",
+     "PHYSICS 142",
+     "PHYSICS 177",
+     "PHYSICS 7C",
+     "PHYSICS C191",
+     "POLSCI C131A",
+     "PUBPOL C142",
+     "STAT 20",
+     "STAT 21",
+     "STAT C8",
+     "STAT W21",
+     "UGBA 101A",
+     "UGBA 101B"
+    ]
+   }
+  }
+ ]
+}

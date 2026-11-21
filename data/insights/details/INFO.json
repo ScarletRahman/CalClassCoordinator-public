@@ -1,0 +1,1045 @@
+{
+ "INFO 103": {
+  "course": "INFO 103",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.40)",
+     "value": 2.8,
+     "weight": 0.285
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.40), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.4,
+   "letter": "B+",
+   "students": 220,
+   "pctA": 55,
+   "pctBelowB": 8,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 33
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nina Begus",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Paul Duguid",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.31,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20103"
+  ]
+ },
+ "INFO 114": {
+  "course": "INFO 114",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.183
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.94), with 96% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 55,
+   "pctA": 96,
+   "pctBelowB": 2,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Steve Fadden",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20114"
+  ]
+ },
+ "INFO 134": {
+  "course": "INFO 134",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "John Chuang",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20134"
+  ]
+ },
+ "INFO 153A": {
+  "course": "INFO 153A",
+  "difficulty": 1.8,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.162
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.046
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.96), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 43,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Olukayode Ashaolu",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.96,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 4,
+    "difficulty": 1.4,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20153A"
+  ]
+ },
+ "INFO 153B": {
+  "course": "INFO 153B",
+  "difficulty": 1.9,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.171
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 1.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.049
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 1.5/5 for workload and 3.5/5 for usefulness. The average grade is A (3.90), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 48,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 1.5,
+   "usefulness": 3.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Olukayode Ashaolu",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.91,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.6,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20153B"
+  ]
+ },
+ "INFO 159": {
+  "course": "INFO 159",
+  "difficulty": 2.4,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 2.5/5 for difficulty, 2.0/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.58), with 69% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 939,
+   "pctA": 69,
+   "pctBelowB": 6,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 47
+    },
+    {
+     "letter": "A",
+     "count": 334
+    },
+    {
+     "letter": "A-",
+     "count": 150
+    },
+    {
+     "letter": "B+",
+     "count": 91
+    },
+    {
+     "letter": "B",
+     "count": 64
+    },
+    {
+     "letter": "B-",
+     "count": 38
+    },
+    {
+     "letter": "C+",
+     "count": 22
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 158
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 2.5,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 83,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "David Bamman",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.52,
+    "studentCount": 6,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.4,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Behrang Mohit",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20159"
+  ]
+ },
+ "INFO 188": {
+  "course": "INFO 188",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.316
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 460,
+   "pctA": 55,
+   "pctBelowB": 10,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 107
+    },
+    {
+     "letter": "A-",
+     "count": 73
+    },
+    {
+     "letter": "B+",
+     "count": 58
+    },
+    {
+     "letter": "B",
+     "count": 47
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 58
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Deirdre Mulligan",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.46,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20188"
+  ]
+ },
+ "INFO 190": {
+  "course": "INFO 190",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.207
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 72,
+   "pctA": 82,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jevin West",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20190"
+  ]
+ },
+ "INFO 198": {
+  "course": "INFO 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "John Chuang",
+    "terms": 3,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Douglas Hughes",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "D. Alex Hughes",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20198"
+  ]
+ },
+ "INFO 199": {
+  "course": "INFO 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Morgan Ames",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Niloufar Salehi",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Marti Hearst",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Diag Davenport",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "John Chuang",
+    "terms": 3,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Douglas Hughes",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "D. Alex Hughes",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20199"
+  ]
+ },
+ "INFO 213": {
+  "course": "INFO 213",
+  "difficulty": 1.8,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.284
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.95), with 98% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 217,
+   "pctA": 98,
+   "pctBelowB": 0,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 63
+    },
+    {
+     "letter": "A",
+     "count": 127
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 4,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Stefanie Hutka",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.97,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.6,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Niloufar Salehi",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20213"
+  ]
+ },
+ "INFO 98": {
+  "course": "INFO 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Morgan Ames",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Dawson Kelly",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "John Doherty",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Evan Gold",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%2098"
+  ]
+ },
+ "INFO C8": {
+  "course": "INFO C8",
+  "difficulty": 3.0,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (271 on Berkeleytime)",
+     "value": 3.0,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (271)",
+     "value": 3.2,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.049
+    },
+    {
+     "label": "Student usefulness rating (271 on Berkeleytime)",
+     "value": 4.0,
+     "weight": 0.393
+    }
+   ]
+  },
+  "sentiment": "271 students on Berkeleytime rate it 3.0/5 for difficulty, 3.2/5 for workload and 4.0/5 for usefulness. It usually has 1 scheduled midterm. Lectures are usually recorded.",
+  "midterms": 1,
+  "finalExam": "C",
+  "studentRatings": {
+   "count": 271,
+   "difficulty": 3.0,
+   "workload": 3.2,
+   "usefulness": 4.0,
+   "recordedPct": 96,
+   "attendanceRequiredPct": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Jeremy Sanchez",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "studentCount": 177,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 3.9,
+    "difficulty": 3.0,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Swupnil Sahai",
+    "terms": 5,
+    "lastTaught": "2024 Spring",
+    "midterms": 1,
+    "studentCount": 22,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Muhammad Khan",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "midterms": 1,
+    "studentCount": 13,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.2,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Joseph Gonzalez",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "midterms": 1
+   },
+   {
+    "professor": "John DeNero",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "midterms": 1,
+    "studentCount": 24,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.1,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=INFO%20C8"
+  ]
+ }
+}

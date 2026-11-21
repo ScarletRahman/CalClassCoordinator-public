@@ -1,0 +1,319 @@
+{
+ "id": "major-japanese-language-and-culture-ba",
+ "title": "Japanese Language and Culture BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25470U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25470U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25470U",
+ "requirements": [
+  {
+   "id": "placement-and-proficiency-exams",
+   "title": "Placement and Proficiency Exams",
+   "section": "Language Requirements",
+   "notes": "Courses related to East Asian Studies taken outside of the department, either on campus or through study abroad, may be accepted upon approval. Request for courses outside of the department can be submitted for approval here.",
+   "rule": {
+    "type": "manual",
+    "text": "Language requirements may be satisfied via the EALC Japanese Placement Exam; students placing above the Elementary level will have the requirement waived and begin coursework at the level indicated by the exam.\nStudents who place out of both the Elementary and Intermediate levels must still complete 8 units of East Asian-related coursework (upper or lower division) within the EALC Department to fulfill major requirements. Courses outside the department may be used in consultation with the undergraduate major advisor."
+   }
+  },
+  {
+   "id": "elementary-japanese",
+   "title": "Elementary Japanese",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 1A"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "intermediate-japanese",
+   "title": "Intermediate Japanese",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 10A"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 10B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-japanese",
+   "title": "Advanced Japanese",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 100A"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division",
+   "title": "Upper Division",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "manual",
+    "text": "Upper Division"
+   }
+  },
+  {
+   "id": "introduction-to-classical-japanese",
+   "title": "Introduction to Classical Japanese",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "course",
+    "course": "JAPAN 120"
+   }
+  },
+  {
+   "id": "classical-literature",
+   "title": "Classical Literature",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 130"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 132"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 134"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 140"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 142"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 144"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 146"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN C141"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD C141"
+     }
+    ]
+   }
+  },
+  {
+   "id": "modern-literature",
+   "title": "Modern Literature",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 150"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 155"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "east-asian-comparative-culture",
+   "title": "East Asian Comparative Culture",
+   "section": "Language Requirements",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "EALANG"
+     ],
+     "minNumber": 100,
+     "maxNumber": 189
+    }
+   }
+  },
+  {
+   "id": "ealc-electives",
+   "title": "EALC Electives",
+   "section": "Language Requirements",
+   "notes": "Courses related to East Asian Studies taken outside of the department, either on campus or through study abroad, may be accepted upon approval. Request for courses outside of the department can be submitted for approval here.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "EALANG",
+      "CHINESE",
+      "JAPAN",
+      "KOREAN",
+      "MANCHU",
+      "MONGOLN",
+      "TIBETAN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  },
+  {
+   "id": "introduction-to-classical-japanese-2",
+   "title": "Introduction to Classical Japanese",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "JAPAN 120"
+   }
+  },
+  {
+   "id": "classical-literature-2",
+   "title": "Classical Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 130"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 132"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 134"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 140"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 142"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 144"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 146"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN C141"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD C141"
+     }
+    ]
+   }
+  },
+  {
+   "id": "modern-literature-2",
+   "title": "Modern Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JAPAN 150"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 155"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "east-asian-comparative-culture-2",
+   "title": "East Asian Comparative Culture",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "EALANG"
+     ],
+     "minNumber": 100,
+     "maxNumber": 189
+    }
+   }
+  },
+  {
+   "id": "ealc-electives-2",
+   "title": "EALC Electives",
+   "section": "Upper Division",
+   "notes": "Courses related to East Asian Studies taken outside of the department, either on campus or through study abroad, may be accepted upon approval. Request for courses outside of the department can be submitted for approval here.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "EALANG",
+      "CHINESE",
+      "JAPAN",
+      "KOREAN",
+      "MANCHU",
+      "MONGOLN",
+      "TIBETAN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  }
+ ]
+}

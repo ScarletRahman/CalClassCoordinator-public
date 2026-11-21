@@ -1,0 +1,152 @@
+{
+ "id": "minor-israel-studies",
+ "title": "Israel Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I174U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I174U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I174U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Students must complete the following requirements for the minor in Israel Studies. They consist of at least 17 total units of two upper division core courses and three upper division electives.\n- Prerequisites for Prof. Ron Hassner’s courses will be waived for students in the Israel Studies minor.\n- Students cannot petition for unaffiliated UC Berkeley courses to count toward the minor. Transfer students are encouraged to contact an Israel Studies academic advisor for assistance.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 175E"
+       },
+       {
+        "type": "course",
+        "course": "JEWISH 175E"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 174"
+     },
+     {
+      "type": "course",
+      "course": "MELC 134"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "A maximum of one language course can be used toward the elective requirement.\nA maximum of one course is allowed from the Core requirement.",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARABIC 1A"
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 1B"
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 20A"
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 20B"
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 100A"
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 100B"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 115"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 1A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 1B"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 20A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 20B"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 100A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 100B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 175E"
+       },
+       {
+        "type": "course",
+        "course": "JEWISH 175E"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "JEWISH 121B"
+     },
+     {
+      "type": "course",
+      "course": "JEWISH 126"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 174"
+     },
+     {
+      "type": "course",
+      "course": "MELC 134"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124B"
+     }
+    ]
+   }
+  }
+ ]
+}

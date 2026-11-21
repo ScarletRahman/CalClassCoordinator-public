@@ -1,0 +1,3753 @@
+{
+ "NEU 100A": {
+  "course": "NEU 100A",
+  "difficulty": 4.1,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (15 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.262
+    },
+    {
+     "label": "Average grade B- (2.77)",
+     "value": 4.8,
+     "weight": 0.317
+    },
+    {
+     "label": "Student workload rating (15)",
+     "value": 3.1,
+     "weight": 0.112
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.2,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (15 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.3
+    }
+   ]
+  },
+  "sentiment": "15 students on Berkeleytime rate it 4.4/5 for difficulty, 3.1/5 for workload and 4.5/5 for usefulness. The average grade is B- (2.77), with 33% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.77,
+   "letter": "B-",
+   "students": 477,
+   "pctA": 33,
+   "pctBelowB": 35,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 74
+    },
+    {
+     "letter": "A-",
+     "count": 47
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 86
+    },
+    {
+     "letter": "B-",
+     "count": 45
+    },
+    {
+     "letter": "C+",
+     "count": 26
+    },
+    {
+     "letter": "C",
+     "count": 50
+    },
+    {
+     "letter": "C-",
+     "count": 26
+    },
+    {
+     "letter": "D+",
+     "count": 7
+    },
+    {
+     "letter": "D",
+     "count": 23
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 22
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 15,
+   "difficulty": 4.4,
+   "workload": 3.1,
+   "usefulness": 4.5,
+   "recordedPct": 86,
+   "attendanceRequiredPct": 43
+  },
+  "byProfessor": [
+   {
+    "professor": "Andrea Gomez",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.77,
+    "studentCount": 15,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 4.5,
+    "difficulty": 4.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Ehud Isacoff",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.77,
+    "studentCount": 15,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 4.5,
+    "difficulty": 4.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Richard Kramer",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.78,
+    "studentCount": 13,
+    "studentDifficulty": 4.4,
+    "studentUsefulness": 4.5,
+    "difficulty": 4.3,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Marla Feller",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 2.76,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 5,
+    "difficulty": 4.3,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20100A"
+  ]
+ },
+ "NEU 100B": {
+  "course": "NEU 100B",
+  "difficulty": 3.7,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B (3.03)",
+     "value": 3.9,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 4.0/5 for difficulty, 3.3/5 for workload and 4.3/5 for usefulness. The average grade is B (3.03), with 35% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded. Attendance is usually required.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.03,
+   "letter": "B",
+   "students": 427,
+   "pctA": 35,
+   "pctBelowB": 26,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 54
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 93
+    },
+    {
+     "letter": "B-",
+     "count": 34
+    },
+    {
+     "letter": "C+",
+     "count": 29
+    },
+    {
+     "letter": "C",
+     "count": 51
+    },
+    {
+     "letter": "C-",
+     "count": 19
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 4,
+   "workload": 3.3,
+   "usefulness": 4.3,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joni Wallis",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.01,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Hillel Adesnik",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Liberty Hamilton",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Doris Tsao",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.0,
+    "midterms": 2,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Daniel Feldman",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.0,
+    "midterms": 2,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.3,
+    "difficulty": 3.9,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Yang Dan",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.99,
+    "midterms": 2,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Kristin Scott",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.0,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20100B"
+  ]
+ },
+ "NEU 110": {
+  "course": "NEU 110",
+  "difficulty": 2.1,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.277
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 2.7/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.77), with 81% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 189,
+   "pctA": 81,
+   "pctBelowB": 1,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 113
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2.7,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Ball",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.79,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 2,
+    "difficulty": 1.7,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Marla Feller",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.69,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 2,
+    "difficulty": 2.2,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Maura McDonagh",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20110"
+  ]
+ },
+ "NEU 123": {
+  "course": "NEU 123",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.199
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.057
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.38), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 66,
+   "pctA": 66,
+   "pctBelowB": 11,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Gul Dolen",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.38,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20123"
+  ]
+ },
+ "NEU 128": {
+  "course": "NEU 128",
+  "difficulty": 3.6,
+  "shouldTake": 2.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (3.03)",
+     "value": 3.9,
+     "weight": 0.203
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.1,
+     "weight": 0.058
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 3.0/5 for workload and 1.0/5 for usefulness. The average grade is B (3.03), with 33% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.03,
+   "letter": "B",
+   "students": 69,
+   "pctA": 33,
+   "pctBelowB": 30,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jack Gallant",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.03,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 1,
+    "difficulty": 3.8,
+    "shouldTake": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20128"
+  ]
+ },
+ "NEU 151": {
+  "course": "NEU 151",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.21), with 38% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 38,
+   "pctA": 38,
+   "pctBelowB": 19,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael DeWeese",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Joni Wallis",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "David Foster",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20151"
+  ]
+ },
+ "NEU 152": {
+  "course": "NEU 152",
+  "difficulty": 3.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.18)",
+     "value": 3.5,
+     "weight": 0.235
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.067
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.18), with 47% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.18,
+   "letter": "B+",
+   "students": 102,
+   "pctA": 47,
+   "pctBelowB": 17,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Preeya Khanna",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.16,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Chunlei Liu",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Daniel Robbins",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.09,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.7,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Markita Landry",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.33,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20152"
+  ]
+ },
+ "NEU 162": {
+  "course": "NEU 162",
+  "difficulty": 3.5,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (2.97)",
+     "value": 4.1,
+     "weight": 0.24
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.069
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is B (2.97), with 37% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.97,
+   "letter": "B",
+   "students": 109,
+   "pctA": 37,
+   "pctBelowB": 28,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.01,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.6,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "David Foster",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.01,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.6,
+    "shouldTake": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20162"
+  ]
+ },
+ "NEU 163": {
+  "course": "NEU 163",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.06)",
+     "value": 3.8,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.06), with 30% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.06,
+   "letter": "B",
+   "students": 24,
+   "pctA": 30,
+   "pctBelowB": 22,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 3
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Annaliese Beery",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.06,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20163"
+  ]
+ },
+ "NEU 163C": {
+  "course": "NEU 163C",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.18)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.18), with 38% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.18,
+   "letter": "B+",
+   "students": 24,
+   "pctA": 38,
+   "pctBelowB": 17,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Annaliese Beery",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.18,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20163C"
+  ]
+ },
+ "NEU 164": {
+  "course": "NEU 164",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.212
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.19), with 51% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 77,
+   "pctA": 51,
+   "pctBelowB": 21,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Helen Bateup",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Marla Feller",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20164"
+  ]
+ },
+ "NEU 165": {
+  "course": "NEU 165",
+  "difficulty": 3.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B (2.96)",
+     "value": 4.2,
+     "weight": 0.27
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.8,
+     "weight": 0.077
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness. The average grade is B (2.96), with 36% of letter grades in the A range. It usually has 3 scheduled midterms.",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.96,
+   "letter": "B",
+   "students": 169,
+   "pctA": 36,
+   "pctBelowB": 29,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 11
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 22
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 3,
+   "usefulness": 5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephan Lammel",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.02,
+    "midterms": 3,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.96,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.9,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "David Presti",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.97,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.9,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Robin Ball",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.03,
+    "midterms": 3,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Helen Bateup",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.03,
+    "midterms": 3,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20165"
+  ]
+ },
+ "NEU 171L": {
+  "course": "NEU 171L",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.232
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 55% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 98,
+   "pctA": 55,
+   "pctBelowB": 15,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Ball",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Stephen Brohawn",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Yvette Fisher",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20171L"
+  ]
+ },
+ "NEU 172L": {
+  "course": "NEU 172L",
+  "difficulty": 2.4,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.144
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.041
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 2.5/5 for difficulty, 2.0/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.73), with 82% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 35,
+   "pctA": 82,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 12
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Silver",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.2,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.2,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Bruno Olshausen",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.73,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.2,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20172L"
+  ]
+ },
+ "NEU 173L": {
+  "course": "NEU 173L",
+  "difficulty": 2.0,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.26
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.86), with 94% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 145,
+   "pctA": 94,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 70
+    },
+    {
+     "letter": "A",
+     "count": 50
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephan Lammel",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.41,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "David Feinberg",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.39,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Daniel Feldman",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.07,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.84,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 1.8,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Marla Feller",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.07,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Richard Kramer",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Henk Roelink",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20173L"
+  ]
+ },
+ "NEU 190": {
+  "course": "NEU 190",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 26,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robin Ball",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Maura McDonagh",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.84,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20190"
+  ]
+ },
+ "NEU 191": {
+  "course": "NEU 191",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Bruno Olshausen",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Yartsev",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joni Wallis",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Doris Tsao",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20191"
+  ]
+ },
+ "NEU 197": {
+  "course": "NEU 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Marla Feller",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "David Presti",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Stephan Lammel",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Daniel Feldman",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Richard Ivry",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Yang Dan",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20197"
+  ]
+ },
+ "NEU 198": {
+  "course": "NEU 198",
+  "difficulty": 2.4,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Chunlei Liu",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Hazel Himelstein",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Robin Hadveck",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Angela Lee",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Helen Bateup",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Sequoia Taylor",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Vidya Desai",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Leanne Grace Alvarado",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20198"
+  ]
+ },
+ "NEU 199": {
+  "course": "NEU 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "William Jagust",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "David Presti",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Na Ji",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ehud Isacoff",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Daniel Feldman",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Hillel Adesnik",
+    "terms": 7,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Markita Landry",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20199"
+  ]
+ },
+ "NEU 24": {
+  "course": "NEU 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "David Presti",
+    "terms": 3,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2024"
+  ]
+ },
+ "NEU 39": {
+  "course": "NEU 39",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "David Presti",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2039"
+  ]
+ },
+ "NEU 61": {
+  "course": "NEU 61",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.291
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 249,
+   "pctA": 89,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 167
+    },
+    {
+     "letter": "A-",
+     "count": 42
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Presti",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.76,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2061"
+  ]
+ },
+ "NEU 62": {
+  "course": "NEU 62",
+  "difficulty": 2.9,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (21 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.283
+    },
+    {
+     "label": "Average grade B+ (3.27)",
+     "value": 3.2,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (21)",
+     "value": 2.4,
+     "weight": 0.121
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (21 on Berkeleytime)",
+     "value": 4.0,
+     "weight": 0.323
+    }
+   ]
+  },
+  "sentiment": "21 students on Berkeleytime rate it 2.9/5 for difficulty, 2.4/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.27), with 51% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.27,
+   "letter": "B+",
+   "students": 395,
+   "pctA": 51,
+   "pctBelowB": 14,
+   "pctPassNoPass": 30,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 81
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 57
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 114
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 21,
+   "difficulty": 2.9,
+   "workload": 2.4,
+   "usefulness": 4.0,
+   "recordedPct": 10,
+   "attendanceRequiredPct": 29
+  },
+  "byProfessor": [
+   {
+    "professor": "David Presti",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.41,
+    "studentCount": 21,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.0,
+    "difficulty": 2.8,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2062"
+  ]
+ },
+ "NEU 63": {
+  "course": "NEU 63",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.221
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.63), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 86,
+   "pctA": 66,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Arash Ng",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2063"
+  ]
+ },
+ "NEU 65": {
+  "course": "NEU 65",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.162
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 43,
+   "pctA": 97,
+   "pctBelowB": 3,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Doris Tsao",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.82,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2065"
+  ]
+ },
+ "NEU 77": {
+  "course": "NEU 77",
+  "difficulty": 2.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 1.8,
+     "weight": 0.191
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 1.5,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 1.8/5 for difficulty, 1.5/5 for workload and 4.2/5 for usefulness. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 1.8,
+   "workload": 1.5,
+   "usefulness": 4.2,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Feldman",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "studentCount": 5,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.0,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Helen Bateup",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.9,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Marla Feller",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2077"
+  ]
+ },
+ "NEU 98": {
+  "course": "NEU 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Alexander Huth",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Arushi Neravetla",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2098"
+  ]
+ },
+ "NEU 99": {
+  "course": "NEU 99",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Richard Kramer",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Stephan Lammel",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Richard Ivry",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Bruno Olshausen",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Yartsev",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%2099"
+  ]
+ },
+ "NEU C121": {
+  "course": "NEU C121",
+  "difficulty": 2.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.261
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.43), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 146,
+   "pctA": 57,
+   "pctBelowB": 14,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Kevin Weiner",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.0,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C121"
+  ]
+ },
+ "NEU C124": {
+  "course": "NEU C124",
+  "difficulty": 2.4,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.085
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.024
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.80), with 88% of letter grades in the A range. It usually has 3 scheduled midterms.",
+  "midterms": 3,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 16,
+   "pctA": 88,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Madeleine Snyder",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Yartsev",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.66,
+    "midterms": 3,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C124"
+  ]
+ },
+ "NEU C125": {
+  "course": "NEU C125",
+  "difficulty": 3.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade C+ (2.42)",
+     "value": 5.0,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is C+ (2.42), with 40% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.42,
+   "letter": "C+",
+   "students": 27,
+   "pctA": 40,
+   "pctBelowB": 48,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tara Raam",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.62,
+    "difficulty": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C125"
+  ]
+ },
+ "NEU C126": {
+  "course": "NEU C126",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.257
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.26), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 138,
+   "pctA": 54,
+   "pctBelowB": 20,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C126"
+  ]
+ },
+ "NEU C166": {
+  "course": "NEU C166",
+  "difficulty": 1.8,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.244
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 4.7/5 for usefulness. The average grade is A (3.96), with 97% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 115,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 55
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 4.7,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniela Kaufer",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.96,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.7,
+    "difficulty": 1.6,
+    "shouldTake": 4.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C166"
+  ]
+ },
+ "NEU C61": {
+  "course": "NEU C61",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (13 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.253
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.313
+    },
+    {
+     "label": "Student workload rating (13)",
+     "value": 2.4,
+     "weight": 0.108
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.036
+    },
+    {
+     "label": "Student usefulness rating (13 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.289
+    }
+   ]
+  },
+  "sentiment": "13 students on Berkeleytime rate it 2.6/5 for difficulty, 2.4/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.36), with 52% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 421,
+   "pctA": 52,
+   "pctBelowB": 9,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 92
+    },
+    {
+     "letter": "B+",
+     "count": 57
+    },
+    {
+     "letter": "B",
+     "count": 47
+    },
+    {
+     "letter": "B-",
+     "count": 41
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 42
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 13,
+   "difficulty": 2.6,
+   "workload": 2.4,
+   "usefulness": 4,
+   "recordedPct": 91,
+   "attendanceRequiredPct": 69
+  },
+  "byProfessor": [
+   {
+    "professor": "Tara Raam",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.36,
+    "studentCount": 9,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.4,
+    "difficulty": 2.8,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Hillel Adesnik",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.36,
+    "studentCount": 9,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.8,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C61"
+  ]
+ },
+ "NEU C64": {
+  "course": "NEU C64",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.216
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 81,
+   "pctA": 59,
+   "pctBelowB": 21,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 9
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tara Raam",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Tyler Kennedy",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.0,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Meghan Laturney",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 2.78,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Hannah Monday",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.03,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20C64"
+  ]
+ },
+ "NEU H196A": {
+  "course": "NEU H196A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Bruno Olshausen",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Yartsev",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joni Wallis",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Doris Tsao",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20H196A"
+  ]
+ },
+ "NEU H196B": {
+  "course": "NEU H196B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Bruno Olshausen",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "William Jagust",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Michael Yartsev",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Joni Wallis",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Doris Tsao",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NEU%20H196B"
+  ]
+ }
+}

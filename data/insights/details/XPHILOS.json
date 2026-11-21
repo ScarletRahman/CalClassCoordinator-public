@@ -1,0 +1,299 @@
+{
+ "XPHILOS 2": {
+  "course": "XPHILOS 2",
+  "difficulty": 2.9,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.6,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (11 on file)",
+     "value": 4.7,
+     "weight": 0.11
+    }
+   ]
+  },
+  "sentiment": "Students rave about the engaging, passionate lectures and approachable instruction. The content and readings can be difficult, and exams are based on readings and lectures, so notes and attendance matter. The final is hard, but many call it one of their favorite classes.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 511,
+   "pctA": 54,
+   "pctBelowB": 7,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 121
+    },
+    {
+     "letter": "A-",
+     "count": 118
+    },
+    {
+     "letter": "B+",
+     "count": 94
+    },
+    {
+     "letter": "B",
+     "count": 52
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 42
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3,
+   "workload": 3.4,
+   "usefulness": 4.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 60
+  },
+  "byProfessor": [
+   {
+    "professor": "Richie Kim",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.36,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Ali Kashani",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.47,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.8,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XPHILOS%202"
+  ]
+ },
+ "XPHILOS 3": {
+  "course": "XPHILOS 3",
+  "difficulty": 2.9,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.285
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (10 on file)",
+     "value": 3.9,
+     "weight": 0.107
+    }
+   ]
+  },
+  "sentiment": "Students find lectures entertaining and engaging, and the instructor accessible and supportive. The material is dense, midterms are difficult with awkwardly worded questions, and grades rely on exams and participation. Reviewers advise attending lecture, participating, and using the slides for studying.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 219,
+   "pctA": 53,
+   "pctBelowB": 6,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 65
+    },
+    {
+     "letter": "B+",
+     "count": 45
+    },
+    {
+     "letter": "B",
+     "count": 20
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Richie Kim",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XPHILOS%203"
+  ]
+ }
+}

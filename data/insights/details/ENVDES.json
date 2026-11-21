@@ -1,0 +1,2282 @@
+{
+ "ENVDES 1": {
+  "course": "ENVDES 1",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (17 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.27
+    },
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (17)",
+     "value": 2.8,
+     "weight": 0.116
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.2,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.039
+    },
+    {
+     "label": "Student usefulness rating (17 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.309
+    }
+   ]
+  },
+  "sentiment": "17 students on Berkeleytime rate it 2.2/5 for difficulty, 2.8/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.69), with 78% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 893,
+   "pctA": 78,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 197
+    },
+    {
+     "letter": "A",
+     "count": 357
+    },
+    {
+     "letter": "A-",
+     "count": 102
+    },
+    {
+     "letter": "B+",
+     "count": 73
+    },
+    {
+     "letter": "B",
+     "count": 56
+    },
+    {
+     "letter": "B-",
+     "count": 24
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 14
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 40
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 17,
+   "difficulty": 2.2,
+   "workload": 2.8,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 94
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Chastain",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.77,
+    "studentCount": 16,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.1,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Valerie Beauchamp",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.62,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Elaine Forbush",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Gita Khandagle",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.39,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Maria Gonzalez",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.64,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%201"
+  ]
+ },
+ "ENVDES 100": {
+  "course": "ENVDES 100",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.305
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 337,
+   "pctA": 76,
+   "pctBelowB": 7,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 68
+    },
+    {
+     "letter": "A",
+     "count": 95
+    },
+    {
+     "letter": "A-",
+     "count": 28
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 77
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Michael Larice",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20100"
+  ]
+ },
+ "ENVDES 102": {
+  "course": "ENVDES 102",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.307
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is A- (3.62), with 70% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 353,
+   "pctA": 70,
+   "pctBelowB": 3,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 114
+    },
+    {
+     "letter": "A-",
+     "count": 78
+    },
+    {
+     "letter": "B+",
+     "count": 47
+    },
+    {
+     "letter": "B",
+     "count": 26
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Stephen Collier",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.63,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.5,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20102"
+  ]
+ },
+ "ENVDES 104": {
+  "course": "ENVDES 104",
+  "difficulty": 2.0,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.243
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.7/5 for difficulty, 2.3/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.80), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 114,
+   "pctA": 84,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 64
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1.7,
+   "workload": 2.3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Diego Romero Evans",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.3,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Suchita Ghosh",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.99,
+    "studentCount": 2,
+    "studentDifficulty": 1,
+    "studentUsefulness": 1,
+    "difficulty": 1.5,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Nate Kauffman",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Thomas Chastain",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20104"
+  ]
+ },
+ "ENVDES 106": {
+  "course": "ENVDES 106",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.222
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 70% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 87,
+   "pctA": 70,
+   "pctBelowB": 3,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 17
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nader Afzalan",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.4,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Diego Romero Evans",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.77,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Nate Kauffman",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Eric Cesal",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Caroline Lebar",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20106"
+  ]
+ },
+ "ENVDES 11": {
+  "course": "ENVDES 11",
+  "difficulty": 2.4,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.257
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 3.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.074
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.6/5 for difficulty, 3.2/5 for workload and 2.2/5 for usefulness. The average grade is A- (3.73), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 139,
+   "pctA": 79,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.6,
+   "workload": 3.2,
+   "usefulness": 2.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Diego Romero Evans",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.79,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.4,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Nader Afzalan",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 2.7,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Conor Farese",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.85,
+    "studentCount": 3,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 2.3,
+    "difficulty": 2.3,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Nate Kauffman",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.89,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 1,
+    "difficulty": 2.0,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Kristina Hill",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%2011"
+  ]
+ },
+ "ENVDES 121": {
+  "course": "ENVDES 121",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 88% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 88,
+   "pctBelowB": 6,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20121"
+  ]
+ },
+ "ENVDES 131": {
+  "course": "ENVDES 131",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Karen Frick",
+    "terms": 6,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20131"
+  ]
+ },
+ "ENVDES 132AC": {
+  "course": "ENVDES 132AC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Juan Berumen",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20132AC"
+  ]
+ },
+ "ENVDES 133AC": {
+  "course": "ENVDES 133AC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Catherine Covey",
+    "terms": 2,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20133AC"
+  ]
+ },
+ "ENVDES 152": {
+  "course": "ENVDES 152",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 58% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 13,
+   "pctA": 58,
+   "pctBelowB": 8,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Chatman",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.52,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Irene Farah Rivadeneyra",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.52,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Daniel Rodriguez",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.52,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20152"
+  ]
+ },
+ "ENVDES 153": {
+  "course": "ENVDES 153",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Yanin Kramsky",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20153"
+  ]
+ },
+ "ENVDES 161": {
+  "course": "ENVDES 161",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Matthew Kendall",
+    "terms": 3,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Maria Paz de Moura Castro King",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Julie Riley",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Michael Heyn",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Brian Orser",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Kyle Winston",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20161"
+  ]
+ },
+ "ENVDES 162": {
+  "course": "ENVDES 162",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Yulia Grinkrug",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Maria Paz de Moura Castro King",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Robert Ungar",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Justin Kollar",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Michael Larice",
+    "terms": 2,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "David Orkand",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Tara Singh",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20162"
+  ]
+ },
+ "ENVDES 163": {
+  "course": "ENVDES 163",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Diego Romero Evans",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Maria Paz de Moura Castro King",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Zack Dinh",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Junyi Li",
+    "terms": 1,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Claire Adams",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Catherine Meersman",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Hyunch Sung",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20163"
+  ]
+ },
+ "ENVDES 195A": {
+  "course": "ENVDES 195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Zachary Lamb",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20195A"
+  ]
+ },
+ "ENVDES 195B": {
+  "course": "ENVDES 195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Margaret Crawford",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Chip Sullivan",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kyle Steinfeld",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "C Crysler",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Anna Brand",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Greg Castillo",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Andrew Atwood",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charisma Acey",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20195B"
+  ]
+ },
+ "ENVDES 198": {
+  "course": "ENVDES 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Yulia Grinkrug",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Andy Shanken",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Isabella Isles",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20198"
+  ]
+ },
+ "ENVDES 199": {
+  "course": "ENVDES 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Andrew Atwood",
+    "terms": 10,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Richard Hindle",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Zoe Hamstead",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Carolina Reid",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kyle Steinfeld",
+    "terms": 8,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Karen Frick",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "C Crysler",
+    "terms": 2,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Margaret Crawford",
+    "terms": 3,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20199"
+  ]
+ },
+ "ENVDES 2": {
+  "course": "ENVDES 2",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.315
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 443,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 58
+    },
+    {
+     "letter": "A",
+     "count": 212
+    },
+    {
+     "letter": "A-",
+     "count": 51
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 21
+    },
+    {
+     "letter": "S",
+     "count": 62
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Maria Paz de Moura Castro King",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.76,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Matthew Kendall",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.72,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Diego Romero Evans",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.93,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Yulia Grinkrug",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Robert Ungar",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Julie Riley",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.59,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Zack Dinh",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.92,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Justin Kollar",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.73,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%202"
+  ]
+ },
+ "ENVDES 4A": {
+  "course": "ENVDES 4A",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.304
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 333,
+   "pctA": 94,
+   "pctBelowB": 2,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 86
+    },
+    {
+     "letter": "A",
+     "count": 151
+    },
+    {
+     "letter": "A-",
+     "count": 59
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%204A"
+  ]
+ },
+ "ENVDES 4B": {
+  "course": "ENVDES 4B",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.291
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 245,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 187
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 37
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%204B"
+  ]
+ },
+ "ENVDES 4C": {
+  "course": "ENVDES 4C",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.275
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 182,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 69
+    },
+    {
+     "letter": "A",
+     "count": 49
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%204C"
+  ]
+ },
+ "ENVDES 5": {
+  "course": "ENVDES 5",
+  "difficulty": 2.6,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.7,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.9/5 for difficulty, 2.7/5 for workload and 2.6/5 for usefulness. The average grade is A- (3.56), with 75% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 823,
+   "pctA": 75,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 140
+    },
+    {
+     "letter": "A",
+     "count": 331
+    },
+    {
+     "letter": "A-",
+     "count": 128
+    },
+    {
+     "letter": "B+",
+     "count": 67
+    },
+    {
+     "letter": "B",
+     "count": 43
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 15
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 25
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.9,
+   "workload": 2.7,
+   "usefulness": 2.6,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Greg Castillo",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.52,
+    "studentCount": 6,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2.7,
+    "difficulty": 2.6,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Dorothee Imbert",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Diego Romero Evans",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Matthew Biggar",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Danika Cooper",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.45,
+    "studentCount": 6,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2.7,
+    "difficulty": 2.7,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Walter Hood",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Pol Fite Matamoros",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%205"
+  ]
+ },
+ "ENVDES 8": {
+  "course": "ENVDES 8",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.225
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.95), with 99% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 90,
+   "pctA": 99,
+   "pctBelowB": 1,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 75
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gabriel Kaprielian",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.4
+   },
+   {
+    "professor": "Suraya Akhenaton",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Dewi Bleher",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Reagan Lauder",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Srusti Shah",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%208"
+  ]
+ },
+ "ENVDES 8L": {
+  "course": "ENVDES 8L",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Gabriel Kaprielian",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%208L"
+  ]
+ },
+ "ENVDES 9": {
+  "course": "ENVDES 9",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.69)",
+     "value": 1.8,
+     "weight": 0.32
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.69), with 84% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.69,
+   "letter": "A-",
+   "students": 540,
+   "pctA": 84,
+   "pctBelowB": 5,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 249
+    },
+    {
+     "letter": "A-",
+     "count": 130
+    },
+    {
+     "letter": "B+",
+     "count": 34
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 62
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kimberly Smith",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.79,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Alison Ard",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Joshua Pi",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%209"
+  ]
+ },
+ "ENVDES C132": {
+  "course": "ENVDES C132",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 64% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 14,
+   "pctA": 64,
+   "pctBelowB": 14,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lincoln Cushing",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Lok Siu",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20C132"
+  ]
+ },
+ "ENVDES R3B": {
+  "course": "ENVDES R3B",
+  "difficulty": 2.4,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.21
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.06
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.60), with 82% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 75,
+   "pctA": 82,
+   "pctBelowB": 8,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Hindle",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Andrew Atwood",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Vicente Tinoco",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.41,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Kyle Steinfeld",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.86,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Minhae Roth",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.35,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ENVDES%20R3B"
+  ]
+ }
+}

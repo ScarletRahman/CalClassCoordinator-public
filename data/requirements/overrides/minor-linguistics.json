@@ -1,0 +1,22 @@
+{
+ "why": "\"Students must complete 1 course from 2 of the 5 bins, each with a letter grade.\" The five bins are listed as five required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I085U"
+ ],
+ "merge": [
+  {
+   "block": "Upper Division",
+   "title": "Upper Division Bins",
+   "type": "nOf",
+   "n": 2,
+   "rules": [
+    "Language and Mind",
+    "Sociolinguistics and Historical Linguistics",
+    "Phonetics and Phonology",
+    "Morphosyntax",
+    "Meaning"
+   ],
+   "notes": "Complete 1 course from 2 of the 5 bins, each with a letter grade."
+  }
+ ]
+}

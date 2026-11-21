@@ -1,0 +1,264 @@
+{
+  "id": "major-chemical-engineering-bs",
+  "title": "Chemical Engineering BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/chemical-engineering/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "general-chemistry",
+      "title": "General chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 12A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 12B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENGIN 7"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOLOGY 1A"
+          },
+          {
+            "type": "course",
+            "course": "MCELLBI 32"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro-chemeng",
+      "title": "Introduction to Chemical Engineering Design",
+      "rule": {
+        "type": "course",
+        "course": "CHMENG 40"
+      }
+    },
+    {
+      "id": "physical-chem",
+      "title": "Physical chemistry",
+      "rule": {
+        "type": "course",
+        "course": "CHEM 120A"
+      }
+    },
+    {
+      "id": "chemeng-core",
+      "title": "Chemical engineering core",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHMENG 140"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 141"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 142"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 150A"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 150B"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 154"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 160"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 162"
+          },
+          {
+            "type": "course",
+            "course": "CHMENG 185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tech-electives",
+      "title": "Engineering/science electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "CHMENG",
+            "CHEM",
+            "BIOENG",
+            "MATSCI",
+            "MECENG"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "CHMENG 140",
+            "CHMENG 141",
+            "CHMENG 142",
+            "CHMENG 150A",
+            "CHMENG 150B",
+            "CHMENG 154",
+            "CHMENG 160",
+            "CHMENG 162",
+            "CHMENG 185",
+            "CHEM 120A"
+          ]
+        },
+        "minUnits": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+ "STS C100": {
+  "course": "STS C100",
+  "difficulty": 2.4,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 1.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 1.5/5 for difficulty, 2.5/5 for workload and 2.5/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 1.5,
+   "workload": 2.5,
+   "usefulness": 2.5,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Shreeharsh Kelkar",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.2,
+    "shouldTake": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STS%20C100"
+  ]
+ },
+ "STS C101": {
+  "course": "STS C101",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Monica Libell",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Mauricio Najarro",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Hannah Zeavin",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STS%20C101"
+  ]
+ },
+ "STS C103": {
+  "course": "STS C103",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "A",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Sandra Eder",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.72,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 2.5,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STS%20C103"
+  ]
+ },
+ "STS C104D": {
+  "course": "STS C104D",
+  "difficulty": 2.9,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (41 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (41)",
+     "value": 3,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.045
+    },
+    {
+     "label": "Student usefulness rating (41 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.357
+    }
+   ]
+  },
+  "sentiment": "41 students on Berkeleytime rate it 2.9/5 for difficulty, 3.0/5 for workload and 3.4/5 for usefulness. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 41,
+   "difficulty": 2.9,
+   "workload": 3,
+   "usefulness": 3.4,
+   "recordedPct": 20,
+   "attendanceRequiredPct": 10
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STS%20C104D"
+  ]
+ },
+ "STS C34": {
+  "course": "STS C34",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Morgan Ames",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STS%20C34"
+  ]
+ },
+ "STS C4AC": {
+  "course": "STS C4AC",
+  "difficulty": 3.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.0/5 for difficulty, 3.8/5 for workload and 4.0/5 for usefulness. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 3.8,
+   "usefulness": 4,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Roddy",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=STS%20C4AC"
+  ]
+ }
+}

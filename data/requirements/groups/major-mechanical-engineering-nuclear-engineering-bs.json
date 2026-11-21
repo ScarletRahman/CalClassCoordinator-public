@@ -1,0 +1,271 @@
+{
+ "id": "major-mechanical-engineering-nuclear-engineering-bs",
+ "title": "Mechanical Engineering/Nuclear Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/162C0U",
+  "https://undergraduate.catalog.berkeley.edu/programs/162C0U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "162C0U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\n- Students cannot double-count their courses towards our technical requirements.\nFor information regarding residence requirements and unit requirements, please see the College Requirements tab.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "math-physics-chemistry-and-engineering",
+   "title": "Math, Physics, Chemistry, and Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 4A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 26"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 29"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mechanical-engineering-core",
+   "title": "Mechanical Engineering Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 178"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 102B"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 103"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 108"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 109"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nuclear-engineering-core",
+   "title": "Nuclear Engineering Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "NUCENG 100"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 101"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 104"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 150"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 170A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 6 units of:\n- Any MECENG 100-189 course\nComplete at least 6 units of:\n- Any NUCENG 100-189 course\n- Students may receive up to 3 units of technical elective credit total for all of their elective requirements for graded research in MECENG H194, MECENG 196, or NUCENG 196.",
+    "mentionedCourses": [
+     "MECENG 100",
+     "NUCENG 100",
+     "MECENG H194",
+     "MECENG 196"
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 156B"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 185"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 31"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100E"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 2"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 104"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 107"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 116"
+     }
+    ]
+   }
+  }
+ ]
+}

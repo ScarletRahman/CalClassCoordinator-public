@@ -1,0 +1,4330 @@
+{
+ "ELENG 105": {
+  "course": "ELENG 105",
+  "difficulty": 3.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (19 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.277
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (19)",
+     "value": 4.1,
+     "weight": 0.119
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.9,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (19 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.317
+    }
+   ]
+  },
+  "sentiment": "19 students on Berkeleytime rate it 4.1/5 for difficulty, 4.1/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.30), with 51% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 518,
+   "pctA": 51,
+   "pctBelowB": 14,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 49
+    },
+    {
+     "letter": "A",
+     "count": 114
+    },
+    {
+     "letter": "A-",
+     "count": 83
+    },
+    {
+     "letter": "B+",
+     "count": 64
+    },
+    {
+     "letter": "B",
+     "count": 80
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 24
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 12
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 19,
+   "difficulty": 4.1,
+   "workload": 4.1,
+   "usefulness": 4,
+   "recordedPct": 95,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jaijeet Roychowdhury",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Zaijun Chen",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.6,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Aditya Varma Muppala",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.44,
+    "studentCount": 4,
+    "studentDifficulty": 3.8,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Kristofer Pister",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.13,
+    "studentCount": 9,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 4.1,
+    "difficulty": 3.9,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Rikky Muller",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.27,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.3,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Alp Sipahigil",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.3,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.3,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Jun-Chau Chien",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.38,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.4,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Ali Niknejad",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.3,
+    "difficulty": 3.3
+   }
+  ],
+  "reviews": [
+   {
+    "text": "If you like/are good at the circuits/physics parts of EE you'll enjoy this class. I do, so I didn't find it that difficult but the workload is as expected of a Berkeley upper div tech. Has 3-6hr long weekly labs that the course expects you to attend every week, so any conflicts are NOT okay. Labs are fun (imo), but can be challenging. Pray you have good lab TAs.",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "labs galore",
+    "professor": "Aditya Varma Muppala",
+    "grade": "A"
+   },
+   {
+    "text": "105 is absolutely necessary if you want to go into any kind of analog circuit design. I would say it's worth it even if you don't, as it builds strong fundamentals which can help you learn more advanced material on your own in the future if you want. The homework can be difficult and time-consuming. The labs can be frustrating when stuff is broken, but by the end turn you into a breadboarding expert and also expose you to a lot of interesting equipment. Tests are also challenging.",
+    "term": "2023 Fall",
+    "source": "Berkeleytime",
+    "title": "Challenging But Necessary",
+    "professor": "Jun-Chau Chien",
+    "grade": "A+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20105"
+  ]
+ },
+ "ELENG 108": {
+  "course": "ELENG 108",
+  "difficulty": 3.5,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B (2.99)",
+     "value": 4.1,
+     "weight": 0.243
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.9,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B (2.99), with 41% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.99,
+   "letter": "B",
+   "students": 114,
+   "pctA": 41,
+   "pctBelowB": 35,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 15
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Pilawa-Podgurski",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.99,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "This course focuses on the basics of power conversion and transmission, and builds an intuition for switched mode power converters and other common circuit elements without going too in depth with implementation details or non-idealities. Very useful but not absolutely required to take before EE 113.",
+    "term": "2024 Spring",
+    "source": "Berkeleytime",
+    "title": "EECS Course Rating",
+    "professor": "Robert Pilawa-Podgurski",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20108"
+  ]
+ },
+ "ELENG 113": {
+  "course": "ELENG 113",
+  "difficulty": 3.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B (2.96)",
+     "value": 4.2,
+     "weight": 0.248
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 4.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.8,
+     "weight": 0.071
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 4.0/5 for difficulty, 4.3/5 for workload and 5.0/5 for usefulness. The average grade is B (2.96), with 40% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.96,
+   "letter": "B",
+   "students": 121,
+   "pctA": 40,
+   "pctBelowB": 28,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 4,
+   "workload": 4.3,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Jessica Boles",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.89,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 4.1,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Robert Pilawa-Podgurski",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.83,
+    "difficulty": 4.1
+   }
+  ],
+  "reviews": [
+   {
+    "text": "Very useful course that goes over every theoretical concept relevant to switched mode power conversion, including flyback, switched capacitor, and resonant converters. Also teaches a lot of non idealities necessary to understand for the second course in the series, EE 113B, where you build your own power converter.",
+    "term": "2024 Fall",
+    "source": "Berkeleytime",
+    "title": "EE 113 Course Rating",
+    "professor": "Jessica Boles",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20113"
+  ]
+ },
+ "ELENG 113B": {
+  "course": "ELENG 113B",
+  "difficulty": 2.8,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.185
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.053
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.76), with 87% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 56,
+   "pctA": 87,
+   "pctBelowB": 5,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jessica Boles",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.77,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 4.2
+   }
+  ],
+  "reviews": [
+   {
+    "text": "As the only formal class in Berkeley EECS that teaches PCB design, this class teaches everything for high speed and high power PCB and converter design. As the second in a two part series, it builds off of EE 113 and is incredibly helpful for any EE major.",
+    "term": "2025 Spring",
+    "source": "Berkeleytime",
+    "title": "EE 113B Rating",
+    "professor": "Jessica Boles",
+    "grade": "A-"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20113B"
+  ]
+ },
+ "ELENG 117": {
+  "course": "ELENG 117",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.228
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.19), with 43% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 93,
+   "pctA": 43,
+   "pctBelowB": 18,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aditya Varma Muppala",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Boubacar Kante",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.23,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Ali Niknejad",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.47,
+    "difficulty": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20117"
+  ]
+ },
+ "ELENG 117B": {
+  "course": "ELENG 117B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Aditya Varma Muppala",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20117B"
+  ]
+ },
+ "ELENG 118": {
+  "course": "ELENG 118",
+  "difficulty": 3.2,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.231
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.39), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 97,
+   "pctA": 50,
+   "pctBelowB": 8,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 13
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "YoungJu Jo",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Boubacar Kante",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.38,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20118"
+  ]
+ },
+ "ELENG 120": {
+  "course": "ELENG 120",
+  "difficulty": 3.1,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (15 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.262
+    },
+    {
+     "label": "Average grade B+ (3.30)",
+     "value": 3.1,
+     "weight": 0.331
+    },
+    {
+     "label": "Student workload rating (15)",
+     "value": 3,
+     "weight": 0.112
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.9,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (15 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.3
+    },
+    {
+     "label": "Tone of written student reviews (11 on file)",
+     "value": 4.2,
+     "weight": 0.11
+    }
+   ]
+  },
+  "sentiment": "Students say the course is theory-heavy and about average for upper-division difficulty, with long homework and sometimes time-pressured exams. Most reviews praise clear, funny lectures and helpful office hours. Attending lectures and doing homework carefully is the repeated advice.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.3,
+   "letter": "B+",
+   "students": 888,
+   "pctA": 54,
+   "pctBelowB": 14,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 57
+    },
+    {
+     "letter": "A",
+     "count": 295
+    },
+    {
+     "letter": "A-",
+     "count": 82
+    },
+    {
+     "letter": "B+",
+     "count": 69
+    },
+    {
+     "letter": "B",
+     "count": 125
+    },
+    {
+     "letter": "B-",
+     "count": 66
+    },
+    {
+     "letter": "C+",
+     "count": 23
+    },
+    {
+     "letter": "C",
+     "count": 29
+    },
+    {
+     "letter": "C-",
+     "count": 20
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 16
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 74
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 15,
+   "difficulty": 3.2,
+   "workload": 3,
+   "usefulness": 3.9,
+   "recordedPct": 93,
+   "attendanceRequiredPct": 7
+  },
+  "byProfessor": [
+   {
+    "professor": "Kannan Ramchandran",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.15,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.3,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Babak Ayazifar",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Laura Waller",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.43,
+    "studentCount": 4,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.0,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Alex Dimakis",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.04,
+    "studentCount": 7,
+    "studentDifficulty": 3.1,
+    "studentUsefulness": 3.4,
+    "difficulty": 3.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Chunlei Liu",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.41,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   }
+  ],
+  "reviews": [
+   {
+    "text": "This is a very average upper-division technical Berkeley course in terms of difficulty and workload. This class is all about the frequency domain and the various quirks and tricks of Laplace, Fourier, and other transforms. It's important to understand this material for anything that deals a lot of frequency domain (like circuits, physics etc.) and no other class gets to this level of depth in this field. This class is also very math and theory heavy, which is something I did not expect…",
+    "term": "2024 Spring",
+    "source": "Berkeleytime",
+    "title": "Important If You Care",
+    "professor": "Chunlei Liu",
+    "grade": "A+"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20120"
+  ]
+ },
+ "ELENG 121": {
+  "course": "ELENG 121",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 67% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 14,
+   "pctA": 67,
+   "pctBelowB": 0,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Miki Lustig",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20121"
+  ]
+ },
+ "ELENG 122": {
+  "course": "ELENG 122",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.245
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.5/5 for difficulty, 3.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.54), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 116,
+   "pctA": 60,
+   "pctBelowB": 4,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 29
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 18
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3.5,
+   "workload": 3.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Shyam Parekh",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.55,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.7
+   }
+  ],
+  "reviews": [
+   {
+    "text": "This course has a lot of overlap with other courses in terms of material (especially courses like CS 168, EE 127 with Markov chains etc.). The content is interesting, but lectures can be a bit hard to follow. There's an open-ended final project where you can do whatever you want.",
+    "term": "2025 Spring",
+    "source": "Berkeleytime",
+    "title": "Overlap with other classes, but good overview of networks",
+    "professor": "Shyam Parekh"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20122"
+  ]
+ },
+ "ELENG 123": {
+  "course": "ELENG 123",
+  "difficulty": 2.9,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.277
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.55), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 190,
+   "pctA": 65,
+   "pctBelowB": 4,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 36
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gopala Anumanchipalli",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.53,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20123"
+  ]
+ },
+ "ELENG 130": {
+  "course": "ELENG 130",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.26)",
+     "value": 3.2,
+     "weight": 0.291
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3.2,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.5/5 for difficulty, 3.2/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.26), with 49% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.26,
+   "letter": "B+",
+   "students": 247,
+   "pctA": 49,
+   "pctBelowB": 12,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 15
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 39
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 33
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.5,
+   "workload": 3.2,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 33
+  },
+  "byProfessor": [
+   {
+    "professor": "Asir Intisar Khan",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Yuan Cao",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 5,
+    "difficulty": 3.7,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Ali Javey",
+    "terms": 5,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.26,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.1,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Sayeef Salahuddin",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.17,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Jeffrey Bokor",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "reviews": [
+   {
+    "text": "I really liked the class, I think it is relatively little workload compared to most upper divs as there is not really any lab component. I do think the TA (kim something?) was my least favorite part of the class because I always felt that they were unfairly harsh with grading.",
+    "term": "2025 Fall",
+    "source": "Berkeleytime",
+    "title": "good class for those who like physics and fabrication",
+    "professor": "Ali Javey",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20130"
+  ]
+ },
+ "ELENG 134": {
+  "course": "ELENG 134",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.18)",
+     "value": 3.5,
+     "weight": 0.267
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.18), with 38% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.18,
+   "letter": "B+",
+   "students": 160,
+   "pctA": 38,
+   "pctBelowB": 17,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 28
+    },
+    {
+     "letter": "B",
+     "count": 25
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 10
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mengjie Yu",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.31,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Ana Arias",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.82,
+    "difficulty": 3.9
+   },
+   {
+    "professor": "Akshay Pattabi",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.22,
+    "midterms": 1,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20134"
+  ]
+ },
+ "ELENG 137A": {
+  "course": "ELENG 137A",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.26
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 57% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 144,
+   "pctA": 57,
+   "pctBelowB": 14,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 13
+    },
+    {
+     "letter": "A",
+     "count": 43
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Robert Pilawa-Podgurski",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 2.96,
+    "midterms": 1,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20137A"
+  ]
+ },
+ "ELENG 137B": {
+  "course": "ELENG 137B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.229
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 95,
+   "pctA": 76,
+   "pctBelowB": 1,
+   "pctPassNoPass": 21,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 31
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jessica Boles",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Alexandra Von Meier",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20137B"
+  ]
+ },
+ "ELENG 140": {
+  "course": "ELENG 140",
+  "difficulty": 3.3,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B+ (3.42)",
+     "value": 2.7,
+     "weight": 0.291
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 3.8,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 4.6,
+     "weight": 0.275
+    }
+   ]
+  },
+  "sentiment": "11 students on Berkeleytime rate it 3.9/5 for difficulty, 3.8/5 for workload and 4.6/5 for usefulness. The average grade is B+ (3.42), with 59% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.42,
+   "letter": "B+",
+   "students": 245,
+   "pctA": 59,
+   "pctBelowB": 9,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 80
+    },
+    {
+     "letter": "A-",
+     "count": 42
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 14
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 3.9,
+   "workload": 3.8,
+   "usefulness": 4.6,
+   "recordedPct": 91,
+   "attendanceRequiredPct": 27
+  },
+  "byProfessor": [
+   {
+    "professor": "Rikky Muller",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.42,
+    "studentCount": 10,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.6,
+    "difficulty": 3.3,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Ali Niknejad",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kristofer Pister",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.4,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 3.1,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Sashank Krishnamurthy",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.32,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20140"
+  ]
+ },
+ "ELENG 142": {
+  "course": "ELENG 142",
+  "difficulty": 3.2,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.202
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.058
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.32), with 54% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 68,
+   "pctA": 54,
+   "pctBelowB": 12,
+   "pctPassNoPass": 26,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jun-Chau Chien",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ali Niknejad",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.36,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.2,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20142"
+  ]
+ },
+ "ELENG 143": {
+  "course": "ELENG 143",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.305
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 337,
+   "pctA": 65,
+   "pctBelowB": 4,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 40
+    },
+    {
+     "letter": "A",
+     "count": 86
+    },
+    {
+     "letter": "A-",
+     "count": 65
+    },
+    {
+     "letter": "B+",
+     "count": 40
+    },
+    {
+     "letter": "B",
+     "count": 37
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ali Javey",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.49,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Grigory Tikhomirov",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.69,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Jeffrey Bokor",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.34,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20143"
+  ]
+ },
+ "ELENG 147": {
+  "course": "ELENG 147",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.175
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 50,
+   "pctA": 60,
+   "pctBelowB": 10,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristofer Pister",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Yuan Cao",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.35,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Ming-Chiang Wu",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.63,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20147"
+  ]
+ },
+ "ELENG 156": {
+  "course": "ELENG 156",
+  "difficulty": 3.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jean-Paul Tennant",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 3.6,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20156"
+  ]
+ },
+ "ELENG 16A": {
+  "course": "ELENG 16A",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (44 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.314
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (44)",
+     "value": 3.3,
+     "weight": 0.135
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.045
+    },
+    {
+     "label": "Student usefulness rating (44 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.359
+    },
+    {
+     "label": "Tone of written student reviews (38 on file)",
+     "value": 3.5,
+     "weight": 0.136
+    }
+   ]
+  },
+  "sentiment": "Students describe a challenging, linear-algebra-focused course with hard homework and labs, and some disorganization after recent curriculum changes. Lectures are engaging for many, though some find them hard to follow. Exams are open book but difficult and time-pressured. Reviewers say discussion and homework are key.",
+  "sentimentWrittenBy": "model",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 1009,
+   "pctA": 39,
+   "pctBelowB": 11,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 271
+    },
+    {
+     "letter": "A-",
+     "count": 102
+    },
+    {
+     "letter": "B+",
+     "count": 179
+    },
+    {
+     "letter": "B",
+     "count": 215
+    },
+    {
+     "letter": "B-",
+     "count": 83
+    },
+    {
+     "letter": "C+",
+     "count": 38
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 17
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 17
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 44,
+   "difficulty": 3.6,
+   "workload": 3.3,
+   "usefulness": 3.8,
+   "recordedPct": 98,
+   "attendanceRequiredPct": 2
+  },
+  "byProfessor": [
+   {
+    "professor": "Babak Ayazifar",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "studentCount": 40,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Jean-Paul Tennant",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.28,
+    "studentCount": 6,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.2,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Moses Won",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.29,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Gireeja Ranade",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.96,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Ana Arias",
+    "terms": 4,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.12,
+    "midterms": 2,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Rikky Muller",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.09,
+    "midterms": 2,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Laura Waller",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.09,
+    "midterms": 2,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Miki Lustig",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.12,
+    "midterms": 2,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2066"
+  ]
+ },
+ "ELENG 16B": {
+  "course": "ELENG 16B",
+  "difficulty": 3.6,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (21 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.283
+    },
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.292
+    },
+    {
+     "label": "Student workload rating (21)",
+     "value": 3.7,
+     "weight": 0.121
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (21 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.323
+    },
+    {
+     "label": "Tone of written student reviews (66 on file)",
+     "value": 1.9,
+     "weight": 0.141
+    }
+   ]
+  },
+  "sentiment": "Reviewers are mostly negative, describing a stressful, disorganized course with difficult exams, harsh policies, and little or no clobber or curve. Lectures are often called slow or not helpful, and labs are hard without prior circuits experience. A few say the final was fair and that prior EE experience helps greatly.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 253,
+   "pctA": 38,
+   "pctBelowB": 16,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 58
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 21,
+   "difficulty": 3.9,
+   "workload": 3.7,
+   "usefulness": 3.5,
+   "recordedPct": 95,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Prabal Dutta",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.22,
+    "studentCount": 4,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.6,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Boubacar Kante",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rikky Muller",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kater Murch",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sayeef Salahuddin",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.16,
+    "studentCount": 12,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.7,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Ming-Chiang Wu",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.14,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.5,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Robert Pilawa-Podgurski",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.95,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.7,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Clark Nguyen",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.35,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2064"
+  ]
+ },
+ "ELENG 192": {
+  "course": "ELENG 192",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.166
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 45,
+   "pctA": 87,
+   "pctBelowB": 4,
+   "pctPassNoPass": 49,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 10
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20192"
+  ]
+ },
+ "ELENG 194": {
+  "course": "ELENG 194",
+  "difficulty": 2.7,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 5,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 4.0/5 for difficulty, 5.0/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.79), with 86% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 399,
+   "pctA": 86,
+   "pctBelowB": 3,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 63
+    },
+    {
+     "letter": "A",
+     "count": 174
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 76
+    },
+    {
+     "letter": "NP",
+     "count": 13
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 4,
+   "workload": 5,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Borivoje Nikolic",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Jiantao Jiao",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.96,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Anant Sahai",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.96,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Jean-Paul Tennant",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Sagar Karandikar",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ali Niknejad",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Tony Yen",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kater Murch",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "reviews": [
+   {
+    "text": "The tapeout project is very open-ended. You get together with 40 other students who don't know what they're doing and try to do something that takes professionals a year. A lof of the time you'll wonder why you're even doing it all. A lot of your teammates will probably disappear halfway through the semester.\n\nHowever, all that being said, which other class is going to spend millions of dollars just to make something that doesn't work so you can learn something.",
+    "term": "2025 Spring",
+    "source": "Berkeleytime",
+    "title": "Hard and Frustrating but worth it in the end",
+    "professor": "Jun-Chau Chien, Kristofer Pister, Vikram Jain",
+    "grade": "A"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20194"
+  ]
+ },
+ "ELENG 197": {
+  "course": "ELENG 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Ana Arias",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Miki Lustig",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Clark Nguyen",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Babak Ayazifar",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Attwood",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Vladimir Stojanovic",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Gireeja Ranade",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Chunlei Liu",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20197"
+  ]
+ },
+ "ELENG 198": {
+  "course": "ELENG 198",
+  "difficulty": 3.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 5.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 5,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Clark Nguyen",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Miki Lustig",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Olivia Phongsa",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Roman Silivra",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Borivoje Nikolic",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jessica Boles",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Aidan Rickert",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jim Fang",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20198"
+  ]
+ },
+ "ELENG 199": {
+  "course": "ELENG 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Ronald Fearing",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rikky Muller",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michel Maharbiz",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ali Niknejad",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Alp Sipahigil",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Avideh Zakhor",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jeffrey Bokor",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ali Javey",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20199"
+  ]
+ },
+ "ELENG 229A": {
+  "course": "ELENG 229A",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.245
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 116,
+   "pctA": 79,
+   "pctBelowB": 1,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 51
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Venkatachalam Anantharam",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.81,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Kannan Ramchandran",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.64,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20229A"
+  ]
+ },
+ "ELENG 24": {
+  "course": "ELENG 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Kristofer Pister",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2024"
+  ]
+ },
+ "ELENG 39": {
+  "course": "ELENG 39",
+  "difficulty": 2.2,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.229
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.066
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.60), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 95,
+   "pctA": 90,
+   "pctBelowB": 10,
+   "pctPassNoPass": 89,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 76
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Miki Lustig",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.67,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 1.9,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2039"
+  ]
+ },
+ "ELENG 64": {
+  "course": "ELENG 64",
+  "difficulty": 3.6,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (21 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.283
+    },
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.292
+    },
+    {
+     "label": "Student workload rating (21)",
+     "value": 3.7,
+     "weight": 0.121
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.3,
+     "weight": 0.04
+    },
+    {
+     "label": "Student usefulness rating (21 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.323
+    }
+   ]
+  },
+  "sentiment": "21 students on Berkeleytime rate it 3.9/5 for difficulty, 3.7/5 for workload and 3.5/5 for usefulness. The average grade is B (3.09), with 38% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 253,
+   "pctA": 38,
+   "pctBelowB": 16,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 58
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 21,
+   "difficulty": 3.9,
+   "workload": 3.7,
+   "usefulness": 3.5,
+   "recordedPct": 95,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Prabal Dutta",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.22,
+    "studentCount": 4,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.6,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Boubacar Kante",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rikky Muller",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Kater Murch",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Sayeef Salahuddin",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.16,
+    "studentCount": 12,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.3,
+    "difficulty": 3.7,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Ming-Chiang Wu",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.14,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.5,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Robert Pilawa-Podgurski",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.95,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.7,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Clark Nguyen",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.35,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2064"
+  ]
+ },
+ "ELENG 66": {
+  "course": "ELENG 66",
+  "difficulty": 3.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (44 on Berkeleytime)",
+     "value": 3.6,
+     "weight": 0.314
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (44)",
+     "value": 3.3,
+     "weight": 0.135
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.045
+    },
+    {
+     "label": "Student usefulness rating (44 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.359
+    }
+   ]
+  },
+  "sentiment": "44 students on Berkeleytime rate it 3.6/5 for difficulty, 3.3/5 for workload and 3.8/5 for usefulness. The average grade is B+ (3.25), with 39% of letter grades in the A range. It usually has 2 scheduled midterms. Lectures are usually recorded.",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 1009,
+   "pctA": 39,
+   "pctBelowB": 11,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 271
+    },
+    {
+     "letter": "A-",
+     "count": 102
+    },
+    {
+     "letter": "B+",
+     "count": 179
+    },
+    {
+     "letter": "B",
+     "count": 215
+    },
+    {
+     "letter": "B-",
+     "count": 83
+    },
+    {
+     "letter": "C+",
+     "count": 38
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 17
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 17
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 44,
+   "difficulty": 3.6,
+   "workload": 3.3,
+   "usefulness": 3.8,
+   "recordedPct": 98,
+   "attendanceRequiredPct": 2
+  },
+  "byProfessor": [
+   {
+    "professor": "Babak Ayazifar",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.3,
+    "studentCount": 40,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.3,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Jean-Paul Tennant",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.28,
+    "studentCount": 6,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.2,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Moses Won",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.29,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Gireeja Ranade",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.96,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Ana Arias",
+    "terms": 4,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.12,
+    "midterms": 2,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Rikky Muller",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.09,
+    "midterms": 2,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Laura Waller",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.09,
+    "midterms": 2,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Miki Lustig",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.12,
+    "midterms": 2,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 2.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2066"
+  ]
+ },
+ "ELENG 84": {
+  "course": "ELENG 84",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Michael Werner Zuerch",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Miki Lustig",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Chunlei Liu",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2084"
+  ]
+ },
+ "ELENG 97": {
+  "course": "ELENG 97",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Ana Arias",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ruzena Bajcsy",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Clark Nguyen",
+    "terms": 5,
+    "lastTaught": "2026 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2097"
+  ]
+ },
+ "ELENG 98": {
+  "course": "ELENG 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Boubacar Kante",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Brendan Kariithi",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Yoel Nrayo",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Chimkasinma Mbakwe",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Babak Ayazifar",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2098"
+  ]
+ },
+ "ELENG 99": {
+  "course": "ELENG 99",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Pieter Abbeel",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ronald Fearing",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%2099"
+  ]
+ },
+ "ELENG C145B": {
+  "course": "ELENG C145B",
+  "difficulty": 2.9,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.117
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.033
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.32), with 43% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 25,
+   "pctA": 43,
+   "pctBelowB": 9,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Steven Conolly",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.39,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.8,
+    "shouldTake": 3.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20C145B"
+  ]
+ },
+ "ELENG H196A": {
+  "course": "ELENG H196A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Chunlei Liu",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Laura Waller",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sayeef Salahuddin",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Borivoje Nikolic",
+    "terms": 8,
+    "lastTaught": "2026 Summer",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Steven Conolly",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Tsu-Jae Liu",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Preeya Khanna",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Grigory Tikhomirov",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20H196A"
+  ]
+ },
+ "ELENG H196B": {
+  "course": "ELENG H196B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Robert Full",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ronald Fearing",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristofer Pister",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Bruno Olshausen",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Venkatachalam Anantharam",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Eric Ma",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ELENG%20H196B"
+  ]
+ }
+}

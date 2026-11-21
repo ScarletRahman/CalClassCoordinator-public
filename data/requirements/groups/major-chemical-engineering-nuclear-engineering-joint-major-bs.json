@@ -1,0 +1,334 @@
+{
+ "id": "major-chemical-engineering-nuclear-engineering-joint-major-bs",
+ "title": "Chemical Engineering/Nuclear Engineering BS",
+ "kind": "major",
+ "programType": "joint-major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/102B4U",
+  "https://undergraduate.catalog.berkeley.edu/programs/102B4U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "102B4U",
+ "notes": [
+  "General Guidelines\n- A minimum grade point average (GPA) of 2.0 must be maintained in all courses undertaken at UC Berkeley, including those from UC Summer Sessions, UC Education Abroad Program, UC Berkeley in Washington Program, and XB courses from University Extension.\n- A minimum GPA of 2.0 in all courses taken in the college is required in order to advance and continue in the upper division.\n- A minimum GPA of 2.0 in all upper division courses taken at the University is required to satisfy major requirements.\n- Students in the College of Chemistry who receive a grade of D+ or lower in a chemical and biomolecular engineering or chemistry course for which a grade of C- or higher is required must repeat the course at UC Berkeley."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "notes": "CHEM 1AL must be taken with CHEM1A",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 4A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 45"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 45L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 45"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 45L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 15,
+    "filter": {
+     "courses": [
+      "CHEM 120A",
+      "CHMENG 140",
+      "CHMENG 141",
+      "CHMENG 142",
+      "CHMENG 150A",
+      "CHMENG 150B",
+      "CHMENG 154",
+      "CHMENG 160",
+      "CHMENG 162",
+      "CHMENG 185",
+      "ENGIN 117",
+      "NUCENG 101",
+      "NUCENG 104",
+      "NUCENG 150",
+      "NUCENG 162",
+      "NUCENG 170A",
+      "PHYSICS 137A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "engineering-elective",
+   "title": "Engineering Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete 1 of:\nAny NUCENG 100-199 course",
+    "mentionedCourses": [
+     "NUCENG 100"
+    ]
+   }
+  },
+  {
+   "id": "nuclear-engineering-elective",
+   "title": "Nuclear Engineering Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 6,
+    "filter": {
+     "courses": [
+      "NUCENG C146",
+      "NUCENG C226",
+      "NUCENG C231",
+      "NUCENG C235",
+      "NUCENG C282",
+      "NUCENG C282L",
+      "NUCENG C285",
+      "NUCENG C290F",
+      "NUCENG H194",
+      "NUCENG S199",
+      "NUCENG 100",
+      "NUCENG 101",
+      "NUCENG 102",
+      "NUCENG 104",
+      "NUCENG 107",
+      "NUCENG 120",
+      "NUCENG 124",
+      "NUCENG 130",
+      "NUCENG 150",
+      "NUCENG 155",
+      "NUCENG 156",
+      "NUCENG 161",
+      "NUCENG 162",
+      "NUCENG 167",
+      "NUCENG 170A",
+      "NUCENG 170B",
+      "NUCENG 175",
+      "NUCENG 180",
+      "NUCENG 198",
+      "NUCENG 199"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "minor-italian-studies",
+ "title": "Italian Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I048U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I048U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I048U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ITALIAN 101"
+     },
+     {
+      "type": "course",
+      "course": "ITALIAN 105"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "- One course with primary readings and discussion in English may be counted toward the minor unit requirement.\n- Minimum 2 courses must have instruction in Italian.\n- A minimum of 12 units are required.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "ITALIAN 102",
+      "ITALIAN 104",
+      "ITALIAN 109",
+      "ITALIAN 110",
+      "ITALIAN 111",
+      "ITALIAN 112",
+      "ITALIAN 113",
+      "ITALIAN 114",
+      "ITALIAN 115",
+      "ITALIAN 115B",
+      "ITALIAN 117",
+      "ITALIAN 120",
+      "ITALIAN 130A",
+      "ITALIAN 130B",
+      "ITALIAN 140",
+      "ITALIAN 150",
+      "ITALIAN 155",
+      "ITALIAN 160",
+      "ITALIAN 163",
+      "ITALIAN 170",
+      "ITALIAN 175",
+      "ITALIAN 101",
+      "ITALIAN 105",
+      "ITALIAN 160S",
+      "ITALIAN 150AC",
+      "ITALIAN 125AC"
+     ]
+    }
+   }
+  }
+ ]
+}

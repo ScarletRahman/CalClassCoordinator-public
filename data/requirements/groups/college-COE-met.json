@@ -1,0 +1,147 @@
+{
+ "id": "college-COE-met",
+ "title": "College of Engineering requirements (M.E.T. program)",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/yKx5e1eCFAIJMGT5mAzC"
+ ],
+ "catalogYear": "2026-27",
+ "college": "COE",
+ "variantOf": "college-COE",
+ "requirements": [
+  {
+   "id": "m-e-t-reading-and-composition",
+   "title": "M.E.T. Reading and Composition",
+   "notes": "In order to provide a solid foundation in reading, writing, and critical thinking for work in the major, the College requires two semesters of lower division work in composition—Reading and Composition (R&C), Parts A and B, in sequential order.\n- All undergraduates must complete the Reading and Composition (R&C) requirement by the end of their fourth semester or their enrollment may be blocked for the following semester. For M.E.T., the first half of R&C, the “A” course, must be completed by the end of the first year summer semester and the second half, the “B” course, by the end of the Spring semester second year (fourth semester).\n- All courses used to satisfy Part A or B of Reading and Composition must be completed with a letter grade of C- or better.\n- Students who have been admitted to Berkeley and have not completed Entry Level Writing, must enroll in College Writing R1A (6 units), which satisfies both Entry Level Writing and the first half of R&C. Please note: A minimum grade of C is required in COLWRIT R1A in order to satisfy Entry Level Writing.\nSatisfying Reading and Composition with an Exam\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 4 satisfies Part A\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 5 satisfies Parts A & B\n- Advanced Placement (AP) English Language and Composition - Score of 4 or 5 satisfies Part A\n- International Baccalaureate (IB) Higher Level (HL) English A: Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- Beginning with students admitted in Fall 2018 - International Baccalaureate (IB) Higher Level (HL) English A: Language and Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- GCE A-Level English Literature exam - Not accepted for this requirement\n* The IB Literature and Performance exam, as well as the Standard Level (SL) exams in English A: Literature and English A: Language and Literature are NOT eligible for satisfaction of Reading and Composition.\nSatisfying Reading and Composition with Berkeley Courses\n- Successful completion with a C- grade or better of two designated Reading and Composition courses in sequence order. Review all approved below.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "m-e-t-breadth",
+   "title": "M.E.T. Breadth",
+   "notes": "The undergraduate breadth requirement provides Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and context that prepare Berkeley graduates to understand and solve the complex issues of their day.\nStudents in the M.E.T. Program must successfully complete six breadth courses, one in each of the following categories:\n- Arts and Literature\n- Historical Studies\n- International Studies\n- Philosophy and Values (will be satisfied with UGBA 107)\n- Physical Science (will be satisfied with Physics 7B)\n- Social and Behavioral Sciences (will be satisfied with ECON 1 OR ECON 2)\n- ECON 1 (or ECON 2) and UGBA 107 will be accepted for the Social and Behavioral Sciences and Philosophy and Values breadth requirements, respectively, as exceptions for students in the M.E.T. Program.\n- With the exception of UGBA 107, UGBA courses cannot be used to fulfill breadth requirements.\n- With the exception of ECON 1 or ECON 2, microeconomics and macroeconomics at any level (Econ 3, Econ 100A/B, Econ 101A/B, IAS 106/107) cannot be used to fulfill breadth requirements.\n- The Biological Science breadth requirement is waived for students in the M.E.T. Program.\n- Some American Cultures courses will also fulfill the Arts & Literature, Historical Studies or International Studies breadth requirement; use the Requirements filters to search the Class Schedule for courses that apply.\n- No more than two courses from any one department may be used to satisfy the breadth requirement (L&S Discovery courses are exempt).\n- Advanced Placement, International Baccalaureate and A-Level exams cannot be used to fulfill the breadth requirement. That said, ECON 1 may be fulfilled with exam credit. However, the Social and Behavioral Sciences Breadth requirement cannot be fulfilled with exam credit.\n- Courses numbered 97, 98, 99, or above 196 may not be used to complete any breadth requirement.\n- Breadth courses must be a minimum of 3 semester units.\n- Reading & Composition courses cannot be used to fulfill breadth requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "UGBA 107"
+       },
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "breadth": "Philosophy & Values"
+        }
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "breadth": "Physical Science"
+        }
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ECON 1"
+       },
+       {
+        "type": "course",
+        "course": "ECON 2"
+       },
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "breadth": "Social & Behavioral Sciences"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "m-e-t-unit-and-academic-requirements",
+   "title": "M.E.T. Unit and Academic Requirements",
+   "notes": "Class Schedule Requirements\n- Minimum units per semester: 13\n- Maximum units per semester: 20.5\n- Students in the M.E.T. Program must enroll each semester in no fewer than two letter-graded technical courses (of at least 3 units each, with the exception of Engineering 25, 26 and 27). Every semester, they are expected to make satisfactory progress in their declared major; satisfactory progress in the student's declared major is determined by their ESS adviser.\nMinimum Academic (Grade) Requirements\n- A minimum overall and semester grade point average of 2.000 (C average) is required. Students will be subject to dismissal from the University if, during any fall or spring semester, their overall U.C. GPA falls below a 2.000, or their semester GPA is less than 2.000.\n- Students must achieve a minimum GPA of 2.000 (C average) in upper division technical courses each semester. Students will be subject to dismissal from the University if their upper division technical GPA falls below 2.000.\n- A minimum overall GPA of 2.000, and a minimum 2.000 GPA in upper division technical coursework required of the major are required to graduate.\nUnit Requirements\n- A minimum of 120 units are required to graduate.\n- A maximum of 16 units of Special Studies coursework (courses numbered 97, 98, 99, 197, 198, or 199) will count towards the 120 units; a maximum of four are allowed in a given semester.\n- A maximum of four units of Physical Education from any school attended will count towards the 120 units.\n- Passed grades may account for no more than one-third of the total units completed at UC Berkeley, Fall Program for Freshmen (FPF), UC Education Abroad Program (UCEAP), or UC Berkeley Washington Program (UCDC) toward the 120 overall minimum unit requirement. Transfer credit is not factored into the limit. This includes transfer units from outside of the UC system, other UC campuses, credit-bearing exams, and UC Berkeley Extension XB units.",
+   "rule": {
+    "type": "manual",
+    "text": "M.E.T. unit load and academic standing rules are met (see notes)"
+   }
+  }
+ ]
+}

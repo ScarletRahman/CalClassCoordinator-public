@@ -1,0 +1,74 @@
+{
+ "id": "minor-arabic",
+ "title": "Arabic minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I029U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I029U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I029U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S Minor Guidelines\nGeneral Guidelines\n- All minors must be declared before the first day of classes in the term in which you are expected to graduate. For summer graduates, minors must be declared prior to the first day of Summer Session A.\n- All upper-division courses must be taken for a letter grade.\n- A minimum of three of the upper-division courses taken to fulfill the minor requirements must be completed at UC Berkeley.\n- A minimum C grade point average (2.000) is required in the upper-division courses to fulfill the minor requirements.\n- For Letters & Science students, courses used to fulfill the minor requirements may be applied toward the Seven-Course Breadth requirements.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- All minor requirements must be completed prior to the last day of finals during the semester in which the student plans to graduate. If students cannot finish all courses required for the minor by that time, they should see a College of Letters & Science adviser.\n- Letters and Sciences students must complete all minor requirements within the unit ceiling. All other students must complete within their registration term limit.\nThis minor is available to students in every college/school."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "ARABIC 100A"
+   }
+  },
+  {
+   "id": "literature",
+   "title": "Literature",
+   "section": "Upper Division",
+   "notes": "Two Arabic literature courses are required. Only one colloquial course may be permitted.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ARABIC 100B",
+      "ARABIC 104A",
+      "ARABIC 103",
+      "ARABIC 104B",
+      "ARABIC 105A",
+      "ARABIC 105B",
+      "ARABIC 107",
+      "ARABIC 108",
+      "ARABIC 111A",
+      "ARABIC 111B",
+      "ARABIC 115A",
+      "ARABIC 115B",
+      "ARABIC 190",
+      "ARABIC 190A",
+      "ARABIC 198",
+      "ARABIC 199"
+     ]
+    }
+   }
+  },
+  {
+   "id": "culture-and-history",
+   "title": "Culture & History",
+   "section": "Upper Division",
+   "notes": "- MELC courses 100-199",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ASAMST 128AC",
+      "ASAMST 132",
+      "HISTART C121A"
+     ]
+    }
+   }
+  }
+ ]
+}

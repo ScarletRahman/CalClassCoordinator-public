@@ -1,0 +1,82 @@
+{
+ "id": "minor-logic",
+ "title": "Logic minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I138U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I138U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I138U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "mathematical-logic",
+   "title": "Mathematical Logic",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 125A"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 140A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computability-and-logic",
+   "title": "Computability and Logic",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 136"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 140B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "COMPSCI 172",
+      "LINGUIS 121",
+      "LINGUIS 221",
+      "MATH 135",
+      "MATH 225A",
+      "MATH 225B",
+      "MATH 227A",
+      "MATH 229",
+      "MATH 235A",
+      "MATH 236",
+      "PHILOS 134",
+      "PHILOS 142",
+      "PHILOS 143",
+      "PHILOS 146",
+      "PHILOS 149"
+     ]
+    }
+   }
+  }
+ ]
+}

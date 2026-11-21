@@ -1,0 +1,368 @@
+{
+ "id": "major-materials-science-and-engineering-bs",
+ "title": "Materials Science and Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16328U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16328U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16328U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\nFor information regarding residence requirements and unit requirements, please see the College Requirements tab.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "math-and-physics",
+   "title": "Math and Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 89"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS W89"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry-part-a",
+   "title": "Chemistry, Part A",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry-part-b",
+   "title": "Chemistry, Part B",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 102"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 103"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 104"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 104L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 111"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 113"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 130"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 131"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 151"
+     }
+    ]
+   }
+  },
+  {
+   "id": "elective-1",
+   "title": "Elective #1",
+   "section": "Materials Lifecycle, Sustainability, and Recycling Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 120"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 121"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 122"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 128"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 129"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI C135"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C124"
+     }
+    ]
+   }
+  },
+  {
+   "id": "elective-2",
+   "title": "Elective #2",
+   "section": "Materials Lifecycle, Sustainability, and Recycling Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 118"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 120"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 121"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 122"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 128"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 129"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI C135"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG C124"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 136"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "math-stat-data-elective",
+   "title": "Math/Stat/Data Elective",
+   "section": "Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 1 of:\n- Any 3+ unit MATH 100-189 course, excluding C103, 151, 152, 153\n- Any 3+ unit STAT 100-189, excluding 157\n- COMPSCI C100\nOR DATA C100\nOR STAT C100\n- ENGIN 117\n- ENGIN 178\n- INDENG 172",
+    "mentionedCourses": [
+     "MATH 100",
+     "COMPSCI C100",
+     "DATA C100",
+     "STAT C100",
+     "ENGIN 117",
+     "ENGIN 178",
+     "INDENG 172"
+    ]
+   }
+  },
+  {
+   "id": "engineering-elective",
+   "title": "Engineering Elective",
+   "section": "Electives",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete a course from the options below. Please note that the course must be 3 units or more in value and cannot overlap with other major requirements.\n- Any 3+ unit BIOENG 100-189 course, excluding 100, 153\n- Any 3+ unit CHMENG 100-189 course\n- Any 3+ unit CIVENG 100-189 course\n- Any 3+ unit COMPSCI 100-199 course, excluding 194-100\n- Any 3+ unit EECS 100-C191B course\n- Any 3+ unit ELENG 100-192 course\n- Any 3+ unit ENGIN 100-178 course, including 183, excluding 125, 157AC, 170 series, 180, 183 series, 184, 185, 187, 188, 195 series … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "CIVENG 100",
+     "MECENG 100",
+     "NUCENG 100",
+     "DESINV 190E"
+    ]
+   }
+  }
+ ]
+}

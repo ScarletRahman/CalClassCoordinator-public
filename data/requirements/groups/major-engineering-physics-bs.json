@@ -1,0 +1,515 @@
+{
+ "id": "major-engineering-physics-bs",
+ "title": "Engineering Physics BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16315U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16315U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/16315U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16315U",
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 89"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS W89"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "label": "Option 1: Physics 7 series",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "label": "Option 2: Physics 5 series",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ]
+     }
+    ]
+   },
+   "overridden": true
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   },
+   "overridden": true
+  },
+  {
+   "id": "computer-programming",
+   "title": "Computer Programming",
+   "section": "Lower Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61B"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61BL"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-electives",
+   "title": "Technical Electives",
+   "section": "Lower Division Electives",
+   "notes": "May be satisfied with BIOLOGY 1A & 1AL or CHEM 3A & 3AL plus one additional course.",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 7A"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 7B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 64"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 45"
+     }
+    ]
+   },
+   "overridden": true
+  },
+  {
+   "id": "thermodynamics",
+   "title": "Thermodynamics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mechanics",
+   "title": "Mechanics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 105"
+     }
+    ]
+   }
+  },
+  {
+   "id": "eleng-143-nuceng-104-physics-111a",
+   "title": "ELENG 143, NUCENG 104, PHYSICS 111A",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 143"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 104"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 111A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "continuum-fluid-mechanics",
+   "title": "Continuum/Fluid Mechanics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 185"
+     }
+    ]
+   }
+  },
+  {
+   "id": "matsci-111-physics-141a",
+   "title": "MATSCI 111, PHYSICS 141A",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 111"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 141A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-math-1",
+   "title": "Advanced Math 1",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 104"
+     },
+     {
+      "type": "course",
+      "course": "MATH H104"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-math-2",
+   "title": "Advanced Math 2",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 185"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electromagnetism-and-optics",
+   "title": "Electromagnetism and Optics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ELENG 117"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 110A"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ELENG 118"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 110B"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "quantum-mechanics",
+   "title": "Quantum Mechanics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 137A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 137B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete a minimum of 15 units of upper division coursework in the College of Engineering.\nComplete any College of Engineering 100-193 course, excluding:\n- BIOENG 100, 153\n- COMPSCI 194-100\n- DESINV courses (except 190E)\n- ENGIN 125, 157AC, 170 series, 180, 183 series, 184, 185, 187, 188, 195 series\n- INDENG 185, 186, 190 series, 191, 192, 195\n- MECENG 190K, 191K.",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "BIOENG 153",
+     "COMPSCI 194",
+     "ENGIN 125",
+     "ENGIN 157AC",
+     "INDENG 185",
+     "INDENG 186",
+     "INDENG 190",
+     "MECENG 191K"
+    ]
+   }
+  },
+  {
+   "id": "physics-2",
+   "title": "Physics",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete a minimum of 14 units of upper division coursework in Physics.\nComplete any PHYSICS 100-193 course.",
+    "mentionedCourses": [
+     "PHYSICS 100"
+    ]
+   }
+  },
+  {
+   "id": "technical-electives-2",
+   "title": "Technical Electives",
+   "section": "Upper Division Electives",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete a minimum of 40 units of upper division coursework in technical subjects.\nTechnical Electives cannot include:\n- Any course taken on a P/NP basis;\n- Any course that only counts as H/SS;\n- Courses numbered 24, 32 (except MCELLBI 32 and MCELLBI 32L), 39, 84\n- BIOENG 100, 153\n- CHEM 100, 149, 192\n- COMPSCI 10 (if taken after COMPSCI 61x), C79, 194-100\n- DATA C104; DESINV courses (except DESINV 15, 22, 23, 90E, 190E)\n- ENGIN 125, 157AC, 170 series, 180, 183 series, 184, 185, 187, 188,195 series;\n- EPS C100;\n- INDENG 95, 185, 186, 190 series, 191, 192, 195 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "BIOENG 153",
+     "CHEM 100",
+     "CHEM 149",
+     "CHEM 192",
+     "COMPSCI 10",
+     "DATA C104",
+     "ENGIN 125",
+     "ENGIN 157AC",
+     "EPS C100",
+     "INDENG 185",
+     "INDENG 186",
+     "INDENG 190",
+     "INTEGBI 35AC",
+     "INTEGBI 101",
+     "INTEGBI C105",
+     "INTEGBI 191",
+     "MATH 55",
+     "MATH C103",
+     "MATH 151",
+     "MATH 152",
+     "MATH 153",
+     "MATH 160",
+     "MCELLBI 186B",
+     "MECENG 191K",
+     "NEU 65",
+     "NEU 77",
+     "NEU 110",
+     "NEU 162",
+     "PHYSICS 100"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "id": "minor-materials-science-and-engineering",
+ "title": "Materials Science and Engineering minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I017U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I017U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I017U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "General Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- All courses taken to fulfill the minor requirements must be taken for graded credit, unless course is only offered on a Pass/No Pass basis\n- A minimum overall grade point average (GPA) of 2.5 and a minimum GPA of 2.5 in the prerequisite courses is required for acceptance into the minor program.\n- A minimum grade point average (GPA) of 2.5 is required for courses used to fulfill the minor requirements.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- Completion of the minor program cannot delay a student’s graduation.\n*For Bioengineering majors, ENGIN 40 can be substituted with CHEM 120B or CHEM C130/MCB C100A.\n*For Chemical Engineering majors, ENGIN 40 can be substituted with CHM ENG 141.\n*Chemical Engineering majors must also take two courses from MAT SCI 104, MAT SCI 111-113, and MAT SCI 117-125.\n*For Mechanical Engineering majors, ENGIN 40 can be substituted with MEC ENG 40."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division-prerequisites",
+   "title": "Lower Division Prerequisites",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 45"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 45L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-requirements",
+   "title": "Upper Division Requirements",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 102"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 103"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG C118"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI C118"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 104"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 104L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 111"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 117"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 120"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 121"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 122"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 151"
+     }
+    ]
+   }
+  }
+ ]
+}

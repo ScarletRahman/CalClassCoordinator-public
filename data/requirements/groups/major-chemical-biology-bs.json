@@ -1,0 +1,436 @@
+{
+ "id": "major-chemical-biology-bs",
+ "title": "Chemical Biology BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/101A1U",
+  "https://undergraduate.catalog.berkeley.edu/programs/101A1U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "101A1U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "chemistry-and-allied-subjects-no-concentration",
+     "title": "Chemistry & Allied Subjects (no concentration)"
+    },
+    {
+     "id": "computational-chemistry",
+     "title": "Computational Chemistry"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "General Guidelines\n- A minimum grade point average (GPA) of 2.0 must be maintained in all courses undertaken at UC Berkeley, including those from UC Summer Sessions, UC Education Abroad Program, UC Berkeley in Washington Program, and XB courses from University Extension.\n- A minimum GPA of 2.0 in all courses taken in the college is required in order to advance and continue in upper division courses.\n- A minimum GPA of 2.0 in all upper division courses taken at the University is required to satisfy major requirements.\n- Chemical Biology majors who receive a grade of D+ or lower in a chemistry course for which a grade of C- or higher is required must repeat the course at UC Berkeley."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "notes": "Students must earn at least a C- to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10A"
+       },
+       {
+        "type": "course",
+        "course": "MATH N10A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1A"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1AL"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry-core",
+   "title": "Chemistry Core",
+   "section": "Upper Division",
+   "notes": "Chemical Biology majors may not replace CHEM 135 with MCELLBI 102.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 103"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 120B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 135"
+     }
+    ]
+   }
+  },
+  {
+   "id": "additional-chemistry",
+   "title": "Additional Chemistry",
+   "section": "Upper Division",
+   "notes": "MCELLBI 170L may be substituted for MCELLBI C110L.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 170L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "laboratory-requirement",
+   "title": "Laboratory Requirement",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM C182"
+     },
+     {
+      "type": "course",
+      "course": "EPS C182"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 105"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 108"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 115"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 125"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C146"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C170L"
+     },
+     {
+      "type": "course",
+      "course": "CHMENG C170L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "molecular-biology",
+   "title": "Molecular Biology",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "MCELLBI 110"
+   }
+  },
+  {
+   "id": "chemistry-and-allied-subjects-no-concentration-allied-subjects",
+   "title": "Allied Subjects",
+   "section": "Chemistry & Allied Subjects (no concentration)",
+   "choice": "concentration",
+   "option": "chemistry-and-allied-subjects-no-concentration",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Allied subjects are upper-division math, science, or engineering courses that have a background connection or relevance to chemistry.\nAstronomy\nC162\nBioengineering\n100, 104, 111, 112, C112, 114, 115, 116, C117, C118, C119, 121, 121L, 124, 131, 132, 143, C144, C144L, 147, 148, 150, 151, 163, C181\nBiology\nChemistry majors:1A plus 1AL or 1B (but not both) (must be completed with a grade of C- or better; AP Bio credit cannot be used toward the Allied Subjects requirement)\nChemical Biology majors: Bio 1B\nChemical and Biomolecular Engineering … (see the catalog for the rest)"
+   }
+  },
+  {
+   "id": "computational-chemistry-computational-chemistry",
+   "title": "Computational Chemistry",
+   "section": "Computational Chemistry",
+   "choice": "concentration",
+   "option": "computational-chemistry",
+   "rule": {
+    "type": "course",
+    "course": "CHEM 121"
+   }
+  },
+  {
+   "id": "computational-chemistry-programming",
+   "title": "Programming",
+   "section": "Computational Chemistry",
+   "choice": "concentration",
+   "option": "computational-chemistry",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C88C"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "DATA C88C"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "MATH 124"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computational-chemistry-mathematical-computational-and-statistical-methods",
+   "title": "Mathematical, Computational, and Statistical Methods",
+   "section": "Computational Chemistry",
+   "choice": "concentration",
+   "option": "computational-chemistry",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61B"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61C"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 170"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 189"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     },
+     {
+      "type": "course",
+      "course": "STAT 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computational-chemistry-advanced-methods-and-applications",
+   "title": "Advanced Methods and Applications",
+   "section": "Computational Chemistry",
+   "choice": "concentration",
+   "option": "computational-chemistry",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG C131"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C142"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C191"
+     },
+     {
+      "type": "course",
+      "course": "CMPBIO C131"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C100"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C191"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 176"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 189"
+     },
+     {
+      "type": "course",
+      "course": "DATA C100"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121B"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 215"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS C191"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 188"
+     },
+     {
+      "type": "course",
+      "course": "STAT C100"
+     }
+    ]
+   }
+  }
+ ]
+}

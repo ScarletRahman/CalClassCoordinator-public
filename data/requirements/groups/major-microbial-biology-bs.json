@@ -1,0 +1,611 @@
+{
+ "id": "major-microbial-biology-bs",
+ "title": "Microbial Biology BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/045A7U",
+  "https://undergraduate.catalog.berkeley.edu/programs/045A7U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/045A7U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "045A7U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "general-microbiology",
+     "title": "General Microbiology"
+    },
+    {
+     "id": "host-pathogen-interactions",
+     "title": "Host-Pathogen Interactions"
+    },
+    {
+     "id": "evolution-computational-genomics",
+     "title": "Evolution/Computational Genomics"
+    },
+    {
+     "id": "ecology-and-environmental-microbiology",
+     "title": "Ecology & Environmental Microbiology"
+    },
+    {
+     "id": "microbial-biotechnology",
+     "title": "Microbial Biotechnology"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "math-and-statistics",
+   "title": "Math and Statistics",
+   "section": "Lower Division",
+   "notes": "STAT 2 can be replaced by STAT 20, DATA C8, or PB HLTH 142.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 16A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 16B"
+       },
+       {
+        "type": "course",
+        "course": "STAT 2"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "STAT 2"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 10A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3B"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3BL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "biology",
+   "title": "Biology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "PHYSICS 8A"
+   }
+  },
+  {
+   "id": "breadth-requirements",
+   "title": "Breadth Requirements",
+   "section": "Lower Division",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Earn at least 15 credits from:\n- Any course that satisfies the Arts & Literature Breadth Requirement\n- Any course that satisfies the Historical Studies Breadth Requirement\n- Any course that satisfies the Philosophy & Values Breadth Requirement\n- Any course that satisfies the International Studies Breadth Requirement\n- Any course that satisfies the Social & Behavioral Studies Breadth Requirement\n- Any Beginning 2nd semester Foreign Language course\n- Any Intermediate 1st semester Foreign Language course\n- Any Intermediate 2nd semester Foreign Language course … (see the catalog for the rest)"
+   }
+  },
+  {
+   "id": "biochemistry",
+   "title": "Biochemistry",
+   "section": "Upper Division",
+   "notes": "Students in this major are strongly advised to fulfill this requirement with MCELLBI 102.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C130"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C100A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 135"
+     }
+    ]
+   }
+  },
+  {
+   "id": "microbiology",
+   "title": "Microbiology",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI C112"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI C112L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C148"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-electives",
+   "title": "Core Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM 112"
+       },
+       {
+        "type": "course",
+        "course": "ESPM 131"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI C103"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 118"
+       },
+       {
+        "type": "course",
+        "course": "PBHLTH 162A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C114"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C116"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI 120"
+       },
+       {
+        "type": "course",
+        "course": "PLANTBI 120L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 165"
+     }
+    ]
+   }
+  },
+  {
+   "id": "host-pathogen-interactions-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Host-Pathogen Interactions",
+   "choice": "concentration",
+   "option": "host-pathogen-interactions",
+   "notes": "Option 1: Choose a Concentration from below and select four courses from that concentration and/or the Upper Div Core Electives (above). A Core course can not count as both an Upper Div Core and a Concentration.\n|\nOption 2 (General Microbiology Concentration): Choose any four courses from any of the concentrations (below) and/or the Upper Div Core Electives (above). A Core course can not count as both an Upper Div Core and a Concentration.\n| … (see the catalog for the rest)\nResearch (3-4 Units):\n- ESPM/ INTEGBI/ MCELLBI/ NUSCTX/ PLANTBI 199/ H196\n- or UGIS 192C",
+   "rule": {
+    "type": "nOf",
+    "n": 4,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 135"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 116L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 137L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 150"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150A"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150B"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C134"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 135"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI C136"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI C117"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C146"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 150"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI 160"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI 140"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "evolution-computational-genomics-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Evolution/Computational Genomics",
+   "choice": "concentration",
+   "option": "evolution-computational-genomics",
+   "notes": "Research (3-4 Units):\n- ESPM/ INTEGBI/ MCELLBI/ NUSCTX/ PLANTBI 199/ H196\n- or UGIS 192C",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "BIOENG C131",
+      "BIOENG 135",
+      "COMPSCI 61A",
+      "COMPSCI 61B",
+      "COMPSCI 176",
+      "ESPM C125",
+      "INTEGBI 134L",
+      "INTEGBI 161",
+      "PLANTBI C146",
+      "MCELLBI 140"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ecology-and-environmental-microbiology-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Ecology & Environmental Microbiology",
+   "choice": "concentration",
+   "option": "ecology-and-environmental-microbiology",
+   "notes": "Research (3-4 Units):\n- ESPM/ INTEGBI/ MCELLBI/ NUSCTX/ PLANTBI 199/ H196\n- or UGIS 192C",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "BIOENG 100",
+      "BIOENG 135",
+      "BIOENG 140L",
+      "BIOENG 147",
+      "BIOENG 168L",
+      "ESPM C125",
+      "ESPM C153",
+      "ESPM 134",
+      "ESPM 157",
+      "INTEGBI 134L",
+      "INTEGBI 161",
+      "INTEGBI 172",
+      "PLANTBI C146"
+     ]
+    }
+   }
+  },
+  {
+   "id": "microbial-biotechnology-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Microbial Biotechnology",
+   "choice": "concentration",
+   "option": "microbial-biotechnology",
+   "notes": "Research (3-4 Units):\n- ESPM/ INTEGBI/ MCELLBI/ NUSCTX/ PLANTBI 199/ H196\n- or UGIS 192C",
+   "rule": {
+    "type": "nOf",
+    "n": 4,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 135"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 147"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 104"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 137L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 153"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 122"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C134"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PLANTBI C136"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI C117"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C146"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "general-microbiology-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "General Microbiology",
+   "choice": "concentration",
+   "option": "general-microbiology",
+   "notes": "Host-Pathogen Interactions: Research (3-4 Units):\n- ESPM/ INTEGBI/ MCELLBI/ NUSCTX/ PLANTBI 199/ H196\n- or UGIS 192C\nEvolution/Computational Genomics: Research (3-4 Units):\n- or UGIS 192C\nEcology & Environmental Microbiology: Research (3-4 Units):\n- or UGIS 192C\nMicrobial Biotechnology: Research (3-4 Units):\n- or UGIS 192C",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "BIOENG 100",
+      "BIOENG 135",
+      "BIOENG 168L",
+      "INTEGBI 116L",
+      "INTEGBI 134L",
+      "MCELLBI 104",
+      "MCELLBI 137L",
+      "MCELLBI 150",
+      "MCELLBI 153",
+      "PBHLTH 150A",
+      "PBHLTH 150B",
+      "PLANTBI C134",
+      "PLANTBI 135",
+      "PLANTBI C136",
+      "MCELLBI C117",
+      "PLANTBI C146",
+      "PLANTBI 150",
+      "PLANTBI 160",
+      "MCELLBI 140",
+      "BIOENG C131",
+      "COMPSCI 61A",
+      "COMPSCI 61B",
+      "COMPSCI 176",
+      "ESPM C125",
+      "INTEGBI 161",
+      "BIOENG 140L",
+      "BIOENG 147",
+      "ESPM C153",
+      "ESPM 134",
+      "ESPM 157",
+      "INTEGBI 172",
+      "PLANTBI 122"
+     ]
+    }
+   }
+  }
+ ]
+}

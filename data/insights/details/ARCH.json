@@ -1,0 +1,3892 @@
+{
+ "ARCH 100A": {
+  "course": "ARCH 100A",
+  "difficulty": 3.5,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.31)",
+     "value": 3.0,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 4.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 4.2/5 for difficulty, 4.8/5 for workload and 3.2/5 for usefulness. The average grade is B+ (3.31), with 35% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.31,
+   "letter": "B+",
+   "students": 581,
+   "pctA": 35,
+   "pctBelowB": 3,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 86
+    },
+    {
+     "letter": "A-",
+     "count": 113
+    },
+    {
+     "letter": "B+",
+     "count": 162
+    },
+    {
+     "letter": "B",
+     "count": 141
+    },
+    {
+     "letter": "B-",
+     "count": 54
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 4.2,
+   "workload": 4.8,
+   "usefulness": 3.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Ajay Manthripragada",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.29,
+    "studentCount": 3,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.6,
+    "shouldTake": 3.0
+   },
+   {
+    "professor": "Andrew Atwood",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.32,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 3.5,
+    "shouldTake": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20100A"
+  ]
+ },
+ "ARCH 100B": {
+  "course": "ARCH 100B",
+  "difficulty": 3.0,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 4.6,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Students overwhelmingly praise the studio for supportive, inspiring feedback and instructors who stay late to review projects. Reviewers say effort and time commitment are expected. One very old review described the studio as disorganized.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 573,
+   "pctA": 41,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 108
+    },
+    {
+     "letter": "A-",
+     "count": 105
+    },
+    {
+     "letter": "B+",
+     "count": 136
+    },
+    {
+     "letter": "B",
+     "count": 104
+    },
+    {
+     "letter": "B-",
+     "count": 52
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 43
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Aaron Forrest",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.37,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "David Orkand",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "William Di Napoli",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.35,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20100B"
+  ]
+ },
+ "ARCH 100C": {
+  "course": "ARCH 100C",
+  "difficulty": 3.0,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    },
+    {
+     "label": "Tone of written student reviews (10 on file)",
+     "value": 4.7,
+     "weight": 0.107
+    }
+   ]
+  },
+  "sentiment": "Reviewers are very positive about a creative, encouraging studio that rewards effort and gives good feedback. Sessions often run over time, and students get out of it what they put in. It is described as one of the more enjoyable design studios.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 509,
+   "pctA": 58,
+   "pctBelowB": 6,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 30
+    },
+    {
+     "letter": "A",
+     "count": 145
+    },
+    {
+     "letter": "A-",
+     "count": 117
+    },
+    {
+     "letter": "B+",
+     "count": 93
+    },
+    {
+     "letter": "B",
+     "count": 61
+    },
+    {
+     "letter": "B-",
+     "count": 30
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Neyran Turan",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.21,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Mark Anderson",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.82,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Matthew Kendall",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Jasmit Rangr",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Myrna Ayoub",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.2,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "David Orkand",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.71,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Byron Kuth",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Elizabeth Kuth",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.4,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20100C"
+  ]
+ },
+ "ARCH 100D": {
+  "course": "ARCH 100D",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.50)",
+     "value": 2.4,
+     "weight": 0.318
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.50), with 57% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.5,
+   "letter": "A-",
+   "students": 499,
+   "pctA": 57,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 40
+    },
+    {
+     "letter": "A",
+     "count": 132
+    },
+    {
+     "letter": "A-",
+     "count": 104
+    },
+    {
+     "letter": "B+",
+     "count": 101
+    },
+    {
+     "letter": "B",
+     "count": 60
+    },
+    {
+     "letter": "B-",
+     "count": 25
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Liz Galvez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Matthew Kendall",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.63,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Yasmin Vobis",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.42,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Ronald Rael",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.17,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ian Miley",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.54,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Julie Riley",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.38,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Andrew Atwood",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Matthew Conway",
+    "terms": 1,
+    "lastTaught": "2025 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20100D"
+  ]
+ },
+ "ARCH 101B": {
+  "course": "ARCH 101B",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.21)",
+     "value": 3.4,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.21), with 33% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.21,
+   "letter": "B+",
+   "students": 15,
+   "pctA": 33,
+   "pctBelowB": 20,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Conway",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.21,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20101B"
+  ]
+ },
+ "ARCH 102A": {
+  "course": "ARCH 102A",
+  "difficulty": 3.2,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.171
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.049
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 5.0/5 for difficulty, 5.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.51), with 65% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 48,
+   "pctA": 65,
+   "pctBelowB": 4,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 5,
+   "workload": 5,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Covey",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.58,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20102A"
+  ]
+ },
+ "ARCH 102B": {
+  "course": "ARCH 102B",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.147
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 36,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Catherine Covey",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.85,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Ronald Rael",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20102B"
+  ]
+ },
+ "ARCH 108": {
+  "course": "ARCH 108",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.228
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 93,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 72
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Schatz",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.89,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20108"
+  ]
+ },
+ "ARCH 109": {
+  "course": "ARCH 109",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 24,
+   "pctA": 62,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Yasmin Vobis",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Julie Riley",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Andrew Atwood",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mia Zinni",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20109"
+  ]
+ },
+ "ARCH 110AC": {
+  "course": "ARCH 110AC",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 57% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 185,
+   "pctA": 57,
+   "pctBelowB": 9,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20110AC"
+  ]
+ },
+ "ARCH 112": {
+  "course": "ARCH 112",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.273
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 61% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 176,
+   "pctA": 61,
+   "pctBelowB": 6,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 14
+    },
+    {
+     "letter": "A",
+     "count": 59
+    },
+    {
+     "letter": "A-",
+     "count": 34
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Alec Stewart",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.6,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Catherine Covey",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.06,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20112"
+  ]
+ },
+ "ARCH 119": {
+  "course": "ARCH 119",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Rene Davids",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Esther Rubin",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Sandhya Naidu Janardhan",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20119"
+  ]
+ },
+ "ARCH 11A": {
+  "course": "ARCH 11A",
+  "difficulty": 3.5,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 4.2,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 4.8,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.2,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 4.2/5 for difficulty, 4.8/5 for workload and 2.4/5 for usefulness. The average grade is B+ (3.34), with 49% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 403,
+   "pctA": 49,
+   "pctBelowB": 9,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 87
+    },
+    {
+     "letter": "B+",
+     "count": 77
+    },
+    {
+     "letter": "B",
+     "count": 54
+    },
+    {
+     "letter": "B-",
+     "count": 35
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 4.2,
+   "workload": 4.8,
+   "usefulness": 2.4,
+   "recordedPct": 20,
+   "attendanceRequiredPct": 80
+  },
+  "byProfessor": [
+   {
+    "professor": "Maria Paz Gutierrez",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.09,
+    "studentCount": 5,
+    "studentDifficulty": 4.2,
+    "studentUsefulness": 2.4,
+    "difficulty": 3.9,
+    "shouldTake": 2.5
+   },
+   {
+    "professor": "David Orkand",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.43,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Peter Suen",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.37,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2011A"
+  ]
+ },
+ "ARCH 11B": {
+  "course": "ARCH 11B",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.307
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.25), with 46% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 360,
+   "pctA": 46,
+   "pctBelowB": 13,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 72
+    },
+    {
+     "letter": "A-",
+     "count": 74
+    },
+    {
+     "letter": "B+",
+     "count": 54
+    },
+    {
+     "letter": "B",
+     "count": 53
+    },
+    {
+     "letter": "B-",
+     "count": 33
+    },
+    {
+     "letter": "C+",
+     "count": 22
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "David Orkand",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Rudabeh Pakravan",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.18,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Ashley August",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Joseph Kennedy",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.07,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2011B"
+  ]
+ },
+ "ARCH 124A": {
+  "course": "ARCH 124A",
+  "difficulty": 3.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.25)",
+     "value": 3.2,
+     "weight": 0.256
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 2.8,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.25), with 59% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.25,
+   "letter": "B+",
+   "students": 137,
+   "pctA": 59,
+   "pctBelowB": 13,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Conway",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.1,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Floor van de Velde",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.88,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Ari Bible",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.85,
+    "difficulty": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20124A"
+  ]
+ },
+ "ARCH 125A": {
+  "course": "ARCH 125A",
+  "difficulty": 4.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.57)",
+     "value": 5.0,
+     "weight": 0.171
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.57), with 41% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 2.57,
+   "letter": "B-",
+   "students": 48,
+   "pctA": 41,
+   "pctBelowB": 41,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 7
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christina Lin",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.56,
+    "difficulty": 4.5
+   },
+   {
+    "professor": "John Schlueter",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 2.56,
+    "difficulty": 4.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20125A"
+  ]
+ },
+ "ARCH 129": {
+  "course": "ARCH 129",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.74)",
+     "value": 1.7,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.74), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.74,
+   "letter": "A-",
+   "students": 15,
+   "pctA": 80,
+   "pctBelowB": 0,
+   "pctPassNoPass": 33,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ronald Rael",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sean Canty",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Raveevarn Choksombatchai",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Georgios Eftaxiopoulos",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Kyle Steinfeld",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Maria Paz Gutierrez",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "John Ellis",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20129"
+  ]
+ },
+ "ARCH 130": {
+  "course": "ARCH 130",
+  "difficulty": 2.2,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.0/5 for difficulty, 2.2/5 for workload and 3.4/5 for usefulness. The average grade is A- (3.67), with 77% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 436,
+   "pctA": 77,
+   "pctBelowB": 5,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 65
+    },
+    {
+     "letter": "A",
+     "count": 184
+    },
+    {
+     "letter": "A-",
+     "count": 83
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 32
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2,
+   "workload": 2.2,
+   "usefulness": 3.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 60
+  },
+  "byProfessor": [
+   {
+    "professor": "C Crysler",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.7,
+    "studentCount": 4,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3,
+    "difficulty": 2.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Alec Stewart",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.73,
+    "studentCount": 4,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3,
+    "difficulty": 2.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Samuel Shpall",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.87,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.7,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20130"
+  ]
+ },
+ "ARCH 139": {
+  "course": "ARCH 139",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "C Crysler",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Georgios Eftaxiopoulos",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ajay Manthripragada",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Neyran Turan",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Esther Rubin",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20139"
+  ]
+ },
+ "ARCH 140": {
+  "course": "ARCH 140",
+  "difficulty": 3.5,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.7/5 for difficulty, 2.7/5 for workload and 3.7/5 for usefulness. The average grade is B (3.09), with 37% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 743,
+   "pctA": 37,
+   "pctBelowB": 20,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 99
+    },
+    {
+     "letter": "A-",
+     "count": 129
+    },
+    {
+     "letter": "B+",
+     "count": 96
+    },
+    {
+     "letter": "B",
+     "count": 137
+    },
+    {
+     "letter": "B-",
+     "count": 64
+    },
+    {
+     "letter": "C+",
+     "count": 46
+    },
+    {
+     "letter": "C",
+     "count": 44
+    },
+    {
+     "letter": "C-",
+     "count": 20
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 13
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 60
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.7,
+   "workload": 2.7,
+   "usefulness": 3.7,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Stefano Schiavon",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.98,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3,
+    "difficulty": 3.8,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Eric Morrill",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 2.98,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.7,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20140"
+  ]
+ },
+ "ARCH 142": {
+  "course": "ARCH 142",
+  "difficulty": 2.3,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness.",
+  "finalExam": "Y",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Gail Brager",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 2.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20142"
+  ]
+ },
+ "ARCH 144": {
+  "course": "ARCH 144",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Charles Salter",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20144"
+  ]
+ },
+ "ARCH 149": {
+  "course": "ARCH 149",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.61)",
+     "value": 2.1,
+     "weight": 0.077
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.61), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.61,
+   "letter": "A-",
+   "students": 14,
+   "pctA": 79,
+   "pctBelowB": 7,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ramon Weber",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Liz Galvez",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Gail Brager",
+    "terms": 4,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Ben Taube",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20149"
+  ]
+ },
+ "ARCH 150": {
+  "course": "ARCH 150",
+  "difficulty": 2.9,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.39), with 55% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 530,
+   "pctA": 55,
+   "pctBelowB": 10,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 147
+    },
+    {
+     "letter": "A-",
+     "count": 119
+    },
+    {
+     "letter": "B+",
+     "count": 77
+    },
+    {
+     "letter": "B",
+     "count": 70
+    },
+    {
+     "letter": "B-",
+     "count": 35
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Ramon Weber",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Andy Rastetter",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.23,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20150"
+  ]
+ },
+ "ARCH 159": {
+  "course": "ARCH 159",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Ramon Weber",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Simon Schleicher",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20159"
+  ]
+ },
+ "ARCH 160": {
+  "course": "ARCH 160",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.66), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 576,
+   "pctA": 71,
+   "pctBelowB": 2,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 280
+    },
+    {
+     "letter": "A-",
+     "count": 81
+    },
+    {
+     "letter": "B+",
+     "count": 44
+    },
+    {
+     "letter": "B",
+     "count": 81
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 67
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "David Jaehning",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.2,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Dana Buntrock",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.51,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20160"
+  ]
+ },
+ "ARCH 169": {
+  "course": "ARCH 169",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.072
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 13,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Liz Galvez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Philip Tidwell",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Maria Paz Gutierrez",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Yasmin Vobis",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.87,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Ronald Rael",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Mark Anderson",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Aaron Forrest",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Christopher Downey",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20169"
+  ]
+ },
+ "ARCH 170A": {
+  "course": "ARCH 170A",
+  "difficulty": 2.8,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B+ (3.47)",
+     "value": 2.5,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.2/5 for difficulty, 3.0/5 for workload and 4.3/5 for usefulness. The average grade is B+ (3.47), with 62% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.47,
+   "letter": "B+",
+   "students": 717,
+   "pctA": 62,
+   "pctBelowB": 6,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 204
+    },
+    {
+     "letter": "A-",
+     "count": 195
+    },
+    {
+     "letter": "B+",
+     "count": 101
+    },
+    {
+     "letter": "B",
+     "count": 86
+    },
+    {
+     "letter": "B-",
+     "count": 35
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.2,
+   "workload": 3,
+   "usefulness": 4.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Andy Shanken",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.49,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Alec Stewart",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.54,
+    "studentCount": 6,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.7,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20170A"
+  ]
+ },
+ "ARCH 170B": {
+  "course": "ARCH 170B",
+  "difficulty": 2.4,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.327
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.65), with 77% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 719,
+   "pctA": 77,
+   "pctBelowB": 6,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 113
+    },
+    {
+     "letter": "A",
+     "count": 257
+    },
+    {
+     "letter": "A-",
+     "count": 120
+    },
+    {
+     "letter": "B+",
+     "count": 63
+    },
+    {
+     "letter": "B",
+     "count": 33
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 80
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Diana Martinez",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.51,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Margaret Crawford",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.72,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 2.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Matthew Lasner",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20170B"
+  ]
+ },
+ "ARCH 177": {
+  "course": "ARCH 177",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 100% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 11,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Margaret Crawford",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20177"
+  ]
+ },
+ "ARCH 179": {
+  "course": "ARCH 179",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Diana Martinez",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Greg Castillo",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "C Crysler",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Charles Davis II",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Andy Shanken",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Margaret Crawford",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Catherine Covey",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Nikolaas Vande Keere",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20179"
+  ]
+ },
+ "ARCH 198": {
+  "course": "ARCH 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Gail Brager",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "C Crysler",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mark Schatz",
+    "terms": 3,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Stefano Schiavon",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Ashley August",
+    "terms": 1,
+    "lastTaught": "2023 Summer"
+   },
+   {
+    "professor": "Margaret Crawford",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20198"
+  ]
+ },
+ "ARCH 198BC": {
+  "course": "ARCH 198BC",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Maria Paz Gutierrez",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Xin Zhou",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Tania Osorio Harp Frumes",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Thomas Oommen",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Margaret Crawford",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20198BC"
+  ]
+ },
+ "ARCH 199": {
+  "course": "ARCH 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Lisa Iwamoto",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Stefano Schiavon",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Luisa Caldas",
+    "terms": 8,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Yehuda Kalay",
+    "terms": 4,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Greg Castillo",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Gail Brager",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Andy Shanken",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Matthew Kendall",
+    "terms": 3,
+    "lastTaught": "2024 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20199"
+  ]
+ },
+ "ARCH 24": {
+  "course": "ARCH 24",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "William Martin",
+    "terms": 2,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2024"
+  ]
+ },
+ "ARCH 240": {
+  "course": "ARCH 240",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.276
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 5,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.079
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 5.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.85), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 185,
+   "pctA": 95,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 120
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 4
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Luisa Caldas",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.85,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20240"
+  ]
+ },
+ "ARCH 241": {
+  "course": "ARCH 241",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.183
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 89% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 55,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stefano Schiavon",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20241"
+  ]
+ },
+ "ARCH 242": {
+  "course": "ARCH 242",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.215
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 80,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 99,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 78
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Gail Brager",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20242"
+  ]
+ },
+ "ARCH 249": {
+  "course": "ARCH 249",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.288
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 88% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 231,
+   "pctA": 88,
+   "pctBelowB": 3,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 141
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 18
+    },
+    {
+     "letter": "U",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ramon Weber",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Charles Salter",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.94,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Liz Galvez",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Gail Brager",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Luisa Caldas",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Ben Taube",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.92,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Stefano Schiavon",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Jingjuan Feng",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.64,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20249"
+  ]
+ },
+ "ARCH 269": {
+  "course": "ARCH 269",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.287
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 229,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 38
+    },
+    {
+     "letter": "A",
+     "count": 137
+    },
+    {
+     "letter": "A-",
+     "count": 24
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 20
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark Anderson",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.4
+   },
+   {
+    "professor": "Liz Galvez",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Philip Tidwell",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Maria Paz Gutierrez",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Yasmin Vobis",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.91,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Ronald Rael",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Aaron Forrest",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.78,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Christopher Downey",
+    "terms": 2,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%20269"
+  ]
+ },
+ "ARCH 84": {
+  "course": "ARCH 84",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 24,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Chastain",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Renee Chow",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2084"
+  ]
+ },
+ "ARCH 98": {
+  "course": "ARCH 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Margaret Crawford",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Jordan Dudas",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2098"
+  ]
+ },
+ "ARCH 98BC": {
+  "course": "ARCH 98BC",
+  "difficulty": 2.3,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 2.0/5 for usefulness.",
+  "finalExam": "N",
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Maria Paz Gutierrez",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Xin Zhou",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Tania Osorio Harp Frumes",
+    "terms": 2,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Thomas Oommen",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Margaret Crawford",
+    "terms": 5,
+    "lastTaught": "2024 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2098BC"
+  ]
+ },
+ "ARCH 99": {
+  "course": "ARCH 99",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Galen Cranz",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=ARCH%2099"
+  ]
+ }
+}

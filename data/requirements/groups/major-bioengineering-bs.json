@@ -1,0 +1,471 @@
+{
+ "id": "major-bioengineering-bs",
+ "title": "Bioengineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16288U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16288U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16288U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\n- Students must complete a minimum of 48 engineering units. See concentrations for recommendations.\n- Students must complete a minimum of 36 units of upper division Technical Topics courses.\n- Students must complete a minimum of 24 units of upper division Bioengineering courses, including at least two Bioengineering Fundamentals courses, one Bioengineering Design Project or Research course, and one Bioengineering Lab course.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis\nAND\nCHEM 3A – Chemical Structure and Reactivity andCHEM 3AL – Organic Chemistry Laboratory\nOR\nCHEM 12A – Organic Chemistry",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A",
+     "CHEM 3A",
+     "CHEM 12A"
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "notes": "Junior transfer students are exempt from BIOENG 10.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 10"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 11"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 25"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 26"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-programming",
+   "title": "Computer Programming",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering-lab",
+   "title": "Bioengineering Lab",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 115"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 121L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 131"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C131"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG C136L"
+     },
+     {
+      "type": "course",
+      "course": "ELENG C145O"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C135L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 163L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering-fundamentals",
+   "title": "Bioengineering Fundamentals",
+   "section": "Upper Division",
+   "notes": "Students will receive no credit for BIOENG 103 after completing CHEM 120B, MCELLBI C100A/CHEM C130.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 102"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 103"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 104"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 105"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 110"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOENG C131"
+       },
+       {
+        "type": "course",
+        "course": "CMPBIO C131"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "bioengineering-design-or-research",
+   "title": "Bioengineering Design or Research",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 101"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 121L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 140L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 145"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 168L"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 192"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG 196"
+     },
+     {
+      "type": "course",
+      "course": "BIOENG H194"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Bioengineering Upper Division Electives",
+   "notes": "Does not count: any Pass/Fail course.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "BIOENG"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196,
+     "exclude": [
+      "BIOENG 100",
+      "BIOENG 153"
+     ]
+    }
+   }
+  },
+  {
+   "id": "technical-topics",
+   "title": "Technical Topics",
+   "section": "Bioengineering Upper Division Electives",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete 12 units from the following courses:\n- Any BIOENG 100-level course, not including 100, 153, or any Pass/Fail course\n- Any BIOENG-level course, not including 253, or any Pass/Fail course\n- CHEM 120A, 120B, C130 135\n- CHEMENG 140, 141, 150A, 150B, 170A, 170B, C170L, 171, C178\n- COMPSCI 70 (will not count towards the required 48 Engineering units, does not count as upper division coursework), C100, 160, 161, 169A, 170, 176, 185, 186, 188, 189, C191\n- ELENG 105, 117, 118, 120, 123, C128, 142, 143, 147, 192\n- EECS C106A, 126, 127, 149\n- INTEGBI 131, 132, 135, 148, 161, 163, 164 … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "CHEM 120A",
+     "CHEM 120B",
+     "CHEM C130",
+     "COMPSCI 70",
+     "ELENG 105",
+     "ELENG 117",
+     "ELENG 118",
+     "ELENG 120",
+     "ELENG 123",
+     "ELENG C128",
+     "ELENG 142",
+     "ELENG 143",
+     "ELENG 147",
+     "ELENG 192",
+     "EECS C106A",
+     "EECS 126",
+     "EECS 127",
+     "EECS 149",
+     "INTEGBI 131",
+     "INTEGBI 132",
+     "INTEGBI 135",
+     "INTEGBI 148",
+     "INTEGBI 161",
+     "INTEGBI 164",
+     "INDENG 160",
+     "INDENG 162",
+     "INDENG 172",
+     "MATH 110",
+     "MATH 118",
+     "MATH 127",
+     "MATH 128A",
+     "MATH 170",
+     "MCELLBI C100A",
+     "BIOENG 103",
+     "MECENG 100",
+     "MECENG 102B",
+     "MECENG 104",
+     "MECENG 106",
+     "MECENG C106A",
+     "MECENG 109",
+     "MECENG 118",
+     "MECENG 119",
+     "MECENG 120",
+     "MECENG 132",
+     "MECENG 133",
+     "MECENG 167",
+     "MECENG 179",
+     "MECENG 185",
+     "MATSCI 102",
+     "MATSCI 103",
+     "MATSCI 104",
+     "MATSCI 111",
+     "MATSCI 112",
+     "MATSCI 113",
+     "MATSCI 130",
+     "MATSCI 151",
+     "NUCENG 101",
+     "NUCENG 107",
+     "NUCENG 162",
+     "NEU 171L",
+     "PHYSICS 110A",
+     "PHYSICS 112",
+     "PHYSICS 137A",
+     "PHYSICS 177",
+     "PHYSICS C191",
+     "PLANTBI 185",
+     "PLANTBI C112",
+     "PLANTBI C148",
+     "PBHLTH 142",
+     "STAT C100",
+     "STAT 133",
+     "STAT 134",
+     "STAT 135",
+     "STAT 150"
+    ]
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Bioengineering Upper Division Electives",
+   "notes": "This requirement may be satisfied with a course taken for a Pass grade.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 161"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C182C"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "ISF C100G"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 104"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 107"
+     },
+     {
+      "type": "course",
+      "course": "STS C100"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-units",
+   "title": "Engineering Units",
+   "section": "Bioengineering Upper Division Electives",
+   "rule": {
+    "type": "manual",
+    "text": "48 Units of Engineering Courses\nThe 48 units of engineering courses cannot include:\n- Any course taken on a P/NP basis\n- Courses numbered 24, 39, 84\n- BIOENG 100\n- CHMENG 185\n- COMPSCI 70, C79\n- DATA C104\n- DESINV courses (except DESINV 15, 22, 23, 90E, 190E)\n- ENGIN 68, 125, 157AC, 170 series, 180, 183 series, 184, 185, 187, 195 series\n- INDENG 95, 172, 185, 186, 190 series, 191, 192, 195\n- MECENG 100, 102B, 104, 106, C106A, 108, 109, 118, 119, 120, 132, 133, 167, 179, 185\nThere is no limit to the number of letter-graded research units that can be applied to the 48 engineering units.",
+    "mentionedCourses": [
+     "BIOENG 100",
+     "CHMENG 185",
+     "COMPSCI 70",
+     "DATA C104",
+     "ENGIN 68",
+     "ENGIN 125",
+     "ENGIN 157AC",
+     "INDENG 172",
+     "INDENG 185",
+     "INDENG 186",
+     "INDENG 190",
+     "MECENG 100",
+     "MECENG 102B",
+     "MECENG 104",
+     "MECENG 106",
+     "MECENG C106A",
+     "MECENG 108",
+     "MECENG 109",
+     "MECENG 118",
+     "MECENG 119",
+     "MECENG 120",
+     "MECENG 132",
+     "MECENG 133",
+     "MECENG 167",
+     "MECENG 179",
+     "MECENG 185"
+    ]
+   }
+  }
+ ]
+}

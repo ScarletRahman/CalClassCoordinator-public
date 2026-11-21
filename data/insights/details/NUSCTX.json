@@ -1,0 +1,941 @@
+{
+ "NUSCTX 108B": {
+  "course": "NUSCTX 108B",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 96% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 75,
+   "pctA": 96,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 42
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Melissa Boldridge",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Ashley Reaver",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Zhixuan Zhang",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.94,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20108B"
+  ]
+ },
+ "NUSCTX 10S": {
+  "course": "NUSCTX 10S",
+  "difficulty": 2.3,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.344
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.0/5 for difficulty, 1.8/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.54), with 67% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 2737,
+   "pctA": 67,
+   "pctBelowB": 9,
+   "pctPassNoPass": 23,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 271
+    },
+    {
+     "letter": "A",
+     "count": 893
+    },
+    {
+     "letter": "A-",
+     "count": 255
+    },
+    {
+     "letter": "B+",
+     "count": 180
+    },
+    {
+     "letter": "B",
+     "count": 271
+    },
+    {
+     "letter": "B-",
+     "count": 60
+    },
+    {
+     "letter": "C+",
+     "count": 40
+    },
+    {
+     "letter": "C",
+     "count": 80
+    },
+    {
+     "letter": "C-",
+     "count": 21
+    },
+    {
+     "letter": "D",
+     "count": 20
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 20
+    },
+    {
+     "letter": "P",
+     "count": 592
+    },
+    {
+     "letter": "NP",
+     "count": 32
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2,
+   "workload": 1.8,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gregory Aponte",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.53,
+    "studentCount": 4,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Ashley Reaver",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%2010S"
+  ]
+ },
+ "NUSCTX 11": {
+  "course": "NUSCTX 11",
+  "difficulty": 1.5,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A (3.94)",
+     "value": 1.0,
+     "weight": 0.341
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 5.0,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 1.0/5 for difficulty, 1.3/5 for workload and 2.7/5 for usefulness. The average grade is A (3.94), with 96% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.94,
+   "letter": "A",
+   "students": 1992,
+   "pctA": 96,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 746
+    },
+    {
+     "letter": "A",
+     "count": 892
+    },
+    {
+     "letter": "A-",
+     "count": 104
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 31
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 178
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 1,
+   "workload": 1.3,
+   "usefulness": 2.7,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Jen Chywan Wang",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.93,
+    "studentCount": 3,
+    "studentDifficulty": 1,
+    "studentUsefulness": 2.7,
+    "difficulty": 1.2,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Sona Kang",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.89,
+    "difficulty": 1.3
+   },
+   {
+    "professor": "Daniel Nomura",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.89,
+    "difficulty": 1.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%2011"
+  ]
+ },
+ "NUSCTX 110": {
+  "course": "NUSCTX 110",
+  "difficulty": 1.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.98)",
+     "value": 1.0,
+     "weight": 0.333
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.98), with 98% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.98,
+   "letter": "A",
+   "students": 1006,
+   "pctA": 98,
+   "pctBelowB": 0,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 596
+    },
+    {
+     "letter": "A",
+     "count": 377
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel Nomura",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.99,
+    "difficulty": 1.3
+   },
+   {
+    "professor": "Jen Chywan Wang",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.99,
+    "difficulty": 1.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20110"
+  ]
+ },
+ "NUSCTX 115": {
+  "course": "NUSCTX 115",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.266
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 99% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 158,
+   "pctA": 99,
+   "pctBelowB": 1,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 144
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Dale Johnson",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.93,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20115"
+  ]
+ },
+ "NUSCTX 121": {
+  "course": "NUSCTX 121",
+  "difficulty": 1.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.28
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 99% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 200,
+   "pctA": 99,
+   "pctBelowB": 0,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 170
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Dale Johnson",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.96,
+    "difficulty": 1.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20121"
+  ]
+ },
+ "NUSCTX 135": {
+  "course": "NUSCTX 135",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.222
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 87,
+   "pctA": 87,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 61
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ashley Reaver",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.78,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20135"
+  ]
+ },
+ "NUSCTX 145": {
+  "course": "NUSCTX 145",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.95)",
+     "value": 1.0,
+     "weight": 0.191
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.95), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.95,
+   "letter": "A",
+   "students": 60,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Karen Johal",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.94,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20145"
+  ]
+ },
+ "NUSCTX 161A": {
+  "course": "NUSCTX 161A",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.86)",
+     "value": 1.3,
+     "weight": 0.233
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.86), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.86,
+   "letter": "A",
+   "students": 99,
+   "pctA": 89,
+   "pctBelowB": 2,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 27
+    },
+    {
+     "letter": "A",
+     "count": 53
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Susanne Howard",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.79,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Mary Lesser",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.79,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20161A"
+  ]
+ },
+ "NUSCTX 161B": {
+  "course": "NUSCTX 161B",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.39), with 43% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 73,
+   "pctA": 43,
+   "pctBelowB": 3,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Mary Lesser",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.34,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20161B"
+  ]
+ },
+ "NUSCTX 193": {
+  "course": "NUSCTX 193",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.229
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 99% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 95,
+   "pctA": 99,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 58
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 11
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Sona Kang",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   },
+   {
+    "professor": "Jen Chywan Wang",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=NUSCTX%20193"
+  ]
+ }
+}

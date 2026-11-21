@@ -1,0 +1,250 @@
+{
+  "id": "major-eecs-bs",
+  "title": "Electrical Engineering & Computer Sciences BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/electrical-engineering-computer-sciences/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cs-61a",
+      "title": "COMPSCI 61A",
+      "rule": {
+        "type": "course",
+        "course": "COMPSCI 61A"
+      }
+    },
+    {
+      "id": "cs-61b",
+      "title": "Data structures",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61B"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61BL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cs-61c",
+      "title": "COMPSCI 61C",
+      "rule": {
+        "type": "course",
+        "course": "COMPSCI 61C"
+      }
+    },
+    {
+      "id": "cs-70",
+      "title": "Discrete math & probability",
+      "rule": {
+        "type": "course",
+        "course": "COMPSCI 70"
+      }
+    },
+    {
+      "id": "eleng-66",
+      "title": "Designing Information Devices & Systems I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ELENG 66"
+          },
+          {
+            "type": "course",
+            "course": "EECS 16A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eleng-64",
+      "title": "Designing Information Devices & Systems II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ELENG 64"
+          },
+          {
+            "type": "course",
+            "course": "EECS 16B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-elective",
+      "title": "4-unit STEM technical elective",
+      "rule": {
+        "type": "manual",
+        "text": "One 4-unit lower- or upper-division technical course from an approved STEM department"
+      },
+      "notes": "Students starting before Fall 2025 also need a natural science elective."
+    },
+    {
+      "id": "ethics",
+      "title": "Ethics",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "COMPSCI 195",
+            "ENGIN 125",
+            "BIOENG 100"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "ud-design",
+      "title": "Upper-division design course",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "COMPSCI 152",
+            "COMPSCI 160",
+            "COMPSCI 161",
+            "COMPSCI 162",
+            "COMPSCI 164",
+            "COMPSCI 168",
+            "COMPSCI 169A",
+            "COMPSCI 169L",
+            "COMPSCI 180",
+            "COMPSCI 182",
+            "COMPSCI 184",
+            "COMPSCI 186",
+            "ELENG 130",
+            "ELENG 140",
+            "ELENG 143",
+            "EECS C106A",
+            "EECS 149",
+            "EECS 151"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "ud-eecs",
+      "title": "Upper-division EECS units",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "COMPSCI",
+            "ELENG",
+            "EECS"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "COMPSCI 195"
+          ]
+        },
+        "minUnits": 16
+      },
+      "notes": "At least 20 upper-division EECS units in total: the design course plus 16 more units here. Stub: CoE also expects additional upper-division technical units (about 27 total)."
+    }
+  ]
+}

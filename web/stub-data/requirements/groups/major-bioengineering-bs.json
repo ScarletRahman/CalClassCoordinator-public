@@ -1,0 +1,281 @@
+{
+  "id": "major-bioengineering-bs",
+  "title": "Bioengineering BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/bioengineering/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-chemistry",
+      "title": "General chemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "CHEM 1A"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 1AL"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 3A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 3AL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOLOGY 1A"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1AL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          },
+          {
+            "type": "course",
+            "course": "ENGIN 7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bioeng-lower",
+      "title": "Bioengineering lower division",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOENG 10"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 11"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 26"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ethics",
+      "title": "Ethics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOENG 100"
+          },
+          {
+            "type": "course",
+            "course": "ENGIN 125"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bioeng-core",
+      "title": "Bioengineering core",
+      "rule": {
+        "type": "nOf",
+        "n": 3,
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOENG 101"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 102"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 103"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 104"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 110"
+          },
+          {
+            "type": "course",
+            "course": "BIOENG 131"
+          }
+        ]
+      },
+      "notes": "Stub: choose core courses according to your concentration."
+    },
+    {
+      "id": "senior-design",
+      "title": "Senior design",
+      "rule": {
+        "type": "course",
+        "course": "BIOENG 192"
+      }
+    },
+    {
+      "id": "tech-electives",
+      "title": "Technical electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "BIOENG",
+            "MCELLBI",
+            "CHEM",
+            "COMPSCI",
+            "MECENG",
+            "ELENG",
+            "EECS",
+            "CHMENG"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "minUnits": 12
+      },
+      "notes": "Stub: about 24 units of upper-division engineering/science electives organized by concentration."
+    }
+  ]
+}

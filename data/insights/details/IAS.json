@@ -1,0 +1,639 @@
+{
+ "IAS 150": {
+  "course": "IAS 150",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.186
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 56% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 57,
+   "pctA": 56,
+   "pctBelowB": 5,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 18
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 7
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=IAS%20150"
+  ]
+ },
+ "IAS 157AC": {
+  "course": "IAS 157AC",
+  "difficulty": 2.3,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.063
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.018
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 2.3/5 for workload and 4.7/5 for usefulness. The average grade is A- (3.83), with 80% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 11,
+   "pctA": 80,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2.3,
+   "usefulness": 4.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Khalid Kadir",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.83,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.1,
+    "shouldTake": 4.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=IAS%20157AC"
+  ]
+ },
+ "IAS 196": {
+  "course": "IAS 196",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.297
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.80), with 84% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 278,
+   "pctA": 84,
+   "pctBelowB": 0,
+   "pctPassNoPass": 43,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 26
+    },
+    {
+     "letter": "A",
+     "count": 66
+    },
+    {
+     "letter": "A-",
+     "count": 40
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 116
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=IAS%20196"
+  ]
+ },
+ "IAS C118": {
+  "course": "IAS C118",
+  "difficulty": 3.5,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B (3.11)",
+     "value": 3.7,
+     "weight": 0.257
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.3,
+     "weight": 0.073
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.8/5 for difficulty, 3.0/5 for workload and 3.2/5 for usefulness. The average grade is B (3.11), with 40% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.11,
+   "letter": "B",
+   "students": 138,
+   "pctA": 40,
+   "pctBelowB": 21,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.8,
+   "workload": 3,
+   "usefulness": 3.2,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Shifrah Aron-Dine",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.79,
+    "difficulty": 3.8
+   },
+   {
+    "professor": "Jeremy Magruder",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.71,
+    "studentCount": 1,
+    "studentDifficulty": 5,
+    "studentUsefulness": 4,
+    "difficulty": 4.1,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Tamer Cetin",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 2.71,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 3.5,
+    "shouldTake": 2.8
+   },
+   {
+    "professor": "Sofia Villas-Boas",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.19,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.5,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Scott Carson",
+    "terms": 2,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Aprajit Mahajan",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.32,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Pierre Biscaye",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.34,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Jeffrey Perloff",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=IAS%20C118"
+  ]
+ },
+ "IAS C176": {
+  "course": "IAS C176",
+  "difficulty": 2.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade A- (3.80)",
+     "value": 1.5,
+     "weight": 0.217
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.6,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.5,
+     "weight": 0.062
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 3.1,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.6/5 for difficulty, 2.6/5 for workload and 3.1/5 for usefulness. The average grade is A- (3.80), with 88% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.8,
+   "letter": "A-",
+   "students": 82,
+   "pctA": 88,
+   "pctBelowB": 2,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 50
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.6,
+   "workload": 2.6,
+   "usefulness": 3.1,
+   "recordedPct": 20,
+   "attendanceRequiredPct": 20
+  },
+  "byProfessor": [
+   {
+    "professor": "David Anthoff",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.75,
+    "studentCount": 7,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 3.1,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Samuel Evans",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.93,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Anaya Hall",
+    "terms": 2,
+    "lastTaught": "2024 Summer"
+   },
+   {
+    "professor": "Jasmin Ansar",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=IAS%20C176"
+  ]
+ },
+ "IAS N45": {
+  "course": "IAS N45",
+  "difficulty": 3.3,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.18)",
+     "value": 3.5,
+     "weight": 0.259
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.5,
+     "weight": 0.074
+    },
+    {
+     "label": "Tone of written student reviews (19 on file)",
+     "value": 4.5,
+     "weight": 0.124
+    }
+   ]
+  },
+  "sentiment": "Students call it a favorite, with fascinating, well-connected lectures covering a lot of world history. It is a lot of reading, with challenging but fair tests and essays, and a strict no phones or laptops rule. A good discussion section leader matters for your grade.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.18,
+   "letter": "B+",
+   "students": 143,
+   "pctA": 35,
+   "pctBelowB": 10,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 23
+    },
+    {
+     "letter": "B",
+     "count": 44
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=IAS%20N45"
+  ]
+ }
+}

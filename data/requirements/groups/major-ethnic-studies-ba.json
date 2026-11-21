@@ -1,0 +1,435 @@
+{
+ "id": "major-ethnic-studies-ba",
+ "title": "Ethnic Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25360U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25360U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25360U",
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "notes": "Students must complete each lower division course with a letter grade.",
+   "rule": {
+    "type": "course",
+    "course": "ETHSTD 11AC"
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Lower Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 27AC"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 28AC"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 5A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 5B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AFRICAM C20AC"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C20AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 20A"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 20AC"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 20B"
+     },
+     {
+      "type": "course",
+      "course": "ASAMST 20C"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 20"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 40"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 50"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 10AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 12"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 21AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 22AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 41AC"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD C73AC"
+       },
+       {
+        "type": "course",
+        "course": "NATAMST C73AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GWS 10"
+     },
+     {
+      "type": "course",
+      "course": "GWS 14"
+     },
+     {
+      "type": "course",
+      "course": "GWS 20"
+     },
+     {
+      "type": "course",
+      "course": "GWS 40"
+     },
+     {
+      "type": "course",
+      "course": "GWS 50AC"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 20A"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 20B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NATAMST C22AC"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C22AC"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NATAMST C52"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C52"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 71"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 72"
+     },
+     {
+      "type": "course",
+      "course": "QTP 20AC"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "NATAMST C70"
+       },
+       {
+        "type": "course",
+        "course": "LINGUIS C70"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "190-seminar",
+   "title": "190 Seminar",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHICANO 190"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "departmental-electives",
+   "title": "Departmental Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ETHSTD 100"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103B"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103C"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103D"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103E"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 122AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 126"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 127"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 130"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 135"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 136"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 141"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 144AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 147AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 150"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 160AC"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL 160AC"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD C164A"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C164A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 173AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 174"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 175"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 176"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 180"
+       },
+       {
+        "type": "course",
+        "course": "ETHSTD N180"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 180L"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 181AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 182AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD C126"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 159AC"
+     },
+     {
+      "type": "course",
+      "course": "GWS 181AC"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 185AC"
+     },
+     {
+      "type": "course",
+      "course": "QTP C148"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST 173AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCWEL 185AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "outside-electives",
+   "title": "Outside Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "At least 3 of:\n- Any AFRICAM 100-190 course\n- Any ASAMST 100-190 course\n- Any CHICANO 100-190 course\n- Any GWS 100-190 course\n- Any NATAMST 100-190 course",
+    "mentionedCourses": [
+     "AFRICAM 100",
+     "NATAMST 100"
+    ]
+   }
+  }
+ ]
+}

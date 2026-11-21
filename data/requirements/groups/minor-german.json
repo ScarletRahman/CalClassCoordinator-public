@@ -1,0 +1,151 @@
+{
+ "id": "minor-german",
+ "title": "German minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I044U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I044U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I044U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "notes": "GERMAN 3 and GERMAN 4 must be taken for a letter grade.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GERMAN 1"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 2"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 3"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Students must complete 5 upper division courses.\nA maximum of 2 EAP courses is allowed.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GERMAN 100"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 101"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "GERMAN 100",
+      "GERMAN 101",
+      "GERMAN 102A",
+      "GERMAN 102B",
+      "GERMAN 102D",
+      "GERMAN 104",
+      "GERMAN 105",
+      "GERMAN 107",
+      "GERMAN 108",
+      "GERMAN 109",
+      "GERMAN 110",
+      "GERMAN 112",
+      "GERMAN 113",
+      "GERMAN 114",
+      "GERMAN 115",
+      "GERMAN 119",
+      "GERMAN 122",
+      "GERMAN 123",
+      "GERMAN 130AC",
+      "GERMAN 131",
+      "GERMAN 133",
+      "GERMAN 140",
+      "GERMAN 145",
+      "GERMAN 147",
+      "GERMAN 148",
+      "GERMAN 151",
+      "GERMAN 152",
+      "GERMAN 155",
+      "GERMAN 156",
+      "GERMAN 157",
+      "GERMAN 157A",
+      "GERMAN 157B",
+      "GERMAN 157C",
+      "GERMAN 157D",
+      "GERMAN 158",
+      "GERMAN 160",
+      "GERMAN 160A",
+      "GERMAN 160B",
+      "GERMAN 160C",
+      "GERMAN 160D",
+      "GERMAN 160E",
+      "GERMAN 160F",
+      "GERMAN 160G",
+      "GERMAN 160K",
+      "GERMAN 160L",
+      "GERMAN 164",
+      "GERMAN 166",
+      "GERMAN 168",
+      "GERMAN 170",
+      "GERMAN 175B",
+      "GERMAN 176",
+      "GERMAN 177",
+      "GERMAN 179",
+      "GERMAN 182",
+      "GERMAN 184",
+      "GERMAN 185",
+      "GERMAN 186",
+      "GERMAN C106",
+      "GERMAN C113",
+      "GERMAN C157B",
+      "GERMAN C160G",
+      "GERMAN H196",
+      "GERMAN H196A",
+      "GERMAN H196B",
+      "GERMAN 204",
+      "GERMAN 206",
+      "GERMAN 207",
+      "GERMAN 256",
+      "GERMAN 263C",
+      "GERMAN 265",
+      "GERMAN 276",
+      "GERMAN 280",
+      "GERMAN 282",
+      "GERMAN 290"
+     ]
+    }
+   }
+  }
+ ]
+}

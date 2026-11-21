@@ -1,0 +1,217 @@
+{
+ "id": "minor-demography",
+ "title": "Demography minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I078U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I078U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I078U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "A maximum of 2 transfer courses is allowed.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DEMOG 110"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DEMOG C126"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL C126"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DEMOG C175"
+       },
+       {
+        "type": "course",
+        "course": "ECON C175"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistical-methods-or-vital-statistics",
+   "title": "Statistical Methods or Vital Statistics",
+   "section": "Upper Division",
+   "notes": "Students another course to fulfill this requirement pending prior approval from the Demography Department. The substituted course must be upper division and at least 3 units.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "ECON 140"
+     },
+     {
+      "type": "course",
+      "course": "ECON 141"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 141"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 101"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 106"
+     },
+     {
+      "type": "course",
+      "course": "STAT 135"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 102"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-science-with-demographic-factors",
+   "title": "Social Science with Demographic Factors",
+   "section": "Upper Division",
+   "notes": "Students another course to fulfill this requirement pending prior approval from the Demography Department. The substituted course must be upper division and at least 3 units.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHICANO 159"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 130"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 145AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C139B"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG C164"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C164"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG C165"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C184"
+     },
+     {
+      "type": "course",
+      "course": "DEMOG 180"
+     },
+     {
+      "type": "course",
+      "course": "ECON 155"
+     },
+     {
+      "type": "course",
+      "course": "ECON 157"
+     },
+     {
+      "type": "course",
+      "course": "ECON N171"
+     },
+     {
+      "type": "course",
+      "course": "ECON C171"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C151"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 137AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 111"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 111AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 130"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 130AC"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL C144L"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO C144L"
+     }
+    ]
+   }
+  }
+ ]
+}

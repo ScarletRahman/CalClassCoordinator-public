@@ -1,0 +1,22 @@
+{
+ "why": "\"Students must take one course from two of the following categories: Computing, Geometry, Logic & Foundations.\" The three categories are listed as three required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25540U"
+ ],
+ "merge": [
+  {
+   "block": "Semi-Electives",
+   "title": "Semi-Electives",
+   "type": "nOf",
+   "n": 2,
+   "rules": [
+    "Computing",
+    "Geometry",
+    "Logic & Foundations"
+   ],
+   "notesFrom": [
+    "Requirement"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "why": "\"Students must take three lower division history courses from three different world regions, plus one elective.\" The six regions are listed as six required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25429U"
+ ],
+ "merge": [
+  {
+   "block": "Lower Division",
+   "title": "World Regions",
+   "type": "nOf",
+   "n": 3,
+   "notesFrom": [
+    "World Regions and Elective"
+   ],
+   "rules": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "Latin America & The Caribbean",
+    "Near & Middle East",
+    "North America"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "id": "minor-sustainable-design",
+ "title": "Sustainable Design minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/19I027U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19I027U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "19I027U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT).\n- A letter grade of C- or higher in ENV DES 1, LD ARCH 1, or LD ARCH 12 (or a 3 or higher in AP Env Sci) is required to declare the minor. To declare, students must submit the CED Minor Declaration Form, available on the CED website.\n- DEADLINE TO SUBMIT FORM: One semester prior to a students final semester.\n- Each course used to fulfill minor requirements must be completed with a letter grade of C- or above.\n- Students must earn a 2.0 GPA in the upper division requirements for the minor.\n- Any course used in fulfillment of minor requirements may also be used to fulfill major and upper division CED non-major requirements.\n- Courses used to fulfill a breadth requirement may also be used to satisfy minor requirements.\n- Students may apply the non-CED version of a CED cross-listed course towards the minor.\n- Students may use up to two courses taken abroad to fulfill upper division minor requirements, with faculty approval of the individual courses.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "prerequisite",
+   "title": "Prerequisite",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENVDES 1"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 1"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 12"
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-1-ced-courses",
+   "title": "List 1: CED Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 124A"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 140"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 142"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 149"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 169"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 240"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 241"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 242"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 249"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 114"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CYPLAN 115"
+       },
+       {
+        "type": "course",
+        "course": "CYPLAN N115"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 119"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 140"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CYPLAN C256"
+       },
+       {
+        "type": "course",
+        "course": "PBHLTH C233"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 102"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 131"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 103"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 110"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LDARCH C110A"
+       },
+       {
+        "type": "course",
+        "course": "ESPM C110A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 111"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 122"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 130"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH 140"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LDARCH C188"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C188"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-2-non-ced-courses",
+   "title": "List 2: Non-CED Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "AMERSTD C112",
+      "ANTHRO 137",
+      "CIVENG C103N",
+      "CIVENG 107",
+      "CIVENG 113",
+      "CIVENG 170A",
+      "CIVENG 292A",
+      "ECON C102",
+      "ECON C125",
+      "ENERES C100",
+      "ENERES C160",
+      "ENERES C176",
+      "ENERES W100",
+      "ENERES 101",
+      "ENERES 102",
+      "ENERES 131",
+      "ENERES 175",
+      "ENERES 190",
+      "ENVECON C101",
+      "ENVECON C102",
+      "ENVECON C176",
+      "ENVECON C183",
+      "ENVECON 100",
+      "ENVECON 162",
+      "ESPM C130",
+      "ESPM C167",
+      "ESPM C176",
+      "ESPM C183",
+      "ESPM W169",
+      "ESPM 102C",
+      "ESPM 102D",
+      "ESPM 117",
+      "ESPM 134",
+      "ESPM 136",
+      "ESPM 137",
+      "ESPM 151",
+      "ESPM 155AC",
+      "ESPM 161",
+      "ESPM 162",
+      "ESPM 163AC",
+      "ESPM 168",
+      "ESPM 169",
+      "ESPM 177A",
+      "ESPM 180",
+      "ESPM 186",
+      "GEOG C136",
+      "GEOG C160",
+      "GEOG 130",
+      "GEOG 138",
+      "GEOG 181",
+      "GEOG 185",
+      "GEOG 186",
+      "IAS C176",
+      "NWMEDIA 132",
+      "PBHLTH C160",
+      "PBHLTH 101",
+      "PUBPOL C184",
+      "SOCIOL 137AC"
+     ]
+    }
+   }
+  }
+ ]
+}

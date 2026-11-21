@@ -1,0 +1,1773 @@
+{
+ "id": "major-political-science-ba",
+ "title": "Political Science BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25699U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25699U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25699U",
+ "choices": [
+  {
+   "id": "specialization",
+   "title": "Subfield Specialization",
+   "pick": 1,
+   "options": [
+    {
+     "id": "american-politics",
+     "title": "American Politics"
+    },
+    {
+     "id": "comparative-politics",
+     "title": "Comparative Politics"
+    },
+    {
+     "id": "empirical-theory-and-quantitative-methods",
+     "title": "Empirical Theory & Quantitative Methods"
+    },
+    {
+     "id": "political-theory",
+     "title": "Political Theory"
+    },
+    {
+     "id": "international-relations",
+     "title": "International Relations"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Upper Division Requirements\nStudents must complete a total of eight courses within the department. There are five main subfields in the department: American Politics, Comparative Politics, Empirical Theory & Quantitative Methods , Political Theory and International Relations. Students must choose one subfield specialization to complete. Subfield distribution requirements can be completed with lower division OR upper division courses. Upper division courses fulfilling subfield specialization requirements and any remaining subfield distribution requirements also count toward satisfying the eight required upper division courses."
+ ],
+ "requirements": [
+  {
+   "id": "prerequisites",
+   "title": "Prerequisites",
+   "section": "Lower Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLSCI 1"
+       },
+       {
+        "type": "course",
+        "course": "XPOLSCI 1"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLSCI 2"
+       },
+       {
+        "type": "course",
+        "course": "XPOLSCI 2"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 4"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "methods",
+   "title": "Methods",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 3",
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C8"
+         },
+         {
+          "type": "course",
+          "course": "DATA C8"
+         },
+         {
+          "type": "course",
+          "course": "INFO C8"
+         },
+         {
+          "type": "course",
+          "course": "STAT C8"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course": "POLSCI 88"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "history",
+   "title": "History",
+   "section": "History",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AFRICAM 4A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM N4A"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 4B"
+     },
+     {
+      "type": "course",
+      "course": "AFRICAM 111"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 10A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 10B"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 139AC"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 70"
+     },
+     {
+      "type": "course",
+      "course": "ECON 113"
+     },
+     {
+      "type": "course",
+      "course": "ECON 115"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 10A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 10AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 21AC"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C55"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 160A"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 160C"
+     },
+     {
+      "type": "course",
+      "course": "GLOBAL 45"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C139C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C157"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C159A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N106A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N106B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N112B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N124A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N124B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N131B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N143"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N151C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N158C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY N162A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 4A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 4B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 5"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 7A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 7B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 8A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 8B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 10"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 11"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 12"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 14"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 105A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 105B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 106A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 106B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 108"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 112B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 122AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 123"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 124A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 124B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 130"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 131B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 133A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 137AC"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 140B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 141B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 143"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 149B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 150B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 151A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 151B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 151C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 155A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 155B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 158A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 158B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 158C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 159B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 160"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 162A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 162B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 164A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 165A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 165B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 166A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 166B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 166C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 167A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 167B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 167C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 168A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 169A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 170"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 171A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 171B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 171C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 173B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 173C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 174B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 185A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 185B"
+     },
+     {
+      "type": "course",
+      "course": "IAS 45"
+     },
+     {
+      "type": "course",
+      "course": "MELC C26"
+     },
+     {
+      "type": "course",
+      "course": "MELC 10"
+     },
+     {
+      "type": "course",
+      "course": "MELC 109"
+     },
+     {
+      "type": "course",
+      "course": "MELC 147"
+     },
+     {
+      "type": "course",
+      "course": "MELC 173"
+     },
+     {
+      "type": "course",
+      "course": "MELC 175"
+     },
+     {
+      "type": "course",
+      "course": "PACS 125AC"
+     },
+     {
+      "type": "course",
+      "course": "POLECON C160"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 113"
+     },
+     {
+      "type": "course",
+      "course": "RELIGST C124"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 123"
+     },
+     {
+      "type": "course",
+      "course": "XAGRS 10A"
+     },
+     {
+      "type": "course",
+      "course": "XETHSTD 21AC"
+     },
+     {
+      "type": "course",
+      "course": "XHISTOR 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "american-politics",
+   "title": "American Politics",
+   "section": "Distribution",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 102"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 103"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 103W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 104"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 105"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 106A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 107"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109G"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109H"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109P"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109Q"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109R"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 109Z"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 111AC"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116J"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 150"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 152A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 157A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 157B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 160"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 161"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 164A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 166"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 167"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 167AC"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 169"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 171"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 173S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 175A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 181"
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparative-politics",
+   "title": "Comparative Politics",
+   "section": "Distribution",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 141A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 137A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138G"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140O"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140R"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 140Z"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 141C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 142A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143T"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 144"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 144B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 145A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 145B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 146A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 146D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 147F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 147G"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 147T"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 148A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149I"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149K"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149N"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149P"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149R"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 149W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 2"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 139M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138Z"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 138J"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 136B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 137H"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 137L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 143F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 137R"
+     }
+    ]
+   }
+  },
+  {
+   "id": "empirical-theory-and-quantitative-methods",
+   "title": "Empirical Theory & Quantitative Methods",
+   "section": "Distribution",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 3"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI W3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "political-theory",
+   "title": "Political Theory",
+   "section": "Distribution",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 112A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 112B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 112C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 112D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 114A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116E"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116G"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116H"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116I"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116J"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116K"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116N"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116O"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116Q"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116R"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116T"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116U"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116V"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116X"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116Y"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116Z"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 117"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 117D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 112L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 117L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116P"
+     }
+    ]
+   }
+  },
+  {
+   "id": "international-relations",
+   "title": "International Relations",
+   "section": "Distribution",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 122A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123F"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123G"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123H"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123J"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123L"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123P"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123R"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123S"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123W"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 123Y"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124C"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124I"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124M"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124N"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 126A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 128"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 128A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 129B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124G"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124D"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124H"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124R"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 124W"
+     }
+    ]
+   }
+  },
+  {
+   "id": "american-politics-american-politics-lower-division",
+   "title": "American Politics: Lower Division",
+   "section": "American Politics: Lower Division",
+   "choice": "specialization",
+   "option": "american-politics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 1"
+     },
+     {
+      "type": "course",
+      "course": "XPOLSCI 1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "american-politics-american-politics-upper-division",
+   "title": "American Politics: Upper Division",
+   "section": "American Politics: Upper Division",
+   "choice": "specialization",
+   "option": "american-politics",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "POLSCI 102",
+      "POLSCI 103",
+      "POLSCI 103W",
+      "POLSCI 104",
+      "POLSCI 105",
+      "POLSCI 106A",
+      "POLSCI 109",
+      "POLSCI 109A",
+      "POLSCI 109B",
+      "POLSCI 109D",
+      "POLSCI 109E",
+      "POLSCI 109G",
+      "POLSCI 109H",
+      "POLSCI 109L",
+      "POLSCI 109M",
+      "POLSCI 109P",
+      "POLSCI 109Q",
+      "POLSCI 109R",
+      "POLSCI 109S",
+      "POLSCI 109W",
+      "POLSCI 109Z",
+      "POLSCI 111AC",
+      "POLSCI 111B",
+      "POLSCI 116J",
+      "POLSCI 150",
+      "POLSCI 152A",
+      "POLSCI 157A",
+      "POLSCI 157B",
+      "POLSCI 161",
+      "POLSCI 164A",
+      "POLSCI 166",
+      "POLSCI 167",
+      "POLSCI 167AC",
+      "POLSCI 169",
+      "POLSCI 171",
+      "POLSCI 173S",
+      "POLSCI 175A",
+      "POLSCI 181",
+      "POLSCI 160",
+      "POLSCI 107",
+      "POLSCI 188"
+     ]
+    }
+   }
+  },
+  {
+   "id": "comparative-politics-comparative-politics-lower-division",
+   "title": "Comparative Politics: Lower Division",
+   "section": "Comparative Politics: Lower Division",
+   "choice": "specialization",
+   "option": "comparative-politics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 2"
+     },
+     {
+      "type": "course",
+      "course": "XPOLSCI 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparative-politics-comparative-politics-upper-division",
+   "title": "Comparative Politics: Upper Division",
+   "section": "Comparative Politics: Upper Division",
+   "choice": "specialization",
+   "option": "comparative-politics",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "POLSCI 141A",
+      "POLSCI 136A",
+      "POLSCI 137A",
+      "POLSCI 137C",
+      "POLSCI 138A",
+      "POLSCI 138B",
+      "POLSCI 138C",
+      "POLSCI 138D",
+      "POLSCI 138E",
+      "POLSCI 138F",
+      "POLSCI 138G",
+      "POLSCI 139A",
+      "POLSCI 139B",
+      "POLSCI 139C",
+      "POLSCI 139D",
+      "POLSCI 140",
+      "POLSCI 140A",
+      "POLSCI 140B",
+      "POLSCI 140C",
+      "POLSCI 140D",
+      "POLSCI 140E",
+      "POLSCI 140F",
+      "POLSCI 140G",
+      "POLSCI 140H",
+      "POLSCI 140I",
+      "POLSCI 140K",
+      "POLSCI 140L",
+      "POLSCI 140M",
+      "POLSCI 140N",
+      "POLSCI 140O",
+      "POLSCI 140P",
+      "POLSCI 140Q",
+      "POLSCI 140R",
+      "POLSCI 140S",
+      "POLSCI 140T",
+      "POLSCI 140U",
+      "POLSCI 140V",
+      "POLSCI 140W",
+      "POLSCI 140X",
+      "POLSCI 140Y",
+      "POLSCI 140Z",
+      "POLSCI 141A",
+      "POLSCI 141B",
+      "POLSCI 141C",
+      "POLSCI 142A",
+      "POLSCI 142B",
+      "POLSCI 143A",
+      "POLSCI 143B",
+      "POLSCI 143C",
+      "POLSCI 143D",
+      "POLSCI 143E",
+      "POLSCI 143T",
+      "POLSCI 144",
+      "POLSCI 144A",
+      "POLSCI 144B",
+      "POLSCI 145A",
+      "POLSCI 145B",
+      "POLSCI 146A",
+      "POLSCI 146B",
+      "POLSCI 146C",
+      "POLSCI 146D",
+      "POLSCI 147B",
+      "POLSCI 147C",
+      "POLSCI 147D",
+      "POLSCI 147F",
+      "POLSCI 147G",
+      "POLSCI 147H",
+      "POLSCI 147T",
+      "POLSCI 148A",
+      "POLSCI 148B",
+      "POLSCI 149",
+      "POLSCI 149A",
+      "POLSCI 149B",
+      "POLSCI 149C",
+      "POLSCI 149D",
+      "POLSCI 149E",
+      "POLSCI 149F",
+      "POLSCI 149G",
+      "POLSCI 149H",
+      "POLSCI 149I",
+      "POLSCI 149J",
+      "POLSCI 149K",
+      "POLSCI 149L",
+      "POLSCI 149M",
+      "POLSCI 149N",
+      "POLSCI 149O",
+      "POLSCI 149P",
+      "POLSCI 149Q",
+      "POLSCI 149R",
+      "POLSCI 149S",
+      "POLSCI 149T",
+      "POLSCI 149U",
+      "POLSCI 149V",
+      "POLSCI 149W",
+      "POLSCI 149X",
+      "POLSCI 149Y",
+      "POLSCI 149Z",
+      "POLSCI 139W",
+      "POLSCI 139M",
+      "POLSCI 138S",
+      "POLSCI 138Z",
+      "POLSCI 138M",
+      "POLSCI 138J",
+      "POLSCI 136B",
+      "POLSCI 137H",
+      "POLSCI 137L",
+      "POLSCI 143F",
+      "POLSCI 137R"
+     ]
+    }
+   }
+  },
+  {
+   "id": "empirical-theory-and-quantitative-methods-empirical-theory-and-quantitative-methods-lower-",
+   "title": "Empirical Theory & Quantitative Methods: Lower Division",
+   "section": "Empirical Theory & Quantitative Methods: Lower Division",
+   "choice": "specialization",
+   "option": "empirical-theory-and-quantitative-methods",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "POLSCI 3"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI W3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "empirical-theory-and-quantitative-methods-empirical-theory-and-quantitative-methods-upper-",
+   "title": "Empirical Theory & Quantitative Methods: Upper Division",
+   "section": "Empirical Theory & Quantitative Methods: Upper Division",
+   "choice": "specialization",
+   "option": "empirical-theory-and-quantitative-methods",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON C110"
+     },
+     {
+      "type": "course",
+      "course": "ECON C142"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI C131A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "POLSCI C135"
+       },
+       {
+        "type": "course",
+        "course": "POLSCI W135"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 132B"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 133"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 134"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C142"
+     }
+    ]
+   }
+  },
+  {
+   "id": "political-theory-political-theory-lower-division",
+   "title": "Political Theory: Lower Division",
+   "section": "Political Theory: Lower Division",
+   "choice": "specialization",
+   "option": "political-theory",
+   "rule": {
+    "type": "course",
+    "course": "POLSCI 4"
+   }
+  },
+  {
+   "id": "political-theory-political-theory-upper-division",
+   "title": "Political Theory Upper Division",
+   "section": "Political Theory: Upper Division",
+   "choice": "specialization",
+   "option": "political-theory",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "POLSCI 111AC",
+      "POLSCI 112A",
+      "POLSCI 112B",
+      "POLSCI 112C",
+      "POLSCI 112D",
+      "POLSCI 113A",
+      "POLSCI 113B",
+      "POLSCI 114",
+      "POLSCI 114A",
+      "POLSCI 115A",
+      "POLSCI 115B",
+      "POLSCI 115C",
+      "POLSCI 116",
+      "POLSCI 116A",
+      "POLSCI 116B",
+      "POLSCI 116C",
+      "POLSCI 116D",
+      "POLSCI 116E",
+      "POLSCI 116F",
+      "POLSCI 116G",
+      "POLSCI 116H",
+      "POLSCI 116I",
+      "POLSCI 116J",
+      "POLSCI 116K",
+      "POLSCI 116L",
+      "POLSCI 116M",
+      "POLSCI 116N",
+      "POLSCI 116O",
+      "POLSCI 116Q",
+      "POLSCI 116R",
+      "POLSCI 116S",
+      "POLSCI 116T",
+      "POLSCI 116U",
+      "POLSCI 116V",
+      "POLSCI 116W",
+      "POLSCI 116X",
+      "POLSCI 116Y",
+      "POLSCI 116Z",
+      "POLSCI 118AC",
+      "POLSCI 117",
+      "POLSCI 118B",
+      "POLSCI 117D",
+      "POLSCI 112L",
+      "POLSCI 117L",
+      "POLSCI 116P"
+     ]
+    }
+   }
+  },
+  {
+   "id": "international-relations-international-relations-lower-division",
+   "title": "International Relations Lower Division",
+   "section": "International Relations: Lower Division",
+   "choice": "specialization",
+   "option": "international-relations",
+   "rule": {
+    "type": "course",
+    "course": "POLSCI 5"
+   }
+  },
+  {
+   "id": "international-relations-international-relations-upper-division",
+   "title": "International Relations Upper Division",
+   "section": "International Relations: Upper Division",
+   "choice": "specialization",
+   "option": "international-relations",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "POLSCI 122",
+      "POLSCI 122A",
+      "POLSCI 122AW",
+      "POLSCI 123",
+      "POLSCI 123A",
+      "POLSCI 123B",
+      "POLSCI 123C",
+      "POLSCI 123D",
+      "POLSCI 123E",
+      "POLSCI 123F",
+      "POLSCI 123G",
+      "POLSCI 123H",
+      "POLSCI 125",
+      "POLSCI 123J",
+      "POLSCI 123K",
+      "POLSCI 123L",
+      "POLSCI 123M",
+      "POLSCI 123N",
+      "POLSCI 123O",
+      "POLSCI 123P",
+      "POLSCI 123Q",
+      "POLSCI 123R",
+      "POLSCI 123S",
+      "POLSCI 123T",
+      "POLSCI 123U",
+      "POLSCI 123V",
+      "POLSCI 123W",
+      "POLSCI 123X",
+      "POLSCI 123Y",
+      "POLSCI 123Z",
+      "POLSCI 124A",
+      "POLSCI 124B",
+      "POLSCI 124C",
+      "POLSCI 124I",
+      "POLSCI 124M",
+      "POLSCI 124N",
+      "POLSCI 125",
+      "POLSCI 126A",
+      "POLSCI 126B",
+      "POLSCI 127",
+      "POLSCI 127A",
+      "POLSCI 127B",
+      "POLSCI 128",
+      "POLSCI 128A",
+      "POLSCI 128B",
+      "POLSCI 129A",
+      "POLSCI 129B",
+      "POLSCI 129C",
+      "POLSCI 124B",
+      "POLSCI 124G",
+      "POLSCI 124D",
+      "POLSCI 124H",
+      "POLSCI 124R",
+      "POLSCI 124W"
+     ]
+    }
+   }
+  },
+  {
+   "id": "upper-division-political-science",
+   "title": "Upper Division Political Science",
+   "section": "Upper Division Political Science",
+   "notes": "Each course must be at least 4 units.",
+   "rule": {
+    "type": "filter",
+    "count": 8,
+    "filter": {
+     "subjects": [
+      "POLSCI"
+     ],
+     "minNumber": 100,
+     "maxNumber": 191,
+     "exclude": [
+      "POLSCI 179"
+     ]
+    }
+   }
+  }
+ ]
+}

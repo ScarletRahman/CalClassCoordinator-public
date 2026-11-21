@@ -1,0 +1,569 @@
+{
+ "id": "major-materials-science-and-engineering-and-business-administration-bs",
+ "title": "Materials Science and Engineering and Business Administration BS",
+ "kind": "major",
+ "programType": "dual-degree",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/JHbdnKFVpcEq13grTsic",
+  "https://undergraduate.catalog.berkeley.edu/programs/JHbdnKFVpcEq13grTsic/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "*16A19U",
+ "notes": [
+  "M.E.T. General Guidelines\nGeneral Guidelines\n- A minimum of 38 upper division business units is required.\n- Students must complete the degree program in eight semesters, not including Summer Session.\n- Students must complete ALL of their business prerequisite courses (including R&C) by the spring semester of their sophomore (2nd) year. Required prerequisite courses are: UGBA 10X; ECON 1 or ECON 2; Math 51 & Math 52 , or Math 53 or Math 54; Reading & Composition Parts A & B; and, depending on their major track, students may choose one of the following statistics courses or combinations:\n- EECS 126\n- ENGIN 178 (recommended for ME)\n- INDENG 172 (required for IEOR)\n- STAT 20\n- STAT 21/STAT W21\n- STAT C131A\n- STAT 134 (recommended for BioE)\n- STAT/DATA C140\n- DATA C8, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT C88S\n- DATA C100, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT 88S\n- All Haas business courses must be taken for a letter grade, including core substitutions, with the exception of UGBA 194, UGBA 198 and UGBA 199 (only offered Pass/No Pass).\n- Students who receive a grade of D+ or lower in a core UGBA course must repeat the course until they achieve a grade of C- or better.\n- All technical courses that can be used to fulfill a requirement must be taken for a letter grade.\n- Two M.E.T. Special Topics courses are required. One during the first year, first semester and another during the third year, first semester. M.E.T. Special Topics courses will count as upper division business elective units. A passing grade of C- or better is required.\n- Students in this program must adhere to all policies and procedures of the College of Engineering and the Haas School of Business.\n- Students must complete the College Requirements and the Program Major Requirements."
+ ],
+ "requirements": [
+  {
+   "id": "preparatory-subject-matter",
+   "title": "Preparatory Subject Matter",
+   "section": "Lower Division",
+   "notes": "For a list of lower division requirements (such as Math, Chem, Reading and Composition, Physics, Economics, etc.), that may be fulfilled by exam credit, please view the M.E.T. Exam Credit Guidelines.\nPHYSICS 89 replaces MATH 54. As such, students should be well prepared for any class listing MATH 54 as a prerequisite.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry-a-series",
+   "title": "Chemistry: A Series",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "CHEM 1A",
+      "CHEM 1AL",
+      "CHEM 4A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "chemistry-b-series",
+   "title": "Chemistry: B Series",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division-statistics-requirement",
+   "title": "Lower Division Statistics Requirement",
+   "section": "Lower Division Statistics Requirement",
+   "notes": "Note that the enrollment system enforces prerequisites for C100; therefore, MSE students who have not completed C8 will be unable to enroll in the course.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "DATA C140"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 178"
+       },
+       {
+        "type": "course",
+        "course": "INDENG 172"
+       },
+       {
+        "type": "course",
+        "course": "STAT C140"
+       },
+       {
+        "type": "course",
+        "course": "STAT 134"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C8"
+         },
+         {
+          "type": "course",
+          "course": "DATA C8"
+         },
+         {
+          "type": "course",
+          "course": "STAT C8"
+         },
+         {
+          "type": "course",
+          "course": "INFO C8"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "STAT 88"
+         },
+         {
+          "type": "course",
+          "course": "UGBA 88"
+         },
+         {
+          "type": "course",
+          "course": "CIVENG 93"
+         }
+        ]
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ugba-core",
+   "title": "UGBA Core",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 30,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107"
+     ]
+    }
+   }
+  },
+  {
+   "id": "m-e-t-special-topics",
+   "title": "M.E.T. Special Topics",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "manual",
+    "text": "Complete the following Special Topics courses:\n- UGBA 196 001, “Managing Technological Innovation”\n- UGBA 196 002, “Entrepreneurship and Strategic Growth”\n4 units total",
+    "mentionedCourses": [
+     "UGBA 196"
+    ]
+   }
+  },
+  {
+   "id": "ugba-elective",
+   "title": "UGBA Elective",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107",
+      "UGBA 173",
+      "UGBA 117",
+      "UGBA 118",
+      "UGBA 174",
+      "UGBA 120AA",
+      "UGBA 120AB",
+      "UGBA 120B",
+      "UGBA 121",
+      "UGBA 122",
+      "UGBA 126",
+      "UGBA 127",
+      "UGBA 128",
+      "UGBA 131",
+      "UGBA 132",
+      "UGBA 133",
+      "UGBA 136F",
+      "UGBA 137",
+      "UGBA 141",
+      "UGBA 143",
+      "UGBA 147",
+      "UGBA 151",
+      "UGBA 152",
+      "UGBA 154",
+      "UGBA 155",
+      "UGBA 157",
+      "UGBA 160",
+      "UGBA 161",
+      "UGBA 162",
+      "UGBA 165",
+      "UGBA 167",
+      "UGBA 169",
+      "UGBA 175",
+      "UGBA 177",
+      "UGBA 178",
+      "UGBA 179",
+      "UGBA 180",
+      "UGBA 183",
+      "UGBA 184",
+      "UGBA 187",
+      "UGBA 190S",
+      "UGBA 190T",
+      "UGBA 191C",
+      "UGBA 191I",
+      "UGBA 191P",
+      "UGBA 192A",
+      "UGBA 192L",
+      "UGBA 192N",
+      "UGBA 192P",
+      "UGBA 192T",
+      "UGBA 193C",
+      "UGBA 193I",
+      "UGBA 194",
+      "UGBA 195A",
+      "UGBA 195P",
+      "UGBA 195S",
+      "UGBA 195T",
+      "UGBA 196",
+      "UGBA 198",
+      "UGBA 199",
+      "UGBA 162A",
+      "UGBA 176",
+      "UGBA 123",
+      "UGBA 192B",
+      "UGBA 193B",
+      "UGBA 192AC",
+      "UGBA 191L",
+      "UGBA 134",
+      "UGBA 164",
+      "UGBA 131A",
+      "UGBA 190C",
+      "UGBA 192E",
+      "UGBA 192G",
+      "UGBA 125",
+      "UGBA 190D",
+      "UGBA 135",
+      "UGBA 146",
+      "UGBA 192S",
+      "UGBA 192H",
+      "UGBA 195B",
+      "UGBA 159",
+      "UGBA 171",
+      "UGBA 192MC",
+      "UGBA 151A",
+      "UGBA 192ID",
+      "UGBA 150",
+      "UGBA 196SA",
+      "UGBA 196SC",
+      "UGBA 196SB",
+      "UGBA 179G",
+      "UGBA 168B",
+      "UGBA 194S",
+      "UGBA 192F",
+      "UGBA 142",
+      "UGBA 156",
+      "UGBA 192PF",
+      "UGBA 195M",
+      "UGBA 155N",
+      "UGBA 171A",
+      "UGBA 170AC"
+     ]
+    }
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division Materials Science Engineering",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 102"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 103"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 104"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 104L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 111"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 113"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 131"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 151"
+     }
+    ]
+   }
+  },
+  {
+   "id": "materials-lifecycle-sustainability-and-recycling-elective-1",
+   "title": "Materials Lifecycle, Sustainability, and Recycling Elective #1",
+   "section": "Upper Division Materials Science Engineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 120"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 121"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 122"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 128"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 129"
+     }
+    ]
+   }
+  },
+  {
+   "id": "materials-lifecycle-sustainability-and-recycling-elective-2",
+   "title": "Materials Lifecycle, Sustainability, and Recycling Elective #2",
+   "section": "Upper Division Materials Science Engineering",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 118"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 120"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 121"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 122"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 128"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 129"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 136"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "course-requirement",
+   "title": "Course Requirement",
+   "section": "Upper Division Engineering Elective",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "An Upper Division Engineering Elective is chosen in consultation with the student's faculty adviser and must be a minimum of 3 units. Students may use three units of credit for work on a research project in MAT SCI H194 (Honors Undergraduate Research). Other letter-graded research courses may be approved by petition. Typically, this elective should be offered by a department within the College of Engineering or from the Department of Chemical & Biomolecular Engineering.\nUpper Division Engineering Electives cannot include:\n- Any course taken on a Pass/No Pass basis … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "MATSCI H194",
+     "BIOENG 100"
+    ]
+   }
+  }
+ ]
+}

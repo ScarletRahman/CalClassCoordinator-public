@@ -1,0 +1,96 @@
+{
+ "id": "minor-global-public-health",
+ "title": "Global Public Health minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/96I137U",
+  "https://undergraduate.catalog.berkeley.edu/programs/96I137U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "96I137U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PBHLTH 112"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PBHLTH 250A"
+       },
+       {
+        "type": "course",
+        "course": "PBHLTH N250A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "PBHLTH 118"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PBHLTH 150B"
+       },
+       {
+        "type": "course",
+        "course": "PBHLTH N150B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 150D"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 155B"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 155C"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 162A"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 167"
+     }
+    ]
+   }
+  }
+ ]
+}

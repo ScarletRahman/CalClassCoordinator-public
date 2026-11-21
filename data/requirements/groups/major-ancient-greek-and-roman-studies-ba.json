@@ -1,0 +1,882 @@
+{
+ "id": "major-ancient-greek-and-roman-studies-ba",
+ "title": "Ancient Greek and Roman Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252G3U",
+  "https://undergraduate.catalog.berkeley.edu/programs/252G3U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "252G3U",
+ "requirements": [
+  {
+   "id": "greek-and-roman-introduction",
+   "title": "Greek and Roman Introduction",
+   "section": "Lower Division",
+   "notes": "\"P\" Grades do not meet lower division requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10A"
+       },
+       {
+        "type": "course",
+        "course": "AGRS 17A"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS 10B"
+       },
+       {
+        "type": "course",
+        "course": "AGRS 17B"
+       },
+       {
+        "type": "course",
+        "course": "AGRS R44"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Lower Division",
+   "notes": "\"P\" Grades do not meet lower division requirements.",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "AGRS",
+      "GREEK",
+      "LATIN"
+     ],
+     "minNumber": 1,
+     "maxNumber": 96
+    }
+   }
+  },
+  {
+   "id": "pre-modern-culture",
+   "title": "Pre-Modern Culture",
+   "section": "Pre-Modern Culture",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 2"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 2AC"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD C120"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD C135"
+     },
+     {
+      "type": "course",
+      "course": "BUDDSTD C150"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 70"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 128"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 168"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 7A"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 179"
+     },
+     {
+      "type": "course",
+      "course": "CUNEIF 100A"
+     },
+     {
+      "type": "course",
+      "course": "CUNEIF 100B"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 118"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 119"
+     },
+     {
+      "type": "course",
+      "course": "EALANG C120"
+     },
+     {
+      "type": "course",
+      "course": "EALANG C135"
+     },
+     {
+      "type": "course",
+      "course": "EALANG C175"
+     },
+     {
+      "type": "course",
+      "course": "EGYPT 100A"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 45A"
+     },
+     {
+      "type": "course",
+      "course": "ENGLISH 101"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 102A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 102B"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 34"
+     },
+     {
+      "type": "course",
+      "course": "HISTART C120A"
+     },
+     {
+      "type": "course",
+      "course": "HISTART C120B"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 130A"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 131A"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 136A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 11A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 108"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 114A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 135B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 177A"
+     },
+     {
+      "type": "course",
+      "course": "ILA 180"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 7A"
+     },
+     {
+      "type": "course",
+      "course": "JEWISH 130"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 7A"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 172"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 173"
+     },
+     {
+      "type": "course",
+      "course": "MELC 10"
+     },
+     {
+      "type": "course",
+      "course": "MELC 18"
+     },
+     {
+      "type": "course",
+      "course": "MELC 25"
+     },
+     {
+      "type": "course",
+      "course": "MELC 101"
+     },
+     {
+      "type": "course",
+      "course": "MELC 102"
+     },
+     {
+      "type": "course",
+      "course": "MELC 103"
+     },
+     {
+      "type": "course",
+      "course": "MELC 104"
+     },
+     {
+      "type": "course",
+      "course": "MELC 105"
+     },
+     {
+      "type": "course",
+      "course": "MELC 106"
+     },
+     {
+      "type": "course",
+      "course": "MELC 109"
+     },
+     {
+      "type": "course",
+      "course": "MELC 110"
+     },
+     {
+      "type": "course",
+      "course": "MELC 111"
+     },
+     {
+      "type": "course",
+      "course": "MELC 112"
+     },
+     {
+      "type": "course",
+      "course": "MELC 113"
+     },
+     {
+      "type": "course",
+      "course": "MELC 115"
+     },
+     {
+      "type": "course",
+      "course": "MELC 116"
+     },
+     {
+      "type": "course",
+      "course": "MELC C120A"
+     },
+     {
+      "type": "course",
+      "course": "MELC C120B"
+     },
+     {
+      "type": "course",
+      "course": "MELC 123"
+     },
+     {
+      "type": "course",
+      "course": "MELC 124"
+     },
+     {
+      "type": "course",
+      "course": "MELC 126"
+     },
+     {
+      "type": "course",
+      "course": "MELC 127"
+     },
+     {
+      "type": "course",
+      "course": "MELC 128"
+     },
+     {
+      "type": "course",
+      "course": "MELC 129"
+     },
+     {
+      "type": "course",
+      "course": "MELC 130"
+     },
+     {
+      "type": "course",
+      "course": "MELC 131"
+     },
+     {
+      "type": "course",
+      "course": "MELC 132"
+     },
+     {
+      "type": "course",
+      "course": "MELC 135"
+     },
+     {
+      "type": "course",
+      "course": "MELC 136"
+     },
+     {
+      "type": "course",
+      "course": "MELC 138"
+     },
+     {
+      "type": "course",
+      "course": "MELC 160"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 151"
+     },
+     {
+      "type": "course",
+      "course": "SASIAN 100A"
+     },
+     {
+      "type": "course",
+      "course": "SASIAN 121"
+     },
+     {
+      "type": "course",
+      "course": "SASIAN 127"
+     },
+     {
+      "type": "course",
+      "course": "SASIAN 140"
+     },
+     {
+      "type": "course",
+      "course": "SASIAN 142"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 123"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 160"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 165"
+     },
+     {
+      "type": "course",
+      "course": "SCANDIN 170"
+     },
+     {
+      "type": "course",
+      "course": "SEASIAN 101A"
+     },
+     {
+      "type": "course",
+      "course": "SSEASN C135"
+     },
+     {
+      "type": "course",
+      "course": "SEMITIC 100A"
+     },
+     {
+      "type": "course",
+      "course": "SEMITIC 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "agrs-130",
+   "title": "AGRS 130",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least one AGRS 130 course (with or without suffix).",
+    "mentionedCourses": [
+     "AGRS 130"
+    ]
+   }
+  },
+  {
+   "id": "electives-2",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "- Any AGRS 100-196 level course\n- Any XAGRS 100-196 level course\n- Any GREEK 100-196 level course\n- Any LATIN 100-196 level course\nGREEK 1 and GREEK 2 must be taken together. GREEK 15 counts as a combination of both GREEK 1 and GREEK 2.\nLATIN 1 and LATIN 2 must be taken together. LATIN 15 counts as a combination of both LATIN 1 and LATIN 2.\nStudents cannot take both a GREEK language series and a LATIN language series.\nA maximum of two courses outside the major are allowed.",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "GREEK 1"
+       },
+       {
+        "type": "course",
+        "course": "GREEK 2"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "LATIN 1"
+       },
+       {
+        "type": "course",
+        "course": "LATIN 2"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "GREEK 15"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 15"
+     },
+     {
+      "type": "course",
+      "course": "COMLIT 151"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 108"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 141A"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 141B"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 141C"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 145"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 151"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 190B"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 192B"
+     },
+     {
+      "type": "course",
+      "course": "HISTART C140"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 103A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 105A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 105B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 106A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 106B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 107A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 185"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 188D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 188E"
+     },
+     {
+      "type": "course",
+      "course": "LEGALST 119"
+     },
+     {
+      "type": "course",
+      "course": "MELC C129"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 160"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 161"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 112A"
+     },
+     {
+      "type": "course",
+      "course": "POLSCI 116W"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 166"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 121"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 124"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130B"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130C"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130D"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130E"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130F"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130G"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130H"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130I"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130J"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130K"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130L"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130M"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130N"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130P"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130R"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130S"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130T"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130U"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130V"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 150"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 161"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 163"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 170A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 170C"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 170D"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 172"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175C"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175D"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175F"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175G"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 180"
+     },
+     {
+      "type": "course",
+      "course": "AGRS C175F"
+     },
+     {
+      "type": "course",
+      "course": "AGRS H195A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS H195B"
+     },
+     {
+      "type": "course",
+      "course": "AGRS N172A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS N172B"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 100"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 101"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 102"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 105"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 115"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 116"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 117"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 120"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 121"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 122"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 123"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 125"
+     },
+     {
+      "type": "course",
+      "course": "GREEK 160"
+     },
+     {
+      "type": "course",
+      "course": "GREEK H195A"
+     },
+     {
+      "type": "course",
+      "course": "GREEK H195B"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 100"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 101"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 102"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 115"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 116"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 117"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 119"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 120"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 121"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 122"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 140"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 155A"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 160"
+     },
+     {
+      "type": "course",
+      "course": "LATIN C140"
+     },
+     {
+      "type": "course",
+      "course": "LATIN H195A"
+     },
+     {
+      "type": "course",
+      "course": "LATIN H195B"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+ "id": "major-history-ba",
+ "title": "History BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25429U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25429U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/25429U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25429U",
+ "requirements": [
+  {
+   "id": "world-regions",
+   "title": "World Regions",
+   "section": "Lower Division",
+   "notes": "Students must take three lower division history courses from three different world regions, plus one elective.\nEach course must be taken for a letter grade.",
+   "rule": {
+    "type": "nOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "HISTORY 10",
+      "label": "Africa"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 6A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 6B"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 11"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 11A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 13"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 14"
+       }
+      ],
+      "label": "Asia"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 4A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 4B"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 5"
+       }
+      ],
+      "label": "Europe"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 8A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 8B"
+       }
+      ],
+      "label": "Latin America & The Caribbean"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 3"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 12"
+       }
+      ],
+      "label": "Near & Middle East"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 7A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 7B"
+       }
+      ],
+      "label": "North America"
+     }
+    ],
+    "n": 3
+   }
+  },
+  {
+   "id": "elective",
+   "title": "Elective",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "HISTORY 1"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 2"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 3"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 4A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 4B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 5"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 7A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 7B"
+     },
+     {
+      "type": "course",
+      "course": "XHISTOR 7B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 8A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 8B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 10"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 11"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 11A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 12"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 14"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 20"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 30"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39F"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39G"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39H"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39I"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39N"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39T"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39U"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39W"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39Y"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 39Z"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100ST"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C114"
+     },
+     {
+      "type": "course",
+      "course": "SASIAN C144"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 126B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 131C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 132C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 133A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 133D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 175B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 175C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 175D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 182CT"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 188D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 188E"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-courses",
+   "title": "Core Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 103"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103B"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103C"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103D"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103E"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103F"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103H"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103M"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103N"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103R"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103S"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 103U"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 104"
+     }
+    ]
+   }
+  },
+  {
+   "id": "senior-thesis-research-seminar",
+   "title": "Senior Thesis Research Seminar",
+   "section": "Upper Division",
+   "notes": "Students may satisfy this requirement by taking HISTORY 102 or a combination of HISTORY 101A and HISTORY 101B.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "HISTORY 101A"
+       },
+       {
+        "type": "course",
+        "course": "HISTORY 101B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 102"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "Each course must be at least 3 units.\nDoes not count: 103 series.",
+   "rule": {
+    "type": "filter",
+    "count": 5,
+    "filter": {
+     "subjects": [
+      "HISTORY"
+     ],
+     "minNumber": 100,
+     "maxNumber": 196
+    }
+   }
+  },
+  {
+   "id": "premodern-history",
+   "title": "Premodern History",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "HISTORY 3"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 4A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 4B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 6A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100AP"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100BP"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 100UP"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 105A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 105B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 106A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 106B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 108"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 109A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 109B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 111A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 112A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 113A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 114A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 117A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 117C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 117D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 118A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 149B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 150A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 150B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 150C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 155A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 155B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 156A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 156B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 156C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 171A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 177A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 185A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 188D"
+     }
+    ]
+   }
+  }
+ ]
+}

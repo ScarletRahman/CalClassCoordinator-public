@@ -1,0 +1,147 @@
+{
+  "id": "major-economics-ba",
+  "title": "Economics BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/economics/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "intro-econ",
+      "title": "Introductory economics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ECON 1"
+          },
+          {
+            "type": "course",
+            "course": "ECON 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "micro",
+      "title": "Intermediate microeconomics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ECON 100A"
+          },
+          {
+            "type": "course",
+            "course": "ECON 101A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "macro",
+      "title": "Intermediate macroeconomics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ECON 100B"
+          },
+          {
+            "type": "course",
+            "course": "ECON 101B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "econometrics",
+      "title": "Econometrics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ECON 140"
+          },
+          {
+            "type": "course",
+            "course": "ECON 141"
+          }
+        ]
+      }
+    },
+    {
+      "id": "econ-electives",
+      "title": "Five upper-division economics electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "ECON"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "ECON 100A",
+            "ECON 101A",
+            "ECON 100B",
+            "ECON 101B",
+            "ECON 140",
+            "ECON 141"
+          ]
+        },
+        "count": 5
+      },
+      "notes": "At least two must have ECON 100A/101A or 100B/101B as a prerequisite. Some ENVECON and other cross-listed courses count."
+    }
+  ]
+}

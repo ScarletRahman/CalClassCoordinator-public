@@ -1,0 +1,329 @@
+{
+ "id": "major-physics-ba",
+ "title": "Physics BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25666U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25666U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25666U",
+ "requirements": [
+  {
+   "id": "mathematics-math-51",
+   "title": "Mathematics: MATH 51",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.\nAlso satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus BC, score 3+\n- AP: Mathematics: Calculus AB, score 3+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\n- IB: HL Further Mathematics, score 6+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-math-52",
+   "title": "Mathematics: MATH 52",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.\nAlso satisfied by:\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7\n- IB: HL Further Mathematics, score 7\n- AP: Mathematics: Calculus BC, score 5",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH H1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-math-53",
+   "title": "Mathematics: MATH 53",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematical-physics",
+   "title": "Mathematical Physics",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.\n- Transfer students may use MATH 54-equivalent courses completed prior to admission to satisfy this requirement.\n- Students may use MATH 54 instead of PHYSICS 89 if they are double-majoring in Physics and Math.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS W89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-a-series",
+   "title": "Physics: A Series",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-series",
+   "title": "Physics Series",
+   "section": "Lower Division",
+   "notes": "A minimum grade of C- is required.\nStudents who choose to complete the PHYSICS 5 Series after taking PHYSICS 7A will also need to take PHYSICS 49 to complete the series.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 105"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 110A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 137A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 137B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lab",
+   "title": "Lab",
+   "section": "Upper Division",
+   "notes": "A minimum grade of C- is required.\nStudents must earn 3 units in PHYSICS 111B for this course to count toward the Lab requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 111A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 111B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "A minimum grade of C- is required.\n- Any PHYSICS level 100-196 course",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON C161"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C191"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C191"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 110B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 129"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 130"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 138"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 139"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 141A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 141B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 142"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 151"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 177"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 188"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS C161"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS C191"
+     },
+     {
+      "type": "course",
+      "course": "EECS C191A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C191A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS C191B"
+     },
+     {
+      "type": "course",
+      "course": "EECS C191B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM C191B"
+     }
+    ]
+   }
+  }
+ ]
+}

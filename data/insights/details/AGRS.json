@@ -1,0 +1,2939 @@
+{
+ "AGRS 10A": {
+  "course": "AGRS 10A",
+  "difficulty": 2.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (8 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.215
+    },
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (8)",
+     "value": 3.1,
+     "weight": 0.092
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.9,
+     "weight": 0.031
+    },
+    {
+     "label": "Student usefulness rating (8 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.246
+    }
+   ]
+  },
+  "sentiment": "8 students on Berkeleytime rate it 2.5/5 for difficulty, 3.1/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.66), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 611,
+   "pctA": 79,
+   "pctBelowB": 5,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 62
+    },
+    {
+     "letter": "A",
+     "count": 240
+    },
+    {
+     "letter": "A-",
+     "count": 98
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 30
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 99
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 8,
+   "difficulty": 2.5,
+   "workload": 3.1,
+   "usefulness": 3.5,
+   "recordedPct": 12,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Chiayi Lee",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "studentCount": 3,
+    "studentDifficulty": 2.7,
+    "studentUsefulness": 3.3,
+    "difficulty": 2.6,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Leslie Kurke",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.64,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 1,
+    "difficulty": 2.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Yesenia Brambila",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Mario Telo",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.92,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 1.7,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Sophie Cushman",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.23,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Grace Erny",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.33,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Dylan Sailor",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.4,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Duncan Macrae",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.23,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2010A"
+  ]
+ },
+ "AGRS 10B": {
+  "course": "AGRS 10B",
+  "difficulty": 2.9,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.315
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.8,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.2,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 3.5/5 for difficulty, 3.8/5 for workload and 2.8/5 for usefulness. The average grade is A- (3.53), with 64% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 445,
+   "pctA": 64,
+   "pctBelowB": 7,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 20
+    },
+    {
+     "letter": "A",
+     "count": 139
+    },
+    {
+     "letter": "A-",
+     "count": 58
+    },
+    {
+     "letter": "B+",
+     "count": 52
+    },
+    {
+     "letter": "B",
+     "count": 35
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 96
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3.5,
+   "workload": 3.8,
+   "usefulness": 2.8,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Trevor Murphy",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.6,
+    "studentCount": 3,
+    "studentDifficulty": 4.3,
+    "studentUsefulness": 2.7,
+    "difficulty": 3.0,
+    "shouldTake": 3.1
+   },
+   {
+    "professor": "Leslie Kurke",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.59,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Leah Packard-Grams",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.59,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Kristina Chew",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.78,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 3,
+    "difficulty": 2.2,
+    "shouldTake": 3.3
+   },
+   {
+    "professor": "Duncan Macrae",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.5,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Christopher Hallett",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Dylan Sailor",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   },
+   {
+    "professor": "Zhengyuan Zhang",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2010B"
+  ]
+ },
+ "AGRS 124": {
+  "course": "AGRS 124",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.92)",
+     "value": 1.1,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.92), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.92,
+   "letter": "A",
+   "students": 30,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Giovanni Ferrari",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.92,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20124"
+  ]
+ },
+ "AGRS 130": {
+  "course": "AGRS 130",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.22)",
+     "value": 3.3,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.22), with 52% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.22,
+   "letter": "B+",
+   "students": 29,
+   "pctA": 52,
+   "pctBelowB": 10,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130"
+  ]
+ },
+ "AGRS 130B": {
+  "course": "AGRS 130B",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 56% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 18,
+   "pctA": 56,
+   "pctBelowB": 0,
+   "pctPassNoPass": 50,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Pena",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.52,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130B"
+  ]
+ },
+ "AGRS 130C": {
+  "course": "AGRS 130C",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.128
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 96% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 29,
+   "pctA": 96,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Giovanni Ferrari",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.9,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130C"
+  ]
+ },
+ "AGRS 130D": {
+  "course": "AGRS 130D",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.175
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.46), with 59% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 50,
+   "pctA": 59,
+   "pctBelowB": 5,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Pena",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.45,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130D"
+  ]
+ },
+ "AGRS 130E": {
+  "course": "AGRS 130E",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130E"
+  ]
+ },
+ "AGRS 130F": {
+  "course": "AGRS 130F",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.212
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.37), with 60% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 77,
+   "pctA": 60,
+   "pctBelowB": 13,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 23
+    },
+    {
+     "letter": "A-",
+     "count": 15
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Trevor Murphy",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.38,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130F"
+  ]
+ },
+ "AGRS 130J": {
+  "course": "AGRS 130J",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.37)",
+     "value": 2.9,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.37), with 59% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.37,
+   "letter": "B+",
+   "students": 22,
+   "pctA": 59,
+   "pctBelowB": 14,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Todd Hickey",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.37,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130J"
+  ]
+ },
+ "AGRS 130L": {
+  "course": "AGRS 130L",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 46,
+   "pctA": 69,
+   "pctBelowB": 3,
+   "pctPassNoPass": 30,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Trevor Murphy",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130L"
+  ]
+ },
+ "AGRS 130M": {
+  "course": "AGRS 130M",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.85)",
+     "value": 1.3,
+     "weight": 0.126
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.85), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.85,
+   "letter": "A-",
+   "students": 28,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kathleen Mccarthy",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.85,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130M"
+  ]
+ },
+ "AGRS 130R": {
+  "course": "AGRS 130R",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.53), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 11,
+   "pctA": 91,
+   "pctBelowB": 9,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 5
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Hallett",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.53,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130R"
+  ]
+ },
+ "AGRS 130S": {
+  "course": "AGRS 130S",
+  "difficulty": 2.4,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "low",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.117
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.033
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 1.0/5 for workload and 1.0/5 for usefulness. The average grade is A (3.89), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 25,
+   "pctA": 91,
+   "pctBelowB": 0,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 1,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Giovanni Ferrari",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.89,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 1,
+    "difficulty": 2.2,
+    "shouldTake": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130S"
+  ]
+ },
+ "AGRS 130T": {
+  "course": "AGRS 130T",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 12,
+   "pctA": 70,
+   "pctBelowB": 0,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Duncan Macrae",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130T"
+  ]
+ },
+ "AGRS 130V": {
+  "course": "AGRS 130V",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "Y",
+  "byProfessor": [
+   {
+    "professor": "Jackie Elliott",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20130V"
+  ]
+ },
+ "AGRS 150": {
+  "course": "AGRS 150",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.18
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 53,
+   "pctA": 88,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristina Chew",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.78,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20150"
+  ]
+ },
+ "AGRS 161": {
+  "course": "AGRS 161",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.218
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 4,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.062
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.0/5 for difficulty, 4.0/5 for workload and 3.5/5 for usefulness. The average grade is B+ (3.49), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 83,
+   "pctA": 57,
+   "pctBelowB": 3,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4,
+   "workload": 4,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Leslie Kurke",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.49,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.1,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20161"
+  ]
+ },
+ "AGRS 172": {
+  "course": "AGRS 172",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.12)",
+     "value": 3.7,
+     "weight": 0.149
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.12), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.12,
+   "letter": "B",
+   "students": 37,
+   "pctA": 61,
+   "pctBelowB": 14,
+   "pctPassNoPass": 24,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.12,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20172"
+  ]
+ },
+ "AGRS 175C": {
+  "course": "AGRS 175C",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.10)",
+     "value": 3.7,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.10), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.1,
+   "letter": "B",
+   "students": 22,
+   "pctA": 53,
+   "pctBelowB": 16,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.1,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20175C"
+  ]
+ },
+ "AGRS 175D": {
+  "course": "AGRS 175D",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 25,
+   "pctA": 47,
+   "pctBelowB": 0,
+   "pctPassNoPass": 32,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Pena",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20175D"
+  ]
+ },
+ "AGRS 17A": {
+  "course": "AGRS 17A",
+  "difficulty": 2.8,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.279
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.08
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.5/5 for usefulness. The average grade is B+ (3.48), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 195,
+   "pctA": 68,
+   "pctBelowB": 10,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 69
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Elizabeth Keyser",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Grace Erny",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.43,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.8,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Alice Chapman",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.81,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Kathleen Mccarthy",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.56,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2017A"
+  ]
+ },
+ "AGRS 17B": {
+  "course": "AGRS 17B",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.35), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 73,
+   "pctA": 53,
+   "pctBelowB": 14,
+   "pctPassNoPass": 30,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Linda Gosner",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristina Chew",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Darcy Tuttle",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.34,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "J Pena",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2017B"
+  ]
+ },
+ "AGRS 198": {
+  "course": "AGRS 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Trevor Murphy",
+    "terms": 4,
+    "lastTaught": "2025 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20198"
+  ]
+ },
+ "AGRS 199": {
+  "course": "AGRS 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 3,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Trevor Murphy",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Mark Griffith",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Todd Hickey",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20199"
+  ]
+ },
+ "AGRS 24": {
+  "course": "AGRS 24",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.081
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 15,
+   "pctA": 83,
+   "pctBelowB": 0,
+   "pctPassNoPass": 60,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 2
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anthony Long",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.78,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Dylan Sailor",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2024"
+  ]
+ },
+ "AGRS 28": {
+  "course": "AGRS 28",
+  "difficulty": 2.9,
+  "shouldTake": 3.0,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.178
+    },
+    {
+     "label": "Tone of written student reviews (8 on file)",
+     "value": 2.5,
+     "weight": 0.1
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are dense and info-heavy, slides are sparse, and recordings are often not available. Reading load and quizzes are heavy, and several say the workload is too much for a breadth course. A few found the material interesting and the lectures captivating. Reviews lean negative.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 811,
+   "pctA": 60,
+   "pctBelowB": 11,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 28
+    },
+    {
+     "letter": "A",
+     "count": 191
+    },
+    {
+     "letter": "A-",
+     "count": 140
+    },
+    {
+     "letter": "B+",
+     "count": 75
+    },
+    {
+     "letter": "B",
+     "count": 67
+    },
+    {
+     "letter": "B-",
+     "count": 27
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 24
+    },
+    {
+     "letter": "P",
+     "count": 191
+    },
+    {
+     "letter": "NP",
+     "count": 25
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 2.8,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 25
+  },
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.18,
+    "difficulty": 3.2
+   },
+   {
+    "professor": "Duncan Macrae",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.52,
+    "studentCount": 4,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2.8,
+    "difficulty": 2.7,
+    "shouldTake": 3.0
+   }
+  ],
+  "reviews": [
+   {
+    "text": "I skipped 8/10 quizzes and was reprimanded heavily by the professor",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "DO NOT SKIP THE QUIZZES",
+    "professor": "Duncan Macrae",
+    "grade": "C"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2028"
+  ]
+ },
+ "AGRS 29": {
+  "course": "AGRS 29",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.117
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 25,
+   "pctA": 69,
+   "pctBelowB": 0,
+   "pctPassNoPass": 36,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Trevor Murphy",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2029"
+  ]
+ },
+ "AGRS 34": {
+  "course": "AGRS 34",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.107
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.43), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 22,
+   "pctA": 63,
+   "pctBelowB": 5,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2034"
+  ]
+ },
+ "AGRS 36": {
+  "course": "AGRS 36",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.275
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 183,
+   "pctA": 70,
+   "pctBelowB": 4,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 23
+    },
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 25
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Giovanni Ferrari",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.59,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2036"
+  ]
+ },
+ "AGRS 39A": {
+  "course": "AGRS 39A",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.093
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.09), with 27% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 18,
+   "pctA": 27,
+   "pctBelowB": 20,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 1
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Todd Hickey",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.09,
+    "difficulty": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2039A"
+  ]
+ },
+ "AGRS 39B": {
+  "course": "AGRS 39B",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.089
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.65), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 17,
+   "pctA": 71,
+   "pctBelowB": 0,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%2039B"
+  ]
+ },
+ "AGRS H195A": {
+  "course": "AGRS H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Emily Mackil",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Trevor Murphy",
+    "terms": 3,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Kim Shelton",
+    "terms": 3,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Todd Hickey",
+    "terms": 2,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Leslie Kurke",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Grace Erny",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20H195A"
+  ]
+ },
+ "AGRS H195B": {
+  "course": "AGRS H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Dylan Sailor",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Trevor Murphy",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Todd Hickey",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Grace Erny",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Kim Shelton",
+    "terms": 3,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Susanna Elm",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Mario Telo",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20H195B"
+  ]
+ },
+ "AGRS N172A": {
+  "course": "AGRS N172A",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.068
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 12,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kim Shelton",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 4.0,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20N172A"
+  ]
+ },
+ "AGRS N28": {
+  "course": "AGRS N28",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.235
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 102,
+   "pctA": 83,
+   "pctBelowB": 3,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 54
+    },
+    {
+     "letter": "A-",
+     "count": 20
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Kristina Chew",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.61,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Marissa Henry",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.93,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Dylan Sailor",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.93,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20N28"
+  ]
+ },
+ "AGRS R44": {
+  "course": "AGRS R44",
+  "difficulty": 3.3,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.309
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 4.6,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.4,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.275
+    },
+    {
+     "label": "Tone of written student reviews (16 on file)",
+     "value": 3.8,
+     "weight": 0.12
+    }
+   ]
+  },
+  "sentiment": "Students say lectures are funny and engaging for many, though some find them dry. The class has heavy reading, three essays and a final, and your grade depends largely on your GSI. Reviewers advise keeping up with readings and note it suits those interested in classics.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 373,
+   "pctA": 63,
+   "pctBelowB": 8,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 126
+    },
+    {
+     "letter": "A-",
+     "count": 85
+    },
+    {
+     "letter": "B+",
+     "count": 45
+    },
+    {
+     "letter": "B",
+     "count": 38
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 17
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 3.9,
+   "workload": 4.6,
+   "usefulness": 3.2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Trevor Murphy",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.44,
+    "studentCount": 11,
+    "studentDifficulty": 3.9,
+    "studentUsefulness": 3.2,
+    "difficulty": 3.4,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Giovanni Ferrari",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.45,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.2,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=AGRS%20R44"
+  ]
+ }
+}

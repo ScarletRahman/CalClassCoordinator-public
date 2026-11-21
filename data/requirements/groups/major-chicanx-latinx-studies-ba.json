@@ -1,0 +1,285 @@
+{
+ "id": "major-chicanx-latinx-studies-ba",
+ "title": "Chicanx Latinx Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252G5U",
+  "https://undergraduate.catalog.berkeley.edu/programs/252G5U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "252G5U",
+ "requirements": [
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ETHSTD 11AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD W11AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CHICANO 20",
+      "CHICANO 40",
+      "CHICANO 50",
+      "CHICANO 70"
+     ]
+    }
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "seminar",
+   "title": "Seminar",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHICANO 190"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "program-course",
+   "title": "Program Course",
+   "section": "Upper Division",
+   "notes": "Each course must be at least 3 units.",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "subjects": [
+      "ASAMST",
+      "ETHSTD",
+      "NATAMST"
+     ],
+     "minNumber": 100,
+     "maxNumber": 190
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "Complete 5 elective courses from Chicanx Latinx Studies. One course may be an approved EAP or a course from another department.",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHICANO 110"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 130"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 131"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 132"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 133"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135A"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135B"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 135C"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 141"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 142"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 143"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 145"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 146"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 148"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 149"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 150A"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 150B"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 152"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 159"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 161"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 163"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 165"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 174"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 175"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 176"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 179"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 180"
+     },
+     {
+      "type": "course",
+      "course": "CHICANO 180AC"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHICANO C144L"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL C144L"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHICANO C166"
+       },
+       {
+        "type": "course",
+        "course": "AFRICAM C166"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "field-study",
+   "title": "Field Study",
+   "section": "Upper Division",
+   "notes": "Students must complete ETHSTD 197A (1 unit) and 3 additional field study units.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "ETHSTD 197A",
+      "AFRICAM 197",
+      "ASAMST 197",
+      "CHICANO 197",
+      "EDUC 197",
+      "GWS 197",
+      "NATAMST 197",
+      "SOCWEL 197",
+      "ETHSTD 197"
+     ]
+    }
+   }
+  }
+ ]
+}

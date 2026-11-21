@@ -1,0 +1,4254 @@
+{
+ "FILM 10": {
+  "course": "FILM 10",
+  "difficulty": 3.0,
+  "shouldTake": 2.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.32
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.8,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (11 on file)",
+     "value": 2.5,
+     "weight": 0.11
+    }
+   ]
+  },
+  "sentiment": "Students like the selection of early films and the enthusiastic, kind teaching. Many complain about disorganized lectures, unclear instructions, trivia-style weekly quizzes, very late grading and little guidance on papers and the final. Several reviewers found the class stressful, though some call it easy.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 524,
+   "pctA": 50,
+   "pctBelowB": 16,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 39
+    },
+    {
+     "letter": "A",
+     "count": 111
+    },
+    {
+     "letter": "A-",
+     "count": 98
+    },
+    {
+     "letter": "B+",
+     "count": 84
+    },
+    {
+     "letter": "B",
+     "count": 54
+    },
+    {
+     "letter": "B-",
+     "count": 37
+    },
+    {
+     "letter": "C+",
+     "count": 17
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 19
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.6,
+   "workload": 2.8,
+   "usefulness": 2.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 80
+  },
+  "byProfessor": [
+   {
+    "professor": "Katerina Korola",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jaimie Baron",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 2.97,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Kristen Whissel",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.76,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 3.7,
+    "shouldTake": 2.7
+   },
+   {
+    "professor": "Joseph Coppola",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.57,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Ziwei Chen",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.56,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Anne Nesbet",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.41,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 2.5,
+    "difficulty": 2.7,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Jonathan Mackris",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.58,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2010"
+  ]
+ },
+ "FILM 125": {
+  "course": "FILM 125",
+  "difficulty": 2.7,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.302
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 2.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.8/5 for difficulty, 2.5/5 for workload and 3.8/5 for usefulness. The average grade is B+ (3.46), with 64% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 316,
+   "pctA": 64,
+   "pctBelowB": 8,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 38
+    },
+    {
+     "letter": "A",
+     "count": 93
+    },
+    {
+     "letter": "A-",
+     "count": 67
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 35
+    },
+    {
+     "letter": "B-",
+     "count": 16
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.8,
+   "workload": 2.5,
+   "usefulness": 3.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 75
+  },
+  "byProfessor": [
+   {
+    "professor": "Deniz Gokturk",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Luis Madrigal",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.07,
+    "studentCount": 2,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.9,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Natalia Brizuela",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.67,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 2.4,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Jaimie Baron",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.26,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.92,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Caleb Murray-Bozeman",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.92,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20125"
+  ]
+ },
+ "FILM 128": {
+  "course": "FILM 128",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 38,
+   "pctA": 88,
+   "pctBelowB": 0,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 20
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20128"
+  ]
+ },
+ "FILM 129": {
+  "course": "FILM 129",
+  "difficulty": 2.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.66)",
+     "value": 1.9,
+     "weight": 0.224
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.66), with 71% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.66,
+   "letter": "A-",
+   "students": 89,
+   "pctA": 71,
+   "pctBelowB": 0,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 29
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 6
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20129"
+  ]
+ },
+ "FILM 135": {
+  "course": "FILM 135",
+  "difficulty": 2.5,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.309
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 3,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.088
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 3.0/5 for workload and 2.0/5 for usefulness. The average grade is A- (3.58), with 71% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 373,
+   "pctA": 71,
+   "pctBelowB": 6,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 158
+    },
+    {
+     "letter": "A-",
+     "count": 94
+    },
+    {
+     "letter": "B+",
+     "count": 45
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 12
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 3,
+   "usefulness": 2,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Iggy Cortez",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.64,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Mark Minch-de Leon",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Jonathan Mackris",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Miryam Sas",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.66,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 2,
+    "difficulty": 2.3,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.24,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Jaimie Baron",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.09,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Jeffrey Skoller",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20135"
+  ]
+ },
+ "FILM 145": {
+  "course": "FILM 145",
+  "difficulty": 2.3,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 2.0/5 for workload and 3.7/5 for usefulness. The average grade is A- (3.56), with 69% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 518,
+   "pctA": 69,
+   "pctBelowB": 6,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 229
+    },
+    {
+     "letter": "A-",
+     "count": 113
+    },
+    {
+     "letter": "B+",
+     "count": 58
+    },
+    {
+     "letter": "B",
+     "count": 40
+    },
+    {
+     "letter": "B-",
+     "count": 26
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Rhiannon Welch",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.6,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.2,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Tim Tangherlini",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Luis Madrigal",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.26,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Mark Minch-de Leon",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Iggy Cortez",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.54,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Deniz Gokturk",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.83,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Joseph Coppola",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.88,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Aner Preminger",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.13,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20145"
+  ]
+ },
+ "FILM 155": {
+  "course": "FILM 155",
+  "difficulty": 2.8,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 4,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 4.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.48), with 65% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 515,
+   "pctA": 65,
+   "pctBelowB": 7,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 170
+    },
+    {
+     "letter": "A-",
+     "count": 120
+    },
+    {
+     "letter": "B+",
+     "count": 60
+    },
+    {
+     "letter": "B",
+     "count": 52
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 4,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.65,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.29,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.1,
+    "shouldTake": 3.5
+   },
+   {
+    "professor": "Joseph Coppola",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.67,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Mark Sandberg",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.66,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Caleb Murray-Bozeman",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.68,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Harry Burson",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20155"
+  ]
+ },
+ "FILM 160": {
+  "course": "FILM 160",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.50)",
+     "value": 2.4,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.50), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.5,
+   "letter": "B+",
+   "students": 46,
+   "pctA": 61,
+   "pctBelowB": 6,
+   "pctPassNoPass": 28,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 7
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20160"
+  ]
+ },
+ "FILM 170": {
+  "course": "FILM 170",
+  "difficulty": 2.4,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.329
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3.5,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 2.5/5 for workload and 3.5/5 for usefulness. The average grade is A- (3.65), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 773,
+   "pctA": 76,
+   "pctBelowB": 5,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 29
+    },
+    {
+     "letter": "A",
+     "count": 368
+    },
+    {
+     "letter": "A-",
+     "count": 142
+    },
+    {
+     "letter": "B+",
+     "count": 74
+    },
+    {
+     "letter": "B",
+     "count": 41
+    },
+    {
+     "letter": "B-",
+     "count": 21
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 58
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 2.5,
+   "usefulness": 3.5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Coppola",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.81,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Rizvana Bradley",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Luis Madrigal",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.58,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Nicholas Baer",
+    "terms": 2,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.74,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Mark Goble",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.4,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Dolores McElroy",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Jaimie Baron",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.22,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20170"
+  ]
+ },
+ "FILM 170AC": {
+  "course": "FILM 170AC",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.123
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 92% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 27,
+   "pctA": 92,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Emily West",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.89,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20170AC"
+  ]
+ },
+ "FILM 171": {
+  "course": "FILM 171",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.309
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.48), with 68% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 381,
+   "pctA": 68,
+   "pctBelowB": 9,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 39
+    },
+    {
+     "letter": "A",
+     "count": 132
+    },
+    {
+     "letter": "A-",
+     "count": 69
+    },
+    {
+     "letter": "B+",
+     "count": 36
+    },
+    {
+     "letter": "B",
+     "count": 33
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Daniel O'Neill",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.23,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Joseph Coppola",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Kristen Whissel",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Katerina Korola",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.63,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Miles Taylor",
+    "terms": 1,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Jaimie Baron",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.97,
+    "difficulty": 3.4
+   },
+   {
+    "professor": "Booth Wilson",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.23,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20171"
+  ]
+ },
+ "FILM 172": {
+  "course": "FILM 172",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.276
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.55), with 70% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 186,
+   "pctA": 70,
+   "pctBelowB": 8,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 74
+    },
+    {
+     "letter": "A-",
+     "count": 38
+    },
+    {
+     "letter": "B+",
+     "count": 20
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 11
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Hubbell",
+    "terms": 1,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Aner Preminger",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.32,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Linda Rugg",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.39,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Dolores McElroy",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.47,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Emily West",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.86,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Miryam Sas",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.7,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20172"
+  ]
+ },
+ "FILM 176": {
+  "course": "FILM 176",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.243
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 114,
+   "pctA": 85,
+   "pctBelowB": 5,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 77
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Kopell",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20176"
+  ]
+ },
+ "FILM 177": {
+  "course": "FILM 177",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.291
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.56), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 247,
+   "pctA": 69,
+   "pctBelowB": 7,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 42
+    },
+    {
+     "letter": "A",
+     "count": 56
+    },
+    {
+     "letter": "A-",
+     "count": 56
+    },
+    {
+     "letter": "B+",
+     "count": 38
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 19
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Stuart Pollok",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.66,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20177"
+  ]
+ },
+ "FILM 178": {
+  "course": "FILM 178",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.247
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.36), with 65% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 120,
+   "pctA": 65,
+   "pctBelowB": 12,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Brett Fallentine",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.28,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20178"
+  ]
+ },
+ "FILM 180": {
+  "course": "FILM 180",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.229
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.90), with 92% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 95,
+   "pctA": 92,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 77
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Kopell",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Juan Pereda Rodriguez",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.95,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20180"
+  ]
+ },
+ "FILM 181": {
+  "course": "FILM 181",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 30,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Kopell",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.91,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20181"
+  ]
+ },
+ "FILM 182": {
+  "course": "FILM 182",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.83)",
+     "value": 1.4,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.83), with 90% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.83,
+   "letter": "A-",
+   "students": 41,
+   "pctA": 90,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Kopell",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.82,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20182"
+  ]
+ },
+ "FILM 183": {
+  "course": "FILM 183",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.198
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 65,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jeremy Mores McWreath",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.93,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Juan Pereda Rodriguez",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   },
+   {
+    "professor": "Lazaro Gonzalez Gonzalez",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.89,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Mark Sandberg",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.89,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20183"
+  ]
+ },
+ "FILM 184": {
+  "course": "FILM 184",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.11
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.43), with 67% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 23,
+   "pctA": 67,
+   "pctBelowB": 19,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aner Preminger",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.11,
+    "difficulty": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20184"
+  ]
+ },
+ "FILM 185": {
+  "course": "FILM 185",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.225
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 89% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 90,
+   "pctA": 89,
+   "pctBelowB": 0,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Kopell",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.88,
+    "difficulty": 1.7
+   },
+   {
+    "professor": "Tijana Petrovic",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.84,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Juan Pereda Rodriguez",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.93,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20185"
+  ]
+ },
+ "FILM 186": {
+  "course": "FILM 186",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.189
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 93% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 59,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 40
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "J Kopell",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Tijana Petrovic",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.89,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Juan Pereda Rodriguez",
+    "terms": 2,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20186"
+  ]
+ },
+ "FILM 187": {
+  "course": "FILM 187",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 34,
+   "pctA": 91,
+   "pctBelowB": 3,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 27
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.98,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Juan Pereda Rodriguez",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Tijana Petrovic",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   },
+   {
+    "professor": "Ernst Karel",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.67,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20187"
+  ]
+ },
+ "FILM 188": {
+  "course": "FILM 188",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.134
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.89), with 90% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 31,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 26
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tijana Petrovic",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.9,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Jeffrey Skoller",
+    "terms": 1,
+    "lastTaught": "2022 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20188"
+  ]
+ },
+ "FILM 190": {
+  "course": "FILM 190",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.59)",
+     "value": 2.2,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.59), with 79% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.59,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 79,
+   "pctBelowB": 6,
+   "pctPassNoPass": 13,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Anne Nesbet",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Katerina Korola",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Rizvana Bradley",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.82,
+    "difficulty": 2.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20190"
+  ]
+ },
+ "FILM 193": {
+  "course": "FILM 193",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.153
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 82% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 39,
+   "pctA": 82,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 17
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Luis Madrigal",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.82,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Alex Creighton",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.76,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20193"
+  ]
+ },
+ "FILM 194": {
+  "course": "FILM 194",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.142
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.43), with 58% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 34,
+   "pctA": 58,
+   "pctBelowB": 6,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Dolores McElroy",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20194"
+  ]
+ },
+ "FILM 197B": {
+  "course": "FILM 197B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Matthew Hubbell",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Miryam Sas",
+    "terms": 2,
+    "lastTaught": "2026 Summer"
+   },
+   {
+    "professor": "Jeffrey Skoller",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Hannah Michell",
+    "terms": 4,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Juan Pereda Rodriguez",
+    "terms": 3,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 2,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 4,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20197B"
+  ]
+ },
+ "FILM 197C": {
+  "course": "FILM 197C",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Jeffrey Skoller",
+    "terms": 5,
+    "lastTaught": "2026 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20197C"
+  ]
+ },
+ "FILM 198": {
+  "course": "FILM 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Michael Brand",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Isabelle Cherry",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Ella Herbert",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Melina Tisopulos",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Anne Nesbet",
+    "terms": 2,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Jeffrey Skoller",
+    "terms": 1,
+    "lastTaught": "2023 Spring"
+   },
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 1,
+    "lastTaught": "2022 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20198"
+  ]
+ },
+ "FILM 199": {
+  "course": "FILM 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Anne Nesbet",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristen Whissel",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Miryam Sas",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Iggy Cortez",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20199"
+  ]
+ },
+ "FILM 20": {
+  "course": "FILM 20",
+  "difficulty": 2.7,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.322
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.2,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.8,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.2
+    },
+    {
+     "label": "Tone of written student reviews (28 on file)",
+     "value": 1.8,
+     "weight": 0.131
+    }
+   ]
+  },
+  "sentiment": "Reviewers describe a very demanding lower-division theory course with heavy dense reading and grades based on two papers and two exams. Exams are memorization-heavy and grading feedback is slow. Many strongly advise against it, though a few say it is manageable with thorough notes.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 581,
+   "pctA": 57,
+   "pctBelowB": 12,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 148
+    },
+    {
+     "letter": "A-",
+     "count": 128
+    },
+    {
+     "letter": "B+",
+     "count": 81
+    },
+    {
+     "letter": "B",
+     "count": 47
+    },
+    {
+     "letter": "B-",
+     "count": 45
+    },
+    {
+     "letter": "C+",
+     "count": 23
+    },
+    {
+     "letter": "C",
+     "count": 13
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 30
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.4,
+   "workload": 2.2,
+   "usefulness": 2.6,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Coppola",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.62,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.25,
+    "studentCount": 4,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 2,
+    "difficulty": 2.8,
+    "shouldTake": 2.6
+   },
+   {
+    "professor": "Isadora Bratton-Benfield",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.39,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Osarugue Otebele",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.52,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Miles Taylor",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.04,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Emily West",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.96,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Mark Sandberg",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.48,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2020"
+  ]
+ },
+ "FILM 25": {
+  "course": "FILM 25",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 91% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 11,
+   "pctA": 91,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2025"
+  ]
+ },
+ "FILM 25A": {
+  "course": "FILM 25A",
+  "difficulty": 3.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.19)",
+     "value": 3.4,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.19), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.19,
+   "letter": "B+",
+   "students": 46,
+   "pctA": 50,
+   "pctBelowB": 19,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 16
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 4
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2025A"
+  ]
+ },
+ "FILM 25B": {
+  "course": "FILM 25B",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.21
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 95% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 75,
+   "pctA": 95,
+   "pctBelowB": 0,
+   "pctPassNoPass": 45,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 22
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 33
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2025B"
+  ]
+ },
+ "FILM 30": {
+  "course": "FILM 30",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.296
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.084
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.7/5 for difficulty, 2.0/5 for workload and 4.3/5 for usefulness. The average grade is B+ (3.43), with 62% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 272,
+   "pctA": 62,
+   "pctBelowB": 11,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 39
+    },
+    {
+     "letter": "A",
+     "count": 74
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 13
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 9
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.7,
+   "workload": 2,
+   "usefulness": 4.3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Luis Madrigal",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.55,
+    "difficulty": 2.7
+   },
+   {
+    "professor": "Rizvana Bradley",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.42,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Matthew Hubbell",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.9,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Lazaro Gonzalez Gonzalez",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.9,
+    "difficulty": 2.4
+   },
+   {
+    "professor": "Jaimie Baron",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.08,
+    "studentCount": 2,
+    "studentDifficulty": 3.5,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Dolores McElroy",
+    "terms": 4,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.31,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 5,
+    "difficulty": 3.0,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2030"
+  ]
+ },
+ "FILM 35": {
+  "course": "FILM 35",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.268
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 50% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 163,
+   "pctA": 50,
+   "pctBelowB": 14,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 33
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.01,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Dolores McElroy",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.74,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2035"
+  ]
+ },
+ "FILM 45": {
+  "course": "FILM 45",
+  "difficulty": 2.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.63)",
+     "value": 2.0,
+     "weight": 0.285
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.63), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.63,
+   "letter": "A-",
+   "students": 218,
+   "pctA": 81,
+   "pctBelowB": 6,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 101
+    },
+    {
+     "letter": "A-",
+     "count": 45
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Coppola",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.81,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 1.9,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Emily West",
+    "terms": 4,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.36,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2045"
+  ]
+ },
+ "FILM 98": {
+  "course": "FILM 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Michael Brand",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Isabelle Cherry",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Ella Herbert",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Melina Tisopulos",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Anne Nesbet",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%2098"
+  ]
+ },
+ "FILM H195": {
+  "course": "FILM H195",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Anne Nesbet",
+    "terms": 8,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Miryam Sas",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Jacob Gaboury",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rizvana Bradley",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kristen Whissel",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Weihong Bao",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Damon Young",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Nicole Starosielski",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20H195"
+  ]
+ },
+ "FILM R1A": {
+  "course": "FILM R1A",
+  "difficulty": 2.2,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.3
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.086
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.3/5 for difficulty, 2.7/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.75), with 83% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 303,
+   "pctA": 83,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 19
+    },
+    {
+     "letter": "A",
+     "count": 173
+    },
+    {
+     "letter": "A-",
+     "count": 55
+    },
+    {
+     "letter": "B+",
+     "count": 26
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2.3,
+   "workload": 2.7,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Weihong Bao",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.79,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Annie Felix",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Miles Taylor",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Victor Omojola",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Isaac Preiss",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.83,
+    "difficulty": 1.8
+   },
+   {
+    "professor": "Leeroy Kang",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.97,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Thomas DePaoli",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.47,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Patrick Harrison",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.75,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20R1A"
+  ]
+ },
+ "FILM R1B": {
+  "course": "FILM R1B",
+  "difficulty": 2.3,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (11 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.241
+    },
+    {
+     "label": "Average grade A- (3.65)",
+     "value": 2.0,
+     "weight": 0.314
+    },
+    {
+     "label": "Student workload rating (11)",
+     "value": 2.3,
+     "weight": 0.103
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.09
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.034
+    },
+    {
+     "label": "Student usefulness rating (11 on Berkeleytime)",
+     "value": 3.4,
+     "weight": 0.275
+    }
+   ]
+  },
+  "sentiment": "11 students on Berkeleytime rate it 2.5/5 for difficulty, 2.3/5 for workload and 3.4/5 for usefulness. The average grade is A- (3.65), with 79% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.65,
+   "letter": "A-",
+   "students": 434,
+   "pctA": 79,
+   "pctBelowB": 4,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 34
+    },
+    {
+     "letter": "A",
+     "count": 207
+    },
+    {
+     "letter": "A-",
+     "count": 85
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 20
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 11,
+   "difficulty": 2.5,
+   "workload": 2.3,
+   "usefulness": 3.4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 88
+  },
+  "byProfessor": [
+   {
+    "professor": "Weihong Bao",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.71,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Mathew Beauchemin",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.72,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Thomas DePaoli",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Lucas Fink",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Justine Cheng",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.65,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Ziwei Chen",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Jazlyn Andrews",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Isadora Bratton-Benfield",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=FILM%20R1B"
+  ]
+ }
+}

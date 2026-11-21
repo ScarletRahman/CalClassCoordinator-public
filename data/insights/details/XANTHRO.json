@@ -1,0 +1,147 @@
+{
+ "XANTHRO 1": {
+  "course": "XANTHRO 1",
+  "difficulty": 3.1,
+  "shouldTake": 2.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.299
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.085
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.15
+    },
+    {
+     "label": "Tone of written student reviews (18 on file)",
+     "value": 3.8,
+     "weight": 0.123
+    }
+   ]
+  },
+  "sentiment": "Students say grades come only from two midterms and a final, which are content-heavy and detail-oriented, with no homework. Lectures are funny and full of tangents, and review sessions, extra credit and fossil labs are praised. Opinions on difficulty range from an easy A to very hard.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 291,
+   "pctA": 55,
+   "pctBelowB": 11,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 63
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 52
+    },
+    {
+     "letter": "B",
+     "count": 15
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 47
+    },
+    {
+     "letter": "NP",
+     "count": 17
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3.3,
+   "usefulness": 1,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gary Richards",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.15,
+    "studentCount": 3,
+    "studentDifficulty": 3.3,
+    "studentUsefulness": 1,
+    "difficulty": 3.3,
+    "shouldTake": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XANTHRO%201"
+  ]
+ }
+}

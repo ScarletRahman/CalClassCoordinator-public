@@ -1,0 +1,644 @@
+{
+ "details": {
+  "data": {
+   "class": {
+    "year": 2027,
+    "semester": "Spring",
+    "subject": "MATH",
+    "sessionId": "1",
+    "courseNumber": "53",
+    "courseId": "114702",
+    "number": "001",
+    "unitsMax": 4,
+    "unitsMin": 4,
+    "finalExam": "Y",
+    "decal": {
+     "title": null,
+     "__typename": "DeCal",
+     "syllabus": null,
+     "description": null,
+     "syllabusUrl": null,
+     "applicationUrl": null,
+     "applicationDueDate": null,
+     "instructors": []
+    },
+    "course": {
+     "title": "Multivariable Calculus",
+     "description": "Parametric equations and polar coordinates. Vectors in 2- and 3-dimensional Euclidean spaces. Partial derivatives. Multiple integrals. Vector calculus. Theorems of Green, Gauss, and Stokes. ",
+     "requirements": "Mathematics 52 (Previously offered as 1B or N1B).",
+     "aggregatedRatings": {
+      "metrics": [
+       {
+        "metricName": "Attendance",
+        "count": 134,
+        "weightedAverage": 0.029850746268656716,
+        "categories": [
+         {
+          "value": 0,
+          "count": 130,
+          "__typename": "Category"
+         },
+         {
+          "value": 1,
+          "count": 4,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       },
+       {
+        "metricName": "Recording",
+        "count": 130,
+        "weightedAverage": 0.33076923076923076,
+        "categories": [
+         {
+          "value": 1,
+          "count": 43,
+          "__typename": "Category"
+         },
+         {
+          "value": 0,
+          "count": 87,
+          "__typename": "Category"
+         }
+        ],
+        "__typename": "Metric"
+       }
+      ],
+      "__typename": "AggregatedRatings"
+     },
+     "gradeDistribution": {
+      "average": 2.9688879927412035,
+      "pnpPercentage": 0.8523131672597865,
+      "__typename": "GradeDistribution"
+     },
+     "__typename": "Course"
+    },
+    "primarySection": {
+     "sectionId": "21816",
+     "component": "LEC",
+     "sectionAttributes": [],
+     "exams": [],
+     "enrollment": {
+      "latest": {
+       "endTime": "2026-11-20T20:45:13.292Z",
+       "enrolledCount": 400,
+       "maxEnroll": 400,
+       "waitlistedCount": 46,
+       "maxWaitlist": 50,
+       "activeReservedMaxCount": 0,
+       "seatReservationCount": [],
+       "__typename": "EnrollmentSingular"
+      },
+      "__typename": "Enrollment"
+     },
+     "meetings": [
+      {
+       "days": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+       ],
+       "location": "Undergrad Academic Bldg 100",
+       "endTime": "15:29:00",
+       "startTime": "14:00:00",
+       "instructors": [
+        {
+         "familyName": "Canic",
+         "givenName": "Suncica",
+         "__typename": "Instructor"
+        }
+       ],
+       "__typename": "Meeting"
+      }
+     ],
+     "__typename": "Section"
+    },
+    "__typename": "Class"
+   }
+  }
+ },
+ "sections": {
+  "data": {
+   "class": {
+    "sections": [
+     {
+      "sectionId": "21818",
+      "number": "101",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Wheeler 200",
+        "endTime": "09:59:00",
+        "startTime": "09:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 4,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21819",
+      "number": "102",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Wheeler 220",
+        "endTime": "10:59:00",
+        "startTime": "10:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 4,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21820",
+      "number": "103",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Wheeler 200",
+        "endTime": "11:59:00",
+        "startTime": "11:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21821",
+      "number": "104",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Wheeler 20",
+        "endTime": "12:59:00",
+        "startTime": "12:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21822",
+      "number": "105",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Cory 289",
+        "endTime": "13:59:00",
+        "startTime": "13:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21823",
+      "number": "106",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Cory 241",
+        "endTime": "14:59:00",
+        "startTime": "14:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21824",
+      "number": "107",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Haviland 12",
+        "endTime": "11:59:00",
+        "startTime": "11:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "23198",
+      "number": "108",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Mulford 240",
+        "endTime": "15:59:00",
+        "startTime": "15:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21825",
+      "number": "109",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Genetics & Plant Bio 103",
+        "endTime": "16:59:00",
+        "startTime": "16:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 5,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21826",
+      "number": "110",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": "Dwinelle 223",
+        "endTime": "17:59:00",
+        "startTime": "17:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 40,
+        "maxEnroll": 40,
+        "waitlistedCount": 3,
+        "maxWaitlist": 5,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21827",
+      "number": "111",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": null,
+        "endTime": "15:59:00",
+        "startTime": "15:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21828",
+      "number": "113",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": null,
+        "endTime": "16:59:00",
+        "startTime": "16:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21829",
+      "number": "114",
+      "component": "DIS",
+      "meetings": [
+       {
+        "days": [
+         true,
+         false,
+         true,
+         false,
+         true,
+         false,
+         false
+        ],
+        "location": null,
+        "endTime": "16:59:00",
+        "startTime": "16:00:00",
+        "instructors": [],
+        "__typename": "Meeting"
+       }
+      ],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "23199",
+      "number": "115",
+      "component": "DIS",
+      "meetings": [],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21830",
+      "number": "116",
+      "component": "DIS",
+      "meetings": [],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21831",
+      "number": "117",
+      "component": "DIS",
+      "meetings": [],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     },
+     {
+      "sectionId": "21832",
+      "number": "118",
+      "component": "DIS",
+      "meetings": [],
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 0,
+        "maxEnroll": 0,
+        "waitlistedCount": 0,
+        "maxWaitlist": 0,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "__typename": "Section"
+     }
+    ],
+    "__typename": "Class"
+   }
+  }
+ }
+}

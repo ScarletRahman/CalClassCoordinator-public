@@ -1,0 +1,608 @@
+{
+ "id": "major-mathematics-ba",
+ "title": "Mathematics BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25540U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25540U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/25540U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25540U",
+ "choices": [
+  {
+   "id": "program",
+   "title": "Upper Division Program",
+   "pick": 1,
+   "options": [
+    {
+     "id": "mathematics-no-concentration",
+     "title": "Mathematics (no concentration)"
+    },
+    {
+     "id": "teaching-concentration",
+     "title": "Teaching Concentration"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "calculus-i",
+   "title": "Calculus I",
+   "section": "Lower Division",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus BC, score 3+\n- AP: Mathematics: Calculus AB, score 3+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\n- IB: HL Further Mathematics, score 6+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "calculus-ii",
+   "title": "Calculus II",
+   "section": "Lower Division",
+   "notes": "Also satisfied by:\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7\n- IB: HL Further Mathematics, score 7\n- AP: Mathematics: Calculus BC, score 5",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "multivariable-calculus",
+   "title": "Multivariable Calculus",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH N53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linear-algebra-and-differential-equations",
+   "title": "Linear Algebra and Differential Equations",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH N54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "MATH H54"
+     },
+     {
+      "type": "course",
+      "course": "MATH 56"
+     }
+    ]
+   }
+  },
+  {
+   "id": "discrete-math",
+   "title": "Discrete Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "MATH N55"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-no-concentration-core",
+   "title": "Core",
+   "section": "Mathematics (no concentration)",
+   "choice": "program",
+   "option": "mathematics-no-concentration",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 104"
+       },
+       {
+        "type": "course",
+        "course": "MATH H104"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 110"
+       },
+       {
+        "type": "course",
+        "course": "MATH H110"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 113"
+       },
+       {
+        "type": "course",
+        "course": "MATH H113"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 185"
+       },
+       {
+        "type": "course",
+        "course": "MATH H185"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-no-concentration-semi-electives",
+   "title": "Semi-Electives",
+   "section": "Mathematics (no concentration)",
+   "choice": "program",
+   "option": "mathematics-no-concentration",
+   "notes": "Students must take one course from two of the following categories:\n- Computing\n- Geometry\n- Logic & Foundations",
+   "rule": {
+    "type": "nOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 124"
+       },
+       {
+        "type": "course",
+        "course": "MATH 128A"
+       },
+       {
+        "type": "course",
+        "course": "MATH W128A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 156"
+       }
+      ],
+      "label": "Computing"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 130"
+       },
+       {
+        "type": "course",
+        "course": "MATH 140"
+       },
+       {
+        "type": "course",
+        "course": "MATH 141"
+       },
+       {
+        "type": "course",
+        "course": "MATH 142"
+       },
+       {
+        "type": "course",
+        "course": "MATH 143"
+       }
+      ],
+      "label": "Geometry"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 125A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 135"
+       },
+       {
+        "type": "course",
+        "course": "MATH 136"
+       }
+      ],
+      "label": "Logic & Foundations"
+     }
+    ],
+    "n": 2
+   }
+  },
+  {
+   "id": "mathematics-no-concentration-electives",
+   "title": "Electives",
+   "section": "Mathematics (no concentration)",
+   "choice": "program",
+   "option": "mathematics-no-concentration",
+   "notes": "Each course must be at least 3 units.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "STAT 134",
+      "MATH 100",
+      "MATH 104",
+      "MATH 105",
+      "MATH 106",
+      "MATH 110",
+      "MATH 113",
+      "MATH 114",
+      "MATH 115",
+      "MATH 116",
+      "MATH 118",
+      "MATH 121A",
+      "MATH 121B",
+      "MATH 123",
+      "MATH 124",
+      "MATH 125A",
+      "MATH 125B",
+      "MATH 126",
+      "MATH 127",
+      "MATH 128A",
+      "MATH 128B",
+      "MATH 130",
+      "MATH 135",
+      "MATH 136",
+      "MATH 140",
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 151",
+      "MATH 152",
+      "MATH 153",
+      "MATH 156",
+      "MATH 160",
+      "MATH 170",
+      "MATH 172",
+      "MATH 185",
+      "MATH 189",
+      "MATH 191",
+      "MATH 195",
+      "MATH 196",
+      "MATH C103",
+      "MATH H104",
+      "MATH H110",
+      "MATH H113",
+      "MATH H185",
+      "MATH W128A",
+      "MATH 202A",
+      "MATH 202B",
+      "MATH 204",
+      "MATH 205",
+      "MATH 206",
+      "MATH 207",
+      "MATH 208",
+      "MATH 209",
+      "MATH 210",
+      "MATH 211",
+      "MATH 212",
+      "MATH 214",
+      "MATH 215A",
+      "MATH 215B",
+      "MATH 219",
+      "MATH 220",
+      "MATH 221",
+      "MATH 222A",
+      "MATH 222B",
+      "MATH 224A",
+      "MATH 224B",
+      "MATH 225A",
+      "MATH 225B",
+      "MATH 226A",
+      "MATH 226B",
+      "MATH 227A",
+      "MATH 227B",
+      "MATH 228A",
+      "MATH 228B",
+      "MATH 229",
+      "MATH 235A",
+      "MATH 235B",
+      "MATH 236",
+      "MATH 239",
+      "MATH 240",
+      "MATH 241",
+      "MATH 242",
+      "MATH 245A",
+      "MATH 245B",
+      "MATH 249",
+      "MATH 250A",
+      "MATH 250B",
+      "MATH 251",
+      "MATH 252",
+      "MATH 253",
+      "MATH 254A",
+      "MATH 254B",
+      "MATH 255",
+      "MATH 255A",
+      "MATH 255B",
+      "MATH 256A",
+      "MATH 256B",
+      "MATH 257",
+      "MATH 258",
+      "MATH 259",
+      "MATH 260",
+      "MATH 261A",
+      "MATH 261B",
+      "MATH 270",
+      "MATH 271",
+      "MATH 272",
+      "MATH 273",
+      "MATH 273A",
+      "MATH 273B",
+      "MATH 273C",
+      "MATH 273D",
+      "MATH 273E",
+      "MATH 273G",
+      "MATH 273H",
+      "MATH 273J",
+      "MATH 273K",
+      "MATH 274",
+      "MATH 275",
+      "MATH 276",
+      "MATH 277",
+      "MATH 278",
+      "MATH 279",
+      "MATH 280A",
+      "MATH 280B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "teaching-concentration-core",
+   "title": "Core",
+   "section": "Teaching Concentration",
+   "choice": "program",
+   "option": "teaching-concentration",
+   "notes": "The Mathematics BA Teaching Concentration includes the Lower Division Requirements listed above.\nThe Core and Elective Requirements for the Teaching Concentration are listed below.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 104"
+     },
+     {
+      "type": "course",
+      "course": "MATH 110"
+     },
+     {
+      "type": "course",
+      "course": "MATH 113"
+     },
+     {
+      "type": "course",
+      "course": "MATH 151"
+     },
+     {
+      "type": "course",
+      "course": "MATH 152"
+     },
+     {
+      "type": "course",
+      "course": "MATH 160"
+     }
+    ]
+   }
+  },
+  {
+   "id": "teaching-concentration-electives",
+   "title": "Electives",
+   "section": "Teaching Concentration",
+   "choice": "program",
+   "option": "teaching-concentration",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH C103"
+       },
+       {
+        "type": "course",
+        "course": "ECON C103"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 105"
+     },
+     {
+      "type": "course",
+      "course": "MATH 114"
+     },
+     {
+      "type": "course",
+      "course": "MATH 115"
+     },
+     {
+      "type": "course",
+      "course": "MATH 116"
+     },
+     {
+      "type": "course",
+      "course": "MATH 118"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 123"
+     },
+     {
+      "type": "course",
+      "course": "MATH 124"
+     },
+     {
+      "type": "course",
+      "course": "MATH 125A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 126"
+     },
+     {
+      "type": "course",
+      "course": "MATH 127"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 128B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 130"
+     },
+     {
+      "type": "course",
+      "course": "MATH 135"
+     },
+     {
+      "type": "course",
+      "course": "MATH 136"
+     },
+     {
+      "type": "course",
+      "course": "MATH 140"
+     },
+     {
+      "type": "course",
+      "course": "MATH 141"
+     },
+     {
+      "type": "course",
+      "course": "MATH 142"
+     },
+     {
+      "type": "course",
+      "course": "MATH 143"
+     },
+     {
+      "type": "course",
+      "course": "MATH 170"
+     },
+     {
+      "type": "course",
+      "course": "MATH 172"
+     },
+     {
+      "type": "course",
+      "course": "MATH 185"
+     },
+     {
+      "type": "course",
+      "course": "MATH 189"
+     }
+    ]
+   }
+  }
+ ]
+}

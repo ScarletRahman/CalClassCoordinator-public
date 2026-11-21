@@ -1,0 +1,214 @@
+{
+ "id": "major-art-ba",
+ "title": "Art BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25090U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25090U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25090U",
+ "requirements": [
+  {
+   "id": "introduction-to-visual-thinking",
+   "title": "Introduction to Visual Thinking",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ART 8"
+     },
+     {
+      "type": "course",
+      "course": "ART 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "studio-elective",
+   "title": "Studio Elective",
+   "section": "Lower Division",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ART 12"
+     },
+     {
+      "type": "course",
+      "course": "ART 13"
+     },
+     {
+      "type": "course",
+      "course": "ART 14"
+     },
+     {
+      "type": "course",
+      "course": "ART 15"
+     },
+     {
+      "type": "course",
+      "course": "ART 16"
+     },
+     {
+      "type": "course",
+      "course": "ART 17"
+     },
+     {
+      "type": "course",
+      "course": "ART 21"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ART 23AC"
+       },
+       {
+        "type": "course",
+        "course": "ART W23AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ART 25"
+     },
+     {
+      "type": "course",
+      "course": "ART 26"
+     },
+     {
+      "type": "course",
+      "course": "ART 30"
+     }
+    ]
+   }
+  },
+  {
+   "id": "art-history-elective",
+   "title": "Art History Elective",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 of:\n- Any 3+ unit HISTART 1-96 level course\n- Any 3+ unit XHISTART 1-96 level course"
+   }
+  },
+  {
+   "id": "contemporary-art",
+   "title": "Contemporary Art",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "ART 119"
+   }
+  },
+  {
+   "id": "art-history-elective-2",
+   "title": "Art History Elective",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 1 of:\n- Any 3+ unit HISTART 100-196 level course\n- Any 3+ unit XHISTART 100-196 level course",
+    "mentionedCourses": [
+     "HISTART 100"
+    ]
+   }
+  },
+  {
+   "id": "senior-project",
+   "title": "Senior Project",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "ART 185"
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "A maximum of 2 elective courses from outside the Art Department can be used toward fulfilling this requirement.\n- Any 4+ unit ART 100-196 level course\n- Any 4+ unit XART 100-196 level course\nThe following ART course numbers are excluded:\n- 119\n- 185",
+   "rule": {
+    "type": "filter",
+    "count": 5,
+    "filter": {
+     "courses": [
+      "FILM 180",
+      "FILM 185",
+      "FILM 186",
+      "NWMEDIA 190",
+      "NWMEDIA 201",
+      "THEATER 173",
+      "VISSTD 186B",
+      "THEATER 173A",
+      "THEATER 173B",
+      "THEATER 174",
+      "THEATER 174A",
+      "THEATER 174B",
+      "THEATER 175A",
+      "THEATER 175B",
+      "VISSTD 185X",
+      "ART 100",
+      "ART 102",
+      "ART 103",
+      "ART 105",
+      "ART 116",
+      "ART 117",
+      "ART 118",
+      "ART 119",
+      "ART 120",
+      "ART 122",
+      "ART 123",
+      "ART 124",
+      "ART 125",
+      "ART 130",
+      "ART 132",
+      "ART 133",
+      "ART 136",
+      "ART 137",
+      "ART 138",
+      "ART 139",
+      "ART 141",
+      "ART 142",
+      "ART 145",
+      "ART 160",
+      "ART 162",
+      "ART 163",
+      "ART 164",
+      "ART 165",
+      "ART 166",
+      "ART 171",
+      "ART 172",
+      "ART 173",
+      "ART 174",
+      "ART 178",
+      "ART 180",
+      "ART 182",
+      "ART 184",
+      "ART 185",
+      "ART 196",
+      "ART C100",
+      "ART C166",
+      "ART C171",
+      "ART C178",
+      "ART C179",
+      "ART H195A",
+      "ART H195B",
+      "ART N117",
+      "ART N160",
+      "ART N163",
+      "ART N171"
+     ]
+    }
+   }
+  }
+ ]
+}

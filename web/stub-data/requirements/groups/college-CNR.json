@@ -1,0 +1,156 @@
+{
+  "id": "college-CNR",
+  "title": "Rausser College of Natural Resources requirements",
+  "kind": "college",
+  "source": "https://guide.berkeley.edu/undergraduate/colleges-schools/natural-resources/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "reading-composition-a",
+      "title": "Reading & Composition A",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCA"
+        },
+        "count": 1
+      },
+      "notes": "First half of R&C (an R1A or R4A course), or an AP/IB exam score. Complete by the end of your first year."
+    },
+    {
+      "id": "reading-composition-b",
+      "title": "Reading & Composition B",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCB"
+        },
+        "count": 1
+      },
+      "notes": "Second half of R&C (an R1B or R4B course). Complete by the end of your second year."
+    },
+    {
+      "id": "quantitative-reasoning",
+      "title": "Quantitative Reasoning",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "manual",
+            "text": "Satisfied by exam (SAT Math 620+, ACT Math 28+, AP Calculus AB/BC 3+, AP Statistics 3+, or IB Math)"
+          },
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "QR"
+            },
+            "count": 1
+          }
+        ]
+      },
+      "notes": "Exam scores or one approved course in math, statistics, computer science, or logic, with a C- or better."
+    },
+    {
+      "id": "foreign-language",
+      "title": "Foreign Language",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "manual",
+            "text": "Satisfied in high school (three years of one language with C- or better) or by AP/SAT II exam"
+          },
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "FL"
+            },
+            "count": 1
+          }
+        ]
+      },
+      "notes": "Required for some CNR majors (e.g. Society & Environment, Environmental Economics & Policy). Check your major."
+    },
+    {
+      "id": "breadth-arts-literature",
+      "title": "Breadth: Arts & Literature",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Arts & Literature"
+        },
+        "count": 1
+      },
+      "notes": "One course in each of five humanities/social-science areas; biological and physical science are covered by major requirements."
+    },
+    {
+      "id": "breadth-historical-studies",
+      "title": "Breadth: Historical Studies",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Historical Studies"
+        },
+        "count": 1
+      },
+      "notes": "One course in each of five humanities/social-science areas; biological and physical science are covered by major requirements."
+    },
+    {
+      "id": "breadth-international-studies",
+      "title": "Breadth: International Studies",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "International Studies"
+        },
+        "count": 1
+      },
+      "notes": "One course in each of five humanities/social-science areas; biological and physical science are covered by major requirements."
+    },
+    {
+      "id": "breadth-philosophy-values",
+      "title": "Breadth: Philosophy & Values",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Philosophy & Values"
+        },
+        "count": 1
+      },
+      "notes": "One course in each of five humanities/social-science areas; biological and physical science are covered by major requirements."
+    },
+    {
+      "id": "breadth-social-behavioral-sciences",
+      "title": "Breadth: Social & Behavioral Sciences",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "breadth": "Social & Behavioral Sciences"
+        },
+        "count": 1
+      },
+      "notes": "One course in each of five humanities/social-science areas; biological and physical science are covered by major requirements."
+    },
+    {
+      "id": "upper-division-units",
+      "title": "36 upper-division units",
+      "rule": {
+        "type": "units",
+        "minUnits": 36,
+        "filter": {
+          "attribute": "UD"
+        }
+      },
+      "notes": "Courses numbered 100-199. Up to 6 units of 300-level courses may count in some colleges."
+    },
+    {
+      "id": "senior-residence",
+      "title": "Senior residence",
+      "rule": {
+        "type": "manual",
+        "text": "Senior residence: after reaching 90 units, complete at least 24 of your remaining units over two semesters in residence in your college"
+      },
+      "notes": "Exceptions for UCEAP, UCDC, and other approved programs."
+    }
+  ]
+}

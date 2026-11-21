@@ -1,0 +1,293 @@
+{
+  "id": "major-data-science-ba",
+  "title": "Data Science BA",
+  "kind": "major",
+  "source": "https://cdss.berkeley.edu/dsus/academics/data-science-major",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "foundations",
+      "title": "Foundations of Data Science",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "DATA C8"
+          },
+          {
+            "type": "course",
+            "course": "STAT 20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 10B and 16B are not accepted."
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 54"
+          },
+          {
+            "type": "course",
+            "course": "MATH 56"
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "EECS 16A"
+              },
+              {
+                "type": "course",
+                "course": "EECS 16B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "ELENG 66"
+              },
+              {
+                "type": "course",
+                "course": "ELENG 64"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 89"
+          }
+        ]
+      }
+    },
+    {
+      "id": "program-structures",
+      "title": "Program structures",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          },
+          {
+            "type": "course",
+            "course": "DATA C88C"
+          },
+          {
+            "type": "course",
+            "course": "ENGIN 7"
+          }
+        ]
+      },
+      "notes": "ENGIN 7 may not be combined with STAT 20."
+    },
+    {
+      "id": "data-structures",
+      "title": "Data structures",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61B"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61BL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "domain-emphasis-lower",
+      "title": "Domain emphasis (lower division)",
+      "rule": {
+        "type": "manual",
+        "text": "One lower-division course from your chosen domain emphasis"
+      }
+    },
+    {
+      "id": "data-100",
+      "title": "Principles & Techniques of Data Science",
+      "rule": {
+        "type": "course",
+        "course": "DATA C100"
+      }
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "DATA C140",
+            "EECS 126",
+            "INDENG 172",
+            "MATH 106",
+            "STAT 134"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "modeling",
+      "title": "Modeling, Learning & Decision-Making",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "COMPSCI 182",
+            "COMPSCI 189",
+            "DATA C102",
+            "INDENG 142A",
+            "STAT 154",
+            "DATA 188"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "human-contexts-ethics",
+      "title": "Human Contexts & Ethics",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "ANTHRO 168",
+            "CYPLAN 101",
+            "DATA C104",
+            "ESPM C167",
+            "INFO 101",
+            "INFO 188",
+            "NWMEDIA 151AC",
+            "PHILOS 121"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "computational-inferential-depth",
+      "title": "Computational & Inferential Depth",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "COMPSCI 188",
+            "DATA 101",
+            "DATA 145",
+            "ECON 140",
+            "ECON 141",
+            "INDENG 165",
+            "PHYSICS 188",
+            "STAT 135",
+            "STAT 153",
+            "STAT 158",
+            "DATA 144",
+            "INDENG 173",
+            "STAT 150",
+            "STAT 165",
+            "ASTRON 128",
+            "CHEM C142",
+            "CHEM C191",
+            "COMPSCI 161",
+            "COMPSCI 162",
+            "COMPSCI 164",
+            "COMPSCI 168",
+            "COMPSCI 169A",
+            "COMPSCI 170",
+            "COMPSCI 186",
+            "EECS 127",
+            "EECS 183",
+            "ELENG 120",
+            "ELENG 122",
+            "ELENG 123",
+            "ENVECON C118",
+            "ESPM 174",
+            "INDENG 142B",
+            "INFO 159",
+            "MATH 156",
+            "STAT 151A",
+            "STAT 152",
+            "STAT 159",
+            "INDENG 115",
+            "INDENG 135",
+            "INDENG 160",
+            "INDENG 162",
+            "INDENG 166",
+            "INDENG 174",
+            "UGBA 142"
+          ]
+        },
+        "count": 2,
+        "minUnits": 7
+      },
+      "notes": "At least 2 courses totaling 7+ units. Only one of INDENG 173, STAT 150, or EECS 126 may count."
+    },
+    {
+      "id": "domain-emphasis",
+      "title": "Domain emphasis (3 upper-division courses)",
+      "rule": {
+        "type": "manual",
+        "text": "Three upper-division courses from one approved domain emphasis"
+      },
+      "notes": "Major total: at least 8 upper-division courses and 28 units."
+    }
+  ]
+}

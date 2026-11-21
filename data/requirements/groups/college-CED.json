@@ -1,0 +1,153 @@
+{
+ "id": "college-CED",
+ "title": "College of Environmental Design requirements",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/colleges/environmental-design"
+ ],
+ "catalogYear": "2026-27",
+ "college": "CED",
+ "requirements": [
+  {
+   "id": "reading-and-composition",
+   "title": "Reading and Composition",
+   "notes": "Guidelines for Reading and Composition Courses\nIn order to provide a solid foundation in reading, writing, and critical thinking for work in the major, the College requires two semesters of lower division work in composition—Reading and Composition (R&C), Parts A and B, in sequential order.\n- All undergraduates should complete the Reading and Composition (R&C) requirement by the end of their fourth semester.\n- All courses used to satisfy Part A or B of Reading and Composition must be completed with a letter grade of C- or better.\n- Students who have been admitted to Berkeley and have not completed Entry Level Writing must enroll in College Writing R1A (6 units), which satisfies both Entry Level Writing and the first half of R&C. Please note: A minimum grade of C is required in COLWRIT R1A in order to satisfy the Entry Level Writing Requirement.\n- AGRS R44 (completed with a C- or higher) may be used to satisfy either Part A or Part B of R&C. This course may also be used to satisfy Arts and Literature, Historical Studies, or Social & Behavioral Sciences breadth.\n- With the exception of AGRS R44, courses fulfilling the Reading and Composition requirement may not be applied to Seven-Course Breadth.\nSatisfying Reading and Composition with an Exam\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 4 satisfies Part A\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 5 satisfies Parts A & B\n- Advanced Placement (AP) English Language and Composition - Score of 4 or 5 satisfies Part A\n- International Baccalaureate (IB) Higher Level (HL) English A: Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- Beginning with students admitted in fall 2018 - International Baccalaureate (IB) Higher Level (HL) English A: Language and Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- GCE A-Level English Literature exam - Not accepted for this requirement\n* The IB Literature and Performance exam, as well as the Standard Level (SL) exams in English A: Literature and English A: Language and Literature are NOT eligible for satisfaction of Reading and Composition.\nSatisfying Reading and Composition with Berkeley Courses\n- Successful completion with a C- grade or better of two designated Reading and Composition courses in sequence order. Review all approved below.\nSatisfying Reading and Composition Requirement with Transfer Courses\n- Transfer courses must be taken on a letter-graded basis and be completed with a grade of C- or better.\n- Students admitted with full CalGETC/UC IGETC Certification from a California Community College (CCC) or UC Reciprocity to the colleges of Chemistry, Computing, Data Science & Society, Education, Environmental Design, Letters & Science, and Rausser Natural Resources, as well as the School of Education, have satisfied Reading and Composition. No additional coursework is required.\n- Students can complete an articulated (pre-approved) Reading and Composition course at a CCC. Pre-approved courses can be found on ASSIST.\n- Current pre-approved Reading and Composition courses from outside of the California Community College System are published on the Transfer Evaluation System website.\nIt is advisable to refer to individual college/school advising websites regarding use of transfer courses before enrolling elsewhere to complete degree requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ced-seven-course-breadth",
+   "title": "CED Seven Course Breadth",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and provides context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nThe requirement consists of seven distribution areas:\n- Arts and Literature\n- Biological Science\n- Historical Studies\n- International Studies\n- Philosophy and Values\n- Physical Science\n- Social and Behavioral Sciences\nFor descriptions of these distribution areas, as well as a more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nCED guidelines include the following:\n- Up to two CED courses or courses cross-listed with CED may be used to complete Seven-Course Breadth (students admitted to UCB Fall 2013 and later only).\n- Only lower division ENV DES courses (ENV DES 1, ENV DES 5) and lower division major requirements may simultaneously satisfy Seven-Course Breadth. A course used to satisfy either an upper division major requirement or the upper division CED outside of major department requirement may not also satisfy Seven Course Breadth. Upper division CED courses that are not satisfying another upper division requirement may satisfy Seven-Course Breadth.\n- No more than two courses from any one academic department may be used to satisfy breadth requirements.\n- A Seven-Course Breadth class that is also being used to complete another CED requirement must be completed with a letter grade of C- or better.\n- Only one of the remaining Seven-Course Breadth may be taken on a Passed/Not Passed basis.\n- The International Studies breadth requirement may be satisfied by participation in the UC Education Abroad Program or a recognized equivalent program.\n- CED students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards many of the above requirements. See the CED website section on High School Exam Credit for more information: ced.berkeley.edu/advising/forms-documents\nLower Division Major Requirements That May Be Used to Simultaneously Satisfy Seven Course Breadth Requirement\nARCHITECTURE MAJORS\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nPhysical Sciences\n|\n|\nPHYSICS 7A\n| Physics for Scientists and Engineers [4]\n|\n|\nPHYSICS 8A\n| Introductory Physics [4]\n|\n|\nLANDSCAPE ARCHITECTURE MAJORS\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nBiological Sciences\n|\n|\nApproved biological science courses (see major handbook) can also be used to satisfy biological science breadth requirements. Consult a CED advisor for more information.\n|\n|\nPhysical Sciences\n|\n|\nApproved physical science courses (see major handbook) can also be used to satisfy physical science breadth requirements. Consult a CED advisor for more information.\n|\n|\nSUSTAINABLE ENVIRONMENTAL DESIGN MAJORS\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nBiological Sciences\n|\n|\nLD ARCH 12\n| Environmental Science for Sustainable Development [4]\n|\n|\nPhysical Sciences\n|\n|\nPHYSICS 7A\n|\n|\nPHYSICS 8A\n|\n|\nSocial & Behavioral Sciences\n|\n|\nECON C3\n| Introduction to Environmental Economics and Policy [4]\n|\n|\nENVECON C1\n|\n|\n(ECON 1 or 2: permission needed from SED Advisor)\n|\n|\nURBAN STUDIES MAJORS\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\n|\n|\nECON 1\n| Introduction to Economics [4]\n|\n|\nECON 2\n| Introduction to Economics--Lecture Format [4]\n|\n|\nECON C3\n|\n|\nENVECON C1 … (see the catalog for the rest)",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "ced-environmental-design",
+   "title": "CED Environmental Design",
+   "notes": "Upper Division Environmental Design (Three Courses Required)\n- Three upper division CED courses from departments outside the major (minimum of 9 units).\n- Must be completed with a letter grade of C- or better.\n- Each of the three courses must be at least 2 units and must be within the 100-299 course range (excluding 197, 198, and 199).\n- Depending on the major, this requirement may be satisfied with courses in Architecture, Environmental Design, Visual Studies, Landscape Architecture, and City and Regional Planning.\n- A course used to satisfy this requirement may not also be used to satisfy Seven Course Breadth or major requirements.\nHigh School Exam Credit\nCED students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards many College and Major Requirements. Please see the High School Exam Credit section on the CED website for more information.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 3,
+      "minUnits": 9,
+      "filter": {
+       "subjects": [
+        "ARCH",
+        "ENVDES",
+        "VISSTD",
+        "LDARCH",
+        "CYPLAN"
+       ],
+       "minNumber": 100,
+       "maxNumber": 299,
+       "exclude": []
+      }
+     },
+     {
+      "type": "manual",
+      "text": "The three courses are from CED departments outside your major, C- or better, not 197/198/199, and not reused for breadth or the major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ced-unit-and-academic-requirements",
+   "title": "CED Unit and Academic Requirements",
+   "notes": "Semester Limit\nStudents admitted as first-year (non-transfer) students must graduate within eight fall/spring semesters at UC Berkeley. Students admitted as transfer students must graduate within four fall/spring semesters at UC Berkeley. EAP and UCDC count towards this semester limit; summer session, UC Extension, and study abroad through non-UC programs do not. Students approved for simultaneous degrees in two colleges may be granted an additional semester. CED does not limit the number of total units a student can accrue.\nGrade Requirements\nA 2.0 UC GPA is required for graduation. For CED students, a 2.0 GPA within the major is required at time of graduation.\nGraduating With Honors\nTo graduate with distinction, students must meet the grade point average (GPA) requirement and complete at least 50 units in residence at Berkeley (this may include UCB Extension XB units and up to 20 units from UCDC or EAP), of which 43 units must be letter-graded (not including physical education activities courses). Transfer students must make sure they complete 50 units at Berkeley to qualify for honors.\nStudents' GPA in all letter-graded courses taken at Berkeley must be equal to or higher than the GPA established for honors in the year in which they graduate. These GPA cut-offs change slightly each year and are posted on the CED website.\nUnit Requirements\nStudents must complete at least 120 semester units of courses subject to certain guidelines. For CED students, no more than 60 units from a single department can be used towards the 120 minimum.\nSemester Unit Minimum\nAll CED students must enroll in at least 12 units each fall and spring semester. Students entering UC Berkeley as first-year (non-transfer) students with no prior units need to complete 15 units per semester to graduate in four years.\nSemester Unit Maximum\nTo request permission to take more than 20.5 units in a semester, please see the major advisor.\nFulfilling Requirements with Transfer Coursework\nStudents may use transfer work, including courses taken via Study Abroad, to fulfill CED requirements, within the following limits (please consult your major advisor for more information):\n- Upper Division Major Requirements: Up to two courses taken elsewhere may be applied, if deemed transferable by the UC Berkeley Central Evaluation Unit and approved by the faculty advisor for your major.\n- Upper Division CED Outside the Major: Up to two courses taken elsewhere may be applied, if deemed transferable by the UC Berkeley Central Evaluation Unit and approved by the college.\n- Upper Division CED Minor Requirements: Up to two courses taken elsewhere may be applied, if deemed transferable by the UC Berkeley Central Evaluation Unit and approved by the faculty advisor for your minor.\n- CED Breadth Requirements: All requirements can be potentially fulfilled by courses taken elsewhere, if deemed transferable by the UC Berkeley Central Evaluation Unit and approved for breadth by the college (courses must be at least three units each).\nTo submit a request, please refer to the CED Forms & Documents page and complete the form located under Transfer Credit Evaluation: \"CED Course Substitution Process-Current Students (Including Study Abroad).\"\nConcurrent Enrollment\nConcurrent enrollment for enrolled Berkeley students is defined as a student being enrolled in courses at UC Berkeley during a Fall or Spring semester, while also being enrolled in courses at another school such as a California community college. Students who wish to take courses concurrently must seek approval from CED Advising four weeks prior to the first day of instruction. Students who do not have approval from CED Advising will not be approved to post transferable units to their UC Berkeley academic transcript. Only summer session enrollment does not require approval from CED Advising.",
+   "rule": {
+    "type": "manual",
+    "text": "2.0 GPA overall and in the major; no more than 60 units from one department count toward the 120"
+   }
+  }
+ ]
+}

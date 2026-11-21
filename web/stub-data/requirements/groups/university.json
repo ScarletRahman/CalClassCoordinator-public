@@ -1,0 +1,72 @@
+{
+  "id": "university",
+  "title": "University of California and Berkeley campus requirements",
+  "kind": "university",
+  "source": "https://registrar.berkeley.edu/academic-records/degree-requirements/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "entry-level-writing",
+      "title": "Entry Level Writing",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "manual",
+            "text": "Satisfied by exam (AP/IB English, SAT/ACT writing score, or the Analytical Writing Placement Exam)"
+          },
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "ELW"
+            },
+            "count": 1
+          }
+        ]
+      },
+      "notes": "Most students satisfy ELW before arriving. Otherwise complete COLWRIT R1A with a C or better."
+    },
+    {
+      "id": "american-history-institutions",
+      "title": "American History & Institutions",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "manual",
+            "text": "Satisfied in high school (one year of US history and one semester of US government with grades of B or better) or by AP/IB exam"
+          },
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "AH&I"
+            },
+            "count": 1
+          }
+        ]
+      },
+      "notes": "Has a history half and an institutions half. One course may cover both; otherwise take one of each (e.g. HISTORY 7A/7B for history and POLSCI 1 for institutions)."
+    },
+    {
+      "id": "american-cultures",
+      "title": "American Cultures",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "AC"
+        },
+        "count": 1
+      },
+      "notes": "One course from the approved AC list (course numbers usually end in AC). Taken at Berkeley; it can also count toward breadth or major requirements."
+    },
+    {
+      "id": "total-units",
+      "title": "120 units",
+      "rule": {
+        "type": "units",
+        "minUnits": 120
+      },
+      "notes": "At least 120 semester units. Some colleges cap P/NP, PE, and special studies units."
+    }
+  ]
+}

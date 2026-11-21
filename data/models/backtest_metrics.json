@@ -1,0 +1,214 @@
+{
+  "test_terms": [
+    "Fall 2025",
+    "Fall 2026",
+    "Spring 2026"
+  ],
+  "all": {
+    "rows": 6574,
+    "brier_full_by_Phase 1": {
+      "rows": 5064,
+      "actual_rate": 0.4293,
+      "model": 0.1207,
+      "course": 0.1269,
+      "base_rate": 0.2457
+    },
+    "brier_full_by_Phase 2": {
+      "rows": 5050,
+      "actual_rate": 0.6986,
+      "model": 0.1117,
+      "course": 0.1156,
+      "base_rate": 0.2113
+    },
+    "brier_full_by_Adjustment Period": {
+      "rows": 5046,
+      "actual_rate": 0.7903,
+      "model": 0.0931,
+      "course": 0.0948,
+      "base_rate": 0.1662
+    },
+    "phase1_accuracy_at_0.5": {
+      "model": 0.8292,
+      "course": 0.8191,
+      "base_rate": 0.5707
+    },
+    "mae_log_demand": {
+      "model": 0.2979,
+      "course": 0.3195,
+      "base_rate": 0.7274
+    },
+    "brier_expanded": {
+      "rows": 5036,
+      "actual_mean": 0.1797,
+      "model": 0.1291,
+      "course": 0.1228,
+      "base_rate": 0.1482
+    },
+    "mae_log_expansion": {
+      "rows": 5036,
+      "actual_mean": 0.0497,
+      "model": 0.0681,
+      "course": 0.0695,
+      "base_rate": 0.0854
+    },
+    "brier_had_waitlist": {
+      "rows": 5309,
+      "actual_mean": 0.6834,
+      "model": 0.1142,
+      "course": 0.1241,
+      "base_rate": 0.2182
+    },
+    "mae_wl_peak_ratio": {
+      "rows": 5309,
+      "actual_mean": 0.1546,
+      "model": 0.0917,
+      "course": 0.0985,
+      "base_rate": 0.1363
+    },
+    "mae_wl_clear": {
+      "rows": 3027,
+      "actual_mean": 0.7934,
+      "model": 0.176,
+      "course": 0.1768,
+      "base_rate": 0.192
+    }
+  },
+  "seen_professor": {
+    "rows": 6009,
+    "brier_full_by_Phase 1": {
+      "rows": 4669,
+      "actual_rate": 0.4341,
+      "model": 0.1197,
+      "course": 0.1264,
+      "base_rate": 0.2465
+    },
+    "brier_full_by_Phase 2": {
+      "rows": 4661,
+      "actual_rate": 0.7009,
+      "model": 0.1101,
+      "course": 0.1143,
+      "base_rate": 0.2105
+    },
+    "brier_full_by_Adjustment Period": {
+      "rows": 4658,
+      "actual_rate": 0.7926,
+      "model": 0.0916,
+      "course": 0.0937,
+      "base_rate": 0.1649
+    },
+    "phase1_accuracy_at_0.5": {
+      "model": 0.8312,
+      "course": 0.8201,
+      "base_rate": 0.5659
+    },
+    "mae_log_demand": {
+      "model": 0.2865,
+      "course": 0.3109,
+      "base_rate": 0.7274
+    },
+    "brier_expanded": {
+      "rows": 4635,
+      "actual_mean": 0.1819,
+      "model": 0.1306,
+      "course": 0.1237,
+      "base_rate": 0.1495
+    },
+    "mae_log_expansion": {
+      "rows": 4635,
+      "actual_mean": 0.0502,
+      "model": 0.0684,
+      "course": 0.0699,
+      "base_rate": 0.0857
+    },
+    "brier_had_waitlist": {
+      "rows": 4887,
+      "actual_mean": 0.6863,
+      "model": 0.1111,
+      "course": 0.1219,
+      "base_rate": 0.2174
+    },
+    "mae_wl_peak_ratio": {
+      "rows": 4887,
+      "actual_mean": 0.1545,
+      "model": 0.0895,
+      "course": 0.0969,
+      "base_rate": 0.1353
+    },
+    "mae_wl_clear": {
+      "rows": 2825,
+      "actual_mean": 0.792,
+      "model": 0.1762,
+      "course": 0.1771,
+      "base_rate": 0.192
+    }
+  },
+  "new_professor": {
+    "rows": 518,
+    "brier_full_by_Phase 1": {
+      "rows": 385,
+      "actual_rate": 0.3792,
+      "model": 0.1318,
+      "course": 0.1326,
+      "base_rate": 0.237
+    },
+    "brier_full_by_Phase 2": {
+      "rows": 380,
+      "actual_rate": 0.6842,
+      "model": 0.1296,
+      "course": 0.1291,
+      "base_rate": 0.2164
+    },
+    "brier_full_by_Adjustment Period": {
+      "rows": 380,
+      "actual_rate": 0.7763,
+      "model": 0.1079,
+      "course": 0.1057,
+      "base_rate": 0.1738
+    },
+    "phase1_accuracy_at_0.5": {
+      "model": 0.8078,
+      "course": 0.8104,
+      "base_rate": 0.6208
+    },
+    "mae_log_demand": {
+      "model": 0.3391,
+      "course": 0.3272,
+      "base_rate": 0.6552
+    },
+    "brier_expanded": {
+      "rows": 397,
+      "actual_mean": 0.1562,
+      "model": 0.1126,
+      "course": 0.1126,
+      "base_rate": 0.1342
+    },
+    "mae_log_expansion": {
+      "rows": 397,
+      "actual_mean": 0.0435,
+      "model": 0.0648,
+      "course": 0.0648,
+      "base_rate": 0.0822
+    },
+    "brier_had_waitlist": {
+      "rows": 411,
+      "actual_mean": 0.6667,
+      "model": 0.1453,
+      "course": 0.1453,
+      "base_rate": 0.2229
+    },
+    "mae_wl_peak_ratio": {
+      "rows": 411,
+      "actual_mean": 0.1592,
+      "model": 0.1167,
+      "course": 0.1167,
+      "base_rate": 0.1485
+    },
+    "mae_wl_clear": {
+      "rows": 202,
+      "actual_mean": 0.8126,
+      "model": 0.1737,
+      "course": 0.1737,
+      "base_rate": 0.1932
+    }
+  }
+}

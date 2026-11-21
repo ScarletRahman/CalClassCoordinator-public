@@ -1,0 +1,221 @@
+{
+  "id": "major-civil-engineering-bs",
+  "title": "Civil Engineering BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/civil-engineering/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 1A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENGIN 7"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ce-lower",
+      "title": "Civil engineering lower division",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CIVENG 11"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG C30"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 60"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 93"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ce-core",
+      "title": "Core: four of the CE program areas",
+      "rule": {
+        "type": "nOf",
+        "n": 4,
+        "rules": [
+          {
+            "type": "course",
+            "course": "CIVENG 100"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 103"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 111"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 120"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 155"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 167"
+          },
+          {
+            "type": "course",
+            "course": "CIVENG 175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone",
+      "rule": {
+        "type": "course",
+        "course": "CIVENG 192"
+      }
+    },
+    {
+      "id": "ce-electives",
+      "title": "Civil engineering electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "CIVENG"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "minUnits": 9
+      },
+      "notes": "Stub: depth in one or more program areas."
+    }
+  ]
+}

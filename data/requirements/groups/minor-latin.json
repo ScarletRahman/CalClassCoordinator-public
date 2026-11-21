@@ -1,0 +1,208 @@
+{
+ "id": "minor-latin",
+ "title": "Latin minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I052U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I052U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I052U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared before the first day of classes in your Expected Graduation Term (EGT). For summer graduates, minors must be declared prior to the first day of Summer Session A.\n- All upper-division courses must be taken for a letter grade.\n- A minimum of three of the upper-division courses taken to fulfill the minor requirements must be completed at UC Berkeley.\n- A minimum C grade point average (2.000) is required in the upper-division courses to fulfill the minor requirements.\n- Courses used to fulfill the minor requirements may be applied toward the Seven-Course Breadth requirement, for Letters & Science students.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- All minor requirements must be completed prior to the last day of finals during the semester in which the student plans to graduate. If students cannot finish all courses required for the minor by that time, they should see a College of Letters & Science adviser.\n- All minor requirements must be completed within the unit ceiling.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "latin",
+   "title": "Latin",
+   "section": "Upper Division",
+   "notes": "A maximum of one course taken outside of the department is allowed to count toward the Latin Minor.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "subjects": [
+      "LATIN"
+     ],
+     "minNumber": 100,
+     "maxNumber": 194
+    }
+   }
+  },
+  {
+   "id": "roman-civilization-and-culture",
+   "title": "Roman Civilization and Culture",
+   "section": "Upper Division",
+   "notes": "- Any LATIN 100-194 course",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "AGRS 121"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 124"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130A"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130B"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130C"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130D"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130F"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130G"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130H"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130J"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130L"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130M"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130N"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130P"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130R"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 130T"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 150"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 161"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 163"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 170D"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175D"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175F"
+     },
+     {
+      "type": "course",
+      "course": "AGRS 175G"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AGRS C175F"
+       },
+       {
+        "type": "course",
+        "course": "HISTART C145A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "LATIN 100"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 101"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 102"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 115"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 116"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 117"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 119"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 120"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 121"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 122"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 140"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 155A"
+     },
+     {
+      "type": "course",
+      "course": "LATIN 160"
+     },
+     {
+      "type": "course",
+      "course": "LATIN C140"
+     }
+    ]
+   }
+  }
+ ]
+}

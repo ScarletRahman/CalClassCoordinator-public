@@ -1,0 +1,77 @@
+{
+  "id": "college-COE",
+  "title": "College of Engineering requirements",
+  "kind": "college",
+  "source": "https://engineering.berkeley.edu/students/undergraduate-guide/degree-requirements/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "reading-composition-a",
+      "title": "Reading & Composition A",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCA"
+        },
+        "count": 1
+      },
+      "notes": "First half of R&C (an R1A or R4A course), or an AP/IB exam score. Complete by the end of your first year."
+    },
+    {
+      "id": "reading-composition-b",
+      "title": "Reading & Composition B",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCB"
+        },
+        "count": 1
+      },
+      "notes": "Second half of R&C (an R1B or R4B course). Complete by the end of your second year."
+    },
+    {
+      "id": "humanities-social-sciences",
+      "title": "Humanities & Social Sciences (H/SS)",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "HSS",
+              "minNumber": 100,
+              "maxNumber": 199
+            },
+            "count": 2
+          },
+          {
+            "type": "filter",
+            "filter": {
+              "attribute": "HSS"
+            },
+            "count": 2
+          }
+        ]
+      },
+      "notes": "Six H/SS courses in total, of 3+ units each: the two R&C courses plus four more, at least two of which are upper division (and in practice two in the same discipline). An AC course may count. Courses must be taken for a letter grade except where noted."
+    },
+    {
+      "id": "engineering-units",
+      "title": "Engineering unit minimum",
+      "rule": {
+        "type": "manual",
+        "text": "Complete at least 45 units of engineering coursework (varies by major)"
+      },
+      "notes": "Check your major's handbook; most CoE majors exceed this through major requirements."
+    },
+    {
+      "id": "senior-residence",
+      "title": "Senior residence",
+      "rule": {
+        "type": "manual",
+        "text": "Senior residence: after reaching 90 units, complete at least 24 of your remaining units over two semesters in residence in your college"
+      },
+      "notes": "Exceptions for UCEAP, UCDC, and other approved programs."
+    }
+  ]
+}

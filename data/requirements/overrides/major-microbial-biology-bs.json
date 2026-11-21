@@ -1,0 +1,21 @@
+{
+ "why": "\"Option 2 (General Microbiology Concentration): Choose any four courses from any of the concentrations.\" The catalog has no rule for this option, so one is built by pooling the four concentration lists; it is offered as a fifth concentration (see choices.json).",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/045A7U"
+ ],
+ "merge": [
+  {
+   "block": "Concentrations",
+   "title": "General Microbiology",
+   "type": "pool",
+   "n": 4,
+   "keep": true,
+   "rules": [
+    "Host-Pathogen Interactions",
+    "Evolution/Computational Genomics",
+    "Ecology & Environmental Microbiology",
+    "Microbial Biotechnology"
+   ]
+  }
+ ]
+}

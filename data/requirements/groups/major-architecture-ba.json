@@ -1,0 +1,274 @@
+{
+ "id": "major-architecture-ba",
+ "title": "Architecture BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/19084U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19084U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "19084U",
+ "choices": [
+  {
+   "id": "track",
+   "title": "Senior Year Track",
+   "pick": 1,
+   "options": [
+    {
+     "id": "studio-track",
+     "title": "Studio Track"
+    },
+    {
+     "id": "research-track",
+     "title": "Research Track"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "The Architecture major requirements differ by students’ admit year to UC Berkeley. The major requirements listed below are the most recent. In the Catalog Archive, refer to the year you were admitted to UC Berkeley for your major requirements.\nGeneral Guidelines\n- All lower division courses taken in fulfillment of major requirements must be completed with a letter grade of C- or better.\n- Courses taken to fulfill lower division major requirements may also be used to fulfill Seven Course Breadth.\n- A minimum overall GPA of 2.0 for all courses taken at UC Berkeley is required for graduation.\n- Upper division major courses used to fulfill the major requirements must be completed with a letter grade.\n- A minimum grade point average (GPA) of 2.0 must be maintained in upper division major courses used to fulfill the major requirements.\n- Courses used to fulfill an upper division major requirement may not simultaneously fulfill a breadth requirement.\n- Up to two upper division courses taken at another institution, including an approved study abroad program, may be applied to the major requirements below (if transferable and approved in advance).\n- CED students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards many College and Major Requirements. Please see the High School Exam Credit section on the CED website for more information.\nFor information regarding residence and unit requirements, please see the College Requirements tab."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "architecture",
+   "title": "Architecture",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 11A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ARCH 11B"
+       },
+       {
+        "type": "course",
+        "course": "ARCH 101A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "architectural-design-and-representation",
+   "title": "Architectural Design & Representation",
+   "section": "Upper Division, Junior Year",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ARCH 100A"
+       },
+       {
+        "type": "course",
+        "course": "ARCH 101A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ARCH 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "architectural-history-culture-and-society",
+   "title": "Architectural History, Culture, & Society",
+   "section": "Upper Division, Junior Year",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 170A"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 170B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "architectural-history-culture-and-society-additional-course",
+   "title": "Architectural History, Culture, and Society: Additional Course",
+   "section": "Upper Division, Junior Year",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 110AC"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 112"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 130"
+     }
+    ]
+   }
+  },
+  {
+   "id": "architectural-technologies-and-building-performance",
+   "title": "Architectural Technologies & Building Performance",
+   "section": "Upper Division, Junior Year",
+   "notes": "Students should take 1 course in their Junior year.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 140"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 160"
+     }
+    ]
+   }
+  },
+  {
+   "id": "studio-track-studio-track-arch-140-160",
+   "title": "Studio Track: ARCH 140/160",
+   "section": "Studio Track",
+   "choice": "track",
+   "option": "studio-track",
+   "notes": "Both ARCH 140 and ARCH 160 are required for the Studio Track so if one of these courses was used to satisfy the Architectural Technologies and Building Performance requirement, the other must be taken to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ARCH 100C"
+       },
+       {
+        "type": "course",
+        "course": "ARCH 101B"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ARCH 100D"
+       },
+       {
+        "type": "course",
+        "course": "ARCH 101B"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ARCH 150"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ARCH 140"
+       },
+       {
+        "type": "course",
+        "course": "ARCH 160"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "research-track-research-track-core",
+   "title": "Research Track: Core",
+   "section": "Research Track",
+   "choice": "track",
+   "option": "research-track",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 102A"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 102B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "research-track-research-track-electives",
+   "title": "Research Track Electives",
+   "section": "Research Track",
+   "choice": "track",
+   "option": "research-track",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 courses from the list provided by the instructor.\nTrack electives cannot double-count for CED Upper Division Outside of Architecture or Seven-Course Breadth."
+   }
+  }
+ ]
+}

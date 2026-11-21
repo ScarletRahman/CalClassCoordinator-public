@@ -1,0 +1,995 @@
+{
+ "id": "major-aerospace-engineering-and-business-administration-bs",
+ "title": "Aerospace Engineering and Business Administration BS",
+ "kind": "major",
+ "programType": "dual-degree",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/yKx5e1eCFAIJMGT5mAzC",
+  "https://undergraduate.catalog.berkeley.edu/programs/yKx5e1eCFAIJMGT5mAzC/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "*16A22U",
+ "notes": [
+  "M.E.T. General Guidelines\nGeneral Guidelines\n- A minimum of 38 upper division business units is required.\n- Students must complete the degree program in eight semesters, not including Summer Session.\n- Students must complete ALL of their business prerequisite courses (including R&C) by the spring semester of their sophomore (2nd) year. Required prerequisite courses are: UGBA 10X; ECON 1 or ECON 2; Math 51 & Math 52 , or Math 53 or Math 54; Reading & Composition Parts A & B; and, depending on their major track, students may choose one of the following statistics courses or combinations:\n- EECS 126\n- ENGIN 178 (recommended for ME)\n- INDENG 172 (required for IEOR)\n- STAT 20\n- STAT 21/STAT W21\n- STAT C131A\n- STAT 134 (recommended for BioE)\n- STAT/DATA C140\n- DATA C8, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT C88S\n- DATA C100, plus:\n- UGBA 88, or\n- CIV ENG 93, or\n- DATA 89, or\n- DATA C88S/STAT 88S\n- All Haas business courses must be taken for a letter grade, including core substitutions, with the exception of UGBA 194, UGBA 198 and UGBA 199 (only offered Pass/No Pass).\n- Students who receive a grade of D+ or lower in a core UGBA course must repeat the course until they achieve a grade of C- or better.\n- All technical courses that can be used to fulfill a requirement must be taken for a letter grade.\n- Two M.E.T. Special Topics courses are required. One during the first year, first semester and another during the third year, first semester. M.E.T. Special Topics courses will count as upper division business elective units. A passing grade of C- or better is required.\n- Students in this program must adhere to all policies and procedures of the College of Engineering and the Haas School of Business.\n- Students must complete the College Requirements and the Program Major Requirements."
+ ],
+ "requirements": [
+  {
+   "id": "preparatory-subject-matter",
+   "title": "Preparatory Subject Matter",
+   "section": "Lower Division",
+   "notes": "For a list of lower division requirements (such as Math, Chem, Reading & Composition, Physics, Economics, etc.), that may be fulfilled by exam credit, please view the M.E.T. Exam Credit Guidelines.\nFor AE + Business, PHYSICS 89 may be taken instead of MATH 54.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 89"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5BL"
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-elective",
+   "title": "Science Elective",
+   "section": "Lower Division",
+   "notes": "Some of these courses require prerequisites and would therefore be more appropriately taken in a later semester. Students who plan to take MEC ENG 40 for their Thermodynamics requirement in sophomore year will need to take CHEM 1A/CHEM 1AL to fulfill their Science Elective.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 7A"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 10"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3B"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3BL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4B"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 32"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "notes": "Students who elect to take ENGIN 7 or W7 may not also take COMPSCI 61A to satisfy this requirement. Also, students who elect to take ENGIN 40 may not also take MECENG 40 to satisfy this requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AEROENG 1"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 2"
+     },
+     {
+      "type": "course",
+      "course": "AEROENG 10"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 40"
+       },
+       {
+        "type": "course",
+        "course": "MECENG 40"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ugba-core",
+   "title": "UGBA Core",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 30,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107"
+     ]
+    }
+   }
+  },
+  {
+   "id": "m-e-t-special-topics",
+   "title": "M.E.T. Special Topics",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "manual",
+    "text": "Complete the following Special Topics courses:\n- UGBA 196 001, “Managing Technological Innovation”\n- UGBA 196 002, “Entrepreneurship and Strategic Growth”\n4 units total",
+    "mentionedCourses": [
+     "UGBA 196"
+    ]
+   }
+  },
+  {
+   "id": "ugba-elective",
+   "title": "UGBA Elective",
+   "section": "Upper Division Business",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "UGBA 100",
+      "UGBA 101A",
+      "UGBA 101B",
+      "UGBA 102A",
+      "UGBA 102B",
+      "UGBA 103",
+      "UGBA 104",
+      "UGBA 105",
+      "UGBA 106",
+      "UGBA 107",
+      "UGBA 173",
+      "UGBA 117",
+      "UGBA 118",
+      "UGBA 174",
+      "UGBA 120AA",
+      "UGBA 120AB",
+      "UGBA 120B",
+      "UGBA 121",
+      "UGBA 122",
+      "UGBA 126",
+      "UGBA 127",
+      "UGBA 128",
+      "UGBA 131",
+      "UGBA 132",
+      "UGBA 133",
+      "UGBA 136F",
+      "UGBA 137",
+      "UGBA 141",
+      "UGBA 143",
+      "UGBA 147",
+      "UGBA 151",
+      "UGBA 152",
+      "UGBA 154",
+      "UGBA 155",
+      "UGBA 157",
+      "UGBA 160",
+      "UGBA 161",
+      "UGBA 162",
+      "UGBA 165",
+      "UGBA 167",
+      "UGBA 169",
+      "UGBA 175",
+      "UGBA 177",
+      "UGBA 178",
+      "UGBA 179",
+      "UGBA 180",
+      "UGBA 183",
+      "UGBA 184",
+      "UGBA 187",
+      "UGBA 190S",
+      "UGBA 190T",
+      "UGBA 191C",
+      "UGBA 191I",
+      "UGBA 191P",
+      "UGBA 192A",
+      "UGBA 192L",
+      "UGBA 192N",
+      "UGBA 192P",
+      "UGBA 192T",
+      "UGBA 193C",
+      "UGBA 193I",
+      "UGBA 194",
+      "UGBA 195A",
+      "UGBA 195P",
+      "UGBA 195S",
+      "UGBA 195T",
+      "UGBA 196",
+      "UGBA 198",
+      "UGBA 199",
+      "UGBA 162A",
+      "UGBA 176",
+      "UGBA 123",
+      "UGBA 192B",
+      "UGBA 193B",
+      "UGBA 192AC",
+      "UGBA 191L",
+      "UGBA 134",
+      "UGBA 164",
+      "UGBA 131A",
+      "UGBA 190C",
+      "UGBA 192E",
+      "UGBA 192G",
+      "UGBA 125",
+      "UGBA 190D",
+      "UGBA 135",
+      "UGBA 146",
+      "UGBA 192S",
+      "UGBA 192H",
+      "UGBA 195B",
+      "UGBA 159",
+      "UGBA 171",
+      "UGBA 192MC",
+      "UGBA 151A",
+      "UGBA 192ID",
+      "UGBA 150",
+      "UGBA 196SA",
+      "UGBA 196SC",
+      "UGBA 196SB",
+      "UGBA 179G",
+      "UGBA 168B",
+      "UGBA 194S",
+      "UGBA 192F",
+      "UGBA 142",
+      "UGBA 156",
+      "UGBA 192PF",
+      "UGBA 195M",
+      "UGBA 155N",
+      "UGBA 171A",
+      "UGBA 170AC"
+     ]
+    }
+   }
+  },
+  {
+   "id": "aerospace-engineering",
+   "title": "Aerospace Engineering",
+   "section": "Upper Division Engineering",
+   "rule": {
+    "type": "course",
+    "course": "AEROENG 100"
+   }
+  },
+  {
+   "id": "mechanical-engineering",
+   "title": "Mechanical Engineering",
+   "section": "Upper Division Engineering",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MECENG 103"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 163"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics-and-data-science",
+   "title": "Statistics and Data Science",
+   "section": "Upper Division Engineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 93"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C100"
+     },
+     {
+      "type": "course",
+      "course": "DATA C100"
+     },
+     {
+      "type": "course",
+      "course": "STAT C100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 178"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dynamics",
+   "title": "Dynamics",
+   "section": "Upper Division Engineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 126"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     }
+    ]
+   }
+  },
+  {
+   "id": "controls",
+   "title": "Controls",
+   "section": "Upper Division Engineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EECS C128"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 132"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electronics",
+   "title": "Electronics",
+   "section": "Upper Division Engineering",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EECS 149"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 120"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 100"
+     }
+    ]
+   }
+  },
+  {
+   "id": "communication-systems",
+   "title": "Communication Systems",
+   "section": "Technical Electives",
+   "notes": "Four courses are required from two different areas: Two courses from one area, and two courses from another area.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "COMPSCI 168",
+      "ELENG 117",
+      "ELENG 121",
+      "ELENG 122",
+      "ELENG 142"
+     ]
+    }
+   }
+  },
+  {
+   "id": "computational-tools",
+   "title": "Computational Tools",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C133"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C180"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 150"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 174"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C144"
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 155"
+     }
+    ]
+   }
+  },
+  {
+   "id": "control-autonomy-and-artificial-intelligence",
+   "title": "Control, Autonomy, and Artificial Intelligence",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 188"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 189"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS C106A"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C106A"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS C106B"
+       },
+       {
+        "type": "course",
+        "course": "BIOENG C106B"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C106A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "INDENG 142"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C136"
+     }
+    ]
+   }
+  },
+  {
+   "id": "design",
+   "title": "Design",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ELENG 192",
+      "MECENG 135",
+      "MECENG 139"
+     ]
+    }
+   }
+  },
+  {
+   "id": "dynamical-systems",
+   "title": "Dynamical Systems",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "MECENG 170"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 175"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AEROENG C162"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C162"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "fluid-mechanics",
+   "title": "Fluid Mechanics",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AEROENG C166"
+     },
+     {
+      "type": "course",
+      "course": "MECENG C166"
+     }
+    ]
+   }
+  },
+  {
+   "id": "humans-and-automation",
+   "title": "Humans and Automation",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "COGSCI 131",
+      "COMPSCI 160",
+      "INDENG 170"
+     ]
+    }
+   }
+  },
+  {
+   "id": "manufacturing",
+   "title": "Manufacturing",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "INDENG 130",
+      "MATSCI 121",
+      "MECENG 122",
+      "MECENG C127"
+     ]
+    }
+   }
+  },
+  {
+   "id": "materials",
+   "title": "Materials",
+   "section": "Technical Electives",
+   "notes": "If students elect to take MATSCI 104 to satisfy the Materials requirement, they must also take MATSCI 104L and an additional course from the Materials list.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 102"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 104"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 104L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 112"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 113"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 131"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI C135"
+       },
+       {
+        "type": "course",
+        "course": "AEROENG C124"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 136"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 108"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MECENG C127"
+       },
+       {
+        "type": "course",
+        "course": "AEROENG C127"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "NUCENG 120"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mechanics",
+   "title": "Mechanics",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 132"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AEROENG C184"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C184"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C138"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MECENG 185"
+     }
+    ]
+   }
+  },
+  {
+   "id": "operations-and-project-management",
+   "title": "Operations and Project Management",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CIVENG 167",
+      "INDENG 120",
+      "INDENG 130",
+      "INDENG 150",
+      "INDENG 153"
+     ]
+    }
+   }
+  },
+  {
+   "id": "optimization",
+   "title": "Optimization",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "EECS 127",
+      "INDENG 160",
+      "INDENG 162",
+      "INDENG 164"
+     ]
+    }
+   }
+  },
+  {
+   "id": "power",
+   "title": "Power",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "MECENG 140",
+      "MECENG 146",
+      "MECENG 154",
+      "NUCENG 150",
+      "NUCENG 161"
+     ]
+    }
+   }
+  },
+  {
+   "id": "propulsion",
+   "title": "Propulsion",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "MECENG 109",
+      "MECENG 140",
+      "MECENG 151A",
+      "MECENG 151B",
+      "MECENG 154"
+     ]
+    }
+   }
+  },
+  {
+   "id": "risk-management",
+   "title": "Risk Management",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CIVENG 193",
+      "INDENG 165",
+      "INDENG 166",
+      "INDENG 172",
+      "NUCENG 167",
+      "NUCENG 175"
+     ]
+    }
+   }
+  },
+  {
+   "id": "space-technologies",
+   "title": "Space Technologies",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "AEROENG 120",
+      "NUCENG 140",
+      "NUCENG 162"
+     ]
+    }
+   }
+  },
+  {
+   "id": "air-transportation-aviation",
+   "title": "Air Transportation/Aviation",
+   "section": "Technical Electives",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 157"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 160D"
+     }
+    ]
+   }
+  }
+ ]
+}

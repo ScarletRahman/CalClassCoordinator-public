@@ -1,0 +1,74 @@
+{
+ "id": "minor-journalism",
+ "title": "Journalism minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/71I121U",
+  "https://undergraduate.catalog.berkeley.edu/programs/71I121U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "71I121U",
+ "notes": [
+  "General Guidelines\n- The minor is open to all degree-seeking Berkeley students.\n- Students must declare the Journalism minor prior to the first day of classes in their Estimated Graduation Term (EGT).\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- All courses intended to fulfill minor requirements must be taken for letter-graded credit.\n- Students are required to earn a C (2.00) average or higher in all courses that are used to complete requirements for the minor.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "minor-requirements",
+   "title": "Minor Requirements",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "manual",
+    "text": "The Minor in Journalism requires completion of five courses.\nTwo of five courses are core courses and are required: JOURN 100: Introduction to News Reporting and JOURN 110: Introduction to Multimedia Storytelling.\nThree of the five courses are electives. Students can choose three electives from many possible options. Currently offered electives include courses on Social Media Verification & Engagement, Audio Podcasting, Photojournalism, Digital Research & Investigative Journalism, Data Journalism, Media Ethics, and more.",
+    "mentionedCourses": [
+     "JOURN 100",
+     "JOURN 110"
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Minor Requirements",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "JOURN 100"
+     },
+     {
+      "type": "course",
+      "course": "JOURN 110"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Minor Requirements",
+   "notes": "A minimum grade of C- is required.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "JOURN 111",
+      "JOURN 112",
+      "JOURN 113",
+      "JOURN 115",
+      "JOURN 120",
+      "JOURN 122",
+      "JOURN 124",
+      "JOURN 130",
+      "JOURN 134",
+      "JOURN 136"
+     ]
+    }
+   }
+  }
+ ]
+}

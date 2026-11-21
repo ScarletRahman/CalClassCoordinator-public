@@ -1,0 +1,316 @@
+{
+ "id": "major-civil-engineering-bs",
+ "title": "Civil Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16300U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16300U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16300U",
+ "notes": [
+  "Students who have a strong interest in an area of study outside their major often decide to complete a minor program. These programs have set requirements.\nGeneral Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\nPlease note that all technical course requirements must be taken for a grade."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division",
+   "title": "Lower Division",
+   "section": "Lower Division",
+   "notes": "Please note: If you have previously taken the articulated version of a UC Berkeley course that you are currently enrolled in, the UC Berkeley course will be used to satisfy the requirement once it is graded.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 4A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "basic-science-breadth",
+   "title": "Basic Science Breadth",
+   "section": "Lower Division",
+   "notes": "The Basic Science Elective cannot be fulfilled with an exam score.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 70"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-stats-and-computation",
+   "title": "Data, Stats, and Computation",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI C8"
+       },
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "INFO C8"
+       },
+       {
+        "type": "course",
+        "course": "STAT C8"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "cee-fundamentals",
+   "title": "CEE Fundamentals",
+   "section": "Upper Division",
+   "notes": "Students must complete each course with a letter grade.\nOnly 1 of CIVENG 100, CIVENG 130N, or CIVENG 132 may be used towards this requirement.",
+   "rule": {
+    "type": "nOf",
+    "n": 4,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG W30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       },
+       {
+        "type": "course",
+        "course": "MECENG W85"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 60"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 93"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 100"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 132"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives-engineering-fundamentals",
+   "title": "Electives: Engineering Fundamentals",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 126"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI C100"
+     },
+     {
+      "type": "course",
+      "course": "DATA C100"
+     },
+     {
+      "type": "course",
+      "course": "STAT C100"
+     },
+     {
+      "type": "course",
+      "course": "EECS 127"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 40"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cee-practice",
+   "title": "CEE Practice",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 11"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 167"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cee-practice-design",
+   "title": "CEE Practice: Design",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 105"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 112"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 122"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 123"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 153"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 179"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 180"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 186"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cee-applications",
+   "title": "CEE Applications",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 9,
+    "filter": {
+     "courses": [
+      "CIVENG C103N",
+      "ESPM C130",
+      "GEOG C136",
+      "CIVENG 111",
+      "CIVENG 120",
+      "CIVENG 155",
+      "CIVENG 175",
+      "CIVENG 191"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cee-extensions",
+   "title": "CEE Extensions",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete a minimum of 9 units from:\n- Any CIVENG course 100-H194, not including any Pass/Fail course.\n- Any CIVENG course 200-295, not including any Pass/Fail course.\nIf you plan to take a graduate level course (200-295), please reference this policy before taking the class.\n- Chosen from upper division CIVENG courses not being counted toward other major requirements.\n- Up to 3 units of CIVENG graduate courses numbered 200-295, taken Fall 2017 or later, can count toward this requirement.\n- Up to 3 units of CIVENG H194 may count toward this requirement.",
+    "mentionedCourses": [
+     "CIVENG H194"
+    ]
+   }
+  }
+ ]
+}

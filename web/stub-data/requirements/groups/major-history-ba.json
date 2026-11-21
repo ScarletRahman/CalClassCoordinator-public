@@ -1,0 +1,66 @@
+{
+  "id": "major-history-ba",
+  "title": "History BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/history/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "lower-division",
+      "title": "Two lower-division history courses",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "HISTORY"
+          ],
+          "maxNumber": 99
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "proseminar",
+      "title": "Proseminar",
+      "rule": {
+        "type": "course",
+        "course": "HISTORY 103"
+      }
+    },
+    {
+      "id": "research-seminar",
+      "title": "Research seminar",
+      "rule": {
+        "type": "course",
+        "course": "HISTORY 101"
+      }
+    },
+    {
+      "id": "ud-history",
+      "title": "Upper-division history",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "HISTORY"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "HISTORY 101",
+            "HISTORY 103"
+          ]
+        },
+        "count": 5
+      }
+    },
+    {
+      "id": "geographic-breadth",
+      "title": "Geographic & chronological breadth",
+      "rule": {
+        "type": "manual",
+        "text": "Courses cover at least three geographic areas and one pre-1800 period"
+      }
+    }
+  ]
+}

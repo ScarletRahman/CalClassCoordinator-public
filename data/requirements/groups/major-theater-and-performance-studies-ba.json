@@ -1,0 +1,267 @@
+{
+ "id": "major-theater-and-performance-studies-ba",
+ "title": "Theater & Performance Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/259A2U",
+  "https://undergraduate.catalog.berkeley.edu/programs/259A2U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "259A2U",
+ "requirements": [
+  {
+   "id": "practice-courses",
+   "title": "Practice Courses",
+   "section": "Lower Division",
+   "notes": "- THEATER 10 is required for students intending to take the acting training sequence. Students who have college credit for an equivalent acting course and who audition into a more advanced level can be considered exempt from THEATER 10, with approval.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "THEATER 10"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 14"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "THEATER 60"
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance-studies",
+   "title": "Performance Studies",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 26"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "THEATER 25AC"
+       },
+       {
+        "type": "course",
+        "course": "THEATER 52AC"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance-history",
+   "title": "Performance History",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "THEATER 151"
+   }
+  },
+  {
+   "id": "technical-theater",
+   "title": "Technical Theater",
+   "section": "Upper Division",
+   "notes": "THEATER 172.2 units earned for participating on a TDPS Stage Management team can satisfy this requirement in place of THEATER 167\n- Repeat THEATER 168 in a different section/lab/topic, i.e., if you have completed THEATER 168 Scenery Lab, you may enroll in THEATER 168 Lighting Lab or Costume Lab.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 167"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 168"
+     }
+    ]
+   }
+  },
+  {
+   "id": "production-and-design",
+   "title": "Production and Design",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "THEATER 166"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 172"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 173"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 174"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 175A"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 175B"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 177"
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance-studies-2",
+   "title": "Performance Studies",
+   "section": "Performance Studies",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "AFRICAM C143C"
+       },
+       {
+        "type": "course",
+        "course": "THEATER C183C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "THEATER 114"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 117AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 118AC"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 119"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 121"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 125"
+     },
+     {
+      "type": "course",
+      "course": "THEATER 126"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Electives",
+   "notes": "Students must complete a minimum of 24 units of upper division courses.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 24,
+    "filter": {
+     "courses": [
+      "ENGLISH 117S",
+      "THEATER 100",
+      "THEATER 109",
+      "THEATER 110A",
+      "THEATER 110B",
+      "THEATER 111",
+      "THEATER 112",
+      "THEATER 113",
+      "THEATER 113A",
+      "THEATER 114",
+      "THEATER 115",
+      "THEATER 118AC",
+      "THEATER 119",
+      "THEATER 121",
+      "THEATER 125",
+      "THEATER 126",
+      "THEATER 139A",
+      "THEATER 139B",
+      "THEATER 140",
+      "THEATER 141",
+      "THEATER 142",
+      "THEATER 143",
+      "THEATER 144",
+      "THEATER 146A",
+      "THEATER 146B",
+      "THEATER 147A",
+      "THEATER 147B",
+      "THEATER 148",
+      "THEATER 151A",
+      "THEATER 151B",
+      "THEATER 162",
+      "THEATER 163",
+      "THEATER 166",
+      "THEATER 167",
+      "THEATER 168",
+      "THEATER 169",
+      "THEATER 171",
+      "THEATER 172",
+      "THEATER 175A",
+      "THEATER 175B",
+      "THEATER 176",
+      "THEATER 177",
+      "THEATER 178",
+      "THEATER 179",
+      "THEATER 180",
+      "THEATER 181",
+      "THEATER 182",
+      "THEATER 196",
+      "THEATER H195A",
+      "THEATER H195B",
+      "THEATER C107",
+      "THEATER C108",
+      "THEATER C183A",
+      "THEATER C183B",
+      "THEATER C183C",
+      "THEATER 125D",
+      "THEATER 174",
+      "THEATER 173",
+      "THEATER 117AC",
+      "THEATER 145",
+      "THEATER 105",
+      "THEATER 113B",
+      "THEATER 190",
+      "THEATER 160",
+      "THEATER 151",
+      "THEATER 104"
+     ]
+    }
+   }
+  }
+ ]
+}

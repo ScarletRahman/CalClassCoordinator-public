@@ -1,0 +1,160 @@
+{
+  "id": "major-ieor-bs",
+  "title": "Industrial Engineering & Operations Research BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/industrial-engineering-operations-research/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "course",
+        "course": "PHYSICS 7A"
+      }
+    },
+    {
+      "id": "programming",
+      "title": "Programming",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61A"
+          },
+          {
+            "type": "course",
+            "course": "ENGIN 7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "data-structures",
+      "title": "Data structures",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61B"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61BL"
+          }
+        ]
+      },
+      "notes": "Stub: some catalog years require 61B; check the IEOR handbook."
+    },
+    {
+      "id": "ieor-core",
+      "title": "IEOR core",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "INDENG 160"
+          },
+          {
+            "type": "course",
+            "course": "INDENG 162"
+          },
+          {
+            "type": "course",
+            "course": "INDENG 165"
+          },
+          {
+            "type": "course",
+            "course": "INDENG 172"
+          },
+          {
+            "type": "course",
+            "course": "INDENG 173"
+          },
+          {
+            "type": "course",
+            "course": "INDENG 174"
+          }
+        ]
+      }
+    },
+    {
+      "id": "senior-project",
+      "title": "Senior project",
+      "rule": {
+        "type": "course",
+        "course": "INDENG 180"
+      }
+    },
+    {
+      "id": "ieor-electives",
+      "title": "IEOR electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "INDENG"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 3
+      }
+    }
+  ]
+}

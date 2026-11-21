@@ -1,0 +1,72 @@
+{
+ "id": "minor-russian-literature",
+ "title": "Russian Literature minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I062U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I062U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I062U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "prerequisites",
+   "title": "Prerequisites",
+   "section": "Lower Division",
+   "notes": "Students must complete one course with a letter grade.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SLAVIC 45"
+     },
+     {
+      "type": "course",
+      "course": "SLAVIC 46"
+     }
+    ]
+   }
+  },
+  {
+   "id": "minor-requirements",
+   "title": "Minor Requirements",
+   "section": "Upper Division",
+   "notes": "Five upper-division courses on the literature or culture of Russia.\nA maximum of two transfer courses is allowed.",
+   "rule": {
+    "type": "filter",
+    "count": 5,
+    "filter": {
+     "courses": [
+      "SLAVIC 130",
+      "SLAVIC 132",
+      "SLAVIC 133",
+      "SLAVIC 134A",
+      "SLAVIC 134C",
+      "SLAVIC 134D",
+      "SLAVIC 134E",
+      "SLAVIC 134F",
+      "SLAVIC 134G",
+      "SLAVIC 134N",
+      "SLAVIC 138",
+      "SLAVIC 147A",
+      "SLAVIC 147B",
+      "SLAVIC 148",
+      "SLAVIC 148AC",
+      "SLAVIC 150",
+      "SLAVIC 170",
+      "SLAVIC 131",
+      "SLAVIC 100L",
+      "SLAVIC 100R",
+      "SLAVIC 139"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "id": "major-energy-engineering-bs",
+ "title": "Energy Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/162C6U",
+  "https://undergraduate.catalog.berkeley.edu/programs/162C6U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "162C6U",
+ "notes": [
+  "General Guidelines\n- All technical courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\nFor information regarding residence requirements and unit requirements, please see the College Requirements tab.\nFor a detailed plan of study by year and semester, please see the Plan of Study tab."
+ ],
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "Physics"
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 4,
+    "filter": {
+     "courses": [
+      "CHEM 1A",
+      "CHEM 1AL",
+      "CHEM 4A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "programming",
+   "title": "Programming",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "energy-and-thermodynamics",
+   "title": "Energy and Thermodynamics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 93"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENGIN 40"
+       },
+       {
+        "type": "course",
+        "course": "MECENG 40"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "lower-division-prep",
+   "title": "Lower Division Prep",
+   "section": "Lower Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 1B"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CIVENG C30"
+       },
+       {
+        "type": "course",
+        "course": "MECENG C85"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 11"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 70"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61BL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "DATA C88S"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 64"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 45"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 45L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MECENG 104"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EPS 88"
+     }
+    ]
+   }
+  },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON C171"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C151"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 180"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 120"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 154"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 120"
+     },
+     {
+      "type": "course",
+      "course": "POLECON 101"
+     },
+     {
+      "type": "course",
+      "course": "POLECON N101"
+     }
+    ]
+   }
+  },
+  {
+   "id": "energy-and-resources-group",
+   "title": "Energy & Resources Group",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mathematics-and-statistics-analysis",
+   "title": "Mathematics & Statistics Analysis",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 93"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 191"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 70"
+     },
+     {
+      "type": "course",
+      "course": "EECS 127"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 117"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "MATH 55"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sustainability",
+   "title": "Sustainability",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 111"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 115"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 119"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-engineering",
+   "title": "Upper Division Engineering",
+   "section": "Upper Division",
+   "notes": "EECS has redesigned the power and energy curriculum in EECS to consist of a new introduction-to-power course (ELENG 108, offered every spring), a more advanced power electronics course (ELENG 113, offered every fall), and a new power electronics design lab course (ELENG 113B, offered every spring). In this new curriculum, ELENG 108 is a strict prerequisite for ELENG 113, and ELENG 113 is a strict prerequisite for ELENG 113B. Thus, all students who anticipate taking ELENG 113 must complete ELENG 108.\nELENG 113 and ELENG 137B may not both be used to satisfy this requirement. Students may take one or the other.",
+   "rule": {
+    "type": "filter",
+    "count": 6,
+    "filter": {
+     "courses": [
+      "CIVENG 186",
+      "ELENG 113",
+      "ELENG 134",
+      "ELENG 137A",
+      "ELENG 137B",
+      "ENGIN 194",
+      "MECENG 109"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mechanics",
+   "title": "Mechanics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG 100"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 106"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-engineering-electives",
+   "title": "Upper Division Engineering Electives",
+   "section": "Upper Division",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Complete 4 Engineering electives:\nEngineering electives are upper division courses in any engineering department and must be chosen in consultation with a faculty adviser.\n- Any ENGINEERING course 100-189 (includes: BIOENG, CIVENG, COMPSCI, EECS, ELENG, ENGIN, INDENG, MATSCI, MECENG, NUCENG).\n- STAT 133, 135\n- ENE RES 131\n- COMPSCI 61B\nExclusions:\n- Any course that counts as H/SS\n- Any course less than 3 units\n- BIOENG 100, 153\n- COMPSCI 194-100\n- DESINV courses (except DESINV 190E)\n- ENGIN 125, 157AC, 170 series, 180, 183 series, 185, 187, 195 series … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "STAT 133",
+     "STAT 135",
+     "COMPSCI 61B",
+     "BIOENG 100",
+     "BIOENG 153",
+     "COMPSCI 194",
+     "ENGIN 125",
+     "ENGIN 157AC",
+     "INDENG 172",
+     "INDENG 185",
+     "INDENG 186",
+     "INDENG 190"
+    ]
+   }
+  }
+ ]
+}

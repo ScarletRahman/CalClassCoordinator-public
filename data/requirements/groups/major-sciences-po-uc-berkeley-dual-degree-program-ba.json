@@ -1,0 +1,118 @@
+{
+ "id": "major-sciences-po-uc-berkeley-dual-degree-program-ba",
+ "title": "Sciences Po/UC Berkeley (Dual Degree Program) BA",
+ "kind": "major",
+ "programType": "dual-degree",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/lGbzq1dRlrsI9hRKhf4v",
+  "https://undergraduate.catalog.berkeley.edu/programs/lGbzq1dRlrsI9hRKhf4v/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "*25SPO",
+ "notes": [
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "essential-skills",
+   "title": "Essential Skills",
+   "section": "Letters & Science",
+   "rule": {
+    "type": "manual",
+    "text": "All Essential Skills Requirements (Reading and Composition, L&S Quantitative Reasoning, and L&S Foreign Language) will be satisfied by Sciences Po coursework."
+   }
+  },
+  {
+   "id": "l-and-s-seven-course-breadth",
+   "title": "L&S Seven-Course Breadth",
+   "section": "Letters & Science",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and provides context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nThe requirement consists of seven distribution areas: Arts and Literature, Biological Science, Historical Studies, International Studies, Philosophy and Values, Physical Science, and Social and Behavioral Sciences.\nFor descriptions of these distribution areas, as well as more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nGuidelines for Seven-Course Breadth\nComplete one approved course for each of the seven areas with a minimum grade of C- or P. To find course options for breadth, go to the Class Schedule, select the term of interest, and use the \"Breadth Requirements\" filter to select the breadth area(s) of interest. When selecting a course, keep the following in mind:\n- To satisfy the breadth requirement, complete seven distinct courses, one for each breadth area. Some courses may be listed in multiple breadth areas. These are options for which breadth areas the course can satisfy. A course may only be used for one of the approved breadth areas.\n- Seven-Course Breadth is fulfilled by taking 7 college courses. Exams, such as Advanced Placement and International Baccalaureate, cannot be used to fulfill breadth requirements.\n- Students may use up to two courses from any one academic department to satisfy the Seven-Course Breadth. This includes all subject areas offered by the department and—if a course is cross-listed (indicated by a 'C' prefix)—all other departments offering the course as well. Letters and Science (\"LS\") courses are an exception to this restriction. Students may complete as many LS courses as they wish for the Seven-Course Breadth. This includes LS courses offered through the Discovery and Big Ideas programs.\n- Courses fulfilling American History & Institutions, American Cultures. or requirements in the major program may also be applied to the Seven-Course Breadth requirement.\nSatisfying the Seven-Course Breadth Requirements with Transfer Work\n- Students admitted with IGETC Certification or UC Reciprocity have satisfied the Seven-Course Breadth Requirements. No additional coursework is required.\n- All transfer courses must be completed with a grade of C- or better, or the equivalent of a Passed grade on the host campus, in order to be considered for Seven-Course Breadth.\n- To be eligible for consideration, the minimum unit requirement for a course offered from a campus on the semester system is 3.0 units, and for courses offered from campuses on the quarter system, 4.0 units.\n- Students can complete pre-approved breadth courses at a California Community College. Pre-approved courses can be found on ASSIST. Refer to the L&S Transfer Credit page for instructions on how to take transfer credit as an L&S student before enrolling at a California Community College.\n- Successful completion of transferable courses from other higher education institutions (i.e., 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may also be considered. Course descriptions and syllabi will be required to make a breadth determination. For more information on pursuing transfer courses for Seven-Course Breadth at another higher education institution, review L&S’s Transfer Credit: Other Higher Education Institutions webpage.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "l-and-s-unit-requirements",
+   "title": "L&S Unit Requirements",
+   "section": "Letters & Science",
+   "notes": "- 120 total units\n- Of the 120 units, 36 must be upper division units\n- Of the 36 upper division units, 6 must be taken in courses offered outside your major department and 18 must be taken in residence",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "units",
+      "minUnits": 36,
+      "filter": {
+       "attribute": "UD"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Of the 36 upper division units, 6 are outside your major department and 18 are taken in residence"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dual-degrees",
+   "title": "Dual Degrees",
+   "section": "Science Po",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Students have access to almost all majors in the College of Letters and Science once at Berkeley. The most common majors for Dual Degree students and most easily connected to the Sciences Po curriculum are listed below. This, however, is not an exhaustive list, and if interested in a different major, please contact the program for specific information.\nDual Degree students have access to nearly all of the College of Letters and Science majors while at UC Berkeley. The majors listed below are the most common for Dual Degree students but do not represent all major options. … (see the catalog for the rest)"
+   }
+  }
+ ]
+}

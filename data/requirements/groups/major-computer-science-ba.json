@@ -1,0 +1,192 @@
+{
+ "id": "major-computer-science-ba",
+ "title": "Computer Science BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/A5201U",
+  "https://undergraduate.catalog.berkeley.edu/programs/A5201U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/A5201U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "A5201U",
+ "notes": [
+  "General Guidelines\n- All courses taken to fulfill the major requirements below must be 3 or more units and taken for a letter grade.\n- All courses for the major must be technical in nature. Courses numbered 199, 198, 197, 196, 195, plus select 194, 191, 190, and various seminars do not count. If you are unsure, please check with the CS advisers (cs-advising@cs.berkeley.edu).\n- Only one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs. No more than two upper division courses can overlap between two majors.\n- A minimum grade point average (GPA) of 2.0 must be maintained in both upper and lower division courses used to fulfill the major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       },
+       {
+        "type": "course",
+        "course": "MATH 56"
+       },
+       {
+        "type": "course",
+        "course": "ELENG 16A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-science",
+   "title": "Computer Science",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "COMPSCI 61A",
+      "COMPSCI 61B",
+      "COMPSCI 61BL",
+      "COMPSCI 61C",
+      "COMPSCI 61CL",
+      "COMPSCI 70"
+     ]
+    }
+   }
+  },
+  {
+   "id": "design",
+   "title": "Design",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "filter",
+      "minUnits": 4,
+      "filter": {
+       "courses": [
+        "COMPSCI 152",
+        "COMPSCI 160",
+        "COMPSCI 161",
+        "COMPSCI 162",
+        "COMPSCI 164",
+        "COMPSCI 168",
+        "COMPSCI 169A",
+        "COMPSCI 169L",
+        "COMPSCI 180",
+        "COMPSCI 184",
+        "COMPSCI 186",
+        "ELENG 130",
+        "ELENG 140",
+        "ELENG 143",
+        "ELENG 192",
+        "EECS C106A",
+        "EECS C106B",
+        "EECS 149",
+        "EECS 151"
+       ]
+      }
+     },
+     {
+      "type": "manual",
+      "text": "4 design units from an approved special topics or graduate course, or from a listed course that has since been renumbered (COMPSCI 182/W182, W186, EL ENG C128)"
+     }
+    ]
+   },
+   "overridden": true
+  },
+  {
+   "id": "computer-science-electrical-engineering",
+   "title": "Computer Science/Electrical Engineering",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "minUnits": 8,
+      "filter": {
+       "subjects": [
+        "COMPSCI"
+       ],
+       "minNumber": 100,
+       "maxNumber": 199,
+       "exclude": [
+        "COMPSCI 195",
+        "COMPSCI H195",
+        "COMPSCI H196A",
+        "COMPSCI H196B",
+        "COMPSCI 197",
+        "COMPSCI 198",
+        "COMPSCI 199"
+       ]
+      }
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "minUnits": 16,
+        "filter": {
+         "subjects": [
+          "COMPSCI",
+          "ELENG",
+          "EECS"
+         ],
+         "minNumber": 100,
+         "maxNumber": 199,
+         "exclude": [
+          "COMPSCI 195",
+          "COMPSCI H195",
+          "COMPSCI H196A",
+          "COMPSCI H196B",
+          "COMPSCI 197",
+          "COMPSCI 198",
+          "COMPSCI 199"
+         ]
+        }
+       },
+       {
+        "type": "manual",
+        "text": "16 upper division units reached by counting INFO 159, DATA 101 or STAT/DATA C100, the only courses outside COMPSCI/EL ENG/EECS that count"
+       }
+      ]
+     }
+    ]
+   },
+   "overridden": true
+  },
+  {
+   "id": "technical-electives",
+   "title": "Technical Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 4 units from the following:\n- Non-CS from our approved technical electives list or EL ENG/EECS\nAll courses for the major must be technical in nature. 199, 198, 197, 195, select 194, 191, 190, and various seminars do not count. Please see the table of approved COMPSCI 194’s and grad courses. If you are unsure, please check with the CS Advisors (cs-advising@cs.berkeley.edu).",
+    "mentionedCourses": [
+     "COMPSCI 194"
+    ]
+   }
+  }
+ ]
+}

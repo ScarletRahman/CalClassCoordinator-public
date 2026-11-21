@@ -1,0 +1,165 @@
+{
+ "id": "major-german-ba",
+ "title": "German BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25408U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25408U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25408U",
+ "requirements": [
+  {
+   "id": "german-language-requirement",
+   "title": "German Language Requirement",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GERMAN 1"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 2"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 3"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Students must complete 6 upper division courses for a minimum of 24 units.\nUp to 4 courses can be taken abroad.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GERMAN 100"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 101"
+     }
+    ]
+   }
+  },
+  {
+   "id": "german-taught-electives",
+   "title": "German-Taught Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "GERMAN 102A"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 102B"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 102D"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 105"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 108"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 112"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 123"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 131"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 170"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 175B"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 179"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 204"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 206"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 207"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 256"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 263C"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 265"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 276"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 280"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 282"
+     },
+     {
+      "type": "course",
+      "course": "GERMAN 290"
+     }
+    ]
+   }
+  },
+  {
+   "id": "german-major-electives",
+   "title": "German Major Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 12 units of:\n- GERMAN 100-196 courses",
+    "mentionedCourses": [
+     "GERMAN 100"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "id": "major-korean-language-and-culture-ba",
+ "title": "Korean Language and Culture BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/250M1U",
+  "https://undergraduate.catalog.berkeley.edu/programs/250M1U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "250M1U",
+ "notes": [
+  "Language Mastery: Rigorous training in modern spoken and written Korean, with opportunities to study hanja (classical Chinese characters used in Korea) and premodern Korean texts, offering deeper insights into Korea’s linguistic and intellectual traditions.\nInterdisciplinary Exploration: A broad array of courses on Korean literature, film, history, popular culture, and sociolinguistics. Courses are taught both in translation and in Korean, enabling students to engage critically with Korea’s dynamic cultural and historical landscapes.\nRegional and Historical Context: The program situates Korea within the broader East Asian context, while fostering an in-depth understanding of Korea’s unique historical experiences—including its encounters with colonialism, national division, war, and rapid modernization—through comparative and interdisciplinary perspectives."
+ ],
+ "requirements": [
+  {
+   "id": "elementary-korean",
+   "title": "Elementary Korean",
+   "section": "Lower Division",
+   "notes": "Students with prior experience in language, either by study or heritage learning, are required to take a placement exam and begin at the level determined by the exam.\nIf you have already taken this exam, reach out to your advisor to update your status.\nStudents can also place out of Elementary Korean A/B with the placement exam milestone.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "KOREAN 1A"
+       },
+       {
+        "type": "course",
+        "course": "KOREAN 1AX"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "KOREAN 1B"
+       },
+       {
+        "type": "course",
+        "course": "KOREAN 1BX"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "intermediate-korean",
+   "title": "Intermediate Korean",
+   "section": "Lower Division",
+   "notes": "Students with prior experience in language, either by study or heritage learning, are required to take a placement exam and begin at the level determined by the exam.\nIf you have already taken this exam, reach out to your advisor to update your status.\nStudents can also place out of Elementary Korean A/B with the placement exam milestone.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "KOREAN 10A"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 10B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "introduction-to-korean-literature-and-culture",
+   "title": "Introduction to Korean Literature & Culture",
+   "section": "Lower Division",
+   "notes": "KOREAN 7A and 7B must be taken at Berkeley.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "KOREAN 7A"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced-korean",
+   "title": "Advanced Korean",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "KOREAN 100A"
+       },
+       {
+        "type": "course",
+        "course": "KOREAN 100AX"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "KOREAN 100B"
+       },
+       {
+        "type": "course",
+        "course": "KOREAN 100BX"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "premodern-korean-language-and-literature",
+   "title": "Premodern Korean Language and Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CHINESE 110A",
+      "CHINESE 110B",
+      "KOREAN 130",
+      "KOREAN 140",
+      "KOREAN 141"
+     ]
+    }
+   }
+  },
+  {
+   "id": "modern-korean-literature-and-media",
+   "title": "Modern Korean Literature and Media",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "KOREAN 150"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 153"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 155"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 157"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 161"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 170"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 172"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 174"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 180"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 184"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 185"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 186"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 187"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 188"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 189"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ealc-electives",
+   "title": "EALC Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 2 courses offered by the EALC department (8 units total) :\n- CHINESE\n- EALANG\n- JAPAN\n- KOREAN\n- MONGOLN"
+   }
+  }
+ ]
+}

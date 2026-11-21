@@ -1,0 +1,96 @@
+{
+ "id": "minor-american-studies",
+ "title": "American Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I160U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I160U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I160U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "introduction",
+   "title": "Introduction",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AMERSTD 10"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 10AC"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD C20"
+     }
+    ]
+   }
+  },
+  {
+   "id": "time",
+   "title": "Time",
+   "section": "Upper Division",
+   "notes": "All students in the minor will have hands-on guidance and advice from American Studies faculty. For more information about the minor, please see our website and contact the American Studies Student Academic Advisor, Laura Spautz at amerstd@berkeley.edu.\nCourses must cover two different topics.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AMERSTD 101"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 101AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "place",
+   "title": "Place",
+   "section": "Upper Division",
+   "notes": "Courses must cover two different topics.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AMERSTD 102"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD 102AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "capstone",
+   "title": "Capstone",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "AMERSTD 191"
+     },
+     {
+      "type": "course",
+      "course": "AMERSTD H195"
+     }
+    ]
+   }
+  }
+ ]
+}

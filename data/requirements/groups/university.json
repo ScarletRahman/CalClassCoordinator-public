@@ -1,0 +1,122 @@
+{
+ "id": "university",
+ "title": "University of California and Berkeley campus requirements",
+ "kind": "university",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/earning-your-degree/university-campus-requirements"
+ ],
+ "catalogYear": "2026-27",
+ "requirements": [
+  {
+   "id": "entry-level-writing-elwr",
+   "title": "Entry Level Writing (ELWR)",
+   "notes": "All students who will enter the University of California as first-year students must demonstrate their writing proficiency by satisfying the Entry Level Writing Requirement (ELWR). Students admitted as transfer students will have satisfied this requirement via the English composition courses completed for transfer admission eligibility.\nThe UC Entry Level Writing Requirement website provides information on how to satisfy the requirement by one of three options:\n- Standardized Exam option: Visit the UC Entry Level Writing Requirement page for acceptable minimum scores on standardized exams.\n- English Composition Course option: Visit the UC Entry Level Writing Requirement page for acceptable English Composition courses.\n- Berkeley Writing Assessment (BWA) option.\n- Admitted students who have accepted the offer to attend Berkeley are advised to take the Berkeley Writing Assessment in May.\n- First-year students who have not yet satisfied the requirement prior to fall enrollment may take a make-up BWA in their first semester at Berkeley.\nOnce an admitted student begins courses at Berkeley, and the Entry Level Writing requirement has not otherwise been met, students must complete the 6-unit COLWRIT R1A. A grade of C or higher will satisfy both Entry Level Writing and Part A of the Reading and Composition requirement.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COLWRIT R1A"
+       },
+       {
+        "type": "course",
+        "course": "XCOLWRI R1A"
+       }
+      ]
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "attribute": "ELW"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "attribute": "RCA"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied by exam score, placement, or transfer course"
+     }
+    ]
+   }
+  },
+  {
+   "id": "american-history-and-institutions",
+   "title": "American History and Institutions",
+   "notes": "The American History & Institutions (AH&I) requirement is based on the principle that graduates from an American university should have an understanding of the history and governmental institutions of the United States.\nStudents may satisfy the American History & Institutions requirement by one of the following methods:\n- High School Course Work: Completion of a yearlong course in United States history with a grade of C- or higher; or completion of a half-year course in United States history and a half-year course in American government with grades of C- or higher.\n- Advanced Placement Exam: Score of 3, 4, or 5 on the College Board Advanced Placement (AP) exam in United States History or African American Studies.\n- International Baccalaureate Exam: Score of 5, 6, or 7 on the International Baccalaureate (IB) History of the Americas HL exam.\n- College Course Work: Completion of an approved UC Berkeley course, or an acceptable UC-transferable course of at least 3 semester or 4 quarter units, with a grade of C- or higher or P (Passed).\nExemption for Nonimmigrant Visa Status\nStudents with a current non-immigrant visa status (F1 is the most common) are exempt from this requirement once they complete 90.5 units, so long as the visa status is maintained through the last day of finals for the fall or spring semester graduates, or the last day of Summer Sessions instruction in August for students graduating in the summer.\nStudents with a non-immigrant visa status who plan to apply for residency while at Berkeley are advised to complete the American History & Institutions requirement so as not to delay graduation should residency be approved before completing their final term.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "attribute": "AH&I"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied in high school, by exam, by transfer work, or exempt (nonimmigrant visa)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "minimum-cumulative-gpa",
+   "title": "Minimum Cumulative GPA",
+   "notes": "All undergraduate students must earn an overall GPA of 2.00 for graduation. There may be additional GPA requirements for your major and minor.",
+   "rule": {
+    "type": "manual",
+    "text": "Overall GPA of at least 2.00"
+   }
+  },
+  {
+   "id": "american-cultures",
+   "title": "American Cultures",
+   "notes": "The American Cultures requirement is a Berkeley campus requirement, one that all undergraduate students at Berkeley need to pass in order to graduate. You satisfy the requirement by passing, with a grade not lower than C- or P, an American Cultures course. You may take an American Cultures course any time during your undergraduate career at Berkeley. The requirement was instituted in 1991 to introduce students to the diverse cultures of the United States through a comparative framework. Courses are offered in more than forty nine departments in many different disciplines at both the lower and upper division level.\nThe American Cultures requirement and courses constitute an approach that responds directly to the problem encountered in numerous disciplines of how better to present the diversity of American experience to the diversity of American students whom we now educate.\nFaculty members from many departments teach American Cultures courses, but all courses have a common framework. The courses focus on themes or issues in United States history, society, or culture; address theoretical or analytical issues relevant to understanding race, culture, and ethnicity in American society; take substantial account of groups drawn from at least three of the following: African Americans, Indigenous peoples of the United States, Asian Americans, Chicano/Latino Americans, and European Americans; and are integrative and comparative in that students study each group in the larger context of American society, history, or culture.\nThis is not an ethnic studies requirement, nor a Third World cultures requirement, nor an adjusted Western civilization requirement. These courses focus upon how the diversity of America's constituent cultural traditions have shaped and continue to shape American identity and experience.\nVisit the Class Schedule or the American Cultures Center website for the specific American Cultures courses offered each semester. For a complete list of approved American Cultures courses at UC Berkeley and California Community Colleges, please see the American Cultures Subcommittee’s website. See your academic adviser if you have questions about your responsibility to satisfy the American Cultures requirement.",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "attribute": "AC"
+    }
+   }
+  },
+  {
+   "id": "minimum-total-units",
+   "title": "Minimum Total Units",
+   "notes": "All undergraduate students must complete a minimum of 120 semester units to graduate.\nA maximum of 4 PE units and 16 Special Studies units (97, 98, 99, 197, 198, and 199) can be counted toward this requirement. Please note that these limitations are reflected in the Academic Progress Report (APR) but not in CalCentral under Academic Summary.",
+   "rule": {
+    "type": "units",
+    "minUnits": 120,
+    "filter": {}
+   }
+  },
+  {
+   "id": "1-3-passed-grade-limit",
+   "title": "1/3 Passed Grade Limit",
+   "notes": "Up to one-third of your total units graded as Passed Grade (P) count toward the 120-unit requirement for graduation. This limit is calculated as one-third of the units needed to reach 120, minus any transfer units and exam units. The remaining units (120 - Total Transfer/Exam Units) serve as the baseline for this calculation.\nTo estimate your personal limit, use the 1/3 Passed Grade Limit Calculator available in CalCentral under My Academics in the \"Degree Progress\" card.\nFor more information on the ⅓ Passed Grade Limit, visit the Central Evaluation Unit.",
+   "rule": {
+    "type": "manual",
+    "text": "No more than one-third of Berkeley units graded Passed"
+   }
+  },
+  {
+   "id": "senior-residence",
+   "title": "Senior Residence",
+   "notes": "As you pursue your degree at Berkeley, you have various opportunities, including attending other campuses, transferring units, and participating in programs like the UC Education Abroad Program (UCEAP) or Berkeley Summer Abroad.\nGiven these options, faculty require that you spend at least your senior year in residence as a graduation requirements. You are considered a senior upon completing 90 units, including both Berkeley and transfer units. To meet the Senior Residence requirement, after completing 90 semester units, you must earn at least 24 additional units through UC Berkeley courses over a minimum of two terms, with each term consisting of at least 6 earned units.\nFor more information on Senior Residence visit the Central Evaluation Unit.",
+   "rule": {
+    "type": "manual",
+    "text": "Senior residence: after 90 units, at least 24 of the remaining units in residence over two semesters"
+   }
+  }
+ ]
+}

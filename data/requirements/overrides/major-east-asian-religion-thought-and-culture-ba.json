@@ -1,0 +1,22 @@
+{
+ "why": "\"Students must complete one language series (two courses) with letter grades.\" The four language series are listed as four required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252E1U"
+ ],
+ "merge": [
+  {
+   "block": "Lower Division: Intermediate Language",
+   "title": "Intermediate Language Series",
+   "type": "anyOf",
+   "notesFrom": [
+    "Language Series"
+   ],
+   "rules": [
+    "Chinese Language Series",
+    "Chinese Heritage Language Series",
+    "Japanese Language Series",
+    "Tibetan"
+   ]
+  }
+ ]
+}

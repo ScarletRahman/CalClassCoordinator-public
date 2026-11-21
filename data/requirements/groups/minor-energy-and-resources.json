@@ -1,0 +1,832 @@
+{
+ "id": "minor-energy-and-resources",
+ "title": "Energy and Resources minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04I002U",
+  "https://undergraduate.catalog.berkeley.edu/programs/04I002U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "04I002U",
+ "notes": [
+  "General Guidelines\n- All courses taken to fulfill the minor requirements below must be taken for graded credit, except for courses taken in Spring 2020, Summer 2020, Fall 2020, Spring 2021, or Summer 2021, when students will be allowed to take courses Pass/No Pass.\n- A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n- All courses for the minor must be completed with a grade of C- or better.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- At least four upper division courses must be taken at UC Berkeley.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "upper-division",
+   "title": "Upper Division",
+   "section": "Upper Division",
+   "rule": {
+    "type": "manual",
+    "text": "Students must complete each course with a letter grade of C- or higher. At least three upper division courses must be ENERES."
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENERES C100"
+       },
+       {
+        "type": "course",
+        "course": "ENERES W100"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C184"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL W184"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     }
+    ]
+   }
+  },
+  {
+   "id": "natural-science",
+   "title": "Natural Science",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CIVENG C103N"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C106"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C116"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C172"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 11"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 105"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 110"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 112"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 115"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 186"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137B"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 101"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 131"
+     },
+     {
+      "type": "course",
+      "course": "EPS C129"
+     },
+     {
+      "type": "course",
+      "course": "EPS C180"
+     },
+     {
+      "type": "course",
+      "course": "EPS C183"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C110A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C128"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C129"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C130"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C170"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C172"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C180"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 111"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 112"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 116B"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 120"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 130A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 131"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 140"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 152"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 174A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C136"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 140A"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C153"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH C110A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-sciences",
+   "title": "Social Sciences",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ECON C125"
+     },
+     {
+      "type": "course",
+      "course": "ECON C171"
+     },
+     {
+      "type": "course",
+      "course": "ECON C184"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C160"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C176"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 140"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 160"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 174W"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 175"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 190B"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 273"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C101"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C132"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C151"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C176"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 145"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 147"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 162"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C176"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 138"
+     },
+     {
+      "type": "course",
+      "course": "IAS C176"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100I"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO C119A"
+     },
+     {
+      "type": "course",
+      "course": "ARCH 140"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C103N"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C106"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C116"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG C172"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 100"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 105"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 107"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 110"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 111"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 112"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 113"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 115"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 173"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 175"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 176"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 186"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 191"
+     },
+     {
+      "type": "course",
+      "course": "CIVENG 206"
+     },
+     {
+      "type": "course",
+      "course": "CYPLAN 119"
+     },
+     {
+      "type": "course",
+      "course": "DEVP C221"
+     },
+     {
+      "type": "course",
+      "course": "ECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ECON C125"
+     },
+     {
+      "type": "course",
+      "course": "ECON C184"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137A"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 137B"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C160"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C176"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C221"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 101"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 131"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 140"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 160"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 170"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 171"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 174W"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 175"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 190"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 190B"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 199"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 254"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 273"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 275"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 276"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 293A"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 102"
+     },
+     {
+      "type": "course",
+      "course": "ENVDES 106"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C101"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C102"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C132"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C151"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C176"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 141"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 145"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 147"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 153"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON 162"
+     },
+     {
+      "type": "course",
+      "course": "EPS C129"
+     },
+     {
+      "type": "course",
+      "course": "EPS C180"
+     },
+     {
+      "type": "course",
+      "course": "EPS C183"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C110A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C128"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C129"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C130"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C133"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C153"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C162A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C170"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C172"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C176"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C180"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C216"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 102D"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 111"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 112"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 116B"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 118"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 120"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 130A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 131"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 140"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 152"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 155AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 157"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 160AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 162A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 163AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 168"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 169"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 174A"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 177A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C135"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C136"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 114"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 130"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 138"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 140A"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 147"
+     },
+     {
+      "type": "course",
+      "course": "GEOG 157"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 120AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS C176"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C153"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C216"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "ISF 100I"
+     },
+     {
+      "type": "course",
+      "course": "LDARCH C110A"
+     },
+     {
+      "type": "course",
+      "course": "MECENG 146"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C221"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 137AC"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 192P"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 193B"
+     }
+    ]
+   }
+  }
+ ]
+}

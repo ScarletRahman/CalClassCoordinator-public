@@ -1,0 +1,30 @@
+{
+ "why": "\"Students may complete the Math 10 series (Option 1), or one Math A series course, one Math B series course, and one Statistics course (Option 2).\" The catalog lists all four rows as required.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/040KGU"
+ ],
+ "merge": [
+  {
+   "block": "Mathematics Options",
+   "title": "Mathematics",
+   "type": "anyOf",
+   "notes": "Complete the Math 10 series (Option 1), or one Math A series course, one Math B series course and one Statistics course (Option 2).",
+   "parts": [
+    {
+     "label": "Option 1: Math 10 series",
+     "rules": [
+      "Option 1: Math 10 Series"
+     ]
+    },
+    {
+     "label": "Option 2: Math A, Math B and Statistics",
+     "rules": [
+      "Option 2: Math A Series",
+      "Option 2: Math B Series",
+      "Option 2: Statistics"
+     ]
+    }
+   ]
+  }
+ ]
+}

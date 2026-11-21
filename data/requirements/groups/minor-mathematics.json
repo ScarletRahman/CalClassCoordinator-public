@@ -1,0 +1,256 @@
+{
+ "id": "minor-mathematics",
+ "title": "Mathematics minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I071U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I071U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I071U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 104"
+       },
+       {
+        "type": "course",
+        "course": "MATH H104"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 110"
+       },
+       {
+        "type": "course",
+        "course": "MATH H110"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 113"
+       },
+       {
+        "type": "course",
+        "course": "MATH H113"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 185"
+       },
+       {
+        "type": "course",
+        "course": "MATH H185"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division",
+   "title": "Upper Division",
+   "section": "Upper Division",
+   "notes": "- Any MATH 100-196 level course\n- Any MATH 200-289 level course",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "CHMENG 141",
+      "COMPSCI 162",
+      "COMPSCI 164",
+      "COMPSCI 170",
+      "COMPSCI 172",
+      "COMPSCI 174",
+      "COMPSCI 184",
+      "COMPSCI 188",
+      "COMPSCI 189",
+      "ECON 104",
+      "ECON 141",
+      "ELENG 120",
+      "ELENG 122",
+      "ELENG 123",
+      "ENGIN 115",
+      "EPS 104",
+      "EPS 108",
+      "EPS 121",
+      "EPS 122",
+      "EPS 130",
+      "INDENG 130",
+      "INDENG 160",
+      "INDENG 161",
+      "INDENG 162",
+      "MECENG 104",
+      "MECENG 106",
+      "MECENG 163",
+      "PHYSICS 105",
+      "PHYSICS 137A",
+      "PHYSICS 137B",
+      "PHYSICS 139",
+      "STAT 134",
+      "STAT 135",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 153",
+      "STAT 154",
+      "STAT 155",
+      "MATH 100",
+      "MATH 104",
+      "MATH 105",
+      "MATH 106",
+      "MATH 110",
+      "MATH 113",
+      "MATH 114",
+      "MATH 115",
+      "MATH 116",
+      "MATH 118",
+      "MATH 121A",
+      "MATH 121B",
+      "MATH 123",
+      "MATH 124",
+      "MATH 125A",
+      "MATH 125B",
+      "MATH 126",
+      "MATH 127",
+      "MATH 128A",
+      "MATH 128B",
+      "MATH 130",
+      "MATH 135",
+      "MATH 136",
+      "MATH 140",
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 151",
+      "MATH 152",
+      "MATH 153",
+      "MATH 156",
+      "MATH 160",
+      "MATH 170",
+      "MATH 172",
+      "MATH 185",
+      "MATH 189",
+      "MATH 191",
+      "MATH 195",
+      "MATH 196",
+      "MATH C103",
+      "MATH H104",
+      "MATH H110",
+      "MATH H113",
+      "MATH H185",
+      "MATH W128A",
+      "MATH 202A",
+      "MATH 202B",
+      "MATH 204",
+      "MATH 205",
+      "MATH 206",
+      "MATH 207",
+      "MATH 208",
+      "MATH 209",
+      "MATH 210",
+      "MATH 211",
+      "MATH 212",
+      "MATH 214",
+      "MATH 215A",
+      "MATH 215B",
+      "MATH 219",
+      "MATH 220",
+      "MATH 221",
+      "MATH 222A",
+      "MATH 222B",
+      "MATH 224A",
+      "MATH 224B",
+      "MATH 225A",
+      "MATH 225B",
+      "MATH 226A",
+      "MATH 226B",
+      "MATH 227A",
+      "MATH 227B",
+      "MATH 228A",
+      "MATH 228B",
+      "MATH 229",
+      "MATH 235A",
+      "MATH 235B",
+      "MATH 236",
+      "MATH 239",
+      "MATH 240",
+      "MATH 241",
+      "MATH 242",
+      "MATH 245A",
+      "MATH 245B",
+      "MATH 249",
+      "MATH 250A",
+      "MATH 250B",
+      "MATH 251",
+      "MATH 252",
+      "MATH 253",
+      "MATH 254A",
+      "MATH 254B",
+      "MATH 255",
+      "MATH 255A",
+      "MATH 255B",
+      "MATH 256A",
+      "MATH 256B",
+      "MATH 257",
+      "MATH 258",
+      "MATH 259",
+      "MATH 260",
+      "MATH 261A",
+      "MATH 261B",
+      "MATH 270",
+      "MATH 271",
+      "MATH 272",
+      "MATH 273",
+      "MATH 273A",
+      "MATH 273B",
+      "MATH 273C",
+      "MATH 273D",
+      "MATH 273E",
+      "MATH 273G",
+      "MATH 273H",
+      "MATH 273J",
+      "MATH 273K",
+      "MATH 274",
+      "MATH 275",
+      "MATH 276",
+      "MATH 277",
+      "MATH 278",
+      "MATH 279",
+      "MATH 280A",
+      "MATH 280B"
+     ]
+    }
+   }
+  }
+ ]
+}

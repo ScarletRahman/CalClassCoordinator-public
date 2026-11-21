@@ -1,0 +1,842 @@
+{
+ "id": "major-middle-eastern-languages-and-cultures-ba",
+ "title": "Middle Eastern Languages and Cultures BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/tOjk97DmMV1K3NLmM6uC",
+  "https://undergraduate.catalog.berkeley.edu/programs/tOjk97DmMV1K3NLmM6uC/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "*25MELC",
+ "choices": [
+  {
+   "id": "specialization",
+   "title": "Specialization and Emphasis",
+   "pick": 1,
+   "options": [
+    {
+     "id": "middle-eastern-worlds-ancient-worlds",
+     "title": "Middle Eastern Worlds: Ancient Worlds"
+    },
+    {
+     "id": "middle-eastern-worlds-modern-worlds",
+     "title": "Middle Eastern Worlds: Modern Worlds"
+    },
+    {
+     "id": "middle-eastern-languages-and-literature-arabic",
+     "title": "Middle Eastern Languages and Literature: Arabic"
+    },
+    {
+     "id": "middle-eastern-languages-and-literature-hebrew",
+     "title": "Middle Eastern Languages and Literature: Hebrew"
+    },
+    {
+     "id": "middle-eastern-languages-and-literature-persian",
+     "title": "Middle Eastern Languages and Literature: Persian"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "The Middle Eastern Languages and Cultures (MELC) major offers two Specializations:\n- Middle Eastern Worlds\n- Middle Eastern Languages and Literature\nStudents in the Middle Eastern Languages and Literature specialization may choose an emphasis in Arabic, Hebrew, or Persian. Students in the Middle Eastern Worlds specialization may choose an emphasis in Ancient Middle Eastern Worlds or Modern Middle Eastern Worlds.\nStudents are encouraged to begin the study of a language early in their academic studies. MELC 10 (Middle Eastern Worlds: Ancient Egypt and Mesopotamia) and MELC 11 ( The Modern Middle Eastern Worlds) are required courses for the major."
+ ],
+ "requirements": [
+  {
+   "id": "middle-eastern-worlds-ancient-worlds-lower-division-core",
+   "title": "Lower Division Core",
+   "section": "Middle Eastern Worlds: Ancient Worlds",
+   "choice": "specialization",
+   "option": "middle-eastern-worlds-ancient-worlds",
+   "notes": "Complete each course with a letter grade.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MELC 10"
+     },
+     {
+      "type": "course",
+      "course": "MELC 11"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-worlds-ancient-worlds-ancient-middle-eastern-worlds",
+   "title": "Ancient Middle Eastern Worlds",
+   "section": "Middle Eastern Worlds: Ancient Worlds",
+   "choice": "specialization",
+   "option": "middle-eastern-worlds-ancient-worlds",
+   "notes": "Up to two upper division language courses may be used toward this requirement:\nCUNEIF 100A, CUNEIF 100B, CUNEIF 101A, CUNEIF 101B, CUNEIF 102A, CUNEIF 102B, CUNEIF 103A, CUNEIF 103B, CUNEIF 106A, CUNEIF 106B, EGYPT 100A, EGYPT 100B, EGYPT 101A, EGYPT 101B, EGYPT 102A, EGYPT 102B, HEBREW 106A, HEBREW 106B, HEBREW 107A, HEBREW 107B … (see the catalog for the rest) (full list on the catalog page)",
+   "rule": {
+    "type": "filter",
+    "count": 7,
+    "filter": {
+     "courses": [
+      "MELC 18",
+      "MELC 100",
+      "MELC 101",
+      "MELC 102",
+      "MELC 103",
+      "MELC 104",
+      "MELC 105",
+      "MELC 106",
+      "MELC 108",
+      "MELC 109",
+      "MELC 110",
+      "MELC 111",
+      "MELC 112",
+      "MELC 113",
+      "MELC 114",
+      "MELC 115",
+      "MELC 116",
+      "MELC 117AC",
+      "MELC 118",
+      "MELC 119",
+      "MELC 122",
+      "MELC 123",
+      "MELC 125",
+      "MELC 126",
+      "MELC 127",
+      "MELC 129",
+      "MELC 130",
+      "MELC 131",
+      "MELC 132",
+      "MELC 133",
+      "MELC 134",
+      "MELC 135",
+      "MELC 136",
+      "MELC 137",
+      "MELC 138",
+      "MELC 139",
+      "MELC 160",
+      "MELC 161",
+      "MELC C120A",
+      "MELC C120B",
+      "MELC C188"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-worlds-modern-worlds-core",
+   "title": "Core",
+   "section": "Middle Eastern Worlds: Modern Worlds",
+   "choice": "specialization",
+   "option": "middle-eastern-worlds-modern-worlds",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MELC 10"
+     },
+     {
+      "type": "course",
+      "course": "MELC 11"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-worlds-modern-worlds-modern-middle-eastern-worlds",
+   "title": "Modern Middle Eastern Worlds",
+   "section": "Middle Eastern Worlds: Modern Worlds",
+   "choice": "specialization",
+   "option": "middle-eastern-worlds-modern-worlds",
+   "notes": "Up to two language courses may be used toward this requirement:\nARABIC 100A, ARABIC 100B, ARABIC 104A, ARABIC 104B, ARABIC 105A, ARABIC 105B, ARABIC 107, ARABIC 108, ARABIC 111A, ARABIC 111B, ARABIC 115A, ARABIC 115B, HEBREW 100A, HEBREW 100B, HEBREW 102A, HEBREW 102B, HEBREW 103A, HEBREW 103B, HEBREW 104A, HEBREW 104B … (see the catalog for the rest) (full list on the catalog page)",
+   "rule": {
+    "type": "filter",
+    "count": 7,
+    "filter": {
+     "courses": [
+      "MELC 100",
+      "MELC 101",
+      "MELC 102",
+      "MELC 103",
+      "MELC 104",
+      "MELC 105",
+      "MELC 106",
+      "MELC 108",
+      "MELC 109",
+      "MELC 110",
+      "MELC 111",
+      "MELC 112",
+      "MELC 113",
+      "MELC 114",
+      "MELC 115",
+      "MELC 116",
+      "MELC 117AC",
+      "MELC 118",
+      "MELC 119",
+      "MELC 122",
+      "MELC 123",
+      "MELC 124",
+      "MELC 125",
+      "MELC 126",
+      "MELC 127",
+      "MELC 128",
+      "MELC 129",
+      "MELC 130",
+      "MELC 131",
+      "MELC 132",
+      "MELC 133",
+      "MELC 134",
+      "MELC 135",
+      "MELC 136",
+      "MELC 137",
+      "MELC 138",
+      "MELC 139",
+      "MELC 140",
+      "MELC 142",
+      "MELC 143",
+      "MELC 144",
+      "MELC 146",
+      "MELC 147",
+      "MELC 148",
+      "MELC 149",
+      "MELC 150A",
+      "MELC 150B",
+      "MELC 151",
+      "MELC 152",
+      "MELC 153",
+      "MELC 154",
+      "MELC 155",
+      "MELC 156",
+      "MELC 157",
+      "MELC 158AC",
+      "MELC 159",
+      "MELC 160",
+      "MELC 161",
+      "MELC 162",
+      "MELC 163",
+      "MELC 165",
+      "MELC 170",
+      "MELC 171",
+      "MELC 173",
+      "MELC 174",
+      "MELC 175",
+      "MELC 180",
+      "MELC 181",
+      "MELC 187",
+      "MELC 190A",
+      "MELC 190C",
+      "MELC 190D",
+      "MELC 190E",
+      "MELC 190H",
+      "MELC 190I",
+      "MELC 192A",
+      "MELC 192B",
+      "MELC 192C",
+      "MELC 192D",
+      "MELC 192E",
+      "MELC 117AC",
+      "MELC C120A",
+      "MELC C120B",
+      "MELC C121"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-arabic-prerequisite-elementary-arabic",
+   "title": "Prerequisite: Elementary Arabic",
+   "section": "Middle Eastern Languages and Literature: Arabic",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-arabic",
+   "notes": "ARABIC 10 is an intensive course equivalent to ARABIC 1A & ARABIC 1B.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 10,
+    "filter": {
+     "courses": [
+      "ARABIC 1A",
+      "ARABIC 1B",
+      "ARABIC 10"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-arabic-prerequisite-intermediate-arabic",
+   "title": "Prerequisite: Intermediate Arabic",
+   "section": "Middle Eastern Languages and Literature: Arabic",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-arabic",
+   "notes": "ARABIC 30 is an intensive course equivalent to ARABIC 20A & ARABIC 20B.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 10,
+    "filter": {
+     "courses": [
+      "ARABIC 20A",
+      "ARABIC 20B",
+      "ARABIC 30"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-arabic-lower-division-introduction-to-the-middle-e",
+   "title": "Lower Division: Introduction to the Middle East",
+   "section": "Middle Eastern Languages and Literature: Arabic",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-arabic",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MELC 10"
+     },
+     {
+      "type": "course",
+      "course": "MELC 11"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-arabic-language",
+   "title": "Language",
+   "section": "Middle Eastern Languages and Literature: Arabic",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-arabic",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARABIC 100A"
+     },
+     {
+      "type": "course",
+      "course": "ARABIC 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-arabic-language-and-literature",
+   "title": "Language & Literature",
+   "section": "Middle Eastern Languages and Literature: Arabic",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-arabic",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "ARABIC 103",
+      "ARABIC 104A",
+      "ARABIC 105A",
+      "ARABIC 105B",
+      "ARABIC 107",
+      "ARABIC 108",
+      "ARABIC 111A",
+      "ARABIC 111B",
+      "ARABIC 115A",
+      "ARABIC 115B",
+      "ARABIC 190",
+      "ARABIC 190A",
+      "ARABIC 198",
+      "ARABIC 199"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-arabic-culture-and-history",
+   "title": "Culture & History",
+   "section": "Middle Eastern Languages and Literature: Arabic",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-arabic",
+   "notes": "- Any MELC course 100-199",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ASAMST 128AC",
+      "ASAMST 132",
+      "HISTART C120A",
+      "HISTART C120B",
+      "HISTART C121A",
+      "HISTART C140",
+      "HISTORY C188C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-hebrew-prerequisites-hebrew",
+   "title": "Prerequisites: Hebrew",
+   "section": "Middle Eastern Languages and Literature: Hebrew",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-hebrew",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "HEBREW 1A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 1B"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 20A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 20B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-hebrew-language",
+   "title": "Language",
+   "section": "Middle Eastern Languages and Literature: Hebrew",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-hebrew",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "HEBREW 100A"
+     },
+     {
+      "type": "course",
+      "course": "HEBREW 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-hebrew-language-and-literature",
+   "title": "Language & Literature",
+   "section": "Middle Eastern Languages and Literature: Hebrew",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-hebrew",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "HEBREW 102A",
+      "HEBREW 102B",
+      "HEBREW 103A",
+      "HEBREW 103B",
+      "HEBREW 104A",
+      "HEBREW 104B",
+      "HEBREW 105A",
+      "HEBREW 105B",
+      "HEBREW 190B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-hebrew-culture-and-history",
+   "title": "Culture & History",
+   "section": "Middle Eastern Languages and Literature: Hebrew",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-hebrew",
+   "notes": "- Any JEWISH 100-196 level course\n- Any MELC 100-196 level course",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ASAMST 128AC",
+      "ASAMST 132",
+      "HISTART C120A",
+      "HISTART C120B",
+      "HISTART C121A",
+      "HISTART C140",
+      "HISTORY C188C",
+      "MELC 198",
+      "MELC 199",
+      "JEWISH 100",
+      "JEWISH 101",
+      "JEWISH 102",
+      "JEWISH 103",
+      "JEWISH 110",
+      "JEWISH 117",
+      "JEWISH 120",
+      "JEWISH 120A",
+      "JEWISH 121",
+      "JEWISH 121A",
+      "JEWISH 121B",
+      "JEWISH 121S",
+      "JEWISH 122",
+      "JEWISH 122A",
+      "JEWISH 122B",
+      "JEWISH 123",
+      "JEWISH 123A",
+      "JEWISH 125",
+      "JEWISH 126",
+      "JEWISH 130",
+      "JEWISH 175B",
+      "JEWISH 175E",
+      "JEWISH 178",
+      "JEWISH 179",
+      "JEWISH C179",
+      "MELC 100",
+      "MELC 101",
+      "MELC 102",
+      "MELC 103",
+      "MELC 104",
+      "MELC 105",
+      "MELC 106",
+      "MELC 108",
+      "MELC 109",
+      "MELC 110",
+      "MELC 111",
+      "MELC 112",
+      "MELC 113",
+      "MELC 114",
+      "MELC 115",
+      "MELC 116",
+      "MELC 117",
+      "MELC 117AC",
+      "MELC 118",
+      "MELC 119",
+      "MELC 122",
+      "MELC 123",
+      "MELC 124",
+      "MELC 125",
+      "MELC 126",
+      "MELC 127",
+      "MELC 128",
+      "MELC 129",
+      "MELC 130",
+      "MELC 131",
+      "MELC 132",
+      "MELC 133",
+      "MELC 134",
+      "MELC 135",
+      "MELC 136",
+      "MELC 137",
+      "MELC 138",
+      "MELC 139",
+      "MELC 140",
+      "MELC 142",
+      "MELC 143",
+      "MELC 144",
+      "MELC 145",
+      "MELC 146",
+      "MELC 147",
+      "MELC 148",
+      "MELC 149",
+      "MELC 150A",
+      "MELC 150B",
+      "MELC 151",
+      "MELC 152",
+      "MELC 153",
+      "MELC 154",
+      "MELC 155",
+      "MELC 156",
+      "MELC 157",
+      "MELC 158AC",
+      "MELC 159",
+      "MELC 160",
+      "MELC 161",
+      "MELC 162",
+      "MELC 163",
+      "MELC 165",
+      "MELC 166",
+      "MELC 170",
+      "MELC 171",
+      "MELC 173",
+      "MELC 174",
+      "MELC 175",
+      "MELC 180",
+      "MELC 181",
+      "MELC 187",
+      "MELC 190A",
+      "MELC 190B",
+      "MELC 190C",
+      "MELC 190D",
+      "MELC 190E",
+      "MELC 190H",
+      "MELC 190I",
+      "MELC 192",
+      "MELC 192A",
+      "MELC 192B",
+      "MELC 192C",
+      "MELC 192D",
+      "MELC 192E",
+      "MELC 192F",
+      "MELC 192G",
+      "MELC 192H",
+      "MELC 192I",
+      "MELC 192J",
+      "MELC 192K",
+      "MELC 193",
+      "MELC C120A",
+      "MELC C120B",
+      "MELC C121",
+      "MELC C129",
+      "MELC C188",
+      "MELC H195"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-persian-prerequisites-elementary-persian",
+   "title": "Prerequisites: Elementary Persian",
+   "section": "Middle Eastern Languages and Literature: Persian",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-persian",
+   "notes": "Students will complete one of the following sets of two courses:",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PERSIAN 1A"
+       },
+       {
+        "type": "course",
+        "course": "PERSIAN 1B"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PERSIAN 11A"
+       },
+       {
+        "type": "course",
+        "course": "PERSIAN 11B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-persian-prerequisites-intermediate-persian",
+   "title": "Prerequisites: Intermediate Persian",
+   "section": "Middle Eastern Languages and Literature: Persian",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-persian",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PERSIAN 20A"
+     },
+     {
+      "type": "course",
+      "course": "PERSIAN 20B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-persian-lower-division-introduction-to-the-middle-",
+   "title": "Lower Division: Introduction to the Middle East",
+   "section": "Middle Eastern Languages and Literature: Persian",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-persian",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MELC 10"
+     },
+     {
+      "type": "course",
+      "course": "MELC 11"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-persian-language",
+   "title": "Language",
+   "section": "Middle Eastern Languages and Literature: Persian",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-persian",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PERSIAN 100A"
+     },
+     {
+      "type": "course",
+      "course": "PERSIAN 100B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-persian-language-and-literature",
+   "title": "Language & Literature",
+   "section": "Middle Eastern Languages and Literature: Persian",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-persian",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "PERSIAN 101A",
+      "PERSIAN 101B",
+      "PERSIAN 102A",
+      "PERSIAN 102B",
+      "PERSIAN 103A",
+      "PERSIAN 103B",
+      "PERSIAN 104A",
+      "PERSIAN 104B",
+      "PERSIAN 105",
+      "PERSIAN 105A",
+      "PERSIAN 190",
+      "PERSIAN 198",
+      "PERSIAN 199"
+     ]
+    }
+   }
+  },
+  {
+   "id": "middle-eastern-languages-and-literature-persian-culture-and-history",
+   "title": "Culture & History",
+   "section": "Middle Eastern Languages and Literature: Persian",
+   "choice": "specialization",
+   "option": "middle-eastern-languages-and-literature-persian",
+   "notes": "- Any MELC 100-196 level course",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ASAMST 128AC",
+      "ASAMST 132",
+      "HISTART C120A",
+      "HISTART C120B",
+      "HISTART C121A",
+      "HISTART C140",
+      "HISTORY C188C",
+      "MELC 100",
+      "MELC 101",
+      "MELC 102",
+      "MELC 103",
+      "MELC 104",
+      "MELC 105",
+      "MELC 106",
+      "MELC 108",
+      "MELC 109",
+      "MELC 110",
+      "MELC 111",
+      "MELC 112",
+      "MELC 113",
+      "MELC 114",
+      "MELC 115",
+      "MELC 116",
+      "MELC 117",
+      "MELC 117AC",
+      "MELC 118",
+      "MELC 119",
+      "MELC 122",
+      "MELC 123",
+      "MELC 124",
+      "MELC 125",
+      "MELC 126",
+      "MELC 127",
+      "MELC 128",
+      "MELC 129",
+      "MELC 130",
+      "MELC 131",
+      "MELC 132",
+      "MELC 133",
+      "MELC 134",
+      "MELC 135",
+      "MELC 136",
+      "MELC 137",
+      "MELC 138",
+      "MELC 139",
+      "MELC 140",
+      "MELC 142",
+      "MELC 143",
+      "MELC 144",
+      "MELC 145",
+      "MELC 146",
+      "MELC 147",
+      "MELC 148",
+      "MELC 149",
+      "MELC 150A",
+      "MELC 150B",
+      "MELC 151",
+      "MELC 152",
+      "MELC 153",
+      "MELC 154",
+      "MELC 155",
+      "MELC 156",
+      "MELC 157",
+      "MELC 158AC",
+      "MELC 159",
+      "MELC 160",
+      "MELC 161",
+      "MELC 162",
+      "MELC 163",
+      "MELC 165",
+      "MELC 166",
+      "MELC 170",
+      "MELC 171",
+      "MELC 173",
+      "MELC 174",
+      "MELC 175",
+      "MELC 180",
+      "MELC 181",
+      "MELC 187",
+      "MELC 190A",
+      "MELC 190B",
+      "MELC 190C",
+      "MELC 190D",
+      "MELC 190E",
+      "MELC 190H",
+      "MELC 190I",
+      "MELC 192",
+      "MELC 192A",
+      "MELC 192B",
+      "MELC 192C",
+      "MELC 192D",
+      "MELC 192E",
+      "MELC 192F",
+      "MELC 192G",
+      "MELC 192H",
+      "MELC 192I",
+      "MELC 192J",
+      "MELC 192K",
+      "MELC 193",
+      "MELC C120A",
+      "MELC C120B",
+      "MELC C121",
+      "MELC C129",
+      "MELC C188",
+      "MELC H195"
+     ]
+    }
+   }
+  }
+ ]
+}

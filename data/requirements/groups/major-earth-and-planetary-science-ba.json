@@ -1,0 +1,1561 @@
+{
+ "id": "major-earth-and-planetary-science-ba",
+ "title": "Earth & Planetary Science BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252A4U",
+  "https://undergraduate.catalog.berkeley.edu/programs/252A4U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "252A4U",
+ "choices": [
+  {
+   "id": "specialization",
+   "title": "Specialization",
+   "pick": 1,
+   "options": [
+    {
+     "id": "atmospheric-science",
+     "title": "Atmospheric Science"
+    },
+    {
+     "id": "environmental-earth-science",
+     "title": "Environmental Earth Science"
+    },
+    {
+     "id": "geology",
+     "title": "Geology"
+    },
+    {
+     "id": "geophysics",
+     "title": "Geophysics"
+    },
+    {
+     "id": "marine-science",
+     "title": "Marine Science"
+    },
+    {
+     "id": "planetary-science",
+     "title": "Planetary Science"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "The Department of Earth and Planetary Science offers one undergraduate major with 6 specializations:\n- Atmospheric Science\n- Geophysics\n- Environmental Earth Science\n- Marine Science\n- Geology\n- Planetary Science\nAll majors in Earth and Planetary Science take a common set of classes that provide an overview of the Earth system. EPS majors then build on this foundation by taking additional classes in a discipline specialization of their choosing.\nRequirements for each specialization are listed below the core requirements.",
+  "Double Specializations\nEPS majors have the opportunity to complete up to two specializations. The opportunity to pursue more than one specialization can allow some students to explore multiple facets of the discipline and offer the ability to optimize their undergraduate learning experience, which could better inform a focus for graduate education or job placement.\nStudents who wish to complete a double specialization within the EPS major must fill out a program plan to demonstrate timely progress to complete the major by their assigned EGT. This form will be reviewed and approved by the undergraduate major advisor before adding an additional specialization. Faculty advisors will have full discretion to review proposed double specializations and to require modifications if overlapping coursework does not result in a sufficiently distinct program. No double specialization will be approved without the sign-off of the relevant faculty advisors, who will verify that the combination represents a coherent and academically meaningful course of study.\nPlease contact an EPS advisor to discuss program planning and other questions."
+ ],
+ "requirements": [
+  {
+   "id": "planet-earth",
+   "title": "Planet Earth",
+   "section": "General EPS Requirements",
+   "rule": {
+    "type": "course",
+    "course": "EPS 50"
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "General EPS Requirements",
+   "notes": "Students must complete either CHEM (1A and1AL), or CHEM 4A.\nAlso satisfied by:\n- A-Level: Chemistry, score 1-2\n- AP: Chemistry, score 3+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "atmospheric-science-calculus",
+   "title": "Calculus",
+   "section": "Atmospheric Science: Lower Division",
+   "choice": "specialization",
+   "option": "atmospheric-science",
+   "notes": "Students must complete each course with a letter grade. Students must earn a 2.0 GPA average in the lower division courses. No more than one grade below C- will be accepted.\nCalculus 1 exams:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus AB, score 3+\n- AP: Mathematics: Calculus BC, score 3+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\nCalculus 2 exams:\n- AP: Mathematics: Calculus BC, score 5\n- IB: HL Further Mathematics, score 7\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 51"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 52"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "course",
+        "course": "MATH H53"
+       },
+       {
+        "type": "course",
+        "course": "MATH N53"
+       },
+       {
+        "type": "course",
+        "course": "MATH W53"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "atmospheric-science-linear-algebra",
+   "title": "Linear Algebra",
+   "section": "Atmospheric Science: Lower Division",
+   "choice": "specialization",
+   "option": "atmospheric-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH H54"
+     },
+     {
+      "type": "course",
+      "course": "MATH N54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS W89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "atmospheric-science-physics",
+   "title": "Physics",
+   "section": "Atmospheric Science: Lower Division",
+   "choice": "specialization",
+   "option": "atmospheric-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "PHYSICS 7A"
+         },
+         {
+          "type": "course",
+          "course": "PHYSICS H7A"
+         },
+         {
+          "type": "course",
+          "course": "PHYSICS 5A"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "PHYSICS 7B"
+         },
+         {
+          "type": "course",
+          "course": "PHYSICS H7B"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "PHYSICS 7C"
+         },
+         {
+          "type": "course",
+          "course": "PHYSICS H7C"
+         }
+        ]
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "atmospheric-science-core",
+   "title": "Core",
+   "section": "Atmospheric Science: Upper Division",
+   "choice": "specialization",
+   "option": "atmospheric-science",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 150"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C180"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C106"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C181"
+       },
+       {
+        "type": "course",
+        "course": "GEOG C139"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C182"
+       },
+       {
+        "type": "course",
+        "course": "CHEM C182"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "atmospheric-science-electives",
+   "title": "Electives",
+   "section": "Atmospheric Science: Upper Division",
+   "choice": "specialization",
+   "option": "atmospheric-science",
+   "rule": {
+    "type": "filter",
+    "minUnits": 9,
+    "filter": {
+     "courses": [
+      "CHEM 105",
+      "CHEM 120A",
+      "CHEM 120B",
+      "CHEM 125",
+      "CIVENG 100",
+      "CIVENG 107",
+      "CIVENG 108",
+      "CIVENG 200A",
+      "CIVENG 200B",
+      "CIVENG 218A",
+      "CIVENG 218B",
+      "CIVENG 218C",
+      "ENERES 102",
+      "EPS 103",
+      "EPS 104",
+      "EPS 109",
+      "EPS 115",
+      "EPS 117",
+      "EPS 125",
+      "EPS 131",
+      "EPS 230",
+      "EPS C129",
+      "ESPM C129",
+      "EPS C183",
+      "EPS 251",
+      "EPS H195",
+      "GEOG 143"
+     ]
+    }
+   }
+  },
+  {
+   "id": "environmental-earth-science-biology",
+   "title": "Biology",
+   "section": "Environmental Earth Science: Lower Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "notes": "Students must complete each course with a letter grade. Students must earn a 2.0 GPA average in the lower division courses. No more than one grade below C- will be accepted.\nAlso satisfied by:\n- A-Level: Biology, score 1-2\n- AP: Biology, score 4+",
+   "rule": {
+    "type": "course",
+    "course": "BIOLOGY 1B"
+   }
+  },
+  {
+   "id": "environmental-earth-science-mathematics-part-1",
+   "title": "Mathematics: Part 1",
+   "section": "Environmental Earth Science: Lower Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus AB, score 3+\n- AP: Mathematics: Calculus BC, score 3+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-earth-science-mathematics-part-2",
+   "title": "Mathematics: Part 2",
+   "section": "Environmental Earth Science: Lower Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- AP: Mathematics: Calculus BC, score 5\n- IB: HL Further Mathematics, score 7\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-earth-science-physics-a-series",
+   "title": "Physics A Series",
+   "section": "Environmental Earth Science: Lower Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-earth-science-physics-b-series",
+   "title": "Physics B Series",
+   "section": "Environmental Earth Science: Lower Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 8B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-earth-science-core",
+   "title": "Core",
+   "section": "Environmental Earth Science: Upper Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENERES 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "EPS 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-earth-science-electives",
+   "title": "Electives",
+   "section": "Environmental Earth Science: Upper Division",
+   "choice": "specialization",
+   "option": "environmental-earth-science",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "CIVENG 115",
+      "EPS 100A",
+      "EPS 100B",
+      "EPS 103",
+      "EPS 108",
+      "EPS 109",
+      "EPS 115",
+      "EPS 116",
+      "EPS 122",
+      "EPS 124",
+      "EPS 125",
+      "EPS 131",
+      "EPS 170AC",
+      "LS 170AC",
+      "EPS 181",
+      "EPS 185",
+      "EPS 203",
+      "EPS C100",
+      "GEOG C146",
+      "INTEGBI C100",
+      "EPS C178",
+      "CIVENG C178",
+      "EPS C180",
+      "CIVENG C106",
+      "ESPM C180",
+      "EPS C181",
+      "GEOG C139",
+      "EPS C182",
+      "CHEM C182",
+      "EPS H195",
+      "ESPM 120",
+      "ESPM 125",
+      "ESPM 130A",
+      "ESPM 131",
+      "ESPM C125",
+      "GEOG C148",
+      "INTEGBI C166",
+      "ESPM C128",
+      "CIVENG C116",
+      "ESPM C153",
+      "GEOG 140A",
+      "GEOG 140B",
+      "GEOG 142",
+      "GEOG 143",
+      "GEOG 144",
+      "INTEGBI 113L",
+      "INTEGBI 159",
+      "INTEGBI 184L"
+     ]
+    }
+   }
+  },
+  {
+   "id": "geology-mathematics",
+   "title": "Mathematics",
+   "section": "Geology: Lower Division",
+   "choice": "specialization",
+   "option": "geology",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus AB, score 3+\n- AP: Mathematics: Calculus BC, score 3+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 51"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geology-physics-a-series",
+   "title": "Physics A Series",
+   "section": "Geology: Lower Division",
+   "choice": "specialization",
+   "option": "geology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geology-physics-b-series",
+   "title": "Physics B Series",
+   "section": "Geology: Lower Division",
+   "choice": "specialization",
+   "option": "geology",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geology-core",
+   "title": "Core",
+   "section": "Geology: Upper Division",
+   "choice": "specialization",
+   "option": "geology",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 100A"
+     },
+     {
+      "type": "course",
+      "course": "EPS 100B"
+     },
+     {
+      "type": "course",
+      "course": "EPS 101"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 118"
+     },
+     {
+      "type": "course",
+      "course": "EPS 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geology-electives",
+   "title": "Electives",
+   "section": "Geology: Upper Division",
+   "choice": "specialization",
+   "option": "geology",
+   "rule": {
+    "type": "filter",
+    "minUnits": 10,
+    "filter": {
+     "courses": [
+      "CIVENG 115",
+      "ENERES 102",
+      "EPS 100A",
+      "EPS 100B",
+      "EPS 103",
+      "EPS 108",
+      "EPS 109",
+      "EPS 115",
+      "EPS 116",
+      "EPS 122",
+      "EPS 124",
+      "EPS 125",
+      "EPS 131",
+      "EPS 170AC",
+      "LS 170AC",
+      "EPS 181",
+      "EPS 185",
+      "EPS 203",
+      "EPS C100",
+      "GEOG C146",
+      "INTEGBI C100",
+      "EPS C178",
+      "CIVENG C178",
+      "EPS C180",
+      "CIVENG C106",
+      "ESPM C180",
+      "EPS C181",
+      "GEOG C139",
+      "EPS C182",
+      "CHEM C182",
+      "EPS H195",
+      "ESPM 120",
+      "ESPM 125",
+      "ESPM 130A",
+      "ESPM 131",
+      "ESPM C125",
+      "GEOG C148",
+      "INTEGBI C166",
+      "ESPM C128",
+      "CIVENG C116",
+      "ESPM C153",
+      "GEOG 140A",
+      "GEOG 140B",
+      "GEOG 142",
+      "GEOG 143",
+      "GEOG 144",
+      "INTEGBI 113L",
+      "INTEGBI 159",
+      "INTEGBI 160",
+      "INTEGBI 184L"
+     ]
+    }
+   }
+  },
+  {
+   "id": "geophysics-calculus",
+   "title": "Calculus",
+   "section": "Geophysics: Lower Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "notes": "MATH 51 Exams:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus AB, score 3+\n- AP: Mathematics: Calculus BC, score 3+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\nMATH 52 Exams:\n- AP: Mathematics: Calculus BC, score 5\n- IB: HL Further Mathematics, score 7\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 51"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geophysics-linear-algebra",
+   "title": "Linear Algebra",
+   "section": "Geophysics: Lower Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS W89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geophysics-physics-a-series",
+   "title": "Physics A Series",
+   "section": "Geophysics: Lower Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "geophysics-physics-b-series",
+   "title": "Physics B Series",
+   "section": "Geophysics: Lower Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geophysics-physics-c-series",
+   "title": "Physics C Series",
+   "section": "Geophysics: Lower Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7C"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geophysics-core",
+   "title": "Core",
+   "section": "Geophysics: Upper Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 122"
+     },
+     {
+      "type": "course",
+      "course": "EPS 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "geophysics-electives",
+   "title": "Electives",
+   "section": "Geophysics: Upper Division",
+   "choice": "specialization",
+   "option": "geophysics",
+   "rule": {
+    "type": "filter",
+    "minUnits": 15,
+    "filter": {
+     "courses": [
+      "EPS 100A",
+      "EPS 100B",
+      "EPS 101",
+      "EPS 104",
+      "EPS 108",
+      "EPS 109",
+      "EPS 116",
+      "EPS 117",
+      "EPS 118",
+      "EPS 125",
+      "EPS 130",
+      "EPS C162",
+      "ASTRON C162",
+      "EPS C178",
+      "CIVENG C178",
+      "EPS H195",
+      "MATH 121A",
+      "PHYSICS 105",
+      "PHYSICS 110A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "marine-science-oceans-biology",
+   "title": "Oceans, Biology",
+   "section": "Marine Science: Lower Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "notes": "BIOLOGY Exams:\n- A-Level: Biology, score 1-2\n- AP: Biology, score 4+",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 82"
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "marine-science-mathematics-part-1",
+   "title": "Mathematics: Part 1",
+   "section": "Marine Science: Lower Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus AB, score 3+\n- AP: Mathematics: Calculus BC, score 3+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "marine-science-mathematics-part-2",
+   "title": "Mathematics: Part 2",
+   "section": "Marine Science: Lower Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- AP: Mathematics: Calculus BC, score 5\n- IB: HL Further Mathematics, score 7\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "marine-science-physics-a-series",
+   "title": "Physics A Series",
+   "section": "Marine Science: Lower Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "marine-science-physics-b-series",
+   "title": "Physics B Series",
+   "section": "Marine Science: Lower Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 8B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "marine-science-core",
+   "title": "Core",
+   "section": "Marine Science: Upper Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 150"
+     }
+    ]
+   }
+  },
+  {
+   "id": "marine-science-eps-electives",
+   "title": "EPS Electives",
+   "section": "Marine Science: Upper Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "EPS 100A",
+      "EPS 103",
+      "EPS 109",
+      "EPS 113",
+      "EPS 115",
+      "EPS 124",
+      "EPS 125",
+      "EPS 127",
+      "EPS 131",
+      "EPS 203"
+     ]
+    }
+   }
+  },
+  {
+   "id": "marine-science-electives",
+   "title": "Electives",
+   "section": "Marine Science: Upper Division",
+   "choice": "specialization",
+   "option": "marine-science",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "CIVENG 100",
+      "CIVENG 101",
+      "CIVENG 111",
+      "CIVENG 115",
+      "CIVENG 210",
+      "EPS 100A",
+      "EPS 100B",
+      "EPS 103",
+      "EPS 109",
+      "EPS 113",
+      "EPS 115",
+      "EPS 117",
+      "EPS 124",
+      "EPS 125",
+      "EPS 131",
+      "EPS C100",
+      "GEOG C146",
+      "INTEGBI C100",
+      "EPS C129",
+      "ESPM C129",
+      "EPS C183",
+      "ESPM C170",
+      "EPS H195",
+      "ESPM 112",
+      "ESPM C107",
+      "ESPM C115C",
+      "INTEGBI C176L",
+      "INTEGBI 106",
+      "INTEGBI 160",
+      "INTEGBI 230"
+     ]
+    }
+   }
+  },
+  {
+   "id": "planetary-science-calculus",
+   "title": "Calculus",
+   "section": "Planetary Science: Lower Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "notes": "MATH 51 Exams:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus AB, score 3+\n- AP: Mathematics: Calculus BC, score 3+\n- IB: HL Further Mathematics, score 6+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\nMATH 52 Exams:\n- AP: Mathematics: Calculus BC, score 5\n- IB: HL Further Mathematics, score 7\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 51"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "XMATH 52"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "course",
+        "course": "MATH W53"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "planetary-science-linear-algebra",
+   "title": "Linear Algebra",
+   "section": "Planetary Science: Lower Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS W89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "planetary-science-physics-a-series",
+   "title": "Physics A Series",
+   "section": "Planetary Science: Lower Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "planetary-science-physics-b-series",
+   "title": "Physics B Series",
+   "section": "Planetary Science: Lower Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7B"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "planetary-science-physics-c-series",
+   "title": "Physics C Series",
+   "section": "Planetary Science: Lower Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS H7C"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "planetary-science-core",
+   "title": "Core",
+   "section": "Planetary Science: Upper Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 150"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C162"
+       },
+       {
+        "type": "course",
+        "course": "ASTRON C162"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "planetary-science-electives",
+   "title": "Electives",
+   "section": "Planetary Science: Upper Division",
+   "choice": "specialization",
+   "option": "planetary-science",
+   "rule": {
+    "type": "filter",
+    "minUnits": 14,
+    "filter": {
+     "courses": [
+      "ASTRON 120",
+      "ASTRON 121",
+      "EPS 104",
+      "EPS 108",
+      "EPS 109",
+      "EPS 117",
+      "EPS 122",
+      "EPS 124",
+      "EPS 125",
+      "EPS 131",
+      "EPS C180",
+      "CIVENG C106",
+      "ESPM C180",
+      "EPS C181",
+      "GEOG C139",
+      "EPS C182",
+      "CHEM C182",
+      "ESPM 171A",
+      "MATH 121A"
+     ]
+    }
+   }
+  }
+ ]
+}

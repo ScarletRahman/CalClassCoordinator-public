@@ -1,0 +1,375 @@
+{
+ "id": "major-astrophysics-ba",
+ "title": "Astrophysics BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25101U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25101U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25101U",
+ "requirements": [
+  {
+   "id": "calculus-i",
+   "title": "Calculus I",
+   "section": "Prerequisites",
+   "notes": "Also satisfied by:\n- A-Level: MATH FURT, score 1-2\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- AP: Mathematics: Calculus BC, score 3+\n- AP: Mathematics: Calculus AB, score 3+\n- IB: HL Math: Analysis & Approaches, score 5+\n- IB: HL Mathematics, score 5+\n- IB: HL Further Mathematics, score 6+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "calculus-ii",
+   "title": "Calculus II",
+   "section": "Prerequisites",
+   "notes": "Also satisfied by:\n- A-Level: MATH H2, score 1-2\n- A-Level: Mathematics, score 1-2\n- IB: HL Math: Analysis & Approaches, score 7\n- IB: HL Mathematics, score 7\n- IB: HL Further Mathematics, score 7\n- AP: Mathematics: Calculus BC, score 5",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH N1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH H1B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "multivariable-calculus",
+   "title": "Multivariable Calculus",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH N53"
+     },
+     {
+      "type": "course",
+      "course": "MATH W53"
+     },
+     {
+      "type": "course",
+      "course": "MATH H53"
+     }
+    ]
+   }
+  },
+  {
+   "id": "linear-algebra",
+   "title": "Linear Algebra",
+   "section": "Prerequisites",
+   "notes": "If you are planning to double major in Physics, it is recommended that you complete PHYSICS 89.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 54"
+     },
+     {
+      "type": "course",
+      "course": "MATH N54"
+     },
+     {
+      "type": "course",
+      "course": "MATH W54"
+     },
+     {
+      "type": "course",
+      "course": "MATH H54"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 89"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS W89"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-a-series",
+   "title": "Physics: A Series",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-b-series",
+   "title": "Physics: B Series",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5BL"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics-c-series",
+   "title": "Physics: C Series",
+   "section": "Prerequisites",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 5C"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 5CL"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7C"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS H7C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "informal-preparation-for-upper-division",
+   "title": "Informal Preparation for Upper Division",
+   "section": "Prerequisites",
+   "notes": "The department recommends that students complete ASTRON 7A and 7B before taking upper division coursework. This is not a requirement.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 7A"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 160"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ASTRON C161"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS C161"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ASTRON C162"
+       },
+       {
+        "type": "course",
+        "course": "EPS C162"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "laboratory",
+   "title": "Laboratory",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ASTRON 120"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 121"
+     },
+     {
+      "type": "course",
+      "course": "ASTRON 128"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives-and-unit-requirement",
+   "title": "Electives and Unit Requirement",
+   "section": "Upper Division",
+   "notes": "30 units of upper division coursework is required by the major. This total includes units used towards the Core and Laboratory requirements. Additional Elective courses are to be completed as needed to reach this total.\n- At least 18 units of electives for single majors to get to the 30 upper-division unit requirement.\n- At least 12 units of electives for double majors to get to the 24 upper-division unit requirement.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 18,
+    "filter": {
+     "courses": [
+      "ASTRON 120",
+      "ASTRON 121",
+      "ASTRON 128",
+      "ASTRON 160",
+      "ASTRON C161",
+      "ASTRON C162",
+      "ASTRON C180",
+      "CHEM 12A",
+      "CHEM 12B",
+      "CHEM 104A",
+      "CHEM 104B",
+      "CHEM 105",
+      "CHEM 108",
+      "CHEM 120A",
+      "CHEM 120B",
+      "CHEM 122",
+      "CHEM 125",
+      "CHEM 143",
+      "COMPSCI 160",
+      "COMPSCI 164",
+      "COMPSCI 169",
+      "COMPSCI 184",
+      "COMPSCI 186",
+      "COMPSCI 188",
+      "COMPSCI 189",
+      "ELENG 120",
+      "EPS 102",
+      "EPS 108",
+      "EPS 109",
+      "EPS 117",
+      "EPS 122",
+      "EPS 124",
+      "EPS C162",
+      "EPS C181",
+      "GEOG C139",
+      "MATH 100",
+      "MATH 104",
+      "MATH 110",
+      "MATH 113",
+      "MATH 121A",
+      "MATH 121B",
+      "MATH 128B",
+      "MATH 160",
+      "MATH 185",
+      "MECENG 106",
+      "MECENG C162",
+      "MECENG 163",
+      "NUCENG 100",
+      "NUCENG 101",
+      "PHYSICS 105",
+      "PHYSICS 110A",
+      "PHYSICS 110B",
+      "PHYSICS 111A",
+      "PHYSICS 111B",
+      "PHYSICS 112",
+      "PHYSICS 129",
+      "PHYSICS 137A",
+      "PHYSICS 137B",
+      "PHYSICS 139",
+      "PHYSICS 141A",
+      "PHYSICS 141B",
+      "PHYSICS 142",
+      "PHYSICS 151",
+      "PHYSICS 188",
+      "PHYSICS C161",
+      "PHYSICS C180",
+      "STAT 134",
+      "STAT 135",
+      "STAT 153",
+      "STAT 154",
+      "STAT 159",
+      "STAT C140"
+     ]
+    }
+   }
+  }
+ ]
+}

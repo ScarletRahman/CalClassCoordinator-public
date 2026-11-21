@@ -1,0 +1,145 @@
+{
+ "id": "minor-sustainability",
+ "title": "Sustainability minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04I155U",
+  "https://undergraduate.catalog.berkeley.edu/programs/04I155U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "04I155U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Requirements",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL W184"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C176"
+     },
+     {
+      "type": "course",
+      "course": "ENVECON C176"
+     },
+     {
+      "type": "course",
+      "course": "IAS C176"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Requirements",
+   "rule": {
+    "type": "nOf",
+    "n": 4,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ARCH 149"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENERES C100"
+       },
+       {
+        "type": "course",
+        "course": "ENERES W100"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ENERES C176"
+       },
+       {
+        "type": "course",
+        "course": "ENVECON C176"
+       },
+       {
+        "type": "course",
+        "course": "IAS C176"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ENERES C192"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 101"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 170"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 171"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 172"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 174W"
+     },
+     {
+      "type": "course",
+      "course": "ENERES 190"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PUBPOL C184"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL W184"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "UGBA C192R"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 192T"
+     }
+    ]
+   }
+  }
+ ]
+}

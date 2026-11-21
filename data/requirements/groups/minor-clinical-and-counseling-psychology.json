@@ -1,0 +1,58 @@
+{
+ "id": "minor-clinical-and-counseling-psychology",
+ "title": "Clinical & Counseling Psychology minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I169U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I169U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I169U",
+ "notes": [
+  "The Clinical & Counseling Psychology minor (or certificate) consists of 5 courses, and a total of 15 upper division units, including two core courses and three electives. While not explicitly required as part of the minor, our expectation is that students will have taken a General Psychology or Introduction to Psychology course before enrolling in the minor. Please email psychsso@berkeley.edu with any questions or visit the program website for more information and to apply.\nA maximum of one course may overlap with the Psychology BA.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PSYCH 130M"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 170"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "PSYCH 136",
+      "PSYCH 137",
+      "PSYCH 138",
+      "PSYCH 139",
+      "PSYCH 170",
+      "PSYCH 171",
+      "PSYCH 172",
+      "PSYCH 173"
+     ]
+    }
+   }
+  }
+ ]
+}

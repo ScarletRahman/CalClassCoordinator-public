@@ -1,0 +1,426 @@
+{
+ "id": "major-sociology-ba",
+ "title": "Sociology BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25867U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25867U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25867U",
+ "choices": [
+  {
+   "id": "program",
+   "title": "Upper Division Program",
+   "pick": 1,
+   "options": [
+    {
+     "id": "sociology-major",
+     "title": "Sociology Major"
+    },
+    {
+     "id": "sociological-research-methods-concentration",
+     "title": "Sociological Research Methods Concentration"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Prerequisites (Sociology Major and Sociology Research Methods Concentration)",
+   "notes": "For SOCIOL 1:\n- Students will earn zero units towards the major if taken after SOCIOL 3/3AC.\nFor SOCIOL 5:\n- You must earn a C- or better for the Sociology BA\n- You must earn a B+ or better for the Sociology Research Methods Concentration",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 1"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL N1H"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics-and-logic",
+   "title": "Statistics & Logic",
+   "section": "Prerequisites (Sociology Major and Sociology Research Methods Concentration)",
+   "notes": "Courses used to fulfill this requirement may be taken pass/no pass.\nAlso satisfied by:\n- AP: Statistics, score 4+",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C6"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 12A"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 10"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 101"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 7"
+     },
+     {
+      "type": "course",
+      "course": "STAT 2"
+     },
+     {
+      "type": "course",
+      "course": "STAT 2X"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT 20"
+     },
+     {
+      "type": "course",
+      "course": "STAT 21"
+     },
+     {
+      "type": "course",
+      "course": "STAT W21"
+     },
+     {
+      "type": "course",
+      "course": "STAT C131A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociology-major-theory",
+   "title": "Theory",
+   "section": "Sociology Major: Upper Division",
+   "choice": "program",
+   "option": "sociology-major",
+   "notes": "Students must complete each course with a C- or better. SOCIOL 101 must be completed before 102.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 101"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 102"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociology-major-capstone-experience",
+   "title": "Capstone Experience",
+   "section": "Sociology Major: Upper Division",
+   "choice": "program",
+   "option": "sociology-major",
+   "notes": "The department recommends that this course be completed during your senior year.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 190"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL H190B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociology-major-survey",
+   "title": "Survey",
+   "section": "Sociology Major: Upper Division",
+   "choice": "program",
+   "option": "sociology-major",
+   "notes": "Sociology majors are required to take two courses in two different substantive areas from the following list of sociology \"Survey\" courses. The two survey courses must be taken from two different substantive areas, distinguished by distinct second digits — e.g., SOCIOL 110 and SOCIOL 180E, but not SOCIOL 180C and SOCIOL 180E.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 110"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 120"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 120T"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 130"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 130AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 140"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 150"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 160"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 180C"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 180I"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 180P"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 180E"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociology-major-electives",
+   "title": "Electives",
+   "section": "Sociology Major: Upper Division",
+   "choice": "program",
+   "option": "sociology-major",
+   "notes": "Each course must be at least 3 units.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "subjects": [
+      "SOCIOL"
+     ],
+     "minNumber": 103,
+     "maxNumber": 190
+    }
+   }
+  },
+  {
+   "id": "sociological-research-methods-concentration-theory",
+   "title": "Theory",
+   "section": "Sociological Research Methods Concentration: Upper Division",
+   "choice": "program",
+   "option": "sociological-research-methods-concentration",
+   "notes": "Courses must be completed with a C- or higher.\nSOCIOL 101 must be completed before 102.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 101"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 102"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociological-research-methods-concentration-research-methods-capstone",
+   "title": "Research Methods Capstone",
+   "section": "Sociological Research Methods Concentration: Upper Division",
+   "choice": "program",
+   "option": "sociological-research-methods-concentration",
+   "notes": "Courses must be completed with a B+ or higher.\nPlease see Sociology Research Methods Concentration website for information on getting seminar approval: https://sociology.berkeley.edu/research-methods-concentration",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 190"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL H190B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociological-research-methods-concentration-survey",
+   "title": "Survey",
+   "section": "Sociological Research Methods Concentration: Upper Division",
+   "choice": "program",
+   "option": "sociological-research-methods-concentration",
+   "notes": "Sociology majors are required to take two courses in two different substantive areas from the following list of sociology \"Survey\" courses. The two survey courses must be taken from two different substantive areas, distinguished by distinct second digits, e.g., SOCIOL 110 and SOCIOL 180E, but not SOCIOL 180C and SOCIOL 180E.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "course",
+      "course": "SOCIOL 110"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 120"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 120T"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 130"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 130AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 140"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 150"
+     },
+     {
+      "type": "course",
+      "course": "SOCIOL 160"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SOCIOL 180C"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 180I"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 180P"
+       },
+       {
+        "type": "course",
+        "course": "SOCIOL 180E"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sociological-research-methods-concentration-concentration-electives",
+   "title": "Concentration Electives",
+   "section": "Sociological Research Methods Concentration: Upper Division",
+   "choice": "program",
+   "option": "sociological-research-methods-concentration",
+   "notes": "Sociology requires three upper division Sociology electives. Two of those electives must be from the following:\nCourses must be completed with B+ or higher.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SOCIOL 105",
+      "SOCIOL 106",
+      "SOCIOL 107",
+      "SOCIOL 108",
+      "SOCIOL 271B"
+     ]
+    }
+   }
+  },
+  {
+   "id": "sociological-research-methods-concentration-sociology-electives",
+   "title": "Sociology Electives",
+   "section": "Sociological Research Methods Concentration: Upper Division",
+   "choice": "program",
+   "option": "sociological-research-methods-concentration",
+   "rule": {
+    "type": "manual",
+    "text": "Sociology requires three upper division Sociology electives. One of those electives must be from the following:\n- Any 3+ unit SOCIOL 103-190 level course, excluding SOCIOL H190B",
+    "mentionedCourses": [
+     "SOCIOL 103"
+    ]
+   }
+  }
+ ]
+}

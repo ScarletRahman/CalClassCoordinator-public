@@ -1,0 +1,98 @@
+{
+ "id": "minor-applied-language-studies",
+ "title": "Applied Language Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I087U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I087U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I087U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "one-core-course",
+   "title": "One Core Course",
+   "section": "Upper Division Core",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "UGIS 120"
+     },
+     {
+      "type": "course",
+      "course": "EDUC 154"
+     }
+    ]
+   }
+  },
+  {
+   "id": "four-additional-courses",
+   "title": "Four Additional Courses",
+   "section": "Upper Division",
+   "notes": "- Students can petition the program director to have other courses, including those taken during study abroad, count toward the minor.\n- Graduate courses require the permission of the instructor.",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "AFRICAM 115",
+      "ANTHRO 107",
+      "ANTHRO 166",
+      "ANTHRO 169C",
+      "COGSCI C101",
+      "COGSCI C104",
+      "COGSCI C124",
+      "COGSCI C142",
+      "COGSCI C147",
+      "COLWRIT 121",
+      "EDUC 132",
+      "EDUC 140AC",
+      "EDUC 143",
+      "EDUC C145",
+      "EDUC 188F",
+      "ENGLISH 179",
+      "FRENCH 103B",
+      "FRENCH 146A",
+      "FRENCH 148",
+      "FRENCH 149",
+      "FRENCH 173",
+      "FRENCH 201",
+      "GERMAN C106",
+      "ISF 100C",
+      "JAPAN 161",
+      "JAPAN 163",
+      "LINGUIS 100",
+      "LINGUIS 106",
+      "LINGUIS 108",
+      "LINGUIS 109",
+      "LINGUIS 124",
+      "LINGUIS 128",
+      "LINGUIS 150",
+      "LINGUIS 151",
+      "LINGUIS 155AC",
+      "LINGUIS C104",
+      "LINGUIS C105",
+      "LINGUIS C142",
+      "PSYCH C143",
+      "LINGUIS C147",
+      "LINGUIS 150A",
+      "LINGUIS 154",
+      "LINGUIS C160",
+      "LS 180A",
+      "RHETOR 103B",
+      "PSYCH C124",
+      "SPANISH 166",
+      "PSYCH C143"
+     ]
+    }
+   }
+  }
+ ]
+}

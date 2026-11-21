@@ -1,0 +1,322 @@
+{
+ "id": "major-industrial-engineering-and-operations-research-bs",
+ "title": "Industrial Engineering and Operations Research BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16324U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16324U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16324U",
+ "notes": [
+  "General Guidelines\n- All courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "math",
+   "title": "Math",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 7B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry-biology",
+   "title": "Chemistry/Biology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 4A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 7"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN W7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-science",
+   "title": "Computer Science",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     },
+     {
+      "type": "course",
+      "course": "COMPSCI 61A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-breadth",
+   "title": "Engineering Breadth",
+   "section": "Lower Division",
+   "rule": {
+    "type": "filter",
+    "minUnits": 9,
+    "filter": {
+     "courses": [
+      "BIOENG 10",
+      "BIOENG 102",
+      "CIVENG C30",
+      "CIVENG W30",
+      "MECENG C85",
+      "MECENG W85",
+      "CIVENG 11",
+      "CIVENG 60",
+      "CIVENG 70",
+      "CIVENG 126",
+      "CIVENG 132",
+      "CIVENG 155",
+      "DESINV 15",
+      "ELENG 64",
+      "ELENG 66",
+      "ELENG 143",
+      "ENGIN 11",
+      "ENGIN 26",
+      "ENGIN 29",
+      "ENGIN 40",
+      "MATSCI 45",
+      "MATSCI 45L",
+      "MATSCI 111",
+      "MECENG 40",
+      "MECENG 126",
+      "MECENG 132"
+     ]
+    }
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 6,
+    "filter": {
+     "courses": [
+      "INDENG 120",
+      "STAT 150",
+      "INDENG 160",
+      "INDENG 162",
+      "INDENG 165",
+      "INDENG 173",
+      "INDENG 174",
+      "INDENG 180"
+     ]
+    }
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "STAT C140"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 172"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 4,
+    "filter": {
+     "courses": [
+      "INDENG 115",
+      "INDENG 130",
+      "INDENG 135",
+      "INDENG 142A",
+      "INDENG 142B",
+      "INDENG 145",
+      "INDENG 150",
+      "INDENG 151",
+      "INDENG 153",
+      "INDENG 156",
+      "INDENG 164",
+      "INDENG 166",
+      "INDENG 169",
+      "INDENG 170",
+      "INDENG 171"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ethics",
+   "title": "Ethics",
+   "section": "Ethics Requirement",
+   "notes": "Students must complete one course, which may be taken for a letter grade or pass/no pass.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "BIOENG 100"
+     },
+     {
+      "type": "course",
+      "course": "DATA C104"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY C184D"
+     },
+     {
+      "type": "course",
+      "course": "STS C104D"
+     },
+     {
+      "type": "course",
+      "course": "ENERES C100"
+     },
+     {
+      "type": "course",
+      "course": "ENERES W100"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 125"
+     },
+     {
+      "type": "course",
+      "course": "ENGIN 157AC"
+     },
+     {
+      "type": "course",
+      "course": "IAS 157AC"
+     },
+     {
+      "type": "course",
+      "course": "PUBPOL C184"
+     },
+     {
+      "type": "course",
+      "course": "UGBA 107"
+     }
+    ]
+   }
+  }
+ ]
+}

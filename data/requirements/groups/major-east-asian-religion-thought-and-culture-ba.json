@@ -1,0 +1,888 @@
+{
+ "id": "major-east-asian-religion-thought-and-culture-ba",
+ "title": "East Asian Religion, Thought, and Culture BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/252E1U",
+  "https://undergraduate.catalog.berkeley.edu/programs/252E1U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/252E1U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "252E1U",
+ "requirements": [
+  {
+   "id": "prerequisites-elementary-language",
+   "title": "Prerequisites: Elementary Language",
+   "section": "Prerequisites",
+   "notes": "Students must complete one language sequence (two courses) and earn letter grades of B or better.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHINESE 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHINESE 1B"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHINESE 1X"
+       },
+       {
+        "type": "course",
+        "course": "CHINESE 1Y"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "JAPAN 1A"
+       },
+       {
+        "type": "course",
+        "course": "JAPAN 1B"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "TIBETAN 1A"
+       },
+       {
+        "type": "course",
+        "course": "TIBETAN 1B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "intermediate-language-series",
+   "title": "Intermediate Language Series",
+   "section": "Lower Division: Intermediate Language",
+   "notes": "Students must complete one language series (two courses) with letter grades.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHINESE 10"
+       },
+       {
+        "type": "course",
+        "course": "CHINESE 10B"
+       }
+      ],
+      "label": "Chinese Language Series"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHINESE 10X"
+       },
+       {
+        "type": "course",
+        "course": "CHINESE 10Y"
+       }
+      ],
+      "label": "Chinese Heritage Language Series"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "JAPAN 10A"
+       },
+       {
+        "type": "course",
+        "course": "JAPAN 10B"
+       }
+      ],
+      "label": "Japanese Language Series"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "TIBETAN 10A"
+       },
+       {
+        "type": "course",
+        "course": "TIBETAN 10B"
+       }
+      ],
+      "label": "Tibetan"
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-a",
+   "title": "List A",
+   "section": "Lower Division: Intermediate Language",
+   "notes": "See List A in the Upper Division Requirements for linked and cross-listed courses.",
+   "rule": {
+    "type": "filter",
+    "count": 1,
+    "filter": {
+     "courses": [
+      "BUDDSTD 114",
+      "BUDDSTD 154",
+      "BUDDSTD C114",
+      "BUDDSTD C115",
+      "BUDDSTD C116",
+      "BUDDSTD C117",
+      "BUDDSTD C120",
+      "BUDDSTD C122",
+      "BUDDSTD C128",
+      "BUDDSTD C130",
+      "BUDDSTD C132",
+      "BUDDSTD C135",
+      "BUDDSTD C140",
+      "BUDDSTD C141",
+      "BUDDSTD C154",
+      "BUDDSTD C50",
+      "CHINESE 110A",
+      "CHINESE 110B",
+      "CHINESE 130",
+      "CHINESE 186",
+      "CHINESE 51",
+      "CHINESE C116",
+      "CHINESE C140",
+      "CHINESE C185",
+      "EALANG 110",
+      "EALANG C120",
+      "EALANG C122",
+      "EALANG C128",
+      "EALANG C130",
+      "EALANG C132",
+      "EALANG C135",
+      "EALANG C152",
+      "EALANG C50",
+      "JAPAN 116",
+      "JAPAN 120",
+      "JAPAN 144",
+      "JAPAN 146",
+      "JAPAN C115",
+      "JAPAN C141",
+      "MONGOLN C117",
+      "PHILOS C167",
+      "SASIAN C114",
+      "SASIAN C154",
+      "SSEASN C135",
+      "SSEASN C145",
+      "SSEASN C52",
+      "TIBETAN 110A",
+      "TIBETAN 110B",
+      "TIBETAN 116",
+      "TIBETAN C114",
+      "TIBETAN C154"
+     ]
+    }
+   }
+  },
+  {
+   "id": "list-a-core-courses",
+   "title": "List A: Core Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C50"
+       },
+       {
+        "type": "course",
+        "course": "SSEASN C52"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C114"
+       },
+       {
+        "type": "course",
+        "course": "TIBETAN C114"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C115"
+       },
+       {
+        "type": "course",
+        "course": "JAPAN C115"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C116"
+       },
+       {
+        "type": "course",
+        "course": "CHINESE C116"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C117"
+       },
+       {
+        "type": "course",
+        "course": "MONGOLN C117"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C120"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C120"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C122"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C122"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C128"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C128"
+       },
+       {
+        "type": "course",
+        "course": "SSEASN C145"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C130"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C130"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C132"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C132"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C135"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C135"
+       },
+       {
+        "type": "course",
+        "course": "SSEASN C135"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C140"
+       },
+       {
+        "type": "course",
+        "course": "CHINESE C140"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C141"
+       },
+       {
+        "type": "course",
+        "course": "JAPAN C141"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C152"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C152"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C154"
+       },
+       {
+        "type": "course",
+        "course": "TIBETAN C154"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 51"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 110"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 110B"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 130"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHINESE C185"
+       },
+       {
+        "type": "course",
+        "course": "PHILOS C167"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 186"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 110"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 116"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 120"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 144"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 146"
+     },
+     {
+      "type": "course",
+      "course": "TIBETAN 110A"
+     },
+     {
+      "type": "course",
+      "course": "TIBETAN 110B"
+     },
+     {
+      "type": "course",
+      "course": "TIBETAN 116"
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-b-supplementary-disciplinary-breadth-courses",
+   "title": "List B: Supplementary Disciplinary Breadth Courses",
+   "section": "Upper Division",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C124"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C124"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BUDDSTD C126"
+       },
+       {
+        "type": "course",
+        "course": "EALANG C126"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 120"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 122"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 134"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 136"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 153"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 155"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 156"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 157"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 158"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 172"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 176"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 178"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 179"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 180"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 182"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 187"
+     },
+     {
+      "type": "course",
+      "course": "CHINESE 188"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHINESE C184"
+       },
+       {
+        "type": "course",
+        "course": "MUSIC C134C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EALANG 101"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 105"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 106"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 107"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 108"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 109"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 111"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 112"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 114"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 115"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 116"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 118"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 119"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 180"
+     },
+     {
+      "type": "course",
+      "course": "EALANG 181"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 130A"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 131A"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 134B"
+     },
+     {
+      "type": "course",
+      "course": "HISTART 134C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 103F"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 113A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 113B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 116D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 117A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 117D"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 118A"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 118B"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 118C"
+     },
+     {
+      "type": "course",
+      "course": "HISTORY 119A"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 130"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 140"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 155"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 159"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 170"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 173"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 177"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 180"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 181"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 185"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 188"
+     },
+     {
+      "type": "course",
+      "course": "JAPAN 189"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 130"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 140"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 153"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 155"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 157"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 170"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 172"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 174"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 180"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 185"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 186"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 187"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 188"
+     },
+     {
+      "type": "course",
+      "course": "KOREAN 189"
+     },
+     {
+      "type": "course",
+      "course": "MONGOLN 110A"
+     },
+     {
+      "type": "course",
+      "course": "MONGOLN 110B"
+     },
+     {
+      "type": "course",
+      "course": "MONGOLN 116"
+     },
+     {
+      "type": "course",
+      "course": "MONGOLN 118"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 134A"
+     },
+     {
+      "type": "course",
+      "course": "MUSIC 134B"
+     },
+     {
+      "type": "course",
+      "course": "PHILOS 153"
+     },
+     {
+      "type": "course",
+      "course": "TIBETAN 115"
+     },
+     {
+      "type": "course",
+      "course": "TIBETAN 118"
+     },
+     {
+      "type": "course",
+      "course": "TIBETAN 119"
+     }
+    ]
+   }
+  },
+  {
+   "id": "methods",
+   "title": "Methods",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "EALANG 191"
+   }
+  }
+ ]
+}

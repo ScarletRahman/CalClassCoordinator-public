@@ -1,0 +1,8698 @@
+{
+ "PSYCH 1": {
+  "course": "PSYCH 1",
+  "difficulty": 2.7,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (35 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.306
+    },
+    {
+     "label": "Average grade B+ (3.41)",
+     "value": 2.7,
+     "weight": 0.345
+    },
+    {
+     "label": "Student workload rating (35)",
+     "value": 2.3,
+     "weight": 0.131
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.3,
+     "weight": 0.098
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (35 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.35
+    },
+    {
+     "label": "Tone of written student reviews (87 on file)",
+     "value": 4.3,
+     "weight": 0.143
+    }
+   ]
+  },
+  "sentiment": "Reviewers say this is an easy, well-organized intro with engaging lectures, three straightforward papers, and fair exams drawn from slides and lecture. Attend lecture, since some material is not on slides and recordings are unreliable. Extra credit and a dropped test help; a few exam questions are very specific.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 3,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.41,
+   "letter": "B+",
+   "students": 3144,
+   "pctA": 64,
+   "pctBelowB": 13,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 232
+    },
+    {
+     "letter": "A",
+     "count": 1153
+    },
+    {
+     "letter": "A-",
+     "count": 433
+    },
+    {
+     "letter": "B+",
+     "count": 238
+    },
+    {
+     "letter": "B",
+     "count": 289
+    },
+    {
+     "letter": "B-",
+     "count": 148
+    },
+    {
+     "letter": "C+",
+     "count": 82
+    },
+    {
+     "letter": "C",
+     "count": 99
+    },
+    {
+     "letter": "C-",
+     "count": 49
+    },
+    {
+     "letter": "D+",
+     "count": 31
+    },
+    {
+     "letter": "D",
+     "count": 26
+    },
+    {
+     "letter": "D-",
+     "count": 14
+    },
+    {
+     "letter": "F",
+     "count": 63
+    },
+    {
+     "letter": "P",
+     "count": 238
+    },
+    {
+     "letter": "NP",
+     "count": 48
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 35,
+   "difficulty": 2.6,
+   "workload": 2.3,
+   "usefulness": 3.7,
+   "recordedPct": 42,
+   "attendanceRequiredPct": 13
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Gade",
+    "terms": 12,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.28,
+    "studentCount": 34,
+    "studentDifficulty": 2.6,
+    "studentUsefulness": 3.7,
+    "difficulty": 2.8,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Ann Kring",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.72,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Evangelos Antzoulatos",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.88,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.3,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%201"
+  ]
+ },
+ "PSYCH 101": {
+  "course": "PSYCH 101",
+  "difficulty": 2.5,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (38 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.309
+    },
+    {
+     "label": "Average grade A- (3.62)",
+     "value": 2.1,
+     "weight": 0.339
+    },
+    {
+     "label": "Student workload rating (38)",
+     "value": 2.9,
+     "weight": 0.133
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.1,
+     "weight": 0.044
+    },
+    {
+     "label": "Student usefulness rating (38 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.353
+    },
+    {
+     "label": "Tone of written student reviews (98 on file)",
+     "value": 4.9,
+     "weight": 0.144
+    }
+   ]
+  },
+  "sentiment": "Reviewers are overwhelmingly positive, saying the instructor makes statistics and R coding approachable even for people with no coding background. The workload is described as manageable, and exams and the final project as fair. Advice is to keep up with work and ask for help early, since it is easy to get lost.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.62,
+   "letter": "A-",
+   "students": 1589,
+   "pctA": 80,
+   "pctBelowB": 8,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 549
+    },
+    {
+     "letter": "A",
+     "count": 491
+    },
+    {
+     "letter": "A-",
+     "count": 194
+    },
+    {
+     "letter": "B+",
+     "count": 93
+    },
+    {
+     "letter": "B",
+     "count": 61
+    },
+    {
+     "letter": "B-",
+     "count": 44
+    },
+    {
+     "letter": "C+",
+     "count": 21
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 18
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 48
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 13
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 38,
+   "difficulty": 2.6,
+   "workload": 2.9,
+   "usefulness": 4.5,
+   "recordedPct": 87,
+   "attendanceRequiredPct": 37
+  },
+  "byProfessor": [
+   {
+    "professor": "Arman Catterson",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.66,
+    "studentCount": 34,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4.5,
+    "difficulty": 2.4,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Ryan Lundell-Creagh",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.34,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.2,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Amanda Perez",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.31,
+    "difficulty": 2.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20101"
+  ]
+ },
+ "PSYCH 101D": {
+  "course": "PSYCH 101D",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.139
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.44), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 33,
+   "pctA": 76,
+   "pctBelowB": 14,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 9
+    },
+    {
+     "letter": "A-",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20101D"
+  ]
+ },
+ "PSYCH 102": {
+  "course": "PSYCH 102",
+  "difficulty": 2.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.277
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.67), with 76% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 190,
+   "pctA": 76,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 43
+    },
+    {
+     "letter": "A",
+     "count": 65
+    },
+    {
+     "letter": "A-",
+     "count": 25
+    },
+    {
+     "letter": "B+",
+     "count": 14
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Keanan Joyner",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.68,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Arman Catterson",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.91,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20102"
+  ]
+ },
+ "PSYCH 110": {
+  "course": "PSYCH 110",
+  "difficulty": 2.4,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 2.4,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade A- (3.60)",
+     "value": 2.1,
+     "weight": 0.332
+    },
+    {
+     "label": "Student workload rating (5)",
+     "value": 2.4,
+     "weight": 0.075
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.9,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.025
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 2.4/5 for difficulty, 2.4/5 for workload and 3.8/5 for usefulness. The average grade is A- (3.60), with 72% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.6,
+   "letter": "A-",
+   "students": 900,
+   "pctA": 72,
+   "pctBelowB": 7,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 248
+    },
+    {
+     "letter": "A",
+     "count": 214
+    },
+    {
+     "letter": "A-",
+     "count": 132
+    },
+    {
+     "letter": "B+",
+     "count": 79
+    },
+    {
+     "letter": "B",
+     "count": 65
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 16
+    },
+    {
+     "letter": "C",
+     "count": 17
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 55
+    },
+    {
+     "letter": "NP",
+     "count": 21
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 2.4,
+   "workload": 2.4,
+   "usefulness": 3.8,
+   "recordedPct": 60,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Gul Dolen",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.73,
+    "studentCount": 2,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 2.5,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Ryan Lundell-Creagh",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.79,
+    "studentCount": 3,
+    "studentDifficulty": 1.3,
+    "studentUsefulness": 4,
+    "difficulty": 1.8,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "David Foster",
+    "terms": 2,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.43,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Joni Wallis",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.48,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20110"
+  ]
+ },
+ "PSYCH 114": {
+  "course": "PSYCH 114",
+  "difficulty": 3.5,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade B (3.08)",
+     "value": 3.8,
+     "weight": 0.319
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 3,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.091
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.218
+    }
+   ]
+  },
+  "sentiment": "6 students on Berkeleytime rate it 3.7/5 for difficulty, 3.0/5 for workload and 3.8/5 for usefulness. The average grade is B (3.08), with 44% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.08,
+   "letter": "B",
+   "students": 511,
+   "pctA": 44,
+   "pctBelowB": 26,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 38
+    },
+    {
+     "letter": "A",
+     "count": 110
+    },
+    {
+     "letter": "A-",
+     "count": 58
+    },
+    {
+     "letter": "B+",
+     "count": 41
+    },
+    {
+     "letter": "B",
+     "count": 64
+    },
+    {
+     "letter": "B-",
+     "count": 32
+    },
+    {
+     "letter": "C+",
+     "count": 34
+    },
+    {
+     "letter": "C",
+     "count": 42
+    },
+    {
+     "letter": "C-",
+     "count": 17
+    },
+    {
+     "letter": "D+",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 19
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3.7,
+   "workload": 3,
+   "usefulness": 3.8,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 17
+  },
+  "byProfessor": [
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.02,
+    "studentCount": 6,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.7,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20114"
+  ]
+ },
+ "PSYCH 115": {
+  "course": "PSYCH 115",
+  "difficulty": 2.3,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.186
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.7,
+     "weight": 0.053
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 4.0/5 for difficulty, 1.0/5 for workload and 4.0/5 for usefulness. The average grade is A (3.85), with 86% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 57,
+   "pctA": 86,
+   "pctBelowB": 0,
+   "pctPassNoPass": 12,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 21
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 4,
+   "workload": 1,
+   "usefulness": 4
+  },
+  "byProfessor": [
+   {
+    "professor": "Kevin Weiner",
+    "terms": 4,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.89,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 4,
+    "difficulty": 2.1,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20115"
+  ]
+ },
+ "PSYCH 117": {
+  "course": "PSYCH 117",
+  "difficulty": 2.6,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.51)",
+     "value": 2.4,
+     "weight": 0.328
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1.7,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.6,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.3,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4.3,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 1.7/5 for workload and 4.3/5 for usefulness. The average grade is A- (3.51), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.51,
+   "letter": "A-",
+   "students": 748,
+   "pctA": 62,
+   "pctBelowB": 9,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 139
+    },
+    {
+     "letter": "A",
+     "count": 183
+    },
+    {
+     "letter": "A-",
+     "count": 52
+    },
+    {
+     "letter": "B+",
+     "count": 71
+    },
+    {
+     "letter": "B",
+     "count": 86
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 21
+    },
+    {
+     "letter": "C",
+     "count": 19
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 140
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 1.7,
+   "usefulness": 4.3,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Mark D'Esposito",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.45,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.3,
+    "difficulty": 2.6,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20117"
+  ]
+ },
+ "PSYCH 118": {
+  "course": "PSYCH 118",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.17
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 95% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 47,
+   "pctA": 95,
+   "pctBelowB": 2,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 32
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Walker",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "David Foster",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.73,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20118"
+  ]
+ },
+ "PSYCH 119": {
+  "course": "PSYCH 119",
+  "difficulty": 4.3,
+  "shouldTake": 2.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 4.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade B- (2.53)",
+     "value": 5.0,
+     "weight": 0.245
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 1.0,
+     "weight": 0.07
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 4.5/5 for difficulty, 5.0/5 for workload and 3.0/5 for usefulness. The average grade is B- (2.53), with 35% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.53,
+   "letter": "B-",
+   "students": 117,
+   "pctA": 35,
+   "pctBelowB": 38,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 10
+    },
+    {
+     "letter": "A",
+     "count": 14
+    },
+    {
+     "letter": "A-",
+     "count": 9
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 8
+    },
+    {
+     "letter": "F",
+     "count": 14
+    },
+    {
+     "letter": "P",
+     "count": 15
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 4.5,
+   "workload": 5,
+   "usefulness": 3,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 50
+  },
+  "byProfessor": [
+   {
+    "professor": "Hedy Kober",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.53,
+    "studentCount": 2,
+    "studentDifficulty": 4.5,
+    "studentUsefulness": 3,
+    "difficulty": 4.7,
+    "shouldTake": 2.4
+   }
+  ],
+  "reviews": [
+   {
+    "text": "It was indeed a very hard course since it covered a lot of material in a single 2-hour lesson, which was later quizzed; there were no assignments, just quizzes. every week. Meaning your grade was measured by only quizzes, midterm, and final, which were cumulative, closed-book, majority of them open ended questions",
+    "term": "2026 Spring",
+    "source": "Berkeleytime",
+    "title": "Hard",
+    "professor": "Hedy Kober",
+    "grade": "B"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20119"
+  ]
+ },
+ "PSYCH 124": {
+  "course": "PSYCH 124",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.313
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 422,
+   "pctA": 66,
+   "pctBelowB": 9,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 58
+    },
+    {
+     "letter": "A",
+     "count": 123
+    },
+    {
+     "letter": "A-",
+     "count": 55
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 39
+    },
+    {
+     "letter": "B-",
+     "count": 15
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 60
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lucia Jacobs",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.45,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20124"
+  ]
+ },
+ "PSYCH 125": {
+  "course": "PSYCH 125",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.306
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 350,
+   "pctA": 87,
+   "pctBelowB": 3,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 66
+    },
+    {
+     "letter": "A",
+     "count": 166
+    },
+    {
+     "letter": "A-",
+     "count": 49
+    },
+    {
+     "letter": "B+",
+     "count": 16
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Silvia Bunge",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.73,
+    "difficulty": 1.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20125"
+  ]
+ },
+ "PSYCH 128": {
+  "course": "PSYCH 128",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.87)",
+     "value": 1.3,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.87), with 92% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.87,
+   "letter": "A",
+   "students": 24,
+   "pctA": 92,
+   "pctBelowB": 0,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "B",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Marina Dubova",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mariam Aly",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20128"
+  ]
+ },
+ "PSYCH 130": {
+  "course": "PSYCH 130",
+  "difficulty": 3.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (5 on Berkeleytime)",
+     "value": 3.2,
+     "weight": 0.175
+    },
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.333
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.8,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (5 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.2
+    }
+   ]
+  },
+  "sentiment": "5 students on Berkeleytime rate it 3.2/5 for difficulty, 2.8/5 for workload and 4.8/5 for usefulness. The average grade is B+ (3.34), with 52% of letter grades in the A range. Lectures are usually not recorded. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 990,
+   "pctA": 52,
+   "pctBelowB": 11,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 32
+    },
+    {
+     "letter": "A",
+     "count": 279
+    },
+    {
+     "letter": "A-",
+     "count": 168
+    },
+    {
+     "letter": "B+",
+     "count": 130
+    },
+    {
+     "letter": "B",
+     "count": 131
+    },
+    {
+     "letter": "B-",
+     "count": 78
+    },
+    {
+     "letter": "C+",
+     "count": 40
+    },
+    {
+     "letter": "C",
+     "count": 27
+    },
+    {
+     "letter": "C-",
+     "count": 11
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 6
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 59
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 5,
+   "difficulty": 3.2,
+   "workload": 2.8,
+   "usefulness": 4.8,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Jasmin Brooks Stephens",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.48,
+    "studentCount": 4,
+    "studentDifficulty": 3.2,
+    "studentUsefulness": 4.8,
+    "difficulty": 2.9,
+    "shouldTake": 4.1
+   },
+   {
+    "professor": "Sheri Johnson",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "JD Allen",
+    "terms": 4,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.03,
+    "difficulty": 3.5
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.22,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20130"
+  ]
+ },
+ "PSYCH 130M": {
+  "course": "PSYCH 130M",
+  "difficulty": 3.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.35)",
+     "value": 2.9,
+     "weight": 0.283
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 4,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.081
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 4.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.35), with 66% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.35,
+   "letter": "B+",
+   "students": 210,
+   "pctA": 66,
+   "pctBelowB": 15,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 51
+    },
+    {
+     "letter": "A",
+     "count": 62
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 27
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 4,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Liu",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.31,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Qing Zhou",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.31,
+    "difficulty": 3.0
+   },
+   {
+    "professor": "Angela Johnson",
+    "terms": 4,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.41,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.9,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20130M"
+  ]
+ },
+ "PSYCH 131": {
+  "course": "PSYCH 131",
+  "difficulty": 2.3,
+  "shouldTake": 4.3,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (10 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.233
+    },
+    {
+     "label": "Average grade A- (3.67)",
+     "value": 1.9,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (10)",
+     "value": 2.3,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.1,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.033
+    },
+    {
+     "label": "Student usefulness rating (10 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.267
+    }
+   ]
+  },
+  "sentiment": "10 students on Berkeleytime rate it 2.5/5 for difficulty, 2.3/5 for workload and 4.8/5 for usefulness. The average grade is A- (3.67), with 77% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.67,
+   "letter": "A-",
+   "students": 1238,
+   "pctA": 77,
+   "pctBelowB": 5,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 155
+    },
+    {
+     "letter": "A",
+     "count": 530
+    },
+    {
+     "letter": "A-",
+     "count": 203
+    },
+    {
+     "letter": "B+",
+     "count": 106
+    },
+    {
+     "letter": "B",
+     "count": 71
+    },
+    {
+     "letter": "B-",
+     "count": 34
+    },
+    {
+     "letter": "C+",
+     "count": 20
+    },
+    {
+     "letter": "C",
+     "count": 16
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 78
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 10,
+   "difficulty": 2.5,
+   "workload": 2.3,
+   "usefulness": 4.8,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 11
+  },
+  "byProfessor": [
+   {
+    "professor": "Giovanni Ramos",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stephen Hinshaw",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.54,
+    "studentCount": 3,
+    "studentDifficulty": 3.7,
+    "studentUsefulness": 5,
+    "difficulty": 2.5,
+    "shouldTake": 4.4
+   },
+   {
+    "professor": "Qing Zhou",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.77,
+    "studentCount": 7,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.0,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20131"
+  ]
+ },
+ "PSYCH 133": {
+  "course": "PSYCH 133",
+  "difficulty": 1.9,
+  "shouldTake": 4.0,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.334
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.095
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 1.0/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.81), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 1013,
+   "pctA": 87,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 344
+    },
+    {
+     "letter": "A",
+     "count": 419
+    },
+    {
+     "letter": "A-",
+     "count": 90
+    },
+    {
+     "letter": "B+",
+     "count": 48
+    },
+    {
+     "letter": "B",
+     "count": 53
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 1,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Matthew Walker",
+    "terms": 1,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.76,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 4,
+    "difficulty": 1.7,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20133"
+  ]
+ },
+ "PSYCH 134": {
+  "course": "PSYCH 134",
+  "difficulty": 2.6,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A- (3.53)",
+     "value": 2.3,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 2.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.0/5 for difficulty, 2.3/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.53), with 65% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.53,
+   "letter": "A-",
+   "students": 843,
+   "pctA": 65,
+   "pctBelowB": 7,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 342
+    },
+    {
+     "letter": "A-",
+     "count": 147
+    },
+    {
+     "letter": "B+",
+     "count": 104
+    },
+    {
+     "letter": "B",
+     "count": 76
+    },
+    {
+     "letter": "B-",
+     "count": 40
+    },
+    {
+     "letter": "C+",
+     "count": 22
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 44
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3,
+   "workload": 2.3,
+   "usefulness": 4,
+   "recordedPct": 33,
+   "attendanceRequiredPct": 67
+  },
+  "byProfessor": [
+   {
+    "professor": "Aaron Fisher",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.51,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 2.6,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20134"
+  ]
+ },
+ "PSYCH 135": {
+  "course": "PSYCH 135",
+  "difficulty": 2.2,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.3,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is A- (3.73), with 81% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 677,
+   "pctA": 81,
+   "pctBelowB": 3,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 159
+    },
+    {
+     "letter": "A",
+     "count": 265
+    },
+    {
+     "letter": "A-",
+     "count": 84
+    },
+    {
+     "letter": "B+",
+     "count": 44
+    },
+    {
+     "letter": "B",
+     "count": 46
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 6
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 45
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Allison Harvey",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.65,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.1,
+    "shouldTake": 4.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20135"
+  ]
+ },
+ "PSYCH 136": {
+  "course": "PSYCH 136",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.88)",
+     "value": 1.2,
+     "weight": 0.316
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.88), with 94% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.88,
+   "letter": "A",
+   "students": 467,
+   "pctA": 94,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 407
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James McHale",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.91,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20136"
+  ]
+ },
+ "PSYCH 137": {
+  "course": "PSYCH 137",
+  "difficulty": 3.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.307
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.09), with 48% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 361,
+   "pctA": 48,
+   "pctBelowB": 18,
+   "pctPassNoPass": 15,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 84
+    },
+    {
+     "letter": "A-",
+     "count": 54
+    },
+    {
+     "letter": "B+",
+     "count": 35
+    },
+    {
+     "letter": "B",
+     "count": 45
+    },
+    {
+     "letter": "B-",
+     "count": 26
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 19
+    },
+    {
+     "letter": "P",
+     "count": 39
+    },
+    {
+     "letter": "NP",
+     "count": 15
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ephrem Fernandez",
+    "terms": 4,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.98,
+    "difficulty": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20137"
+  ]
+ },
+ "PSYCH 138": {
+  "course": "PSYCH 138",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.54)",
+     "value": 2.3,
+     "weight": 0.288
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.54), with 74% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.54,
+   "letter": "A-",
+   "students": 231,
+   "pctA": 74,
+   "pctBelowB": 9,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 112
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 17
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 8
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thomas Steffora",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.88,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Sheri Johnson",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Erika Roach",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.5,
+    "difficulty": 2.5
+   },
+   {
+    "professor": "Nancy Liu",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.2,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20138"
+  ]
+ },
+ "PSYCH 139": {
+  "course": "PSYCH 139",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.79)",
+     "value": 1.5,
+     "weight": 0.283
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.79), with 88% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.79,
+   "letter": "A-",
+   "students": 211,
+   "pctA": 88,
+   "pctBelowB": 5,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 179
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 4
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "James McHale",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.82,
+    "difficulty": 1.7
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20139"
+  ]
+ },
+ "PSYCH 140": {
+  "course": "PSYCH 140",
+  "difficulty": 2.9,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 2.9,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.36)",
+     "value": 2.9,
+     "weight": 0.336
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 2.6,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.1,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.4,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4.4,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 2.9/5 for difficulty, 2.6/5 for workload and 4.4/5 for usefulness. The average grade is B+ (3.36), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.36,
+   "letter": "B+",
+   "students": 1199,
+   "pctA": 62,
+   "pctBelowB": 14,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 269
+    },
+    {
+     "letter": "A",
+     "count": 265
+    },
+    {
+     "letter": "A-",
+     "count": 175
+    },
+    {
+     "letter": "B+",
+     "count": 119
+    },
+    {
+     "letter": "B",
+     "count": 104
+    },
+    {
+     "letter": "B-",
+     "count": 53
+    },
+    {
+     "letter": "C+",
+     "count": 30
+    },
+    {
+     "letter": "C",
+     "count": 38
+    },
+    {
+     "letter": "C-",
+     "count": 23
+    },
+    {
+     "letter": "D+",
+     "count": 24
+    },
+    {
+     "letter": "D",
+     "count": 13
+    },
+    {
+     "letter": "D-",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 26
+    },
+    {
+     "letter": "P",
+     "count": 43
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 2.9,
+   "workload": 2.6,
+   "usefulness": 4.4,
+   "recordedPct": 43,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Fei Xu",
+    "terms": 3,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.54,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.6,
+    "shouldTake": 3.6
+   },
+   {
+    "professor": "Jan Engelmann",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.26,
+    "studentCount": 6,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 4.7,
+    "difficulty": 3.0,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20140"
+  ]
+ },
+ "PSYCH 144": {
+  "course": "PSYCH 144",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.97)",
+     "value": 1.0,
+     "weight": 0.194
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.97), with 97% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.97,
+   "letter": "A",
+   "students": 62,
+   "pctA": 97,
+   "pctBelowB": 0,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 24
+    },
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Melissa Bayne",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.97,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20144"
+  ]
+ },
+ "PSYCH 147": {
+  "course": "PSYCH 147",
+  "difficulty": 1.7,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade A (3.90)",
+     "value": 1.2,
+     "weight": 0.335
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 1.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 3.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 2.0/5 for difficulty, 1.3/5 for workload and 3.7/5 for usefulness. The average grade is A (3.90), with 93% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.9,
+   "letter": "A",
+   "students": 1102,
+   "pctA": 93,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 784
+    },
+    {
+     "letter": "A",
+     "count": 176
+    },
+    {
+     "letter": "A-",
+     "count": 41
+    },
+    {
+     "letter": "B+",
+     "count": 31
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 8
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 17
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 2,
+   "workload": 1.3,
+   "usefulness": 3.7,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Celeste Kidd",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.88,
+    "studentCount": 3,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3.7,
+    "difficulty": 1.5,
+    "shouldTake": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20147"
+  ]
+ },
+ "PSYCH 148": {
+  "course": "PSYCH 148",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.96)",
+     "value": 1.0,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.96), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.96,
+   "letter": "A",
+   "students": 19,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 15
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20148"
+  ]
+ },
+ "PSYCH 150": {
+  "course": "PSYCH 150",
+  "difficulty": 2.4,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (9 on Berkeleytime)",
+     "value": 2.3,
+     "weight": 0.225
+    },
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.339
+    },
+    {
+     "label": "Student workload rating (9)",
+     "value": 2.1,
+     "weight": 0.096
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.9,
+     "weight": 0.032
+    },
+    {
+     "label": "Student usefulness rating (9 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.257
+    },
+    {
+     "label": "Tone of written student reviews (50 on file)",
+     "value": 4.4,
+     "weight": 0.139
+    }
+   ]
+  },
+  "sentiment": "Students generally love this class, calling lectures funny, clear, and engaging, with fair exams and doable weekly work. Reviewers describe it as easy to moderate, with long readings and time-consuming web exercises. Extra credit is common, and most say to study the slides and not underestimate the multiple choice.",
+  "sentimentWrittenBy": "model",
+  "midterms": 1,
+  "finalExam": "A",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 1583,
+   "pctA": 71,
+   "pctBelowB": 8,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 269
+    },
+    {
+     "letter": "A",
+     "count": 593
+    },
+    {
+     "letter": "A-",
+     "count": 192
+    },
+    {
+     "letter": "B+",
+     "count": 135
+    },
+    {
+     "letter": "B",
+     "count": 120
+    },
+    {
+     "letter": "B-",
+     "count": 64
+    },
+    {
+     "letter": "C+",
+     "count": 33
+    },
+    {
+     "letter": "C",
+     "count": 36
+    },
+    {
+     "letter": "C-",
+     "count": 17
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 80
+    },
+    {
+     "letter": "NP",
+     "count": 10
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 9,
+   "difficulty": 2.3,
+   "workload": 2.1,
+   "usefulness": 3.8,
+   "recordedPct": 14,
+   "attendanceRequiredPct": 14
+  },
+  "byProfessor": [
+   {
+    "professor": "Oliver John",
+    "terms": 3,
+    "lastTaught": "2025 Fall",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.55,
+    "midterms": 1,
+    "studentCount": 7,
+    "studentDifficulty": 2.3,
+    "studentUsefulness": 3.7,
+    "difficulty": 2.3,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Ozlem Ayduk",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.53,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20150"
+  ]
+ },
+ "PSYCH 156": {
+  "course": "PSYCH 156",
+  "difficulty": 3.0,
+  "shouldTake": 3.3,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.322
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.092
+    },
+    {
+     "label": "Tone of written student reviews (18 on file)",
+     "value": 3.2,
+     "weight": 0.123
+    }
+   ]
+  },
+  "sentiment": "Reviews are mixed, with many praising interesting content and lectures. The grade rests almost entirely on a few exams, so one bad exam can hurt, and sections are called pointless. Several mention disorganized lectures, harsh or uneven GSI grading, and exams drawn heavily from the book.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 575,
+   "pctA": 46,
+   "pctBelowB": 11,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 5
+    },
+    {
+     "letter": "A",
+     "count": 197
+    },
+    {
+     "letter": "A-",
+     "count": 42
+    },
+    {
+     "letter": "B+",
+     "count": 32
+    },
+    {
+     "letter": "B",
+     "count": 184
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 43
+    },
+    {
+     "letter": "C-",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 46
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Dacher Keltner",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.33,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20156"
+  ]
+ },
+ "PSYCH 158": {
+  "course": "PSYCH 158",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.063
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.84), with 90% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 11,
+   "pctA": 90,
+   "pctBelowB": 0,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 2
+    },
+    {
+     "letter": "A",
+     "count": 4
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20158"
+  ]
+ },
+ "PSYCH 160": {
+  "course": "PSYCH 160",
+  "difficulty": 2.6,
+  "shouldTake": 4.1,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (6 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.191
+    },
+    {
+     "label": "Average grade A- (3.56)",
+     "value": 2.2,
+     "weight": 0.339
+    },
+    {
+     "label": "Student workload rating (6)",
+     "value": 2.8,
+     "weight": 0.082
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.8,
+     "weight": 0.097
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.027
+    },
+    {
+     "label": "Student usefulness rating (6 on Berkeleytime)",
+     "value": 4.8,
+     "weight": 0.218
+    },
+    {
+     "label": "Tone of written student reviews (31 on file)",
+     "value": 4.0,
+     "weight": 0.133
+    }
+   ]
+  },
+  "sentiment": "Students say the lectures are engaging and the material interesting, but the grade rests mostly on a few exams that are harder than they look. Reading the textbook carefully and studying the long study guides are repeated advice. Most recommend it, though some found exam questions wordy.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.56,
+   "letter": "A-",
+   "students": 1506,
+   "pctA": 68,
+   "pctBelowB": 8,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 304
+    },
+    {
+     "letter": "A",
+     "count": 439
+    },
+    {
+     "letter": "A-",
+     "count": 219
+    },
+    {
+     "letter": "B+",
+     "count": 137
+    },
+    {
+     "letter": "B",
+     "count": 131
+    },
+    {
+     "letter": "B-",
+     "count": 62
+    },
+    {
+     "letter": "C+",
+     "count": 34
+    },
+    {
+     "letter": "C",
+     "count": 40
+    },
+    {
+     "letter": "C-",
+     "count": 24
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 86
+    },
+    {
+     "letter": "NP",
+     "count": 12
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 6,
+   "difficulty": 3,
+   "workload": 2.8,
+   "usefulness": 4.8,
+   "recordedPct": 25,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Serena Chen",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.28,
+    "studentCount": 3,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4.7,
+    "difficulty": 2.9,
+    "shouldTake": 4.0
+   },
+   {
+    "professor": "Iris Mauss",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.67,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 4.3
+   },
+   {
+    "professor": "Ingela Steij Staalbrand",
+    "terms": 1,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.44,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.7,
+    "shouldTake": 4.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20160"
+  ]
+ },
+ "PSYCH 163": {
+  "course": "PSYCH 163",
+  "difficulty": 1.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.85)",
+     "value": 1.3,
+     "weight": 0.319
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.85), with 91% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.85,
+   "letter": "A",
+   "students": 518,
+   "pctA": 91,
+   "pctBelowB": 2,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 59
+    },
+    {
+     "letter": "A",
+     "count": 314
+    },
+    {
+     "letter": "A-",
+     "count": 86
+    },
+    {
+     "letter": "B+",
+     "count": 21
+    },
+    {
+     "letter": "B",
+     "count": 10
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 13
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Arianne Eason",
+    "terms": 3,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.87,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20163"
+  ]
+ },
+ "PSYCH 166AC": {
+  "course": "PSYCH 166AC",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.75)",
+     "value": 1.6,
+     "weight": 0.301
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.75), with 85% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.75,
+   "letter": "A-",
+   "students": 305,
+   "pctA": 85,
+   "pctBelowB": 4,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 73
+    },
+    {
+     "letter": "A",
+     "count": 135
+    },
+    {
+     "letter": "A-",
+     "count": 33
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 3
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Joseph Ocampo",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.5,
+    "difficulty": 2.2
+   },
+   {
+    "professor": "Yang Bai",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.81,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Sara Gorchoff",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.5,
+    "difficulty": 2.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20166AC"
+  ]
+ },
+ "PSYCH 167AC": {
+  "course": "PSYCH 167AC",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.331
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.55), with 69% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 864,
+   "pctA": 69,
+   "pctBelowB": 8,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 188
+    },
+    {
+     "letter": "A",
+     "count": 202
+    },
+    {
+     "letter": "A-",
+     "count": 108
+    },
+    {
+     "letter": "B+",
+     "count": 76
+    },
+    {
+     "letter": "B",
+     "count": 68
+    },
+    {
+     "letter": "B-",
+     "count": 19
+    },
+    {
+     "letter": "C+",
+     "count": 14
+    },
+    {
+     "letter": "C",
+     "count": 21
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 130
+    },
+    {
+     "letter": "NP",
+     "count": 13
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.73,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Jason Okonofua",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.46,
+    "difficulty": 2.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20167AC"
+  ]
+ },
+ "PSYCH 168": {
+  "course": "PSYCH 168",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Manuel Galvan",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20168"
+  ]
+ },
+ "PSYCH 169": {
+  "course": "PSYCH 169",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.91)",
+     "value": 1.1,
+     "weight": 0.245
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.91), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.91,
+   "letter": "A",
+   "students": 116,
+   "pctA": 93,
+   "pctBelowB": 0,
+   "pctPassNoPass": 22,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 49
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Melissa Bayne",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.91,
+    "difficulty": 1.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20169"
+  ]
+ },
+ "PSYCH 170": {
+  "course": "PSYCH 170",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.279
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 85% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 197,
+   "pctA": 85,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 144
+    },
+    {
+     "letter": "A-",
+     "count": 16
+    },
+    {
+     "letter": "B+",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Liu",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.71,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20170"
+  ]
+ },
+ "PSYCH 171": {
+  "course": "PSYCH 171",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.78)",
+     "value": 1.5,
+     "weight": 0.202
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.78), with 82% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.78,
+   "letter": "A-",
+   "students": 68,
+   "pctA": 82,
+   "pctBelowB": 3,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 36
+    },
+    {
+     "letter": "A",
+     "count": 13
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Qing Zhou",
+    "terms": 2,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.77,
+    "difficulty": 1.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20171"
+  ]
+ },
+ "PSYCH 172": {
+  "course": "PSYCH 172",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.33)",
+     "value": 3.0,
+     "weight": 0.233
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.33), with 56% of letter grades in the A range.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.33,
+   "letter": "B+",
+   "students": 99,
+   "pctA": 56,
+   "pctBelowB": 14,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 4
+    },
+    {
+     "letter": "A",
+     "count": 36
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 8
+    },
+    {
+     "letter": "B",
+     "count": 14
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Thi Tran",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.6,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Elias Aboujaoude",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.09,
+    "difficulty": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20172"
+  ]
+ },
+ "PSYCH 173": {
+  "course": "PSYCH 173",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.239
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.46), with 74% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 108,
+   "pctA": 74,
+   "pctBelowB": 15,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 67
+    },
+    {
+     "letter": "A-",
+     "count": 8
+    },
+    {
+     "letter": "B+",
+     "count": 3
+    },
+    {
+     "letter": "B",
+     "count": 4
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 4
+    },
+    {
+     "letter": "NP",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Liu",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.49,
+    "difficulty": 2.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20173"
+  ]
+ },
+ "PSYCH 181": {
+  "course": "PSYCH 181",
+  "difficulty": 2.8,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.43)",
+     "value": 2.7,
+     "weight": 0.151
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.43), with 57% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.43,
+   "letter": "B+",
+   "students": 38,
+   "pctA": 57,
+   "pctBelowB": 3,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 6
+    },
+    {
+     "letter": "A-",
+     "count": 12
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 6
+    },
+    {
+     "letter": "B-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Yang Bai",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.43,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20181"
+  ]
+ },
+ "PSYCH 192": {
+  "course": "PSYCH 192",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.168
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.77), with 89% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 46,
+   "pctA": 89,
+   "pctBelowB": 7,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Nancy Liu",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Qing Zhou",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.98,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Allison Harvey",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.98,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Giovanni Ramos",
+    "terms": 1,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.36,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20192"
+  ]
+ },
+ "PSYCH 192P": {
+  "course": "PSYCH 192P",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "A",
+  "byProfessor": [
+   {
+    "professor": "Melissa Bayne",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20192P"
+  ]
+ },
+ "PSYCH 197": {
+  "course": "PSYCH 197",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Dacher Keltner",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Stephen Hinshaw",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Serena Chen",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sheri Johnson",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Oliver John",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Allison Harvey",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 14,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Celeste Kidd",
+    "terms": 13,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20197"
+  ]
+ },
+ "PSYCH 198": {
+  "course": "PSYCH 198",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "David Presti",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Celeste Kidd",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Silvia Bunge",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Melissa Bayne",
+    "terms": 10,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Qing Zhou",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 6,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Maia Ettlinger",
+    "terms": 3,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Amitoj Wadhwa",
+    "terms": 2,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20198"
+  ]
+ },
+ "PSYCH 199": {
+  "course": "PSYCH 199",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Qing Zhou",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Aaron Fisher",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mahesh Srinivasan",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Allison Harvey",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Iris Mauss",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Keanan Joyner",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Oliver John",
+    "terms": 15,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20199"
+  ]
+ },
+ "PSYCH 2": {
+  "course": "PSYCH 2",
+  "difficulty": 2.5,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.64)",
+     "value": 2.0,
+     "weight": 0.337
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 3.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.0,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    }
+   ]
+  },
+  "sentiment": "2 students on Berkeleytime rate it 3.0/5 for difficulty, 3.5/5 for workload and 4.0/5 for usefulness. The average grade is A- (3.64), with 77% of letter grades in the A range. It usually has 1 scheduled midterm.",
+  "midterms": 1,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.64,
+   "letter": "A-",
+   "students": 1247,
+   "pctA": 77,
+   "pctBelowB": 7,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 327
+    },
+    {
+     "letter": "A",
+     "count": 347
+    },
+    {
+     "letter": "A-",
+     "count": 147
+    },
+    {
+     "letter": "B+",
+     "count": 68
+    },
+    {
+     "letter": "B",
+     "count": 69
+    },
+    {
+     "letter": "B-",
+     "count": 35
+    },
+    {
+     "letter": "C+",
+     "count": 28
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 154
+    },
+    {
+     "letter": "NP",
+     "count": 23
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 3,
+   "workload": 3.5,
+   "usefulness": 4,
+   "recordedPct": 50,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Joshua Confer",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.8,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Sheri Johnson",
+    "terms": 1,
+    "lastTaught": "2025 Spring",
+    "gpa": 3.8,
+    "difficulty": 2.0
+   },
+   {
+    "professor": "Serena Chen",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 3.34,
+    "midterms": 1,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 5,
+    "difficulty": 2.8,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Ozlem Ayduk",
+    "terms": 3,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.61,
+    "difficulty": 2.3
+   },
+   {
+    "professor": "Everett Wetchler",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 3.32,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Ryan Lundell-Creagh",
+    "terms": 2,
+    "lastTaught": "2022 Fall",
+    "gpa": 3.77,
+    "difficulty": 2.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%202"
+  ]
+ },
+ "PSYCH 22": {
+  "course": "PSYCH 22",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.57)",
+     "value": 2.2,
+     "weight": 0.158
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.57), with 78% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.57,
+   "letter": "A-",
+   "students": 41,
+   "pctA": 78,
+   "pctBelowB": 12,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 11
+    },
+    {
+     "letter": "A-",
+     "count": 4
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 2
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 2,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.59,
+    "difficulty": 2.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%2022"
+  ]
+ },
+ "PSYCH 24": {
+  "course": "PSYCH 24",
+  "difficulty": 2.1,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.12
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 4,
+   "letter": "A",
+   "students": 26,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 8,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ronald Dahl",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "William Thompson",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Mark D'Esposito",
+    "terms": 3,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Serena Chen",
+    "terms": 1,
+    "lastTaught": "2024 Spring"
+   },
+   {
+    "professor": "Steven Piantadosi",
+    "terms": 1,
+    "lastTaught": "2023 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%2024"
+  ]
+ },
+ "PSYCH 3": {
+  "course": "PSYCH 3",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.58)",
+     "value": 2.2,
+     "weight": 0.307
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.58), with 76% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.58,
+   "letter": "A-",
+   "students": 354,
+   "pctA": 76,
+   "pctBelowB": 8,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 12
+    },
+    {
+     "letter": "A",
+     "count": 171
+    },
+    {
+     "letter": "A-",
+     "count": 35
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 60
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Evangelos Antzoulatos",
+    "terms": 3,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.84,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Robin Ball",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.17,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%203"
+  ]
+ },
+ "PSYCH 3B": {
+  "course": "PSYCH 3B",
+  "difficulty": 2.2,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.84)",
+     "value": 1.4,
+     "weight": 0.17
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.6,
+     "weight": 0.048
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.84), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.84,
+   "letter": "A-",
+   "students": 47,
+   "pctA": 93,
+   "pctBelowB": 4,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 17
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 2
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 3,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Evangelos Antzoulatos",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.84,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.0,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%203B"
+  ]
+ },
+ "PSYCH 4": {
+  "course": "PSYCH 4",
+  "difficulty": 3.1,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.29)",
+     "value": 3.1,
+     "weight": 0.323
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.29), with 65% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.29,
+   "letter": "B+",
+   "students": 587,
+   "pctA": 65,
+   "pctBelowB": 18,
+   "pctPassNoPass": 17,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 103
+    },
+    {
+     "letter": "A",
+     "count": 164
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 30
+    },
+    {
+     "letter": "B",
+     "count": 42
+    },
+    {
+     "letter": "B-",
+     "count": 13
+    },
+    {
+     "letter": "C+",
+     "count": 10
+    },
+    {
+     "letter": "C",
+     "count": 20
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 9
+    },
+    {
+     "letter": "D-",
+     "count": 8
+    },
+    {
+     "letter": "F",
+     "count": 30
+    },
+    {
+     "letter": "P",
+     "count": 76
+    },
+    {
+     "letter": "NP",
+     "count": 25
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ryan Lundell-Creagh",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.2,
+    "difficulty": 3.3
+   },
+   {
+    "professor": "Davina Chan",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.39,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%204"
+  ]
+ },
+ "PSYCH 5": {
+  "course": "PSYCH 5",
+  "difficulty": 3.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.01)",
+     "value": 4.0,
+     "weight": 0.265
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.01), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.01,
+   "letter": "B",
+   "students": 156,
+   "pctA": 46,
+   "pctBelowB": 23,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 25
+    },
+    {
+     "letter": "A-",
+     "count": 30
+    },
+    {
+     "letter": "B+",
+     "count": 19
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 9
+    },
+    {
+     "letter": "P",
+     "count": 25
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "JD Allen",
+    "terms": 1,
+    "lastTaught": "2024 Summer",
+    "gpa": 3.59,
+    "difficulty": 3.1
+   },
+   {
+    "professor": "Elias Aboujaoude",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.81,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%205"
+  ]
+ },
+ "PSYCH 6": {
+  "course": "PSYCH 6",
+  "difficulty": 2.0,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A- (3.76)",
+     "value": 1.6,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 2.0/5 for difficulty, 1.0/5 for workload and 3.0/5 for usefulness. The average grade is A- (3.76), with 87% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.76,
+   "letter": "A-",
+   "students": 693,
+   "pctA": 87,
+   "pctBelowB": 4,
+   "pctPassNoPass": 10,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 140
+    },
+    {
+     "letter": "A",
+     "count": 263
+    },
+    {
+     "letter": "A-",
+     "count": 142
+    },
+    {
+     "letter": "B+",
+     "count": 29
+    },
+    {
+     "letter": "B",
+     "count": 19
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 12
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 64
+    },
+    {
+     "letter": "NP",
+     "count": 3
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 2,
+   "workload": 1,
+   "usefulness": 3,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Andres Martinez",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.87,
+    "studentCount": 1,
+    "studentDifficulty": 2,
+    "studentUsefulness": 3,
+    "difficulty": 1.6,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%206"
+  ]
+ },
+ "PSYCH 7": {
+  "course": "PSYCH 7",
+  "difficulty": 2.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.81)",
+     "value": 1.4,
+     "weight": 0.258
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.81), with 86% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.81,
+   "letter": "A-",
+   "students": 141,
+   "pctA": 86,
+   "pctBelowB": 2,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 68
+    },
+    {
+     "letter": "A-",
+     "count": 26
+    },
+    {
+     "letter": "B+",
+     "count": 10
+    },
+    {
+     "letter": "B",
+     "count": 5
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Peter Hurtubise",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.54,
+    "difficulty": 2.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%207"
+  ]
+ },
+ "PSYCH 84": {
+  "course": "PSYCH 84",
+  "difficulty": 2.5,
+  "confidence": {
+   "difficulty": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.73)",
+     "value": 1.7,
+     "weight": 0.1
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.73), with 80% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.73,
+   "letter": "A-",
+   "students": 20,
+   "pctA": 80,
+   "pctBelowB": 5,
+   "pctPassNoPass": 0,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 7
+    },
+    {
+     "letter": "A",
+     "count": 8
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%2084"
+  ]
+ },
+ "PSYCH 98": {
+  "course": "PSYCH 98",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Mahesh Srinivasan",
+    "terms": 4,
+    "lastTaught": "2025 Summer"
+   },
+   {
+    "professor": "Ira Young",
+    "terms": 1,
+    "lastTaught": "2022 Summer"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%2098"
+  ]
+ },
+ "PSYCH 99": {
+  "course": "PSYCH 99",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Qing Zhou",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Fei Xu",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "David Whitney",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Joni Wallis",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Matthew Walker",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Mahesh Srinivasan",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%2099"
+  ]
+ },
+ "PSYCH C111": {
+  "course": "PSYCH C111",
+  "difficulty": 3.1,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.24)",
+     "value": 3.3,
+     "weight": 0.312
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 2,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.7,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is light",
+     "value": 4,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 3.0/5 for difficulty, 2.0/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.24), with 46% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.24,
+   "letter": "B+",
+   "students": 411,
+   "pctA": 46,
+   "pctBelowB": 18,
+   "pctPassNoPass": 9,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 40
+    },
+    {
+     "letter": "A",
+     "count": 101
+    },
+    {
+     "letter": "A-",
+     "count": 31
+    },
+    {
+     "letter": "B+",
+     "count": 51
+    },
+    {
+     "letter": "B",
+     "count": 63
+    },
+    {
+     "letter": "B-",
+     "count": 22
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 25
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 10
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 34
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 3,
+   "workload": 2,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Kevin Weiner",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.19,
+    "studentCount": 1,
+    "studentDifficulty": 3,
+    "studentUsefulness": 4,
+    "difficulty": 3.2,
+    "shouldTake": 3.3
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C111"
+  ]
+ },
+ "PSYCH C113": {
+  "course": "PSYCH C113",
+  "difficulty": 3.4,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (3.11)",
+     "value": 3.7,
+     "weight": 0.256
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (3.11), with 47% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.11,
+   "letter": "B",
+   "students": 137,
+   "pctA": 47,
+   "pctBelowB": 22,
+   "pctPassNoPass": 20,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 16
+    },
+    {
+     "letter": "A",
+     "count": 30
+    },
+    {
+     "letter": "A-",
+     "count": 6
+    },
+    {
+     "letter": "B+",
+     "count": 9
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 7
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 18
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 2.84,
+    "difficulty": 4.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C113"
+  ]
+ },
+ "PSYCH C115C": {
+  "course": "PSYCH C115C",
+  "difficulty": 4.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B- (2.58)",
+     "value": 5.0,
+     "weight": 0.256
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B- (2.58), with 30% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.58,
+   "letter": "B-",
+   "students": 137,
+   "pctA": 30,
+   "pctBelowB": 40,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 1
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 13
+    },
+    {
+     "letter": "B+",
+     "count": 15
+    },
+    {
+     "letter": "B",
+     "count": 17
+    },
+    {
+     "letter": "B-",
+     "count": 4
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "C-",
+     "count": 10
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 5
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 7
+    },
+    {
+     "letter": "NP",
+     "count": 12
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tara Raam",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Frederic Theunissen",
+    "terms": 4,
+    "lastTaught": "2026 Spring",
+    "gpa": 2.72,
+    "difficulty": 4.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C115C"
+  ]
+ },
+ "PSYCH C116": {
+  "course": "PSYCH C116",
+  "difficulty": 3.3,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.17)",
+     "value": 3.5,
+     "weight": 0.269
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.17), with 53% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.17,
+   "letter": "B+",
+   "students": 166,
+   "pctA": 53,
+   "pctBelowB": 21,
+   "pctPassNoPass": 19,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 18
+    },
+    {
+     "letter": "A",
+     "count": 48
+    },
+    {
+     "letter": "A-",
+     "count": 5
+    },
+    {
+     "letter": "B+",
+     "count": 12
+    },
+    {
+     "letter": "B",
+     "count": 18
+    },
+    {
+     "letter": "B-",
+     "count": 5
+    },
+    {
+     "letter": "C+",
+     "count": 5
+    },
+    {
+     "letter": "C",
+     "count": 5
+    },
+    {
+     "letter": "C-",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 7
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.06,
+    "difficulty": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C116"
+  ]
+ },
+ "PSYCH C120": {
+  "course": "PSYCH C120",
+  "difficulty": 2.0,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (15 on Berkeleytime)",
+     "value": 2,
+     "weight": 0.262
+    },
+    {
+     "label": "Average grade A- (3.77)",
+     "value": 1.6,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (15)",
+     "value": 1.7,
+     "weight": 0.112
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.4,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.3,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (15 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.3
+    },
+    {
+     "label": "Tone of written student reviews (6 on file)",
+     "value": 3.9,
+     "weight": 0.09
+    }
+   ]
+  },
+  "sentiment": "Few reviews, mostly positive about entertaining lectures, interesting topics and generous curving. Exams use the slides, and attendance matters less. Complaints include a vague group project and weekly quizzes that can be tricky and heavily weighted.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.77,
+   "letter": "A-",
+   "students": 593,
+   "pctA": 87,
+   "pctBelowB": 4,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 118
+    },
+    {
+     "letter": "A",
+     "count": 340
+    },
+    {
+     "letter": "A-",
+     "count": 48
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 34
+    },
+    {
+     "letter": "B-",
+     "count": 11
+    },
+    {
+     "letter": "C+",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 6
+    },
+    {
+     "letter": "C-",
+     "count": 4
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 8
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 15,
+   "difficulty": 2,
+   "workload": 1.7,
+   "usefulness": 4,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 92
+  },
+  "byProfessor": [
+   {
+    "professor": "Mariam Aly",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Evangelos Antzoulatos",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.87,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "William Thompson",
+    "terms": 4,
+    "lastTaught": "2025 Fall",
+    "gpa": 3.94,
+    "studentCount": 7,
+    "studentDifficulty": 1.7,
+    "studentUsefulness": 4.1,
+    "difficulty": 1.6,
+    "shouldTake": 4.2
+   },
+   {
+    "professor": "Davina Chan",
+    "terms": 3,
+    "lastTaught": "2024 Fall",
+    "gpa": 3.36,
+    "studentCount": 8,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.9,
+    "difficulty": 2.3,
+    "shouldTake": 3.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C120"
+  ]
+ },
+ "PSYCH C123": {
+  "course": "PSYCH C123",
+  "difficulty": 2.9,
+  "shouldTake": 3.1,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (3 on Berkeleytime)",
+     "value": 3.3,
+     "weight": 0.131
+    },
+    {
+     "label": "Average grade B+ (3.46)",
+     "value": 2.6,
+     "weight": 0.241
+    },
+    {
+     "label": "Student workload rating (3)",
+     "value": 3.3,
+     "weight": 0.056
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.069
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 2.7,
+     "weight": 0.019
+    },
+    {
+     "label": "Student usefulness rating (3 on Berkeleytime)",
+     "value": 2.7,
+     "weight": 0.15
+    }
+   ]
+  },
+  "sentiment": "3 students on Berkeleytime rate it 3.3/5 for difficulty, 3.3/5 for workload and 2.7/5 for usefulness. The average grade is B+ (3.46), with 66% of letter grades in the A range. Lectures are usually recorded. Attendance is usually required.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.46,
+   "letter": "B+",
+   "students": 111,
+   "pctA": 66,
+   "pctBelowB": 10,
+   "pctPassNoPass": 14,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 25
+    },
+    {
+     "letter": "A",
+     "count": 24
+    },
+    {
+     "letter": "A-",
+     "count": 14
+    },
+    {
+     "letter": "B+",
+     "count": 7
+    },
+    {
+     "letter": "B",
+     "count": 8
+    },
+    {
+     "letter": "B-",
+     "count": 8
+    },
+    {
+     "letter": "C+",
+     "count": 2
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 10
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 3,
+   "difficulty": 3.3,
+   "workload": 3.3,
+   "usefulness": 2.7,
+   "recordedPct": 67,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Steven Piantadosi",
+    "terms": 2,
+    "lastTaught": "2025 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.46,
+    "studentCount": 1,
+    "studentDifficulty": 4,
+    "studentUsefulness": 2,
+    "difficulty": 3.0,
+    "shouldTake": 2.9
+   },
+   {
+    "professor": "Anne Collins",
+    "terms": 2,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.36,
+    "studentCount": 2,
+    "studentDifficulty": 3,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C123"
+  ]
+ },
+ "PSYCH C126": {
+  "course": "PSYCH C126",
+  "difficulty": 3.0,
+  "shouldTake": 3.4,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.2,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B (3.09)",
+     "value": 3.8,
+     "weight": 0.326
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 1.5,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 4.5,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.2/5 for difficulty, 1.5/5 for workload and 3.8/5 for usefulness. The average grade is B (3.09), with 32% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "A",
+  "grades": {
+   "average": 3.09,
+   "letter": "B",
+   "students": 671,
+   "pctA": 32,
+   "pctBelowB": 20,
+   "pctPassNoPass": 25,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 8
+    },
+    {
+     "letter": "A",
+     "count": 74
+    },
+    {
+     "letter": "A-",
+     "count": 81
+    },
+    {
+     "letter": "B+",
+     "count": 88
+    },
+    {
+     "letter": "B",
+     "count": 92
+    },
+    {
+     "letter": "B-",
+     "count": 61
+    },
+    {
+     "letter": "C+",
+     "count": 50
+    },
+    {
+     "letter": "C",
+     "count": 29
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 159
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.2,
+   "workload": 1.5,
+   "usefulness": 3.8,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "David Whitney",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 3.08,
+    "studentCount": 4,
+    "studentDifficulty": 2.2,
+    "studentUsefulness": 3.8,
+    "difficulty": 3.0,
+    "shouldTake": 3.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C126"
+  ]
+ },
+ "PSYCH C127": {
+  "course": "PSYCH C127",
+  "difficulty": 3.5,
+  "shouldTake": 3.5,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (16 on Berkeleytime)",
+     "value": 3.8,
+     "weight": 0.267
+    },
+    {
+     "label": "Average grade B (3.06)",
+     "value": 3.8,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (16)",
+     "value": 2.8,
+     "weight": 0.114
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are tough",
+     "value": 2.2,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is about average",
+     "value": 3.2,
+     "weight": 0.038
+    },
+    {
+     "label": "Student usefulness rating (16 on Berkeleytime)",
+     "value": 3.9,
+     "weight": 0.305
+    }
+   ]
+  },
+  "sentiment": "16 students on Berkeleytime rate it 3.8/5 for difficulty, 2.8/5 for workload and 3.9/5 for usefulness. The average grade is B (3.06), with 38% of letter grades in the A range. Attendance is usually required.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.06,
+   "letter": "B",
+   "students": 630,
+   "pctA": 38,
+   "pctBelowB": 21,
+   "pctPassNoPass": 11,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 45
+    },
+    {
+     "letter": "A",
+     "count": 91
+    },
+    {
+     "letter": "A-",
+     "count": 80
+    },
+    {
+     "letter": "B+",
+     "count": 83
+    },
+    {
+     "letter": "B",
+     "count": 76
+    },
+    {
+     "letter": "B-",
+     "count": 71
+    },
+    {
+     "letter": "C+",
+     "count": 35
+    },
+    {
+     "letter": "C",
+     "count": 28
+    },
+    {
+     "letter": "C-",
+     "count": 27
+    },
+    {
+     "letter": "D",
+     "count": 6
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 19
+    },
+    {
+     "letter": "P",
+     "count": 54
+    },
+    {
+     "letter": "NP",
+     "count": 14
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 16,
+   "difficulty": 3.8,
+   "workload": 2.8,
+   "usefulness": 3.9,
+   "recordedPct": 58,
+   "attendanceRequiredPct": 85
+  },
+  "byProfessor": [
+   {
+    "professor": "Richard Ivry",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring",
+    "gpa": 2.94,
+    "studentCount": 8,
+    "studentDifficulty": 4,
+    "studentUsefulness": 3.5,
+    "difficulty": 3.8,
+    "shouldTake": 3.2
+   },
+   {
+    "professor": "Amitai Shenhav",
+    "terms": 3,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.23,
+    "studentCount": 8,
+    "studentDifficulty": 3.6,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.4,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "Jack Gallant",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 2.92,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C127"
+  ]
+ },
+ "PSYCH C143": {
+  "course": "PSYCH C143",
+  "difficulty": 2.9,
+  "shouldTake": 3.2,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (4 on Berkeleytime)",
+     "value": 2.8,
+     "weight": 0.156
+    },
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.33
+    },
+    {
+     "label": "Student workload rating (4)",
+     "value": 3.2,
+     "weight": 0.067
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.094
+    },
+    {
+     "label": "Workload is about average",
+     "value": 2.8,
+     "weight": 0.022
+    },
+    {
+     "label": "Student usefulness rating (4 on Berkeleytime)",
+     "value": 3,
+     "weight": 0.178
+    }
+   ]
+  },
+  "sentiment": "4 students on Berkeleytime rate it 2.8/5 for difficulty, 3.2/5 for workload and 3.0/5 for usefulness. The average grade is B+ (3.38), with 59% of letter grades in the A range. Lectures are usually recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 817,
+   "pctA": 59,
+   "pctBelowB": 13,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 121
+    },
+    {
+     "letter": "A",
+     "count": 206
+    },
+    {
+     "letter": "A-",
+     "count": 134
+    },
+    {
+     "letter": "B+",
+     "count": 101
+    },
+    {
+     "letter": "B",
+     "count": 83
+    },
+    {
+     "letter": "B-",
+     "count": 40
+    },
+    {
+     "letter": "C+",
+     "count": 24
+    },
+    {
+     "letter": "C",
+     "count": 29
+    },
+    {
+     "letter": "C-",
+     "count": 13
+    },
+    {
+     "letter": "D+",
+     "count": 8
+    },
+    {
+     "letter": "D",
+     "count": 11
+    },
+    {
+     "letter": "D-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 27
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 4,
+   "difficulty": 2.8,
+   "workload": 3.2,
+   "usefulness": 3,
+   "recordedPct": 75,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Mahesh Srinivasan",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.39,
+    "studentCount": 4,
+    "studentDifficulty": 2.8,
+    "studentUsefulness": 3,
+    "difficulty": 2.9,
+    "shouldTake": 3.1
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C143"
+  ]
+ },
+ "PSYCH C61": {
+  "course": "PSYCH C61",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "high"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (13 on Berkeleytime)",
+     "value": 2.6,
+     "weight": 0.253
+    },
+    {
+     "label": "Average grade B+ (3.32)",
+     "value": 3.0,
+     "weight": 0.337
+    },
+    {
+     "label": "Student workload rating (13)",
+     "value": 2.4,
+     "weight": 0.108
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.0,
+     "weight": 0.096
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.6,
+     "weight": 0.036
+    },
+    {
+     "label": "Student usefulness rating (13 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.289
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 4.0,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Few reviews, but students find the lectures passionate and the subject interesting. Exams are described as easy or open note, yet they test small details from lectures and the textbook. Reviewers advise reading consistently and not falling behind.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.32,
+   "letter": "B+",
+   "students": 1341,
+   "pctA": 51,
+   "pctBelowB": 12,
+   "pctPassNoPass": 18,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 35
+    },
+    {
+     "letter": "A",
+     "count": 300
+    },
+    {
+     "letter": "A-",
+     "count": 229
+    },
+    {
+     "letter": "B+",
+     "count": 175
+    },
+    {
+     "letter": "B",
+     "count": 153
+    },
+    {
+     "letter": "B-",
+     "count": 78
+    },
+    {
+     "letter": "C+",
+     "count": 45
+    },
+    {
+     "letter": "C",
+     "count": 35
+    },
+    {
+     "letter": "C-",
+     "count": 30
+    },
+    {
+     "letter": "D+",
+     "count": 3
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 13
+    },
+    {
+     "letter": "P",
+     "count": 228
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 13,
+   "difficulty": 2.6,
+   "workload": 2.4,
+   "usefulness": 4,
+   "recordedPct": 91,
+   "attendanceRequiredPct": 69
+  },
+  "byProfessor": [
+   {
+    "professor": "Tara Raam",
+    "terms": 2,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.03,
+    "studentCount": 9,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.4,
+    "difficulty": 3.2,
+    "shouldTake": 3.8
+   },
+   {
+    "professor": "Hillel Adesnik",
+    "terms": 3,
+    "lastTaught": "2026 Spring",
+    "gpa": 3.2,
+    "studentCount": 9,
+    "studentDifficulty": 2.9,
+    "studentUsefulness": 4.2,
+    "difficulty": 3.0,
+    "shouldTake": 3.7
+   },
+   {
+    "professor": "David Presti",
+    "terms": 2,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.42,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3,
+    "difficulty": 2.6,
+    "shouldTake": 3.4
+   },
+   {
+    "professor": "Robin Ball",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.54,
+    "studentCount": 2,
+    "studentDifficulty": 1.5,
+    "studentUsefulness": 3,
+    "difficulty": 2.4,
+    "shouldTake": 3.5
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C61"
+  ]
+ },
+ "PSYCH C64": {
+  "course": "PSYCH C64",
+  "difficulty": 3.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B (2.87)",
+     "value": 4.5,
+     "weight": 0.257
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B (2.87), with 36% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 2.87,
+   "letter": "B",
+   "students": 138,
+   "pctA": 36,
+   "pctBelowB": 34,
+   "pctPassNoPass": 16,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 11
+    },
+    {
+     "letter": "A",
+     "count": 21
+    },
+    {
+     "letter": "A-",
+     "count": 10
+    },
+    {
+     "letter": "B+",
+     "count": 13
+    },
+    {
+     "letter": "B",
+     "count": 16
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 12
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 6
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 2
+    },
+    {
+     "letter": "D-",
+     "count": 4
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 16
+    },
+    {
+     "letter": "NP",
+     "count": 6
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Tara Raam",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.24,
+    "difficulty": 3.7
+   },
+   {
+    "professor": "Tyler Kennedy",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 2.68,
+    "difficulty": 4.3
+   },
+   {
+    "professor": "Meghan Laturney",
+    "terms": 2,
+    "lastTaught": "2024 Summer",
+    "gpa": 2.5,
+    "difficulty": 4.4
+   },
+   {
+    "professor": "Hannah Monday",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.02,
+    "difficulty": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20C64"
+  ]
+ },
+ "PSYCH H194A": {
+  "course": "PSYCH H194A",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (4.00)",
+     "value": 1.0,
+     "weight": 0.213
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (4.00), with 100% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 4.0,
+   "letter": "A",
+   "students": 78,
+   "pctA": 100,
+   "pctBelowB": 0,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 6
+    },
+    {
+     "letter": "A",
+     "count": 70
+    },
+    {
+     "letter": "A-",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Silvia Bunge",
+    "terms": 1,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Aaron Fisher",
+    "terms": 1,
+    "lastTaught": "2025 Fall"
+   },
+   {
+    "professor": "Richard Ivry",
+    "terms": 1,
+    "lastTaught": "2024 Fall"
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 1,
+    "lastTaught": "2023 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.5
+   },
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 1,
+    "lastTaught": "2022 Fall",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20H194A"
+  ]
+ },
+ "PSYCH H194B": {
+  "course": "PSYCH H194B",
+  "difficulty": 1.8,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A (3.99)",
+     "value": 1.0,
+     "weight": 0.23
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A (3.99), with 99% of letter grades in the A range.",
+  "finalExam": "N",
+  "grades": {
+   "average": 3.99,
+   "letter": "A",
+   "students": 96,
+   "pctA": 99,
+   "pctBelowB": 0,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 9
+    },
+    {
+     "letter": "A",
+     "count": 80
+    },
+    {
+     "letter": "A-",
+     "count": 2
+    },
+    {
+     "letter": "B+",
+     "count": 1
+    },
+    {
+     "letter": "P",
+     "count": 3
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Silvia Bunge",
+    "terms": 0,
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Aaron Fisher",
+    "terms": 1,
+    "lastTaught": "2026 Spring"
+   },
+   {
+    "professor": "Richard Ivry",
+    "terms": 1,
+    "lastTaught": "2025 Spring"
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 1,
+    "lastTaught": "2024 Spring",
+    "gpa": 3.99,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 1,
+    "lastTaught": "2023 Spring",
+    "gpa": 4.0,
+    "difficulty": 1.6
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 1,
+    "lastTaught": "2022 Spring",
+    "gpa": 3.96
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20H194B"
+  ]
+ },
+ "PSYCH H195A": {
+  "course": "PSYCH H195A",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Lance Kriegsfeld",
+    "terms": 7,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Fei Xu",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Michael Silver",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Sheri Johnson",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Aaron Fisher",
+    "terms": 9,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Juliana Schroeder",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   },
+   {
+    "professor": "Qing Zhou",
+    "terms": 5,
+    "lastTaught": "2026 Fall"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20H195A"
+  ]
+ },
+ "PSYCH H195B": {
+  "course": "PSYCH H195B",
+  "confidence": {},
+  "signals": {
+   "difficulty": [],
+   "shouldTake": []
+  },
+  "finalExam": "N",
+  "byProfessor": [
+   {
+    "professor": "Sheri Johnson",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Aaron Fisher",
+    "terms": 10,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Dacher Keltner",
+    "terms": 9,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Ozlem Ayduk",
+    "terms": 9,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Linda Wilbrecht",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Kevin Weiner",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Serena Chen",
+    "terms": 5,
+    "lastTaught": "2026 Spring",
+    "teachingNext": "2027 Spring"
+   },
+   {
+    "professor": "Rodolfo Mendoza-Denton",
+    "terms": 6,
+    "lastTaught": "2026 Fall",
+    "teachingNext": "2027 Spring"
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20H195B"
+  ]
+ },
+ "PSYCH N1": {
+  "course": "PSYCH N1",
+  "difficulty": 2.9,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.38)",
+     "value": 2.8,
+     "weight": 0.286
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.38), with 64% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.38,
+   "letter": "B+",
+   "students": 222,
+   "pctA": 64,
+   "pctBelowB": 15,
+   "pctPassNoPass": 5,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 79
+    },
+    {
+     "letter": "A",
+     "count": 37
+    },
+    {
+     "letter": "A-",
+     "count": 18
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 24
+    },
+    {
+     "letter": "B-",
+     "count": 10
+    },
+    {
+     "letter": "C+",
+     "count": 7
+    },
+    {
+     "letter": "C",
+     "count": 9
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 6
+    },
+    {
+     "letter": "P",
+     "count": 6
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N1"
+  ]
+ },
+ "PSYCH N110": {
+  "course": "PSYCH N110",
+  "difficulty": 2.2,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.70)",
+     "value": 1.8,
+     "weight": 0.32
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.70), with 83% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.7,
+   "letter": "A-",
+   "students": 540,
+   "pctA": 83,
+   "pctBelowB": 5,
+   "pctPassNoPass": 3,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 180
+    },
+    {
+     "letter": "A",
+     "count": 179
+    },
+    {
+     "letter": "A-",
+     "count": 78
+    },
+    {
+     "letter": "B+",
+     "count": 29
+    },
+    {
+     "letter": "B",
+     "count": 21
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 8
+    },
+    {
+     "letter": "C-",
+     "count": 1
+    },
+    {
+     "letter": "D+",
+     "count": 1
+    },
+    {
+     "letter": "D",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 11
+    },
+    {
+     "letter": "P",
+     "count": 12
+    },
+    {
+     "letter": "NP",
+     "count": 4
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Ryan Lundell-Creagh",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.74,
+    "difficulty": 1.9
+   },
+   {
+    "professor": "Davina Chan",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 2.87,
+    "difficulty": 3.0
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N110"
+  ]
+ },
+ "PSYCH N120": {
+  "course": "PSYCH N120",
+  "difficulty": 3.0,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.34)",
+     "value": 3.0,
+     "weight": 0.208
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.34), with 61% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.34,
+   "letter": "B+",
+   "students": 73,
+   "pctA": 61,
+   "pctBelowB": 17,
+   "pctPassNoPass": 1,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 22
+    },
+    {
+     "letter": "A",
+     "count": 19
+    },
+    {
+     "letter": "A-",
+     "count": 3
+    },
+    {
+     "letter": "B+",
+     "count": 2
+    },
+    {
+     "letter": "B",
+     "count": 11
+    },
+    {
+     "letter": "B-",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 1
+    }
+   ]
+  },
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N120"
+  ]
+ },
+ "PSYCH N134": {
+  "course": "PSYCH N134",
+  "difficulty": 2.7,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.49)",
+     "value": 2.5,
+     "weight": 0.272
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is B+ (3.49), with 67% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.49,
+   "letter": "B+",
+   "students": 175,
+   "pctA": 67,
+   "pctBelowB": 10,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 3
+    },
+    {
+     "letter": "A",
+     "count": 82
+    },
+    {
+     "letter": "A-",
+     "count": 27
+    },
+    {
+     "letter": "B+",
+     "count": 22
+    },
+    {
+     "letter": "B",
+     "count": 12
+    },
+    {
+     "letter": "B-",
+     "count": 6
+    },
+    {
+     "letter": "C+",
+     "count": 4
+    },
+    {
+     "letter": "C",
+     "count": 4
+    },
+    {
+     "letter": "C-",
+     "count": 3
+    },
+    {
+     "letter": "F",
+     "count": 5
+    },
+    {
+     "letter": "P",
+     "count": 7
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aaron Fisher",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.23,
+    "difficulty": 2.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N134"
+  ]
+ },
+ "PSYCH N140": {
+  "course": "PSYCH N140",
+  "difficulty": 2.6,
+  "shouldTake": 3.8,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade B+ (3.39)",
+     "value": 2.8,
+     "weight": 0.323
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are about average",
+     "value": 3.2,
+     "weight": 0.092
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is B+ (3.39), with 62% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.39,
+   "letter": "B+",
+   "students": 608,
+   "pctA": 62,
+   "pctBelowB": 13,
+   "pctPassNoPass": 6,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 31
+    },
+    {
+     "letter": "A",
+     "count": 229
+    },
+    {
+     "letter": "A-",
+     "count": 96
+    },
+    {
+     "letter": "B+",
+     "count": 59
+    },
+    {
+     "letter": "B",
+     "count": 59
+    },
+    {
+     "letter": "B-",
+     "count": 28
+    },
+    {
+     "letter": "C+",
+     "count": 18
+    },
+    {
+     "letter": "C",
+     "count": 18
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "D-",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 15
+    },
+    {
+     "letter": "P",
+     "count": 24
+    },
+    {
+     "letter": "NP",
+     "count": 9
+    },
+    {
+     "letter": "U",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 100
+  },
+  "byProfessor": [
+   {
+    "professor": "Rachel Schmale",
+    "terms": 4,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.45,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 2.4,
+    "shouldTake": 3.9
+   },
+   {
+    "professor": "Frances Nkara",
+    "terms": 1,
+    "lastTaught": "2023 Summer",
+    "gpa": 2.92,
+    "difficulty": 3.2
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N140"
+  ]
+ },
+ "PSYCH N150": {
+  "course": "PSYCH N150",
+  "difficulty": 2.5,
+  "shouldTake": 3.9,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (2 on Berkeleytime)",
+     "value": 2.5,
+     "weight": 0.1
+    },
+    {
+     "label": "Average grade A- (3.55)",
+     "value": 2.3,
+     "weight": 0.324
+    },
+    {
+     "label": "Student workload rating (2)",
+     "value": 2.5,
+     "weight": 0.043
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.7,
+     "weight": 0.093
+    },
+    {
+     "label": "Workload is light",
+     "value": 3.5,
+     "weight": 0.014
+    },
+    {
+     "label": "Student usefulness rating (2 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.114
+    },
+    {
+     "label": "Tone of written student reviews (50 on file)",
+     "value": 4.4,
+     "weight": 0.139
+    }
+   ]
+  },
+  "sentiment": "Students generally love this class, calling lectures funny, clear, and engaging, with fair exams and doable weekly work. Reviewers describe it as easy to moderate, with long readings and time-consuming web exercises. Extra credit is common, and most say to study the slides and not underestimate the multiple choice.",
+  "sentimentWrittenBy": "model",
+  "midtermsSource": "reviews",
+  "midterms": 2,
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.55,
+   "letter": "A-",
+   "students": 633,
+   "pctA": 73,
+   "pctBelowB": 10,
+   "pctPassNoPass": 4,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 106
+    },
+    {
+     "letter": "A",
+     "count": 262
+    },
+    {
+     "letter": "A-",
+     "count": 72
+    },
+    {
+     "letter": "B+",
+     "count": 42
+    },
+    {
+     "letter": "B",
+     "count": 47
+    },
+    {
+     "letter": "B-",
+     "count": 18
+    },
+    {
+     "letter": "C+",
+     "count": 9
+    },
+    {
+     "letter": "C",
+     "count": 14
+    },
+    {
+     "letter": "C-",
+     "count": 9
+    },
+    {
+     "letter": "D+",
+     "count": 4
+    },
+    {
+     "letter": "D",
+     "count": 10
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 23
+    },
+    {
+     "letter": "NP",
+     "count": 5
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 2,
+   "difficulty": 2.5,
+   "workload": 2.5,
+   "usefulness": 4,
+   "recordedPct": 100,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Oliver John",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.54,
+    "studentCount": 2,
+    "studentDifficulty": 2.5,
+    "studentUsefulness": 4,
+    "difficulty": 2.4,
+    "shouldTake": 3.9
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N150"
+  ]
+ },
+ "PSYCH N160": {
+  "course": "PSYCH N160",
+  "difficulty": 2.8,
+  "shouldTake": 3.7,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade B+ (3.44)",
+     "value": 2.6,
+     "weight": 0.317
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.4,
+     "weight": 0.091
+    },
+    {
+     "label": "Tone of written student reviews (5 on file)",
+     "value": 4.3,
+     "weight": 0.083
+    }
+   ]
+  },
+  "sentiment": "Reviews are positive and describe engaging, clear lectures with class exercises. Exams are called easy to fair and based on lecture notes, with extra credit available. Only a few reviews exist, and most are older.",
+  "sentimentWrittenBy": "model",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.44,
+   "letter": "B+",
+   "students": 477,
+   "pctA": 68,
+   "pctBelowB": 13,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 55
+    },
+    {
+     "letter": "A",
+     "count": 164
+    },
+    {
+     "letter": "A-",
+     "count": 83
+    },
+    {
+     "letter": "B+",
+     "count": 37
+    },
+    {
+     "letter": "B",
+     "count": 31
+    },
+    {
+     "letter": "B-",
+     "count": 17
+    },
+    {
+     "letter": "C+",
+     "count": 11
+    },
+    {
+     "letter": "C",
+     "count": 14
+    },
+    {
+     "letter": "C-",
+     "count": 7
+    },
+    {
+     "letter": "D+",
+     "count": 5
+    },
+    {
+     "letter": "D",
+     "count": 5
+    },
+    {
+     "letter": "D-",
+     "count": 2
+    },
+    {
+     "letter": "F",
+     "count": 12
+    },
+    {
+     "letter": "P",
+     "count": 26
+    },
+    {
+     "letter": "NP",
+     "count": 8
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Christopher Gade",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.36,
+    "difficulty": 2.8
+   },
+   {
+    "professor": "Doris Dai",
+    "terms": 2,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.52,
+    "difficulty": 2.6
+   },
+   {
+    "professor": "Sara Gorchoff",
+    "terms": 2,
+    "lastTaught": "2023 Summer",
+    "gpa": 3.41,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N160"
+  ]
+ },
+ "PSYCH N162": {
+  "course": "PSYCH N162",
+  "difficulty": 2.6,
+  "confidence": {
+   "difficulty": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Average grade A- (3.52)",
+     "value": 2.4,
+     "weight": 0.275
+    }
+   ],
+   "shouldTake": []
+  },
+  "sentiment": "The average grade is A- (3.52), with 63% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.52,
+   "letter": "A-",
+   "students": 183,
+   "pctA": 63,
+   "pctBelowB": 5,
+   "pctPassNoPass": 7,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 37
+    },
+    {
+     "letter": "A",
+     "count": 47
+    },
+    {
+     "letter": "A-",
+     "count": 23
+    },
+    {
+     "letter": "B+",
+     "count": 24
+    },
+    {
+     "letter": "B",
+     "count": 22
+    },
+    {
+     "letter": "B-",
+     "count": 9
+    },
+    {
+     "letter": "C+",
+     "count": 3
+    },
+    {
+     "letter": "C",
+     "count": 2
+    },
+    {
+     "letter": "D",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 3
+    },
+    {
+     "letter": "P",
+     "count": 12
+    }
+   ]
+  },
+  "byProfessor": [
+   {
+    "professor": "Aakash Arvind Chowkase",
+    "terms": 1,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.78,
+    "difficulty": 2.1
+   },
+   {
+    "professor": "Laura Guzman",
+    "terms": 1,
+    "lastTaught": "2025 Summer",
+    "gpa": 3.14,
+    "difficulty": 2.9
+   },
+   {
+    "professor": "Eugene Hightower",
+    "terms": 1,
+    "lastTaught": "2022 Summer",
+    "gpa": 3.25,
+    "difficulty": 2.8
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N162"
+  ]
+ },
+ "PSYCH N180": {
+  "course": "PSYCH N180",
+  "difficulty": 1.7,
+  "shouldTake": 4.2,
+  "confidence": {
+   "difficulty": "medium",
+   "shouldTake": "low"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (1 on Berkeleytime)",
+     "value": 1,
+     "weight": 0.058
+    },
+    {
+     "label": "Average grade A (3.89)",
+     "value": 1.2,
+     "weight": 0.292
+    },
+    {
+     "label": "Student workload rating (1)",
+     "value": 1,
+     "weight": 0.025
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 4.8,
+     "weight": 0.083
+    },
+    {
+     "label": "Workload is light",
+     "value": 5,
+     "weight": 0.008
+    },
+    {
+     "label": "Student usefulness rating (1 on Berkeleytime)",
+     "value": 5,
+     "weight": 0.067
+    }
+   ]
+  },
+  "sentiment": "1 student on Berkeleytime rates it 1.0/5 for difficulty, 1.0/5 for workload and 5.0/5 for usefulness. The average grade is A (3.89), with 93% of letter grades in the A range.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.89,
+   "letter": "A",
+   "students": 250,
+   "pctA": 93,
+   "pctBelowB": 1,
+   "pctPassNoPass": 2,
+   "distribution": [
+    {
+     "letter": "A",
+     "count": 209
+    },
+    {
+     "letter": "A-",
+     "count": 19
+    },
+    {
+     "letter": "B+",
+     "count": 11
+    },
+    {
+     "letter": "B",
+     "count": 3
+    },
+    {
+     "letter": "B-",
+     "count": 1
+    },
+    {
+     "letter": "C",
+     "count": 1
+    },
+    {
+     "letter": "F",
+     "count": 2
+    },
+    {
+     "letter": "P",
+     "count": 2
+    },
+    {
+     "letter": "NP",
+     "count": 1
+    },
+    {
+     "letter": "S",
+     "count": 1
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 1,
+   "difficulty": 1,
+   "workload": 1,
+   "usefulness": 5,
+   "recordedPct": 0,
+   "attendanceRequiredPct": 0
+  },
+  "byProfessor": [
+   {
+    "professor": "Christian Wright",
+    "terms": 5,
+    "lastTaught": "2026 Summer",
+    "gpa": 3.85,
+    "studentCount": 1,
+    "studentDifficulty": 1,
+    "studentUsefulness": 5,
+    "difficulty": 1.4,
+    "shouldTake": 4.4
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=PSYCH%20N180"
+  ]
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "id": "major-celtic-studies-ba",
+ "title": "Celtic Studies BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25147U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25147U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25147U",
+ "requirements": [
+  {
+   "id": "celtic-studies",
+   "title": "Celtic Studies",
+   "section": "Lower Division",
+   "notes": "Students must take 3 lower division courses. Students may choose either the Irish or the Welsh course sequence.",
+   "rule": {
+    "type": "course",
+    "course": "CELTIC 70"
+   }
+  },
+  {
+   "id": "irish-or-welsh",
+   "title": "Irish or Welsh",
+   "section": "Lower Division",
+   "notes": "Students must complete 2 courses in Irish or 2 courses in Welsh.\nStudents with prior knowledge of a Celtic language may apply for credit by examination.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CELTIC 15"
+       },
+       {
+        "type": "course",
+        "course": "CELTIC 85"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CELTIC 16"
+       },
+       {
+        "type": "course",
+        "course": "CELTIC 86"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "celtic-culture",
+   "title": "Celtic Culture",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CELTIC 128"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 129"
+     }
+    ]
+   }
+  },
+  {
+   "id": "irish-literature",
+   "title": "Irish Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CELTIC 138"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 139"
+     }
+    ]
+   }
+  },
+  {
+   "id": "celtic-mythology",
+   "title": "Celtic Mythology",
+   "section": "Upper Division",
+   "notes": "One upper-division language course in Irish or Welsh",
+   "rule": {
+    "type": "course",
+    "course": "CELTIC 168"
+   }
+  },
+  {
+   "id": "celtic-languages",
+   "title": "Celtic Languages",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CELTIC 102A"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 102B"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 105A"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 105B"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 144A"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 145A"
+     },
+     {
+      "type": "course",
+      "course": "CELTIC 146A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "celtic-literature",
+   "title": "Celtic Literature",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CELTIC 118A",
+      "CELTIC 118B",
+      "CELTIC 119A",
+      "CELTIC 119B",
+      "CELTIC 125",
+      "CELTIC 126",
+      "CELTIC 171",
+      "COMLIT 152",
+      "COMLIT 165"
+     ]
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "notes": "Two elective courses from the courses listed above, additional Celtic Studies coursework, or approved courses outside the department or courses taken abroad as approved by the major advisor.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CELTIC 125",
+      "CELTIC 129",
+      "CELTIC 134",
+      "CELTIC 138",
+      "CELTIC 139",
+      "CELTIC 144B",
+      "CELTIC 145B",
+      "CELTIC 146A",
+      "CELTIC 168",
+      "CELTIC 169",
+      "CELTIC 170",
+      "CELTIC 171",
+      "CELTIC 173",
+      "COMLIT 152",
+      "COMLIT 165",
+      "HISTORY 150A",
+      "HISTORY 151A",
+      "HISTORY 151B",
+      "HISTORY 185A",
+      "LINGUIS 130",
+      "LINGUIS 131",
+      "SCANDIN 123",
+      "SCANDIN 160",
+      "SCANDIN 165"
+     ]
+    }
+   }
+  }
+ ]
+}

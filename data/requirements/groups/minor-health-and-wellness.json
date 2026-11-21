@@ -1,0 +1,281 @@
+{
+ "id": "minor-health-and-wellness",
+ "title": "Health and Wellness minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I165U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I165U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I165U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "intro-to-health-and-wellness",
+   "title": "Intro to Health & Wellness",
+   "section": "Lower Division",
+   "notes": "Also satisfied by:\n- AP: Psychology, score 4+",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MBN 10"
+       },
+       {
+        "type": "course",
+        "course": "NUSCTX 10S"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "PHYSED 32"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physical-education",
+   "title": "Physical Education",
+   "section": "Lower Division",
+   "notes": "Courses may be repeated with different class iterations. PHYSED 11 and PHYSED 12 are intercollegiate sports classes and are not available to all students for enrollment.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "PHYSED 1",
+      "PHYSED 2",
+      "PHYSED 3",
+      "PHYSED 4",
+      "PHYSED 5",
+      "PHYSED 11",
+      "PHYSED 12"
+     ]
+    }
+   }
+  },
+  {
+   "id": "psychology",
+   "title": "Psychology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PSYCH 1"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "Courses must fulfill a minimum of 6 units.\nA maximum of two transfer courses are allowed.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSED 121"
+     },
+     {
+      "type": "course",
+      "course": "PHYSED 177"
+     },
+     {
+      "type": "course",
+      "course": "PSYCH 162"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "AGRS 161",
+      "AGRS 180",
+      "ANTHRO C119A",
+      "ANTHRO C129F",
+      "ANTHRO 115",
+      "ANTHRO 119",
+      "ANTHRO 140",
+      "ANTHRO 189",
+      "ANTHRO 196",
+      "ASAMST 143AC",
+      "ASAMST 143B",
+      "BIOENG C119",
+      "BIOENG C137",
+      "BIOENG C171",
+      "BIOENG 110",
+      "BIOENG 124",
+      "CHICANO 176",
+      "CIVENG 190S",
+      "CMPBIO 156",
+      "COGSCI 115",
+      "CYPLAN C117",
+      "CYPLAN 117AC",
+      "CYPLAN 120",
+      "DEMOG C126",
+      "ECON 157",
+      "ENGLISH 100",
+      "ENGLISH 175",
+      "ENGLISH 180A",
+      "ENVECON 145",
+      "ESPM C159",
+      "ESPM C162A",
+      "ESPM C167",
+      "ESPM 130",
+      "ESPM 150",
+      "ESPM 162",
+      "ETHSTD C126",
+      "GEOG 130",
+      "GERMAN 158",
+      "GWS 129",
+      "GWS 130AC",
+      "HISTORY C183A",
+      "HISTORY C191",
+      "HMEDSCI C133",
+      "INTEGBI C125L",
+      "INTEGBI C129L",
+      "INTEGBI C195",
+      "INTEGBI 114",
+      "INTEGBI 123AL",
+      "INTEGBI 128",
+      "INTEGBI 139",
+      "INTEGBI 140",
+      "INTEGBI 164L",
+      "INTEGBI 169",
+      "ISF 100K",
+      "LEGALST 159",
+      "QTP C148",
+      "QTP 146",
+      "LS C140U",
+      "MCELLBI C130",
+      "MCELLBI 104",
+      "MCELLBI 120",
+      "MCELLBI 132",
+      "MCELLBI 153",
+      "MECENG C176",
+      "MECENG C178",
+      "MECENG 126",
+      "MEDIAST 168",
+      "NEU C124",
+      "NEU C126",
+      "NEU 165",
+      "MBN C130",
+      "NUSCTX C159",
+      "MBN 104AC",
+      "MBN 103",
+      "MBN 104",
+      "MBN 108A",
+      "NUSCTX 108B",
+      "NUSCTX 110",
+      "MBN 120",
+      "NUSCTX 145",
+      "MBN 160",
+      "NUSCTX 161A",
+      "NUSCTX 161B",
+      "MBN 166",
+      "PBHLTH C117",
+      "PBHLTH 150E",
+      "PBHLTH C155",
+      "PBHLTH C160",
+      "PBHLTH 103",
+      "PBHLTH 108",
+      "PBHLTH 110A",
+      "PBHLTH 126",
+      "PBHLTH 129",
+      "PBHLTH 150B",
+      "PBHLTH 177A",
+      "PBHLTH 182",
+      "PHYSED C129",
+      "PHYSED C165",
+      "PHYSED 130",
+      "PHYSED 165",
+      "PSYCH C116",
+      "PSYCH 110",
+      "PSYCH 117",
+      "PSYCH 124",
+      "PSYCH 125",
+      "PSYCH 130",
+      "PSYCH 133",
+      "PSYCH 134",
+      "PSYCH 135",
+      "PSYCH 137",
+      "PSYCH 138",
+      "PSYCH 156",
+      "PSYCH 166AC",
+      "PSYCH 169",
+      "RHETOR 184",
+      "SOCIOL C115",
+      "SOCIOL C126",
+      "SOCIOL 115G",
+      "SOCIOL 117",
+      "SOCIOL 135",
+      "SOCIOL 139H",
+      "SOCWEL 148",
+      "STS C103",
+      "THEATER 114",
+      "THEATER 144",
+      "THEATER 148",
+      "ANTHRO 108",
+      "ANTHRO 109",
+      "BIOENG 102",
+      "BIOENG 121",
+      "CHMENG 170A",
+      "CIVENG 187",
+      "COGSCI C127",
+      "COGSCI 132",
+      "COGSCI 180",
+      "DISSTD 110",
+      "DISSTD 112",
+      "GWS 112",
+      "INTEGBI 123",
+      "INTEGBI 136",
+      "MCELLBI 136",
+      "MCELLBI 140",
+      "MCELLBI 149",
+      "MCELLBI 165",
+      "MBN 105",
+      "NEU 123",
+      "NEU 128",
+      "NEU 163",
+      "NEU C166",
+      "PBHLTH 107",
+      "PBHLTH 112",
+      "PBHLTH 162A",
+      "PBHLTH 155B",
+      "PBHLTH 155C",
+      "PSYCH C113",
+      "PSYCH 114",
+      "PSYCH 136",
+      "PSYCH 166AC",
+      "SOCIOL 169F",
+      "UGIS C133"
+     ]
+    }
+   }
+  }
+ ]
+}

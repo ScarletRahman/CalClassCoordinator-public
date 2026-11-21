@@ -1,0 +1,1257 @@
+{
+ "id": "major-molecular-environmental-biology-bs",
+ "title": "Molecular Environmental Biology BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04847U",
+  "https://undergraduate.catalog.berkeley.edu/programs/04847U/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/04847U"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "04847U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Area of Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "animal-health-and-behavior",
+     "title": "Animal Health and Behavior"
+    },
+    {
+     "id": "biodiversity",
+     "title": "Biodiversity"
+    },
+    {
+     "id": "ecology",
+     "title": "Ecology"
+    },
+    {
+     "id": "environment-and-human-health",
+     "title": "Environment and Human Health"
+    },
+    {
+     "id": "global-change-biology",
+     "title": "Global Change Biology"
+    },
+    {
+     "id": "insect-biology",
+     "title": "Insect Biology"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "General Guidelines\n- All courses taken to fulfill the major requirements below must be taken for graded credit, other than courses listed which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- A minimum cumulative grade point average (GPA) of 2.0 is required.\n- A minimum GPA of 2.0 in upper division major requirements is required.\n- At least 15 of the 36 required upper division units must be taken in the Rausser College of Natural Resources (except for students majoring in environmental economics and policy; please see the EEP major adviser for further information).\n- A maximum of 16 units of independent study (courses numbered 97, 98, 99, 197, 198, and 199) may count toward graduation, with a maximum of 4 units of independent study per semester.\n- No more than 1/3 of the total units attempted at UC Berkeley may be taken Pass/Not Pass. This includes units in the Education Abroad Program and UC Intercampus Visitor or Exchange Programs.\n- A maximum of 4 units of physical education courses will count toward graduation.\n- For information regarding residence requirements and unit requirements, please see the College Requirements tab.\n- A minimum of 120 units is needed to confer your degree.\n- Rausser College students may apply high school exam credit (Advanced Placement, International Baccalaureate, A-Level Exam) towards many College and Major Requirements. See AP Exam Equivalency Chart and Higher Level IB Exam Equivalency Chart in the Rausser College Student Handbook for more information.",
+  "Unit Requirements\nStudents must complete a minimum of 36 units of upper division courses to be used toward graduation requirements.\nStudents must complete a minimum of 15 units of upper division courses within the College of Natural Resources.\n- Any ARESEC 100-199 level course\n- Any CMPBIO 100-199 level course\n- Any ENERES 100-199 level course\n- Any ENVECON 100-199 level course\n- Any ESPM 100-199 level course\n- Any MBN 100-199 level course\n- Any NATRES 100-199 level course\n- Any PLANTBI 100-199 level course\n- Any STS 100-199 level course"
+ ],
+ "requirements": [
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 1A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 1AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3A"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3AL"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM 3B"
+       },
+       {
+        "type": "course",
+        "course": "CHEM 3BL"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "biology",
+   "title": "Biology",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "BIOLOGY 1B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "environmental-science-core",
+   "title": "Environmental Science Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ESPM 10"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C46"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 2"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 6"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 15"
+     },
+     {
+      "type": "course",
+      "course": "LS C46"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-science-core",
+   "title": "Social Science Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO C12AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C11"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C22AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C52"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 5"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 50AC"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 52"
+     },
+     {
+      "type": "course",
+      "course": "ESPM 60"
+     },
+     {
+      "type": "course",
+      "course": "LS C30U"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST C22AC"
+     },
+     {
+      "type": "course",
+      "course": "NATAMST C52"
+     }
+    ]
+   }
+  },
+  {
+   "id": "breadth",
+   "title": "Breadth",
+   "section": "Lower Division",
+   "rule": {
+    "type": "manual",
+    "text": "- 1 course that satisfies the Arts & Literature, Historical Studies, or Philosophy & Values breadth requirement\n- 1 course that satisfies the Social & Behavioral Science or International Studies breadth requirement"
+   }
+  },
+  {
+   "id": "quantitative-part-1",
+   "title": "Quantitative: Part 1",
+   "section": "Lower Division Mathematics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH N10A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "XMATH 16A"
+     },
+     {
+      "type": "course",
+      "course": "MATH 51"
+     }
+    ]
+   }
+  },
+  {
+   "id": "quantitative-part-2",
+   "title": "Quantitative: Part 2",
+   "section": "Lower Division Mathematics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "COMPSCI C8"
+     },
+     {
+      "type": "course",
+      "course": "DATA C131A"
+     },
+     {
+      "type": "course",
+      "course": "DATA C8"
+     },
+     {
+      "type": "course",
+      "course": "INFO C8"
+     },
+     {
+      "type": "course",
+      "course": "MATH 10B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 16B"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 141"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 142W"
+     },
+     {
+      "type": "course",
+      "course": "STAT C8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "area-a",
+   "title": "Area A",
+   "section": "Upper Division Biological Science Core",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "CHEM C130",
+      "CHEM 135",
+      "ESPM 108B",
+      "ESPM 154",
+      "INTEGBI 134L",
+      "INTEGBI 141",
+      "INTEGBI 161",
+      "INTEGBI 164L",
+      "MCELLBI C100A",
+      "MCELLBI C103",
+      "MCELLBI C112",
+      "MCELLBI C117",
+      "MCELLBI C130",
+      "MCELLBI C134",
+      "MCELLBI C148",
+      "MCELLBI 102",
+      "MCELLBI 104",
+      "MCELLBI 110",
+      "MCELLBI 133L",
+      "MCELLBI 137L",
+      "MCELLBI 140",
+      "MCELLBI 141",
+      "MCELLBI 170L",
+      "MBN C130",
+      "PBHLTH 162A",
+      "PLANTBI C103",
+      "PLANTBI C112",
+      "PLANTBI C134",
+      "PLANTBI C136",
+      "PLANTBI C148",
+      "PLANTBI 135",
+      "PLANTBI 150",
+      "PLANTBI 160"
+     ]
+    }
+   }
+  },
+  {
+   "id": "area-b",
+   "title": "Area B",
+   "section": "Upper Division Biological Science Core",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "ENERES 101",
+      "ESPM C105",
+      "ESPM C107",
+      "ESPM C115A",
+      "ESPM C125",
+      "ESPM C138",
+      "ESPM C153",
+      "ESPM 106",
+      "ESPM 108A",
+      "ESPM 109C",
+      "ESPM 111",
+      "ESPM 112",
+      "ESPM 114",
+      "ESPM 115B",
+      "ESPM 115C",
+      "ESPM 116B",
+      "ESPM 131",
+      "ESPM 132",
+      "ESPM 137",
+      "ESPM 140",
+      "ESPM 142",
+      "ESPM 144",
+      "ESPM 186",
+      "ESPM 189A",
+      "GEOG C148",
+      "INTEGBI C105",
+      "INTEGBI C110L",
+      "INTEGBI C153",
+      "INTEGBI 160",
+      "INTEGBI C166",
+      "INTEGBI C171",
+      "INTEGBI 102LF",
+      "INTEGBI 104LF",
+      "INTEGBI 108",
+      "INTEGBI 113L",
+      "INTEGBI 132",
+      "INTEGBI 140",
+      "INTEGBI 148",
+      "INTEGBI 150",
+      "INTEGBI 151",
+      "INTEGBI 154",
+      "INTEGBI 157LF",
+      "INTEGBI 158LF",
+      "INTEGBI 181L",
+      "INTEGBI 184L",
+      "MCELLBI C114",
+      "MCELLBI C116",
+      "MCELLBI C144",
+      "MCELLBI 136",
+      "MBN 103",
+      "PLANTBI C110L",
+      "PLANTBI C114",
+      "PLANTBI C116",
+      "PLANTBI 120",
+      "PLANTBI 165"
+     ]
+    }
+   }
+  },
+  {
+   "id": "upper-division-laboratory",
+   "title": "Upper Division Laboratory",
+   "section": "Upper Division Laboratory",
+   "notes": "Students must complete two upper division laboratory courses.\n- Option 1: Students complete the requirement with a combination of independent study/research and coursework.\n- Option 2: Students complete the requirement with two courses.\nOption 1: independent study or research plus one laboratory course: Students may use Independent Study or Research units towards the upper division lab requirement. This may be fulfilled by one course of independent study/research taken for three or four units. Alternatively, students may combine two semesters of independent study/research taken for two units each. Together the two courses will count as ONE lab requirement. Courses must be completed with a letter grade of C- or higher. If the course is only offered P/NP, then the course must be completed with a P.\nOption 1: independent study or research plus one laboratory course: If a student is using Independent Study/Research for one of the upper division lab requirements, then the student must fulfill the second upper division lab requirement with a laboratory course from the Upper Division Biological Sciences Core (Area A or Area B) or Area of Concentration requirements. Courses must be completed with a letter grade of C- or higher. If the course is only offered P/NP, then the course must be completed with a P.\nOption 2: two laboratory courses: Students must complete two upper division laboratory courses. These courses are selected from the Upper Division Biological Sciences Core (Area A or Area B) or Area of Concentration requirements. Courses must be completed with a letter grade of C- or higher. If the course is only offered P/NP, then the course must be completed with a P.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "filter",
+        "minUnits": 3,
+        "filter": {
+         "courses": [
+          "ESPM H196",
+          "ESPM 195",
+          "ESPM 199",
+          "ESPM 199S",
+          "INTEGBI 199",
+          "MCELLBI 199",
+          "MBN H196",
+          "MBN 199",
+          "MBN 199S",
+          "PLANTBI H196",
+          "PLANTBI 199",
+          "PLANTBI 199S",
+          "UGIS 192C"
+         ]
+        }
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "ANTHRO 135"
+         },
+         {
+          "type": "course",
+          "course": "CHEM C110L"
+         },
+         {
+          "type": "course",
+          "course": "CIVENG C172"
+         },
+         {
+          "type": "course",
+          "course": "ESPM C105"
+         },
+         {
+          "type": "course",
+          "course": "ESPM C107"
+         },
+         {
+          "type": "course",
+          "course": "ESPM C110A"
+         },
+         {
+          "type": "course",
+          "course": "ESPM C115C"
+         },
+         {
+          "type": "course",
+          "course": "ESPM C125"
+         },
+         {
+          "type": "course",
+          "course": "ESPM C172"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 102BL"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 102C"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 105A"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 105C"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 108A"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 108B"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 109E"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 112L"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 116B"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 117"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 132"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 140"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 154"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 157"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 173"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 181A"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 182"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 183"
+         },
+         {
+          "type": "course",
+          "course": "ESPM 185"
+         },
+         {
+          "type": "course",
+          "course": "GEOG C148"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI C105"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI C110L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI C129L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI C166"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI C171"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 102LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 104LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 112"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 113L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 120"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 123AL"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 131L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 132L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 134L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 151L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 154L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 157LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 158LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 164L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 168L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 173LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 174LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 175LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 177LF"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 181L"
+         },
+         {
+          "type": "course",
+          "course": "INTEGBI 184L"
+         },
+         {
+          "type": "course",
+          "course": "LDARCH C110A"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI C110L"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI C112L"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI 133L"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI 137L"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI 140L"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI 150L"
+         },
+         {
+          "type": "course",
+          "course": "MCELLBI 170L"
+         },
+         {
+          "type": "course",
+          "course": "NEU 173L"
+         },
+         {
+          "type": "course",
+          "course": "NUSCTX 108B"
+         },
+         {
+          "type": "course",
+          "course": "NUSCTX 135"
+         },
+         {
+          "type": "course",
+          "course": "MBN 170"
+         },
+         {
+          "type": "course",
+          "course": "PBHLTH 168"
+         },
+         {
+          "type": "course",
+          "course": "PHYSED C129"
+         },
+         {
+          "type": "course",
+          "course": "PLANTBI C107L"
+         },
+         {
+          "type": "course",
+          "course": "PLANTBI C110L"
+         },
+         {
+          "type": "course",
+          "course": "PLANTBI C112L"
+         },
+         {
+          "type": "course",
+          "course": "PLANTBI 101L"
+         },
+         {
+          "type": "course",
+          "course": "PLANTBI 113"
+         },
+         {
+          "type": "course",
+          "course": "PLANTBI 120L"
+         }
+        ]
+       }
+      ],
+      "label": "Option 1: independent study or research plus one laboratory course"
+     },
+     {
+      "type": "filter",
+      "count": 2,
+      "filter": {
+       "courses": [
+        "ANTHRO 135",
+        "CHEM C110L",
+        "CIVENG C172",
+        "ESPM C105",
+        "ESPM C107",
+        "ESPM C110A",
+        "ESPM C115C",
+        "ESPM C125",
+        "ESPM C172",
+        "ESPM 102BL",
+        "ESPM 102C",
+        "ESPM 105A",
+        "ESPM 105C",
+        "ESPM 108A",
+        "ESPM 108B",
+        "ESPM 109E",
+        "ESPM 112L",
+        "ESPM 116B",
+        "ESPM 117",
+        "ESPM 132",
+        "ESPM 140",
+        "ESPM 154",
+        "ESPM 157",
+        "ESPM 173",
+        "ESPM 181A",
+        "ESPM 182",
+        "ESPM 183",
+        "ESPM 185",
+        "GEOG C148",
+        "INTEGBI C105",
+        "INTEGBI C110L",
+        "INTEGBI C129L",
+        "INTEGBI C166",
+        "INTEGBI C171",
+        "INTEGBI 102LF",
+        "INTEGBI 104LF",
+        "INTEGBI 112",
+        "INTEGBI 113L",
+        "INTEGBI 120",
+        "INTEGBI 123AL",
+        "INTEGBI 131L",
+        "INTEGBI 132L",
+        "INTEGBI 134L",
+        "INTEGBI 151L",
+        "INTEGBI 154L",
+        "INTEGBI 157LF",
+        "INTEGBI 158LF",
+        "INTEGBI 164L",
+        "INTEGBI 168L",
+        "INTEGBI 173LF",
+        "INTEGBI 174LF",
+        "INTEGBI 175LF",
+        "INTEGBI 177LF",
+        "INTEGBI 181L",
+        "INTEGBI 184L",
+        "LDARCH C110A",
+        "MCELLBI C110L",
+        "MCELLBI C112L",
+        "MCELLBI 133L",
+        "MCELLBI 137L",
+        "MCELLBI 140L",
+        "MCELLBI 150L",
+        "MCELLBI 170L",
+        "NEU 173L",
+        "NUSCTX 108B",
+        "NUSCTX 135",
+        "MBN 170",
+        "PBHLTH 168",
+        "PHYSED C129",
+        "PLANTBI C107L",
+        "PLANTBI C110L",
+        "PLANTBI C112L",
+        "PLANTBI 101L",
+        "PLANTBI 113",
+        "PLANTBI 120L"
+       ]
+      },
+      "label": "Option 2: two laboratory courses"
+     }
+    ]
+   }
+  },
+  {
+   "id": "animal-health-and-behavior-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Animal Health and Behavior",
+   "choice": "concentration",
+   "option": "animal-health-and-behavior",
+   "notes": "Students must complete 12 units in one concentration. Each course must be completed with a letter grade of C- or higher. If the course is only offered P/NP, then the course must be completed with a P. Up to four units of independent study may be applied towards the requirement.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "ESPM C103",
+      "ESPM C107",
+      "ESPM C126",
+      "ESPM C156",
+      "ESPM H196",
+      "ESPM 101A",
+      "ESPM 109A",
+      "ESPM 114",
+      "ESPM 139A",
+      "ESPM 142",
+      "ESPM 157",
+      "ESPM 186",
+      "ESPM 195",
+      "ESPM 199",
+      "ESPM 199S",
+      "INTEGBI C143A",
+      "INTEGBI C144",
+      "INTEGBI C145",
+      "INTEGBI C156",
+      "INTEGBI 104LF",
+      "INTEGBI 114",
+      "INTEGBI 118",
+      "INTEGBI 120",
+      "INTEGBI 135",
+      "INTEGBI 148",
+      "INTEGBI 158LF",
+      "INTEGBI 173LF",
+      "INTEGBI 174LF",
+      "INTEGBI 175LF",
+      "INTEGBI 177LF",
+      "INTEGBI 184L",
+      "INTEGBI 199",
+      "MCELLBI 199",
+      "NEU C126",
+      "MBN H196",
+      "MBN 199",
+      "MBN 199S",
+      "PLANTBI H196",
+      "PLANTBI 199",
+      "PLANTBI 199S",
+      "PSYCH C113",
+      "PSYCH C116",
+      "UGIS 192C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "biodiversity-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Biodiversity",
+   "choice": "concentration",
+   "option": "biodiversity",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "ENERES 101",
+      "ESPM C103",
+      "ESPM C105",
+      "ESPM C107",
+      "ESPM C125",
+      "ESPM C126",
+      "ESPM C156",
+      "ESPM H196",
+      "ESPM 106",
+      "ESPM 108A",
+      "ESPM 109A",
+      "ESPM 112",
+      "ESPM 114",
+      "ESPM 115C",
+      "ESPM 131",
+      "ESPM 132",
+      "ESPM 139A",
+      "ESPM 140",
+      "ESPM 142",
+      "ESPM 147",
+      "ESPM 157",
+      "ESPM 158",
+      "ESPM 174A",
+      "ESPM 195",
+      "ESPM 199",
+      "ESPM 199S",
+      "GEOG C148",
+      "INTEGBI C105",
+      "INTEGBI C110L",
+      "INTEGBI C144",
+      "INTEGBI C145",
+      "INTEGBI C156",
+      "INTEGBI 160",
+      "INTEGBI C166",
+      "INTEGBI 102LF",
+      "INTEGBI 104LF",
+      "INTEGBI 108",
+      "INTEGBI 113L",
+      "INTEGBI 158LF",
+      "INTEGBI 173LF",
+      "INTEGBI 174LF",
+      "INTEGBI 175LF",
+      "INTEGBI 177LF",
+      "INTEGBI 184L",
+      "INTEGBI 199",
+      "MCELLBI C116",
+      "MCELLBI C144",
+      "MCELLBI 199",
+      "MBN H196",
+      "MBN 199",
+      "MBN 199S",
+      "PLANTBI C110L",
+      "PLANTBI C116",
+      "PLANTBI H196",
+      "PLANTBI 120",
+      "PLANTBI 120L",
+      "PLANTBI 199",
+      "PLANTBI 199S",
+      "UGIS 192C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ecology-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Ecology",
+   "choice": "concentration",
+   "option": "ecology",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "CIVENG C103N",
+      "ESPM C103",
+      "ESPM C104",
+      "ESPM C107",
+      "ESPM C115A",
+      "ESPM C115C",
+      "ESPM C125",
+      "ESPM C130",
+      "ESPM C153",
+      "ESPM H196",
+      "ESPM 105A",
+      "ESPM 109A",
+      "ESPM 111",
+      "ESPM 112",
+      "ESPM 112L",
+      "ESPM 114",
+      "ESPM 115B",
+      "ESPM 115C",
+      "ESPM 116B",
+      "ESPM 117",
+      "ESPM 118",
+      "ESPM 131",
+      "ESPM 134",
+      "ESPM 137",
+      "ESPM 139A",
+      "ESPM 147",
+      "ESPM 152",
+      "ESPM 157",
+      "ESPM 173",
+      "ESPM 174A",
+      "ESPM 181A",
+      "ESPM 195",
+      "ESPM 199",
+      "ESPM 199S",
+      "GEOG C136",
+      "GEOG C148",
+      "INTEGBI C153",
+      "INTEGBI C156",
+      "INTEGBI 160",
+      "INTEGBI C166",
+      "INTEGBI C171",
+      "INTEGBI 102LF",
+      "INTEGBI 108",
+      "INTEGBI 114",
+      "INTEGBI 120",
+      "INTEGBI 151",
+      "INTEGBI 151L",
+      "INTEGBI C158L",
+      "INTEGBI 199",
+      "MCELLBI C144",
+      "MCELLBI 199",
+      "MBN H196",
+      "MBN 199",
+      "MBN 199S",
+      "PLANTBI H196",
+      "PLANTBI 180",
+      "PLANTBI 199",
+      "PLANTBI 199S",
+      "UGIS 192C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "environment-and-human-health-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Environment and Human Health",
+   "choice": "concentration",
+   "option": "environment-and-human-health",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "ANTHRO C119A",
+      "ANTHRO 135",
+      "ESPM C107",
+      "ESPM C126",
+      "ESPM C138",
+      "ESPM C162A",
+      "ESPM C167",
+      "ESPM H196",
+      "ESPM 109A",
+      "ESPM 152",
+      "ESPM 157",
+      "ESPM 162A",
+      "ESPM 189A",
+      "ESPM 195",
+      "ESPM 199",
+      "ESPM 199S",
+      "INTEGBI C143A",
+      "INTEGBI C144",
+      "INTEGBI 160",
+      "INTEGBI 114",
+      "INTEGBI 117LF",
+      "INTEGBI 118",
+      "INTEGBI 120",
+      "INTEGBI 131",
+      "INTEGBI 131L",
+      "INTEGBI C139",
+      "NEU C166",
+      "INTEGBI 140",
+      "INTEGBI 158LF",
+      "INTEGBI 199",
+      "MCELLBI C103",
+      "MCELLBI C114",
+      "MCELLBI C144",
+      "MCELLBI 135A",
+      "MCELLBI 150",
+      "MCELLBI 199",
+      "NEU C126",
+      "NEU 165",
+      "MBN H196",
+      "MBN 103",
+      "MBN 108A",
+      "MBN 160",
+      "MBN 166",
+      "MBN 199",
+      "MBN 199S",
+      "PBHLTH C160",
+      "PBHLTH N150B",
+      "PBHLTH 101",
+      "PBHLTH 112",
+      "PBHLTH 116",
+      "PBHLTH 132",
+      "PBHLTH 150B",
+      "PBHLTH 167",
+      "PLANTBI C103",
+      "PLANTBI C114",
+      "PLANTBI H196",
+      "PLANTBI 199",
+      "PLANTBI 199S",
+      "PSYCH C113",
+      "PSYCH C116",
+      "PSYCH 110",
+      "UGIS 192C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "global-change-biology-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Global Change Biology",
+   "choice": "concentration",
+   "option": "global-change-biology",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "CIVENG 107",
+      "ECON C102",
+      "ENERES 101",
+      "ENERES 102",
+      "ENVECON C102",
+      "ENVECON C176",
+      "EPS C181",
+      "EPS C183",
+      "EPS 102",
+      "EPS 115",
+      "ESPM C107",
+      "ESPM C110A",
+      "ESPM C125",
+      "ESPM C167",
+      "ESPM C170",
+      "ESPM H196",
+      "ESPM 108B",
+      "ESPM 109A",
+      "ESPM 137",
+      "ESPM 152",
+      "ESPM 154",
+      "ESPM 157",
+      "ESPM 174A",
+      "ESPM 189A",
+      "ESPM 195",
+      "ESPM 199",
+      "ESPM 199S",
+      "GEOG C139",
+      "GEOG C148",
+      "GEOG C188",
+      "GEOG 140A",
+      "GEOG 142",
+      "GEOG 143",
+      "IAS C176",
+      "INTEGBI C166",
+      "INTEGBI 113L",
+      "INTEGBI 158LF",
+      "INTEGBI 159",
+      "INTEGBI 199",
+      "LDARCH C110A",
+      "LDARCH C188",
+      "MCELLBI 199",
+      "MBN H196",
+      "MBN 199",
+      "MBN 199S",
+      "PBHLTH C160",
+      "PLANTBI H196",
+      "PLANTBI 122",
+      "PLANTBI 199",
+      "PLANTBI 199S",
+      "UGIS 192C"
+     ]
+    }
+   }
+  },
+  {
+   "id": "insect-biology-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Insect Biology",
+   "choice": "concentration",
+   "option": "insect-biology",
+   "rule": {
+    "type": "filter",
+    "minUnits": 12,
+    "filter": {
+     "courses": [
+      "ESPM C105",
+      "ESPM C107",
+      "ESPM H196",
+      "ESPM 132",
+      "ESPM 134",
+      "ESPM 140",
+      "ESPM 142",
+      "ESPM 144",
+      "ESPM 147",
+      "ESPM 174A",
+      "ESPM 195",
+      "ESPM 199",
+      "ESPM 199S",
+      "INTEGBI C105",
+      "INTEGBI 158LF",
+      "INTEGBI 199",
+      "MCELLBI 199",
+      "MBN H196",
+      "MBN 199",
+      "MBN 199S",
+      "PLANTBI H196",
+      "PLANTBI 199",
+      "PLANTBI 199S",
+      "UGIS 192C"
+     ]
+    }
+   }
+  }
+ ]
+}

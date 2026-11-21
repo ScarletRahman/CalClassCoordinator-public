@@ -1,0 +1,227 @@
+{
+ "id": "college-CDSS",
+ "title": "College of Computing, Data Science, and Society requirements",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/colleges/computing-data-science-society"
+ ],
+ "catalogYear": "2026-27",
+ "college": "CDSS",
+ "requirements": [
+  {
+   "id": "reading-and-composition",
+   "title": "Reading and Composition",
+   "notes": "Guidelines for Reading and Composition Courses\nIn order to provide a solid foundation in reading, writing, and critical thinking for work in the major, the College requires two semesters of lower division work in composition—Reading and Composition (R&C), Parts A and B, in sequential order.\n- All undergraduates should complete the Reading and Composition (R&C) requirement by the end of their fourth semester.\n- All courses used to satisfy Part A or B of Reading and Composition must be completed with a letter grade of C- or better.\n- Students who have been admitted to Berkeley and have not completed Entry Level Writing must enroll in College Writing R1A (6 units), which satisfies both Entry Level Writing and the first half of R&C. Please note: A minimum grade of C is required in COLWRIT R1A in order to satisfy the Entry Level Writing Requirement.\n- AGRS R44 (completed with a C- or higher) may be used to satisfy either Part A or Part B of R&C. This course may also be used to satisfy Arts and Literature, Historical Studies, or Social & Behavioral Sciences breadth.\n- With the exception of AGRS R44, courses fulfilling the Reading and Composition requirement may not be applied to Seven-Course Breadth.\nSatisfying Reading and Composition with an Exam\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 4 satisfies Part A\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 5 satisfies Parts A & B\n- Advanced Placement (AP) English Language and Composition - Score of 4 or 5 satisfies Part A\n- International Baccalaureate (IB) Higher Level (HL) English A: Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- Beginning with students admitted in fall 2018 - International Baccalaureate (IB) Higher Level (HL) English A: Language and Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- GCE A-Level English Literature exam - Not accepted for this requirement\n* The IB Literature and Performance exam, as well as the Standard Level (SL) exams in English A: Literature and English A: Language and Literature are NOT eligible for satisfaction of Reading and Composition.\nSatisfying Reading and Composition with Berkeley Courses\n- Successful completion with a C- grade or better of two designated Reading and Composition courses in sequence order. Review all approved below.\nSatisfying Reading and Composition Requirement with Transfer Courses\n- Transfer courses must be taken on a letter-graded basis and be completed with a grade of C- or better.\n- Students admitted with full CalGETC/UC IGETC Certification from a California Community College (CCC) or UC Reciprocity to the colleges of Chemistry, Computing, Data Science & Society, Education, Environmental Design, Letters & Science, and Rausser Natural Resources, as well as the School of Education, have satisfied Reading and Composition. No additional coursework is required.\n- Students can complete an articulated (pre-approved) Reading and Composition course at a CCC. Pre-approved courses can be found on ASSIST.\n- Current pre-approved Reading and Composition courses from outside of the California Community College System are published on the Transfer Evaluation System website.\nIt is advisable to refer to individual college/school advising websites regarding use of transfer courses before enrolling elsewhere to complete degree requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "cdss-computational-reasoning",
+   "title": "CDSS Computational Reasoning",
+   "notes": "The Computational Reasoning requirement is designed to ensure that students graduate with a basic understanding and competency in computer science. The requirement may be satisfied by exam or by taking an approved course. Coursework used to satisfy Computational Reasoning must be completed with a letter grade of C- or higher.\nSatisfying Computational Reasoning with an Exam\nExam\n| Minimum Score Required\n|\nAdvanced Placement Exam in Computer Science Principles\n| 3, 4, or 5\n|\nInternational Baccalaureate High Level (HL) Exam in Computer Science\n| 5, 6, or 7\n|\nSatisfying the Computational Reasoning Requirement with a Berkeley Course\nThe following Berkeley course options, completed with a letter grade of C- or higher, satisfy the Computational Reasoning requirement:\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nCOMPSCI/DATA/STAT C8\n| Foundations of Data Science (Can be used to satisfy either Computational Reasoning or Statistical Reasoning, but not both.)\n| 4\n|\nCOMPSCI 10\n| The Beauty and Joy of Computing\n| 4\n|\nCOMPSCI W10\n| 4\n|\nCOMPSCI 61A\n| The Structure and Interpretation of Computer Programs\n| 4\n|\nCOMPSCI 61A\n| 4\n|\nCOMPSCI 61B\n| Data Structures\n| 4\n|\nCOMPSCI 61C\n| Great Ideas of Computer Architecture (Machine Structures)\n| 4\n|\nSatisfying the Computational Reasoning Requirement with a CDSS major\nThe Computer Science and Data Science major programs automatically satisfy Computational Reasoning through their major requirements.\nSatisfying Computational Reasoning Requirement with a Transfer Course\nAll transfer courses pursued for Computational Reasoning must be completed with a C- or higher.\n- Students can complete a pre-approved Computational Reasoning course at a California Community College. Pre-approved courses can be found on ASSIST. Refer to the CDSS Transfer Credit page for instructions on how to take transfer credit as a CDSS student before enrolling at a California Community College.\n- Successful completion of transferable courses from other higher education institutions (i.e., 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may also be considered. Course descriptions and syllabi will be required to make a determination. For more information on pursuing transfer courses for Computational Reasoning at another higher education institution, review CDSS’s Transfer Credit: Other Higher Education",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "courses": [
+        "DATA C8",
+        "COMPSCI C8",
+        "STAT C8",
+        "COMPSCI 10",
+        "COMPSCI W10",
+        "COMPSCI 61A",
+        "COMPSCI 61B",
+        "COMPSCI 61C"
+       ]
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied by AP/IB exam, transfer course, or automatically by the Computer Science or Data Science major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cdss-human-and-social-dynamics-of-data-and-technology",
+   "title": "CDSS Human and Social Dynamics of Data and Technology",
+   "notes": "The Human and Social Dynamics of Data and Technology requirement is designed to ensure that students graduate with a basic understanding of how technology and data interact with human and societal contexts. The requirement may be satisfied by taking an approved course. Coursework used to satisfy Human and Social Dynamics of Data and Technology must be completed with a letter grade of C- or higher.\nSatisfying the Human and Social Dynamics Requirement with a Berkeley Course\nThe following Berkeley course options, completed with a letter grade of C- or higher, satisfy the Human and Social Dynamics of Data and Technology requirement:\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nCDSS 94\n| Anthropology of Science, Data and Tech (topic specific)\n| 3-4\n|\nDATA 94\n| Special Topics in Data Science (DATA 94 is a special topics course and only those offered with the title \"Anthropology of Science, Data, and Technology\" fulfill this requirement)\n| 3-4\n|\nDATA C4AC\n| Data and Justice\n| 4\n|\nHISTORY 30\n| Science and Society\n| 4\n|\nISF 60\n| Technology and Values\n| 3\n|\nL & S 22\n| Sense and Sensibility and Science\n| 4\n|\nL & S 25\n| Thinking Through Arts + Design\n| 3\n|\nPHILOS 5\n| Science and Human Understanding\n| 4\n|\nStudents prepared to complete an upper-division (courses numbered 100-199) course in lieu of an approved lower-division course (courses numbered 1-99) can take one of the upper-division courses below. Courses approved for the Human Contexts and Ethics requirement for the Data Science major will automatically fulfill the Human and Social Dynamics of Data and Technology requirement. Note that most seats in DATA C104 are reserved for Data Science majors and seats in the other courses are limited.\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nANTHRO 168\n| Anthropology of Science, Technology and Data\n| 4\n|\nAMERSTD/AFRICAM C134\n| Information Technology and Society\n| 4\n|\nBIO ENG 100\n| Ethics in Science and Engineering\n| 3\n|\nCY PLAN 101\n| Introduction to Urban Data Analytics\n| 4\n|\nDATA C104/HISTORY C184D/STS C104\n| Human Contexts and Ethics of Data - DATA/History/STS\n| 4\n|\nDIGHUM 100\n| Theory and Method in the Digital Humanities\n| 3\n|\nESPM C167/PB HLTH C160\n| Environmental Health and Development\n| 4\n|\nHISTORY 133D\n| Calculating Americans: Big Histories of Small Data\n| 4\n|\nHISTORY 183B\n| History of Science, Technology, and Medicine in Modern East Asia\n| 4\n|\nINFO 101\n| Introduction to Information Studies\n| 3\n|\nINFO 103\n| History of Information\n| 4\n|\nINFO 134\n| Information Technology Economics, Strategy, and Policy\n| 3\n|\nINFO 188\n| Behind the Data: Humans and Values\n| 3\n|\nISF 100D\n| Intro to Technology, Society, and Culture\n| 4\n|\nISF 100J\n| The Social Life of Computing\n| 4\n|\nLEGALST 190\n| Cybersecurity (topic specific)\n| 4\n|\nNWMEDIA 133\n| Tech Wars: Security, Geopolitics, and Resilience of Digital Infrastructures\n| 3\n|\nNWMEDIA 151AC\n| Transforming Tech: Issues and Interventions in STEM and Silicon Valley\n| 4\n|\nPHILOS 121\n| Moral Questions of Data Science\n| 4\n|\nPOL SCI 132C\n| Algorithms, Public Policy, and Ethics\n| 4\n|\nPUB POL 147\n| Progress? An Introduction to Technology & Public Policy\n| 4\n|\nPUB POL C151\n| The Final Frontier? Space Tech and National Security Policy\n| 4\n|\nRHETOR 173\n| Science and Public\n| 4\n|\nSTS C100 / HISTORY C182C / ISF C100G\n| Introduction to Science, Technology, and Society\n| 4\n|\nSatisfying the Human and Social Dynamics Requirement through a CDSS major\nThe Data Science major program automatically satisfies Human and Social Dynamics of Data and Technology through their major requirements.\nSatisfying the Human and Social Dynamics Requirement with a Transfer Course\nAt this point, no courses have been identified at a California Community College that would satisfy this requirement.\nSuccessful completion of transferable courses from other higher education institutions (i.e., 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may be considered. Course descriptions and syllabi will be required to make a determination. … (see the catalog for the rest)",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "courses": [
+        "CDSS 94",
+        "DATA 94",
+        "DATA C4AC",
+        "HISTORY 30",
+        "ISF 60",
+        "LS 22",
+        "LS 25",
+        "PHILOS 5"
+       ]
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied by an approved upper division Human Contexts and Ethics course (see notes)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cdss-statistical-reasoning",
+   "title": "CDSS Statistical Reasoning",
+   "notes": "The Statistical Reasoning requirement is designed to ensure that students graduate with basic understanding and competency in inference and prediction. The requirement may be satisfied by exam or by taking an approved course. Coursework used to satisfy Statistical Reasoning must be completed with a letter grade of C- or higher.\nSatisfying Statistical Reasoning with an Exam\nExam\n| Minimum Score Required\n|\nAdvanced Placement Exam in Statistics\n| 3, 4, or 5\n|\nInternational Baccalaureate Higher Level (HL) Exam in Mathematics, Applications and Interpretation\n| 5, 6, or 7\n|\nGCE A-level Mathematics Exam in Probability and Statistics\n| A, B, or C (or 1, 2, or 3)\n|\nSatisfying the Statistical Reasoning Requirement with a Berkeley Course\nThe following Berkeley course options, completed with a letter grade of C- or higher, satisfy the Statistical Reasoning requirement:\n|\n| Course List\n|\nCode\n| Title\n| Units\n|\nSTAT/DATA/COMPSCI C8\n| Foundations of Data Science (Can be used to satisfy either Computational Reasoning or Statistical Reasoning, but not both.)\n| 4\n|\nSTAT 2\n| Introduction to Statistics\n| 4\n|\nSTAT 20\n| Introduction to Probability and Statistics\n| 4\n|\nSTAT 21\n| Introductory Probability and Statistics for Business\n| 4\n|\nSTAT W21\n| 4\n|\nThose students prepared to complete an upper division (courses numbered 100-199) course in lieu of an approved lower-division course (courses numbered 1-99), should contact CDSS advising (cdss-undergrad@berkeley.edu) to confirm approval prior to enrollment. Only courses valued at 3 units or higher, and with a prerequisite of one of the approved lower-division courses will be considered.\nSatisfying the Statistical Reasoning Requirement with a CDSS major\nThe Statistics and Data Science major programs automatically satisfy Statistical Reasoning through their major requirements.\nSatisfying Statistical Reasoning Requirement with a Transfer Course\nAll transfer courses pursued for Statistical Reasoning must be completed with a C- or higher.\n- Students can complete a pre-approved Statistical Reasoning course at a California Community College. Pre-approved courses can be found on ASSIST. Refer to the CDSS Transfer Credit webpage for instructions on how to take transfer credit as a CDSS student before enrolling at a California Community College.\n- Successful completion of transferable courses from other higher education institutions (i.e., 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may also be considered. Course descriptions and syllabi will be required to make a determination. For more information on pursuing transfer courses for Statistical Reasoning at another higher education institution, review CDSS’s Transfer Credit: Other Higher Education Institutions webpage.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "courses": [
+        "DATA C8",
+        "COMPSCI C8",
+        "STAT C8",
+        "STAT 2",
+        "STAT 20",
+        "STAT 21",
+        "STAT W21"
+       ]
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied by AP/IB/A-level exam, transfer course, an approved upper division course, or automatically by a CDSS major"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cdss-breadth",
+   "title": "CDSS Breadth",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and provides context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nThe requirement consists of seven distribution areas:\n- Arts and Literature\n- Biological Science\n- Historical Studies\n- International Studies\n- Philosophy and Values\n- Physical Science\n- Social and Behavioral Sciences.\nFor descriptions of these distribution areas, as well as a more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nGuidelines for Seven-Course Breadth\nComplete one approved course for each of the seven areas with a minimum grade of C- or P. To find course options for breadth, go to the Class Schedule, select the term of interest, and use the \"Breadth Requirements\" filter to select the breadth area(s) of interest. When selecting a course, keep the following in mind:\n- Some courses may list multiple breadth areas. These are options for which breadth areas the course can satisfy. A course may only be used for one of the approved breadth areas. To satisfy the breadth requirement, complete seven distinct courses, one for each breadth area.\n- Students may use up to two courses from any one academic department to satisfy the Seven-Course Breadth. This includes all subject areas offered by the department and—if a course is cross-listed (indicated by a 'C' prefix)—all other departments offering the course as well. Letters and Science (\"LS\") courses are an exception to this restriction. Students may complete as many LS courses as they wish for the Seven-Course Breadth. This includes LS courses offered through the Discovery and Big Ideas programs.\n- Courses fulfilling American History & Institutions, American Cultures or requirements in the major program may also be applied to the Seven-Course Breadth requirement.\n- Seven-Course Breadth is fulfilled by taking 7 college courses. Exams, such as Advanced Placement and International Baccalaureate, cannot be used to fulfill breadth requirements.\n- The undergraduate breadth requirements are the same for CDSS students as for the College of Letters and Science, with the exception that a second-semester foreign language course can be used to satisfy the International Studies breadth.\nSatisfying the Seven Course Breadth Requirement with Transfer Work\n- Students admitted with IGETC Certification or UC Reciprocity have satisfied Quantitative Reasoning. No additional course work is required.\n- All transfer courses must be completed with a grade of C- or better, or the equivalent of a Passed grade on the host campus, in order to be considered for Seven-Course Breadth.\n- To be eligible for consideration, the minimum unit requirement for a course offered from a campus on the semester system is 3.0 units, and for courses offered from campuses on the quarter system, 4.0 units.\n- Students can complete pre-approved breadth courses at a California Community College. Pre-approved courses can be found on ASSIST. Refer to the L&S Transfer Credit page for instructions on how to take transfer credit as an L&S student before enrolling at a California Community College.\n- Successful completion of transferable courses from other higher education institutions (i.e. 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may also be considered. Course descriptions and syllabi will be required to make a breadth determination. … (see the catalog for the rest)",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "cdss-unit-and-academic-requirements",
+   "title": "CDSS Unit and Academic Requirements",
+   "notes": "Class Schedule Requirements\n- Minimum units per semester: 12\n- Maximum units per semester: 20.5\nAcademic (Grade) Requirements\n- Minimum cumulative GPA: 2.0\n- Minimum GPA for one semester: 1.5\nBachelor’s Degree Requirements\n- Minimum total units: 120. Of these 120 units:\n- PE maximum units: 4\n- Special Studies maximum units: 16\n- Maximum 300-499 course units: 6\n- Minimum upper division units: 36\n- Maximum number of semesters: 8 for first-year entrants; 5 for transfer students; summer terms do not count toward the maximum\n- Minimum GPA in upper division and graduate courses identified for the major: 2.0\n- Meet all major requirements\n- Meet all general, curricular, and residence requirements of the University of California and the Berkeley campus\nFor more information about CDSS requirements, visit student resources and information on the College of Computing, Data Science, and Society website.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "units",
+      "minUnits": 36,
+      "filter": {
+       "attribute": "UD"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "At most 4 PE units, 16 Special Studies units and 6 units of 300-499 courses count toward the 120"
+     },
+     {
+      "type": "manual",
+      "text": "2.0 cumulative GPA and 2.0 GPA in upper division courses for the major; 12 to 20.5 units per semester"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "data": {
+  "class": {
+   "year": 2027,
+   "semester": "Spring",
+   "subject": "COMPSCI",
+   "sessionId": "1",
+   "courseNumber": "61A",
+   "courseId": "104424",
+   "number": "001",
+   "unitsMax": 4,
+   "unitsMin": 4,
+   "finalExam": "Y",
+   "decal": {
+    "title": null,
+    "__typename": "DeCal",
+    "syllabus": null,
+    "description": null,
+    "syllabusUrl": null,
+    "applicationUrl": null,
+    "applicationDueDate": null,
+    "instructors": []
+   },
+   "course": {
+    "title": "The Structure and Interpretation of Computer Programs",
+    "description": "An introduction to programming and computer science focused on abstraction techniques as means to manage program complexity. Techniques include procedural abstraction; control abstraction using recursion, higher-order functions, generators, and streams; data abstraction using interfaces, objects, classes, and generic operators; and language abstraction using interpreters and macros. The course exposes students to programming paradigms, including functional, object-oriented, and declarative approaches. It includes an introduction to asymptotic analysis of algorithms. There are several significant programming projects.",
+    "requirements": "MATH 1A (may be taken concurrently) or Math 10A or Math 16A. Programming experience equivalent to that gained from a score of 3 or above on the Advanced Placement Computer Science exam.",
+    "aggregatedRatings": {
+     "metrics": [
+      {
+       "metricName": "Attendance",
+       "count": 326,
+       "weightedAverage": 0.015337423312883436,
+       "categories": [
+        {
+         "value": 1,
+         "count": 5,
+         "__typename": "Category"
+        },
+        {
+         "value": 0,
+         "count": 321,
+         "__typename": "Category"
+        }
+       ],
+       "__typename": "Metric"
+      },
+      {
+       "metricName": "Recording",
+       "count": 323,
+       "weightedAverage": 0.9380804953560371,
+       "categories": [
+        {
+         "value": 1,
+         "count": 303,
+         "__typename": "Category"
+        },
+        {
+         "value": 0,
+         "count": 20,
+         "__typename": "Category"
+        }
+       ],
+       "__typename": "Metric"
+      }
+     ],
+     "__typename": "AggregatedRatings"
+    },
+    "gradeDistribution": {
+     "average": 3.177514756517462,
+     "pnpPercentage": 0.8688397361272798,
+     "__typename": "GradeDistribution"
+    },
+    "__typename": "Course"
+   },
+   "primarySection": {
+    "sectionId": "28320",
+    "component": "LEC",
+    "sectionAttributes": [
+     {
+      "attribute": {
+       "code": "NOTE",
+       "formalDescription": "Class Notes",
+       "__typename": "SectionAttributeInfo"
+      },
+      "value": {
+       "description": "",
+       "formalDescription": "- Time conflicts are allowed\n\n- An alternate final will be offered\n\n- Lectures will be recorded\n\n- Data C88C is a 3-unit version of this course that covers less material at a slower pace. Students who are not CS/EECS/ECE majors and do not anticipate taking upper-division computer science courses (which require the 4-unit CS 61A as a prerequisite) may want to consider Data C88C instead of CS 61A.\n\n- While CS 61A does not require any prior programming experience, students with little or no programming experience often find CS 61A to be very challenging. CS 10 is an introductory course designed for students new to programming that many students take before CS 61A.\n\n- Seats reserved for students with enrollment permission are not available upon request. They are reserved for students in internal programs.",
+       "__typename": "SectionAttributeInfo"
+      },
+      "__typename": "SectionAttribute"
+     }
+    ],
+    "exams": [],
+    "enrollment": {
+     "latest": {
+      "endTime": "2026-11-20T04:45:11.991Z",
+      "enrolledCount": 332,
+      "maxEnroll": 600,
+      "waitlistedCount": 0,
+      "maxWaitlist": 300,
+      "activeReservedMaxCount": 193,
+      "seatReservationCount": [
+       {
+        "enrolledCount": 0,
+        "maxEnroll": 29,
+        "requirementGroup": {
+         "description": "Students with Enrollment Permission",
+         "__typename": "RequirementGroupDescriptor"
+        },
+        "isValid": true,
+        "__typename": "SeatReservationCounts"
+       },
+       {
+        "enrolledCount": 14,
+        "maxEnroll": 14,
+        "requirementGroup": {
+         "description": "Undeclared Students in the College of Letters & Science",
+         "__typename": "RequirementGroupDescriptor"
+        },
+        "isValid": true,
+        "__typename": "SeatReservationCounts"
+       },
+       {
+        "enrolledCount": 16,
+        "maxEnroll": 50,
+        "requirementGroup": {
+         "description": "Students declared in the Computer Science BA major",
+         "__typename": "RequirementGroupDescriptor"
+        },
+        "isValid": true,
+        "__typename": "SeatReservationCounts"
+       },
+       {
+        "enrolledCount": 20,
+        "maxEnroll": 50,
+        "requirementGroup": {
+         "description": "Electrical Engineering & Computer Science, EECS/Materials Science & Engineering, and EECS/Nuclear Engineering, Computer Science & Engineering Majors; and Undeclared Students in the College of Engineering",
+         "__typename": "RequirementGroupDescriptor"
+        },
+        "isValid": true,
+        "__typename": "SeatReservationCounts"
+       },
+       {
+        "enrolledCount": 48,
+        "maxEnroll": 50,
+        "requirementGroup": {
+         "description": "Non-EECS Declared Engineering Majors",
+         "__typename": "RequirementGroupDescriptor"
+        },
+        "isValid": true,
+        "__typename": "SeatReservationCounts"
+       }
+      ],
+      "__typename": "EnrollmentSingular"
+     },
+     "__typename": "Enrollment"
+    },
+    "meetings": [
+     {
+      "days": [
+       true,
+       false,
+       true,
+       false,
+       true,
+       false,
+       false
+      ],
+      "location": "Dwinelle 155",
+      "endTime": "13:59:00",
+      "startTime": "13:00:00",
+      "instructors": [
+       {
+        "familyName": "Ousterhout",
+        "givenName": "Kay",
+        "__typename": "Instructor"
+       }
+      ],
+      "__typename": "Meeting"
+     }
+    ],
+    "__typename": "Section"
+   },
+   "__typename": "Class"
+  }
+ }
+}

@@ -1,0 +1,203 @@
+{
+  "id": "major-chemistry-bs",
+  "title": "Chemistry BS",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/chemistry/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "general-chemistry",
+      "title": "General chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 12A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 12B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "inorganic",
+      "title": "Inorganic chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 104A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 104B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "analytical",
+      "title": "Instrumental analysis",
+      "rule": {
+        "type": "course",
+        "course": "CHEM 105"
+      }
+    },
+    {
+      "id": "physical",
+      "title": "Physical chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 120A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 120B"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 125"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chem-electives",
+      "title": "Chemistry electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "CHEM"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "CHEM 104A",
+            "CHEM 104B",
+            "CHEM 105",
+            "CHEM 120A",
+            "CHEM 120B",
+            "CHEM 125"
+          ]
+        },
+        "minUnits": 6
+      }
+    }
+  ]
+}

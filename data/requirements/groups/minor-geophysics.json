@@ -1,0 +1,100 @@
+{
+ "id": "minor-geophysics",
+ "title": "Geophysics minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I134U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I134U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I134U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "lower-division-requirement",
+   "title": "Lower Division Requirement",
+   "section": "Lower Division",
+   "rule": {
+    "type": "course",
+    "course": "EPS 50"
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "At least three courses must be EPS courses.\n- EPS 104, EPS C181, and MATH 121A will be applied by exception only. Contact the EPS advisor for more information.\n- A maximum of 2 transfer courses is allowed.",
+   "rule": {
+    "type": "nOf",
+    "n": 5,
+    "rules": [
+     {
+      "type": "course",
+      "course": "EPS 100A"
+     },
+     {
+      "type": "course",
+      "course": "EPS 100B"
+     },
+     {
+      "type": "course",
+      "course": "EPS 101"
+     },
+     {
+      "type": "course",
+      "course": "EPS 102"
+     },
+     {
+      "type": "course",
+      "course": "EPS 108"
+     },
+     {
+      "type": "course",
+      "course": "EPS 109"
+     },
+     {
+      "type": "course",
+      "course": "EPS 115"
+     },
+     {
+      "type": "course",
+      "course": "EPS 116"
+     },
+     {
+      "type": "course",
+      "course": "EPS 117"
+     },
+     {
+      "type": "course",
+      "course": "EPS 118"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EPS C178"
+       },
+       {
+        "type": "course",
+        "course": "CIVENG C178"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "EPS C181"
+     },
+     {
+      "type": "course",
+      "course": "MATH 121A"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "major-computer-science-ba",
+  "title": "Computer Science BA",
+  "kind": "major",
+  "source": "https://eecs.berkeley.edu/resources/undergrads/cs/degree-reqs/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "cs-61a",
+      "title": "COMPSCI 61A",
+      "rule": {
+        "type": "course",
+        "course": "COMPSCI 61A"
+      }
+    },
+    {
+      "id": "cs-61b",
+      "title": "Data structures",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 61B"
+          },
+          {
+            "type": "course",
+            "course": "COMPSCI 61BL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cs-61c",
+      "title": "COMPSCI 61C",
+      "rule": {
+        "type": "course",
+        "course": "COMPSCI 61C"
+      }
+    },
+    {
+      "id": "cs-70",
+      "title": "Discrete math & probability",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "COMPSCI 70"
+          },
+          {
+            "type": "course",
+            "course": "MATH 55"
+          }
+        ]
+      },
+      "notes": "MATH 55 only for students declared in Math first; CS 70 recommended."
+    },
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 54"
+          },
+          {
+            "type": "course",
+            "course": "MATH 56"
+          },
+          {
+            "type": "course",
+            "course": "ELENG 66"
+          },
+          {
+            "type": "course",
+            "course": "EECS 16A"
+          }
+        ]
+      },
+      "notes": "Starting Fall 2026, ELENG 66 (formerly EECS 16A) may no longer fulfill linear algebra for CS."
+    },
+    {
+      "id": "ud-design",
+      "title": "Upper-division design course (4 units)",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "COMPSCI 152",
+            "COMPSCI 160",
+            "COMPSCI 161",
+            "COMPSCI 162",
+            "COMPSCI 164",
+            "COMPSCI 168",
+            "COMPSCI 169A",
+            "COMPSCI 169L",
+            "COMPSCI 180",
+            "COMPSCI 182",
+            "COMPSCI 184",
+            "COMPSCI 186",
+            "ELENG 130",
+            "ELENG 140",
+            "ELENG 143",
+            "EECS C106A",
+            "EECS 149",
+            "EECS 151"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "ud-cs",
+      "title": "8 upper-division CS units",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "COMPSCI"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "COMPSCI 195"
+          ]
+        },
+        "minUnits": 8
+      },
+      "notes": "Only MATH 156, INFO 159, DATA 101, DATA 188, and DATA C100 (non-CS) may also count toward CS units."
+    },
+    {
+      "id": "ud-cs-ee",
+      "title": "8 upper-division CS/EE/EECS units",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "COMPSCI",
+            "ELENG",
+            "EECS"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "COMPSCI 195"
+          ]
+        },
+        "minUnits": 8
+      }
+    },
+    {
+      "id": "ud-tech-elective",
+      "title": "4 units of upper-division technical elective",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "ELENG",
+            "EECS",
+            "MATH",
+            "STAT",
+            "DATA",
+            "INDENG",
+            "PHYSICS",
+            "COGSCI",
+            "INFO"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "minUnits": 4
+      },
+      "notes": "For students admitted Fall 2022 or later: a non-CS course from the approved technical electives list, or an EE/EECS course. Total upper division is 20 units; courses must be 3+ units and taken for a letter grade."
+    }
+  ]
+}

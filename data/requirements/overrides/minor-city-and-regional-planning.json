@@ -1,0 +1,20 @@
+{
+ "why": "The catalog lists Economics, Statistics and Environmental Design as three rows, but its text says 'Students must complete a minimum of two courses from two different subject areas', so it is one row: two of the three areas.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/19I022U",
+  "https://undergraduate.catalog.berkeley.edu/programs/19I022U/requirements-ZFjjs"
+ ],
+ "merge": [
+  {
+   "block": "Lower Division",
+   "title": "Lower Division",
+   "type": "nOf",
+   "n": 2,
+   "rules": [
+    "Economics",
+    "Statistics",
+    "Environmental Design"
+   ]
+  }
+ ]
+}

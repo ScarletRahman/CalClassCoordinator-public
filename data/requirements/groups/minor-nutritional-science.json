@@ -1,0 +1,145 @@
+{
+ "id": "minor-nutritional-science",
+ "title": "Nutritional Science minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/04I006U",
+  "https://undergraduate.catalog.berkeley.edu/programs/04I006U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "04I006U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MBN 10"
+     },
+     {
+      "type": "course",
+      "course": "MBN 103"
+     },
+     {
+      "type": "course",
+      "course": "MBN 160"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Minor Requirements",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C148"
+       },
+       {
+        "type": "course",
+        "course": "NUSCTX C114"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ESPM C159"
+       },
+       {
+        "type": "course",
+        "course": "NUSCTX C159"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI C130"
+       },
+       {
+        "type": "course",
+        "course": "MBN C130"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MBN H196"
+     },
+     {
+      "type": "course",
+      "course": "MBN 102"
+     },
+     {
+      "type": "course",
+      "course": "MBN 104"
+     },
+     {
+      "type": "course",
+      "course": "MBN 105"
+     },
+     {
+      "type": "course",
+      "course": "MBN 108A"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX 110"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX 115"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX 121"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX 161A"
+     },
+     {
+      "type": "course",
+      "course": "MBN 166"
+     },
+     {
+      "type": "course",
+      "course": "MBN 170"
+     },
+     {
+      "type": "course",
+      "course": "MBN 190"
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX 193"
+     },
+     {
+      "type": "course",
+      "course": "MBN 199"
+     }
+    ]
+   }
+  }
+ ]
+}

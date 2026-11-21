@@ -1,0 +1,115 @@
+{
+ "XMCELLB 32": {
+  "course": "XMCELLB 32",
+  "difficulty": 3.3,
+  "shouldTake": 3.6,
+  "confidence": {
+   "difficulty": "high",
+   "shouldTake": "medium"
+  },
+  "signals": {
+   "difficulty": [
+    {
+     "label": "Student difficulty rating (7 on Berkeleytime)",
+     "value": 4.1,
+     "weight": 0.204
+    },
+    {
+     "label": "Average grade B+ (3.48)",
+     "value": 2.5,
+     "weight": 0.311
+    },
+    {
+     "label": "Student workload rating (7)",
+     "value": 4.3,
+     "weight": 0.088
+    }
+   ],
+   "shouldTake": [
+    {
+     "label": "Grades are forgiving",
+     "value": 3.5,
+     "weight": 0.089
+    },
+    {
+     "label": "Workload is heavy",
+     "value": 1.7,
+     "weight": 0.029
+    },
+    {
+     "label": "Student usefulness rating (7 on Berkeleytime)",
+     "value": 4,
+     "weight": 0.233
+    }
+   ]
+  },
+  "sentiment": "7 students on Berkeleytime rate it 4.1/5 for difficulty, 4.3/5 for workload and 4.0/5 for usefulness. The average grade is B+ (3.48), with 72% of letter grades in the A range. Lectures are usually not recorded.",
+  "finalExam": "Y",
+  "grades": {
+   "average": 3.48,
+   "letter": "B+",
+   "students": 396,
+   "pctA": 72,
+   "pctBelowB": 15,
+   "pctPassNoPass": 27,
+   "distribution": [
+    {
+     "letter": "A+",
+     "count": 89
+    },
+    {
+     "letter": "A",
+     "count": 120
+    },
+    {
+     "letter": "B",
+     "count": 39
+    },
+    {
+     "letter": "C",
+     "count": 26
+    },
+    {
+     "letter": "D",
+     "count": 7
+    },
+    {
+     "letter": "F",
+     "count": 10
+    },
+    {
+     "letter": "P",
+     "count": 98
+    },
+    {
+     "letter": "NP",
+     "count": 7
+    }
+   ]
+  },
+  "studentRatings": {
+   "count": 7,
+   "difficulty": 4.1,
+   "workload": 4.3,
+   "usefulness": 4,
+   "recordedPct": 17,
+   "attendanceRequiredPct": 17
+  },
+  "byProfessor": [
+   {
+    "professor": "James Smiley",
+    "terms": 5,
+    "lastTaught": "2026 Fall",
+    "gpa": 3.4,
+    "studentCount": 7,
+    "studentDifficulty": 4.1,
+    "studentUsefulness": 4,
+    "difficulty": 3.4,
+    "shouldTake": 3.6
+   }
+  ],
+  "sources": [
+   "https://berkeleytime.com/catalog?q=XMCELLB%2032"
+  ]
+ }
+}

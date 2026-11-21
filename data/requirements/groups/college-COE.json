@@ -1,0 +1,84 @@
+{
+ "id": "college-COE",
+ "title": "College of Engineering requirements",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/colleges/engineering"
+ ],
+ "catalogYear": "2026-27",
+ "college": "COE",
+ "requirements": [
+  {
+   "id": "coe-humanities-and-social-sciences-requirement",
+   "title": "COE Humanities and Social Sciences Requirement",
+   "notes": "To promote a rich and varied educational experience outside of the technical requirements for each major, the College of Engineering has a six-course Humanities and Social Sciences breadth requirement, which must be completed to graduate. This requirement, built into all the Engineering programs of study, includes two Reading and Composition courses (R&C), and four additional courses, within which a number of specific conditions must be satisfied. See the humanities and social sciences section of our website for details.\n- Complete a minimum of six unique Humanities/Social Sciences (H/SS) courses. For example, AGRS R44 can fulfill either R&C Part A, or R&C Part B, or a different lower-division H/SS requirement, but not all of those at the same time. R&C parts A and B will count for 2 of the 6 courses.\n- Courses must be a minimum of 3 semester units (or 4 quarter units).\n- A maximum of two of the 6 H/SS courses may be met by AP, IB, or A-Level exam scores. View the list of exams that can be applied toward H/SS requirements for reference.\n- At least 2 of the 6 H/SS courses must be upper-division (courses numbered 100-196).\n- Courses may fulfill multiple categories across University, Campus, and College requirements. For example, taking HISTORY 127AC will satisfy the American Cultures requirement and one of the upper-division H/SS course requirements (but students will still need to complete 6 total courses).\n- Not sure about your H/SS progress? Please check your Academic Progress Report (APR) in CalCentral. Here’s a handy guide on how to use the APR.\nTwo of the six courses must fulfill the College’s Reading and Composition (R&C) requirement:\n- These courses must be taken for a letter grade (C- or better required).\n- The first half (R&C Part A) must be completed by the end of your freshman year (before your 3rd semester); the second half (R&C Part B) must be completed by no later than the end of the sophomore year (before your 5th semester).\n- Students can use the Class Schedule to view R&C courses offered in a given semester.\n- Only R&C Part A can be fulfilled with an AP, IB, or A-Level exam score. Test scores do not fulfill R&C Part B for College of Engineering students.\nThe four additional courses must be chosen from the following lists in the Class Schedule using the filters in the left sidebar, and can be taken on a pass/no pass basis (see restrictions below):\n- UC requirements:\n- American History and Institutions (by passing with a grade of C or better or P)\n- UC campus requirement:\n- American Cultures (must be at least 3 units and you must receive a grade of P or C- or better)\n- L&S Breadth Lists:\n- Arts & Literature\n- Historical Studies\n- International Studies\n- Philosophy & Values\n- Social & Behavioral Science\n- Approved foreign language courses (see below)\nIf students wish to take a lower division H/SS course at a California Community College (CCC), they should consult their ESS Adviser about which courses will count before they register at the other school. Please note that students are not allowed to take CCC courses in the fall or spring semesters if they are simultaneously enrolled in UC Berkeley courses.\nRestrictions (these classes/programs do not count)\n- No courses offered by an Engineering department may be used to complete an H/SS requirement other than:\n- BIOENG 100,\n- COMPSCI C79,\n- ENGIN 125, ENGIN 157AC, ENGIN 184, ENGIN 185, or\n- MECENG 191K.\n- Courses numbered 97, 98, 99, or above 196 cannot be used to complete the H/SS requirement.\n- The College of Engineering does not accept courses from the following L&S Breadth Lists (unless the courses are simultaneously listed in a list we do accept (see above):\n- Physical Science\n- Biological Science\n- Students will not be granted any sort of H/SS fulfillment by going abroad in itself. … (see the catalog for the rest)",
+   "rule": {
+    "type": "allOf",
+    "overlap": true,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "filter",
+      "count": 6,
+      "filter": {
+       "attribute": "HSS"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 2,
+      "filter": {
+       "attribute": "HSS",
+       "minNumber": 100,
+       "maxNumber": 196
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Each H/SS course is at least 3 units, at most two of the six come from AP/IB/A-Level exams, and approved foreign language courses also count (see notes)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "coe-unit-and-academic-requirements",
+   "title": "COE Unit and Academic Requirements",
+   "notes": "COE Unit and Academic Requirements\nStudents in the College of Engineering must complete no fewer than 120 semester units with the following provisions:\n- Completion of the requirements of one Engineering major program of study.\n- A minimum overall grade point average (GPA) of 2.000 (C average) and a minimum 2.000 GPA in upper division technical course work required of the major.\n- The final 30 units and two semesters must be completed in residence in the College of Engineering on the Berkeley campus.\n- All technical courses that fulfill a requirement for the major must be taken on a letter-graded basis (unless they are only offered P/NP).\n- Entering freshmen are allowed a maximum of eight semesters to complete their degree requirements. Entering junior transfers are allowed a maximum of five semesters to complete their degree requirements. Summer terms are optional and do not count toward the maximum. Students are responsible for planning and satisfactorily completing all graduation requirements within the maximum allowable semesters.\n- Adhere to all college policies and procedures as they complete degree requirements.\n- Complete the lower division program before enrolling in upper division engineering courses.\nClass Schedule Requirements\n- Minimum units per semester: 12\n- Maximum units per semester: 20.5\nGood Academic Standing and Normal Progress\nTo be in good academic standing in the College of Engineering, you are expected to:\n- earn a minimum semester AND cumulative GPA of 2.0 every semester. See this page for further details; and\n- make normal progress towards your degree.\nTo make normal progress in your degree, you must meet the following conditions:\n- You must enroll in at least 12 units each semester (13 if you are in the M.E.T. program). If you complete your major requirements earlier than your final semester, you may take fewer than two technical courses but must continue to meet the minimum 12 unit per term requirement until your final semester. If you are on the degree list, you may enroll in fewer than 12 units as long as you are completing (or have completed) your degree requirements. Note: Minimum unit requirement for graduation is 120 units.\n- Your semester program must include at least two letter graded technical courses (of at least three units each, with the exception of ENGIN 26).\n- All technical courses that fulfill major requirements in the semester you are taking them must be taken for a letter grade.\n- Every semester you are expected to make normal progress in your declared major. Normal progress in your declared major is determined by your ESS Adviser. In general, this means you will need to take two to three technical courses each semester that satisfy requirements for your major in order to graduate on time.\nStudents who are not in compliance with enrollment policies by the end of the fifth week of the semester are subject to a registration block that will delay enrollment for the following semester. If you are not in good academic standing or are not making normal progress, you should consult with your Engineering Student Services (ESS) Adviser as soon as possible.\nAdditionally,\n- In order to graduate, you must have a minimum cumulative GPA of 2.0 AND a minimum upper division technical GPA of 2.0.\n- Entering freshmen are allowed eight semesters to graduate, and entering junior transfers are allowed five semesters to graduate. Time to degree will not be extended for students who have not consistently made normal progress toward their major requirements.\nInformation regarding Academic Notice and Disqualification can be found here.\nStudents in the College of Engineering must enroll in a full-time program and make normal progress each semester toward the bachelor's degree. The continued enrollment of students who fail to achieve minimum academic progress in their declared major shall be subject to the approval of the dean. … (see the catalog for the rest)",
+   "rule": {
+    "type": "manual",
+    "text": "2.0 overall GPA and 2.0 GPA in upper division technical courses; final 30 units in residence in the College of Engineering; technical courses letter-graded"
+   }
+  }
+ ]
+}

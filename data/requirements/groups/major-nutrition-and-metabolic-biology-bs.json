@@ -1,0 +1,669 @@
+{
+ "id": "major-nutrition-and-metabolic-biology-bs",
+ "title": "Nutrition and Metabolic Biology BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/040KGU",
+  "https://undergraduate.catalog.berkeley.edu/programs/040KGU/requirements-ZFjjs",
+  "https://undergraduate.catalog.berkeley.edu/programs/040KGU"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "040KGU",
+ "requirements": [
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "filter",
+    "minUnits": 5,
+    "filter": {
+     "courses": [
+      "CHEM 1A",
+      "CHEM 1AL",
+      "CHEM 4A"
+     ]
+    }
+   }
+  },
+  {
+   "id": "organic-chemistry",
+   "title": "Organic Chemistry",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM 12A"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 12B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "biological-science",
+   "title": "Biological Science",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "BIOLOGY 1A"
+       },
+       {
+        "type": "course",
+        "course": "BIOLOGY 1AL"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "NUSCTX 10S"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physiology",
+   "title": "Physiology",
+   "section": "Preparatory Subject Matter",
+   "notes": "INTEGBI 132 and 132L can satisfy this requirement, but cannot be simultaneously used for the Upper Division Biology elective requirement.",
+   "rule": {
+    "type": "nOf",
+    "n": 2,
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "INTEGBI 132"
+       },
+       {
+        "type": "course",
+        "course": "INTEGBI 132L"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MCELLBI 32"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI 32L"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "XMCELLB 32"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI 32L"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PHYSICS 7A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 8A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "breadth-humanities-social-science",
+   "title": "Breadth: Humanities/Social Science",
+   "section": "Preparatory Subject Matter",
+   "rule": {
+    "type": "manual",
+    "text": "Students need to complete 14 units of breadth for this major from coursework in American Cultures, Foreign Language departments, or any of these Breadth Categories: Arts & Literature, Historical Studies, International Studies, Philosophy & Values, or Social & Behavioral Sciences.\nCourses repeated in a breadth category will count towards the requirement."
+   }
+  },
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Mathematics Options",
+   "notes": "Complete the Math 10 series (Option 1), or one Math A series course, one Math B series course and one Statistics course (Option 2).",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 10A"
+         },
+         {
+          "type": "course",
+          "course": "MATH N10A"
+         }
+        ]
+       },
+       {
+        "type": "course",
+        "course": "MATH 10B"
+       }
+      ],
+      "label": "Option 1: Math 10 series"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 16A"
+         },
+         {
+          "type": "course",
+          "course": "XMATH 16A"
+         },
+         {
+          "type": "course",
+          "course": "MATH 51"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "MATH 16B"
+         },
+         {
+          "type": "course",
+          "course": "MATH 52"
+         }
+        ]
+       },
+       {
+        "type": "anyOf",
+        "rules": [
+         {
+          "type": "course",
+          "course": "COMPSCI C8"
+         },
+         {
+          "type": "course",
+          "course": "DATA C8"
+         },
+         {
+          "type": "course",
+          "course": "INFO C8"
+         },
+         {
+          "type": "course",
+          "course": "STAT C8"
+         },
+         {
+          "type": "course",
+          "course": "STAT 2"
+         },
+         {
+          "type": "course",
+          "course": "STAT 20"
+         },
+         {
+          "type": "course",
+          "course": "DATA C131A"
+         },
+         {
+          "type": "course",
+          "course": "PBHLTH 142"
+         },
+         {
+          "type": "course",
+          "course": "PBHLTH 142W"
+         },
+         {
+          "type": "course",
+          "course": "STAT C131A"
+         }
+        ]
+       }
+      ],
+      "label": "Option 2: Math A, Math B and Statistics"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-courses",
+   "title": "Core Courses",
+   "section": "Advanced Subject Matter",
+   "rule": {
+    "type": "nOf",
+    "n": 4,
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "CHEM C130"
+       },
+       {
+        "type": "course",
+        "course": "MCELLBI C100A"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "CHEM 135"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 102"
+     },
+     {
+      "type": "course",
+      "course": "MBN 103"
+     },
+     {
+      "type": "course",
+      "course": "MBN 160"
+     },
+     {
+      "type": "course",
+      "course": "MBN 190"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-nutrition",
+   "title": "Upper Division Nutrition",
+   "section": "Advanced Subject Matter",
+   "notes": "- Units from these courses will count towards the 18 units of Upper Division Biology electives.\n- Independent research courses may be completed with a P grade.",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "MBN C130",
+      "MBN 105",
+      "MBN 108A",
+      "MBN 120",
+      "MBN 166",
+      "MBN 170",
+      "MBN H196",
+      "MBN 199",
+      "MBN 199S"
+     ]
+    }
+   }
+  },
+  {
+   "id": "upper-division-research-or-lab",
+   "title": "Upper Division Research or Lab",
+   "section": "Advanced Subject Matter",
+   "notes": "- Units from these courses will count towards the 18 units of Upper Division Biology electives.\n- MBN courses may also satisfy the Upper Division Nutrition requirement.\n- 199 courses may be taken for a P grade. All other courses must be taken for a letter grade.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "CHEM H194"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 115"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 125"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 196"
+     },
+     {
+      "type": "course",
+      "course": "CHEM 199"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C107"
+     },
+     {
+      "type": "course",
+      "course": "ESPM C115C"
+     },
+     {
+      "type": "course",
+      "course": "GEOG C148"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C166"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI C176L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI H196A"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI H196B"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 104LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 113L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 120"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 123AL"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 131L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 132L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 134L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 151L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 157LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 164L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 173LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 174LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 175LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 177LF"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 181L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 184L"
+     },
+     {
+      "type": "course",
+      "course": "INTEGBI 199"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI C112L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI H196B"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 133L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 140L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 170L"
+     },
+     {
+      "type": "course",
+      "course": "MCELLBI 199"
+     },
+     {
+      "type": "course",
+      "course": "NEU 171L"
+     },
+     {
+      "type": "course",
+      "course": "NEU 173L"
+     },
+     {
+      "type": "course",
+      "course": "MBN H196"
+     },
+     {
+      "type": "course",
+      "course": "MBN 170"
+     },
+     {
+      "type": "course",
+      "course": "MBN 199"
+     },
+     {
+      "type": "course",
+      "course": "MBN 199S"
+     },
+     {
+      "type": "course",
+      "course": "PBHLTH 168"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C110L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI C112L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI H196"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 101L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 120L"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 185"
+     },
+     {
+      "type": "course",
+      "course": "PLANTBI 199"
+     },
+     {
+      "type": "course",
+      "course": "UGIS 192C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upper-division-electives",
+   "title": "Upper Division Electives",
+   "section": "Advanced Subject Matter",
+   "notes": "Independent research courses may be completed with a P grade.",
+   "rule": {
+    "type": "filter",
+    "minUnits": 18,
+    "filter": {
+     "courses": [
+      "CHEM C110L",
+      "CHEM H194",
+      "CHEM 100",
+      "CHEM 101",
+      "CHEM 102",
+      "CHEM 103",
+      "CHEM 104A",
+      "CHEM 104B",
+      "CHEM 105",
+      "CHEM 108",
+      "CHEM 113",
+      "CHEM 114",
+      "CHEM 115",
+      "CHEM 120A",
+      "CHEM 120B",
+      "CHEM 121",
+      "CHEM 122",
+      "CHEM 125",
+      "CHEM 130B",
+      "CHEM 135",
+      "CHEM 136",
+      "CHEM 143",
+      "CHEM 149",
+      "CHEM 159",
+      "CHEM 171H",
+      "CHEM 179",
+      "CHEM 192",
+      "CHEM 195",
+      "CHEM 196",
+      "CHEM 197",
+      "CHEM 199",
+      "ESPM C107",
+      "ESPM C125",
+      "ESPM 132",
+      "ESPM 144",
+      "GEOG C148",
+      "INTEGBI C110L",
+      "INTEGBI C166",
+      "INTEGBI H196A",
+      "INTEGBI H196B",
+      "INTEGBI 101",
+      "INTEGBI 102LF",
+      "INTEGBI 103LF",
+      "INTEGBI 104LF",
+      "INTEGBI 108",
+      "INTEGBI 111",
+      "INTEGBI 112",
+      "INTEGBI 113L",
+      "INTEGBI 114",
+      "INTEGBI 116L",
+      "INTEGBI 117",
+      "INTEGBI 117LF",
+      "INTEGBI 118",
+      "INTEGBI 120",
+      "INTEGBI 123",
+      "INTEGBI 123AL",
+      "INTEGBI 128",
+      "INTEGBI 131",
+      "INTEGBI 131L",
+      "INTEGBI 132",
+      "INTEGBI 132L",
+      "INTEGBI 134L",
+      "INTEGBI 135",
+      "INTEGBI 136",
+      "INTEGBI 137",
+      "INTEGBI 138",
+      "INTEGBI 139",
+      "INTEGBI 140",
+      "INTEGBI 141",
+      "INTEGBI 142L",
+      "INTEGBI 146LF",
+      "INTEGBI 148",
+      "INTEGBI 150",
+      "INTEGBI 151",
+      "INTEGBI 151L",
+      "INTEGBI 154",
+      "INTEGBI 154L",
+      "INTEGBI 157LF",
+      "INTEGBI 159",
+      "INTEGBI 160",
+      "INTEGBI 161",
+      "INTEGBI 162",
+      "INTEGBI 163LF",
+      "INTEGBI 164L",
+      "INTEGBI 167",
+      "INTEGBI 168L",
+      "INTEGBI 169",
+      "INTEGBI 170LF",
+      "INTEGBI 172",
+      "INTEGBI 173LF",
+      "INTEGBI 174LF",
+      "INTEGBI 175LF",
+      "INTEGBI 177LF",
+      "INTEGBI 178",
+      "INTEGBI 181L",
+      "INTEGBI 184L",
+      "INTEGBI 190",
+      "INTEGBI 191",
+      "INTEGBI 199",
+      "MCELLBI C110L"
+     ]
+    }
+   }
+  }
+ ]
+}

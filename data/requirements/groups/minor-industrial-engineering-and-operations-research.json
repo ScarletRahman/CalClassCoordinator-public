@@ -1,0 +1,77 @@
+{
+ "id": "minor-industrial-engineering-and-operations-research",
+ "title": "Industrial Engineering and Operations Research minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/16I016U",
+  "https://undergraduate.catalog.berkeley.edu/programs/16I016U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "16I016U",
+ "notes": [
+  "General Guidelines\n- All minors must be declared no later than one semester before a student's Expected Graduation Term (EGT). If the semester before EGT is fall or spring, the deadline is the last day of RRR week. If the semester before EGT is summer, the deadline is the final Friday of Summer Sessions. To declare a minor, contact the department advisor for information on requirements, and the declaration process.\n- To be considered for the minor, students must have a declared major other than IEOR or ORMS and submit the Minor Petition in IEOR.\n- Submit the Petition form (to the IEOR Student Services Office) when you have at least four (4) of the minor requirements completed. Minor petitions are accepted year-round on a rolling basis.\n• A minimum overall grade point average (GPA) of 3.0 and a minimum GPA of 3.0 in the prerequisite courses is required for acceptance into the minor program.\n- Students must have completed all course requirements.\n• All courses taken to fulfill the minor requirements must be taken for graded credit. For information about letter grade exceptions for courses taken in Spring 2020 to Spring 2021, please contact the department.\n• A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n• No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n• Completion of the minor program cannot delay a student’s graduation.\n- Students taking the minor are also required to submit the IEOR Minor Completion Form when they are enrolled in their last required course, by the last day of instruction of their\nfinal term.\nStudents must complete the following requirements for the minor in Industrial Engineering and Operations Research.",
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor."
+ ],
+ "requirements": [
+  {
+   "id": "list-a",
+   "title": "List A",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INDENG 160"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 162"
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-b",
+   "title": "List B",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "INDENG 142"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 166"
+     },
+     {
+      "type": "course",
+      "course": "INDENG 173"
+     }
+    ]
+   }
+  },
+  {
+   "id": "list-c",
+   "title": "List C",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "INDENG 115",
+      "INDENG 130",
+      "INDENG 150",
+      "INDENG 153",
+      "INDENG 170",
+      "INDENG 171"
+     ]
+    }
+   }
+  }
+ ]
+}

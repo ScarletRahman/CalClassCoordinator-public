@@ -1,0 +1,256 @@
+{
+ "data": {
+  "course": {
+   "classes": [
+    {
+     "year": 2020,
+     "semester": "Summer",
+     "number": "001",
+     "subject": "COMPSCI",
+     "courseNumber": "61A",
+     "sessionId": "8W",
+     "anyPrintInScheduleOfClasses": true,
+     "term": {
+      "temporalPosition": "Past",
+      "__typename": "Term"
+     },
+     "primarySection": {
+      "enrollment": null,
+      "startDate": "2020-06-22",
+      "meetings": [
+       {
+        "instructors": [
+         {
+          "familyName": "Bedin",
+          "givenName": "Cooper",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Dehghani",
+          "givenName": "Shide",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Garcia",
+          "givenName": "Dan",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Gupta",
+          "givenName": "Kavi",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Hsu",
+          "givenName": "William",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Lenz",
+          "givenName": "Andrew",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Lu",
+          "givenName": "Vivian",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Moughan",
+          "givenName": "Ryan",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Nayar",
+          "givenName": "Krishnan",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Park",
+          "givenName": "Chae",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Phan",
+          "givenName": "Caitlin",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Plascencia Zuniga",
+          "givenName": "Cesar",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Roggenkemper",
+          "givenName": "Richard",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Shah",
+          "givenName": "Aman",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Shaw",
+          "givenName": "Nancy",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Singhania",
+          "givenName": "Vanshaj",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Zhou",
+          "givenName": "Shengle",
+          "__typename": "Instructor"
+         }
+        ],
+        "__typename": "Meeting"
+       }
+      ],
+      "number": "001",
+      "__typename": "Section"
+     },
+     "gradeDistribution": {
+      "average": 3.251724137931035,
+      "__typename": "GradeDistribution"
+     },
+     "__typename": "Class"
+    },
+    {
+     "year": 2026,
+     "semester": "Summer",
+     "number": "001",
+     "subject": "COMPSCI",
+     "courseNumber": "61A",
+     "sessionId": "8W",
+     "anyPrintInScheduleOfClasses": true,
+     "term": {
+      "temporalPosition": "Past",
+      "__typename": "Term"
+     },
+     "primarySection": {
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 201,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "startDate": "2026-06-22",
+      "meetings": [
+       {
+        "instructors": [
+         {
+          "familyName": "Dang",
+          "givenName": "Rebecca",
+          "__typename": "Instructor"
+         }
+        ],
+        "__typename": "Meeting"
+       }
+      ],
+      "number": "001",
+      "__typename": "Section"
+     },
+     "gradeDistribution": {
+      "average": 2.8707792207792204,
+      "__typename": "GradeDistribution"
+     },
+     "__typename": "Class"
+    },
+    {
+     "year": 2026,
+     "semester": "Fall",
+     "number": "001",
+     "subject": "COMPSCI",
+     "courseNumber": "61A",
+     "sessionId": "1",
+     "anyPrintInScheduleOfClasses": true,
+     "term": {
+      "temporalPosition": "Current",
+      "__typename": "Term"
+     },
+     "primarySection": {
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 1466,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "startDate": "2026-08-26",
+      "meetings": [
+       {
+        "instructors": [
+         {
+          "familyName": "DeNero",
+          "givenName": "John",
+          "__typename": "Instructor"
+         },
+         {
+          "familyName": "Ousterhout",
+          "givenName": "Kay",
+          "__typename": "Instructor"
+         }
+        ],
+        "__typename": "Meeting"
+       }
+      ],
+      "number": "001",
+      "__typename": "Section"
+     },
+     "gradeDistribution": {
+      "average": null,
+      "__typename": "GradeDistribution"
+     },
+     "__typename": "Class"
+    },
+    {
+     "year": 2027,
+     "semester": "Spring",
+     "number": "001",
+     "subject": "COMPSCI",
+     "courseNumber": "61A",
+     "sessionId": "1",
+     "anyPrintInScheduleOfClasses": true,
+     "term": {
+      "temporalPosition": "Future",
+      "__typename": "Term"
+     },
+     "primarySection": {
+      "enrollment": {
+       "latest": {
+        "enrolledCount": 332,
+        "__typename": "EnrollmentSingular"
+       },
+       "__typename": "Enrollment"
+      },
+      "startDate": "2027-01-19",
+      "meetings": [
+       {
+        "instructors": [
+         {
+          "familyName": "Ousterhout",
+          "givenName": "Kay",
+          "__typename": "Instructor"
+         }
+        ],
+        "__typename": "Meeting"
+       }
+      ],
+      "number": "001",
+      "__typename": "Section"
+     },
+     "gradeDistribution": {
+      "average": null,
+      "__typename": "GradeDistribution"
+     },
+     "__typename": "Class"
+    }
+   ],
+   "__typename": "Course"
+  }
+ }
+}

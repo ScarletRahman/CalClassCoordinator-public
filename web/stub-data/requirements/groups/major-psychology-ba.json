@@ -1,0 +1,131 @@
+{
+  "id": "major-psychology-ba",
+  "title": "Psychology BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/psychology/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "intro-psych",
+      "title": "Introductory psychology",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PSYCH 1"
+          },
+          {
+            "type": "course",
+            "course": "PSYCH 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biology",
+      "title": "Biological science",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MCELLBI 32"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1A"
+          },
+          {
+            "type": "course",
+            "course": "INTEGBI 35AC"
+          },
+          {
+            "type": "course",
+            "course": "ANTHRO 1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "research-methods",
+      "title": "Research and Data Analysis",
+      "rule": {
+        "type": "course",
+        "course": "PSYCH 101"
+      }
+    },
+    {
+      "id": "biological-cognitive",
+      "title": "Biological / cognitive area",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "PSYCH 110",
+            "PSYCH C120",
+            "PSYCH C127"
+          ]
+        },
+        "count": 1
+      }
+    },
+    {
+      "id": "social-clinical-developmental",
+      "title": "Social / personality / developmental / clinical area",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "courses": [
+            "PSYCH 130",
+            "PSYCH 131",
+            "PSYCH 140",
+            "PSYCH 150",
+            "PSYCH 160"
+          ]
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "psych-electives",
+      "title": "Additional upper-division psychology",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "PSYCH"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199,
+          "exclude": [
+            "PSYCH 101"
+          ]
+        },
+        "count": 3
+      },
+      "notes": "Stub: total of 7+ upper-division psychology courses."
+    }
+  ]
+}

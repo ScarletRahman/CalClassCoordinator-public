@@ -1,0 +1,618 @@
+{
+ "id": "major-anthropology-ba",
+ "title": "Anthropology BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25063U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25063U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25063U",
+ "notes": [
+  "Upper Division\nNine upper division Anthropology courses are required for the major. This includes a core of four classes, including Anthro 114: History of Anthropological Thought, and one upper division archaeology, one upper division biological anthropology, and one upper division sociocultural anthropology course."
+ ],
+ "requirements": [
+  {
+   "id": "prerequisites",
+   "title": "Prerequisites",
+   "section": "Lower Division",
+   "notes": "Students should take prerequisite courses before attempting the corresponding upper division courses",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ANTHRO 2"
+       },
+       {
+        "type": "course",
+        "course": "ANTHRO 2AC"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ANTHRO 3"
+       },
+       {
+        "type": "course",
+        "course": "ANTHRO 3AC"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-course",
+   "title": "Core Course",
+   "section": "Upper Division Core",
+   "rule": {
+    "type": "course",
+    "course": "ANTHRO 114"
+   }
+  },
+  {
+   "id": "biological-anthropology",
+   "title": "Biological Anthropology",
+   "section": "Upper Division Core",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 105"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 106"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 107"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 110"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 111"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 112"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 127A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 127B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "archaeology",
+   "title": "Archaeology",
+   "section": "Upper Division Core",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 121A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122D"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122E"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122F"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122G"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123D"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123E"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 124A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 124B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 125A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 125B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 128"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 128A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 128M"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 129A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 129C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 129D"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 129E"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C129F"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 130"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 132A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 134"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 134A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 135"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 135B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 136A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 136B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 136G"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 159"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 174AC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "social-cultural-anthropology",
+   "title": "Social/Cultural Anthropology",
+   "section": "Upper Division Core",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 115"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 119"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 138A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 138B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 140"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 141"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 146"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 147A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C147B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 148"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 149"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 150"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 155"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 156"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 156A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 156B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 157"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 158"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 160AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 162"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 166"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 170"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 171"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 179"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 180"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 181"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 183"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 184"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 189"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 189A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "area-courses",
+   "title": "Area Courses",
+   "section": "Electives",
+   "notes": "In addition to the core courses, five elective courses in Anthropology complete the nine courses. These courses must include at least one area course and one method course.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 121A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122D"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122E"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122F"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 122G"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 123E"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 124A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 124B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C125A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C125B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 128A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO C147B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 161AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 170"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 174AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 179"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 180"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 181"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 183"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 184"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 189A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "methods-courses",
+   "title": "Methods Courses",
+   "section": "Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ANTHRO 121AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 121C"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 127A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 128M"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 132A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 134"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 134A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 135"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 135B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 136A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 136B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 136G"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 138B"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 160AC"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169A"
+     },
+     {
+      "type": "course",
+      "course": "ANTHRO 169B"
+     }
+    ]
+   }
+  }
+ ]
+}

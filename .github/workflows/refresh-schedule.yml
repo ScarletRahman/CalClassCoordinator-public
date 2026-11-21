@@ -1,0 +1,65 @@
+name: Refresh class times
+
+# Re-imports lecture, discussion and lab times for every current or future term from
+# Berkeleytime and opens a pull request with whatever changed (new sections, moved rooms, a newly
+# published term). About 5,000 small requests per term at 3 per second, so roughly an hour per
+# term. Runs on the 1st and 15th of each month and on demand. Merging the pull request deploys.
+on:
+  schedule:
+    - cron: "41 10 1,15 * *"
+  workflow_dispatch:
+    inputs:
+      terms:
+        description: 'Terms to import, comma separated ("2027 Spring,2026 Fall"). Empty = every current or future term.'
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-schedule
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev,ml]"
+      - name: Import class times
+        env:
+          TERMS: ${{ inputs.terms }}
+        run: |
+          args=()
+          IFS=',' read -ra list <<< "$TERMS"
+          for t in "${list[@]}"; do
+            t="$(echo "$t" | xargs)"
+            [ -n "$t" ] && args+=(--term "$t")
+          done
+          python -m watcher import-schedule --out data/schedule --cache "$RUNNER_TEMP/schedule-cache" "${args[@]}"
+      - run: python -m pytest -q tests/test_schedule.py tests/test_schedule_data.py
+      - name: Open a pull request if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -N data/schedule
+          if git diff --quiet -- data/schedule; then
+            echo "Class times unchanged."
+            exit 0
+          fi
+          branch="data/schedule-refresh-$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/schedule
+          git commit -m "Refresh class times from Berkeleytime"
+          git push -u origin "$branch"
+          gh pr create --title "Refresh class times from Berkeleytime" \
+            --body "Automatic re-import of lecture, discussion and lab times (python -m watcher import-schedule). Check data/schedule/index.json for the class counts per term before merging." \
+            --base main --head "$branch"

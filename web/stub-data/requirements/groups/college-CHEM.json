@@ -1,0 +1,54 @@
+{
+  "id": "college-CHEM",
+  "title": "College of Chemistry requirements",
+  "kind": "college",
+  "source": "https://guide.berkeley.edu/undergraduate/colleges-schools/chemistry/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "reading-composition-a",
+      "title": "Reading & Composition A",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCA"
+        },
+        "count": 1
+      },
+      "notes": "First half of R&C (an R1A or R4A course), or an AP/IB exam score. Complete by the end of your first year."
+    },
+    {
+      "id": "reading-composition-b",
+      "title": "Reading & Composition B",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "RCB"
+        },
+        "count": 1
+      },
+      "notes": "Second half of R&C (an R1B or R4B course). Complete by the end of your second year."
+    },
+    {
+      "id": "humanities-social-sciences",
+      "title": "Humanities & Social Sciences breadth",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "attribute": "HSS"
+        },
+        "count": 3
+      },
+      "notes": "Stub: College of Chemistry requires additional humanities/social science courses beyond R&C (about 15 units including R&C). Exact counts vary by major."
+    },
+    {
+      "id": "senior-residence",
+      "title": "Senior residence",
+      "rule": {
+        "type": "manual",
+        "text": "Senior residence: after reaching 90 units, complete at least 24 of your remaining units over two semesters in residence in your college"
+      },
+      "notes": "Exceptions for UCEAP, UCDC, and other approved programs."
+    }
+  ]
+}

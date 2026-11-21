@@ -1,0 +1,164 @@
+{
+  "id": "major-physics-ba",
+  "title": "Physics BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/physics/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          }
+        ]
+      },
+      "notes": "MATH 51 replaced MATH 1A starting Fall 2025. AP Calculus AB/BC 3+ also satisfies."
+    },
+    {
+      "id": "calculus-2",
+      "title": "Calculus II",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 52"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1B"
+          }
+        ]
+      },
+      "notes": "MATH 52 replaced MATH 1B starting Fall 2025. AP Calculus BC 5 also satisfies."
+    },
+    {
+      "id": "multivariable-calculus",
+      "title": "Multivariable calculus",
+      "rule": {
+        "type": "course",
+        "course": "MATH 53"
+      }
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear algebra & differential equations",
+      "rule": {
+        "type": "course",
+        "course": "MATH 54"
+      }
+    },
+    {
+      "id": "intro-physics",
+      "title": "Introductory physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 7A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 7C"
+              }
+            ]
+          },
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "PHYSICS 5A"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5B"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5BL"
+              },
+              {
+                "type": "course",
+                "course": "PHYSICS 5C"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "math-physics",
+      "title": "Mathematical physics",
+      "rule": {
+        "type": "course",
+        "course": "PHYSICS 89"
+      }
+    },
+    {
+      "id": "physics-core",
+      "title": "Upper-division core",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PHYSICS 105"
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 110A"
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 112"
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 137A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lab",
+      "title": "Advanced lab",
+      "rule": {
+        "type": "course",
+        "course": "PHYSICS 111A"
+      }
+    },
+    {
+      "id": "physics-electives",
+      "title": "Physics electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "PHYSICS"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "major-rhetoric-ba",
+ "title": "Rhetoric BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25807U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25807U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25807U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "history-and-theory",
+     "title": "History and Theory"
+    },
+    {
+     "id": "public-discourse",
+     "title": "Public Discourse"
+    },
+    {
+     "id": "narrative-and-the-image",
+     "title": "Narrative and The Image"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Concentration\nStudents must complete one of the areas of concentration below.",
+  "Elective\nIn addition to completing 3 courses in one area of concentration, students must complete 2 upper-division electives from outside their chosen area of concentration (1 course from each of the other areas) and 1 upper-division course related to the chosen area of concentration, from another department. This course must be approved by the Faculty Undergraduate Advisor."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Lower Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "RHETOR 10"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 20"
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-2",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "RHETOR 103A"
+     },
+     {
+      "type": "course",
+      "course": "RHETOR 103B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-and-theory-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "History and Theory",
+   "choice": "concentration",
+   "option": "history-and-theory",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "RHETOR 104",
+      "RHETOR 105T",
+      "RHETOR 106",
+      "RHETOR 107",
+      "RHETOR 108",
+      "RHETOR 109",
+      "RHETOR 110",
+      "RHETOR 112",
+      "RHETOR 114",
+      "RHETOR 116",
+      "RHETOR 117",
+      "RHETOR 118",
+      "RHETOR 119AC"
+     ]
+    }
+   }
+  },
+  {
+   "id": "public-discourse-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Public Discourse",
+   "choice": "concentration",
+   "option": "public-discourse",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "RHETOR 150",
+      "RHETOR 151",
+      "RHETOR 152",
+      "RHETOR 152AC",
+      "RHETOR 153",
+      "RHETOR 155",
+      "RHETOR 156",
+      "RHETOR 157A",
+      "RHETOR 157B",
+      "RHETOR 158",
+      "RHETOR 159A",
+      "RHETOR 159B",
+      "RHETOR 160",
+      "RHETOR 162AC",
+      "RHETOR 164",
+      "RHETOR 165",
+      "RHETOR 166",
+      "RHETOR 167",
+      "RHETOR 168",
+      "RHETOR 171",
+      "RHETOR 172",
+      "RHETOR 176",
+      "RHETOR 182"
+     ]
+    }
+   }
+  },
+  {
+   "id": "narrative-and-the-image-concentration-courses",
+   "title": "Concentration Courses",
+   "section": "Narrative and The Image",
+   "choice": "concentration",
+   "option": "narrative-and-the-image",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "RHETOR 121",
+      "RHETOR 122",
+      "RHETOR 123",
+      "RHETOR 124",
+      "RHETOR 127",
+      "RHETOR 128T",
+      "RHETOR 129",
+      "RHETOR 129AC",
+      "RHETOR 137",
+      "RHETOR 131T",
+      "RHETOR 132T",
+      "RHETOR 133T",
+      "RHETOR 134",
+      "RHETOR 135T",
+      "RHETOR 136",
+      "RHETOR 137"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "major-english-ba",
+  "title": "English BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/english/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "survey",
+      "title": "Literature in English survey",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENGLISH 45A"
+          },
+          {
+            "type": "course",
+            "course": "ENGLISH 45B"
+          },
+          {
+            "type": "course",
+            "course": "ENGLISH 45C"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shakespeare",
+      "title": "Shakespeare",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "ENGLISH 117A"
+          },
+          {
+            "type": "course",
+            "course": "ENGLISH 117B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "junior-seminar",
+      "title": "Junior seminar",
+      "rule": {
+        "type": "course",
+        "course": "ENGLISH 100"
+      }
+    },
+    {
+      "id": "research-seminar",
+      "title": "Research seminar",
+      "rule": {
+        "type": "course",
+        "course": "ENGLISH 190"
+      }
+    },
+    {
+      "id": "ud-english",
+      "title": "Upper-division English electives",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "ENGLISH"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 5
+      },
+      "notes": "Stub: including period requirements (pre-1800, 1800-1900)."
+    }
+  ]
+}

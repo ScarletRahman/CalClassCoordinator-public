@@ -1,0 +1,237 @@
+{
+ "id": "minor-ethnic-studies",
+ "title": "Ethnic Studies minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I079U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25I079U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25I079U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "L&S General Guidelines\nGeneral Guidelines\n- All courses intended to fulfill major requirements must be taken for letter-graded credit, other than courses listed, which are offered on a Pass/No Pass basis only. Other exceptions to this requirement are noted as applicable.\n- No more than one upper-division course may be used to simultaneously fulfill requirements for a student's major and minor programs.\n- No more than two upper-division courses may be used to simultaneously fulfill requirements for a double major.\n- To maintain status in the major, a minimum grade point average of C (2.0) must be maintained in all work taken in the major.\n- Students are required to complete at least a C (2.00) average in all upper division (or graduate-level) courses that are used to complete requirements for the major."
+ ],
+ "requirements": [
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "notes": "- A maximum of 2 transfer courses is allowed\n- A maximum of 3 units is allowed for ETHSTD 180",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "ETHSTD 100"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 101B"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103A"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103C"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 103E"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 122AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 126"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 127"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 130"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 135"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 136"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 141"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 144AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 145"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 147AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 150"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 160AC"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL 160AC"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 173AC"
+       },
+       {
+        "type": "course",
+        "course": "NATAMST 173AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 174"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 175"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 176"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 180"
+       },
+       {
+        "type": "course",
+        "course": "ETHSTD N180"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 180L"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD 181AC"
+       },
+       {
+        "type": "course",
+        "course": "GWS 181AC"
+       },
+       {
+        "type": "course",
+        "course": "LEGALST 185AC"
+       },
+       {
+        "type": "course",
+        "course": "SOCWEL 185AC"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 182AC"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190"
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD 190AC"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD C126"
+       },
+       {
+        "type": "course",
+        "course": "QTP C148"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "ETHSTD C135A"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "ETHSTD C164A"
+       },
+       {
+        "type": "course",
+        "course": "PUBPOL C164A"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "subjects": [
+      "AFRICAM",
+      "ASAMST",
+      "CHICANO",
+      "GWS",
+      "NATAMST",
+      "QTP"
+     ],
+     "minNumber": 100,
+     "maxNumber": 190
+    }
+   }
+  }
+ ]
+}

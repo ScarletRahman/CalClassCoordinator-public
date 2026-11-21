@@ -1,0 +1,749 @@
+{
+ "_about": "Programs whose catalog page lists concentrations, emphases, tracks, specializations or pathways of which a student completes ONE. Read by scripts/build_requirements.py; names are matched against the catalog's block and rule names after whitespace is tidied. Each choice gives id, title (the student-facing noun) and pick, and says which requirements belong to which option in one or more of these ways: options[{title, blocks[name | {block, rules?, except?, section?, title?}], section?, empty?}] (explicit); blockRange[first,last] (every block in that range is one option, named after the block); blockPattern (regex on block names with a named group `option` and optionally `section`); rulesIn + rulePattern/skipRules/ruleTitle (each rule of one block is an option). A block listed under several options is repeated under each. The build fails if anything here matches nothing.",
+ "programs": {
+  "major-data-science-ba": {
+   "why": "The catalog says \"Domain Emphasis: Students can choose one of the following\" and lists the 28 blocks from Aerospace to Urban Science; each block holds that emphasis's lower and upper division courses.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/A50AMU",
+   "choices": [
+    {
+     "id": "domain-emphasis",
+     "title": "Domain Emphasis",
+     "pick": 1,
+     "blockRange": [
+      "Aerospace",
+      "Urban Science"
+     ]
+    }
+   ]
+  },
+  "minor-data-science": {
+   "why": "\"Students will complete either the DATA 100 Pathway or the Statistics Pathway for their Upper Division requirements.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/A5I172U",
+   "choices": [
+    {
+     "id": "pathway",
+     "title": "Upper Division Pathway",
+     "pick": 1,
+     "blockPattern": "^Upper Division: (?P<option>.+ Pathway)$",
+     "section": "Upper Division"
+    }
+   ]
+  },
+  "major-molecular-and-cell-biology-ba": {
+   "why": "\"Upper Division Requirements by Emphasis\": a student completes one emphasis, and inside most emphases one of two or three tracks. The catalog writes every emphasis/track pair as its own block, so each block is one option.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25974U",
+   "choices": [
+    {
+     "id": "emphasis",
+     "title": "Emphasis",
+     "pick": 1,
+     "blockRange": [
+      "Biochemistry, Biophysics & Structural Biology: Track 1",
+      "Neurobiology"
+     ]
+    }
+   ]
+  },
+  "major-earth-and-planetary-science-ba": {
+   "why": "\"one undergraduate major with 6 specializations ... Requirements for each specialization are listed below the core requirements.\" A second specialization is optional and needs department approval, so one is required.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/252A4U",
+   "choices": [
+    {
+     "id": "specialization",
+     "title": "Specialization",
+     "pick": 1,
+     "blockPattern": "^(?P<option>.+): (?P<section>Lower Division|Upper Division)$"
+    }
+   ]
+  },
+  "major-environmental-sciences-bs": {
+   "why": "\"Students in this major choose a concentration in biological, physical, or social sciences ... The specific requirements for each concentration are outlined below.\" Each concentration has its own lower division block and its own elective list.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/04351U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Biological Sciences",
+       "blocks": [
+        {
+         "block": "Lower Division Requirements: Biological Sciences Concentration",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Upper Division Electives by Concentration",
+         "rules": [
+          "Biological Sciences Concentration"
+         ],
+         "section": "Upper Division",
+         "title": "Concentration Elective"
+        }
+       ]
+      },
+      {
+       "title": "Physical Sciences",
+       "blocks": [
+        {
+         "block": "Lower Division Requirements: Physical Sciences Concentration",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Upper Division Electives by Concentration",
+         "rules": [
+          "Physical Sciences Concentration"
+         ],
+         "section": "Upper Division",
+         "title": "Concentration Elective"
+        }
+       ]
+      },
+      {
+       "title": "Social Sciences",
+       "blocks": [
+        {
+         "block": "Lower Division Requirements: Social Sciences Concentration",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Upper Division Electives by Concentration",
+         "rules": [
+          "Social Sciences Concentration"
+         ],
+         "section": "Upper Division",
+         "title": "Concentration Elective"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-chemical-engineering-bs": {
+   "why": "\"Students who do not choose a concentration must complete the following requirements for the open elective program.\" So the open elective program and the six concentrations are alternatives.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/10294U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Open Elective Program (no concentration)",
+       "blocks": [
+        "Open Elective Program"
+       ]
+      }
+     ],
+     "blockPattern": "^(?P<option>.+) Concentration$"
+    }
+   ]
+  },
+  "major-media-studies-ba": {
+   "why": "Three blocks named \"... Concentration\" followed by \"Upper Division Electives: All Concentrations\": a student completes one concentration.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/252A9U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "blockPattern": "^(?P<option>.+) Concentration$"
+    }
+   ]
+  },
+  "major-life-science-business-and-entrepreneurship-ba-bs": {
+   "why": "The program pairs the business requirements with one life science major (Integrative Biology, Molecular and Cell Biology, or Neuroscience), and inside it one emphasis/track. Flattened to one choice; the lower division block of a major is repeated under each of its emphases.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/*2570LSBE",
+   "choices": [
+    {
+     "id": "life-science-major",
+     "title": "Life Science Major and Emphasis",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Integrative Biology: Ecology, Evolution, and Organismal Biology",
+       "blocks": [
+        {
+         "block": "Integrative Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Integrative Biology - Ecology, Evolution, and Organismal Biology Emphasis",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Integrative Biology: Integrative Human Biology",
+       "blocks": [
+        {
+         "block": "Integrative Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Integrative Biology - Integrative Human Biology Emphasis",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Biochemistry, Biophysics & Structural Biology: Track 1",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Biochemistry, Biophysics & Structural Biology: Track 1",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Biochemistry, Biophysics & Structural Biology: Track 2",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Biochemistry, Biophysics & Structural Biology: Track 2",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Cell Biology, Development & Physiology: Track 1",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Cell Biology, Development & Physiology: Track 1",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Cell Biology, Development & Physiology: Track 2",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Cell Biology, Development & Physiology: Track 2",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Genetics, Genomics, Evolution & Development: Track 1",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Genetics, Genomics, Evolution & Development: Track 1",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Genetics, Genomics, Evolution & Development: Track 2",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Genetics, Genomics, Evolution & Development: Track 2",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Immunology and Molecular Medicine: Track 1",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Immunology and Molecular Medicine: Track 1",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Immunology and Molecular Medicine: Track 2",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Immunology and Molecular Medicine: Track 2",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Immunology and Molecular Medicine: Track 3",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Immunology and Molecular Medicine: Track 3",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Molecular Therapeutics: Track 1",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Molecular Therapeutics: Track 1",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Molecular Therapeutics: Track 2",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular and Cell Biology - Molecular Therapeutics: Track 2",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Molecular and Cell Biology: Neurobiology",
+       "blocks": [
+        {
+         "block": "Molecular and Cell Biology - Lower Division",
+         "section": "Lower Division"
+        },
+        {
+         "block": "Molecular Cell Biology - Neurobiology",
+         "section": "Upper Division"
+        }
+       ]
+      },
+      {
+       "title": "Neuroscience",
+       "blocks": [
+        {
+         "block": "Neuroscience - Lower Division and Upper Division",
+         "section": "Neuroscience"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-scandinavian-ba": {
+   "why": "Five blocks, one per language concentration (Danish, Finnish, Norwegian, Old Norse Studies, Swedish), each with its own lower and upper division.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25834U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "blockPattern": "^(?P<option>.+) Concentration$"
+    }
+   ]
+  },
+  "major-spanish-and-portuguese-ba": {
+   "why": "Four blocks named Concentration A to D; a student completes one.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25881U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "blockPattern": "^Concentration [A-D]: (?P<option>.+)$"
+    }
+   ]
+  },
+  "major-slavic-languages-and-literatures-ba": {
+   "why": "\"Students must complete one of the following three tracks.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25849U",
+   "choices": [
+    {
+     "id": "track",
+     "title": "Track",
+     "pick": 1,
+     "blockRange": [
+      "Russian, East European and Eurasian Cultures Track: Concentration in Armenian, BCS (Bosnian/Croatian/Serbian), Czech, Hungarian, Polish, or Ukrainian Language",
+      "Russian Language and Literature Track"
+     ]
+    }
+   ]
+  },
+  "major-middle-eastern-languages-and-cultures-ba": {
+   "why": "\"The major offers two Specializations\" (Middle Eastern Worlds; Languages and Literature), each with emphases; the catalog writes each specialization/emphasis pair as one block.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/*25MELC",
+   "choices": [
+    {
+     "id": "specialization",
+     "title": "Specialization and Emphasis",
+     "pick": 1,
+     "blockRange": [
+      "Middle Eastern Worlds: Ancient Worlds",
+      "Middle Eastern Languages and Literature: Persian"
+     ]
+    }
+   ]
+  },
+  "major-sociology-ba": {
+   "why": "The prerequisites block is for \"Sociology Major and Sociology Research Methods Concentration\"; the two upper division blocks are the plain major and the concentration, which replaces it.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25867U",
+   "choices": [
+    {
+     "id": "program",
+     "title": "Upper Division Program",
+     "pick": 1,
+     "blockPattern": "^Upper Division: (?P<option>.+)$",
+     "section": "Upper Division"
+    }
+   ]
+  },
+  "major-global-studies-ba": {
+   "why": "\"Lower Division: All Concentrations\" is followed by one block per concentration (Global Development, Global Peace & Conflict, Global Societies and Cultures).",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25492U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Global Development",
+       "blocks": [
+        "Global Development Concentration"
+       ]
+      },
+      {
+       "title": "Global Peace & Conflict",
+       "blocks": [
+        "Global Peace & Conflict Concentration"
+       ]
+      },
+      {
+       "title": "Global Societies and Cultures",
+       "blocks": [
+        "Global Societies and Cultures"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-integrative-biology-ba": {
+   "why": "Two upper division blocks, one per emphasis (the Life Science, Business, and Entrepreneurship page names the same two blocks \"Emphasis\").",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25975U",
+   "choices": [
+    {
+     "id": "emphasis",
+     "title": "Emphasis",
+     "pick": 1,
+     "blockPattern": "^Upper Division - (?P<option>.+)$",
+     "section": "Upper Division"
+    }
+   ]
+  },
+  "major-ecosystem-management-and-forestry-bs": {
+   "why": "\"Students in this major choose a specialization in Forestry or Natural Resource Management.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/*04EMF",
+   "choices": [
+    {
+     "id": "specialization",
+     "title": "Specialization",
+     "pick": 1,
+     "blockPattern": "^(?P<option>.+) Specialization$"
+    }
+   ]
+  },
+  "major-chemistry-bs": {
+   "why": "The 12 units of \"Chemistry & Allied Subjects (or one chosen concentration)\" can be replaced by the Computational Chemistry concentration; Materials Chemistry majors complete their block \"instead of the upper division requirements listed under the chemistry major\".",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/10153U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Chemistry & Allied Subjects (no concentration)",
+       "section": "Upper Division",
+       "blocks": [
+        {
+         "block": "Upper Division Requirements"
+        }
+       ]
+      },
+      {
+       "title": "Computational Chemistry",
+       "blocks": [
+        {
+         "block": "Upper Division Requirements",
+         "rules": [
+          "Chemistry Core",
+          "Physical Chemistry Laboratory Requirement",
+          "Synthetic Chemistry Laboratory Requirement"
+         ],
+         "section": "Upper Division"
+        },
+        {
+         "block": "Computational Chemistry Concentration (or Chemistry and Allied Subjects)",
+         "section": "Computational Chemistry Concentration"
+        }
+       ]
+      },
+      {
+       "title": "Materials Chemistry",
+       "blocks": [
+        {
+         "block": "Materials Chemistry Concentration"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-chemical-biology-bs": {
+   "why": "The last two blocks are named \"Chemistry & Allied Subjects (or the Computational Chemistry Concentration)\" and the reverse: one or the other.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/101A1U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Chemistry & Allied Subjects (no concentration)",
+       "blocks": [
+        "Chemistry & Allied Subjects (or the Computational Chemistry Concentration)"
+       ]
+      },
+      {
+       "title": "Computational Chemistry",
+       "blocks": [
+        "Computational Chemistry Concentration (or Chemistry & Allied Subjects)"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-mathematics-ba": {
+   "why": "\"The Mathematics BA Teaching Concentration includes the Lower Division Requirements listed above. The Core and Elective Requirements for the Teaching Concentration are listed below.\" So the concentration replaces the regular upper division core, semi-electives and electives.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25540U",
+   "choices": [
+    {
+     "id": "program",
+     "title": "Upper Division Program",
+     "pick": 1,
+     "options": [
+      {
+       "title": "Mathematics (no concentration)",
+       "blocks": [
+        "Upper Division Core",
+        "Semi-Electives",
+        "Electives"
+       ]
+      },
+      {
+       "title": "Teaching Concentration",
+       "blocks": [
+        "Teaching Concentration: Upper Division Core and Electives"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-mechanical-engineering-bs": {
+   "why": "\"Students may choose to complete the Aerospace Engineering concentration as part of their technical electives.\" Optional, so the first option has no requirements.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/16330U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "No concentration",
+       "empty": true
+      },
+      {
+       "title": "Aerospace Engineering",
+       "blocks": [
+        {
+         "block": "Aerospace Engineering Concentration",
+         "title": "Aerospace Technical Electives"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-business-administration-bs": {
+   "why": "The Global Management Program is a separate admission track; only its students complete the \"Global Management Program Concentration\" block.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/70141U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "options": [
+      {
+       "title": "No concentration",
+       "empty": true
+      },
+      {
+       "title": "Global Management Program",
+       "blocks": [
+        "Global Management Program Concentration"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "major-architecture-ba": {
+   "why": "Block \"Upper Division Tracks, Senior Year\": the Studio Track (ARCH 140/160 and design studios) or the Research Track (core and electives).",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/19084U",
+   "choices": [
+    {
+     "id": "track",
+     "title": "Senior Year Track",
+     "pick": 1,
+     "rulesIn": "Upper Division Tracks, Senior Year",
+     "rulePattern": "^(?P<option>Studio Track|Research Track)"
+    }
+   ]
+  },
+  "major-applied-mathematics-ba": {
+   "why": "\"All students must complete the core requirement and a cluster of 3 courses. Students will choose a cluster upon declaration of the major.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25072U",
+   "choices": [
+    {
+     "id": "cluster",
+     "title": "Cluster",
+     "pick": 1,
+     "rulesIn": "Clusters",
+     "rulePattern": "^(?P<option>.+?)(?: Cluster)?$",
+     "ruleTitle": "Cluster Courses"
+    }
+   ]
+  },
+  "major-rhetoric-ba": {
+   "why": "\"Students must complete one of the areas of concentration below.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25807U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "rulesIn": "Areas of Concentration",
+     "rulePattern": "^(?P<option>.+) Concentration$",
+     "ruleTitle": "Concentration Courses"
+    }
+   ]
+  },
+  "major-political-science-ba": {
+   "why": "\"Students must choose one subfield specialization to complete.\" The Specialization block lists a lower and an upper division rule for each of the five subfields.",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/25699U",
+   "choices": [
+    {
+     "id": "specialization",
+     "title": "Subfield Specialization",
+     "pick": 1,
+     "rulesIn": "Specialization",
+     "rulePattern": "^(?P<option>.+?):? (?P<section>Lower Division|Upper Division)$"
+    }
+   ]
+  },
+  "major-molecular-environmental-biology-bs": {
+   "why": "\"Students must complete 12 units in one concentration.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/04847U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Area of Concentration",
+     "pick": 1,
+     "rulesIn": "Concentrations",
+     "skipRules": [
+      "Area of Concentration"
+     ],
+     "ruleTitle": "Concentration Courses"
+    }
+   ]
+  },
+  "major-analytics-ba": {
+   "why": "\"Students must complete 3 courses, each with a letter grade, within one of the concentrations below.\"",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/253D2U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "rulesIn": "Upper Division Electives",
+     "skipRules": [
+      "Concentration Electives"
+     ],
+     "ruleTitle": "Concentration Electives"
+    }
+   ]
+  },
+  "major-microbial-biology-bs": {
+   "why": "\"Option 1: Choose a Concentration from below and select four courses from that concentration ... Option 2 (General Microbiology Concentration): Choose any four courses from any of the concentrations.\" The general option is written as a rule pooling the four lists (see overrides/major-microbial-biology-bs.json).",
+   "source": "https://undergraduate.catalog.berkeley.edu/programs/045A7U",
+   "choices": [
+    {
+     "id": "concentration",
+     "title": "Concentration",
+     "pick": 1,
+     "rulesIn": "Concentrations",
+     "skipRules": [
+      "Choose Option 1 or Option 2",
+      "General Microbiology"
+     ],
+     "ruleTitle": "Concentration Courses",
+     "options": [
+      {
+       "title": "General Microbiology",
+       "blocks": [
+        {
+         "block": "Concentrations",
+         "rules": [
+          "General Microbiology"
+         ],
+         "title": "Concentration Courses"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

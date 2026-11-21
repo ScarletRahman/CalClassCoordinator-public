@@ -1,0 +1,383 @@
+{
+ "id": "college-LS-haas-seven-course-breadth",
+ "title": "College of Letters & Science requirements (Seven Course Breadth)",
+ "kind": "college",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/dacFCYznXfFet1QCRxAU"
+ ],
+ "catalogYear": "2026-27",
+ "college": "LS",
+ "variantOf": "college-LS",
+ "requirements": [
+  {
+   "id": "reading-and-composition",
+   "title": "Reading and Composition",
+   "notes": "Guidelines for Reading and Composition Courses\nIn order to provide a solid foundation in reading, writing, and critical thinking for work in the major, the College requires two semesters of lower division work in composition—Reading and Composition (R&C), Parts A and B, in sequential order.\n- All undergraduates should complete the Reading and Composition (R&C) requirement by the end of their fourth semester.\n- All courses used to satisfy Part A or B of Reading and Composition must be completed with a letter grade of C- or better.\n- Students who have been admitted to Berkeley and have not completed Entry Level Writing must enroll in College Writing R1A (6 units), which satisfies both Entry Level Writing and the first half of R&C. Please note: A minimum grade of C is required in COLWRIT R1A in order to satisfy the Entry Level Writing Requirement.\n- AGRS R44 (completed with a C- or higher) may be used to satisfy either Part A or Part B of R&C. This course may also be used to satisfy Arts and Literature, Historical Studies, or Social & Behavioral Sciences breadth.\n- With the exception of AGRS R44, courses fulfilling the Reading and Composition requirement may not be applied to Seven-Course Breadth.\nSatisfying Reading and Composition with an Exam\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 4 satisfies Part A\n- Advanced Placement (AP) English Literature and Composition - Minimum Score of 5 satisfies Parts A & B\n- Advanced Placement (AP) English Language and Composition - Score of 4 or 5 satisfies Part A\n- International Baccalaureate (IB) Higher Level (HL) English A: Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- Beginning with students admitted in fall 2018 - International Baccalaureate (IB) Higher Level (HL) English A: Language and Literature* - Score of 5, 6, or 7 satisfies Parts A & B\n- GCE A-Level English Literature exam - Not accepted for this requirement\n* The IB Literature and Performance exam, as well as the Standard Level (SL) exams in English A: Literature and English A: Language and Literature are NOT eligible for satisfaction of Reading and Composition.\nSatisfying Reading and Composition with Berkeley Courses\n- Successful completion with a C- grade or better of two designated Reading and Composition courses in sequence order. Review all approved below.\nSatisfying Reading and Composition Requirement with Transfer Courses\n- Transfer courses must be taken on a letter-graded basis and be completed with a grade of C- or better.\n- Students admitted with full CalGETC/UC IGETC Certification from a California Community College (CCC) or UC Reciprocity to the colleges of Chemistry, Computing, Data Science & Society, Education, Environmental Design, Letters & Science, and Rausser Natural Resources, as well as the School of Education, have satisfied Reading and Composition. No additional coursework is required.\n- Students can complete an articulated (pre-approved) Reading and Composition course at a CCC. Pre-approved courses can be found on ASSIST.\n- Current pre-approved Reading and Composition courses from outside of the California Community College System are published on the Transfer Evaluation System website.\nIt is advisable to refer to individual college/school advising websites regarding use of transfer courses before enrolling elsewhere to complete degree requirements.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCA"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part A satisfied by exam or transfer course"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "filter",
+        "count": 1,
+        "filter": {
+         "attribute": "RCB"
+        }
+       },
+       {
+        "type": "manual",
+        "text": "R&C Part B satisfied by exam or transfer course"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "l-and-s-quantitative-reasoning",
+   "title": "L&S Quantitative Reasoning",
+   "notes": "Be sure to review the course descriptions and prerequisites in the catalog to ensure adequate preparation before enrolling. The Department of Mathematics also offers an online placement exam to help students choose between MATH 3, MATH 16A, and MATH 51.\nMost students who have not fulfilled this requirement prior to admission enroll in MATH 3 (Pre-Calculus), STAT 2 (Introduction to Statistics), or COMPSCI/INFO/STAT C8 (Foundations of Data Science).\nThose students prepared to complete an upper division (courses numbered 100-199) course in lieu of an approved lower-division course (courses numbered 1-99) should contact L&S advising (asklns@berkeley.edu) to confirm approval prior to enrollment. Only courses valued at 3 units or higher, and with a prerequisite of one of the approved lower-division courses, will be considered.",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI C8"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 10"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI W10"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 70"
+       },
+       {
+        "type": "course",
+        "course": "DATA C8"
+       },
+       {
+        "type": "course",
+        "course": "INFO C8"
+       },
+       {
+        "type": "course",
+        "course": "MATH 3"
+       },
+       {
+        "type": "course",
+        "course": "MATH 51"
+       },
+       {
+        "type": "course",
+        "course": "MATH 52"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10A"
+       },
+       {
+        "type": "course",
+        "course": "MATH N10A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 10B"
+       },
+       {
+        "type": "course",
+        "course": "MATH N10B"
+       },
+       {
+        "type": "course",
+        "course": "MATH 16A"
+       },
+       {
+        "type": "course",
+        "course": "MATH N16A"
+       },
+       {
+        "type": "course",
+        "course": "MATH 16B"
+       },
+       {
+        "type": "course",
+        "course": "MATH N32"
+       },
+       {
+        "type": "course",
+        "course": "MATH 53"
+       },
+       {
+        "type": "course",
+        "course": "MATH H53"
+       },
+       {
+        "type": "course",
+        "course": "MATH W53"
+       },
+       {
+        "type": "course",
+        "course": "MATH 54"
+       },
+       {
+        "type": "course",
+        "course": "MATH H54"
+       },
+       {
+        "type": "course",
+        "course": "MATH N54"
+       },
+       {
+        "type": "course",
+        "course": "MATH W54"
+       },
+       {
+        "type": "course",
+        "course": "MATH 55"
+       },
+       {
+        "type": "course",
+        "course": "MATH N55"
+       },
+       {
+        "type": "course",
+        "course": "MATH 56"
+       },
+       {
+        "type": "course",
+        "course": "MATH 74"
+       },
+       {
+        "type": "course",
+        "course": "STAT 2"
+       },
+       {
+        "type": "course",
+        "course": "STAT C8"
+       },
+       {
+        "type": "course",
+        "course": "STAT 20"
+       },
+       {
+        "type": "course",
+        "course": "STAT 21"
+       },
+       {
+        "type": "course",
+        "course": "STAT W21"
+       }
+      ]
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied by exam score or transfer course"
+     }
+    ]
+   }
+  },
+  {
+   "id": "l-and-s-language-requirement",
+   "title": "L&S Language Requirement",
+   "notes": "Guidelines for the Language Requirement\nThe Language Requirement may be satisfied by demonstrating proficiency in a language other than English equivalent to the second-semester college level. This requirement prepares students to engage more fully, upon graduation, with California and the wider world. L&S students have a unique opportunity to take advantage of the incredible depth and breadth of language instruction at UC Berkeley, which leads among institutions of higher education by offering classes in more than 50 languages.\nThe requirement may be satisfied by exam or by taking an approved course.\nSatisfying the Language Requirement with an Exam\n- SAT Subject Test, language other than English - Minimum Score: 590\n- Advanced Placement World Languages and Culture Exam - Score 3, 4, or 5 in:\nChinese Language and Culture\nFrench Language and Culture\nGerman Language and Culture\nItalian Language and Culture\nJapanese Language and Culture\nLatin\nSpanish Language and Culture\nSpanish Literature and Culture\n- International Baccalaureate Exam - Score 5, 6, or 7 in:\nLanguage (other than English) acquisition:\nB Standard Level (SL)\nB Higher Level (HL)\nStudies in language (other than English) and literature:\nA: literature Standard Level (HL)\nA: literature Higher Level (HL)\nA: language and literature Standard Level (SL)\nA: language and literature Higher Level (HL)\nAlso satisfied by:\n- GCE A-level or IGCSE/GCSE/GCE O-level exam in a language other than English - Score A, B, or C\n- Foreign Service Institute (FSI) or Defense Language Institute (DLI) exam - Score 1-5\nLanguage Proficiency Exams\nStudents may satisfy the Language requirement by successfully passing a Language Proficiency exam at UC Berkeley. If the language of interest is not taught at UC Berkeley, then students can pursue a proficiency exam outside of UC Berkeley administered by a qualified instructor who is trained in the teaching of the language.\nLanguage Proficiency Exams Offered at UC Berkeley\nCheck with the department that teaches your language of interest for information on proficiency exams. Berkeley language proficiency exams assess for proficiency through the second semester of instruction in a language other than English. After the college confirms the results, the students' Academic Progress Reports (APR) will reflect satisfaction of the requirement. APRs will be updated in mid-November for results received in Fall, and in mid-April for results received in Spring.\nLanguage Proficiency Exams Administered Outside of UC Berkeley\nThis option is only available if the language of interest is not taught at UC Berkeley. Students and outside assessors should refer to the L&S Language requirement website for further details.\nSatisfying the Language requirement with a Berkeley Course\nThere are two options for satisfying the Language requirement with Berkeley coursework:\n- Completion of a second semester or higher language other than English course with a letter grade of C- or higher. Review the list of approved language courses on the L&S Language Requirement website.\n- Completion of a pre-approved breadth course that is taught in a language other than English and requires an advanced language instruction course as a prerequisite. For this option, students may use the course to fulfill the Language requirement and one of the approved Seven-Course Breadth areas, provided the course is completed with a letter grade of C- or higher.\nSatisfying the Language requirement with a Transfer Course\nAll transfer courses pursued for the Language requirement must be completed with a letter grade of C- or higher.\n- Students admitted with IGETC Certification or UC Reciprocity have satisfied the Language requirement. No additional course work is required.\n- NOTE: CalGETC certification does not fulfill the Language requirement.\n- Students can complete a pre-approved course in a language other than English at a California Community College. Pre-approved courses can be found on ASSIST. … (see the catalog for the rest)",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "attribute": "FL"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Satisfied by high school coursework, exam, or demonstrated proficiency"
+     }
+    ]
+   }
+  },
+  {
+   "id": "l-and-s-seven-course-breadth",
+   "title": "L&S Seven-Course Breadth",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and provides context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nThe requirement consists of seven distribution areas: Arts and Literature, Biological Science, Historical Studies, International Studies, Philosophy and Values, Physical Science, and Social and Behavioral Sciences.\nFor descriptions of these distribution areas, as well as more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nGuidelines for Seven-Course Breadth\nComplete one approved course for each of the seven areas with a minimum grade of C- or P. To find course options for breadth, go to the Class Schedule, select the term of interest, and use the \"Breadth Requirements\" filter to select the breadth area(s) of interest. When selecting a course, keep the following in mind:\n- To satisfy the breadth requirement, complete seven distinct courses, one for each breadth area. Some courses may be listed in multiple breadth areas. These are options for which breadth areas the course can satisfy. A course may only be used for one of the approved breadth areas.\n- Seven-Course Breadth is fulfilled by taking 7 college courses. Exams, such as Advanced Placement and International Baccalaureate, cannot be used to fulfill breadth requirements.\n- Students may use up to two courses from any one academic department to satisfy the Seven-Course Breadth. This includes all subject areas offered by the department and—if a course is cross-listed (indicated by a 'C' prefix)—all other departments offering the course as well. Letters and Science (\"LS\") courses are an exception to this restriction. Students may complete as many LS courses as they wish for the Seven-Course Breadth. This includes LS courses offered through the Discovery and Big Ideas programs.\n- Courses fulfilling American History & Institutions, American Cultures. or requirements in the major program may also be applied to the Seven-Course Breadth requirement.\nSatisfying the Seven-Course Breadth Requirements with Transfer Work\n- Students admitted with IGETC Certification or UC Reciprocity have satisfied the Seven-Course Breadth Requirements. No additional coursework is required.\n- All transfer courses must be completed with a grade of C- or better, or the equivalent of a Passed grade on the host campus, in order to be considered for Seven-Course Breadth.\n- To be eligible for consideration, the minimum unit requirement for a course offered from a campus on the semester system is 3.0 units, and for courses offered from campuses on the quarter system, 4.0 units.\n- Students can complete pre-approved breadth courses at a California Community College. Pre-approved courses can be found on ASSIST. Refer to the L&S Transfer Credit page for instructions on how to take transfer credit as an L&S student before enrolling at a California Community College.\n- Successful completion of transferable courses from other higher education institutions (i.e., 2-year or 4-year campus in the U.S. or non-UCEAP courses from abroad) may also be considered. Course descriptions and syllabi will be required to make a breadth determination. For more information on pursuing transfer courses for Seven-Course Breadth at another higher education institution, review L&S’s Transfer Credit: Other Higher Education Institutions webpage.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "l-and-s-unit-requirements",
+   "title": "L&S Unit Requirements",
+   "notes": "- 120 total units\n- Of the 120 units, 36 must be upper division units\n- Of the 36 upper division units, 6 must be taken in courses offered outside your major department and 18 must be taken in residence",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "units",
+      "minUnits": 36,
+      "filter": {
+       "attribute": "UD"
+      }
+     },
+     {
+      "type": "manual",
+      "text": "Of the 36 upper division units, 6 are outside your major department and 18 are taken in residence"
+     }
+    ]
+   }
+  },
+  {
+   "id": "haas-seven-course-breadth",
+   "title": "Haas Seven Course Breadth",
+   "notes": "The undergraduate breadth requirements provide Berkeley students with a rich and varied educational experience outside of their major program. As the foundation of a liberal arts education, breadth courses give students a view into the intellectual life of the University while introducing them to a multitude of perspectives and approaches to research and scholarship. Engaging students in new disciplines and with peers from other majors, the breadth experience strengthens interdisciplinary connections and context that prepares Berkeley graduates to understand and solve the complex issues of their day.\nSeven Course Breadth Requirement\nStudents must successfully complete the seven course breadth sequence to earn a BS degree from the Haas School. Although breadth coursework is not required for admission, students are encouraged to spread breadth courses over 4 years.\n- Arts and Literature\n- Biological Science\n- Historical Studies\n- International Studies\n- Philosophy and Values\n- Physical Science\n- Social and Behavioral Sciences\nFor descriptions of these distribution areas, as well as a more information on options to complete breadth, visit the L&S Seven-Course Breadth webpage.\nHaas students should adhere to the 7-course breadth guidelines outlined on the College of Letters and Science website with the following exceptions:\n- Business courses cannot be used to fulfill breadth requirements.\n- Reading and Composition courses cannot be used to fulfill breadth requirements.\n- Microeconomics and macroeconomics at any level (Econ 1, Econ 2, Econ 3, Econ 100A/B, Econ 101A/B, IAS 106/107) cannot be used to fulfill breadth requirements.\n- No more than two courses from any one department may be used to satisfy the Seven Course Breadth requirement (L&S Discovery courses(opens in a new tab) are exempt).\nAdvanced Placement or International Baccalaureate credit will not satisfy the Seven Course Breadth requirement. A Level exams are accepted. Please contact a Haas Adviser to determine how your A Level exams can be applied to breadth requirements.\nBreadth courses may be taken at a California Community College. Please follow the most current Articulation Agreement between the community college and UC Berkeley for the business administration major. This information can be found at www.assist.org by selecting the community college followed by UC Berkeley then the business administration major.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Arts & Literature"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Biological Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Historical Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "International Studies"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Philosophy & Values"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Physical Science"
+      }
+     },
+     {
+      "type": "filter",
+      "count": 1,
+      "filter": {
+       "breadth": "Social & Behavioral Sciences"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "haas-academic-requirements",
+   "title": "Haas Academic Requirements",
+   "notes": "- A minimum of 120 units\n- Completion of degree in four or eight semesters, not including summer session",
+   "rule": {
+    "type": "manual",
+    "text": "Degree completed in four or eight semesters, not counting summer"
+   }
+  }
+ ]
+}

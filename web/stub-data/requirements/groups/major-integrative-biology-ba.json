@@ -1,0 +1,173 @@
+{
+  "id": "major-integrative-biology-ba",
+  "title": "Integrative Biology BA",
+  "kind": "major",
+  "source": "https://guide.berkeley.edu/undergraduate/degree-programs/integrative-biology/",
+  "stub": true,
+  "requirements": [
+    {
+      "id": "biology",
+      "title": "General biology",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "BIOLOGY 1A"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1AL"
+          },
+          {
+            "type": "course",
+            "course": "BIOLOGY 1B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-chemistry",
+      "title": "General chemistry",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "allOf",
+            "rules": [
+              {
+                "type": "course",
+                "course": "CHEM 1A"
+              },
+              {
+                "type": "course",
+                "course": "CHEM 1AL"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "course": "CHEM 4A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic chemistry",
+      "rule": {
+        "type": "allOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "CHEM 3A"
+          },
+          {
+            "type": "course",
+            "course": "CHEM 3AL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "calculus-1",
+      "title": "Calculus I",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "MATH 51"
+          },
+          {
+            "type": "course",
+            "course": "MATH 1A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10A"
+          },
+          {
+            "type": "course",
+            "course": "MATH 16A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "STAT 2"
+          },
+          {
+            "type": "course",
+            "course": "STAT 20"
+          },
+          {
+            "type": "course",
+            "course": "DATA C8"
+          },
+          {
+            "type": "course",
+            "course": "MATH 10B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "PHYSICS 8A"
+          },
+          {
+            "type": "course",
+            "course": "PHYSICS 7A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evolution",
+      "title": "Evolution",
+      "rule": {
+        "type": "anyOf",
+        "rules": [
+          {
+            "type": "course",
+            "course": "INTEGBI 160"
+          },
+          {
+            "type": "course",
+            "course": "INTEGBI 161"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ib-ud",
+      "title": "Upper-division IB courses",
+      "rule": {
+        "type": "filter",
+        "filter": {
+          "subjects": [
+            "INTEGBI"
+          ],
+          "minNumber": 100,
+          "maxNumber": 199
+        },
+        "count": 5
+      },
+      "notes": "Stub: courses distributed across an emphasis (Human Biology & Health, Ecology & Evolution, Organismal Biology), including lab/field courses."
+    }
+  ]
+}

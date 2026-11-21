@@ -1,0 +1,27 @@
+[project]
+name = "calclasscoordinator"
+version = "0.1.0"
+description = "Berkeley seat alert watcher and class planner"
+requires-python = ">=3.11"
+dependencies = [
+  "requests>=2.31",
+  "beautifulsoup4>=4.12",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+desktop = ["plyer>=2.1"]
+discord = ["websocket-client>=1.6"]
+# Server/container install: `pip install ".[prod]"` (the Discord bot in `python -m watcher prod`).
+prod = ["websocket-client>=1.6"]
+dev = ["pytest>=8"]
+ml = ["pandas>=2.2", "numpy>=1.26", "scikit-learn>=1.5", "joblib>=1.3"]
+
+[project.scripts]
+berkeley-watcher = "watcher.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["watcher*", "ml*", "insights*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

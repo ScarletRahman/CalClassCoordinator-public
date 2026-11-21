@@ -1,0 +1,20 @@
+{
+ "why": "\"Select two courses from the following lists: A, B, and C. Only one course can count from each list. A total of two MATH courses is required.\" The three lists are listed as three required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25975U"
+ ],
+ "merge": [
+  {
+   "block": "Lower Division",
+   "title": "Mathematics",
+   "type": "nOf",
+   "n": 2,
+   "rules": [
+    "Math List A",
+    "Math List B",
+    "Math List C"
+   ],
+   "notes": "Select two courses from lists A, B and C. Only one course can count from each list."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "major-film-and-media-ba",
+ "title": "Film and Media BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25379U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25379U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25379U",
+ "requirements": [
+  {
+   "id": "history-of-film-core",
+   "title": "History of Film Core",
+   "section": "Lower Division",
+   "notes": "In order to declare in Film, students must complete Film 10 or 20 with a C or higher.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "FILM 10"
+     },
+     {
+      "type": "course",
+      "course": "FILM 20"
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-of-film-elective",
+   "title": "History of Film Elective",
+   "section": "Lower Division",
+   "notes": "No P grades allowed",
+   "rule": {
+    "type": "course",
+    "course": "FILM 30"
+   }
+  },
+  {
+   "id": "theory",
+   "title": "Theory",
+   "section": "Upper Division",
+   "notes": "Minimum grade of C- is required.",
+   "rule": {
+    "type": "filter",
+    "count": 3,
+    "filter": {
+     "courses": [
+      "FILM 125",
+      "FILM 135",
+      "FILM 145",
+      "FILM 155"
+     ]
+    }
+   }
+  },
+  {
+   "id": "electives",
+   "title": "Electives",
+   "section": "Electives",
+   "notes": "The full text is on the catalog page.",
+   "rule": {
+    "type": "manual",
+    "text": "Up to two courses may be taken outside of the department, including courses transferred from a prior institution, pre-approved extra-departmental electives, and study abroad courses. Contact the Film & Media advisor for approval.\nNote that students may take any of FILM 125, 135, 145, or 155 more than once, with any subsequent course counting as an upper division elective as long as the course topic has\nchanged.\nNo more than 4 units from each of the following courses are allowed: FILM 197A, 197B, and 197C\nA minimum grade of C- is required.\nComplete at least 4 of … (see the catalog for the rest)",
+    "mentionedCourses": [
+     "FILM 125",
+     "FILM 135",
+     "FILM 145",
+     "FILM 155",
+     "FILM 197A",
+     "FILM 197B",
+     "FILM 197C",
+     "FILM 100",
+     "GERMAN 186",
+     "KOREAN 186",
+     "PHILOS 7",
+     "SOCIOL 167"
+    ]
+   }
+  }
+ ]
+}

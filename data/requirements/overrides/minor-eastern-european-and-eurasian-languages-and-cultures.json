@@ -1,0 +1,24 @@
+{
+ "why": "\"Students must complete one of the six language sequences, plus electives.\" The six sequences are listed as six required rows.",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25I036U"
+ ],
+ "merge": [
+  {
+   "block": "Upper Division",
+   "title": "Language Sequence",
+   "type": "anyOf",
+   "notesFrom": [
+    "Languages"
+   ],
+   "rules": [
+    "Polish",
+    "Czech",
+    "Armenian",
+    "Hungarian",
+    "Bosnian, Croatian and Serbian",
+    "Ukrainian"
+   ]
+  }
+ ]
+}

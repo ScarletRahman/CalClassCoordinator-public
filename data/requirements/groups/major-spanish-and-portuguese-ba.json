@@ -1,0 +1,728 @@
+{
+ "id": "major-spanish-and-portuguese-ba",
+ "title": "Spanish and Portuguese BA",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/25881U",
+  "https://undergraduate.catalog.berkeley.edu/programs/25881U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "25881U",
+ "choices": [
+  {
+   "id": "concentration",
+   "title": "Concentration",
+   "pick": 1,
+   "options": [
+    {
+     "id": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world",
+     "title": "The Languages, Literatures, and Cultures of the Spanish-Speaking World"
+    },
+    {
+     "id": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world",
+     "title": "The Languages, Literatures, and Cultures of the Portuguese-Speaking World"
+    },
+    {
+     "id": "latin-american-languages-literatures-and-cultures",
+     "title": "Latin American Languages, Literatures, and Cultures"
+    },
+    {
+     "id": "hispanic-linguistics",
+     "title": "Hispanic Linguistics"
+    }
+   ]
+  }
+ ],
+ "requirements": [
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world-spanish-language",
+   "title": "Spanish Language",
+   "section": "The Languages, Literatures, and Cultures of the Spanish-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world",
+   "rule": {
+    "type": "course",
+    "course": "SPANISH 25"
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world-spanish-and-spanish-a",
+   "title": "Spanish and Spanish American Literature: Parts 1 and 2",
+   "section": "The Languages, Literatures, and Cultures of the Spanish-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SPANISH 104A"
+       },
+       {
+        "type": "course",
+        "course": "SPANISH 107A"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SPANISH 104B"
+       },
+       {
+        "type": "course",
+        "course": "SPANISH 107B"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world-hispanic-literature",
+   "title": "Hispanic Literature",
+   "section": "The Languages, Literatures, and Cultures of the Spanish-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world",
+   "rule": {
+    "type": "course",
+    "course": "SPANISH 102A"
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world-literature-and-cultur",
+   "title": "Literature and Culture Electives",
+   "section": "The Languages, Literatures, and Cultures of the Spanish-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SPANISH 104A",
+      "SPANISH 104B",
+      "SPANISH 107A",
+      "SPANISH 107B",
+      "SPANISH 109A",
+      "SPANISH 109B",
+      "SPANISH 109B",
+      "SPANISH 111A",
+      "SPANISH 111B",
+      "SPANISH 112",
+      "SPANISH 115",
+      "SPANISH 121",
+      "SPANISH 122",
+      "SPANISH 123",
+      "SPANISH 131",
+      "SPANISH 135"
+     ]
+    }
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world-electives",
+   "title": "Electives",
+   "section": "The Languages, Literatures, and Cultures of the Spanish-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-spanish-speaking-world",
+   "rule": {
+    "type": "manual",
+    "text": "Complete at least 3 of:\n- CATALAN 101\n- CATALAN 102\n- PORTUG 102\n- PORTUG 103\n- PORTUG 104\n- PORTUG 113\n- PORTUG 115\n- PORTUG 128\n- PORTUG 135\n- SPANISH 100*\n- SPANISH 101\n- SPANISH 102A\n- SPANISH N102C\n- SPANISH 104A\n- SPANISH 104B\n- SPANISH 107A\n- SPANISH 107B\n- SPANISH 109A\n- SPANISH 109B\n- SPANISH 111A\n- SPANISH 111B\n- SPANISH 115\n- SPANISH 121\n- SPANISH 122\n- SPANISH 123\n- SPANISH 131\n- SPANISH 135\n- SPANISH 135AC\n- SPANISH 161\n- SPANISH 162\n- SPANISH 163\n- SPANISH 164\n- SPANISH 166\n- SPANISH 179\n*SPANISH 100 is recommended",
+    "mentionedCourses": [
+     "CATALAN 101",
+     "CATALAN 102",
+     "PORTUG 102",
+     "PORTUG 103",
+     "PORTUG 104",
+     "PORTUG 113",
+     "PORTUG 115",
+     "PORTUG 128",
+     "PORTUG 135",
+     "SPANISH 100",
+     "SPANISH 101",
+     "SPANISH 102A",
+     "SPANISH N102C",
+     "SPANISH 104A",
+     "SPANISH 104B",
+     "SPANISH 107A",
+     "SPANISH 107B",
+     "SPANISH 109A",
+     "SPANISH 109B",
+     "SPANISH 111A",
+     "SPANISH 111B",
+     "SPANISH 115",
+     "SPANISH 121",
+     "SPANISH 122",
+     "SPANISH 123",
+     "SPANISH 131",
+     "SPANISH 135",
+     "SPANISH 135AC",
+     "SPANISH 161",
+     "SPANISH 162",
+     "SPANISH 163",
+     "SPANISH 164",
+     "SPANISH 166",
+     "SPANISH 179"
+    ]
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world-portuguese-languag",
+   "title": "Portuguese Language",
+   "section": "The Languages, Literatures, and Cultures of the Portuguese-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world",
+   "rule": {
+    "type": "course",
+    "course": "PORTUG 50"
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world-core",
+   "title": "Core",
+   "section": "The Languages, Literatures, and Cultures of the Portuguese-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PORTUG 102"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 103"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 104"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world-electives",
+   "title": "Electives",
+   "section": "The Languages, Literatures, and Cultures of the Portuguese-Speaking World",
+   "choice": "concentration",
+   "option": "the-languages-literatures-and-cultures-of-the-portuguese-speaking-world",
+   "notes": "At least two courses must be on Portuguese/Brazilian topics. No more than two courses may be on Spanish or Spanish-American Literature/Culture. A maximum of one course may cover a related topic, such as Hispanic Linguistics or Advanced Composition.",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PORTUG 107"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 113"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 115"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 128"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 135"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 275"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 100"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 101"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 10"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 102C"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 104A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 104B"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 107A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 107B"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 109"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 111A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 111B"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 112"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 113"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 121"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 122"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 131"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 135"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 142"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 161"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 162"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 163"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 164"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 166"
+     }
+    ]
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-spanish-language",
+   "title": "Spanish Language",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "course",
+    "course": "SPANISH 25"
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-portuguese-language",
+   "title": "Portuguese Language",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "course",
+    "course": "PORTUG 50"
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-advanced-portuguese",
+   "title": "Advanced Portuguese",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "course",
+    "course": "PORTUG 103"
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-brazilian-literature",
+   "title": "Brazilian Literature",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "PORTUG 104"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 128"
+     }
+    ]
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-spanish-and-spanish-american-literature",
+   "title": "Spanish and Spanish American Literature",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SPANISH 104A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 104B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-advanced-spanish",
+   "title": "Advanced Spanish",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "course",
+    "course": "SPANISH 102A"
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-literature-and-culture-electives",
+   "title": "Literature and Culture Electives",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "PORTUG 104",
+      "PORTUG 107",
+      "PORTUG 113",
+      "PORTUG 115",
+      "PORTUG 128",
+      "PORTUG 135",
+      "SPANISH 104A",
+      "SPANISH 104B",
+      "SPANISH 107A",
+      "SPANISH 107B",
+      "SPANISH 109",
+      "SPANISH 111A",
+      "SPANISH 111B",
+      "SPANISH 112",
+      "SPANISH 113",
+      "SPANISH 115",
+      "SPANISH 121",
+      "SPANISH 122",
+      "SPANISH 131",
+      "SPANISH 135"
+     ]
+    }
+   }
+  },
+  {
+   "id": "latin-american-languages-literatures-and-cultures-spanish-and-portuguese-electives",
+   "title": "Spanish & Portuguese Electives",
+   "section": "Latin American Languages, Literatures, and Cultures",
+   "choice": "concentration",
+   "option": "latin-american-languages-literatures-and-cultures",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SPANISH 111A",
+      "SPANISH 111B",
+      "SPANISH 112",
+      "SPANISH 113",
+      "SPANISH 115",
+      "SPANISH 121",
+      "SPANISH 122",
+      "SPANISH 123",
+      "SPANISH 131",
+      "SPANISH 135",
+      "SPANISH 161",
+      "SPANISH 162",
+      "SPANISH 163",
+      "SPANISH 164"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hispanic-linguistics-spanish-language",
+   "title": "Spanish Language",
+   "section": "Hispanic Linguistics",
+   "choice": "concentration",
+   "option": "hispanic-linguistics",
+   "rule": {
+    "type": "course",
+    "course": "SPANISH 25"
+   }
+  },
+  {
+   "id": "hispanic-linguistics-core-1",
+   "title": "Core 1",
+   "section": "Hispanic Linguistics",
+   "choice": "concentration",
+   "option": "hispanic-linguistics",
+   "rule": {
+    "type": "course",
+    "course": "SPANISH 100"
+   }
+  },
+  {
+   "id": "hispanic-linguistics-core-2",
+   "title": "Core 2",
+   "section": "Hispanic Linguistics",
+   "choice": "concentration",
+   "option": "hispanic-linguistics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SPANISH 161"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 162"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hispanic-linguistics-core-3",
+   "title": "Core 3",
+   "section": "Hispanic Linguistics",
+   "choice": "concentration",
+   "option": "hispanic-linguistics",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "SPANISH 163"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 164"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hispanic-linguistics-hispanic-linguistics-electives",
+   "title": "Hispanic Linguistics Electives",
+   "section": "Hispanic Linguistics",
+   "choice": "concentration",
+   "option": "hispanic-linguistics",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "SPANISH 101",
+      "SPANISH 161",
+      "SPANISH 162",
+      "SPANISH 163",
+      "SPANISH 164",
+      "SPANISH 165",
+      "SPANISH 166",
+      "SPANISH 179"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hispanic-linguistics-spanish-portuguese-catalan-topics-electives",
+   "title": "Spanish, Portuguese, Catalan Topics Electives",
+   "section": "Hispanic Linguistics",
+   "choice": "concentration",
+   "option": "hispanic-linguistics",
+   "rule": {
+    "type": "nOf",
+    "n": 3,
+    "rules": [
+     {
+      "type": "course",
+      "course": "CATALAN 101"
+     },
+     {
+      "type": "course",
+      "course": "CATALAN 102"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 102"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 103"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 104"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 113"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 115"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 128"
+     },
+     {
+      "type": "course",
+      "course": "PORTUG 135"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 100"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 101"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "SPANISH 102A"
+       },
+       {
+        "type": "course",
+        "course": "SPANISH N102C"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 104A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 104B"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 107A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 107B"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 109A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 109B"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 111A"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 115"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 121"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 122"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 123"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 131"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 135"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 135AC"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 142"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 161"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 162"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 163"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 164"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 166"
+     },
+     {
+      "type": "course",
+      "course": "SPANISH 179"
+     }
+    ]
+   }
+  }
+ ]
+}

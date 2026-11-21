@@ -1,0 +1,120 @@
+{
+ "id": "minor-statistics",
+ "title": "Statistics minor",
+ "kind": "minor",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/A5I173U",
+  "https://undergraduate.catalog.berkeley.edu/programs/A5I173U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "A5I173U",
+ "notes": [
+  "University Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "College Requirements are assigned as part of your major degree program. There are no additional requirements for completing a minor.",
+  "General Guidelines\n- All minors must be declared before the first day of instruction of their Expected Graduation Term (EGT).\n- All courses taken to fulfill the minor requirements below must be taken for graded credit.\n- A minimum of three of the upper division courses taken to fulfill the minor requirements must be completed at UC Berkeley.\n- A minimum grade point average (GPA) of 2.0 is required for courses used to fulfill the minor requirements.\n- Courses used to fulfill the minor requirements may be applied toward the Seven-Course Breadth requirements.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student's major and minor programs."
+ ],
+ "requirements": [
+  {
+   "id": "concepts-of-probability",
+   "title": "Concepts of Probability",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "STAT 134"
+     },
+     {
+      "type": "course",
+      "course": "DATA C140"
+     },
+     {
+      "type": "course",
+      "course": "MATH 106"
+     },
+     {
+      "type": "course",
+      "course": "EECS 126"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concepts-of-statistics",
+   "title": "Concepts of Statistics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "course",
+    "course": "STAT 135"
+   }
+  },
+  {
+   "id": "electives-with-lab",
+   "title": "Electives with Lab",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "DATA C102"
+     },
+     {
+      "type": "course",
+      "course": "STAT 151A"
+     },
+     {
+      "type": "course",
+      "course": "STAT 152"
+     },
+     {
+      "type": "course",
+      "course": "STAT 153"
+     },
+     {
+      "type": "course",
+      "course": "STAT 154"
+     },
+     {
+      "type": "course",
+      "course": "STAT 156"
+     },
+     {
+      "type": "course",
+      "course": "STAT 158"
+     },
+     {
+      "type": "course",
+      "course": "STAT 159"
+     }
+    ]
+   }
+  },
+  {
+   "id": "electives-with-or-without-lab",
+   "title": "Electives with or without Lab",
+   "section": "Upper Division",
+   "rule": {
+    "type": "filter",
+    "count": 2,
+    "filter": {
+     "courses": [
+      "DATA C102",
+      "STAT 150",
+      "STAT 151A",
+      "STAT 152",
+      "STAT 152",
+      "STAT 153",
+      "STAT 154",
+      "STAT 155",
+      "STAT 156",
+      "STAT 157",
+      "STAT 159",
+      "STAT 165"
+     ]
+    }
+   }
+  }
+ ]
+}

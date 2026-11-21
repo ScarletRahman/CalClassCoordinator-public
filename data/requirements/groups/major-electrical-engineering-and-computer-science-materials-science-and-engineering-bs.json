@@ -1,0 +1,417 @@
+{
+ "id": "major-electrical-engineering-and-computer-science-materials-science-and-engineering-bs",
+ "title": "Electrical Engineering and Computer Science/Materials Science and Engineering BS",
+ "kind": "major",
+ "programType": "major",
+ "source": [
+  "https://undergraduate.catalog.berkeley.edu/programs/162B6U",
+  "https://undergraduate.catalog.berkeley.edu/programs/162B6U/requirements-ZFjjs"
+ ],
+ "catalogYear": "2026-27",
+ "catalogCode": "162B6U",
+ "notes": [
+  "General Guidelines\n- All courses taken in satisfaction of major requirements must be taken for a letter grade.\n- No more than one upper division course may be used to simultaneously fulfill requirements for a student’s major and minor programs.\n- A minimum overall grade point average (GPA) of 2.0 is required for all work undertaken at UC Berkeley.\n- A minimum GPA of 2.0 is required for all technical courses taken in satisfaction of major requirements.\n- Students cannot double-count major requirements."
+ ],
+ "requirements": [
+  {
+   "id": "mathematics",
+   "title": "Mathematics",
+   "section": "Major Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATH 51"
+     },
+     {
+      "type": "course",
+      "course": "MATH 52"
+     },
+     {
+      "type": "course",
+      "course": "MATH 53"
+     },
+     {
+      "type": "course",
+      "course": "MATH 54"
+     }
+    ]
+   }
+  },
+  {
+   "id": "physics",
+   "title": "Physics",
+   "section": "Major Requirements",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7C"
+       }
+      ],
+      "label": "Option 1"
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "PHYSICS 5A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 7A"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5B"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5BL"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5C"
+       },
+       {
+        "type": "course",
+        "course": "PHYSICS 5CL"
+       }
+      ],
+      "label": "Option 2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "section": "Major Requirements",
+   "rule": {
+    "type": "manual",
+    "text": "Please select your courses from the following options:\nCHEM 1A – General Chemistry and CHEM 1AL – General Chemistry Laboratory\nOR\nCHEM 4A – General Chemistry and Quantitative Analysis",
+    "mentionedCourses": [
+     "CHEM 1A",
+     "CHEM 1AL",
+     "CHEM 4A"
+    ]
+   }
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "section": "Major Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 66"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 45"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 45L"
+     }
+    ]
+   }
+  },
+  {
+   "id": "computer-science",
+   "title": "Computer Science",
+   "section": "Major Requirements",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61A"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN 7"
+       },
+       {
+        "type": "course",
+        "course": "ENGIN W7"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61B"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61BL"
+       }
+      ]
+     },
+     {
+      "type": "anyOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "COMPSCI 61C"
+       },
+       {
+        "type": "course",
+        "course": "COMPSCI 61CL"
+       },
+       {
+        "type": "course",
+        "course": "ELENG 64"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "core",
+   "title": "Core",
+   "section": "Upper Division",
+   "rule": {
+    "type": "allOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 105"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 117"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 102"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 103"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "MATSCI 104"
+       },
+       {
+        "type": "course",
+        "course": "MATSCI 104L"
+       }
+      ]
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 131"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 137A"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 141A"
+     }
+    ]
+   }
+  },
+  {
+   "id": "thermodynamics",
+   "title": "Thermodynamics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ENGIN 40"
+     },
+     {
+      "type": "course",
+      "course": "PHYSICS 112"
+     }
+    ]
+   }
+  },
+  {
+   "id": "semiconductors",
+   "title": "Semiconductors",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 130"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuits",
+   "title": "Circuits",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 140"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS 151"
+       },
+       {
+        "type": "course",
+        "course": "EECS 151LA"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS 151"
+       },
+       {
+        "type": "course",
+        "course": "EECS 151LB"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistics",
+   "title": "Statistics",
+   "section": "Upper Division",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "EECS 126"
+     },
+     {
+      "type": "course",
+      "course": "STAT 134"
+     }
+    ]
+   }
+  },
+  {
+   "id": "materials-science-elective",
+   "title": "Materials Science Elective",
+   "section": "Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "MATSCI 120"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 121"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 122"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 123"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 125"
+     },
+     {
+      "type": "course",
+      "course": "MATSCI 127"
+     }
+    ]
+   }
+  },
+  {
+   "id": "technical-elective",
+   "title": "Technical Elective",
+   "section": "Electives",
+   "rule": {
+    "type": "anyOf",
+    "rules": [
+     {
+      "type": "course",
+      "course": "ELENG 118"
+     },
+     {
+      "type": "course",
+      "course": "ELENG 143"
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS 151"
+       },
+       {
+        "type": "course",
+        "course": "EECS 151LA"
+       }
+      ]
+     },
+     {
+      "type": "allOf",
+      "rules": [
+       {
+        "type": "course",
+        "course": "EECS 151"
+       },
+       {
+        "type": "course",
+        "course": "EECS 151LB"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
